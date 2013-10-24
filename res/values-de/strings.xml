@@ -170,7 +170,7 @@
     <string name="how_to_title">Hilfe</string>
     <string name="first_run_title">Willkommen bei %s</string>
     <string name="first_run_message">Chronus ist ein Widget und muss als solches vor der Verwendung entweder zum Startbildschirm (Android 4.1+)
-        oder zur Bildschirmsperre (nur unter Android 4.2+) mit Hilfe der Widgetauswahl des Launchers hinzugefügt werden.\n\nSobald das Widget
+        oder zur Bildschirmsperre (nur unter Android 4.2+) mithilfe der Widgetauswahl des Launchers hinzugefügt werden.\n\nSobald das Widget
         platziert wurde, kann diese App dazu verwendet werden, um das Widget zu konfigurieren - sie kann allerdings keine Widgets automatisch
         zum Startbildschirm oder zur Bildschirmsperre hinzufügen.\n\nVergessen Sie nicht, die Größe des Widgets anzupassen, um ausreichend Platz
         für die aktivierten Funktionen (Uhr, Wetter und Kalender) zu schaffen, da das Widget Funktionen automatisch ausblendet, wenn es zu klein
@@ -181,10 +181,10 @@
         Widgets (+). Widgets in der Bildschirmsperre können umsortiert oder gelöscht werden, indem sie lange gedrückt und dann auf eine andere
         Bildschirmseite oder das Papierkorbsymbol verschoben werden.</string>
     <string name="credits_title">Danksagungen</string>
-    <string name="credits_summary">Auch wenn ich maßgebliche Teile von Chronus entwickelt habe, geht mein Dank an Danny Baumann für seine
-        Arbeit an den Wetter- und Bezahldiensten sowie Codebegutachtung und Codeverbesserungen, an die Übersetzer in der CyanogenMod-Community
-        für ihre Arbeit an den Übersetzungen für die vielen unterstützten Sprachen, sowie an andere Mitwirkende wie Nicolai Ehemann und
-        Matt Booth für ihre Beiträge.</string>
+    <string name="credits_summary">Auch wenn ich maßgebliche Teile von Chronus entwickelt habe, geht mein Dank an Danny Baumann für seine 
+        Arbeit an den Wetter-Aktualisierungsdiensten sowie allgemeine Codeverbesserungen, an die Übersetzer der CyanogenMod-Community 
+        für ihre Arbeit an den Übersetzungen der vielen unterstützten Sprachen, sowie an andere 
+        Mitwirkende wie Nicolai Ehemann und Matt Booth für ihre Beiträge.</string>
     <string name="contact_title">Autor kontaktieren</string>
     <string name="send_email">E-Mail schreiben\u2026</string>
     <string name="pro_features_summary">Berühren, um Pro-Funktionen zu aktivieren</string>

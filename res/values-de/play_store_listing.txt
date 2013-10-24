@@ -1,10 +1,9 @@
-Willkommen bei Chronus, einem eleganten Startbildschirm und Bildschirmsperren-Widget, mit Wetter- und Kalenderfunktion.
+Willkommen bei Chronus, einem eleganten Startbildschirm- und Bildschirmsperren-Widget, mit Wetter- und Kalenderfunktion.
 
-Mit allen Funktionen des CyanogenMod cLock-Widgets und vom selben Entwickler, bringt dieses unabhängig und unter dem originalen 
-Namen (Chronus) veröffentlichte Widget, das selbe elegante Ausshen und die einfache Bedienung zur kompletten Android-Community.
+Funktionsgleich mit dem cLock-Widget von CyanogenMod wird diese App vom selben Entwickler unter dem ursprünglichen Namen (Chronus) als separate App veröffentlicht. Chronus macht das elegante Aussehen und die Funktionen des cLock-Widgets nun für die gesamte Android-Community verfügbar.
 
 <b>Bitte beachten:</b>
-1. Bildschirmsperren-Widgets werden erst ab Android 4.2 unterstützt. Dies ist eine Limitierung von Android, nicht Chronus
+1. Bildschirmsperren-Widgets werden erst ab Android 4.2 unterstützt. Dies ist eine Limitierung von Android, nicht von Chronus
 2. Manche Geräte müssen nach der Installation neu gestartet werden, damit Chronus in der Widget-Auswahl erscheint
 3. WidgetLocker wird nicht unterstützt
 
@@ -13,27 +12,27 @@ Namen (Chronus) veröffentlichte Widget, das selbe elegante Ausshen und die einf
   - Auswählbare Hintergrundfarbe
   - Ausrichtung der digitalen Uhr wählbar (Zentriert, Links oder Rechts)
   - Ausrichtung der Wetter-Anzeige wählbar (Zentriert, Links oder Rechts)
-  - Neu Funtionen erscheinen alle 3-4 Wochen...
+  - Neu Funktionen erscheinen alle 3-4 Wochen...
 
 <b>Funktionen (Alle Versionen):</b>
-Die Standard-Version beinhaltet alle Funktionen des CyanogenMod cLock-Widgets aus CM10.2, mit unterstüzung für ältere Android-Versionen.
-  - Unterstützt Android 4.1 und neuer
-  - Unterstützt das hinzufügen als Startbildschirm- (Android 4.1+) und Bildschirmsperren- (Android 4.2+) Widget
-  - Zwischen Analoger- und Digitaler Uhr wählen und das Aussehen und die Klick-Funktionen anpassen
-  - Auswählen, ob Alarme angeziegt werden sollen
+Die Standard-Version beinhaltet alle Funktionen des CyanogenMod cLock-Widgets aus CM10.2 mit Unterstützung für ältere Android-Versionen
+  - Unterstützt Android ab 4.1
+  - Kann als Startbildschirm- (Android 4.1+) oder Bildschirmsperren-Widget (Android 4.2+) hinzugefügt werden
+  - Auswahl zwischen analoger und digitaler Uhr mit anpassbarem Aussehen und wählbarer Klick-Funktion
+  - Auswählen, ob Alarme angezeigt werden sollen
   - Schriftstärke von Uhr, Wetter und Kalender wählbar (Normal, Fett)
-  - Wetter-Anzeige mit Yahoo!-Wetter
-  - Zwischen farbigen und weißen Icons wählen
-  - Minimierte Wetter-Widget-Unterstützung (besondert nützlich auf der Bildschirmsperre)
-  - Kalender-Anziege mit scrollbarer Liste der anstehenden Termine
-  - Anklicken des Termins öffnet den Kalender mit näheren Informationen zum angeklickten Termin
+  - Wetter-Anzeige mit Yahoo! Wetter
+  - Wahlweise farbige oder weiße Symbole
+  - Minimiertes Wetter-Widget (besonders nützlich für die Bildschirmsperre)
+  - Kalender-Anzeige mit scrollbarer Terminliste
+  - Anklicken des Termins öffnet die Kalenderansicht des entspechenden Termins
   - Anklicken des Kalender-Icons öffnet den Kalender mit dem aktuellen Datum
   - Auswählbare Farbe aller Texte der einzelnen Anzeigen
-  - Konfiguration des Widgets während des Hinzufügen von der Chronus-App aus der Anwendungsübersicht
+  - Konfiguration des Widgets beim Hinzufügen der Chronus-App aus der Anwendungsübersicht
   - Anstehende Kalendertermine mit auswählbaren Farben und Schriftstärken versehen
 
 <b>Danksagungen:</b>
-Auch wenn ich maßgebliche Teile von Chronus entwickelt habe, geht mein Dank an Danny Baumann für seine Arbeit an den
-Wetter- und Bezahldiensten sowie Codebegutachtung und Codeverbesserungen, an die Übersetzer in der CyanogenMod-Community
-für ihre Arbeit an den Übersetzungen für die vielen unterstützten Sprachen, sowie an andere Mitwirkende wie Nicolai Ehemann
+Auch wenn ich maßgebliche Teile von Chronus entwickelt habe, geht mein Dank an Danny Baumann für seine Arbeit an den 
+Wetter-Aktualisierungsdiensten sowie allgemeine Codeverbesserungen, an die Übersetzer der CyanogenMod-Community 
+für ihre Arbeit an den Übersetzungen der vielen unterstützten Sprachen, sowie an andere Mitwirkende wie Nicolai Ehemann 
 und Matt Booth für ihre Beiträge.
