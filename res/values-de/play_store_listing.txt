@@ -1,0 +1,39 @@
+Willkommen bei Chronus, einem eleganten Startartbildschirm und Bildschirmsperren-Widget, mit Wetter- und Kalenderfunktion.
+
+Mit allen Funktionen des CyanogenMod cLock-Widgets und vom selben Entwickler, bringt dieses unabhängig und unter dem originalen
+Namen (Chronus) veröffentlichte Widget, das selbe elegante Ausshen und die einfache Bedienung zur kompletten Android-Community.
+
+<b>Bitte beachten:</b>
+1) Bildschirmsperren-Widgets werden erst ab Android 4.2+ unterstützt. Dies ist eine limitierung von Android, nicht Chronus
+2) WidgetLocker wird nicht unterstützt
+3) Manche Geräte müssen nach der Installation neu gestartet werden, damit Chronus in der Widget-Auswahl erscheint
+
+<b>Funktionen (Pro-Version):</b>
+  - Konfigurierbare Klick-Funktionen für Uhr, Wetter und Kalender um Apps oder Aktionen zu starten
+  - Auswählbare Hintergrundfarbe
+  - Ausrichtung der digitalen Uhr (Zentriert, Links oder Rechts)
+  - Ausrichtung der Wetter-Anzeige (Zentriert, Links oder Rechts)
+  - neu Funtionen werden alle 3-4 Wochen hinzugefügt...
+
+<b>Funktionen (Alle Versionen):</b>
+Die Standard-Version beinhaltet alle Funktionen des CyanogenMod cLock-Widgets aus CM10.2, mit unterstüzung für ältere Android-Versionen.
+  - Unterstützt Android 4.1 und neuer
+  - Unterstützt das hinzufügen als Startbildschirm- (Android 4.1+) und Bildschirmsperren- (Android 4.2+) Widget
+  - Zwischen Analoger- und Digitaler Uhr wählen und das Aussehen und die Funktionen anpassen
+  - Auswählen, ob Alarme angeziegt werden sollen
+  - Schriftstärke von Uhr, Wetter und Kalender wählbar (Normal, Fettschrift)
+  - Wetter-Anzeige mit Yahoo!-Wetter
+  - Zwischen farbigen und weißen Icons wählen
+  - Minimierte Wetter-Widget-Unterstützung (besondert nützlich auf der Bildschirmsperre)
+  - Kalender-Anziege mit scrollbarer Liste der anstehenden Termine
+  - Anklicken des Termins öffnet den Kalender mit näheren Informationen zu diesem Termin
+  - Anklicken des Kalender-Icons öffnet den Kalender mit dem aktuellen Datum
+  - Auswählbare Farbe aller Texte der einzelnen Anzeigen
+  - Konfiguration währen des Hinzufügen von der Chronus-App aus der Anwendungsübersicht
+  - Anstehende Kalendertermine mit auswählbaren Farben und Schriftstärken versehen
+
+<b>Danksagungen:</b>
+Auch wenn ich maßgebliche Teile von Chronus entwickelt habe, geht mein Dank an Danny Baumann für seine Arbeit an den
+Wetter- und Bezahldiensten sowie Codebegutachtung und Codeverbesserungen, an die Übersetzer in der CyanogenMod-Community
+für ihre Arbeit an den Übersetzungen für die vielen unterstützten Sprachen, sowie an andere Mitwirkende wie Nicolai Ehemann
+und Matt Booth für ihre Beiträge.
