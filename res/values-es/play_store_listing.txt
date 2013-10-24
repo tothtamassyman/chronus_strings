@@ -1,0 +1,37 @@
+Bienvenido a Chronus, un widget elegante de reloj, tiempo y calendario para sus pantallas de inicio y bloqueo.
+
+Funcionalmente igual que el widget cLock de CyanogenMod y del mismo desarrollador, es una aplicación independiente que vuelve a su nombre original, Chronus, y que trae el mismo elegante aspecto, pero la comunidad Android.
+
+<b>Por favor, tenga en cuenta:</b>
+1) Los widgets de pantalla de bloqueo solo están soportados por la versión de Android 4.2+. Esto es una limitación de Android, no de Chronus
+2) WidgetLocker no está soportado
+3) En algunos dispositivos debes de reiniciar tu dispositivo después de la instalación para que el widget se muestre en el selector de widgets
+
+<b>Características (versión Pro):</b>
+  - Pulsaciones personalizadas para el Reloj, Tiempo y Calendario para lanzar aplicaciones y actividades
+  - Establecer el color de fondo
+  - Alineación del reloj digital (centrado, izquierda o derecha)
+  - Alineación del panel del tiempo (centrado, izquierda o derecha)
+  - y nuevas características cada 3-4 semanas...
+
+<b>Características (todas las versiones):</b>
+La versión estándar es funcionalmente equivalente al widget cLock de CyanogenMod de la versión CM10.2 con el añadido de ser compatible con versiones anteriores de Android. 
+  - Soporte para Android 4.1 y posteriores
+  - Soporte para ser añadido como widget en la pantalla de inicio (Android 4.1+) o en la pantalla de bloqueo (Android 4.2+) o ambas
+  - Seleccione entre reloj analógico o digital y aspecto personalizable
+  - Seleccione cuando mostrar alarmas
+  - Cambie la fuente del reloj digital, fecha y alarma entre negrita/normal
+  - Panel de tiempo con soporte para Yahoo! Weather
+  - Iconos de tiempo en color o blanco y negro
+  - Soporte para widget de tiempo minimizado (especialmente útil en la pantalla de bloqueo)
+  - Panel de calendario con una lista desplegable de los próximos eventos
+  - Eventos para pulsaciones que abren directamente el evento en la aplicación Calendario
+  - Pulse sobre el icono de calendario para abrir el día actual en la aplicación Calendario
+  - Cambie el color de la fuente de todos los paneles
+  - Configure el widget cuando lo añada o desde la aplicación Chronus
+  - Resalte los eventos del calendario próximos con colores personalizados y fuentes en negrita
+
+<b>Créditos:</b>
+Aunque creo haber escrito las partes más importantes de Chronus, mucho del crédito debe ir a Danny Baumann
+por su trabajo en los servicios de tiempo y de pasarela de pago, revisiones y ajustes; a los traductores de la comunidad de
+CyanogenMod por traducir la aplicación; y a otros desarrolladores como Nicolai Ehemann y Matt Booth por las correcciones y nuevas características que han aportado al código.

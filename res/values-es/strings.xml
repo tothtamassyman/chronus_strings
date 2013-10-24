@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2012 The CyanogenMod Project (DvTonder)
+     Chronus additions (c) 2013 David van Tonder
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,11 +15,13 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+
 <resources>
     <string name="unknown">Desconocido</string>
     <string name="cancel">Cancelar</string>
     <string name="loading_indicator">Cargando widget\u2026</string>
     <string name="menu_done">Hecho</string>
+    <string name="ok">Aceptar</string>
     <string name="weather_0">Tornado</string>
     <string name="weather_1">Torm. tropical</string>
     <string name="weather_2">Huracán</string>
@@ -46,14 +49,14 @@
     <string name="weather_24">Ventoso</string>
     <string name="weather_25">Frío</string>
     <string name="weather_26">Nublado</string>
-    <string name="weather_27">Mayorm. nublado</string> <!-- Night -->
-    <string name="weather_28">Mayorm. nublado</string> <!-- Day -->
-    <string name="weather_29">Parc. nublado</string> <!-- Night -->
-    <string name="weather_30">Parc. nublado</string> <!-- Day -->
-    <string name="weather_31">Despejado</string> <!-- Night -->
+    <string name="weather_27">Mayorm. nublado</string>
+    <string name="weather_28">Mayorm. nublado</string>
+    <string name="weather_29">Parc. nublado</string>
+    <string name="weather_30">Parc. nublado</string>
+    <string name="weather_31">Despejado</string>
     <string name="weather_32">Soleado</string>
-    <string name="weather_33">Despejado</string> <!-- Night -->
-    <string name="weather_34">Despejado</string> <!-- Day -->
+    <string name="weather_33">Despejado</string>
+    <string name="weather_34">Despejado</string>
     <string name="weather_35">Lluvia y granizo</string>
     <string name="weather_36">Caluroso</string>
     <string name="weather_37">Torm. eléctricas</string>
@@ -90,6 +93,8 @@
     <string name="clock_category">Reloj y alarma</string>
     <string name="weather_category">Clima</string>
     <string name="calendar_category">Calendario</string>
+    <string name="about_category">Acerca de Chronus</string>
+    <string name="appearance_category">Apariencia General</string>
     <string name="general_category">General</string>
     <string name="display_category">Aspecto</string>
     <string name="use_digital_clock_title">Usar reloj digital</string>
@@ -101,7 +106,8 @@
     <string name="clock_am_pm_title">Mostrar indicador AM/PM</string>
     <string name="weather_enabled">Activado</string>
     <string name="weather_enable">Mostrar clima</string>
-    <string name="weather_source">Yahoo! El Tiempo</string>
+    <string name="weather_source">Servicio de tiempo</string>
+    <string name="weather_source_yahoo">Yahoo! El Tiempo</string>
     <string name="weather_use_custom_location">Usar ubicación personalizada</string>
     <string name="weather_geolocated">Geolocalización por red</string>
     <string name="weather_custom_location_dialog_title">Introducir ubicación</string>
@@ -120,6 +126,7 @@
     <string name="weather_alternate_icons_summary">Usar iconos en color en vez de los predeterminados en blanco</string>
     <string name="weather_show_when_minimized_title">Mostrar al minimizar</string>
     <string name="weather_show_when_minimized_summary">Mostrar la información climática cuando el widget esté minimizado</string>
+    <string name="weather_select_location">Selecciona ubicación</string>
     <string name="calendar_title">Mostrar próximo evento</string>
     <string name="calendars_title">Calendario de eventos</string>
     <string name="calendars_summary">Buscar eventos en los calendarios</string>
@@ -163,4 +170,64 @@
     <string name="holo_orange_light">Naranja claro</string>
     <string name="holo_orange_dark">Naranja oscuro</string>
     <string name="holo_blue_bright">Azul brillante</string>
+    <string name="how_to_title">Ayuda</string>
+    <string name="first_run_title">Bienvenido a %s</string>
+    <string name="first_run_message">Chronus es un widget y necesita ser instalado manualmente bien en la pantalla de inicio (Android 4.1+) o en
+        la pantalla de bloqueo (solo posible en Android 4.2+) utilizando la característica de selección de widgets de Android y de tu lanzador de
+		aplicaciones.\n\nUna vez que el widget este colocado, pues usar esta aplicación para cambiar la configuración del widget.\n\nRecuerda
+		redimensionar el widget en tu pantalla para habilitar todo el espacio necesario para alojar todos los paneles que has seleccionado
+        (Reloj, Tiempo y Calendario), ya que el widget ocultará automáticamente los paneles si no espacio suficiente.\n\nPara obtener un mejor
+		resultado, recomiendo usar los lanzadores de aplicaciones Apex o Nova. Chronus funciona en la mayoría de lanzadores de aplicaciones, pero
+		la habilidad para configurar como es mostrado en pantalla puede verse limitada.\n\nEn Android 4.2+, para añadir un widget a la pantalla de
+		bloqueo, desliza la pantalla de bloqueo hacia la derecha y pulsa sobre el botón Añadir (+) para agregar Chronus a la pantalla de bloqueo.
+		Los widgets de la pantalla de bloqueo pueden ser reordenados realizando una pulsación prolongada. Podrás entonces mover o borrarlos.</string>
+    <string name="credits_title">Créditos</string>
+    <string name="credits_summary">Aunque creo haber escrito las partes más importantes de Chronus, mucho del crédito debe ir a Danny Baumann
+	    por su trabajo en los servicios de tiempo y de pasarela de pago, revisiones y ajustes; a los traductores de la comunidad de
+		CyanogenMod por traducir la aplicación; y a otros desarrolladores como Nicolai Ehemann y Matt Booth por las correcciones y nuevas
+		características que han aportado al código.</string>
+    <string name="contact_title">Contacto</string>
+    <string name="send_email">Enviar email \u2026</string>
+    <string name="pro_features_summary">Pulsa para habilitar las características Pro</string>
+    <string name="pro_features_thanks">Gracias por comprar la aplicación</string>
+    <string name="pro_features_message">La versión Pro incluye todas las características de la versión estándar, añadiéndose durante los próximos
+	    meses muchas otras nuevas características entre las que se incluyen:\n\n
+        \u2022 Más diseños de Widgets\n
+        \u2022 Proveedores alternativos de tiempo\n
+        \u2022 Más características de calendario\n
+        \u2022 Un panel mini de calendarios\n
+        \u2022 y muchas más \u2026\n\nTus sugerencias siempre son bien recibidas.\n\nGracias por adelantado por tu suporte.</string>
+    <string name="get_pro">Consigue Pro</string>
+    <string name="picker_apps">Aplicaciones</string>
+    <string name="picker_activities">Actividades</string>
+    <string name="picker_default">Acción por defecto</string>
+    <string name="picker_select_custom_app_title">Selecciona una aplicación personalizada</string>
+    <string name="picker_select_custom_activity_title">Selecciona una actividad personalizada</string>
+    <string name="tap_action_title">Acción al pulsar</string>
+    <string name="tap_action_clock_default">Reloj del sistema</string>
+    <string name="tap_action_weather_default">Refrescar tiempo</string>
+    <string name="tap_action_calendar_default">Calendario del sistema</string>
+    <string name="tap_action_weather_forecast">Mostrar predicción de tiempo</string>
+    <string name="widget_background_title">Fondo del widget</string>
+    <string name="widget_background_default">Transparente</string>
+    <string name="widget_background_color_fill">Color de relleno</string>
+    <string name="widget_background_custom_image">Imagen personalizada</string>
+    <string name="widget_background_dialog_title">Escoger color</string>
+    <string name="widget_background_result_successful">Fondo cambiado correctamente</string>
+    <string name="widget_background_result_not_successful">El fondo no puedo cambiarse</string>
+    <string name="alignment_title">Alineación</string>
+    <string name="alignment_centered">Centrado</string>
+    <string name="alignment_left">Izquierda</string>
+    <string name="alignment_right">Derecha</string>
+    <string name="calendar_colors">Color del evento del calendario</string>
+    <string name="clock_enable">Reloj a mostrar</string>
+    <string name="clock_analog">Reloj analógico</string>
+    <string name="clock_digital">Reloj digital</string>
+    <string name="chronus_clockplus">Chronus Reloj+</string>
+    <string name="chronus_weather">Chronus Tiempo</string>
+    <string name="chronus_calendar">Chronus Calendario</string>
+    <string name="chronus_calendar">Chronus Mini</string>
+    <string name="chronus_calendar">Chronus Pequeño</string>
+    <string name="chronus_calendar">Chronus Mediano</string>
+    <string name="chronus_calendar">Chronus Largo</string>
 </resources>
