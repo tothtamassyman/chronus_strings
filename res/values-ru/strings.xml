@@ -174,4 +174,86 @@
     <string name="holo_orange_light">Светло-оранжевый</string>
     <string name="holo_orange_dark">Тёмно-оранжевый</string>
     <string name="holo_blue_bright">Ярко-синий</string>
+
+    <!-- First run -->
+    <!-- TRANSLATORS: The string replacement below is the App name -->
+    <string name="how_to_title">Справка</string>
+    <string name="first_run_title">Добро пожаловать в %s</string>
+    <string name="first_run_message">Chronus является виджетом, который нужно вручную добавить на главный экран (для Android 4.1+) или на
+        экран блокировки (только для Android 4.2+), используя функцию добавления виджетов вашего лаунчера.\n\nПосле добавления виджета
+        вы сможете использовать это приложение для изменения настроек.\n\nНе забудьте установить достаточный размер виджета, чтобы хватило места
+        для всех включённых панелей (Часы, погода и календарь), поскольку при недостатке места они будут скрыты.\n\nДля наилучших результатов
+        рекомендуется использовать Apex или Nova Launcher. Chronus сможет работать с большинством лаунчеров, но возможности настройки его вида
+        могут быть ограничены.\n\nВ Android 4.2+, для добавления виджета на экран блокировки, прокрутите экран блокировки влево, нажмите кнопку
+        добавления виджета (+) и выберите виджет Chronus. Виджеты экрана блокировки можно перемещать или удалять долгим нажатием на них.</string>
+
+    <string name="credits_title">Благодарности</string>
+    <string name="credits_summary">Хотя значительная часть Chronus была написана мной в одиночку, хотелось бы выразить благодарность Дэнни Бауманну за
+        его работу над службами погоды и биллинга, рецензии и исправления, переводчикам CyanogenMod за добавление всех языков, которые
+        включены в это приложение, а также Николаю Эеманну и Мэтту Бусу за исправления и функции, которые они присылали в ходе работы.\n
+        Перевод приложения на русский язык: Владислав Колдобский и Павел Волков.</string>
+    <string name="contact_title">Обратная связь</string>
+    <string name="send_email">Написать e-mail\u2026</string>
+
+    <!-- START OF PRO VERSION STRINGS -->
+    <!-- Pro features (About) -->
+    <string name="pro_features_summary">Нажмите для активации возможностей версии Pro</string>
+    <string name="pro_features_thanks">Спасибо за покупку</string>
+    <string name="pro_features_message">Версия Pro содержит все возможности стандартной и в течение
+        ближайшего времени будет получать новые функции, среди которых уже есть:\n\n
+        \u2022 Дополнительные варианты отображения виджета\n
+        \u2022 Альтернативные источники погоды\n
+        \u2022 Индивидуальные настройки виджетов\n
+        \u2022 Дополнительные функции календаря\n
+        \u2022 Вариант отображения календаря мини-панелью\n
+        \u2022 и многое другое\u2026\n\nМы рады новым предложениям и идеям.\n\nСпасибо за вашу поддержку!</string>
+    <string name="get_pro">Приобрести Pro-версию</string>
+
+    <!-- Shortcut picker -->
+    <string name="picker_apps">Приложения</string>
+    <string name="picker_activities">Действия</string>
+    <string name="picker_default">Действие по умолчанию</string>
+    <string name="picker_select_custom_app_title">Выбор приложения</string>
+    <string name="picker_select_custom_activity_title">Выбор действия</string>
+
+    <!-- Preferences - Tap actions -->
+    <string name="tap_action_title">Действие при нажатии</string>
+    <string name="tap_action_clock_default">Открыть «Часы»</string>
+    <string name="tap_action_weather_default">Обновить погоду</string>
+    <string name="tap_action_calendar_default">Открыть «Календарь»</string>
+    <string name="tap_action_weather_forecast">Показать прогноз погоды</string>
+
+    <!-- Preferences - Widget background -->
+    <string name="widget_background_title">Фон виджета</string>
+    <string name="widget_background_default">Прозрачный</string>
+    <string name="widget_background_color_fill">Одноцветная заливка</string>
+    <string name="widget_background_custom_image">Пользовательское изображение</string>
+    <string name="widget_background_dialog_title">Выбор цвета</string>
+    <string name="widget_background_result_successful">Фон успешно изменён</string>
+    <string name="widget_background_result_not_successful">Невозможно изменить фон</string>
+
+    <!-- Alignment settings -->
+    <string name="alignment_title">Выравнивание</string>
+    <string name="alignment_centered">По центру</string>
+    <string name="alignment_left">По левому краю</string>
+    <string name="alignment_right">По правому краю</string>
+
+    <!-- Calendar colors -->
+    <string name="calendar_colors">Цвет событий календаря</string>
+
+    <!-- Clock types -->
+    <string name="clock_enable">Показывать часы</string>
+    <string name="clock_analog">Аналоговые часы</string>
+    <string name="clock_digital">Цифровые часы</string>
+
+    <!-- Widget Names -->
+    <!-- TRANSLATORS: The App name should remain as Chronus -->
+    <string name="chronus_clockplus">Chronus Clock+</string>
+    <string name="chronus_weather">Chronus — погода</string>
+    <string name="chronus_calendar">Chronus — календарь</string>
+    <string name="chronus_calendar">Chronus — маленький</string>
+    <string name="chronus_calendar">Chronus — небольшой</string>
+    <string name="chronus_calendar">Chronus — средний</string>
+    <string name="chronus_calendar">Chronus — большой</string>
+
 </resources>
