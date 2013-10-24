@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project (DvTonder)
-     Chronus additions (c) 2013 David van Tonder
+<!--
+     Copyright (C) 2012-2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,9 +14,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources>
-
     <!-- General strings -->
     <string name="app_name" translatable="false">Chronus</string>
     <string name="app_name_pro" translatable="false">Chronus Pro</string>
@@ -83,8 +81,7 @@
     <string name="weather_45">Thundershowers</string>
     <string name="weather_46">Snow Showers</string>
     <string name="weather_47">Isolated Thundershowers</string>
-    <!-- Forecast unavailable -->
-    <string name="weather_3200"></string>
+    <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
     <!-- Weather - Wind directions -->
     <string name="weather_N">N</string>
@@ -96,7 +93,7 @@
     <string name="weather_W">W</string>
     <string name="weather_NW">NW</string>
 
-    <!-- Weather - error messages -->
+    <!-- Weather - Error messages -->
     <string name="weather_no_data">No data</string>
     <string name="weather_tap_to_refresh">Tap to refresh</string>
     <string name="weather_refreshing">Refreshing</string>
@@ -117,8 +114,6 @@
     <string name="calendar_category">Calendar events</string>
     <string name="about_category">About Chronus</string>
     <string name="appearance_category">General appearance</string>
-
-    <!-- Preferences - Categories -->
     <string name="general_category">General</string>
     <string name="display_category">Display</string>
 
@@ -178,7 +173,7 @@
     <string name="font_color_timestamp">Timestamp font color</string>
     <string name="font_color_calendar_details">Details font color</string>
 
-    <!-- Calendar - lookahead -->
+    <!-- Calendar - Lookahead -->
     <string name="calendar_lookahead_3hrs">3 hours</string>
     <string name="calendar_lookahead_6hrs">6 hours</string>
     <string name="calendar_lookahead_12hrs">12 hours</string>
@@ -210,9 +205,8 @@
     <string name="holo_blue_bright">Bright blue</string>
 
     <!-- First run -->
-    <!-- TRANSLATORS: The string replacement below is the App name -->
     <string name="how_to_title">Help</string>
-    <string name="first_run_title">Welcome to %s</string>
+    <string name="first_run_title">Welcome to %s</string> <!-- '%s' is the App name (name="app_name") -->
     <string name="first_run_message">Chronus is a Widget and needs to be manually added to either the Home screen (Android 4.1+) or the
         Lock screen (only possible on Android 4.2+) using the widget picker feature of Android and your launcher.\n\nOnce the widget is
         placed, you can use this app to change the widget configuration.\n\nRemember to resize the widget on your screen to make space for all the
@@ -228,7 +222,7 @@
         contributed.</string>
     <string name="contact_title">Contact me</string>
     <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
-    <string name="send_email">Send email \u2026</string>
+    <string name="send_email">Send email\u2026</string>
 
     <!-- START OF PRO VERSION STRINGS -->
     <!-- Pro features (About) -->
@@ -241,7 +235,7 @@
         \u2022 Per widget settings\n
         \u2022 More calendar features\n
         \u2022 A mini Calendar panel\n
-        \u2022 and more \u2026\n\nSuggestions are always welcome.\n\nThank you in advance for your support.</string>
+        \u2022 and more\u2026\n\nSuggestions are always welcome.\n\nThank you in advance for your support.</string>
     <string name="get_pro">Get Pro</string>
 
     <!-- Shortcut picker -->
@@ -281,12 +275,12 @@
     <string name="clock_analog">Analog clock</string>
     <string name="clock_digital">Digital clock</string>
 
-    <!-- Weather Providers -->
+    <!-- Weather providers -->
     <string name="weather_source_wunderground" translatable="false">Weather Underground</string>
     <string name="weather_source_hamweather" translatable="false">Hamweather</string>
     <string name="weather_source_accuweather" translatable="false">Accuweather</string>
 
-    <!-- Widget Names -->
+    <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_flex" translatable="false">Chronus Flex</string>
     <string name="chronus_clockplus">Chronus Clock+</string>
@@ -296,5 +290,4 @@
     <string name="chronus_calendar">Chronus Small</string>
     <string name="chronus_calendar">Chronus Medium</string>
     <string name="chronus_calendar">Chronus Large</string>
-
 </resources>
