@@ -1,12 +1,12 @@
 Welcome to Chronus, an elegant Home and Lock screen clock, weather and calendar widget.
 
 Functionally the same as the CyanogenMod cLock widget and brought to you by the same developer, this independently released,
-stand-alone widget takes back its original name, Chronus and brings the same elegant look and feel to the broader Android community. 
+stand-alone widget takes back its original name, Chronus and brings the same elegant look and feel to the broader Android community.
 
 <b>Please note:</b>
 1) Lock screen widgets are only supported on Android 4.2+. This is a limitation of Android itself, not Chronus
-2) WidgetLocker is not supported
-3) On some devices you may have to reboot your device after installing for the widget to show up in the widget picker
+2) On some devices you may have to reboot your device after installing for the widget to show up in the widget picker
+3) WidgetLocker is not supported
 
 <b>Features (Pro version):</b>
   - Custom Tap actions for Clock, Weather and Calendar to launch apps or activities
@@ -15,8 +15,8 @@ stand-alone widget takes back its original name, Chronus and brings the same ele
   - Weather panel alignment (Centered, Left or Right)
   - with more features to be released every 3-4 weeks...
 
-<b>Features (all versions):</b>
-The standard version is functionally equivalent to the CyanogenMod cLock widget in CM10.2 with added support for older versions of Android. 
+<b>Features (All versions):</b>
+The standard version is functionally equivalent to the CyanogenMod cLock widget in CM10.2 with added support for older versions of Android.
   - Support for Android 4.1 and later
   - Supports adding as a widget to either the Home screen (Android 4.1+) or Lock screen (Android 4.2+) or both
   - Select between Analog or Digital clock panel and customize the look and feel
