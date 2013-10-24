@@ -14,7 +14,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources>
     <string name="unknown">Unbekannt</string>
     <string name="cancel">Abbrechen</string>
@@ -192,10 +191,9 @@
     <string name="pro_features_thanks">Vielen Dank für Ihren Kauf</string>
     <string name="pro_features_message">Die Pro-Version beinhaltet alle Funktionen der Standard-Version und wird im Laufe
         der nächsten Monate viele neue Funktionen bekommen. Unter anderem sind dies:\n\n
-        \u2022 Benutzerdefinierte Klick-Aktionen\n
-        \u2022 Widget-Hintergründe\n
         \u2022 Weitere Widget-Layouts\n
         \u2022 Alternative Wetterdaten-Anbieter\n
+        \u2022 Unabhängige Einstellungen je Widget\n
         \u2022 Weitere Kalender-Funktionen\n
         \u2022 Eine Kalenderanzeige\n
         \u2022 und weitere\u2026\n\nVorschläge sind jederzeit willkommen.\n\nVielen Dank im Voraus für Ihre Unterstützung.</string>
@@ -216,5 +214,19 @@
     <string name="widget_background_dialog_title">Farbe auswählen</string>
     <string name="widget_background_result_successful">Hintergrund wurde geändert</string>
     <string name="widget_background_result_not_successful">Hintergrund konnte nicht geändert werden</string>
-
+    <string name="alignment_title">Ausrichtung</string>
+    <string name="alignment_centered">Zentriert</string>
+    <string name="alignment_left">Linksbündig</string>
+    <string name="alignment_right">Rechtsbündig</string>
+    <string name="calendar_colors">Kalender-Farbe</string>
+    <string name="clock_enable">Uhr anzeigen</string>
+    <string name="clock_analog">Analoge Uhr</string>
+    <string name="clock_digital">Digitale Uhr</string>
+    <string name="chronus_clockplus">Chronus Uhr+</string>
+    <string name="chronus_weather">Chronus Wetter</string>
+    <string name="chronus_calendar">Chronus Kalender</string>
+    <string name="chronus_calendar">Chronus (mini)</string>
+    <string name="chronus_calendar">Chronus (klein)</string>
+    <string name="chronus_calendar">Chronus (mittel)</string>
+    <string name="chronus_calendar">Chronus (groß)</string>
 </resources>
