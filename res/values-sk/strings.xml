@@ -174,19 +174,19 @@
     <string name="contact_title">Kontakt</string>
     <string name="credits_title">Kredity</string>
     <string name="credits_summary">Aj keď som napísal významné časti aplikácie Chronus, veľká vďaka patrí Dannymu Baumannovi za jeho
-	    prácu na počasí a fakturačných službách a za prehodnocovanie a vylepšovanie; vďaka tiež patrí komunitným prekladateľom
-        CyanogenModu za pridanie všetkých jazykov, ktoré sú zahrnuté; a taktiež vďaka patrí ostatným prispievateľom akými sa Nicolai Ehemann a Matt Booth za opravy a funkcie
+        prácu na počasí a fakturačných službách a za prehodnocovanie a vylepšovanie; vďaka tiež patrí komunitným prekladateľom
+        CyanogenModu za pridanie všetkých jazykov, ktoré sú zahrnuté; a taktiež vďaka patrí ostatným prispievateľom, akými sú Nicolai Ehemann a Matt Booth za opravy a funkcie
         ktorými prispeli.</string>
     <string name="how_to_title">Nápoveda</string>
     <string name="first_run_title">Vitajte v aplikácii %s</string>
     <string name="first_run_message">Chronus je miniaplikácia, ktorú je potrebné ručne pridať buď na plochu (Android 4.1+) alebo na
         uzamykaciu obrazovku (možné len na Androide 4.2+) pomocou funkcie na výber miniaplikácie v systéme Android a vo Vašom spúšťači.\n\nAkonáhle je miniaplikácia umiestnená,
-		môžete použiť túto aplikáciu na zmenu nastavení miniaplikácie.\n\nNezabudnite zmeniť veľkosť miniaplikácie na Vašej obrazovke pre vytvorenie priestoru na všetky panely,
-		ktoré ste povolili (Hodiny, Počasie a Kalendár), pretože miniaplikácia automaticky skryje panely ak tento priestor nie je dosť veľký.\n\nPre dosiahnutie najlepších výsledkov
-		by som odporučil spúšťač Apex alebo Nova. Chronus bude fungovať na väčšine spúšťačov, ale možnosť nastaviť spôsob zobrazenia môže byť obmedzená.\n\nPre pridanie miniaplikácie
-		na uzamykaciu obrazovku na Androide 4.2+, posuňte vľavo na uzamykaciu obrazovku a potom použite tlačidlo na pridanie miniaplikácií (+) pre pridanie Chronusu. Miniaplikácie
-		na uzamykacej obrazovke môžu byť upravené pomocou dlhého stlačenia pre ich následné presunutie alebo odstránenie.</string>
-	<string name="get_pro">Získať Pro verziu</string>
+        môžete použiť túto aplikáciu na zmenu nastavení miniaplikácie.\n\nNezabudnite zmeniť veľkosť miniaplikácie na Vašej obrazovke pre vytvorenie priestoru na všetky panely,
+        ktoré ste povolili (Hodiny, Počasie a Kalendár), pretože miniaplikácia automaticky skryje panely ak tento priestor nie je dosť veľký.\n\nPre dosiahnutie najlepších výsledkov
+        by som odporučil spúšťač Apex alebo Nova. Chronus bude fungovať na väčšine spúšťačov, ale možnosť nastaviť spôsob zobrazenia môže byť obmedzená.\n\nPre pridanie miniaplikácie
+        na uzamykaciu obrazovku na Androide 4.2+, posuňte vľavo na uzamykaciu obrazovku a potom použite tlačidlo na pridanie miniaplikácií (+) pre pridanie Chronusu. Miniaplikácie
+        na uzamykacej obrazovke môžu byť upravené pomocou dlhého stlačenia pre ich následné presunutie alebo odstránenie.</string>
+    <string name="get_pro">Získať Pro verziu</string>
     <string name="picker_apps">Aplikácie</string>
     <string name="picker_activities">Aktivity</string>
     <string name="picker_default">Predvolená akcia</string>
@@ -195,14 +195,14 @@
     <string name="pro_features_summary">Kliknutím povolíte Pro funkcie</string>
     <string name="pro_features_thanks">Ďakujem Vám za kúpu tejto aplikácie</string>
     <string name="pro_features_message">Pro verzia zahŕňa všetky funkcie štandardnej verzie a počas niekoľkých nasledujúcich mesiacov
-	    budú pridané mnohé nové funkcie a to vrátane:\n\n
+        budú pridané mnohé nové funkcie a to vrátane:\n\n
         \u2022 Viac rozložení pre miniaplikáciu\n
         \u2022 Alternatívny poskytovateľ počasia\n
         \u2022 Nastavenia zvlášť pre každú miniaplikáciu\n
         \u2022 Viac funkcií v kalendári\n
         \u2022 Mini panel kalendára\n
         \u2022 a ďalšie \u2026\n\nNávrhy sú vždy vítané.\n\nĎakujem vopred za Vašu podporu.</string>
-	<string name="send_email">Odoslať e-mail \u2026</string>
+    <string name="send_email">Odoslať e-mail \u2026</string>
     <string name="tap_action_title">Akcia po kliknutí</string>
     <string name="tap_action_clock_default">Systémové hodiny</string>
     <string name="tap_action_weather_default">Aktualizácia počasia</string>
