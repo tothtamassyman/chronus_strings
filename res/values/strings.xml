@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The CyanogenMod Project (DvTonder)
+     Chronus additions (c) 2013 David van Tonder
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- General strings -->
+    <string name="app_name" translatable="false">Chronus</string>
+    <string name="app_name_pro" translatable="false">Chronus Pro</string>
+
+    <string name="unknown">Unknown</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading_indicator">Loading widget\u2026</string>
+    <string name="menu_done">Done</string>
+    <string name="ok">OK</string>
+
+    <!-- Formating strings for widget clock -->
+    <string name="widget_12_hours_format_h" translatable="false">h</string>
+    <string name="widget_12_hours_format_no_ampm_m" translatable="false">:mm</string>
+    <string name="widget_12_hours_format_m" translatable="false">:mm<font size="15">aa</font></string>
+    <string name="widget_24_hours_format_h" translatable="false">kk</string>
+    <string name="widget_24_hours_format_m" translatable="false">:mm</string>
+
+    <!-- Weather - Weather codes -->
+    <string name="weather_0">Tornado</string>
+    <string name="weather_1">Tropical Storm</string>
+    <string name="weather_2">Hurricane</string>
+    <string name="weather_3">Severe Thunderstorms</string>
+    <string name="weather_4">Thunderstorms</string>
+    <string name="weather_5">Mixed Rain and Snow</string>
+    <string name="weather_6">Mixed Rain and Sleet</string>
+    <string name="weather_7">Mixed Snow and Sleet</string>
+    <string name="weather_8">Freezing Drizzle</string>
+    <string name="weather_9">Drizzle</string>
+    <string name="weather_10">Freezing Rain</string>
+    <string name="weather_11">Showers</string>
+    <string name="weather_12">Showers</string>
+    <string name="weather_13">Snow Flurries</string>
+    <string name="weather_14">Light Snow Showers</string>
+    <string name="weather_15">Blowing Snow</string>
+    <string name="weather_16">Snow</string>
+    <string name="weather_17">Hail</string>
+    <string name="weather_18">Sleet</string>
+    <string name="weather_19">Dust</string>
+    <string name="weather_20">Foggy</string>
+    <string name="weather_21">Haze</string>
+    <string name="weather_22">Smoky</string>
+    <string name="weather_23">Blustery</string>
+    <string name="weather_24">Windy</string>
+    <string name="weather_25">Cold</string>
+    <string name="weather_26">Cloudy</string>
+    <string name="weather_27">Mostly Cloudy</string> <!-- Night -->
+    <string name="weather_28">Mostly Cloudy</string> <!-- Day -->
+    <string name="weather_29">Partly Cloudy</string> <!-- Night -->
+    <string name="weather_30">Partly Cloudy</string> <!-- Day -->
+    <string name="weather_31">Clear</string> <!-- Night -->
+    <string name="weather_32">Sunny</string>
+    <string name="weather_33">Fair</string> <!-- Night -->
+    <string name="weather_34">Fair</string> <!-- Day -->
+    <string name="weather_35">Mixed Rain and Hail</string>
+    <string name="weather_36">Hot</string>
+    <string name="weather_37">Isolated Thunderstorms</string>
+    <string name="weather_38">Scattered Thunderstorms</string>
+    <string name="weather_39">Scattered Thunderstorms</string>
+    <string name="weather_40">Scattered Showers</string>
+    <string name="weather_41">Heavy Snow</string>
+    <string name="weather_42">Scattered Snow Showers</string>
+    <string name="weather_43">Heavy Snow</string>
+    <string name="weather_44">Partly Cloudy</string>
+    <string name="weather_45">Thundershowers</string>
+    <string name="weather_46">Snow Showers</string>
+    <string name="weather_47">Isolated Thundershowers</string>
+    <!-- Forecast unavailable -->
+    <string name="weather_3200"></string>
+
+    <!-- Weather - Wind directions -->
+    <string name="weather_N">N</string>
+    <string name="weather_NE">NE</string>
+    <string name="weather_E">E</string>
+    <string name="weather_SE">SE</string>
+    <string name="weather_S">S</string>
+    <string name="weather_SW">SW</string>
+    <string name="weather_W">W</string>
+    <string name="weather_NW">NW</string>
+
+    <!-- Weather - error messages -->
+    <string name="weather_no_data">No data</string>
+    <string name="weather_tap_to_refresh">Tap to refresh</string>
+    <string name="weather_refreshing">Refreshing</string>
+    <string name="weather_last_sync_just_now">Just now</string>
+
+    <!-- Weather - Update frequency -->
+    <string name="weather_refresh_manual">Manual</string>
+    <string name="weather_refresh_30min">30 minutes</string>
+    <string name="weather_refresh_60min">60 minutes</string>
+    <string name="weather_refresh_2hrs">2 hours</string>
+    <string name="weather_refresh_4hrs">4 hours</string>
+    <string name="weather_refresh_6hrs">6 hours</string>
+    <string name="weather_refresh_8hrs">8 hours</string>
+
+    <!-- Preferences - Categories -->
+    <string name="clock_category">Clock and alarm</string>
+    <string name="weather_category">Weather panel</string>
+    <string name="calendar_category">Calendar events</string>
+    <string name="about_category">About Chronus</string>
+    <string name="appearance_category">General appearance</string>
+
+    <!-- Preferences - Categories -->
+    <string name="general_category">General</string>
+    <string name="display_category">Display</string>
+
+    <!-- Preferences - Clock -->
+    <string name="use_digital_clock_title">Use Digital clock</string>
+    <string name="use_digital_clock_summary">Select to toggle between the Digital and the Analog clock</string>
+    <string name="clock_font_title">Bold hours</string>
+    <string name="clock_font_minutes_title">Bold minutes</string>
+    <string name="clock_font_date_title">Bold date and alarm</string>
+    <string name="show_alarm_title">Show next alarm</string>
+    <string name="clock_am_pm_title">Show AM/PM indicator</string>
+
+    <!-- Preferences - Weather -->
+    <string name="weather_enabled">Enabled</string>
+    <string name="weather_enable">Display weather</string>
+    <string name="weather_source_title">Weather source</string>
+    <string name="weather_source_yahoo">Yahoo! Weather</string>
+    <string name="weather_use_custom_location">Use custom location</string>
+    <string name="weather_geolocated">Geolocated using network</string>
+    <string name="weather_custom_location_dialog_title">Enter location</string>
+    <string name="weather_custom_location_hint">City, State/Country</string>
+    <string name="weather_custom_location_title">Location</string>
+    <string name="weather_show_location_title">Show location</string>
+    <string name="weather_show_timestamp_title">Show timestamp</string>
+    <string name="weather_refresh_interval">Update interval</string>
+    <string name="weather_use_metric">Use metric</string>
+    <string name="weather_retrieve_location_dialog_title">Cannot retrieve location!</string>
+    <string name="weather_retrieve_location_dialog_message">Network geolocation is disabled.\n\nSet a custom location or enable network location</string>
+    <string name="weather_retrieve_location_dialog_enable_button">Enable</string>
+    <string name="weather_invert_lowhigh">Invert low/high temperatures</string>
+    <string name="weather_progress_title">Verifying location</string>
+    <string name="weather_alternate_icons_title">Use color icons</string>
+    <string name="weather_alternate_icons_summary">Select to toggle between the default (Color) and the alternate (White) icons</string>
+    <string name="weather_show_when_minimized_title">Show when minimized</string>
+    <string name="weather_show_when_minimized_summary">Display summary weather information when the widget is minimized</string>
+    <string name="weather_select_location">Select location</string>
+
+    <!-- Preferences - Calendar -->
+    <string name="calendar_title">Display next event</string>
+    <string name="calendars_title">Event calendars</string>
+    <string name="calendars_summary">Find events from these calendars</string>
+    <string name="calendar_reminders_only_title">Reminders only</string>
+    <string name="calendar_reminders_only_summary">Show only events with reminders</string>
+    <string name="calendar_hide_allday_title">Hide all-day events</string>
+    <string name="calendar_icon_title">Calendar icon</string>
+    <string name="calendar_lookahead_title">Event lookahead</string>
+    <string name="calendar_show_location_title">Event location</string>
+    <string name="calendar_show_description_title">Event description</string>
+    <string name="calendar_upcoming_events_category">Upcoming events</string>
+    <string name="calendar_highlight_upcoming_events_title">Highlight events</string>
+    <string name="calendar_highlight_upcoming_events_summary">Highlight the current day\'s events and, after 8pm, also the next day\'s events</string>
+    <string name="calendar_highlight_upcoming_events_bold">Bold font</string>
+
+    <!-- Preferences - Font colors -->
+    <string name="font_color">Font color</string>
+    <string name="font_color_alarm">Alarm font color</string>
+    <string name="font_color_timestamp">Timestamp font color</string>
+    <string name="font_color_calendar_details">Details font color</string>
+
+    <!-- Calendar - lookahead -->
+    <string name="calendar_lookahead_3hrs">3 hours</string>
+    <string name="calendar_lookahead_6hrs">6 hours</string>
+    <string name="calendar_lookahead_12hrs">12 hours</string>
+    <string name="calendar_lookahead_today">Today</string>
+    <string name="calendar_lookahead_1day">1 day</string>
+    <string name="calendar_lookahead_3days">3 days</string>
+    <string name="calendar_lookahead_1wk">1 week</string>
+    <string name="calendar_lookahead_2wks">2 weeks</string>
+    <string name="calendar_lookahead_4wks">4 weeks</string>
+
+    <!-- Calendar - Event metadata -->
+    <string name="calendar_metadata_none">Do not show</string>
+    <string name="calendar_metadata_first_line">Show first line</string>
+    <string name="calendar_metadata_all">Show all</string>
+
+    <!-- Font colors -->
+    <string name="white">White</string>
+    <string name="grey">Grey</string>
+    <string name="black">Black</string>
+    <string name="holo_blue_light">Light blue</string>
+    <string name="holo_green_light">Light green</string>
+    <string name="holo_red_light">Light red</string>
+    <string name="holo_blue_dark">Dark blue</string>
+    <string name="holo_green_dark">Dark green</string>
+    <string name="holo_red_dark">Dark red</string>
+    <string name="holo_purple">Purple</string>
+    <string name="holo_orange_light">Light orange</string>
+    <string name="holo_orange_dark">Dark orange</string>
+    <string name="holo_blue_bright">Bright blue</string>
+
+    <!-- First run -->
+    <!-- TRANSLATORS: The string replacement below is the App name -->
+    <string name="how_to_title">Help</string>
+    <string name="first_run_title">Welcome to %s</string>
+    <string name="first_run_message">Chronus is a Widget and needs to be manually added to either the Home screen (Android 4.1+) or the
+        Lock screen (only possible on Android 4.2+) using the widget picker feature of Android and your launcher.\n\nOnce the widget is
+        placed, you can use this app to change the widget configuration.\n\nRemember to resize the widget on your screen to make space for all the
+        panels you have enabled (Clock, Weather and Calendar) since the widget will automatically hide panels if its not big enough.\n\nFor
+        the best results, I recommended using either the Apex or Nova launchers. Chronus will work on most launchers but the ability to configure how
+        it is displayed may be limited.\n\nFor Android 4.2+, to add a widget to the Lock screen, slide left on the Lock screen and then use
+        the add widget button (+) to add Chronus. Lock screen widgets can be rearranged by long-pressing then moving or deleting them.</string>
+
+    <string name="credits_title">Credits</string>
+    <string name="credits_summary">Even though I wrote significant parts of Chronus, lots of credit also goes to Danny Baumann for his
+        work on the weather and billing services, reviewing and tweaking; the many CyanogenMod community translators for adding all the
+        languages that are included; and other contributors such as Nicolai Ehemann and Matt Booth for the fixes and features they have
+        contributed.</string>
+    <string name="contact_title">Contact me</string>
+    <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
+    <string name="send_email">Send email \u2026</string>
+
+    <!-- START OF PRO VERSION STRINGS -->
+    <!-- Pro features (About) -->
+    <string name="pro_features_summary">Click to enable Pro features</string>
+    <string name="pro_features_thanks">Thank you for purchasing</string>
+    <string name="pro_features_message">The Pro version includes all the features of the standard version and
+        over the next few months will be adding many new features including:\n\n
+        \u2022 More Widget layouts\n
+        \u2022 An alternate weather provider\n
+        \u2022 More calendar features\n
+        \u2022 A mini Calendar panel\n
+        \u2022 and more \u2026\n\nSuggestions are always welcome.\n\nThank you in advance for your support.</string>
+    <string name="get_pro">Get Pro</string>
+
+    <!-- Shortcut picker -->
+    <string name="picker_apps">Apps</string>
+    <string name="picker_activities">Activities</string>
+    <string name="picker_default">Default action</string>
+    <string name="picker_select_custom_app_title">Select custom app</string>
+    <string name="picker_select_custom_activity_title">Select custom activity</string>
+
+    <!-- Preferences - Tap actions -->
+    <string name="tap_action_title">Tap action</string>
+    <string name="tap_action_clock_default">System clock</string>
+    <string name="tap_action_weather_default">Refresh weather</string>
+    <string name="tap_action_calendar_default">System calendar</string>
+    <string name="tap_action_weather_forecast">Show forecast</string>
+
+    <!-- Preferences - Widget background -->
+    <string name="widget_background_title">Widget background</string>
+    <string name="widget_background_default">Transparent</string>
+    <string name="widget_background_color_fill">Color fill</string>
+    <string name="widget_background_custom_image">Custom image</string>
+    <string name="widget_background_dialog_title">Choose color</string>
+    <string name="widget_background_result_successful">Background changed successfully</string>
+    <string name="widget_background_result_not_successful">Background could not be changed</string>
+
+    <!-- Alignment settings -->
+    <string name="alignment_title">Alignment</string>
+    <string name="alignment_centered">Centered</string>
+    <string name="alignment_left">Left aligned</string>
+    <string name="alignment_right">Right aligned</string>
+
+    <!-- Calendar colors -->
+    <string name="calendar_colors">Event calendar color</string>
+
+    <!-- Clock types -->
+    <string name="clock_enable">Display clock</string>
+    <string name="clock_analog">Analog clock</string>
+    <string name="clock_digital">Digital clock</string>
+
+    <!-- Weather Providers -->
+    <string name="weather_source_wunderground" translatable="false">Weather Underground</string>
+    <string name="weather_source_hamweather" translatable="false">Hamweather</string>
+    <string name="weather_source_accuweather" translatable="false">Accuweather</string>
+
+    <!-- Widget Names -->
+    <!-- TRANSLATORS: The App name should remain as Chronus -->
+    <string name="chronus_flex" translatable="false">Chronus Flex</string>
+    <string name="chronus_clockplus">Chronus Clock+</string>
+    <string name="chronus_weather">Chronus Weather</string>
+    <string name="chronus_calendar">Chronus Calendar</string>
+    <string name="chronus_calendar">Chronus Mini</string>
+    <string name="chronus_calendar">Chronus Small</string>
+    <string name="chronus_calendar">Chronus Medium</string>
+    <string name="chronus_calendar">Chronus Large</string>
+
+</resources>
