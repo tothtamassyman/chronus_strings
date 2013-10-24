@@ -1,0 +1,39 @@
+Vitajte v Chronuse, elegantnej miniaplikácie hodín, počasia a kalendára pre plochu a uzamykaciu obrazovku.
+
+Funkčne je aplikácia rovnaká ako CyanogenMod clock miniaplikácia a je Vám k dispozícii od rovnakého vývojára, ale je nezávisle vydaná ako samostatná miniaplikácia,
+ktorá si berie späť svoje pôvodné meno, Chronus a prináša rovnaký elegantný vzhľad širšej Android komunite.
+
+<b>Vezmite prosím na vedomie:</b>
+1) Miniaplikácie na uzamykacej obrazovke sú podporované len u Androidu 4.2+. Jedná sa o obmedzenie Androidu samotného, nie Chronusa
+2) Aplikácia WidgetLocker nie je podporovaná
+3) Na niektorých zariadeniach budete musieť reštartovať zariadenie po inštalácii pre zobrazenie miniaplikácie vo výbere miniaplikácií
+
+<b>Funkcie (Pro verzia):</b>
+  - Vlastné akcie po kliknutí na Hodiny, Počasie a Kalendár pre spustenie aplikácií alebo aktivít
+  - Možnosť nastavenia farby pozadia
+  - Zarovnanie panelu s digitálnymi hodinami (centrované, vľavo alebo vpravo)
+  - Zarovnanie panelu s počasím (centrované, vľavo alebo vpravo)
+  - Ďalšie funkcie budú vydávané každé 3-4 týždne...
+
+<b>Funkcie (všetky verzie):</b>
+Štandardná verzia je funkčne zhodná sa CyanogenMod cLock miniaplikáciou v CM10.2 ale taktiež zahŕňa podporu pre staršie verzie Androidu.
+  - Podpora pre Android 4.1 a novší
+  - Podpora pridania miniaplikácie buď na plochu (Android 4.1+) alebo na uzamykaciu obrazovku (Android 4.2+) alebo na obe
+  - Výber medzi panelom s analógovými alebo digitálnymi hodinami a možnosť prispôsobenia jeho vzhľadu
+  - Zobraziť počasie pre zobrazenie budíkov
+  - Zmeniť písmo (tučné, normálne) u digitálnych hodín, dátumu a budíka
+  - Panel počasia s Yahoo! Počasie
+  - Farba alebo ikonky počasia Monochrome
+  - Podpora pre minimalizovanú miniaplikáciu počasia (obzvlášť užitočné na uzamykacej obrazovke)
+  - Panel kalendára zobrazuje rolovateľný zoznam nadchádzajúcich udalostí
+  - Po kliknutí na udalosť sa otvorí kalendár s vybranou udalosťou
+  - Po kliknutí na ikonu kalendára sa otvorí kalendár na aktuálnom dátume
+  - Zmena farby písma textu vo všetkých paneloch
+  - Možnosť nastaviť miniaplikáciu pri pridaní alebo z aplikácie Chronus v spúšťači aplikácií
+  - Zvýrazniť nadchádzajúce udalosti v kalendári pomocou vlastných farieb a tučného písma
+
+<b>Kredity:</b>
+Aj keď som napísal významné časti aplikácie Chronus, veľká vďaka patrí Dannymu Baumannovi za jeho
+prácu na aktualizačnej službe počasia a za hlavné premazanie a úpravu kódu; vďaka tiež patrí komunitným prekladateľom
+CyanogenModu za pridanie všetkých jazykov, ktoré sú zahrnuté; a taktiež vďaka patrí ostatným prispievateľom, akými sú Nicolai Ehemann a Matt Booth za opravy a funkcie
+ktorými prispeli.
