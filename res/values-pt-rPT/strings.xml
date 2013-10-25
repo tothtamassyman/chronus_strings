@@ -210,8 +210,8 @@
     <string name="chronus_clockplus">Chronus Relógio+</string>
     <string name="chronus_weather">Chronus Tempo</string>
     <string name="chronus_calendar">Chronus Calendário</string>
-    <string name="chronus_calendar">Chronus Mini</string>
-    <string name="chronus_calendar">Chronus Pequeno</string>
-    <string name="chronus_calendar">Chronus Médio</string>
-    <string name="chronus_calendar">Chronus Grande</string>
+    <string name="chronus_mini">Chronus Mini</string>
+    <string name="chronus_small">Chronus Pequeno</string>
+    <string name="chronus_medium">Chronus Médio</string>
+    <string name="chronus_large">Chronus Grande</string>
 </resources>

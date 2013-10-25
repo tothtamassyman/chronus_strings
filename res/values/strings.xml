@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2012-2013 The CyanogenMod Project
+<!-- 
+     Copyright (C) 2012 The CyanogenMod Project (DvTonder)
+     Chronus additions (c) 2013 David van Tonder
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -286,8 +287,8 @@
     <string name="chronus_clockplus">Chronus Clock+</string>
     <string name="chronus_weather">Chronus Weather</string>
     <string name="chronus_calendar">Chronus Calendar</string>
-    <string name="chronus_calendar">Chronus Mini</string>
-    <string name="chronus_calendar">Chronus Small</string>
-    <string name="chronus_calendar">Chronus Medium</string>
-    <string name="chronus_calendar">Chronus Large</string>
+    <string name="chronus_mini">Chronus Mini</string>
+    <string name="chronus_small">Chronus Small</string>
+    <string name="chronus_medium">Chronus Medium</string>
+    <string name="chronus_large">Chronus Large</string>
 </resources>

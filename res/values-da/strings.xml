@@ -224,8 +224,8 @@
     <string name="chronus_clockplus">Chronus Ur+</string>
     <string name="chronus_weather">Chronus Vejr</string>
     <string name="chronus_calendar">Chronus Kalender</string>
-    <string name="chronus_calendar">Chronus Mini</string>
-    <string name="chronus_calendar">Chronus Lille</string>
-    <string name="chronus_calendar">Chronus Normal</string>
-    <string name="chronus_calendar">Chronus Stor</string>
+    <string name="chronus_mini">Chronus Mini</string>
+    <string name="chronus_small">Chronus Lille</string>
+    <string name="chronus_medium">Chronus Normal</string>
+    <string name="chronus_large">Chronus Stor</string>
 </resources>

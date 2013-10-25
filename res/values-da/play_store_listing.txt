@@ -1,6 +1,6 @@
 ﻿Velkommen til Chronus, en elegant widget til din startskærm og skærmlås med ur, vejr og kalender.
 
-Mht. funktioner er den magen til CyanogenMods cLock-widget og kommer fra den udvikler. Denne er dog frigivet uafhængigt heraf og bruger det oprindelige navn, Chronus, og bringer den samme elegante brugerflade ud til en større Android-brugerskare.
+Mht. funktioner er den magen til CyanogenMods cLock-widget og kommer fra den samme udvikler. Denne er dog frigivet uafhængigt heraf og bruger det oprindelige navn, Chronus, og bringer den samme elegante brugerflade ud til en større Android-brugerskare.
 
 <b>Bemærk venligst:</b>
 1) Widgets til skærmlåsen understøttes kun på Android 4.2+. Dette er en begrænsning i selve Android, ikke Chronus

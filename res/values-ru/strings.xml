@@ -251,9 +251,9 @@
     <string name="chronus_clockplus">Chronus Clock+</string>
     <string name="chronus_weather">Chronus — погода</string>
     <string name="chronus_calendar">Chronus — календарь</string>
-    <string name="chronus_calendar">Chronus — маленький</string>
-    <string name="chronus_calendar">Chronus — небольшой</string>
-    <string name="chronus_calendar">Chronus — средний</string>
-    <string name="chronus_calendar">Chronus — большой</string>
+    <string name="chronus_mini">Chronus — маленький</string>
+    <string name="chronus_small">Chronus — небольшой</string>
+    <string name="chronus_medium">Chronus — средний</string>
+    <string name="chronus_large">Chronus — большой</string>
 
 </resources>
