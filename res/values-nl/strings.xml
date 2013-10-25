@@ -164,4 +164,66 @@
     <string name="holo_orange_light">Lichtoranje</string>
     <string name="holo_orange_dark">Donkeroranje</string>
     <string name="holo_blue_bright">Helderblauw</string>
+
+    <!-- Chronus -->
+    <string name="how_to_title">Help</string>
+    <string name="first_run_title">Welkom bij %s</string>
+    <string name="first_run_message">Chronus is een widget en dient handmatig toegevoegd te worden aan het startscherm
+        (Android 4.1 en hoger) of het vergrendelscherm (Android 4.2 en hoger) met het widgetpaneel in uw launher.\n\nWanneer de
+        widget is geplaatst, kunt u deze app gebruiken om de widget in te stellen.\n\nVergeet niet genoeg ruimte toe te kennen voor
+        alle inschakelde panelen; de widget verbergt panelen wanneer ze niet passen.\n\nDe widget is het beste te gebruiken in de
+        launchers Apex of Nova. Chronus werkt in de meeste launchers, maar de weergave ervan kan soms beperkt zijn.\n\nOm in
+        Android 4.2 een widget toe te voegen aan het vergrendelscherm, sleept u naar links in het vergrendelscherm en gebruikt u
+        de knop Toevoegen (+) om Chronus toe te voegen. De volgorde kan worden gewijzigd door items lang aan te raken en ze te
+        verplaatsen of te verwijderen.</string>
+    <string name="credits_title">Dankbetuigingen</string>
+    <string name="credits_summary">Hoewel ik grote delen van deze widget heb geschreven, wil ik ook Danny Baumann bedanken voor de
+        weerupdate- en aankoopservices en het bekijken en optimaliseren van de code; de vele CyanogenMod-vertalers voor de bijdragen
+        in hun taal; en anderen van de CyanogenMod-gemeenschap zoals Nicolai Ehemann en Matt Booth voor de foutoplossingen en extra
+        functies waarvoor zij verantwoordelijk zijn.</string>
+    <string name="contact_title">Contact opnemen</string>
+    <string name="send_email">E-mail verzenden\u2026</string>
+    <string name="pro_features_summary">Raak aan om Pro-functies in te schakelen</string>
+    <string name="pro_features_thanks">Bedankt voor uw aankoop</string>
+    <string name="pro_features_message">De Pro-versie bevat alle functies van de standaardversie en
+        krijgt in de volgende maanden veel meer functies, zoals:\n\n
+        \u2022 Meer widgetindelingen\n
+        \u2022 Een andere weeraanbieder\n
+        \u2022 Instellingen per widget\n
+        \u2022 Meer agendafuncties\n
+        \u2022 Een kleiner agendapaneel\n
+        \u2022 en meer\u2026\n\nSuggesties zijn altijd welkom.\n\nAlvast bedankt voor uw ondersteuning.</string>
+    <string name="get_pro">Pro-functies verkrijgen</string>
+    <string name="picker_apps">Apps</string>
+    <string name="picker_activities">Activiteiten</string>
+    <string name="picker_default">Standaardactie</string>
+    <string name="picker_select_custom_app_title">Aangepaste app selecteren</string>
+    <string name="picker_select_custom_activity_title">Aangepaste activiteit selecteren</string>
+    <string name="tap_action_title">Aanraakactie</string>
+    <string name="tap_action_clock_default">Systeemklok</string>
+    <string name="tap_action_weather_default">Weer vernieuwen</string>
+    <string name="tap_action_calendar_default">Systeemagenda</string>
+    <string name="tap_action_weather_forecast">Voorspelling weergeven</string>
+    <string name="widget_background_title">Widgetachtergrond</string>
+    <string name="widget_background_default">Transparant</string>
+    <string name="widget_background_color_fill">Kleur</string>
+    <string name="widget_background_custom_image">Aangepaste afbeelding</string>
+    <string name="widget_background_dialog_title">Kleur selecteren</string>
+    <string name="widget_background_result_successful">Achtergrond succesvol gewijzigd</string>
+    <string name="widget_background_result_not_successful">Kan achtergrond niet wijzigen</string>
+    <string name="alignment_title">Indeling</string>
+    <string name="alignment_centered">Midden</string>
+    <string name="alignment_left">Links</string>
+    <string name="alignment_right">Rechts</string>
+    <string name="calendar_colors">Kleur afsprakenagenda</string>
+    <string name="clock_enable">Klok weergeven</string>
+    <string name="clock_analog">Analoge klok</string>
+    <string name="clock_digital">Digitale klok</string>
+    <string name="chronus_clockplus">Chronus (klok+)</string>
+    <string name="chronus_weather">Chronus (weer)</string>
+    <string name="chronus_calendar">Chronus (agenda)</string>
+    <string name="chronus_mini">Chronus (kleinst)</string>
+    <string name="chronus_small">Chronus (klein)</string>
+    <string name="chronus_medium">Chronus (normaal)</string>
+    <string name="chronus_large">Chronus (groot)</string>
 </resources>

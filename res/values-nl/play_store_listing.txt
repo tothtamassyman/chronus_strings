@@ -1,0 +1,39 @@
+Welkom bij Chronus, een elegante klok-, weer- en agendawidget voor uw start- en vergrendelscherm.
+
+Met dezelfde functies als cLock van CyanogenMod en gebracht door dezelfde ontwikkelaar, krijgt deze op zichzelf staande widget,
+zelfstandig uitgebracht, zijn oorspronkelijke naam terug, Chronus, en brengt dezelfde functies mee naar de bredere
+Android-gemeenschap.
+
+<b>Neem a.u.b. het volgende in acht:</b>
+1) Widgets op het vergrendelscherm worden pas ondersteund op Android 4.2 en hoger. Dit ligt aan Android, niet aan Chronus.
+2) WidgetLocker wordt niet ondersteund.
+3) Bij enkele apparaten is herstarten noodzakelijk, voordat de widget door u kan worden gekozen.
+
+<b>Functies (Pro-versie):</b>
+  - Aanraakacties wijzigen voor de klok, het weer en de agenda om apps of activiteiten te openen
+  - Achtergrondkleur instellen
+  - Indeling wijzigen van het digitale klokpaneel (midden, links of rechts)
+  - Indeling wijzigen van het weerpaneel (midden, links of rechts)
+  - en meer functies, die elke 3-4 weken komen...
+
+<b>Functies (alle versies):</b>
+De standaardversie biedt dezelfde functies als cLock van CyanogenMod 10.2 met ondersteuning voor oudere versies van Android.. 
+  - Ondersteuning voor Android 4.1 en hoger
+  - Ondersteuning voor plaatsing op het startscherm (Android 4.1 en hoger), het vergrendelscherm (Android 4.2 en hoger) of allebei
+  - Keuze uit een analoge en digitale klok en een aanpasbaar uiterlijk
+  - Weergave van alarmen
+  - Vetgedrukte/normale lettertype in de digitale klok, datum en alarm
+  - Weerpaneel met Yahoo Weer
+  - Gekleurde of zwart-witte weerpictogrammen
+  - Geminimaliseerde weerwidget (vooral handig op het vergrendelscherm)
+  - Agendapaneel met een scrollbare afsprakenlijst
+  - Openen van een afspraak door die aan te raken
+  - Openen van agenda op vandaag door het agendapictogram aan te raken
+  - Aanpasbare lettertypekleur voor alle teksten
+  - Widget configureren bij toevoegen of in de Chronus-app
+  - Aankomende afspraken benadrukken met aangepaste kleuren en vetgedrukt weergeven
+
+<b>Dankbetuigingen:</b>
+Hoewel ik grote delen van deze widget heb geschreven, wil ik ook Danny Baumann bedanken voor de weerupdateservice en de code
+helderder te maken, de vertalers van CyanogenMod voor de bijdragen in hun taal en anderen van de CyanogenMod-gemeenschap zoals Nicolai
+Ehemann en Matt Booth voor de foutoplossingen en extra functies waarvoor zij verantwoordelijk zijn.
