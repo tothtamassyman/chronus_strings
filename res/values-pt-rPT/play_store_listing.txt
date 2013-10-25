@@ -1,6 +1,6 @@
 Bem-vindo ao Chronus, um widget elegante de relógio, tempo (meteorologia) e calendário para os ecrãs iniciais e de bloqueio.
 
-Funcionalmenet o mesmo que o widget cLock da CyanogenMod e trazido até si pelo mesmo desenvolvedor, este widget isolado e lançado independentemente tem de volta o seu nome original, Chronus, e traz o mesmo aspeto elegante para a abrangente comunidade Android.
+Funcionalmente o mesmo que o widget cLock da CyanogenMod e trazido até si pelo mesmo desenvolvedor, este widget isolado e lançado independentemente tem de volta o seu nome original, Chronus, e traz o mesmo aspeto elegante para a abrangente comunidade Android.
 
 <b>Por favor note:</b>
 1) Os widgets do ecrã de bloqueio só são suportados em Android 4.2+. Isto é uma limitação do próprio Android, não do Chronus
