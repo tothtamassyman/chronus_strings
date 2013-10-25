@@ -1,0 +1,35 @@
+Bem-vindo ao Chronus, um widget elegante de relógio, tempo (meteorologia) e calendário para os ecrãs iniciais e de bloqueio.
+
+Funcionalmenet o mesmo que o widget cLock da CyanogenMod e trazido até si pelo mesmo desenvolvedor, este widget isolado e lançado independentemente tem de volta o seu nome original, Chronus, e traz o mesmo aspeto elegante para a abrangente comunidade Android.
+
+<b>Por favor note:</b>
+1) Os widgets do ecrã de bloqueio só são suportados em Android 4.2+. Isto é uma limitação do próprio Android, não do Chronus
+2) O WidgetLocker não é suportado
+3) Em alguns dispositivos pode ter de reiniciar o seu dispositivo depois de instalar o widget para que apareça na seleção de widgets
+
+<b>Funcionalidades (versão Pro):</b>
+  - Ações de toque personalizadas para Relógio, Tempo e Calendário para lançar aplicações e atividades
+  - Definir uma cor de fundo
+  - Aliinhamento do painel de Relógio Digital (Centrado, Esquerda ou Direita)
+  - Alinhamento do painel de Tempo (Centrado, Esquerda ou Direita)
+  - mais funcionalidades a ser lançadas a cada 3-4 semanas...
+
+<b>Funcionalidades (todas as versões):</b>
+A versão standard é funcionalmente equivalente ao widget cLock da CyanogenMod na CM10.2 com suporte adicional para versões anteriores de Android.
+  - Suporte para Android 4.1 e posterior
+  - Suporta adicionar como widget tanto ao ecrã inicial (Android 4.1+) como ao ecrã de bloqueio (Android 4.2+) como a ambos
+  - Escolha entre os painéis de relógio Analógico e Digital e personalize o seu aspeto
+  - Escolha se quer exibir alarmes
+  - Escolha entre texto normal ou a negrito no relógio digital, data e alarme
+  - Painel de tempo com Yahoo! Tempo
+  - Ícones de tempo coloridos ou monocromáticos
+  - Suporte para widget de tempo minimizado (especialmente útil no ecrã de bloqueio)
+  - Painel de calendário com uma lista com scroll de eventos próximos
+  - Tocar um evento abre o calendário no evento selecionado
+  - Tocar o ícone de calendário abre o Calendário no dia de hoje
+  - Mudar a cor do texto em todos os painéis
+  - Configurar o widget ao adicionar ou da aplicação Chronus na lista de aplicações
+  - Destacar os eventos de calendário próximos com cores personalizadas e texto a negrito
+
+<b>Créditos:</b>
+Apesar de ter escrito partes significativas do Chronus, muito crédito vai também para Danny Baumann pelos seus serviços de tempo e pagamento, revendo e ajustando; os muitos tradutores da comunidade CyanogenMod por adicionarem todos os idiomas que estão incluídos; e outros contribuidores como Nicolai Ehemann e Matt Booth pelos consertos e funcionalidades que contribuiram.
