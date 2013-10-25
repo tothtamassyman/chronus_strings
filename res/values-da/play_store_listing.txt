@@ -1,0 +1,35 @@
+﻿Velkommen til Chronus, en elegant widget til din startskærm og skærmlås med ur, vejr og kalender.
+
+Mht. funktioner er den magen til CyanogenMods cLock-widget og kommer fra den udvikler. Denne er dog frigivet uafhængigt heraf og bruger det oprindelige navn, Chronus, og bringer den samme elegante brugerflade ud til en større Android-brugerskare.
+
+<b>Bemærk venligst:</b>
+1) Widgets til skærmlåsen understøttes kun på Android 4.2+. Dette er en begrænsning i selve Android, ikke Chronus
+2) WidgetLocker understøttes ikke
+3) På nogle enheder kan det være nødvendigt at genstarte enheden efter installation, før widgeten vises i widget-vælgeren
+
+<b>Funktioner (Pro-version):</b>
+  - Brugerdefinerede Trykhandlinger til Ur, Vejr og Kalender til at starte apps eller aktiviteter
+  - Angiv en baggrundsfarve
+  - Justering af digitalurets panel (Centreret, Venstre eller Højre)
+  - Justering af vejrpanelet (Centreret, Venstre eller Højre)
+  - flere funktioner vil blive tilføjet hver 3.-4. uge...
+
+<b>Funktioner (alle versioner):</b>
+Standardversionen har de samme funktioner som cLock-widgeten i CyanogenMod 10.2 med yderligere understøttelse af ældre versioner af Android. 
+  - Understøtter Android 4.1 og nyere
+  - Understøtter at blive tilføjet som en widget på enten startskærmen (Android 4.1+), skærmlåsen (Android 4.2+) eller begge
+  - Vælg mellem analogt og digitalt urpanel og tilpas brugerfladen
+  - Vælg, om alarmer skal vises
+  - Skift mellem fed/normal skrift i digitalur, dato og alarm
+  - Vejrpanel med vejr fra Yahoo!
+  - Vejrikoner i farve eller sort/hvid
+  - Understøttelse af minimeret vejr-widget (især nyttig på skærmlås)
+  - Kalenderpanelet viser en liste af kommende begivenheder, som kan rulles op og ned
+  - Et tryk på en begivenhed åbner Kalender på den valgte begivenhed
+  - Et tryk på kalenderikonet åbner Kalender på dags dato
+  - Skift farve på skrifttyper i al tekst i alle paneler
+  - Konfigurér widget, når den tilføjes, eller fra selve Chronus-app\'en i app-listen
+  - Fremhæv kommende kalenderbegivenheder med brugerdefinerede farver og fed skrift
+
+<b>Særlig tak:</b>
+Selv om jeg skrev en stor del af denne widget, skal der alligevel gå en særlig tak til Danny Baumann for hans arbejde med vejropdateringstjenesten og generel oprydning i koden, de mange oversættere af CyanogenMod for at tilføje alle sprogene, samt andre bidragsydere i fællesskabet, som fx Nicolai Ehemann og Matt Booth, for de rettelser og yderligere funktioner, som de har bidraget med.
