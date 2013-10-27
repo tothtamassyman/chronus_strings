@@ -94,6 +94,8 @@
   <string name="clock_category">Hodiny a budík</string>
   <string name="weather_category">Panel počasí</string>
   <string name="calendar_category">Události kalendáře</string>
+  <string name="about_category">O aplikaci Chronus</string>
+  <string name="appearance_category">Celkový vzhled</string>
   <string name="general_category">Obecné</string>
   <string name="display_category">Zobrazení</string>
 
@@ -107,7 +109,8 @@
 
   <string name="weather_enabled">Použít</string>
   <string name="weather_enable">Zobrazit počasí</string>
-  <string name="weather_source">Yahoo! Počasí</string>
+  <string name="weather_source_title">Zdroj informací o počasí</string>
+  <string name="weather_source_yahoo">Yahoo! počasí</string>
   <string name="weather_use_custom_location">Použít vlastní polohu</string>
   <string name="weather_geolocated">Zjistit polohu ze sítě</string>
   <string name="weather_custom_location_dialog_title">Zadat polohu</string>
@@ -126,6 +129,7 @@
   <string name="weather_alternate_icons_summary">Vybrat mezi výchozími (bílými) či alternativními (barevnými) ikonami</string>
   <string name="weather_show_when_minimized_title">Zobrazit v minimalizaci</string>
   <string name="weather_show_when_minimized_summary">Pokud je widget minimalizován, zobrazit shrnující informace o počasí</string>
+  <string name="weather_select_location">Zvolte umístění</string>
 
   <string name="calendar_title">Zobrazit další událost</string>
   <string name="calendars_title">Událost kalendářů</string>
@@ -174,4 +178,7 @@
   <string name="holo_orange_light">Světle oranžová</string>
   <string name="holo_orange_dark">Tmavě oranžová</string>
   <string name="holo_blue_bright">Bledě modrá</string>
+
+  <string name="how_to_title">Nápověda</string>
+  <string name="first_run_title">Vítejte v %s</string>
 </resources>
