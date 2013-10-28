@@ -13,7 +13,7 @@ widget se vrací ke svému původnímu jménu - Chronus. Přináší stejný ele
   - nastavení barvy pozadí
   - zarovnání panelu digitálních hodin (doprostřed, vlevo, vpravo)
   - zarovnání panelu počasí (doprostřed, vlevo, vpravo)
-  - více funkcí bude uvolněno v příštích týdnech...
+  - další funkce budou uvolněny v příštích týdnech...
 
 <b>Vlastnosti (standardní verze):</b>
 Standardní verze je funkčně identická s aplikací cLock z projektu CyanogenMod (verze CM10.2) s přidanou podporou pro starší verze Androidu.
@@ -25,12 +25,12 @@ Standardní verze je funkčně identická s aplikací cLock z projektu CyanogenM
   - panel počasí - poskytovatel Yahoo!
   - barevné nebo černobílé ikony počasí
   - podpora minimalizace widgetu počasí (pěkné na zámku obrazovky)
-  - panel kalendáře s možností rolování seznamu odálostí
+  - panel kalendáře s možností posunu seznamu odálostí
   - dotykem na událost je tato otevřena v aplikaci kalendáře
   - dotykem na ikonu kalendáře bude zobrazen kalendář na aktuálním datu
-  - změna font a barev všech textů a panelů
+  - změna fontu a barev všech textů a panelů
   - konfigurace widgetu při přidání nebo z aplikace Chronus
-  - zvýraznění nadchízející události v kalendáři s vlastními barvami či tučným fontem
+  - zvýraznění nadcházející události v kalendáři s vlastními barvami či tučným fontem
 
 <b>Zásluhy:</b>
 I když jsem napsal významnou část aplikace Chronus sám, mnoho zásluh patří také Danny Baumannovi pro jeho práci na počasí a
