@@ -1,0 +1,38 @@
+Chronus je elegantní wiget s hodinami, počasím a kalendářen na domácí obrazovku nebo obrazovku zámku.
+
+Funkčně je shodný s wodgetem cLock tak, jak je znám z CyanogenMod a je vytvořen stejným autorem. Tento nezávysle uvolněný samostatný
+widget se vrací ke svému původnímu jménu - Chronus. Přináší stejný elegantní vzhled široké komunitě Androidu.
+
+<b>Upozornění:</b>
+1) Widgety na obrazovce zámku jsou podporovány až od verze Android 4.2+. Toto je limitace systému Android, ne aplikace Chronus
+2) Na některých zařízenách je potřeba provést restart, aby se widget objevil v seznamu nabízených widgetů
+3) WidgetLocker není podporován
+
+<b>Vlastnosti (verze Pro):</b>
+  - vlastní akce po dotyku pro hodiny, počasí a kalendář pro spuštění aplikac nebo aktivity
+  - nastavení barvy pozadí
+  - zarovnání panelu digitálních hodin (doprostřed, vlevo, vpravo)
+  - zarovnání panelu počasí (doprostřed, vlevo, vpravo)
+  - více funkcí bude uvolněno v příštích týdnech...
+
+<b>Vlastnosti (standardní verze):</b>
+Standardní verze je funkčně identická s aplikací cLock z projektu CyanogenMod (verze CM10.2) s přidanou podporou pro starší verze Androidu.
+  - podpora pro Android verze 4.1 a novější
+  - podpora přidání widgetu na domovskou obrazovku (Android 4.1+) nebo obrazovku zámku (Android 4.2+) nebo na obě
+  - volbva mezi analogovými nebo digitálními hodinamy s možností změny vzhledu
+  - možnost zobrazit nastavené budíky
+  - zmenit vlastnosti fontu (tučný/normální) u digitálních hodin, datumu a budíku
+  - panel počasí - poskytovatel Yahoo!
+  - barevné nebo černobílé ikony počasí
+  - podpora minimalizace widgetu počasí (pěkné na zámku obrazovky)
+  - panel kalendáře s možností rolování seznamu odálostí
+  - dotykem na událost je tato otevřena v aplikaci kalendáře
+  - dotykem na ikonu kalendáře bude zobrazen kalendář na aktuálním datu
+  - změna font a barev všech textů a panelů
+  - konfigurace widgetu při přidání nebo z aplikace Chronus
+  - zvýraznění nadchízející události v kalendáři s vlastními barvami či tučným fontem
+
+<b>Zásluhy:</b>
+I když jsem napsal významnou část aplikace Chronus sám, mnoho zásluh patří také Danny Baumannovi pro jeho práci na počasí a
+účtovacích službách, kontrole a ladění; další dík patří překladatelům z CyanogenMod komunity, kteří pomohli s překladem do
+mnoha jazyků; a dalších přispěvovatelů jako Nicolai Ehemann a Matt Booth pro opravy a nově přidané vlastnosti.
