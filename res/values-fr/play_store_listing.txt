@@ -1,0 +1,35 @@
+Bienvenue dans Chronus, un widget horloge, calendrier et météo très élégant pour votre écran d'accueil et de verrouillage.
+
+Ce widget est le même que celui de CyanogenMod et est proposé par les mêmes développeurs. Cette version indépendante et autonome du widget reprend son nom d'origine Chronus et apporte la même apparence réussie à une communauté Android plus large.
+
+<b>Notes :</b>
+1) Le widget de l'écran de verrouillage est supporté seulement par Android 4.2 et supérieur. C'est une limitation d'Android, pas de Chronus.
+2) WidgetLocker n'est pas supporté.
+3) Sur certains appareils il est nécessaire de redémarrer après l'installation pour que le widget apparaisse dans la liste des widgets.
+
+<b>Fonctionnalités (Version Pro):</b>
+  - Actions personnalisées lors d'un appui sur l'heure, la météo et le calendrier afin de lancer des applications ou des activités personnalisées
+  - Définir la couleur de l'arrière-plan
+  - Alignement du panneau d'heure numérique (Centré, Gauche ou Droite)
+  - Alignement du panneau de météo (Centré, Gauche ou Droite)
+  - et d'autres fonctionnalités qui arriveront dans 3-4 semaines...
+
+<b>Fonctionnalités (toute version):</b>
+La version standard est équivalente au widget cLock de CyanogenMod 10.2 avec en plus le support pour les anciennes versions d'Android.
+  - Support pour Android 4.1 et supérieur
+  - Support de l'ajout du widget à l'écran d'accueil (Android 4.1 et supérieur) ou à l'écran de verrouillage (Android 4.2 et supérieur) ou les deux
+  - Choix entre l'heure analogique ou numérique et la personnalisation de l'apparence
+  - Choisir comment afficher les alarmes
+  - Personnalisation de la police, gras/normal de l'heure digital, de la date et des alarmes
+  - Panneau météo avec Yahoo! Météo
+  - Icônes météo monochromes ou couleurs
+  - Support du widget minimisé (Particulièrement pratique pour l'écran de verrouillage)
+  - Défilement du panneau du calendrier pour afficher les événements à venir
+  - Un appui sur un événement du calendrier ouvre directement cet événement dans l'application calendrier
+  - Un appui sur l'icône du calendrier ouvre l'application calendrier à la date d'aujourd’hui
+  - Choix de la couleur des polices de tous les textes dans tous les panneaux
+  - Configurer le widget à l'ajout de Chronus ou depuis la liste des applications
+  - Mise en surbrillance des événements à venir avec des couleurs et mise en forme de la police personnalisable
+
+<b>Crédits:</b>
+Même si j'ai écrit des parties importantes de Chronus énormément de mérite revient à Danny Baumann pour son travail sur les conditions météorologiques, le service de facturation, l'examen et le peaufinage du code ; mais également aux nombreux traducteurs de la communauté CyanogenMod pour avoir ajouté toutes les langues qui sont incluses, et d'autres contributeurs comme Nicolai Ehemann et Matt Booth pour les correctifs et les fonctionnalités qu'ils ont ajoutées.
