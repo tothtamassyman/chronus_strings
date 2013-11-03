@@ -170,7 +170,6 @@
     <string name="credits_title">Créditos</string>
     <string name="credits_summary">Apesar de ter escrito partes significativas do Chronus, muito crédito vai também para Danny Baumann pelos seus serviços de tempo e pagamento, revendo e ajustando; os muitos tradutores da comunidade CyanogenMod por adicionarem todos os idiomas que estão incluídos; e outros contribuidores como Nicolai Ehemann e Matt Booth pelos consertos e funcionalidades que contribuiram.</string>
     <string name="contact_title">Contacte-me</string>
-    <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
     <string name="send_email">Enviar e-mail \u2026</string>
     <string name="pro_features_summary">Clique para ativar as funcionalidades Pro</string>
     <string name="pro_features_thanks">Obrigado por ter comprado</string>
