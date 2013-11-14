@@ -208,7 +208,7 @@
 	4.2+ vagy újabb rendszereken képernyőzárhoz is hozzáadható. Csúsztassa balra a képernyőzárat, majd kattintson a (+) jelre a
 	Chronus hozzáadásához. A képernyőzár modulok hosszan nyomva tartással átalakíthatóak, mozgathatóak vagy törölhetőek.</string>
 
-    <string name="credits_title">Credits</string>
+    <string name="credits_title">Köszönetnyilvánítás</string>
     <string name="credits_summary">Annak ellenére, hogy én írtam a Chronus jelentős részét, sok elismerés jár Danny Baumann-nak is,
 	az időjárás modulon és a számlázási szolgáltatásokon végzett munkájáért, valamint a finomhangolásokért és a felülvizsgálatokért.
     Köszönet továbbá a sok CM közösségi fordítónak, akik elkészítették a fordításokat és más közreműködőknek, mint Nicolai Ehemann-nak
