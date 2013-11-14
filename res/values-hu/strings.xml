@@ -21,6 +21,7 @@
     <string name="cancel">Elvet</string>
     <string name="loading_indicator">Modul betöltése\u2026</string>
     <string name="menu_done">Kész</string>
+    <string name="ok">OK</string>
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">Tornádó</string>
@@ -71,8 +72,7 @@
     <string name="weather_45">Viharos</string>
     <string name="weather_46">Hózáporok</string>
     <string name="weather_47">Elszigetelt vihar</string>
-    <!-- Forecast unavailable -->
-    <string name="weather_3200"></string>
+    <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
     <!-- Weather - Wind directions -->
     <string name="weather_N">É</string>
@@ -87,7 +87,7 @@
     <!-- Weather - error messages -->
     <string name="weather_no_data">Nincs adat</string>
     <string name="weather_tap_to_refresh">Érintse meg a frissítéshez</string>
-    <string name="weather_refreshing">Frissítés…</string>
+    <string name="weather_refreshing">Frissítés\u2026</string>
     <string name="weather_last_sync_just_now">Épp most</string>
 
     <!-- Weather - Update frequency -->
@@ -103,6 +103,8 @@
     <string name="clock_category">Óra és ébresztő</string>
     <string name="weather_category">Időjárás panel</string>
     <string name="calendar_category">Naptárbejegyzések</string>
+    <string name="about_category">Chronus névjegye</string>
+    <string name="appearance_category">Általános megjelenés</string>
 
     <!-- Preferences - Categories -->
     <string name="general_category">Általános</string>
@@ -120,6 +122,7 @@
     <!-- Preferences - Weather -->
     <string name="weather_enabled">Engedélyezve</string>
     <string name="weather_enable">Időjárás megjelenítése</string>
+    <string name="weather_source_title">Időjárás forrása</string>
     <string name="weather_source">Yahoo! időjárás</string>
     <string name="weather_use_custom_location">Egyéni hely használata</string>
     <string name="weather_geolocated">Helyzetmeghatározás</string>
@@ -139,6 +142,7 @@
     <string name="weather_alternate_icons_summary">Válasszon az alapértelmezett (színes), illetve az alternatív (fehér) ikonok közül</string>
     <string name="weather_show_when_minimized_title">Megjelenítés kis méret esetén</string>
     <string name="weather_show_when_minimized_summary">Időjárási adatok megjelenítése kis modulméret esetén</string>
+    <string name="weather_select_location">Válassza ki a helyet</string>
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">Megjeleníti a következő naptárbejegyzést</string>
@@ -192,6 +196,84 @@
     <string name="holo_orange_light">Világos narancs</string>
     <string name="holo_orange_dark">Sötét narancs</string>
     <string name="holo_blue_bright">Sötétkék</string>
+	
+   <!-- First run -->
+    <string name="how_to_title">Súgó</string>
+    <string name="first_run_title">Üdvözli a %s</string> <!-- '%s' is the App name (name="app_name") -->
+    <string name="first_run_message">A Chronus egy modul, melyet manuálisan helyezhet el a keződképernyőjén (Android 4.1+) vagy a
+	képernyőzárján (csak Android 4.2+) az Android programindítóban található modulválasztó segítségével.\n\nA modul elhelyezése után
+	használja ezt az alkalmazást a beállításokhoz.\n\nNe feledje el átméretezni a modult, hogy megfelelő helyet adjon az összes engedélyezett
+	funkcióknak (óra, időjárás, naptár), mivel a modul automatikusan elrejti azokat a paneleket, amelyek nem férnek el.\n\nLegjobb eredményért
+	az Apex vagy a Nova programindítót javaslom. A Chronus a legtöbb programindítóval képes működni, bár a megjelenés esetenként eltérhet.\n\nAndroid
+	4.2+ vagy újabb rendszereken képernyőzárhoz is hozzáadható. Csúsztassa balra a képernyőzárat, majd kattintson a (+) jelre a
+	Chronus hozzáadásához. A képernyőzár modulok hosszan nyomva tartással átalakíthatóak, mozgathatóak vagy törölhetőek.</string>
 
+    <string name="credits_title">Credits</string>
+    <string name="credits_summary">Annak ellenére, hogy én írtam a Chronus jelentős részét, sok elismerés jár Danny Baumann-nak is,
+	az időjárás modulon és a számlázási szolgáltatásokon végzett munkájáért, valamint a finomhangolásokért és a felülvizsgálatokért.
+    Köszönet továbbá a sok CM közösségi fordítónak, akik elkészítették a fordításokat és más közreműködőknek, mint Nicolai Ehemann-nak
+	és Matt Booth-nak a javításokért és funkciókért amikkel hozzájárultak az alkalmazáshoz.</string>
+    <string name="contact_title">Léjen kapcsolatba velem</string>
+    <string name="send_email">E-mail küldése\u2026</string>
 
+    <!-- START OF PRO VERSION STRINGS -->
+    <!-- Pro features (About) -->
+    <string name="pro_features_summary">Kattintson a Pro funkciók engedélyezéséhez</string>
+    <string name="pro_features_thanks">Köszönöm a vásárlását</string>
+    <string name="pro_features_message">A Pro változat minden funkciót tartalmaz, amit a standard verzió is és
+        az elkövetkező hónapokban további funkciókkal szeretném még tovább bővíteni. Ilyenek mint:\n\n
+        \u2022 További modul elrendezések\n
+        \u2022 Alternatív időjárás szolgáltató\n
+        \u2022 Modulonkénti beállítások\n
+        \u2022 További naptár funkciók\n
+        \u2022 Mini naptárpanel\n
+        \u2022 és így tovább\u2026\n\nA javaslatokat mindig szívesen várom.\n\nElőre is köszönöm a támogatást.</string>
+    <string name="get_pro">Pro verzió beszerzése</string>
+
+    <!-- Shortcut picker -->
+    <string name="picker_apps">Alkalmazások</string>
+    <string name="picker_activities">Tevékenységek</string>
+    <string name="picker_default">Alapértelmezett esemény </string>
+    <string name="picker_select_custom_app_title">Válasszon egyedi alkalmazást</string>
+    <string name="picker_select_custom_activity_title">Válasszon egyedi tevékenységet</string>
+
+    <!-- Preferences - Tap actions -->
+    <string name="tap_action_title">Érintés eseménye</string>
+    <string name="tap_action_clock_default">Rendszer óra</string>
+    <string name="tap_action_weather_default">Időjárás frissítése </string>
+    <string name="tap_action_calendar_default">Rendszer naptár</string>
+    <string name="tap_action_weather_forecast">Előrejelzés megjelenítése</string>
+
+    <!-- Preferences - Widget background -->
+    <string name="widget_background_title">Modul háttere</string>
+    <string name="widget_background_default">Átlátszó</string>
+    <string name="widget_background_color_fill">Egyéni szín</string>
+    <string name="widget_background_custom_image">Egyéni kép</string>
+    <string name="widget_background_dialog_title">Válasszon szint</string>
+    <string name="widget_background_result_successful">Háttérkép sikeresen megváltoztatva</string>
+    <string name="widget_background_result_not_successful">Nem lehet megváltoztatni a háttérképet</string>
+
+    <!-- Alignment settings -->
+    <string name="alignment_title">Elrendezés</string>
+    <string name="alignment_centered">Középre</string>
+    <string name="alignment_left">Balra igazított</string>
+    <string name="alignment_right">Jobbra igazított</string>
+
+    <!-- Calendar colors -->
+    <string name="calendar_colors">Naptáresemény színe</string>
+
+    <!-- Clock types -->
+    <string name="clock_enable">Óra típusa</string>
+    <string name="clock_analog">Analóg</string>
+    <string name="clock_digital">Digitális</string>
+
+    <!-- Widget names -->
+    <!-- TRANSLATORS: The App name should remain as Chronus -->
+    <string name="chronus_clockplus">Chronus Óra+</string>
+    <string name="chronus_weather">Chronus Időjárás</string>
+    <string name="chronus_calendar">Chronus Naptár</string>
+    <string name="chronus_mini">Chronus Mini</string>
+    <string name="chronus_small">Chronus Kicsi</string>
+    <string name="chronus_medium">Chronus Közepes</string>
+    <string name="chronus_large">Chronus Nagy</string>
 </resources>
