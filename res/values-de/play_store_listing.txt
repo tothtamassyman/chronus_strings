@@ -12,7 +12,7 @@ Funktionsgleich mit dem cLock-Widget von CyanogenMod wird diese App vom selben E
   - Auswählbare Hintergrundfarbe
   - Ausrichtung der digitalen Uhr wählbar (Zentriert, Links oder Rechts)
   - Ausrichtung der Wetter-Anzeige wählbar (Zentriert, Links oder Rechts)
-  - Neu Funktionen erscheinen alle 3-4 Wochen...
+  - Neue Funktionen erscheinen alle 3-4 Wochen...
 
 <b>Funktionen (Alle Versionen):</b>
 Die Standard-Version beinhaltet alle Funktionen des CyanogenMod cLock-Widgets aus CM10.2 mit Unterstützung für ältere Android-Versionen
