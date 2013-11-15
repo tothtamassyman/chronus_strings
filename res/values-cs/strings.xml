@@ -81,6 +81,7 @@
     <string name="weather_tap_to_refresh">Kliknutím obnovit</string>
     <string name="weather_refreshing">Obnovování</string>
     <string name="weather_last_sync_just_now">Právě teď</string>
+    <string name="weather_cannot_reach_provider">Server %s nedostupný</string>
 
     <string name="weather_refresh_manual">Ručně</string>
     <string name="weather_refresh_30min">30 minut</string>
@@ -217,7 +218,7 @@
 
     <string name="tap_action_title">Akce dotykem</string>
     <string name="tap_action_clock_default">Systémové hodiny</string>
-    <string name="tap_action_weather_default">Obnovit widget</string>
+    <string name="tap_action_weather_refresh">Obnovit widget</string>
     <string name="tap_action_calendar_default">Systémový kalendář</string>
     <string name="tap_action_weather_forecast">Zobrazit předpověď</string>
 

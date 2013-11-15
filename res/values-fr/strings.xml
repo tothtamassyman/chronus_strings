@@ -196,7 +196,7 @@
     <string name="picker_select_custom_activity_title">Sélectionner une activité personnalisée</string>
     <string name="tap_action_title">Action des appuis</string>
     <string name="tap_action_clock_default">Système d\'horloge</string>
-    <string name="tap_action_weather_default">Rafraîchir la météo</string>
+    <string name="tap_action_weather_refresh">Rafraîchir la météo</string>
     <string name="tap_action_calendar_default">Système de calendrier</string>
     <string name="tap_action_weather_forecast">Afficher les prévisions</string>
     <string name="widget_background_title">Arrière plan du widget</string>

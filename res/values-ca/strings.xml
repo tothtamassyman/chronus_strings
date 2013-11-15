@@ -101,7 +101,7 @@
     <string name="clock_am_pm_title">Mostra l\'indicador AM/PM</string>
     <string name="weather_enabled">Activat</string>
     <string name="weather_enable">Mostra el temps</string>
-    <string name="weather_source">Temps de Yahoo!</string>
+    <string name="weather_source_yahoo">Temps de Yahoo!</string>
     <string name="weather_use_custom_location">Utilitza una ubic. personalitzada</string>
     <string name="weather_geolocated">Geolocalitzat utilitzant la xarxa</string>
     <string name="weather_custom_location_dialog_title">Introdueix ubicació</string>
@@ -120,6 +120,7 @@
     <string name="weather_alternate_icons_summary">Selecciona per commutar entre les icones predeterminades (Color) i l\'alternatives (Blanc)</string>
     <string name="weather_show_when_minimized_title">Mostra quan minimitzat</string>
     <string name="weather_show_when_minimized_summary">Mostra un resum de la informació meteorològica quan el widget està minimitzat</string>
+    <string name="weather_select_location">Selecciona ubicació</string>
     <string name="calendar_title">Mostra el següent esdeveniment</string>
     <string name="calendars_title">Esdeveniments del calendari</string>
     <string name="calendars_summary">Troba esdeveniments dins d\'aquests calendaris</string>

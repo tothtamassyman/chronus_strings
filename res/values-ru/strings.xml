@@ -83,6 +83,7 @@
     <string name="weather_tap_to_refresh">Нажмите для обновления</string>
     <string name="weather_refreshing">Обновление\u2026</string>
     <string name="weather_last_sync_just_now">Только что</string>
+    <string name="weather_cannot_reach_provider">Сервер %s недоступен</string>
 
     <string name="weather_refresh_manual">Вручную</string>
     <string name="weather_refresh_30min">30 минут</string>
@@ -107,7 +108,7 @@
 
     <string name="weather_enabled">Включено</string>
     <string name="weather_enable">Погода отображается</string>
-    <string name="weather_source">Yahoo! Погода</string>
+    <string name="weather_source_yahoo">Yahoo! Погода</string>
     <string name="weather_use_custom_location">Не определять автоматически</string>
     <string name="weather_geolocated">Местоположение по сети</string>
     <string name="weather_custom_location_dialog_title">Введите местоположение</string>
@@ -126,6 +127,7 @@
     <string name="weather_alternate_icons_summary">Выбор между иконками по умолчанию (цветные) или альтернативными (белые)</string>
     <string name="weather_show_when_minimized_title">Показывать всегда</string>
     <string name="weather_show_when_minimized_summary">Отображать погоду, когда виджет в свёрнутом состоянии</string>
+    <string name="weather_select_location">Выберите местоположение</string>
 
     <string name="calendar_title">Показывать события</string>
     <string name="calendars_title">События календарей</string>
@@ -219,7 +221,7 @@
     <!-- Preferences - Tap actions -->
     <string name="tap_action_title">Действие при нажатии</string>
     <string name="tap_action_clock_default">Открыть «Часы»</string>
-    <string name="tap_action_weather_default">Обновить погоду</string>
+    <string name="tap_action_weather_refresh">Обновить погоду</string>
     <string name="tap_action_calendar_default">Открыть «Календарь»</string>
     <string name="tap_action_weather_forecast">Показать прогноз погоды</string>
 

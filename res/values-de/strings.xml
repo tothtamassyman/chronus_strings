@@ -81,6 +81,7 @@
     <string name="weather_tap_to_refresh">Zum Aktualisieren berühren</string>
     <string name="weather_refreshing">Aktualisiere\u2026</string>
     <string name="weather_last_sync_just_now">Gerade jetzt</string>
+    <string name="weather_cannot_reach_provider">%s ist nicht erreichbar</string>
     <string name="weather_refresh_manual">Manuell</string>
     <string name="weather_refresh_30min">30 Minuten</string>
     <string name="weather_refresh_60min">60 Minuten</string>
@@ -105,7 +106,7 @@
     <string name="weather_enabled">Aktiviert</string>
     <string name="weather_enable">Wetter anzeigen</string>
     <string name="weather_source_title">Wetterdienst</string>
-    <string name="weather_source">Yahoo! Wetter</string>
+    <string name="weather_source_yahoo">Yahoo! Wetter</string>
     <string name="weather_use_custom_location">Benutzerdefinierter Standort</string>
     <string name="weather_geolocated">Über Standortdienste bestimmt</string>
     <string name="weather_custom_location_dialog_title">Standort eingeben</string>
@@ -206,8 +207,9 @@
     <string name="picker_select_custom_activity_title">Aktivität auswählen</string>
     <string name="tap_action_title">Aktion beim Berühren</string>
     <string name="tap_action_clock_default">System-Uhr</string>
-    <string name="tap_action_weather_default">Wetter aktualisieren</string>
+    <string name="tap_action_weather_refresh">Wetter aktualisieren</string>
     <string name="tap_action_calendar_default">System-Kalender</string>
+    <string name="tap_action_weather_forecast">Wettervorhersage anzeigen</string>
     <string name="widget_background_title">Widget-Hintergrund</string>
     <string name="widget_background_default">Transparent</string>
     <string name="widget_background_color_fill">Farbfüllung</string>

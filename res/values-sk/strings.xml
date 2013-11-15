@@ -78,6 +78,7 @@
     <string name="weather_tap_to_refresh">Kliknutím obnovte</string>
     <string name="weather_refreshing">Obnovuje sa</string>
     <string name="weather_last_sync_just_now">Práve teraz</string>
+    <string name="weather_cannot_reach_provider">Nemožno dosiahnuť %s</string>
     <string name="weather_refresh_manual">Ručne</string>
     <string name="weather_refresh_30min">30 minút</string>
     <string name="weather_refresh_60min">60 minút</string>
@@ -86,7 +87,7 @@
     <string name="weather_refresh_6hrs">6 hodín</string>
     <string name="weather_refresh_8hrs">8 hodín</string>
     <string name="clock_category">Hodiny a budík</string>
-    <string name="weather_category">Panel s počasím</string>
+    <string name="weather_category">Lišta s počasím</string>
     <string name="calendar_category">Udalosti v kalendári</string>
     <string name="about_category">O aplikácii Chronus</string>
     <string name="appearance_category">Všeobecný vzhľad</string>
@@ -101,7 +102,7 @@
     <string name="clock_am_pm_title">Zobraziť indikátor AM/PM</string>
     <string name="weather_enabled">Povolené</string>
     <string name="weather_enable">Zobraziť počasie</string>
-    <string name="weather_source">Počasie Yahoo!</string>
+    <string name="weather_source_yahoo">Počasie Yahoo!</string>
     <string name="weather_use_custom_location">Použiť vlastné umiestnenie</string>
     <string name="weather_geolocated">Lokalizované pomocou siete</string>
     <string name="weather_custom_location_dialog_title">Zadajte umiestnenie</string>
@@ -205,7 +206,7 @@
     <string name="send_email">Odoslať e-mail \u2026</string>
     <string name="tap_action_title">Akcia po kliknutí</string>
     <string name="tap_action_clock_default">Systémové hodiny</string>
-    <string name="tap_action_weather_default">Aktualizácia počasia</string>
+    <string name="tap_action_weather_refresh">Aktualizácia počasia</string>
     <string name="tap_action_calendar_default">Systémový kalendár</string>
     <string name="tap_action_weather_forecast">Zobrazenie predpovede</string>
     <string name="weather_select_location">Vybrať polohu</string>
