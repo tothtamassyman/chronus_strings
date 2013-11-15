@@ -1,73 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project (DvTonder)
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
+    <!-- General strings -->
+    <string name="app_name" translatable="false">Chronus</string>
+    <string name="app_name_pro" translatable="false">Chronus Pro</string>
+
     <string name="unknown">Sconosciuto</string>
     <string name="cancel">Annulla</string>
-    <string name="loading_indicator">Caricamento widget\u2026</string>
-    <string name="menu_done">Fatto</string>
+    <string name="loading_indicator">Caricamento widget in corso...</string>
+    <string name="menu_done">Eseguito</string>
+    <string name="ok">OK</string>
+
+    <!-- Formating strings for widget clock -->
+    <string name="widget_12_hours_format_h" translatable="false">h</string>
+    <string name="widget_12_hours_format_no_ampm_m" translatable="false">:mm</string>
+    <string name="widget_12_hours_format_m" translatable="false">:mm<font size="15">aa</font></string>
+    <string name="widget_24_hours_format_h" translatable="false">kk</string>
+    <string name="widget_24_hours_format_m" translatable="false">:mm</string>
+
+    <!-- Weather - Weather codes -->
     <string name="weather_0">Tornado</string>
     <string name="weather_1">Tempesta tropicale</string>
     <string name="weather_2">Uragano</string>
-    <string name="weather_3">Forti temporali</string>
+    <string name="weather_3">Temporali forti</string>
     <string name="weather_4">Temporali</string>
     <string name="weather_5">Pioggia mista a neve</string>
     <string name="weather_6">Pioggia mista a nevischio</string>
     <string name="weather_7">Neve mista a nevischio</string>
-    <string name="weather_8">Pioviggine congelantesi</string>
-    <string name="weather_9">Pioviggine</string>
-    <string name="weather_10">Pioggia congelantesi</string>
-    <string name="weather_11">Rovesci</string>
-    <string name="weather_12">Rovesci</string>
-    <string name="weather_13">Raffiche di neve</string>
-    <string name="weather_14">Leggere nevicate</string>
-    <string name="weather_15">Bufera di neve</string>
+    <string name="weather_8">Pioggia sottile ghiacciata</string>
+    <string name="weather_9">Pioggia sottile</string>
+    <string name="weather_10">Pioggia ghiacciata</string>
+    <string name="weather_11">Acquazzoni</string>
+    <string name="weather_12">Acquazzoni</string>
+    <string name="weather_13">Neve ghiacciata</string>
+    <string name="weather_14">Scrosci leggeri di neve</string>
+    <string name="weather_15">Raffiche di neve</string>
     <string name="weather_16">Neve</string>
     <string name="weather_17">Grandine</string>
     <string name="weather_18">Nevischio</string>
-    <string name="weather_19">Tempesta di sabbia</string>
+    <string name="weather_19">Polvere</string>
     <string name="weather_20">Nebbioso</string>
     <string name="weather_21">Foschia</string>
-    <string name="weather_22">Fumo</string>
-    <string name="weather_23">Forte vento</string>
+    <string name="weather_22">Fumoso</string>
+    <string name="weather_23">Burrascoso</string>
     <string name="weather_24">Ventoso</string>
     <string name="weather_25">Freddo</string>
     <string name="weather_26">Nuvoloso</string>
-    <string name="weather_27">Coperto</string>
-    <string name="weather_28">Coperto</string>
-    <string name="weather_29">Parzialmente nuvoloso</string>
-    <string name="weather_30">Parzialmente nuvoloso</string>
-    <string name="weather_31">Sereno</string>
-    <string name="weather_32">Soleggiato</string>
-    <string name="weather_33">Bel tempo</string>
-    <string name="weather_34">Bel tempo</string>
+    <string name="weather_27">Coperto</string> <!-- Night -->
+    <string name="weather_28">Coperto</string> <!-- Day -->
+    <string name="weather_29">Parzialmente nuvoloso</string> <!-- Night -->
+    <string name="weather_30">Parzialmente nuvoloso</string> <!-- Day -->
+    <string name="weather_31">Sereno</string> <!-- Night -->
+    <string name="weather_32">Assolato</string>
+    <string name="weather_33">Bello</string> <!-- Night -->
+    <string name="weather_34">Bello</string> <!-- Day -->
     <string name="weather_35">Pioggia mista a grandine</string>
     <string name="weather_36">Caldo</string>
-    <string name="weather_37">Temporali isolati</string>
-    <string name="weather_38">Temporali sparsi</string>
-    <string name="weather_39">Temporali sparsi</string>
-    <string name="weather_40">Rovesci sparsi</string>
-    <string name="weather_41">Forti nevicate</string>
-    <string name="weather_42">Rovesci di neve sparsi</string>
-    <string name="weather_43">Forti nevicate</string>
+    <string name="weather_37">Isolati temporali</string>
+    <string name="weather_38">Temporali sporadici</string>
+    <string name="weather_39">Temporali sporadici</string>
+    <string name="weather_40">Acquazzoni sporadici</string>
+    <string name="weather_41">Forte nevicata</string>
+    <string name="weather_42">Scrosci forti di neve</string>
+    <string name="weather_43">Forte nevicata</string>
     <string name="weather_44">Parzialmente nuvoloso</string>
-    <string name="weather_45">Rovesci temporaleschi</string>
-    <string name="weather_46">Rovesci di neve</string>
-    <string name="weather_47">Rovesci temporaleschi isolati</string>
-    <string name="weather_3200"></string>
+    <string name="weather_45">Scrosci intensi</string>
+    <string name="weather_46">Scrosci di neve</string>
+    <string name="weather_47">Intensi scrosci isolati</string>
+    <string name="weather_3200"/> <!-- Forecast unavailable -->
+
+    <!-- Weather - Wind directions -->
     <string name="weather_N">N</string>
     <string name="weather_NE">NE</string>
     <string name="weather_E">E</string>
@@ -76,11 +77,18 @@
     <string name="weather_SW">SO</string>
     <string name="weather_W">O</string>
     <string name="weather_NW">NO</string>
-    <string name="weather_no_data">Dati non disponibili</string>
+
+    <!-- Weather - Error messages -->
+    <string name="weather_no_data">Nessun dato</string>
     <string name="weather_tap_to_refresh">Tocca per aggiornare</string>
     <string name="weather_refreshing">Aggiornamento\u2026</string>
     <string name="weather_last_sync_just_now">Poco fa</string>
     <string name="weather_cannot_reach_provider">Impossibile collegarsi a %s</string>
+    <string name="weather_refreshing">Aggiornamento</string>
+    <string name="weather_last_sync_just_now">Adesso</string>
+    <string name="weather_cannot_reach_provider">Attualmente impossibile raggiungere %s</string>
+
+    <!-- Weather - Update frequency -->
     <string name="weather_refresh_manual">Manuale</string>
     <string name="weather_refresh_30min">30 minuti</string>
     <string name="weather_refresh_60min">60 minuti</string>
@@ -88,58 +96,72 @@
     <string name="weather_refresh_4hrs">4 ore</string>
     <string name="weather_refresh_6hrs">6 ore</string>
     <string name="weather_refresh_8hrs">8 ore</string>
+
+    <!-- Preferences - Categories -->
     <string name="clock_category">Orologio e sveglia</string>
-    <string name="weather_category">Meteo</string>
+    <string name="weather_category">Pannello meteo</string>
     <string name="calendar_category">Eventi del calendario</string>
+    <string name="about_category">Info su Chronus</string>
+    <string name="appearance_category">Aspetto generale</string>
     <string name="general_category">Generale</string>
-    <string name="display_category">Visualizzazione</string>
-    <string name="use_digital_clock_title">Usa orologio digitale</string>
-    <string name="use_digital_clock_summary">Selezionare per mostrare l\'orologio digitale invece dell\'analogico</string>
+    <string name="display_category">Display</string>
+
+    <!-- Preferences - Clock -->
+    <string name="use_digital_clock_title">Usa l\'orologio digitale</string>
+    <string name="use_digital_clock_summary">Seleziona per cambiare l\'orologio digitale in analogico e viceversa</string>
     <string name="clock_font_title">Ore in grassetto</string>
     <string name="clock_font_minutes_title">Minuti in grassetto</string>
     <string name="clock_font_date_title">Data e sveglia in grassetto</string>
-    <string name="show_alarm_title">Visualizza la prossima sveglia</string>
-    <string name="clock_am_pm_title">Mostra l\'indicatore AM/PM</string>
-    <string name="weather_enabled">Attivo</string>
-    <string name="weather_enable">Visualizza meteo</string>
+    <string name="show_alarm_title">Mostra sveglia successiva</string>
+    <string name="clock_am_pm_title">Mostra indicazione AM/PM</string>
+
+    <!-- Preferences - Weather -->
+    <string name="weather_enabled">Attivato</string>
+    <string name="weather_enable">Mostra il meteo</string>
+    <string name="weather_source_title">Fonte meteo</string>
     <string name="weather_source_yahoo">Yahoo! Meteo</string>
-    <string name="weather_use_custom_location">Posizione personalizzata</string>
-    <string name="weather_geolocated">Localizzazione tramite la rete</string>
-    <string name="weather_custom_location_dialog_title">Inserisci la posizione</string>
-    <string name="weather_custom_location_hint">Città, Regione/Stato</string>
+    <string name="weather_use_custom_location">Usa posizione utente</string>
+    <string name="weather_geolocated">Geoposizionato tramite rete</string>
+    <string name="weather_custom_location_dialog_title">Immetti posizione</string>
+    <string name="weather_custom_location_hint">Città, stato/nazione</string>
     <string name="weather_custom_location_title">Posizione</string>
     <string name="weather_show_location_title">Mostra posizione</string>
-    <string name="weather_show_timestamp_title">Tempo trascorso dall\'aggiornamento</string>
-    <string name="weather_refresh_interval">Intervallo aggiornamento</string>
-    <string name="weather_use_metric">Usa unità metriche</string>
-    <string name="weather_retrieve_location_dialog_title">Impossibile rilevare la posizione</string>
-    <string name="weather_retrieve_location_dialog_message">La localizzazione tramite la rete è disabilitata.\n\nImposta una posizione personalizzata o abilita la localizzazione tramite la rete</string>
-    <string name="weather_retrieve_location_dialog_enable_button">Abilita</string>
-    <string name="weather_invert_lowhigh">Inverti temperature minime/massime</string>
-    <string name="weather_progress_title">Verifica della posizione\u2026</string>
-    <string name="weather_alternate_icons_title">Usa icone colorate</string>
-    <string name="weather_alternate_icons_summary">Seleziona per sostituire le icone predefinite (colorate) con quelle alternative (bianche)</string>
-    <string name="weather_show_when_minimized_title">Mostra se minimizzato</string>
-    <string name="weather_show_when_minimized_summary">Mostra le informazioni di riepilogo sul tempo quando il widget è minimizzato</string>
+    <string name="weather_show_timestamp_title">Mostra indicatore data e orario</string>
+    <string name="weather_refresh_interval">Aggiorna intervallo</string>
+    <string name="weather_use_metric">Usa sistema metrico</string>
+    <string name="weather_retrieve_location_dialog_title">Impossibile recuperare posizione!</string>
+    <string name="weather_retrieve_location_dialog_message">Geoposizionamento di rete disattivato. Impostare una posizione utente o attivare posizione di rete</string>
+    <string name="weather_retrieve_location_dialog_enable_button">Attiva</string>
+    <string name="weather_invert_lowhigh">Inverti temperatura bassa/alta</string>
+    <string name="weather_progress_title">Verifica posizione</string>
+    <string name="weather_alternate_icons_title">Usa icone a colori</string>
+    <string name="weather_alternate_icons_summary">Seleziona per passare dalle icone predefinite (a colori) alle icone alternative (bianche) e viceversa</string>
+    <string name="weather_show_when_minimized_title">Mostra quando ridotto a icona</string>
+    <string name="weather_show_when_minimized_summary">Mostra le informazioni meteo riassuntive quando il widget è ridotto a icona</string>
     <string name="weather_select_location">Seleziona posizione</string>
-    <string name="calendar_title">Visualizza eventi</string>
+
+    <!-- Preferences - Calendar -->
     <string name="calendars_title">Calendari eventi</string>
-    <string name="calendars_summary">Mostra gli eventi da questi calendari</string>
-    <string name="calendar_reminders_only_title">Solo avvisi</string>
-    <string name="calendar_reminders_only_summary">Visualizza solo eventi con avvisi</string>
-    <string name="calendar_hide_allday_title">Nascondi eventi del giorno</string>
-    <string name="calendar_icon_title">Icona calendario</string>
-    <string name="calendar_lookahead_title">Anticipo eventi</string>
-    <string name="calendar_show_location_title">Posizione evento</string>
+    <string name="calendars_summary">Trova eventi in questi calendari</string>
+    <string name="calendar_reminders_only_title">Solo promemoria</string>
+    <string name="calendar_reminders_only_summary">Mostra solo eventi con promemoria</string>
+    <string name="calendar_hide_allday_title">Nascondi eventi di un\'intera giornata</string>
+    <string name="calendar_icon_title">Icona del calendario</string>
+    <string name="calendar_lookahead_title">Evento futuro</string>
+    <string name="calendar_show_location_title">Luogo evento</string>
     <string name="calendar_show_description_title">Descrizione evento</string>
-    <string name="calendar_upcoming_events_category">Eventi prossimi</string>
+    <string name="calendar_upcoming_events_category">Prossimi eventi</string>
     <string name="calendar_highlight_upcoming_events_title">Evidenzia eventi</string>
-    <string name="calendar_highlight_upcoming_events_summary">Evidenzia gli eventi del giorno e, dopo le 20:00, anche quelli del giorno dopo</string>
-    <string name="calendar_highlight_upcoming_events_bold">Grassetto</string>
+    <string name="calendar_highlight_upcoming_events_summary">Evidenzia gli eventi di oggi e dopo le 20:00 anche gli eventi di domani</string>
+    <string name="calendar_highlight_upcoming_events_bold">Carattere in grassetto</string>
+
+    <!-- Preferences - Font colors -->
     <string name="font_color">Colore carattere</string>
     <string name="font_color_alarm">Colore carattere sveglia</string>
-    <string name="font_color_timestamp">Colore carattere timestamp</string>
+    <string name="font_color_timestamp">Colore carattere indicatore data e orario</string>
     <string name="font_color_calendar_details">Colore carattere dettagli</string>
+
+    <!-- Calendar - Lookahead -->
     <string name="calendar_lookahead_3hrs">3 ore</string>
     <string name="calendar_lookahead_6hrs">6 ore</string>
     <string name="calendar_lookahead_12hrs">12 ore</string>
@@ -149,20 +171,95 @@
     <string name="calendar_lookahead_1wk">1 settimana</string>
     <string name="calendar_lookahead_2wks">2 settimane</string>
     <string name="calendar_lookahead_4wks">4 settimane</string>
-    <string name="calendar_metadata_none">Non visualizzare</string>
-    <string name="calendar_metadata_first_line">Visualizza la prima linea</string>
-    <string name="calendar_metadata_all">Visualizza tutto</string>
+
+    <!-- Calendar - Event metadata -->
+    <string name="calendar_metadata_none">Non mostrare</string>
+    <string name="calendar_metadata_first_line">Mostra prima riga</string>
+    <string name="calendar_metadata_all">Mostra tutto</string>
+
+    <!-- Font colors -->
     <string name="white">Bianco</string>
     <string name="grey">Grigio</string>
     <string name="black">Nero</string>
-    <string name="holo_blue_light">Azzurro chiaro</string>
+    <string name="holo_blue_light">Celeste</string>
     <string name="holo_green_light">Verde chiaro</string>
     <string name="holo_red_light">Rosso chiaro</string>
-    <string name="holo_blue_dark">Azzurro scuro</string>
+    <string name="holo_blue_dark">Blu scuro</string>
     <string name="holo_green_dark">Verde scuro</string>
     <string name="holo_red_dark">Rosso scuro</string>
     <string name="holo_purple">Viola</string>
     <string name="holo_orange_light">Arancione chiaro</string>
     <string name="holo_orange_dark">Arancione scuro</string>
-    <string name="holo_blue_bright">Azzurro luminoso</string>
+    <string name="holo_blue_bright">Blu intenso</string>
+
+    <!-- First run -->
+    <string name="how_to_title">Guida</string>
+    <string name="first_run_title">Benvenuto su %s</string> <!-- '%s' is the App name (name="app_name") -->
+    <string name="first_run_message">Chronus è un widget e deve essere aggiunto manualmente sia alla schermata Home (Android 4.1 +) o alla schermata di blocco (possibile solo su Android 4.2 +) utilizzando la funzione di selezione widget di Android e il tuo programma di avvio.\n\nUna volta che il widget è posto, è possibile utilizzare questa applicazione per modificare la configurazione del widget.\n\nRicordarsi di ridimensionare il widget sul vostro schermo per fare spazio a tutti i pannelli abilitati (Orologio, Meteo e Agenda) in quanto il widget vi nascondere automaticamente i pannelli se non è abbastanza grande.\n\nPer i migliori risultati, ho raccomandato utilizzando il Apex o Nova lanciatori. Chronus lavorerà sulla maggior parte dei lanciatori, ma la possibilità di configurare la modalità di visualizzazione può essere limitato.\n\nPer Android 4.2 +, per aggiungere un widget per la schermata di blocco, scorrere a sinistra nella schermata Blocca, quindi utilizzare il pulsante Widget Aggiungi (+) per aggiungere Crono. Blocca oggetti sullo schermo possono essere riorganizzate premendo a lungo poi si spostano o cancellandoli.</string>
+
+    <string name="credits_title">Meriti</string>
+    <string name="credits_summary">Anche se sono l\'autore di molte parti sostanziali di Chronus, una buona parte del merito va attribuita a Danny Baumann per il lavoro che ha dedicato al meteo e ai servizi di fatturazione, alla revisione e alle modifiche, ai molti traduttori della comunità CyanogenMod per l\'aggiunta di tutte le lingue che sono incluse e ad altri collaboratori quali Nicolai Ehemann e Matt Booth per le correzioni e le funzioni cui hanno collaborato.</string>
+    <string name="contact_title">Contattami</string>
+    <string name="contact_summary" translatable="false">chronus.widget\@gmail.com</string>
+    <string name="send_email">Invia e-mail...</string>
+
+    <!-- START OF PRO VERSION STRINGS -->
+    <!-- Pro features (About) -->
+    <string name="pro_features_summary">Fai clic per attivare le funzioni Pro</string>
+    <string name="pro_features_thanks">Grazie per l\'acquisto</string>
+    <string name="pro_features_message">La versione Pro comprende tutte le funzioni della versione standard e nei prossimi mesi verrà arricchita di molte altre funzioni tra cui:\n • Altri layout di widget\n • Un fornitore di servizi meteo alternativo\n • Impostazioni per widget\n • Altre funzioni di calendario \n • e molto altro…\n\nI consigli sono sempre graditi.\n\nTi ringraziamo anticipatamente per il tuo supporto.</string>
+    <string name="get_pro">Acquista Pro</string>
+
+    <!-- Shortcut picker -->
+    <string name="picker_apps">Applicazioni</string>
+    <string name="picker_activities">Attività</string>
+    <string name="picker_default">Azione predefinita</string>
+    <string name="picker_select_custom_app_title">Seleziona app utente</string>
+    <string name="picker_select_custom_activity_title">Seleziona attività utente</string>
+
+    <!-- Preferences - Tap actions -->
+    <string name="tap_action_title">Tocca azione</string>
+    <string name="tap_action_clock_default">Orologio di sistema</string>
+    <string name="tap_action_weather_default">Aggiorna meteo</string>
+    <string name="tap_action_calendar_default">Calendario di sistema</string>
+    <string name="tap_action_weather_forecast">Mostra previsione</string>
+
+    <!-- Preferences - Widget background -->
+    <string name="widget_background_title">Sfondo widget</string>
+    <string name="widget_background_default">Trasparente</string>
+    <string name="widget_background_color_fill">Riempimento a colori</string>
+    <string name="widget_background_custom_image">Immagine utente</string>
+    <string name="widget_background_dialog_title">Scegli colore</string>
+    <string name="widget_background_result_successful">Sfondo modificato</string>
+    <string name="widget_background_result_not_successful">Impossibile modificare sfondo</string>
+
+    <!-- Alignment settings -->
+    <string name="alignment_title">Allineamento</string>
+    <string name="alignment_centered">Centrato</string>
+    <string name="alignment_left">Allineato a sinistra</string>
+    <string name="alignment_right">Allineato a destra</string>
+
+    <!-- Calendar colors -->
+    <string name="calendar_colors">Colore calendario eventi</string>
+
+    <!-- Clock types -->
+    <string name="clock_enable">Orologio del display</string>
+    <string name="clock_analog">Orologio analogico</string>
+    <string name="clock_digital">Orologio digitale</string>
+
+    <!-- Weather providers -->
+    <string name="weather_source_wunderground" translatable="false">Weather Underground</string>
+    <string name="weather_source_hamweather" translatable="false">Hamweather</string>
+    <string name="weather_source_accuweather" translatable="false">Accuweather</string>
+
+    <!-- Widget names -->
+    <!-- TRANSLATORS: The App name should remain as Chronus -->
+    <string name="chronus_flex" translatable="false">Chronus Flex</string>
+    <string name="chronus_clockplus">Chronus Orologio+</string>
+    <string name="chronus_weather">Chronus Meteo</string>
+    <string name="chronus_calendar">Chronus Calendario</string>
+    <string name="chronus_mini">Chronus Mini</string>
+    <string name="chronus_small">Chronus Piccolo</string>
+    <string name="chronus_medium">Chronus Medio</string>
+    <string name="chronus_large">Chronus Grande</string>
 </resources>
