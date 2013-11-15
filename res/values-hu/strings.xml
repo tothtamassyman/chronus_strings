@@ -125,7 +125,7 @@
     <string name="weather_enabled">Engedélyezve</string>
     <string name="weather_enable">Időjárás megjelenítése</string>
     <string name="weather_source_title">Időjárás forrása</string>
-    <string name="weather_source">Yahoo! időjárás</string>
+    <string name="weather_source">Yahoo! Időjárás</string>
     <string name="weather_use_custom_location">Egyéni hely használata</string>
     <string name="weather_geolocated">Helyzetmeghatározás</string>
     <string name="weather_custom_location_dialog_title">Hely megadása</string>
@@ -193,7 +193,7 @@
     <string name="holo_red_light">Világos piros</string>
     <string name="holo_blue_dark">Sötétkék</string>
     <string name="holo_green_dark">Sötétzöld</string>
-    <string name="holo_red_dark">Sötét vörös</string>
+    <string name="holo_red_dark">Sötétvörös</string>
     <string name="holo_purple">Lila</string>
     <string name="holo_orange_light">Világos narancs</string>
     <string name="holo_orange_dark">Sötét narancs</string>
@@ -202,7 +202,7 @@
    <!-- First run -->
     <string name="how_to_title">Súgó</string>
     <string name="first_run_title">Üdvözli a %s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">A Chronus egy modul, melyet manuálisan helyezhet el a keződképernyőjén (Android 4.1+) vagy a
+    <string name="first_run_message">A Chronus egy modul, melyet manuálisan helyezhet el a kezdőképernyőjén (Android 4.1+) vagy a
 	képernyőzárján (csak Android 4.2+) az Android programindítóban található modulválasztó segítségével.\n\nA modul elhelyezése után
 	használja ezt az alkalmazást a beállításokhoz.\n\nNe feledje el átméretezni a modult, hogy megfelelő helyet adjon az összes engedélyezett
 	funkcióknak (óra, időjárás, naptár), mivel a modul automatikusan elrejti azokat a paneleket, amelyek nem férnek el.\n\nLegjobb eredményért
@@ -214,8 +214,8 @@
     <string name="credits_summary">Annak ellenére, hogy én írtam a Chronus jelentős részét, sok elismerés jár Danny Baumann-nak is,
 	az időjárás modulon és a számlázási szolgáltatásokon végzett munkájáért, valamint a finomhangolásokért és a felülvizsgálatokért.
     Köszönet továbbá a sok CM közösségi fordítónak, akik elkészítették a fordításokat és más közreműködőknek, mint Nicolai Ehemann-nak
-	és Matt Booth-nak a javításokért és funkciókért amikkel hozzájárultak az alkalmazáshoz.</string>
-    <string name="contact_title">Léjen kapcsolatba velem</string>
+	és Matt Booth-nak a javításokért és funkciókért, amikkel hozzájárultak az alkalmazáshoz.</string>
+    <string name="contact_title">Elérhetőség</string>
     <string name="send_email">E-mail küldése\u2026</string>
 
     <!-- START OF PRO VERSION STRINGS -->
