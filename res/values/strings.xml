@@ -84,6 +84,10 @@
     <string name="weather_47">Isolated Thundershowers</string>
     <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
+    <!-- Weather - Speed units -->
+    <string name="weather_kph">kph</string>
+    <string name="weather_mph">mph</string>
+
     <!-- Weather - Wind directions -->
     <string name="weather_N">N</string>
     <string name="weather_NE">NE</string>
@@ -253,7 +257,7 @@
     <!-- Preferences - Tap actions -->
     <string name="tap_action_title">Tap action</string>
     <string name="tap_action_clock_default">System clock</string>
-    <string name="tap_action_weather_default">Refresh weather</string>
+    <string name="tap_action_weather_refresh">Refresh weather</string>
     <string name="tap_action_calendar_default">System calendar</string>
     <string name="tap_action_weather_forecast">Show forecast</string>
 

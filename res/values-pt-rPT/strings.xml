@@ -188,7 +188,7 @@
     <string name="picker_select_custom_activity_title">Selecionar atividade personalizada</string>
     <string name="tap_action_title">Ação de toque</string>
     <string name="tap_action_clock_default">Relógio de sistema</string>
-    <string name="tap_action_weather_default">Atualizar tempo</string>
+    <string name="tap_action_weather_refresh">Atualizar tempo</string>
     <string name="tap_action_calendar_default">Calendário de sistema</string>
     <string name="tap_action_weather_forecast">Mostrar previsão</string>
     <string name="widget_background_title">Fundo do Widget</string>
