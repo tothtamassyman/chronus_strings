@@ -98,6 +98,8 @@
     <string name="calendar_category">Календарь</string>
     <string name="general_category">Основные</string>
     <string name="display_category">Отображение</string>
+    <string name="appearance_category">GВнешний вид</string>
+    <string name="about_category">О программе Chronus</string>
     <string name="use_digital_clock_title">Цифровые часы</string>
     <string name="use_digital_clock_summary">Выбор между цифровыми и аналоговыми часами</string>
     <string name="clock_font_title">Часы полужирным</string>
@@ -108,6 +110,7 @@
 
     <string name="weather_enabled">Включено</string>
     <string name="weather_enable">Погода отображается</string>
+    <string name="weather_source_title">Сервер погоды</string>
     <string name="weather_source_yahoo">Yahoo! Погода</string>
     <string name="weather_use_custom_location">Не определять автоматически</string>
     <string name="weather_geolocated">Местоположение по сети</string>
