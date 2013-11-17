@@ -17,7 +17,8 @@
     <string name="unknown">Άγνωστο</string>
     <string name="cancel">Ακύρωση</string>
     <string name="loading_indicator">Φόρτωση widget\u2026</string>
-    <string name="menu_done">ΟΚ</string>
+    <string name="menu_done">Τέλος</string>
+    <string name="ok">ΟΚ</string>
     <string name="weather_0">Ανεμοστρόβιλος</string>
     <string name="weather_1">Τροπική καταιγίδα</string>
     <string name="weather_2">Τυφώνας</string>
@@ -67,6 +68,8 @@
     <string name="weather_46">Χιονοπτώσεις</string>
     <string name="weather_47">Μεμονωμένες χιονοπτώσεις</string>
     <string name="weather_3200"></string>
+    <string name="weather_kph">χμ/ω</string>
+    <string name="weather_mph">μ/ω</string>
     <string name="weather_N">Β</string>
     <string name="weather_NE">ΒΑ</string>
     <string name="weather_E">Α</string>
@@ -90,6 +93,8 @@
     <string name="clock_category">Ρολόι και ξυπνητήρι</string>
     <string name="weather_category">Καιρός</string>
     <string name="calendar_category">Ημερολόγιο</string>
+    <string name="about_category">Σχετικά με το Chronus</string>
+    <string name="appearance_category">Γενική εμφάνιση</string>
     <string name="general_category">Γενικά</string>
     <string name="display_category">Οθόνη</string>
     <string name="use_digital_clock_title">Χρήση ψηφιακού ρολογιού</string>
@@ -101,7 +106,11 @@
     <string name="clock_am_pm_title">Εμφάνιση ένδειξης ΠΜ/ΜΜ</string>
     <string name="weather_enabled">Ενεργό</string>
     <string name="weather_enable">Εμφάνιση καιρού</string>
+    <string name="weather_source_title">Πηγή καιρού</string>
     <string name="weather_source_yahoo">Καιρός Yahoo!</string>
+    <string name="weather_source_wunderground">Weather Underground</string>
+    <string name="weather_source_hamweather">Hamweather</string>
+    <string name="weather_source_accuweather">AccuWeather</string>
     <string name="weather_use_custom_location">Χρήση προσαρμοσμένης τοποθεσίας</string>
     <string name="weather_geolocated">Εντοπισμός τοποθεσίας μέσω δικτύου</string>
     <string name="weather_custom_location_dialog_title">Εισάγετε τοποθεσία</string>
@@ -164,4 +173,65 @@
     <string name="holo_orange_light">Ανοιχτό πορτοκαλί</string>
     <string name="holo_orange_dark">Σκούρο πορτοκαλί</string>
     <string name="holo_blue_bright">Έντονο μπλε</string>
+    <string name="how_to_title">Βοήθεια</string>
+    <string name="first_run_title">Καλώς ήλθατε στο %s</string>
+    <string name="first_run_message">Το Chronus είναι ένα widget και πρέπει να προστεθεί χειροκίνητα είτε στην αρχική οθόνη (Android 4.1+) είτε
+        στην οθόνη κλειδώματος (μόνο σε Android 4.2+), χρησιμοποιώντας τη δυνατότητα widget του Android και του επιλογέα widget του Launcher σας.
+        \n\nΌταν το widget έχει τοποθετηθεί, μπορείτε να χρησιμοποιήσετε αυτή την εφαρμογή για να ρυθμίσετε το widget.\n\nΘυμηθείτε να αλλάξετε
+        το μέγεθος του widget στην οθόνη σας για να δημιουργήσετε χώρο για όλα τα πάνελ που έχετε ενεργοποιημένα (ρολόι, καιρός και ημερολόγιο),
+        καθώς το widget αποκρύπτει αυτόματα πάνελ εάν δεν είναι αρκετά μεγάλο.\n\nΓια καλύτερα αποτελέσματα, συνιστώ τη χρήση είτε του Apex ή του
+        Nova launcher. Το Chronus λειτουργεί στους περισσότερους launcher, αλλά η δυνατότητα ρυθμίσης του τρόπου εμφάνισης μπορεί να είναι
+        περιορισμένη.\n\nΣε Android 4.2+, για να προσθέσετε ένα widget στην οθόνη κλειδώματος, σύρετε αριστερά στην οθόνη κλειδώματος και στη
+        συνέχεια χρησιμοποιήστε το κουμπί προσθήκης widget (+) για να προσθέσετε το Chronus. Μπορείτε να κάνετε αναδιάταξη των widget οθόνης
+        κλειδώματος, πατώντας παρατεταμένα πάνω τους και στη συνέχεια μπορείτε να τα μετακινήσετε ή να τα διαγράψετε.</string>
+    <string name="credits_title">Συντελεστές</string>
+    <string name="credits_summary">Παρόλο που έγραψα σημαντικά τμήματα του Chronus, αρκετή δουλειά έκανε ο Danny Baumann στην πρόγνωση
+         καιρού και τις υπηρεσίες τιμολόγησης, βοήθησε στην αναθεώρηση του κώδικα και έκανε μικροαλλαγές. Επίσης ευχαριστώ τους πολλούς
+         μεταφραστές της κοινότητας του CyanogenMod για την προσθήκη όλων των γλωσσών που περιλαμβάνονται και τους λοιπούς συντελεστές,
+         όπως τον Nicolai Ehemann και τον Matt Booth για τις διορθώσεις και χαρακτηριστικά που συνέβαλαν.</string>
+    <string name="contact_title">Επικοινωνία</string>
+    <string name="send_email">Αποστολή email\u2026</string>
+    <string name="pro_features_summary">Επιλέξτε για ενεργοποίηση χαρακτηριστικών Pro</string>
+    <string name="pro_features_thanks">Σας ευχαριστούμε για την αγορά</string>
+    <string name="pro_features_message">Η έκδοση Pro περιέχει όλα τα χαρακτηριστικά της απλής έκδοσης και
+        μέσα στους επόμενους μήνες θα προστεθούν πολλά νέα χαρακτηριστικά, συμπεριλαμβάνοντας:\n\n
+        \u2022 Περισσότερα διατάξεις widget\n
+        \u2022 Εναλλακτικό πάροχο καιρού\n
+        \u2022 Ρυθμίσεις ανά widget\n
+        \u2022 Περισσότερα χαρακτηριστικά ημερολογίου\n
+        \u2022 Ένα μίνι πάνελ ημερολογίου\n
+        \u2022 και ακόμα περισσότερα\u2026\n\nΠροτάσεις είναι πάντα ευπρόσδεκτες.\n\nΣας ευχαριστούμε εκ των προτέρων για την υποστήριξή σας.</string>
+    <string name="get_pro">Αποκτήστε Pro</string>
+    <string name="picker_apps">Εφαρμογές</string>
+    <string name="picker_activities">Δραστηριότητες</string>
+    <string name="picker_default">Προεπιλεγμένη ενέργεια</string>
+    <string name="picker_select_custom_app_title">Επιλογή προσαρμοσμένης εφαρμογής</string>
+    <string name="picker_select_custom_activity_title">Επιλογή προσαρμοσμένης δραστηριότητας</string>
+    <string name="tap_action_title">Ενέργεια ελαφρού χτυπήματος</string>
+    <string name="tap_action_clock_default">Ρολόι συστήματος</string>
+    <string name="tap_action_weather_refresh">Ανανέωση καιρού</string>
+    <string name="tap_action_calendar_default">Ημερολόγιο συστήματος</string>
+    <string name="tap_action_weather_forecast">Εμφάνιση πρόγνωσης</string>
+    <string name="widget_background_title">Φόντο widget</string>
+    <string name="widget_background_default">Διάφανο</string>
+    <string name="widget_background_color_fill">Γέμισμα με χρώμα</string>
+    <string name="widget_background_custom_image">Προσαρμοσμένη εικόνα</string>
+    <string name="widget_background_dialog_title">Επιλογή χρώματος</string>
+    <string name="widget_background_result_successful">Το φόντο άλλαξε με επιτυχία</string>
+    <string name="widget_background_result_not_successful">Δεν ήταν δυνατή η αλλαγή του φόντου</string>
+    <string name="alignment_title">Ευθιγράμμιση</string>
+    <string name="alignment_centered">Κέντραρισμένο</string>
+    <string name="alignment_left">Στοίχιση αριστερά</string>
+    <string name="alignment_right">Στοίχιση δεξιά</string>
+    <string name="calendar_colors">Χρώμα συμβάντων ημερολογίου</string>
+    <string name="clock_enable">Εμφάνιση ρολογιού</string>
+    <string name="clock_analog">Αναλογικό ρολόι</string>
+    <string name="clock_digital">Ψηφιακό ρολόι</string>
+    <string name="chronus_clockplus">Ρολόι+ Chronus</string>
+    <string name="chronus_weather">Καιρός Chronus</string>
+    <string name="chronus_calendar">Ημερολόγιο Chronus</string>
+    <string name="chronus_mini">Μίνι Chronus</string>
+    <string name="chronus_small">Μικρό Chronus</string>
+    <string name="chronus_medium">Μεσαίο Chronus</string>
+    <string name="chronus_large">Μεγάλο Chronus</string>
 </resources>
