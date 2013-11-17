@@ -172,17 +172,17 @@
     <!-- First run -->
     <string name="how_to_title">Hulp</string>
     <string name="first_run_title">Welkom by %s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus is 'n Legstuk en kan met die hand bygevoeg word op jou tuis skerm (Android 4.1+) of die
-        Slot skerm (slegs moontlik op Android 4.2+) deur middel van die legstuk kieser opsie van Android en jou lanseerder.\n\nWanneer die legstuk 
-        geplaas is, kan jy hierdie program gebruik om die legstuk instellings te verander.\n\nOnthou om die legstuk grootte te verander op jou 
-        skerm om plek te maak vir al die panele wat jy aangeskakel het (Horlosie, weer en kalender) aangesien die legstuk outomaties panele verberg
-        indien dit nie groot genoeg is nie.\n\nVir die beste resultaat, beveel ek aan die gebruik van die Apex of Nova laaiers. Chronus sal werk
-        op die meeste laaiers maar die vermoë om hoe dit te konfigureer kan beperk wees.\n\nVir Android 4.2+, om 'n legstuk by te voeg tot die 
-        slot skerm, skuif links op die skerm slot en gebruik dan die Voeg by legstuk knoppie (+) om Chronus by te voeg. Sluit skerm legstukke
-        kan herrangskik word deur die lang druk en dan beweeg of die verwydering van hulle met jou vinger.</string>
-    <string name="credits_title">Krediete</string>
-    <string name="credits_summary">Selfs al het ek beduidende dele geskryf van Chronus, kan van die krediet ook gaan aan Danny Baumann vir sy
-        werk op die weer en faktuur dienste, die hersiening en verfyning; Die baie CyanogenMod gemeenskap vertalers vir die toevoeging van al die
+    <string name="first_run_message">Chronus is \'n Legstuk en kan met die hand bygevoeg word op jou Tuisskerm (Android 4.1+) of die
+        Slotskerm (slegs moontlik op Android 4.2+) deur middel van die legstuk kieser opsie van Android en jou lanseerder.\n\nWanneer die legstuk 
+        geplaas is, kan hierdie program gebruik word om die legstuk instellings te verander.\n\nOnthou om die legstuk grootte op jou skerm in te
+        stel om plek te maak vir al die panele wat aangeskakel is (Horlosie, weer en kalender) aangesien die legstuk outomaties panele verberg
+        indien dit nie groot genoeg is nie.\n\nVir die beste resultaat, beveel ek die gebruik van die Apex of Nova laaiers aan. Chronus sal werk
+        op meeste laaiers maar die vermoë om dit te konfigureer kan beperk wees.\n\nVir Android 4.2+, om \'n legstuk by te voeg tot die 
+        Slotskerm, skuif links op die skerm en gebruik dan die Voeg legstuk by knoppie (+) om Chronus by te voeg. Slotskerm legstukke
+        kan geherrangskik word deur \'n lang-druk en dan beweeg of die verwydering van hulle met jou vinger.</string>
+    <string name="credits_title">Krediet</string>
+    <string name="credits_summary">Selfs al het ek beduidende dele van Chronus geskryf, kan van die krediet ook gaan aan Danny Baumann vir sy
+        werk op die weer en faktuur dienste, hersiening en verfyning; Die baie CyanogenMod gemeenskap vertalers vir die toevoeging van al die
         tale wat ingesluit is en ander bydraers soos Nicolai Ehemann en Matt Booth vir hulle verbeterings en funksies wat hulle
         bygedra het.</string>
     <string name="contact_title">Kontak my</string>
@@ -190,20 +190,20 @@
     <string name="pro_features_summary">Raak om Pro funksies te aktiveer</string>
     <string name="pro_features_thanks">Baie dankie vir die aankoop</string>
     <string name="pro_features_message">Die Pro weergawe sluit al die funksies van die standaard-weergawe en
-         oor die volgende paar maande sal nuwe funksies bygevoeg word, insluitend:\n\n
-         \u2022 Meer Legstuk uitlegte\n
-         \u2022 \'n alternatiewe weer verskaffer\n
-         \u2022 Per legstuk instellings\n
-         \u2022 Meer kalender eienskappe\n
-         \u2022'n mini kalender paneel\n
-         \u2022 en meer\u2026\n\nVoorstelle is altyd welkom\n\nDankie by voorbaat vir u ondersteuning.</string>
+        oor die volgende paar maande sal nuwe funksies bygevoeg word, insluitend:\n\n
+        \u2022 Meer Legstuk uitlegte\n
+        \u2022 \'n alternatiewe weer verskaffer\n
+        \u2022 Per legstuk instellings\n
+        \u2022 Meer kalender eienskappe\n
+        \u2022 \'n mini kalender paneel\n
+        \u2022 en meer\u2026\n\nVoorstelle is altyd welkom\n\nDankie by voorbaat vir u ondersteuning.</string>
     <string name="get_pro">Kry Pro</string>
     <string name="picker_apps">Programme</string>
     <string name="picker_activities">Aktiwiteite</string>
     <string name="picker_default">Standaard aksie</string>
     <string name="picker_select_custom_app_title">Kies persoonlike program</string>
     <string name="picker_select_custom_activity_title">Kies persoonlike aktiwiteit</string>
-    <string name="tap_action_title">Tik aksie</string>
+    <string name="tap_action_title">Aanraak aksie</string>
     <string name="tap_action_clock_default">Stelsel horlosie</string>
     <string name="tap_action_weather_default">Verfris weer</string>
     <string name="tap_action_calendar_default">Stelsel kalender</string>

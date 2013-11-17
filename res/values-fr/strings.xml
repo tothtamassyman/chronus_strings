@@ -82,6 +82,8 @@
     <string name="weather_tap_to_refresh">Appuyez pour actualiser</string>
     <string name="weather_refreshing">Actualisation\u2026</string>
     <string name="weather_last_sync_just_now">À l\'instant</string>
+    <string name="weather_cannot_reach_provider">Impossible d\'atteindre %s pour le moment</string>
+
     <string name="weather_refresh_manual">Manuellement</string>
     <string name="weather_refresh_30min">30 minutes</string>
     <string name="weather_refresh_60min">60 minutes</string>
@@ -210,15 +212,23 @@
     <string name="alignment_centered">Centré</string>
     <string name="alignment_left">Aligné à gauche</string>
     <string name="alignment_right">Aligné à droite</string>
-    <string name="calendar_colors">Couleur des événements du calendrier</string>
-    <string name="clock_enable">Afficher l\'heure</string>
+
+    <!-- Calendar colors -->
+    <string name="calendar_colors">Couleur de l\'événement du calendrier</string>
+
+    <!-- Clock types -->
+    <string name="clock_enable">Affichage de l\'horloge</string>
     <string name="clock_analog">Horloge analogique</string>
     <string name="clock_digital">Horloge numérique</string>
-    <string name="chronus_clockplus">Horloge Chronus</string>
-    <string name="chronus_weather">Météo Chronus</string>
-    <string name="chronus_calendar">Calendrier Chronus</string>
-    <string name="chronus_calendar">Chronus Mini</string>
-    <string name="chronus_calendar">Chronus Petit</string>
-    <string name="chronus_calendar">Chronus Moyen</string>
-    <string name="chronus_calendar">Chronus Large</string>
+
+    <!-- Widget names -->
+    <!-- TRANSLATORS: The App name should remain as Chronus -->
+    <string name="chronus_flex" translatable="false">Chronus Flex</string>
+    <string name="chronus_clockplus">Horloge Chronus +</string>
+    <string name="chronus_weather">Chronus Météo</string>
+    <string name="chronus_calendar">Chronus Calendrier</string>
+    <string name="chronus_mini">Chronus Mini</string>
+    <string name="chronus_small">Chronus Petit</string>
+    <string name="chronus_medium">Chronus Moyen</string>
+    <string name="chronus_large">Chronus Grand</string>
 </resources>
