@@ -108,9 +108,6 @@
     <string name="weather_enable">Εμφάνιση καιρού</string>
     <string name="weather_source_title">Πηγή καιρού</string>
     <string name="weather_source_yahoo">Καιρός Yahoo!</string>
-    <string name="weather_source_wunderground">Weather Underground</string>
-    <string name="weather_source_hamweather">Hamweather</string>
-    <string name="weather_source_accuweather">AccuWeather</string>
     <string name="weather_use_custom_location">Χρήση προσαρμοσμένης τοποθεσίας</string>
     <string name="weather_geolocated">Εντοπισμός τοποθεσίας μέσω δικτύου</string>
     <string name="weather_custom_location_dialog_title">Εισάγετε τοποθεσία</string>

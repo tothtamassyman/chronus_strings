@@ -16,11 +16,11 @@
 
 <resources>
     <!-- General strings -->
-
     <string name="unknown">未知</string>
     <string name="cancel">取消</string>
     <string name="loading_indicator">小部件加载中\u2026</string>
     <string name="menu_done">完成</string>
+
     <string name="weather_0">龙卷风</string>
     <string name="weather_1">热带风暴</string>
     <string name="weather_2">飓风</string>
@@ -187,7 +187,6 @@
     <string name="credits_summary">虽然我编写了Chronus的重要部分，但是大部分功劳要归于从事天气、账单服务、审阅、
         校订工作的Danny Baumann;众多添加所有所包含语言的CyanogenMod社区翻译;和像Nicolai Ehemann 和 Matt Booth这样的，为补丁和功能做出贡献的参与者。</string>
     <string name="contact_title">联系我们</string>
-    <string name="contact_summary" translatable="false">chronus.widget\@gmail.com</string>
     <string name="send_email">发送电子邮件…</string>
 
     <!-- START OF PRO VERSION STRINGS -->
@@ -247,12 +246,11 @@
 
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as Chronus -->
-    <string name="chronus_flex" translatable="false">Chronus Flex</string>
-    <string name="chronus_clockplus">Chronus时钟+</string>
-    <string name="chronus_weather">Chronus天气</string>
-    <string name="chronus_calendar">Chronus日历</string>
-    <string name="chronus_mini">Chronus迷你</string>
-    <string name="chronus_small">Chronus小</string>
-    <string name="chronus_medium">Chronus中</string>
-    <string name="chronus_large">Chronus大</string>
+    <string name="chronus_clockplus">Chronus 时钟+</string>
+    <string name="chronus_weather">Chronus 天气</string>
+    <string name="chronus_calendar">Chronus 日历</string>
+    <string name="chronus_mini">Chronus 迷你</string>
+    <string name="chronus_small">Chronus 小</string>
+    <string name="chronus_medium">Chronus 中</string>
+    <string name="chronus_large">Chronus 大</string>
 </resources>

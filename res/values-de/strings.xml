@@ -205,7 +205,7 @@
     <string name="picker_default">Standard-Aktion</string>
     <string name="picker_select_custom_app_title">App auswählen</string>
     <string name="picker_select_custom_activity_title">Aktivität auswählen</string>
-    <string name="tap_action_title">Berührungs-Aktion</string>
+    <string name="tap_action_title">Aktion beim Berühren</string>
     <string name="tap_action_clock_default">System-Uhr</string>
     <string name="tap_action_weather_refresh">Wetter aktualisieren</string>
     <string name="tap_action_calendar_default">System-Kalender</string>
