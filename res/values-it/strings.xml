@@ -219,7 +219,6 @@
     <!-- Preferences - Tap actions -->
     <string name="tap_action_title">Tocca azione</string>
     <string name="tap_action_clock_default">Orologio di sistema</string>
-    <string name="tap_action_weather_default">Aggiorna meteo</string>
     <string name="tap_action_calendar_default">Calendario di sistema</string>
     <string name="tap_action_weather_forecast">Mostra previsione</string>
 

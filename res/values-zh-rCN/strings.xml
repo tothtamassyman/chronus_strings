@@ -212,7 +212,6 @@
     <!-- Preferences - Tap actions -->
     <string name="tap_action_title">点选行动</string>
     <string name="tap_action_clock_default">系统时钟</string>
-    <string name="tap_action_weather_default">刷新天气</string>
     <string name="tap_action_calendar_default">系统日历</string>
     <string name="tap_action_weather_forecast">显示预报</string>
 
