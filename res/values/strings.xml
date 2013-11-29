@@ -15,7 +15,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
     <string name="app_name" translatable="false">Chronus</string>
     <string name="app_name_pro" translatable="false">Chronus Pro</string>
@@ -122,6 +122,10 @@
     <string name="appearance_category">General appearance</string>
     <string name="general_category">General</string>
     <string name="display_category">Display</string>
+
+    <!-- Preferences - widget types in selection list -->
+    <string name="widget_type_keyguard">Lock screen</string>
+    <string name="widget_type_homescreen">Home screen (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 
     <!-- Preferences - Clock -->
     <string name="use_digital_clock_title">Use Digital clock</string>
@@ -294,6 +298,7 @@
     <string name="chronus_flex" translatable="false">Chronus Flex</string>
     <string name="chronus_clockplus">Chronus Clock+</string>
     <string name="chronus_weather">Chronus Weather</string>
+    <string name="chronus_forecast">Chronus Forecast</string>
     <string name="chronus_calendar">Chronus Calendar</string>
     <string name="chronus_mini">Chronus Mini</string>
     <string name="chronus_small">Chronus Small</string>
