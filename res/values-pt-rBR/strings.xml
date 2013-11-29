@@ -232,4 +232,7 @@
     <string name="chronus_small">Chronus Pequeno</string>
     <string name="chronus_medium">Chronus Médio</string>
     <string name="chronus_large">Chronus Grande</string>
+    <string name="widget_type_keyguard">Tela de bloqueio</string>
+    <string name="widget_type_homescreen">Tela inicial (<xliff:g id="columns" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$d</xliff:g>x<xliff:g id="rows" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%2$d</xliff:g>)</string>
+    <string name="chronus_forecast">Chronus Previsão do Tempo</string>
 </resources>
