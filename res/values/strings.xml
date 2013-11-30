@@ -304,4 +304,7 @@
     <string name="chronus_small">Chronus Small</string>
     <string name="chronus_medium">Chronus Medium</string>
     <string name="chronus_large">Chronus Large</string>
+
+    <!-- Preferences - Widget background rounded corners -->
+    <string name="widget_rounded_corners_title">Rounded corners</string>
 </resources>
