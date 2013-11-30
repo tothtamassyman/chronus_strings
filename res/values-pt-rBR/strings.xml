@@ -165,4 +165,74 @@
     <string name="clock_am_pm_title">Exibir indicador AM/PM</string>
     <string name="weather_select_location">Selecionar localização</string>
     <string name="weather_cannot_reach_provider">Não foi possível alcançar %s</string>
+    <string name="ok">OK</string>
+    <string name="weather_kph">km/h</string>
+    <string name="weather_mph">mp/h</string>
+    <string name="about_category">Sobre Chronus</string>
+    <string name="appearance_category">Aparência geral</string>
+    <string name="weather_source_title">Fonte de dados</string>
+    <string name="weather_source_wunderground">Weather Underground</string>
+    <string name="weather_source_hamweather">Hamweather</string>
+    <string name="weather_source_accuweather">AccuWeather</string>
+    <string name="how_to_title">Ajuda</string>
+    <string name="first_run_title">Bem-vindo a %s</string>
+    <string name="first_run_message">Chronus é um Widget e precisa ser adicionado manualmente à tela inicial (Android 4.1+) ou na
+        tela de bloqueio (somente possível no Android 4.2+) usando o recurso de selecionar widget do Android e seu iniciador.\n\nUma vez que o widget está
+        colocado, você pode usar este aplicativo para trocar a configuração do widget.\n\nLembre-se de redimensionar o widget na sua tela para fazer espaço para todos os
+        painéis voce ativou (Relógio, Tempo and Calendário) uma vez que o widget irá automaticamente esconder os painéis se não for grande o suficiente.\n\nPara
+        os melhores resultados, eu recomendo usar os iniciadores Apex ou Nova. Chronus irá funcionar com a maioria dos iniciadores, porém a abilitade para configurar como
+        é exibido pode ser limitada.\n\nPara Android 4.2+, para adicionar um widget na tela de bloqueio, deslize para a esquerda na tela de bloqueio e então use
+        o botão de adicionar um widget (+), para adicionar o Chronus. Widgets de tela de bloqueio podem ser de reorganizados ao executar um longo toque e movendo ou removendo.</string>
+    <string name="credits_title">Créditos</string>
+    <string name="credits_summary">Mesmo eu escrevendo a maior parte do Chronus, muitos créditos vão para Danny Baumann por seu trabalho
+        nos serviços de tempo e cobrança, revisando e ajustando; aos muitos tradutores da comunidade CyanogenMod por adicionar todas as línguas
+        que estão incluídas; e outros contribuintes como Nicolai Ehemann e Matt Booth por correções e recursos que eles contribuiram.</string>
+    <string name="contact_title">Contate-me</string>
+    <string name="send_email">Enviar e-mail\u2026</string>
+    <string name="pro_features_summary">Pressione para ativar recursos Pro</string>
+    <string name="pro_features_thanks">Obrigado por comprar</string>
+    <string name="pro_features_message">A versão Pro inclui todos os recursos da versão normal e
+        nos próximos meses será adicionado muito mais recursos incluindo:\n\n
+        \u2022 Mais layouts de widget\n
+        \u2022 Um provedor de tempo alternativo\n
+        \u2022 Configurações por widget\n
+        \u2022 Mais recursos de calendário\n
+        \u2022 Um mini painel de calendário\n
+        \u2022 en mais\u2026\n\nSugestões são sempre bem-vindas.\n\nObrigado por seu suporte.</string>
+    <string name="get_pro">Obtenha versão Pro</string>
+    <string name="picker_apps">Apps</string>
+    <string name="picker_activities">Atividades</string>
+    <string name="picker_default">Ação padrão</string>
+    <string name="picker_select_custom_app_title">Selecione aplicativo personalizado</string>
+    <string name="picker_select_custom_activity_title">Selecione atividade personalizada</string>
+    <string name="tap_action_title">Ação ao toque</string>
+    <string name="tap_action_clock_default">Rológio do sistema</string>
+    <string name="tap_action_weather_refresh">Atualizar tempo</string>
+    <string name="tap_action_calendar_default">Calendário do sistema</string>
+    <string name="tap_action_weather_forecast">Exibir previsão do tempo</string>
+    <string name="widget_background_title">Plano de fundo do widget</string>
+    <string name="widget_background_default">Transparente</string>
+    <string name="widget_background_color_fill">Preencher c/ cor</string>
+    <string name="widget_background_custom_image">Imagem personalizada</string>
+    <string name="widget_background_dialog_title">Escolher cor</string>
+    <string name="widget_background_result_successful">Plano de fundo alterado com sucesso</string>
+    <string name="widget_background_result_not_successful">Plano de fundo não pôde ser alterado</string>
+    <string name="alignment_title">Alinhamento</string>
+    <string name="alignment_centered">Centralizado</string>
+    <string name="alignment_left">Alinhado a esquerda</string>
+    <string name="alignment_right">Alinhado a direita</string>
+    <string name="calendar_colors">Cor do calendário de eventos</string>
+    <string name="clock_enable">Exibir relógio</string>
+    <string name="clock_analog">Relógio analógico</string>
+    <string name="clock_digital">Relógio digital</string>
+    <string name="chronus_clockplus">Chronus Relógio+</string>
+    <string name="chronus_weather">Chronus Tempo</string>
+    <string name="chronus_calendar">Chronus Calendário</string>
+    <string name="chronus_mini">Chronus Mini</string>
+    <string name="chronus_small">Chronus Pequeno</string>
+    <string name="chronus_medium">Chronus Médio</string>
+    <string name="chronus_large">Chronus Grande</string>
+    <string name="widget_type_keyguard">Tela de bloqueio</string>
+    <string name="widget_type_homescreen">Tela inicial (<xliff:g id="columns" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$d</xliff:g>x<xliff:g id="rows" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%2$d</xliff:g>)</string>
+    <string name="chronus_forecast">Chronus Previsão do Tempo</string>
 </resources>
