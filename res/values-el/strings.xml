@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="unknown">Άγνωστο</string>
     <string name="cancel">Ακύρωση</string>
     <string name="loading_indicator">Φόρτωση widget\u2026</string>
@@ -97,6 +97,8 @@
     <string name="appearance_category">Γενική εμφάνιση</string>
     <string name="general_category">Γενικά</string>
     <string name="display_category">Οθόνη</string>
+    <string name="widget_type_keyguard">Οθόνη κλειδώματος</string>
+    <string name="widget_type_homescreen">Αρχική οθόνη (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="use_digital_clock_title">Χρήση ψηφιακού ρολογιού</string>
     <string name="use_digital_clock_summary">Επιλέξτε για εναλλαγή μεταξύ του ψηφιακού και του αναλογικού ρολογιού</string>
     <string name="clock_font_title">Έντονη ώρα</string>
@@ -226,6 +228,7 @@
     <string name="clock_digital">Ψηφιακό ρολόι</string>
     <string name="chronus_clockplus">Ρολόι+ Chronus</string>
     <string name="chronus_weather">Καιρός Chronus</string>
+    <string name="chronus_forecast">Πρόγνωση Chronus</string>
     <string name="chronus_calendar">Ημερολόγιο Chronus</string>
     <string name="chronus_mini">Μίνι Chronus</string>
     <string name="chronus_small">Μικρό Chronus</string>
