@@ -28,7 +28,7 @@ Versiunea standard este echivalentă cu widgetul CyanogenMod cLock din CM10.2 cu
   - Apăsarea evenimentului deschide Calendarul la acel eveniment
   - Apăsarea pictogramei calendarului deschide ziua curentă din Calendar
   - Schimbarea culorii textelor în toate panourile
-  - Configure widget when adding or from the Chronus app in the app drawer
+  - Configurarea widgetului la aplicare sau prin aplicația Chronus din meniul principal
   - Evidențiați evenimentele viitoare din calendar cu culori personalizate și font ingroșat
 
 <b>Mulțumiri:</b>
