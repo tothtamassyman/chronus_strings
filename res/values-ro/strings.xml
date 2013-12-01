@@ -35,19 +35,19 @@
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">"Tornadă"</string>
-    <string name="weather_1">"Furtună tropicală"</string>
+    <string name="weather_1">"Furtună"</string>
     <string name="weather_2">"Uragan"</string>
     <string name="weather_3">"Furtuni severe"</string>
     <string name="weather_4">"Furtuni"</string>
-    <string name="weather_5">"Precipitaţii mixte"</string>
+    <string name="weather_5">"Lapoviţă"</string>
     <string name="weather_6">"Lapoviţă"</string>
-    <string name="weather_7">"Precipitaţii mixte"</string>
+    <string name="weather_7">"Ninsoare umedă"</string>
     <string name="weather_8">"Chiciură"</string>
     <string name="weather_9">"Burniţă"</string>
     <string name="weather_10">"Polei"</string>
     <string name="weather_11">"Averse"</string>
     <string name="weather_12">"Averse"</string>
-    <string name="weather_13">"Fulgi"</string>
+    <string name="weather_13">"Rafale de zăpadă"</string>
     <string name="weather_14">"Ninsoare slabă"</string>
     <string name="weather_15">"Viscol"</string>
     <string name="weather_16">"Ninsoare"</string>
@@ -63,25 +63,25 @@
     <string name="weather_26">"Înnorat"</string>
     <string name="weather_27">Noros</string> <!-- Night -->
     <string name="weather_28">Noros</string> <!-- Day -->
-    <string name="weather_29">Parţial noros</string> <!-- Night -->
-    <string name="weather_30">Parţial noros</string> <!-- Day -->
+    <string name="weather_29">Parţial înnorat</string> <!-- Night -->
+    <string name="weather_30">Parţial înnorat</string> <!-- Day -->
     <string name="weather_31">Senin</string> <!-- Night -->
-    <string name="weather_32">Senin</string>
-    <string name="weather_33">Vreme frumoasă</string> <!-- Night -->
-    <string name="weather_34">Vreme frumoasă</string> <!-- Day -->
+    <string name="weather_32">Însorit</string>
+    <string name="weather_33">Senin</string> <!-- Night -->
+    <string name="weather_34">Senin</string> <!-- Day -->
     <string name="weather_35">"Ploaie cu grindină"</string>
     <string name="weather_36">"Cald"</string>
     <string name="weather_37">"Furtuni izolate"</string>
-    <string name="weather_38">"Furtuni cu tunete"</string>
-    <string name="weather_39">"Furtuni cu tunete"</string>
-    <string name="weather_40">"Averse dispersate"</string>
+    <string name="weather_38">"Furtuni dispersate"</string>
+    <string name="weather_39">"Furtuni dispersate"</string>
+    <string name="weather_40">"Ploi ușoare"</string>
     <string name="weather_41">"Ninsoare puternică"</string>
-    <string name="weather_42">"Ninsoare dispersată"</string>
+    <string name="weather_42">"Ninsori dispersate"</string>
     <string name="weather_43">"Ninsoare puternică"</string>
     <string name="weather_44">"Parţial noros"</string>
-    <string name="weather_45">"Averse cu descărcări electrice"</string>
+    <string name="weather_45">"Descărcări electrice"</string>
     <string name="weather_46">"Averse de ninsoare"</string>
-    <string name="weather_47">"Averse cu descărcări electrice izolate"</string>
+    <string name="weather_47">"Descărcări electrice izolate"</string>
     <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
     <!-- Weather - Speed units -->
@@ -130,9 +130,9 @@
     <!-- Preferences - Clock -->
     <string name="use_digital_clock_title">"Utilizați ceasul digital"</string>
     <string name="use_digital_clock_summary">"Selectați pentru a comuta între ceasul digital și cel analogic"</string>
-    <string name="clock_font_title">"Ore aldin"</string>
-    <string name="clock_font_minutes_title">"Minute aldin"</string>
-    <string name="clock_font_date_title">"Dată și alarmă aldin"</string>
+    <string name="clock_font_title">"Font oră îngroșat"</string>
+    <string name="clock_font_minutes_title">"Font minute îngroșat"</string>
+    <string name="clock_font_date_title">"Font dată și alarmă îngroșat"</string>
     <string name="show_alarm_title">"Afișare următoarea alarmă"</string>
     <string name="clock_am_pm_title">Afișare indicator AM/PM</string>
 
@@ -142,10 +142,10 @@
     <string name="weather_source_title">Sursă meteo</string>
     <string name="weather_source_yahoo">Yahoo Meteo</string>
     <string name="weather_source_wunderground">Weather Underground</string>
-    <string name="weather_source_hamweather">Hamweather</string>
+    <string name="weather_source_hamweather">HAMweather</string>
     <string name="weather_source_accuweather">AccuWeather</string>
     <string name="weather_use_custom_location">"Utilizaţi locaţia personalizată"</string>
-    <string name="weather_geolocated">"Localizată utilizând reţeaua"</string>
+    <string name="weather_geolocated">"Localizare utilizând reţeaua"</string>
     <string name="weather_custom_location_dialog_title">"Introduceţi locaţia"</string>
     <string name="weather_custom_location_hint">"Oraş, Stat/Ţară"</string>
     <string name="weather_custom_location_title">"Locaţie"</string>
@@ -153,7 +153,7 @@
     <string name="weather_show_timestamp_title">"Afişaţi marcajul de timp"</string>
     <string name="weather_refresh_interval">"Interval actualizare"</string>
     <string name="weather_use_metric">"Utilizaţi sistemul metric"</string>
-    <string name="weather_retrieve_location_dialog_title">"Nu pot prelua locaţia!"</string>
+    <string name="weather_retrieve_location_dialog_title">"Nu se poate prelua locaţia!"</string>
     <string name="weather_retrieve_location_dialog_message">"Geolocalizare reţea este dezactivată.\n\nSetaţi o locaţie personalizată sau activaţi localizarea în reţea"</string>
     <string name="weather_retrieve_location_dialog_enable_button">"Activată"</string>
     <string name="weather_invert_lowhigh">"Inversaţi temperaturile scăzute/ridicate"</string>
@@ -183,7 +183,7 @@
     <!-- Preferences - Font colors -->
     <string name="font_color">Culoare font</string>
     <string name="font_color_alarm">Culoare font alarmă</string>
-    <string name="font_color_timestamp">Culoare font oră</string>
+    <string name="font_color_timestamp">Culoare font marcaj de timp</string>
     <string name="font_color_calendar_details">Detalii culoare font</string>
 
     <!-- Calendar - Lookahead -->
@@ -200,7 +200,7 @@
     <!-- Calendar - Event metadata -->
     <string name="calendar_metadata_none">"Nu se afişează"</string>
     <string name="calendar_metadata_first_line">"Afişare primul rând"</string>
-    <string name="calendar_metadata_all">"Afişare tot"</string>
+    <string name="calendar_metadata_all">"Afişare totală"</string>
 
     <!-- Font colors -->
     <string name="white">Alb</string>
@@ -227,7 +227,8 @@
         Cu Android 4.2+, pentru a adiționa widgetul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul (+) și adăugați Chronus. Widgeturile de pe ecranul de blocare pot fi rearanjate sau șterse ținându-le apăsate.</string>
 
     <string name="credits_title">Mulțumiri</string>
-    <string name="credits_summary">Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la servciile meteo și billing, revizuiri și îmbunătățiri; comuniîții de traducători pentru includerea tuturor limbilor existente; lui Nicolai Ehemann și Matt Booth pentru corecările și opíunile la care au contribuit.</string>
+    <string name="credits_summary">Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la servciile meteo și billing, revizuiri și îmbunătățiri; comuniîții de traducători pentru includerea tuturor limbilor existente; lui Nicolai Ehemann și Matt Booth pentru corecările și opțiunile la care au contribuit.
+        Traducerea în limba română: Adrian Nistreanu.</string>
     <string name="contact_title">Contact</string>
     <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
     <string name="send_email">Trimiteți email\u2026</string>
@@ -240,7 +241,7 @@
         \u2022 Scheme Widget adiționale\n
         \u2022 Furnizori meteo alternativi\n
         \u2022 Setări individuale pentru Widget\n
-        \u2202 Opțiuni calendar adiționale\n
+        \u2022 Opțiuni calendar adiționale\n
         \u2022 Panou calendar mini\n
         \u2022 și altele\u2026\n\nSugestiile sunt binevoite.\n\nMulțumesc anticipat pentru suportul Dvs.</string>
     <string name="get_pro">Get Pro</string>
@@ -303,7 +304,7 @@
     <string name="widget_rounded_corners_title">Colțuri rotungite</string>
 
     <!-- Calendar - No events -->
-    <string name="calendar_no_events">Nu există evenimente în fereastra prognozei</string>
+    <string name="calendar_no_events">Nu există evenimente viitoare</string>
     <string name="calendar_no_events_summary">Apăsați pentru adăugare</string>
 
 </resources>
