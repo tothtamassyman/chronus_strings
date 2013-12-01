@@ -17,21 +17,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="app_name" translatable="false">Chronus</string>
-    <string name="app_name_pro" translatable="false">Chronus Pro</string>
-
     <string name="unknown">Necunoscut</string>
     <string name="cancel">Revocaţi</string>
     <string name="loading_indicator">Încărcare widget\u2026</string>
     <string name="menu_done">Efectuat</string>
     <string name="ok">OK</string>
-
-    <!-- Formating strings for widget clock -->
-    <string name="widget_12_hours_format_h" translatable="false">h</string>
-    <string name="widget_12_hours_format_no_ampm_m" translatable="false">:mm</string>
-    <string name="widget_12_hours_format_m" translatable="false">:mm<font size="15">aa</font></string>
-    <string name="widget_24_hours_format_h" translatable="false">kk</string>
-    <string name="widget_24_hours_format_m" translatable="false">:mm</string>
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">"Tornadă"</string>
@@ -141,9 +131,6 @@
     <string name="weather_enable">"Afişare meteo"</string>
     <string name="weather_source_title">Sursă meteo</string>
     <string name="weather_source_yahoo">Yahoo Meteo</string>
-    <string name="weather_source_wunderground">Weather Underground</string>
-    <string name="weather_source_hamweather">HAMweather</string>
-    <string name="weather_source_accuweather">AccuWeather</string>
     <string name="weather_use_custom_location">"Utilizaţi locaţia personalizată"</string>
     <string name="weather_geolocated">"Localizare utilizând reţeaua"</string>
     <string name="weather_custom_location_dialog_title">"Introduceţi locaţia"</string>
@@ -230,7 +217,6 @@
     <string name="credits_summary">Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la servciile meteo și billing, revizuiri și îmbunătățiri; comuniîții de traducători pentru includerea tuturor limbilor existente; lui Nicolai Ehemann și Matt Booth pentru corecările și opțiunile la care au contribuit.
         Traducerea în limba română: Adrian Nistreanu.</string>
     <string name="contact_title">Contact</string>
-    <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
     <string name="send_email">Trimiteți email\u2026</string>
 
     <!-- START OF PRO VERSION STRINGS -->
