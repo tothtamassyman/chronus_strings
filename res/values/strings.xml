@@ -307,4 +307,9 @@
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Rounded corners</string>
+
+    <!-- Calendar - No events -->
+    <string name="calendar_no_events">No events in lookahead window</string>
+    <string name="calendar_no_events_summary">Tap to add</string>
+
 </resources>
