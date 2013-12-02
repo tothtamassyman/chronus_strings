@@ -186,6 +186,9 @@
         by som odporučil spúšťač Apex alebo Nova. Chronus bude fungovať na väčšine spúšťačov, ale možnosť nastaviť spôsob zobrazenia môže byť obmedzená.\n\nPre pridanie miniaplikácie
         na uzamykaciu obrazovku na Androide 4.2+, posuňte vľavo na uzamykaciu obrazovku a potom použite tlačidlo na pridanie miniaplikácií (+) pre pridanie Chronusu. Miniaplikácie
         na uzamykacej obrazovke môžu byť upravené pomocou dlhého stlačenia pre ich následné presunutie alebo odstránenie.</string>
+    <string name="no_widget_message">Chronus je miniaplikácia, ktorú je potrebné ručne pridať buď na plochu (Android 4.1+) alebo na
+        uzamykaciu obrazovku (možné len na Androide 4.2+) pomocou funkcie na výber miniaplikácie v systéme Android a vo Vašom spúšťači.\n\nAkonáhle je miniaplikácia umiestnená,
+        môžete použiť túto aplikáciu na zmenu nastavení miniaplikácie.</string>
     <string name="get_pro">Získať Pro verziu</string>
     <string name="picker_apps">Aplikácie</string>
     <string name="picker_activities">Aktivity</string>

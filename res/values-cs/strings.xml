@@ -195,6 +195,9 @@
         zámku použijte levý panel a po dotyku na tlačítko (+) přidejte widget Chronus. Widgety na obrazovce zámku lze přeskupit dlouhým stiskem na daném
         widgetu a přesunem na požadovanou pozici nebo smazáním.
     </string>
+    <string name="no_widget_message">Chronus je widget, který je možné přidat na plochu (Android 4.1+) nebo na obrazovku zámku (pouze pro Android 4.2+)
+        použitím výběru widgetu nebo s použitím spouštěče.\n\nPoté, co je widget přidán a umístěn, je možné touto aplikací změnit nastavení widgetu.
+    </string>
     <string name="credits_title">Zásluhy</string>
     <string name="credits_summary">I když jsem napsal významnou část aplikace Chronus sám, mnoho zásluh patří také Danny Baumannovi pro jeho
         práci na počasí a účtovacích službách, kontrole a ladění; další dík patří překladatelům z CyanogenMod komunity, kteří pomohli s překladem

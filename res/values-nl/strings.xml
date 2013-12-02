@@ -177,6 +177,9 @@
         Android 4.2 een widget toe te voegen aan het vergrendelingsscherm, sleept u naar links in het vergrendelingsscherm en gebruikt u
         de knop Toevoegen (+) om Chronus toe te voegen. De volgorde kan worden gewijzigd door items lang aan te raken en ze te
         verplaatsen of te verwijderen.</string>
+    <string name="no_widget_message">Chronus is een widget en dient handmatig toegevoegd te worden aan het startscherm
+        (Android 4.1 en hoger) of het vergrendelingsscherm (Android 4.2 en hoger) met het widgetpaneel in uw launher.\n\nWanneer de
+        widget is geplaatst, kunt u deze app gebruiken om de widget in te stellen.</string>
     <string name="credits_title">Dankbetuigingen</string>
     <string name="credits_summary">Hoewel ik grote delen van deze widget heb geschreven, wil ik ook Danny Baumann bedanken voor de
         weerupdate- en aankoopservices en het bekijken en optimaliseren van de code; de vele CyanogenMod-vertalers voor de bijdragen

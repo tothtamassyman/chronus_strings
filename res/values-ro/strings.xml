@@ -212,6 +212,8 @@
         Modificați mărimea widgetului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar) astfel că widgetul ascunde automat panourile, dacă este prea mic.\n\n
         Pentru cele mai bune rezultate, recomand utilizarea launchereleor Apex sau Nova. Chronus va lucra pe majoritatea launcherelor, însă posibilitățile de configurare a afișării pot fi limitate.\n\n
         Cu Android 4.2+, pentru a adiționa widgetul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul (+) și adăugați Chronus. Widgeturile de pe ecranul de blocare pot fi rearanjate sau șterse ținându-le apăsate.</string>
+    <string name="no_widget_message">Chronus este un Widget ce necesită a fi adiționat manual pe ecranul principal (Android 4.1) sau pe ecranul de blocare (possibil doar pentru Android 4.2+) utilizând funcțiile respective ale Android și ale launcherului Dvs.\n\n
+        Odată plasat, puteți utiliza această aplicație pentru a modifica configurările widgetului.</string>
 
     <string name="credits_title">Mulțumiri</string>
     <string name="credits_summary">Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la servciile meteo și billing, revizuiri și îmbunătățiri; comuniîții de traducători pentru includerea tuturor limbilor existente; lui Nicolai Ehemann și Matt Booth pentru corecările și opțiunile la care au contribuit.

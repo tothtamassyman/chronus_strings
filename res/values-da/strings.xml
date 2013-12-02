@@ -179,6 +179,9 @@
 		muligheden for at konfigurere, hvordan den vises, kan være begrænset.\n\nStryg til venstre på låseskærmen på Android 4.2+
 		og brug derefter knappen Tilføj widget (+) for at tilføje Chronus til skærmlåsen. Widgets til skærmlåsen kan omarrangeres
 		ved at holde dem nede, og derefter flytte eller slette dem.</string>
+    <string name="no_widget_message">Chronus er en widget og skal tilføjes manuelt til enten startskærmen (Android 4.1+) eller
+        skærmlåsen (kun muligt på Android 4.2+) vha. Androids widget-vælger og din launcher.\n\nSå snart en widget er placeret,
+        kan du bruge denne app til at ændre widget-konfigurationen.</string>
     <string name="credits_title">Særlig tak</string>
     <string name="credits_summary">Selv om jeg skrev en stor del af Chronus, skal der alligevel gå en særlig tak til Danny Baumann for hans
         arbejde med vejr- og betalingstjenesten, korrektur og optimering; de mange oversættere af CyanogenMod for at tilføje alle sprogene,

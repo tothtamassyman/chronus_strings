@@ -228,6 +228,10 @@
         it is displayed may be limited.\n\nFor Android 4.2+, to add a widget to the Lock screen, slide left on the Lock screen and then use
         the add widget button (+) to add Chronus. Lock screen widgets can be rearranged by long-pressing then moving or deleting them.</string>
 
+    <string name="no_widget_message">Chronus is a Widget and needs to be manually added to either the Home screen (Android 4.1+) or the
+        Lock screen (only possible on Android 4.2+) using the widget picker feature of Android and your launcher.\n\nOnce the widget is
+        placed, you can use this app to change the widget configuration.</string>
+
     <string name="credits_title">Credits</string>
     <string name="credits_summary">Even though I wrote significant parts of Chronus, lots of credit also goes to Danny Baumann for his
         work on the weather and billing services, reviewing and tweaking; the many CyanogenMod community translators for adding all the
