@@ -237,6 +237,9 @@
     <string name="chronus_small">Chronus (klein)</string>
     <string name="chronus_medium">Chronus (mittel)</string>
     <string name="chronus_large">Chronus (groß)</string>
+    <string name="widget_rounded_corners_title">Abgerundete Ecken</string>
+    <string name="calendar_no_events">Keine Termine im gewählten Zeitraum</string>
+    <string name="calendar_no_events_summary">Berühren, um Termin hinzuzufügen</string>
     <string name="widget_type_keyguard">Bildschirmsperre</string>
     <string name="widget_type_homescreen">Startbildschirm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 </resources>
