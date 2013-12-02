@@ -70,6 +70,12 @@
     <string name="weather_46">阵雪</string>
     <string name="weather_47">局部雷阵雨</string>
     <string name="weather_3200"></string>
+
+    <!-- Weather - Speed units -->
+    <string name="weather_kph">公里/小时</string>
+    <string name="weather_mph">英里/小时</string>
+
+    <!-- Weather - Wind directions -->
     <string name="weather_N">北</string>
     <string name="weather_NE">东北</string>
     <string name="weather_E">东</string>
@@ -84,7 +90,7 @@
     <string name="weather_tap_to_refresh">请点击刷新</string>
     <string name="weather_refreshing">正在刷新</string>
     <string name="weather_last_sync_just_now">刚刚</string>
-    <string name="weather_cannot_reach_provider">无法获取 %s</string>
+    <string name="weather_cannot_reach_provider">暂时无法访问 %s</string>
 
     <!-- Weather - Update frequency -->
     <string name="weather_refresh_manual">手动</string>
@@ -94,11 +100,19 @@
     <string name="weather_refresh_4hrs">4 小时</string>
     <string name="weather_refresh_6hrs">6 小时</string>
     <string name="weather_refresh_8hrs">8 小时</string>
+
+    <!-- Preferences - Categories -->
     <string name="clock_category">时钟与闹钟</string>
     <string name="weather_category">天气面板</string>
     <string name="calendar_category">日历活动</string>
+    <string name="about_category">关于 Chronus</string>
+    <string name="appearance_category">整体外观</string>
     <string name="general_category">常规</string>
     <string name="display_category">显示</string>
+
+    <!-- Preferences - widget types in selection list -->
+    <string name="widget_type_keyguard">锁屏</string>
+    <string name="widget_type_homescreen">主屏幕（<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>）</string>
 
     <!-- Preferences - Clock -->
     <string name="use_digital_clock_title">使用数字时钟</string>
@@ -107,6 +121,9 @@
     <string name="clock_font_minutes_title">加粗分钟</string>
     <string name="clock_font_date_title">加粗日期与闹钟</string>
     <string name="show_alarm_title">显示下一个闹钟</string>
+    <string name="clock_am_pm_title"> 显示 上午/下午 指示器</string>
+
+    <!-- Preferences - Weather -->
     <string name="weather_enabled">已启用</string>
     <string name="weather_enable">显示天气</string>
     <string name="weather_source_title">天气来源</string>
@@ -114,14 +131,14 @@
     <string name="weather_use_custom_location">使用自定义的位置</string>
     <string name="weather_geolocated">使用网络定位</string>
     <string name="weather_custom_location_dialog_title">输入位置</string>
-    <string name="weather_custom_location_hint">城市, 省份/国家</string>
+    <string name="weather_custom_location_hint">城市，省份/国家</string>
     <string name="weather_custom_location_title">位置</string>
     <string name="weather_show_location_title">显示位置</string>
     <string name="weather_show_timestamp_title">显示更新时间</string>
     <string name="weather_refresh_interval">更新间隔</string>
     <string name="weather_use_metric">使用公制</string>
     <string name="weather_retrieve_location_dialog_title">无法查询位置!</string>
-    <string name="weather_retrieve_location_dialog_message">网络定位已被禁用.\n\n请设置一个自定义的位置或启用网络定位服务</string>
+    <string name="weather_retrieve_location_dialog_message">网络定位已被禁用。\n\n请设置一个自定义的位置或启用网络定位服务</string>
     <string name="weather_retrieve_location_dialog_enable_button">启用</string>
     <string name="weather_invert_lowhigh">交换高低温度显示的位置</string>
     <string name="weather_progress_title">正在验证位置</string>
@@ -129,6 +146,9 @@
     <string name="weather_alternate_icons_summary">在彩色与白色的图标之间进行切换</string>
     <string name="weather_show_when_minimized_title">最小化时显示</string>
     <string name="weather_show_when_minimized_summary">小部件最小化时将依然显示天气信息</string>
+    <string name="weather_select_location">选择位置</string>
+
+    <!-- Preferences - Calendar -->
     <string name="calendar_title">显示下一个活动</string>
     <string name="calendars_title">活动日历</string>
     <string name="calendars_summary">从这些日历里寻找活动</string>
@@ -141,12 +161,16 @@
     <string name="calendar_show_description_title">活动描述</string>
     <string name="calendar_upcoming_events_category">活动预告</string>
     <string name="calendar_highlight_upcoming_events_title">高亮显示活动</string>
-    <string name="calendar_highlight_upcoming_events_summary">高亮显示当前日期、晚上8点以后以及第二天的活动</string>
+    <string name="calendar_highlight_upcoming_events_summary">高亮显示当前日期、晚上8点后以及第二天的活动</string>
     <string name="calendar_highlight_upcoming_events_bold">粗体</string>
+
+    <!-- Preferences - Font colors -->
     <string name="font_color">字体颜色</string>
     <string name="font_color_alarm">闹钟字体颜色</string>
     <string name="font_color_timestamp">时间戳字体颜色</string>
     <string name="font_color_calendar_details">详细信息字体颜色</string>
+
+    <!-- Calendar - Lookahead -->
     <string name="calendar_lookahead_3hrs">3 小时</string>
     <string name="calendar_lookahead_6hrs">6 小时</string>
     <string name="calendar_lookahead_12hrs">12 小时</string>
@@ -156,9 +180,13 @@
     <string name="calendar_lookahead_1wk">1 周</string>
     <string name="calendar_lookahead_2wks">2 周</string>
     <string name="calendar_lookahead_4wks">4 周</string>
+
+    <!-- Calendar - Event metadata -->
     <string name="calendar_metadata_none">不显示</string>
     <string name="calendar_metadata_first_line">显示第一行</string>
     <string name="calendar_metadata_all">完全显示</string>
+
+    <!-- Font colors -->
     <string name="white">白色</string>
     <string name="grey">灰色</string>
     <string name="black">黑色</string>
@@ -172,35 +200,35 @@
     <string name="holo_orange_light">浅橙色</string>
     <string name="holo_orange_dark">深橙色</string>
     <string name="holo_blue_bright">翠蓝色</string>
-    <string name="clock_am_pm_title"> 显示 上午/下午 指示器</string>
 
     <!-- First run -->
     <string name="how_to_title">帮助</string>
-    <string name="first_run_title">欢迎来到%s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus是一个小工具，并需要手动添加到主屏（安卓4.1 +）或锁屏（只能在Android 4.2 +上），使用Android和您客户端的小工具选择功能。\n\n一旦安装小工具，
-        您可以使用本应用更改小工具配置。\n\n切记在你的屏幕上调整小工具大小，以便为您已启用的（时钟，天气和日历）面板腾出空间，
-        因为如果空间不够大，小工具将自动隐藏面板\n\n为获得最佳效果，我推荐使用Apex或Nova客户端。 在大部分客户端上，Chronus均会工作，
-        但配置其如何进行显示的功能可能会受到限制。\n\n对于Android 4.2，添加插件到锁屏上，在锁屏上向左滑动，然后使用添加插件按钮
-        （+）添加Chronus。通过长按，然后移动或删除，锁屏插件可以重新排列。</string>
+    <string name="first_run_title">欢迎使用 %s</string> <!-- '%s' is the App name (name="app_name") -->
+    <string name="first_run_message">Chronus 是一个小部件，并需要手动添加到主屏幕（Android 4.1+）或锁屏（仅在 Android 4.2+ 上），
+    使用 Android 与启动器内置的小部件选择功能。\n\n一旦安装小部件，您可以通过此应用更改小部件配置。
+    \n\n切记在您的屏幕上调整小部件大小，以便为您已启用的（时钟，天气和日历）面板腾出空间，否则小部件会因为空间不够大而自动隐藏面板。
+    \n\n为获得最佳效果，我推荐使用 Apex 或 Nova 启动器。 在大部分启动器上，Chronus 均会工作，但配置其如何进行显示的功能可能会受到限制。
+    \n\n对于 Android 4.2，可在锁屏上向左滑动，然后使用添加插件按钮（+）将 Chronus 添加到锁屏上。锁屏小部件可通过长按和移动来重新排列或删除。</string>
 
-    <string name="credits_title">积分</string>
-    <string name="credits_summary">虽然我编写了Chronus的重要部分，但是大部分功劳要归于从事天气、账单服务、审阅、
-        校订工作的Danny Baumann;众多添加所有所包含语言的CyanogenMod社区翻译;和像Nicolai Ehemann 和 Matt Booth这样的，为补丁和功能做出贡献的参与者。</string>
-    <string name="contact_title">联系我们</string>
-    <string name="send_email">发送电子邮件…</string>
+    <string name="credits_title">特别感谢</string>
+    <string name="credits_summary">虽然我编写了 Chronus 的重要部分，很大一部分的功劳要归于完成天气与账单服务、
+    审阅与调成代码的 Danny Baumann；添加此应用所包含语言的 CyanogenMod 社区内的各位翻译员；
+    和像 Nicolai Ehemann 和 Matt Booth 这样提供修复与功能的各位贡献者。</string>
+    <string name="contact_title">联系我</string>
+    <string name="send_email">发送电子邮件\u2026…</string>
 
     <!-- START OF PRO VERSION STRINGS -->
     <!-- Pro features (About) -->
-    <string name="pro_features_summary">单击以启用Pro版的功能</string>
+    <string name="pro_features_summary">单击以启用 Pro 版的功能</string>
     <string name="pro_features_thanks">感谢您购买。</string>
-    <string name="pro_features_message">Pro版包含标准版的所有功能，并将在未来数月内增加许多新的功能，包括：\n\n
-        \u2022 更多的小工具布局\n
-        \u2022 备用天气提供商\n
-        \u2022 每个小工具设置\n
+    <string name="pro_features_message">Pro 版包含标准版的所有功能，并将在未来数月内增加许多新的功能，包括：\n\n
+        \u2022 更多的小部件布局\n
+        \u2022 多个天气提供商\n
+        \u2022 不同小部件的单独设置\n
         \u2022 更多日历功能\n
         \u2022 一个小型日历面板\n
-        \u2022 更多...\n\n随时欢迎更多建议。\n\n预先感谢您的支持。</string>
-    <string name="get_pro">获得Pro版</string>
+        \u2022 与更多...\n\n随时欢迎更多建议。\n\n预先感谢您的支持。</string>
+    <string name="get_pro">获得 Pro 版</string>
 
     <!-- Shortcut picker -->
     <string name="picker_apps">应用</string>
@@ -210,19 +238,20 @@
     <string name="picker_select_custom_activity_title">选择自定义活动</string>
 
     <!-- Preferences - Tap actions -->
-    <string name="tap_action_title">点选行动</string>
+    <string name="tap_action_title">点击行为</string>
     <string name="tap_action_clock_default">系统时钟</string>
+    <string name="tap_action_weather_refresh">刷新天气</string>
     <string name="tap_action_calendar_default">系统日历</string>
-    <string name="tap_action_weather_forecast">显示预报</string>
+    <string name="tap_action_weather_forecast">显示天气预报</string>
 
     <!-- Preferences - Widget background -->
-    <string name="widget_background_title">小工具背景</string>
+    <string name="widget_background_title">小部件背景</string>
     <string name="widget_background_default">透明</string>
     <string name="widget_background_color_fill">颜色填充</string>
     <string name="widget_background_custom_image">自定义图像</string>
     <string name="widget_background_dialog_title">选择颜色</string>
     <string name="widget_background_result_successful">背景更改成功</string>
-    <string name="widget_background_result_not_successful">背景不能更改</string>
+    <string name="widget_background_result_not_successful">无法更改背景</string>
 
     <!-- Alignment settings -->
     <string name="alignment_title">对齐</string>
@@ -238,11 +267,6 @@
     <string name="clock_analog">模拟时钟</string>
     <string name="clock_digital">数字时钟</string>
 
-    <!-- Weather providers -->
-    <string name="weather_source_wunderground" translatable="false">天气背景</string>
-    <string name="weather_source_hamweather" translatable="false">Hamweather</string>
-    <string name="weather_source_accuweather" translatable="false">Accuweather</string>
-
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus 时钟+</string>
@@ -252,4 +276,11 @@
     <string name="chronus_small">Chronus 小</string>
     <string name="chronus_medium">Chronus 中</string>
     <string name="chronus_large">Chronus 大</string>
+
+    <!-- Preferences - Widget background rounded corners -->
+    <string name="widget_rounded_corners_title">弧形边角</string>
+
+    <!-- Calendar - No events -->
+    <string name="calendar_no_events">在查找范围内无活动</string>
+    <string name="calendar_no_events_summary">点击以添加</string>
 </resources>
