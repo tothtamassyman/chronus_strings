@@ -75,6 +75,10 @@
     <!-- Forecast unavailable -->
     <string name="weather_3200"></string>
 
+    <!-- Weather - Speed units -->
+    <string name="weather_kph">km/h</string>
+    <string name="weather_mph">mph</string>
+
     <!-- Weather - Wind directions -->
     <string name="weather_N">É</string>
     <string name="weather_NE">ÉK</string>
@@ -112,6 +116,10 @@
     <string name="general_category">Általános</string>
     <string name="display_category">Megjelenítés</string>
 
+    <!-- Preferences - widget types in selection list -->
+    <string name="widget_type_keyguard">Képernyőzár</string>
+    <string name="widget_type_homescreen">Kezdőképernyő (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+
     <!-- Preferences - Clock -->
     <string name="use_digital_clock_title">Digitális óra</string>
     <string name="use_digital_clock_summary">Válasszon az analóg illetve a digitális óra közt</string>
@@ -125,7 +133,10 @@
     <string name="weather_enabled">Engedélyezve</string>
     <string name="weather_enable">Időjárás megjelenítése</string>
     <string name="weather_source_title">Időjárás forrása</string>
-    <string name="weather_source_yahoo">Yahoo! Időjárás</string>
+    <string name="weather_source_yahoo">Yahoo!</string>
+    <string name="weather_source_wunderground">Weather Underground</string>
+    <string name="weather_source_hamweather">Hamweather</string>
+    <string name="weather_source_accuweather">AccuWeather</string>
     <string name="weather_use_custom_location">Egyéni hely használata</string>
     <string name="weather_geolocated">Helyzetmeghatározás</string>
     <string name="weather_custom_location_dialog_title">Hely megadása</string>
@@ -245,7 +256,7 @@
     <!-- Preferences - Tap actions -->
     <string name="tap_action_title">Érintés eseménye</string>
     <string name="tap_action_clock_default">Rendszer óra</string>
-    <string name="tap_action_weather_default">Időjárás frissítése </string>
+    <string name="tap_action_weather_refresh">Időjárás frissítése</string>
     <string name="tap_action_calendar_default">Rendszer naptár</string>
     <string name="tap_action_weather_forecast">Előrejelzés megjelenítése</string>
 
@@ -276,9 +287,17 @@
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus Óra+</string>
     <string name="chronus_weather">Chronus Időjárás</string>
+    <string name="chronus_forecast">Chronus Időjárás-előrejelzés</string>
     <string name="chronus_calendar">Chronus Naptár</string>
     <string name="chronus_mini">Chronus Mini</string>
     <string name="chronus_small">Chronus Kicsi</string>
     <string name="chronus_medium">Chronus Közepes</string>
     <string name="chronus_large">Chronus Nagy</string>
+
+    <!-- Preferences - Widget background rounded corners -->
+    <string name="widget_rounded_corners_title">Lekerekített sarkok</string>
+
+    <!-- Calendar - No events -->
+    <string name="calendar_no_events">Nincsenek események az előretekintő ablakban</string>
+    <string name="calendar_no_events_summary">Érintse meg a hozzáadáshoz</string>
 </resources>
