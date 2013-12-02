@@ -230,6 +230,7 @@
     <string name="clock_digital">Reloj digital</string>
     <string name="chronus_clockplus">Chronus Reloj+</string>
     <string name="chronus_weather">Chronus Tiempo</string>
+    <string name="chronus_forecast">Chronus Predicción Tiempo</string>
     <string name="chronus_calendar">Chronus Calendario</string>
     <string name="chronus_mini">Chronus Mini</string>
     <string name="chronus_small">Chronus Pequeño</string>
@@ -238,4 +239,5 @@
 	<string name="widget_rounded_corners_title">Esquinas redondeadas</string>
 	<string name="calendar_no_events">No hay eventos en la ventana de eventos futuros</string>
 	<string name="calendar_no_events_summary">Toca para añadir</string>
+
 </resources>
