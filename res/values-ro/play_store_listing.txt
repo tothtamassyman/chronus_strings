@@ -1,0 +1,36 @@
+Chronus este un widget elegant, ce include panouri cu ceas, meteo și calendar pentru ecranul pricipal și ecranul de blocare.
+
+Având același funcțional ca și widgetul CyanogenMod cLock și prezentat de același dezvoltator, acest widget separat și lansat independent își recapătă numele original - Chronus și permite tuturor utilizatorilor Android să se bucure de posibilitățile acestuia.
+
+<b>Atrageți atenșie:</b>
+1) Widgetul ecranului de blocare este compatibil doar cu Android 4.2+. Aceasta este o limitare a SO Android, dar nu Chronus
+2) Pentru unele dispozitive este necesară restartarea acestora după instalare, pentru ca widgetul să apară în lista disponibilă
+3) WidgetLocker nu este compatibil
+
+<b>Posibilitățile versiunii Pro:</b>
+  - Acțiuni personalizate la apăsarea panourilor cu ceas, meteo și calendar pentru lansarea aplicațiilor sau activităților
+  - Setarea culorii de fundal
+  - Alinierea panoului ceasului digital (centru, stânga sau dreapta)
+  - Alinierea panoului meteo (centru, stânga sau dreapta)
+  - noi posibilități lansate la fiecare 3-4 săptămâni...
+
+<b>Posibilități de bază:</b>
+Versiunea standard este echivalentă cu widgetul CyanogenMod cLock din CM10.2 cu suport adițional pentru versiunile Android mai vechi.
+  - Compatibilitate cu Android 4.1+
+  - Aplicare pe ecranul principal (Android 4.1+), ecranul de blocare (Android 4.2+) sau ambele
+  - Alegere între ceas analogic sau digital și configurarea modului de afișare
+  - Posibilitatea ascunderii afișării alarmelor
+  - Alegere între font ingroșat sau normal pentru ceasul digital, dată și alarmă
+  - Panou meteo oferit de Yahoo Meteo
+  - Pictograme meteo colore sau monocrome
+  - Posibilitate de minimizare a panoului meteo (util în special pe ecranul de blocare)
+  - Panou calendaristic cu listă derulabilă a evenimentelor viitoare
+  - Apăsarea evenimentului deschide Calendarul la acel eveniment
+  - Apăsarea pictogramei calendarului deschide ziua curentă din Calendar
+  - Schimbarea culorii textelor în toate panourile
+  - Configurarea widgetului la aplicare sau prin aplicația Chronus din meniul principal
+  - Evidențiați evenimentele viitoare din calendar cu culori personalizate și font ingroșat
+
+<b>Mulțumiri:</b>
+Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la servciile meteo și billing, revizuiri și îmbunătățiri; comuniîții de traducători pentru includerea tuturor limbilor existente; lui Nicolai Ehemann și Matt Booth pentru corecările și opțiunile la care au contribuit.
+Traducerea în limba română: Adrian Nistreanu.
