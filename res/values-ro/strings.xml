@@ -166,6 +166,7 @@
     <string name="calendar_highlight_upcoming_events_title">Evidențiere elemente</string>
     <string name="calendar_highlight_upcoming_events_summary">Evidențiere evenimente din ziua curentă, iar după 20:00, și cele din ziua următoare</string>
     <string name="calendar_highlight_upcoming_events_bold">Font îngroșat</string>
+    <string name="calendar_add_event_title">Pictogramă eveniment nou</string>
 
     <!-- Preferences - Font colors -->
     <string name="font_color">Culoare font</string>

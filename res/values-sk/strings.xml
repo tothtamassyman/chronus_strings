@@ -135,7 +135,7 @@
     <string name="calendar_upcoming_events_category">Nadchádzajúce udalosti</string>
     <string name="calendar_highlight_upcoming_events_title">Zvýrazniť udalosti</string>
     <string name="calendar_highlight_upcoming_events_summary">Zvýrazní udalosti dnešného dňa a po dvadsiatej hodine tiež udalosti ďalšieho dňa</string>
-    <string name="calendar_highlight_upcoming_events_bold">Tučné písmo</string>ň
+    <string name="calendar_highlight_upcoming_events_bold">Tučné písmo</string>
     <string name="calendar_add_event_title">Pridať ikonu udalosti</string>
     <string name="font_color">Farba písma</string>
     <string name="font_color_alarm">Farba písma budíka</string>
