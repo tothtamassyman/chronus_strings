@@ -140,6 +140,7 @@
     <string name="calendar_highlight_upcoming_events_title">Hervorheben</string>
     <string name="calendar_highlight_upcoming_events_summary">Demnächst stattfindende Termine hervorheben</string>
     <string name="calendar_highlight_upcoming_events_bold">Fettschrift</string>
+    <string name="calendar_add_event_title">Symbol \"Neuer Termin\"</string>
     <string name="font_color">Textfarbe</string>
     <string name="font_color_alarm">Farbe des Alarms</string>
     <string name="font_color_timestamp">Farbe der Aktualisierungszeit</string>
@@ -241,5 +242,5 @@
     <string name="widget_type_homescreen">Startbildschirm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="widget_rounded_corners_title">Abgerundeete Ecken</string>
     <string name="calendar_no_events">Keine Termine im Vorschauzeitraum</string>
-    <string name="calendar_no_events_summary">Berühren +, um Termin anzulegen</string>
+    <string name="calendar_no_events_summary">Termin durch berühren von + hinzufügen</string>
 </resources>
