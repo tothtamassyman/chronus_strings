@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="unknown">Neznámé</string>
     <string name="cancel">Zrušit</string>
     <string name="loading_indicator">Načítání widgetu\u2026</string>
@@ -102,6 +102,9 @@
     <string name="general_category">Obecné</string>
     <string name="display_category">Zobrazení</string>
 
+    <string name="widget_type_keyguard">Obrazovka zámku</string>
+    <string name="widget_type_homescreen">Plocha (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+
     <string name="use_digital_clock_title">Použít digitální hodiny</string>
     <string name="use_digital_clock_summary">Vybrat pro přepnutí mezi digitálními a analogovými hodinami</string>
     <string name="clock_font_title">Zvýraznit hodiny</string>
@@ -148,6 +151,7 @@
     <string name="calendar_highlight_upcoming_events_title">Zvýraznit události</string>
     <string name="calendar_highlight_upcoming_events_summary">Zvýraznit události aktuálního dne, a po 20. hodině také dalšího dne.</string>
     <string name="calendar_highlight_upcoming_events_bold">Tučné písmo</string>
+    <string name="calendar_add_event_title">Přidat ikonu události</string>
 
     <string name="font_color">Barva písma</string>
     <string name="font_color_alarm">Barva budíku</string>
@@ -191,6 +195,9 @@
         Chronus je možné použít na většině spouštěčů, ale rozsah nastavení je u některých spouštěčů omezený.\n\nPro přidání widgetu na Android 4.2+ obrazovku
         zámku použijte levý panel a po dotyku na tlačítko (+) přidejte widget Chronus. Widgety na obrazovce zámku lze přeskupit dlouhým stiskem na daném
         widgetu a přesunem na požadovanou pozici nebo smazáním.
+    </string>
+    <string name="no_widget_message">Chronus je widget, který je možné přidat na plochu (Android 4.1+) nebo na obrazovku zámku (pouze pro Android 4.2+)
+        použitím výběru widgetu nebo s použitím spouštěče.\n\nPoté, co je widget přidán a umístěn, je možné touto aplikací změnit nastavení widgetu.
     </string>
     <string name="credits_title">Zásluhy</string>
     <string name="credits_summary">I když jsem napsal významnou část aplikace Chronus sám, mnoho zásluh patří také Danny Baumannovi pro jeho
@@ -246,9 +253,15 @@
 
     <string name="chronus_clockplus">Chronus hodiny+</string>
     <string name="chronus_weather">Chronus počasí</string>
+    <string name="chronus_forecast">Chronus předpověď</string>
     <string name="chronus_calendar">Chronus kalendář</string>
     <string name="chronus_mini">Chronus mini</string>
     <string name="chronus_small">Chronus malý</string>
     <string name="chronus_medium">Chronus střední</string>
     <string name="chronus_large">Chronus veliký</string>
+
+    <string name="widget_rounded_corners_title">Zakulacené rohy</string>
+
+    <string name="calendar_no_events">Žádné příští události</string>
+    <string name="calendar_no_events_summary">Přidat dotykem na +</string>
 </resources>

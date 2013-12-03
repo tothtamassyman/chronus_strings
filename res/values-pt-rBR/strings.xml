@@ -162,6 +162,7 @@
     <string name="calendar_highlight_upcoming_events_bold">Fonte em negrito</string>
     <string name="calendar_icon_title">Ícone do Calendário</string>
     <string name="calendar_lookahead_today">Hoje</string>
+    <string name="calendar_add_event_title">Ícone para adicionar evento</string>
     <string name="clock_am_pm_title">Exibir indicador AM/PM</string>
     <string name="weather_select_location">Selecionar localização</string>
     <string name="weather_cannot_reach_provider">Não foi possível alcançar %s</string>
@@ -183,6 +184,9 @@
         os melhores resultados, eu recomendo usar os iniciadores Apex ou Nova. Chronus irá funcionar com a maioria dos iniciadores, porém a abilitade para configurar como
         é exibido pode ser limitada.\n\nPara Android 4.2+, para adicionar um widget na tela de bloqueio, deslize para a esquerda na tela de bloqueio e então use
         o botão de adicionar um widget (+), para adicionar o Chronus. Widgets de tela de bloqueio podem ser de reorganizados ao executar um longo toque e movendo ou removendo.</string>
+    <string name="no_widget_message">Chronus é um Widget e precisa ser adicionado manualmente à tela inicial (Android 4.1+) ou na
+        tela de bloqueio (somente possível no Android 4.2+) usando o recurso de selecionar widget do Android e seu iniciador.\n\nUma vez que o widget está
+        colocado, você pode usar este aplicativo para trocar a configuração do widget.</string>
     <string name="credits_title">Créditos</string>
     <string name="credits_summary">Mesmo eu escrevendo a maior parte do Chronus, muitos créditos vão para Danny Baumann por seu trabalho
         nos serviços de tempo e cobrança, revisando e ajustando; aos muitos tradutores da comunidade CyanogenMod por adicionar todas as línguas

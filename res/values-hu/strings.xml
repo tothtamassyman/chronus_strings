@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- General strings -->
     <string name="unknown">Ismeretlen</string>
@@ -75,6 +75,10 @@
     <!-- Forecast unavailable -->
     <string name="weather_3200"></string>
 
+    <!-- Weather - Speed units -->
+    <string name="weather_kph">km/h</string>
+    <string name="weather_mph">mph</string>
+
     <!-- Weather - Wind directions -->
     <string name="weather_N">É</string>
     <string name="weather_NE">ÉK</string>
@@ -112,6 +116,10 @@
     <string name="general_category">Általános</string>
     <string name="display_category">Megjelenítés</string>
 
+    <!-- Preferences - widget types in selection list -->
+    <string name="widget_type_keyguard">Képernyőzár</string>
+    <string name="widget_type_homescreen">Kezdőképernyő (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+
     <!-- Preferences - Clock -->
     <string name="use_digital_clock_title">Digitális óra</string>
     <string name="use_digital_clock_summary">Válasszon az analóg illetve a digitális óra közt</string>
@@ -125,7 +133,6 @@
     <string name="weather_enabled">Engedélyezve</string>
     <string name="weather_enable">Időjárás megjelenítése</string>
     <string name="weather_source_title">Időjárás forrása</string>
-    <string name="weather_source_yahoo">Yahoo! Időjárás</string>
     <string name="weather_use_custom_location">Egyéni hely használata</string>
     <string name="weather_geolocated">Helyzetmeghatározás</string>
     <string name="weather_custom_location_dialog_title">Hely megadása</string>
@@ -161,6 +168,7 @@
     <string name="calendar_highlight_upcoming_events_title">Események kiemelése</string>
     <string name="calendar_highlight_upcoming_events_summary">Az aktuális nap, 20:00 után a következő nap eseményeinek kiemelése</string>
     <string name="calendar_highlight_upcoming_events_bold">Vastag betű</string>
+    <string name="calendar_add_event_title">Esemény ikon hozzáadása</string>
 
     <!-- Preferences - Font colors -->
     <string name="font_color">Betűszín</string>
@@ -209,6 +217,9 @@
 	az Apex vagy a Nova programindítót javaslom. A Chronus a legtöbb programindítóval képes működni, bár a megjelenés esetenként eltérhet.\n\nAndroid
 	4.2+ vagy újabb rendszereken képernyőzárhoz is hozzáadható. Csúsztassa balra a képernyőzárat, majd kattintson a (+) jelre a
 	Chronus hozzáadásához. A képernyőzár modulok hosszan nyomva tartással átalakíthatóak, mozgathatóak vagy törölhetőek.</string>
+    <string name="no_widget_message">A Chronus egy modul, melyet manuálisan helyezhet el a kezdőképernyőjén (Android 4.1+) vagy a
+        képernyőzárján (csak Android 4.2+) az Android programindítóban található modulválasztó segítségével.\n\nA modul elhelyezése után
+        használja ezt az alkalmazást a beállításokhoz.</string>
 
     <string name="credits_title">Köszönetnyilvánítás</string>
     <string name="credits_summary">Annak ellenére, hogy én írtam a Chronus jelentős részét, sok elismerés jár Danny Baumann-nak is,
@@ -242,7 +253,7 @@
     <!-- Preferences - Tap actions -->
     <string name="tap_action_title">Érintés eseménye</string>
     <string name="tap_action_clock_default">Rendszer óra</string>
-    <string name="tap_action_weather_default">Időjárás frissítése </string>
+    <string name="tap_action_weather_refresh">Időjárás frissítése</string>
     <string name="tap_action_calendar_default">Rendszer naptár</string>
     <string name="tap_action_weather_forecast">Előrejelzés megjelenítése</string>
 
@@ -273,9 +284,17 @@
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus Óra+</string>
     <string name="chronus_weather">Chronus Időjárás</string>
+    <string name="chronus_forecast">Chronus Időjárás-előrejelzés</string>
     <string name="chronus_calendar">Chronus Naptár</string>
     <string name="chronus_mini">Chronus Mini</string>
     <string name="chronus_small">Chronus Kicsi</string>
     <string name="chronus_medium">Chronus Közepes</string>
     <string name="chronus_large">Chronus Nagy</string>
+
+    <!-- Preferences - Widget background rounded corners -->
+    <string name="widget_rounded_corners_title">Lekerekített sarkok</string>
+
+    <!-- Calendar - No events -->
+    <string name="calendar_no_events">Nincsenek események az előretekintő ablakban</string>
+    <string name="calendar_no_events_summary">Érintse meg a + jelet a hozzáadáshoz</string>
 </resources>

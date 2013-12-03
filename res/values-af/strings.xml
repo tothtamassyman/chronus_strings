@@ -180,6 +180,9 @@
         op meeste laaiers maar die vermoë om dit te konfigureer kan beperk wees.\n\nVir Android 4.2+, om \'n legstuk by te voeg tot die 
         Slotskerm, skuif links op die skerm en gebruik dan die Voeg legstuk by knoppie (+) om Chronus by te voeg. Slotskerm legstukke
         kan geherrangskik word deur \'n lang-druk en dan beweeg of die verwydering van hulle met jou vinger.</string>
+    <string name="no_widget_message">Chronus is \'n Legstuk en kan met die hand bygevoeg word op jou Tuisskerm (Android 4.1+) of die
+        Slotskerm (slegs moontlik op Android 4.2+) deur middel van die legstuk kieser opsie van Android en jou lanseerder.\n\nWanneer die legstuk
+        geplaas is, kan hierdie program gebruik word om die legstuk instellings te verander.</string>
     <string name="credits_title">Krediete</string>
     <string name="credits_summary">Selfs al het ek beduidende dele van Chronus geskryf, kan van die krediet ook gaan aan Danny Baumann vir sy
         werk op die weer en faktuur dienste, hersiening en verfyning; Die baie CyanogenMod gemeenskap vertalers vir die toevoeging van al die

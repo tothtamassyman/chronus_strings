@@ -179,6 +179,7 @@
     <string name="calendar_highlight_upcoming_events_title">Highlight events</string>
     <string name="calendar_highlight_upcoming_events_summary">Highlight the current day\'s events and, after 8pm, also the next day\'s events</string>
     <string name="calendar_highlight_upcoming_events_bold">Bold font</string>
+    <string name="calendar_add_event_title">Add Event icon</string>
 
     <!-- Preferences - Font colors -->
     <string name="font_color">Font color</string>
@@ -227,6 +228,10 @@
         the best results, I recommended using either the Apex or Nova launchers. Chronus will work on most launchers but the ability to configure how
         it is displayed may be limited.\n\nFor Android 4.2+, to add a widget to the Lock screen, slide left on the Lock screen and then use
         the add widget button (+) to add Chronus. Lock screen widgets can be rearranged by long-pressing then moving or deleting them.</string>
+
+    <string name="no_widget_message">Chronus is a Widget and needs to be manually added to either the Home screen (Android 4.1+) or the
+        Lock screen (only possible on Android 4.2+) using the widget picker feature of Android and your launcher.\n\nOnce the widget is
+        placed, you can use this app to change the widget configuration.</string>
 
     <string name="credits_title">Credits</string>
     <string name="credits_summary">Even though I wrote significant parts of Chronus, lots of credit also goes to Danny Baumann for his
@@ -310,6 +315,6 @@
 
     <!-- Calendar - No events -->
     <string name="calendar_no_events">No events in lookahead window</string>
-    <string name="calendar_no_events_summary">Tap to add</string>
+    <string name="calendar_no_events_summary">Tap + to add</string>
 
 </resources>

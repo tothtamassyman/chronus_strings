@@ -143,6 +143,7 @@
     <string name="calendar_highlight_upcoming_events_title">Επισήμανση συμβάντων</string>
     <string name="calendar_highlight_upcoming_events_summary">Επισήμανση των συμβάντων της τρέχουσας ημέρας και μετά τις 8μμ, επίσης, τα γεγονότα της επόμενης ημέρας</string>
     <string name="calendar_highlight_upcoming_events_bold">Έντονη γραμματοσειρά</string>
+    <string name="calendar_add_event_title">Προσθήκη εικονιδίου συμβάντος</string>
     <string name="font_color">Χρώμα γραμματοσειράς</string>
     <string name="font_color_alarm">Χρώμα ξυπνητηριού</string>
     <string name="font_color_timestamp">Χρώμα ώρας</string>
@@ -183,6 +184,9 @@
         περιορισμένη.\n\nΣε Android 4.2+, για να προσθέσετε ένα widget στην οθόνη κλειδώματος, σύρετε αριστερά στην οθόνη κλειδώματος και στη
         συνέχεια χρησιμοποιήστε το κουμπί προσθήκης widget (+) για να προσθέσετε το Chronus. Μπορείτε να κάνετε αναδιάταξη των widget οθόνης
         κλειδώματος, πατώντας παρατεταμένα πάνω τους και στη συνέχεια μπορείτε να τα μετακινήσετε ή να τα διαγράψετε.</string>
+    <string name="no_widget_message">Το Chronus είναι ένα widget και πρέπει να προστεθεί χειροκίνητα είτε στην αρχική οθόνη (Android 4.1+) είτε
+        στην οθόνη κλειδώματος (μόνο σε Android 4.2+), χρησιμοποιώντας τη δυνατότητα widget του Android και του επιλογέα widget του Launcher σας.
+        \n\nΌταν το widget έχει τοποθετηθεί, μπορείτε να χρησιμοποιήσετε αυτή την εφαρμογή για να ρυθμίσετε το widget.</string>
     <string name="credits_title">Συντελεστές</string>
     <string name="credits_summary">Παρόλο που έγραψα σημαντικά τμήματα του Chronus, αρκετή δουλειά έκανε ο Danny Baumann στην πρόγνωση
          καιρού και τις υπηρεσίες τιμολόγησης, βοήθησε στην αναθεώρηση του κώδικα και έκανε μικροαλλαγές. Επίσης ευχαριστώ τους πολλούς
@@ -234,4 +238,7 @@
     <string name="chronus_small">Μικρό Chronus</string>
     <string name="chronus_medium">Μεσαίο Chronus</string>
     <string name="chronus_large">Μεγάλο Chronus</string>
+    <string name="widget_rounded_corners_title">Στρογγυλεμένες γωνίες</string>
+    <string name="calendar_no_events">Δεν έχουν προστεθεί συμβάντα</string>
+    <string name="calendar_no_events_summary">Πιέστε + για προσθήκη</string>
 </resources>

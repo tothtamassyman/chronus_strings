@@ -187,6 +187,9 @@
         di visualizzazione può essere limitato.\n\nPer Android 4.2 +, per aggiungere un widget per la schermata di blocco, scorrere a sinistra
         nella schermata Blocca, quindi utilizzare il pulsante Widget Aggiungi (+) per aggiungere Crono. Blocca oggetti sullo schermo possono
         essere riorganizzate premendo a lungo poi si spostano o cancellandoli.</string>
+    <string name="no_widget_message">Chronus è un widget e deve essere aggiunto manualmente sia alla schermata Home (Android 4.1 +) o alla
+        schermata di blocco (possibile solo su Android 4.2 +) utilizzando la funzione di selezione widget di Android e il tuo programma di
+        avvio.\n\nUna volta che il widget è posto, è possibile utilizzare questa applicazione per modificare la configurazione del widget.</string>
 
     <string name="credits_title">Meriti</string>
     <string name="credits_summary">Anche se sono l\'autore di molte parti sostanziali di Chronus, una buona parte del merito va attribuita a

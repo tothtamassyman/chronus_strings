@@ -182,6 +182,10 @@
         hinzuzufügen, wischen Sie in der Bildschirmsperre einfach von links nach rechts und berühren die Schaltfläche zum Hinzufügen eines
         Widgets (+). Widgets in der Bildschirmsperre können umsortiert oder gelöscht werden, indem sie lange gedrückt und dann auf eine andere
         Bildschirmseite oder das Papierkorbsymbol verschoben werden.</string>
+    <string name="no_widget_message">Chronus ist ein Widget und muss als solches vor der Verwendung entweder zum Startbildschirm (Android 4.1+)
+        oder zur Bildschirmsperre (nur unter Android 4.2+) mithilfe der Widgetauswahl des Launchers hinzugefügt werden.\n\nSobald das Widget
+        platziert wurde, kann diese App dazu verwendet werden, um das Widget zu konfigurieren - sie kann allerdings keine Widgets automatisch
+        zum Startbildschirm oder zur Bildschirmsperre hinzufügen.</string>
     <string name="credits_title">Danksagungen</string>
     <string name="credits_summary">Auch wenn ich maßgebliche Teile von Chronus entwickelt habe, geht mein Dank an Danny Baumann für seine 
         Arbeit an den Wetter-Aktualisierungsdiensten sowie allgemeine Codeverbesserungen, an die Übersetzer der CyanogenMod-Community 
@@ -235,4 +239,7 @@
     <string name="chronus_large">Chronus (groß)</string>
     <string name="widget_type_keyguard">Bildschirmsperre</string>
     <string name="widget_type_homescreen">Startbildschirm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_rounded_corners_title">Abgerundeete Ecken</string>
+    <string name="calendar_no_events">Keine Termine im Vorschauzeitraum</string>
+    <string name="calendar_no_events_summary">Berühren +, um Termin anzulegen</string>
 </resources>
