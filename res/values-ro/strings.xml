@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project (DvTonder)
+<!-- 
+     Copyright (C) 2012 The CyanogenMod Project (DvTonder)
+     Chronus additions (c) 2013 David van Tonder
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,28 +15,40 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General strings -->
+    <string name="app_name" translatable="false">Chronus</string>
+    <string name="app_name_pro" translatable="false">Chronus Pro</string>
 
-<resources>
+    <string name="unknown">Necunoscut</string>
+    <string name="cancel">Revocaţi</string>
+    <string name="loading_indicator">Încărcare widget\u2026</string>
+    <string name="menu_done">Efectuat</string>
+    <string name="ok">OK</string>
 
-    <string name="unknown">"Necunoscut"</string>
-    <string name="cancel">"Revocaţi"</string>
-    <string name="loading_indicator">"Încărcare widget\u2026"</string>
+    <!-- Formating strings for widget clock -->
+    <string name="widget_12_hours_format_h" translatable="false">h</string>
+    <string name="widget_12_hours_format_no_ampm_m" translatable="false">:mm</string>
+    <string name="widget_12_hours_format_m" translatable="false">:mm<font size="15">aa</font></string>
+    <string name="widget_24_hours_format_h" translatable="false">kk</string>
+    <string name="widget_24_hours_format_m" translatable="false">:mm</string>
 
+    <!-- Weather - Weather codes -->
     <string name="weather_0">"Tornadă"</string>
-    <string name="weather_1">"Furtună Tropicală"</string>
+    <string name="weather_1">"Furtună"</string>
     <string name="weather_2">"Uragan"</string>
-    <string name="weather_3">"Furtuni Severe"</string>
+    <string name="weather_3">"Furtuni severe"</string>
     <string name="weather_4">"Furtuni"</string>
-    <string name="weather_5">"Precipitaţii Mixte"</string>
+    <string name="weather_5">"Lapoviţă"</string>
     <string name="weather_6">"Lapoviţă"</string>
-    <string name="weather_7">"Precipitaţii Mixte"</string>
+    <string name="weather_7">"Ninsoare umedă"</string>
     <string name="weather_8">"Chiciură"</string>
     <string name="weather_9">"Burniţă"</string>
     <string name="weather_10">"Polei"</string>
     <string name="weather_11">"Averse"</string>
     <string name="weather_12">"Averse"</string>
-    <string name="weather_13">"Fulgi"</string>
-    <string name="weather_14">"Averse de Ninsoare Slabă"</string>
+    <string name="weather_13">"Rafale de zăpadă"</string>
+    <string name="weather_14">"Ninsoare slabă"</string>
     <string name="weather_15">"Viscol"</string>
     <string name="weather_16">"Ninsoare"</string>
     <string name="weather_17">"Grindină"</string>
@@ -47,33 +61,51 @@
     <string name="weather_24">"Vânt"</string>
     <string name="weather_25">"Rece"</string>
     <string name="weather_26">"Înnorat"</string>
-    <string name="weather_27">"În General Noros"</string>
-    <string name="weather_28">"În General Noros"</string>
-    <string name="weather_29">"Parţial Noros"</string>
-    <string name="weather_30">"Parţial Noros"</string>
-    <string name="weather_31">"Senin"</string>
-    <string name="weather_32">"Senin"</string>
-    <string name="weather_33">"Frumoasă"</string>
-    <string name="weather_34">"Frumoasă"</string>
-    <string name="weather_35">"Ploaie cu Grindină"</string>
+    <string name="weather_27">Noros</string> <!-- Night -->
+    <string name="weather_28">Noros</string> <!-- Day -->
+    <string name="weather_29">Parţial înnorat</string> <!-- Night -->
+    <string name="weather_30">Parţial înnorat</string> <!-- Day -->
+    <string name="weather_31">Senin</string> <!-- Night -->
+    <string name="weather_32">Însorit</string>
+    <string name="weather_33">Senin</string> <!-- Night -->
+    <string name="weather_34">Senin</string> <!-- Day -->
+    <string name="weather_35">"Ploaie cu grindină"</string>
     <string name="weather_36">"Cald"</string>
-    <string name="weather_37">"Furtuni Izolate"</string>
-    <string name="weather_38">"Furtuni Dispersate cu Tunete"</string>
-    <string name="weather_39">"Furtuni Dispersate cu Tunete"</string>
-    <string name="weather_40">"Averse Dispersate"</string>
-    <string name="weather_41">"Ninsoare Puternică"</string>
-    <string name="weather_42">"Averse de Ninsoare Dispersate"</string>
-    <string name="weather_43">"Ninsoare Puternică"</string>
-    <string name="weather_44">"Parţial Noros"</string>
-    <string name="weather_45">"Averse cu Descărcări Electrice"</string>
-    <string name="weather_46">"Averse de Ninsoare"</string>
-    <string name="weather_47">"Averse cu Descărcări Electrice Izolate"</string>
+    <string name="weather_37">"Furtuni izolate"</string>
+    <string name="weather_38">"Furtuni dispersate"</string>
+    <string name="weather_39">"Furtuni dispersate"</string>
+    <string name="weather_40">"Ploi ușoare"</string>
+    <string name="weather_41">"Ninsoare puternică"</string>
+    <string name="weather_42">"Ninsori dispersate"</string>
+    <string name="weather_43">"Ninsoare puternică"</string>
+    <string name="weather_44">"Parţial noros"</string>
+    <string name="weather_45">"Descărcări electrice"</string>
+    <string name="weather_46">"Averse de ninsoare"</string>
+    <string name="weather_47">"Descărcări electrice izolate"</string>
+    <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
-    <string name="weather_no_data">"Nu există date"</string>
-    <string name="weather_tap_to_refresh">"Apăsaţi pentru actualizare"</string>
-    <string name="weather_refreshing">"Actualizare"</string>
-    <string name="weather_last_sync_just_now">"Acum"</string>
+    <!-- Weather - Speed units -->
+    <string name="weather_kph">km/h</string>
+    <string name="weather_mph">ml/h</string>
 
+    <!-- Weather - Wind directions -->
+    <string name="weather_N">N</string>
+    <string name="weather_NE">NE</string>
+    <string name="weather_E">E</string>
+    <string name="weather_SE">SE</string>
+    <string name="weather_S">S</string>
+    <string name="weather_SW">SV</string>
+    <string name="weather_W">V</string>
+    <string name="weather_NW">NV</string>
+
+    <!-- Weather - Error messages -->
+    <string name="weather_no_data">Nu există date</string>
+    <string name="weather_tap_to_refresh">Apăsaţi pentru actualizare</string>
+    <string name="weather_refreshing">Actualizare</string>
+    <string name="weather_last_sync_just_now">Acum</string>
+    <string name="weather_cannot_reach_provider">%s este indisponibil la moment</string>
+
+    <!-- Weather - Update frequency -->
     <string name="weather_refresh_manual">"Manual"</string>
     <string name="weather_refresh_30min">"30 minute"</string>
     <string name="weather_refresh_60min">"60 minute"</string>
@@ -82,25 +114,38 @@
     <string name="weather_refresh_6hrs">"6 ore"</string>
     <string name="weather_refresh_8hrs">"8 ore"</string>
 
-    <string name="clock_category">"Ceas şi alarmă"</string>
-    <string name="weather_category">"Panou meteo"</string>
-    <string name="calendar_category">"Evenimente din calendar"</string>
+    <!-- Preferences - Categories -->
+    <string name="clock_category">Ceas şi alarmă</string>
+    <string name="weather_category">Panou meteo</string>
+    <string name="calendar_category">Evenimente din calendar</string>
+    <string name="about_category">Despre Chronus</string>
+    <string name="appearance_category">Aspect general</string>
+    <string name="general_category">General</string>
+    <string name="display_category">Afișare</string>
 
-    <string name="general_category">"General"</string>
-    <string name="display_category">"Afișare"</string>
+    <!-- Preferences - widget types in selection list -->
+    <string name="widget_type_keyguard">Ecran blocare</string>
+    <string name="widget_type_homescreen">Ecran principal (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 
+    <!-- Preferences - Clock -->
     <string name="use_digital_clock_title">"Utilizați ceasul digital"</string>
     <string name="use_digital_clock_summary">"Selectați pentru a comuta între ceasul digital și cel analogic"</string>
-    <string name="clock_font_title">"Ore aldin"</string>
-    <string name="clock_font_minutes_title">"Minute aldin"</string>
-    <string name="clock_font_date_title">"Dată și alarmă aldin"</string>
-    <string name="show_alarm_title">"Arătaţi următoarea alarmă"</string>
+    <string name="clock_font_title">"Font oră îngroșat"</string>
+    <string name="clock_font_minutes_title">"Font minute îngroșat"</string>
+    <string name="clock_font_date_title">"Font dată și alarmă îngroșat"</string>
+    <string name="show_alarm_title">"Afișare următoarea alarmă"</string>
+    <string name="clock_am_pm_title">Afișare indicator AM/PM</string>
 
+    <!-- Preferences - Weather -->
     <string name="weather_enabled">"Activat"</string>
-    <string name="weather_enable">"Afişare inf. meteo"</string>
-    <string name="weather_source_yahoo">"Yahoo! Meteo"</string>
+    <string name="weather_enable">"Afişare meteo"</string>
+    <string name="weather_source_title">Sursă meteo</string>
+    <string name="weather_source_yahoo">Yahoo Meteo</string>
+    <string name="weather_source_wunderground">Weather Underground</string>
+    <string name="weather_source_hamweather">HAMweather</string>
+    <string name="weather_source_accuweather">AccuWeather</string>
     <string name="weather_use_custom_location">"Utilizaţi locaţia personalizată"</string>
-    <string name="weather_geolocated">"Localizată utilizând reţeaua"</string>
+    <string name="weather_geolocated">"Localizare utilizând reţeaua"</string>
     <string name="weather_custom_location_dialog_title">"Introduceţi locaţia"</string>
     <string name="weather_custom_location_hint">"Oraş, Stat/Ţară"</string>
     <string name="weather_custom_location_title">"Locaţie"</string>
@@ -108,31 +153,158 @@
     <string name="weather_show_timestamp_title">"Afişaţi marcajul de timp"</string>
     <string name="weather_refresh_interval">"Interval actualizare"</string>
     <string name="weather_use_metric">"Utilizaţi sistemul metric"</string>
-    <string name="weather_retrieve_location_dialog_title">"Nu pot prelua locaţia!"</string>
+    <string name="weather_retrieve_location_dialog_title">"Nu se poate prelua locaţia!"</string>
     <string name="weather_retrieve_location_dialog_message">"Geolocalizare reţea este dezactivată.\n\nSetaţi o locaţie personalizată sau activaţi localizarea în reţea"</string>
     <string name="weather_retrieve_location_dialog_enable_button">"Activată"</string>
     <string name="weather_invert_lowhigh">"Inversaţi temperaturile scăzute/ridicate"</string>
     <string name="weather_progress_title">"Verificare locaţie"</string>
     <string name="weather_alternate_icons_title">"Utilizați pictograme alternative"</string>
-    <string name="weather_alternate_icons_summary">"Selectați pentru a comuta între pictogramele prestabilite (Albe) și cele alternative (Colorate)"</string>
+    <string name="weather_alternate_icons_summary">"Selectați pentru a comuta între pictogramele prestabilite (Colore) și cele alternative (Albe)"</string>
+    <string name="weather_show_when_minimized_title">Afişaţi minimizat</string>
+    <string name="weather_show_when_minimized_summary">Afişaţi informație meteo sumară cănd widget-ul este minimizat</string>
+    <string name="weather_select_location">Selectați locația</string>
 
+    <!-- Preferences - Calendar -->
     <string name="calendar_title">"Afişaţi următorul eveniment"</string>
     <string name="calendars_title">"Calendare"</string>
     <string name="calendars_summary">"Găsiţi evenimente din aceste calendare"</string>
     <string name="calendar_reminders_only_title">"Numai cu memento-uri"</string>
     <string name="calendar_reminders_only_summary">"Arată doar evenimentele cu memento-uri"</string>
     <string name="calendar_hide_allday_title">Ascundeți evenim. pt. toată ziua</string>
+    <string name="calendar_icon_title">Pictogramă Calendar</string>
     <string name="calendar_lookahead_title">"Perioadă eveniment"</string>
     <string name="calendar_show_location_title">"Locaţie eveniment"</string>
     <string name="calendar_show_description_title">"Descriere eveniment"</string>
+    <string name="calendar_upcoming_events_category">Următoarele evenimente</string>
+    <string name="calendar_highlight_upcoming_events_title">Evidențiați elementele</string>
+    <string name="calendar_highlight_upcoming_events_summary">Evidențiați evenimentul din ziua curentă, iar după 20:00, și cel din ziua următoare</string>
+    <string name="calendar_highlight_upcoming_events_bold">Font îngroșat</string>
 
+    <!-- Preferences - Font colors -->
+    <string name="font_color">Culoare font</string>
+    <string name="font_color_alarm">Culoare font alarmă</string>
+    <string name="font_color_timestamp">Culoare font marcaj de timp</string>
+    <string name="font_color_calendar_details">Detalii culoare font</string>
+
+    <!-- Calendar - Lookahead -->
     <string name="calendar_lookahead_3hrs">"3 ore"</string>
     <string name="calendar_lookahead_6hrs">"6 ore"</string>
     <string name="calendar_lookahead_12hrs">"12 ore"</string>
+    <string name="calendar_lookahead_today">Astăzi</string>
     <string name="calendar_lookahead_1day">"1 zi"</string>
     <string name="calendar_lookahead_3days">"3 zile"</string>
     <string name="calendar_lookahead_1wk">"1 săptămână"</string>
+    <string name="calendar_lookahead_2wks">2 săptămâni</string>
+    <string name="calendar_lookahead_4wks">4 săptămâni</string>
+
+    <!-- Calendar - Event metadata -->
     <string name="calendar_metadata_none">"Nu se afişează"</string>
     <string name="calendar_metadata_first_line">"Afişare primul rând"</string>
-    <string name="calendar_metadata_all">"Afişare tot"</string>
+    <string name="calendar_metadata_all">"Afişare totală"</string>
+
+    <!-- Font colors -->
+    <string name="white">Alb</string>
+    <string name="grey">Gri</string>
+    <string name="black">Negru</string>
+    <string name="holo_blue_light">Albastru deschis</string>
+    <string name="holo_green_light">Verde deschis</string>
+    <string name="holo_red_light">Roșu deschis</string>
+    <string name="holo_blue_dark">Albastru închis</string>
+    <string name="holo_green_dark">Verde închis</string>
+    <string name="holo_red_dark">Roșu închis</string>
+    <string name="holo_purple">Purpuriu</string>
+    <string name="holo_orange_light">Portocaliu deschis</string>
+    <string name="holo_orange_dark">Portocaliu închis</string>
+    <string name="holo_blue_bright">Albastru aprins</string>
+
+    <!-- First run -->
+    <string name="how_to_title">Ajutor</string>
+    <string name="first_run_title">Bun venit la %s</string> <!-- '%s' is the App name (name="app_name") -->
+    <string name="first_run_message">Chronus este un Widget ce necesită a fi adiționat manual pe ecranul principal (Android 4.1) sau pe ecranul de blocare (possibil doar pentru Android 4.2+) utilizând funcțiile respective ale Android și ale launcherului Dvs.\n\n
+        Odată plasat, puteți utiliza această aplicație pentru a modifica configurările widgetului.\n\n
+        Modificați mărimea widgetului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar) astfel că widgetul ascunde automat panourile, dacă este prea mic.\n\n
+        Pentru cele mai bune rezultate, recomand utilizarea launchereleor Apex sau Nova. Chronus va lucra pe majoritatea launcherelor, însă posibilitățile de configurare a afișării pot fi limitate.\n\n
+        Cu Android 4.2+, pentru a adiționa widgetul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul (+) și adăugați Chronus. Widgeturile de pe ecranul de blocare pot fi rearanjate sau șterse ținându-le apăsate.</string>
+
+    <string name="credits_title">Mulțumiri</string>
+    <string name="credits_summary">Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la servciile meteo și billing, revizuiri și îmbunătățiri; comuniîții de traducători pentru includerea tuturor limbilor existente; lui Nicolai Ehemann și Matt Booth pentru corecările și opțiunile la care au contribuit.
+        Traducerea în limba română: Adrian Nistreanu.</string>
+    <string name="contact_title">Contact</string>
+    <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
+    <string name="send_email">Trimiteți email\u2026</string>
+
+    <!-- START OF PRO VERSION STRINGS -->
+    <!-- Pro features (About) -->
+    <string name="pro_features_summary">Click pentru activarea posibilităților Pro</string>
+    <string name="pro_features_thanks">Mulțumesc pentru cumpărătură</string>
+    <string name="pro_features_message">Versiunea Pro include toate posibilitățile versiunii standard, precum și următoarele posibilități, adăugate pe parcurs:\n\n
+        \u2022 Scheme Widget adiționale\n
+        \u2022 Furnizori meteo alternativi\n
+        \u2022 Setări individuale pentru Widget\n
+        \u2022 Opțiuni calendar adiționale\n
+        \u2022 Panou calendar mini\n
+        \u2022 și altele\u2026\n\nSugestiile sunt binevoite.\n\nMulțumesc anticipat pentru suportul Dvs.</string>
+    <string name="get_pro">Get Pro</string>
+
+    <!-- Shortcut picker -->
+    <string name="picker_apps">Aplicații</string>
+    <string name="picker_activities">Activități</string>
+    <string name="picker_default">Acțiune prestabilită</string>
+    <string name="picker_select_custom_app_title">Alegeți aplicație personalizată</string>
+    <string name="picker_select_custom_activity_title">Alegeți activitate personalizată</string>
+
+    <!-- Preferences - Tap actions -->
+    <string name="tap_action_title">Acțiune apăsare</string>
+    <string name="tap_action_clock_default">Ceas sistem</string>
+    <string name="tap_action_weather_refresh">Actualizare meteo</string>
+    <string name="tap_action_calendar_default">Calendar sistem</string>
+    <string name="tap_action_weather_forecast">Afișare prognoză</string>
+
+    <!-- Preferences - Widget background -->
+    <string name="widget_background_title">Fundal widget</string>
+    <string name="widget_background_default">Transparent</string>
+    <string name="widget_background_color_fill">Culoare</string>
+    <string name="widget_background_custom_image">Imagine personalizată</string>
+    <string name="widget_background_dialog_title">Alegeți culoarea</string>
+    <string name="widget_background_result_successful">Fundal schimbat cu succes</string>
+    <string name="widget_background_result_not_successful">Fundalul nu poate fi schimbat</string>
+
+    <!-- Alignment settings -->
+    <string name="alignment_title">Aliniere</string>
+    <string name="alignment_centered">Centrat</string>
+    <string name="alignment_left">Aliniere stânga</string>
+    <string name="alignment_right">Aliniere dreapta</string>
+
+    <!-- Calendar colors -->
+    <string name="calendar_colors">Culoare eveniment din calendar</string>
+
+    <!-- Clock types -->
+    <string name="clock_enable">Afișare ceas</string>
+    <string name="clock_analog">Ceas analogic</string>
+    <string name="clock_digital">Ceas digital</string>
+
+    <!-- Weather providers -->
+    <string name="weather_source_wunderground" translatable="false">Weather Underground</string>
+    <string name="weather_source_hamweather" translatable="false">Hamweather</string>
+    <string name="weather_source_accuweather" translatable="false">Accuweather</string>
+
+    <!-- Widget names -->
+    <!-- TRANSLATORS: The App name should remain as Chronus -->
+    <string name="chronus_flex" translatable="false">Chronus Flex</string>
+    <string name="chronus_clockplus">Chronus Ceas+</string>
+    <string name="chronus_weather">Chronus Meteo</string>
+    <string name="chronus_forecast">Chronus Prognoză</string>
+    <string name="chronus_calendar">Chronus Calendar</string>
+    <string name="chronus_mini">Chronus Mini</string>
+    <string name="chronus_small">Chronus Mic</string>
+    <string name="chronus_medium">Chronus Mediu</string>
+    <string name="chronus_large">Chronus Mare</string>
+
+    <!-- Preferences - Widget background rounded corners -->
+    <string name="widget_rounded_corners_title">Colțuri rotungite</string>
+
+    <!-- Calendar - No events -->
+    <string name="calendar_no_events">Nu există evenimente viitoare</string>
+    <string name="calendar_no_events_summary">Apăsați pentru adăugare</string>
+
 </resources>
