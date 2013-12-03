@@ -278,6 +278,6 @@
 
     <!-- Calendar - No events -->
     <string name="calendar_no_events">Нет предстоящих событий</string>
-    <string name="calendar_no_events_summary">Нажмите для добавления</string>
+    <string name="calendar_no_events_summary">Нажмите + для добавления</string>
 
 </resources>

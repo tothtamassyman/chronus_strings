@@ -293,6 +293,6 @@
 
     <!-- Calendar - No events -->
     <string name="calendar_no_events">Nu există evenimente viitoare</string>
-    <string name="calendar_no_events_summary">Apăsați pentru adăugare</string>
+    <string name="calendar_no_events_summary">Apăsați + pentru adăugare</string>
 
 </resources>

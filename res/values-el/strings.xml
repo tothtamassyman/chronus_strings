@@ -239,5 +239,5 @@
     <string name="chronus_large">Μεγάλο Chronus</string>
     <string name="widget_rounded_corners_title">Στρογγυλεμένες γωνίες</string>
     <string name="calendar_no_events">Δεν έχουν προστεθεί συμβάντα</string>
-    <string name="calendar_no_events_summary">Πιέστε για προσθήκη</string>
+    <string name="calendar_no_events_summary">Πιέστε + για προσθήκη</string>
 </resources>

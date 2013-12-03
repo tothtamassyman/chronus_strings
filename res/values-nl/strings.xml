@@ -233,7 +233,7 @@
     <string name="chronus_large">Chronus (groot)</string>
     <string name="widget_rounded_corners_title">Afgeronde hoeken</string>
     <string name="calendar_no_events">Geen komende afspraken</string>
-    <string name="calendar_no_events_summary">Tik om toe te voegen</string>
+    <string name="calendar_no_events_summary">Tik + om toe te voegen</string>
     <string name="widget_type_keyguard">Vergrendelingsscherm</string>
     <string name="widget_type_homescreen">Startscherm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 </resources>

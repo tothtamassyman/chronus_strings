@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
     <string name="unknown">未知</string>
     <string name="cancel">取消</string>
@@ -285,5 +285,5 @@
 
     <!-- Calendar - No events -->
     <string name="calendar_no_events">在查找范围内无活动</string>
-    <string name="calendar_no_events_summary">点击以添加</string>
+    <string name="calendar_no_events_summary">点击+以添加</string>
 </resources>

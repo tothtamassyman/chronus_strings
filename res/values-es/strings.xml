@@ -241,6 +241,6 @@
     <string name="chronus_large">Chronus Grande</string>
 	<string name="widget_rounded_corners_title">Esquinas redondeadas</string>
 	<string name="calendar_no_events">No hay eventos en la ventana de eventos futuros</string>
-	<string name="calendar_no_events_summary">Toca para añadir</string>
+	<string name="calendar_no_events_summary">Toca + para añadir</string>
 
 </resources>
