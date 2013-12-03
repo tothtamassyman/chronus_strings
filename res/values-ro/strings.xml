@@ -118,7 +118,7 @@
     <string name="widget_type_homescreen">Ecran principal (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 
     <!-- Preferences - Clock -->
-    <string name="use_digital_clock_title">"Utilizați ceasul digital"</string>
+    <string name="use_digital_clock_title">"Ceas digital"</string>
     <string name="use_digital_clock_summary">"Selectați pentru a comuta între ceasul digital și cel analogic"</string>
     <string name="clock_font_title">"Font oră îngroșat"</string>
     <string name="clock_font_minutes_title">"Font minute îngroșat"</string>
@@ -146,18 +146,18 @@
     <string name="weather_invert_lowhigh">"Inversare temperaturi scăzute/ridicate"</string>
     <string name="weather_progress_title">"Verificare locaţie"</string>
     <string name="weather_alternate_icons_title">"Utilizare pictograme alternative"</string>
-    <string name="weather_alternate_icons_summary">"Selectați pentru a comuta între pictogramele prestabilite (Colore) și cele alternative (Albe)"</string>
-    <string name="weather_show_when_minimized_title">Afişaţi minimizat</string>
+    <string name="weather_alternate_icons_summary">"Comutare între pictogramele prestabilite (colore) și cele alternative (albe)"</string>
+    <string name="weather_show_when_minimized_title">Afişare minimizat</string>
     <string name="weather_show_when_minimized_summary">Afişare informație meteo sumară cănd widget-ul este minimizat</string>
     <string name="weather_select_location">Selectați locația</string>
 
     <!-- Preferences - Calendar -->
-    <string name="calendar_title">"Afişare următorul eveniment"</string>
+    <string name="calendar_title">"Afişare eveniment următor"</string>
     <string name="calendars_title">"Calendare"</string>
-    <string name="calendars_summary">"Găsiţi evenimente din aceste calendare"</string>
+    <string name="calendars_summary">"Afișare evenimente din calendarul selectat"</string>
     <string name="calendar_reminders_only_title">"Numai cu memento-uri"</string>
-    <string name="calendar_reminders_only_summary">"Arată doar evenimentele cu memento-uri"</string>
-    <string name="calendar_hide_allday_title">Ascundeți evenim. pt. toată ziua</string>
+    <string name="calendar_reminders_only_summary">"Afișare doar evenimente cu memento-uri"</string>
+    <string name="calendar_hide_allday_title">Ascundere evenimente pentru toată ziua</string>
     <string name="calendar_icon_title">Pictogramă Calendar</string>
     <string name="calendar_lookahead_title">"Perioadă eveniment"</string>
     <string name="calendar_show_location_title">"Locaţie eveniment"</string>
