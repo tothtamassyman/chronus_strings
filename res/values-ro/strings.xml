@@ -119,7 +119,7 @@
 
     <!-- Preferences - Clock -->
     <string name="use_digital_clock_title">"Ceas digital"</string>
-    <string name="use_digital_clock_summary">"Selectați pentru a comuta între ceasul digital și cel analogic"</string>
+    <string name="use_digital_clock_summary">"Comutare între ceasul digital și cel analogic"</string>
     <string name="clock_font_title">"Font oră îngroșat"</string>
     <string name="clock_font_minutes_title">"Font minute îngroșat"</string>
     <string name="clock_font_date_title">"Font dată și alarmă îngroșat"</string>
