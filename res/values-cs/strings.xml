@@ -151,6 +151,7 @@
     <string name="calendar_highlight_upcoming_events_title">Zvýraznit události</string>
     <string name="calendar_highlight_upcoming_events_summary">Zvýraznit události aktuálního dne, a po 20. hodině také dalšího dne.</string>
     <string name="calendar_highlight_upcoming_events_bold">Tučné písmo</string>
+    <string name="calendar_add_event_title">Přidat ikonu události</string>
 
     <string name="font_color">Barva písma</string>
     <string name="font_color_alarm">Barva budíku</string>
@@ -262,5 +263,5 @@
     <string name="widget_rounded_corners_title">Zakulacené rohy</string>
 
     <string name="calendar_no_events">Žádné příští události</string>
-    <string name="calendar_no_events_summary">Dotykem + přidat</string>
+    <string name="calendar_no_events_summary">Přidat dotykem na +</string>
 </resources>
