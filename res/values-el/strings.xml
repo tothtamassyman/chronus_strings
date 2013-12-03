@@ -143,6 +143,7 @@
     <string name="calendar_highlight_upcoming_events_title">Επισήμανση συμβάντων</string>
     <string name="calendar_highlight_upcoming_events_summary">Επισήμανση των συμβάντων της τρέχουσας ημέρας και μετά τις 8μμ, επίσης, τα γεγονότα της επόμενης ημέρας</string>
     <string name="calendar_highlight_upcoming_events_bold">Έντονη γραμματοσειρά</string>
+    <string name="calendar_add_event_title">Προσθήκη εικονιδίου συμβάντος</string>
     <string name="font_color">Χρώμα γραμματοσειράς</string>
     <string name="font_color_alarm">Χρώμα ξυπνητηριού</string>
     <string name="font_color_timestamp">Χρώμα ώρας</string>
