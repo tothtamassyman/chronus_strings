@@ -295,5 +295,5 @@
 
     <!-- Calendar - No events -->
     <string name="calendar_no_events">Nincsenek események az előretekintő ablakban</string>
-    <string name="calendar_no_events_summary">Érintse meg + a hozzáadáshoz</string>
+    <string name="calendar_no_events_summary">Érintse meg a + jelet a hozzáadáshoz</string>
 </resources>
