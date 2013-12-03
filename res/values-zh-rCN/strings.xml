@@ -162,7 +162,8 @@
     <string name="calendar_upcoming_events_category">活动预告</string>
     <string name="calendar_highlight_upcoming_events_title">高亮显示活动</string>
     <string name="calendar_highlight_upcoming_events_summary">高亮显示当前日期、晚上8点后以及第二天的活动</string>
-    <string name="calendar_highlight_upcoming_events_bold">粗体</string>
+    <string name="calendar_highlight_upcoming_events_bold">使用粗体显示</string>
+    <string name="calendar_add_event_title">添加活动图标</string>
 
     <!-- Preferences - Font colors -->
     <string name="font_color">字体颜色</string>
@@ -217,7 +218,7 @@
     审阅与调成代码的 Danny Baumann；添加此应用所包含语言的 CyanogenMod 社区内的各位翻译员；
     和像 Nicolai Ehemann 和 Matt Booth 这样提供修复与功能的各位贡献者。</string>
     <string name="contact_title">联系我</string>
-    <string name="send_email">发送电子邮件\u2026…</string>
+    <string name="send_email">发送电子邮件\u2026</string>
 
     <!-- START OF PRO VERSION STRINGS -->
     <!-- Pro features (About) -->
@@ -229,7 +230,7 @@
         \u2022 不同小部件的单独设置\n
         \u2022 更多日历功能\n
         \u2022 一个小型日历面板\n
-        \u2022 与更多...\n\n随时欢迎更多建议。\n\n预先感谢您的支持。</string>
+        \u2022 与更多\u2026\n\n随时欢迎更多建议。\n\n预先感谢您的支持。</string>
     <string name="get_pro">获得 Pro 版</string>
 
     <!-- Shortcut picker -->
@@ -285,5 +286,5 @@
 
     <!-- Calendar - No events -->
     <string name="calendar_no_events">在查找范围内无活动</string>
-    <string name="calendar_no_events_summary">点击+以添加</string>
+    <string name="calendar_no_events_summary">点击“+”以添加</string>
 </resources>
