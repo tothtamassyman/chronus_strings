@@ -263,5 +263,5 @@
     <string name="widget_rounded_corners_title">Zakulacené rohy</string>
 
     <string name="calendar_no_events">Žádné příští události</string>
-    <string name="calendar_no_events_summary">Dotykem + přidat</string>
+    <string name="calendar_no_events_summary">Přidat dotykem na +</string>
 </resources>
