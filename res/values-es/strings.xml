@@ -145,6 +145,7 @@
     <string name="calendar_highlight_upcoming_events_title">Resaltar eventos</string>
     <string name="calendar_highlight_upcoming_events_summary">Resaltar los eventos del día actual y, después de las 20:00, resaltar también los eventos del día siguiente</string>
     <string name="calendar_highlight_upcoming_events_bold">Resaltar el texto</string>
+    <string name="calendar_add_event_title">Añadir icono de evento</string>
     <string name="font_color">Color del texto</string>
     <string name="font_color_alarm">Color de la alarma</string>
     <string name="font_color_timestamp">Color de la fecha</string>
