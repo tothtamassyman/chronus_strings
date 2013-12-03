@@ -92,7 +92,9 @@
     <string name="about_category">O aplikácii Chronus</string>
     <string name="appearance_category">Všeobecný vzhľad</string>
     <string name="general_category">Všeobecné</string>
-    <string name="display_category">Zobrazenie</string>
+    <string name="display_category">Displej</string>
+    <string name="widget_type_keyguard">Obrazovka uzamknutia</string>
+    <string name="widget_type_homescreen">Domovská obrazovka (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="use_digital_clock_title">Použiť digitálne hodiny</string>
     <string name="use_digital_clock_summary">Vyberte medzi digitálnymi a ručičkovými hodinami</string>
     <string name="clock_font_title">Hodiny tučným písmom</string>
@@ -134,6 +136,7 @@
     <string name="calendar_highlight_upcoming_events_title">Zvýrazniť udalosti</string>
     <string name="calendar_highlight_upcoming_events_summary">Zvýrazní udalosti dnešného dňa a po dvadsiatej hodine tiež udalosti ďalšieho dňa</string>
     <string name="calendar_highlight_upcoming_events_bold">Tučné písmo</string>
+    <string name="calendar_add_event_title">Pridať ikonu udalosti</string>
     <string name="font_color">Farba písma</string>
     <string name="font_color_alarm">Farba písma budíka</string>
     <string name="font_color_timestamp">Farba písma časovej značky</string>
@@ -223,9 +226,13 @@
     <string name="widget_background_result_not_successful">Pozadie nemohlo byť zmenené</string>
     <string name="chronus_clockplus">Chronus Hodiny+</string>
     <string name="chronus_weather">Chronus Počasie</string>
+    <string name="chronus_forecast">Chronus Predpoveď</string>
     <string name="chronus_calendar">Chronus Kalendár</string>
     <string name="chronus_mini">Chronus Mini</string>
     <string name="chronus_small">Chronus Malé</string>
     <string name="chronus_medium">Chronus Stredné</string>
     <string name="chronus_large">Chronus Veľké</string>
+    <string name="widget_rounded_corners_title">Zaoblené rohy</string>
+    <string name="calendar_no_events">Žiadne nadchádzajúce udalosti</string>
+    <string name="calendar_no_events_summary">Pridať dotykom na +</string>
 </resources>
