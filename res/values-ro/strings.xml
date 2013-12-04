@@ -143,7 +143,7 @@
     <string name="weather_retrieve_location_dialog_title">"Nu se poate prelua locaţia!"</string>
     <string name="weather_retrieve_location_dialog_message">"Geolocalizarea este dezactivată.\n\nSetaţi o locaţie personalizată sau activaţi localizarea în reţea"</string>
     <string name="weather_retrieve_location_dialog_enable_button">"Activată"</string>
-    <string name="weather_invert_lowhigh">"Inversare temperaturi scăzute/ridicate"</string>
+    <string name="weather_invert_lowhigh">"Inversare temp. scăzute/ridicate"</string>
     <string name="weather_progress_title">"Verificare locaţie"</string>
     <string name="weather_alternate_icons_title">"Utilizare pictograme alternative"</string>
     <string name="weather_alternate_icons_summary">"Comutare între pictogramele prestabilite (colore) și cele alternative (albe)"</string>
@@ -157,14 +157,14 @@
     <string name="calendars_summary">"Afișare evenimente din calendarul selectat"</string>
     <string name="calendar_reminders_only_title">"Numai cu memento-uri"</string>
     <string name="calendar_reminders_only_summary">"Afișare doar evenimente cu memento-uri"</string>
-    <string name="calendar_hide_allday_title">Ascundere evenimente pentru toată ziua</string>
+    <string name="calendar_hide_allday_title">Ascundere evenim. pt. toată ziua</string>
     <string name="calendar_icon_title">Pictogramă Calendar</string>
     <string name="calendar_lookahead_title">"Perioadă eveniment"</string>
     <string name="calendar_show_location_title">"Locaţie eveniment"</string>
     <string name="calendar_show_description_title">"Descriere eveniment"</string>
     <string name="calendar_upcoming_events_category">Următoarele evenimente</string>
     <string name="calendar_highlight_upcoming_events_title">Evidențiere elemente</string>
-    <string name="calendar_highlight_upcoming_events_summary">Evidențiere evenimente din ziua curentă, iar după 20:00, și cele din ziua următoare</string>
+    <string name="calendar_highlight_upcoming_events_summary">Evenimente din ziua curentă, iar după 20:00, și cele din ziua următoare</string>
     <string name="calendar_highlight_upcoming_events_bold">Font îngroșat</string>
     <string name="calendar_add_event_title">Pictogramă eveniment nou</string>
 
@@ -208,12 +208,12 @@
     <!-- First run -->
     <string name="how_to_title">Ajutor</string>
     <string name="first_run_title">Bun venit la %s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus este un widget ce necesită a fi adiționat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale Android și ale launcherului Dvs.\n\n
+    <string name="first_run_message">Chronus este un widget ce necesită a fi adiționat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale Android și ale launcher-ului Dvs.\n\n
         Odată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.\n\n
-        Modificați mărimea widgetului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar), pentru că widgetul ascunde automat panourile, dacă este prea mic.\n\n
-        Pentru cele mai bune rezultate, recomand utilizarea launchereleor Apex sau Nova. Chronus va lucra pe majoritatea launcherelor, însă posibilitățile de configurare a afișării pot fi limitate.\n\n
+        Modificați mărimea widget-ului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar), pentru că widget-ul ascunde automat panourile, dacă este prea mic.\n\n
+        Pentru cele mai bune rezultate, recomand utilizarea launcher-eleor Apex sau Nova. Chronus va lucra pe majoritatea launcher-elor, însă posibilitățile de configurare a afișării pot fi limitate.\n\n
         Cu Android 4.2+, pentru a adiționa widget-ul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul (+) și adăugați Chronus. Widget-urile de pe ecranul de blocare pot fi rearanjate sau șterse prin apăsare.</string>
-    <string name="no_widget_message">Chronus este un widget ce necesită a fi adiționat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale Android și ale launcherului Dvs.\n\n
+    <string name="no_widget_message">Chronus este un widget ce necesită a fi adiționat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale Android și ale launcher-ului Dvs.\n\n
         Odată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.</string>
 
     <string name="credits_title">Mulțumiri</string>
