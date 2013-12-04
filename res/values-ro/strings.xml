@@ -20,7 +20,7 @@
     <string name="unknown">Necunoscut</string>
     <string name="cancel">Revocaţi</string>
     <string name="loading_indicator">Încărcare widget\u2026</string>
-    <string name="menu_done">Efectuat</string>
+    <string name="menu_done">OK</string>
     <string name="ok">OK</string>
 
     <!-- Weather - Weather codes -->
@@ -51,8 +51,8 @@
     <string name="weather_24">"Vânt"</string>
     <string name="weather_25">"Rece"</string>
     <string name="weather_26">"Înnorat"</string>
-    <string name="weather_27">Noros</string> <!-- Night -->
-    <string name="weather_28">Noros</string> <!-- Day -->
+    <string name="weather_27">Înnorat</string> <!-- Night -->
+    <string name="weather_28">Înnorat</string> <!-- Day -->
     <string name="weather_29">Parţial înnorat</string> <!-- Night -->
     <string name="weather_30">Parţial înnorat</string> <!-- Day -->
     <string name="weather_31">Senin</string> <!-- Night -->
