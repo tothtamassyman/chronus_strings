@@ -232,7 +232,7 @@
         the add widget button (+) to add Chronus. Lock screen widgets can be rearranged by long-pressing then moving or deleting them.</string>
 
     <string name="no_widget_message">At least one Chronus Widget must be added to either the Home or the
-        Lock screen before you can use this app to change a its configuration.\n\nWidgets can be added using the widget
+        Lock screen before you can use this app to change its configuration.\n\nWidgets can be added using the widget
         picker feature of Android and your launcher.</string>
 
     <string name="credits_title">Credits</string>
