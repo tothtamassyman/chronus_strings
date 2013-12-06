@@ -214,7 +214,7 @@
     <string name="no_widget_message">Aplicați cel puțin un widget Chronus pe ecranul pricipal sau ecranul de blocare înainte de utilizarea aceastei aplicații pentru configurări.\n\nWidget-urile pot fi aplicate utilizând funcțiile respective ale Android și ale launcher-ului Dvs.</string>
 
     <string name="credits_title">Mulțumiri</string>
-    <string name="credits_summary">Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la serviciile meteo și billing, revizuiri și îmbunătățiri; lui Nicolai Ehemann și Matt Booth pentru corectările și opțiunile la care au contribuit; comunității de traducători pentru includerea tuturor limbilor existente.\nTraducerea în limba română: Adrian Nistreanu.</string>
+    <string name="credits_summary">Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la serviciile meteo și billing, revizuiri și îmbunătățiri; lui Nicolai Ehemann și Matt Booth; precum și comunității de traducători care au contribuit.\nTraducerea în limba română: Adrian Nistreanu.</string>
     <string name="contact_title">Contact</string>
     <string name="send_email">Trimiteți email\u2026</string>
 
@@ -240,9 +240,9 @@
 
     <!-- Preferences - Tap actions -->
     <string name="tap_action_title">Acțiune apăsare</string>
-    <string name="tap_action_clock_default">Ceas sistem</string>
-    <string name="tap_action_weather_refresh">Actualizare meteo</string>
-    <string name="tap_action_calendar_default">Calendar sistem</string>
+    <string name="tap_action_clock_default">Ceas</string>
+    <string name="tap_action_weather_refresh">Actualizare</string>
+    <string name="tap_action_calendar_default">Calendar</string>
     <string name="tap_action_weather_forecast">Afișare prognoză</string>
 
     <!-- Preferences - Widget background -->
