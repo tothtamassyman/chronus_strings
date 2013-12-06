@@ -22,6 +22,8 @@
     <string name="loading_indicator">Încărcare widget\u2026</string>
     <string name="menu_done">OK</string>
     <string name="ok">OK</string>
+    <string-array name="empty_array" translatable="false"/>
+    <string name="exit">Ieșire</string>
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">"Tornadă"</string>
@@ -208,8 +210,8 @@
     <!-- First run -->
     <string name="how_to_title">Ajutor</string>
     <string name="first_run_title">Bun venit la %s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus este un widget ce necesită a fi adiționat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale Android și ale launcher-ului Dvs.\n\nOdată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.\n\nModificați mărimea widget-ului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar), pentru că widget-ul ascunde automat panourile, dacă este prea mic.\n\nPentru cele mai bune rezultate, recomand utilizarea launcher-eleor Apex sau Nova. Chronus va lucra pe majoritatea launcher-elor, însă posibilitățile de configurare a afișării pot fi limitate.\n\nCu Android 4.2+, pentru a adiționa widget-ul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul (+) și adăugați Chronus. Widget-urile de pe ecranul de blocare pot fi rearanjate sau șterse prin apăsare.</string>
-    <string name="no_widget_message">Chronus este un widget ce necesită a fi adiționat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale Android și ale launcher-ului Dvs.\n\nOdată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.</string>
+    <string name="first_run_message">Chronus este un widget ce necesită a fi aplicat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale Android și ale launcher-ului Dvs.\n\nOdată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.\n\nModificați mărimea widget-ului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar), pentru că widget-ul ascunde automat panourile, dacă este prea mic.\n\nPentru cele mai bune rezultate, recomand utilizarea launcher-eleor Apex sau Nova. Chronus va lucra pe majoritatea launcher-elor, însă posibilitățile de configurare a afișării pot fi limitate.\n\nCu Android 4.2+, pentru a adiționa widget-ul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul (+) și adăugați Chronus. Widget-urile de pe ecranul de blocare pot fi rearanjate sau șterse prin apăsare.</string>
+    <string name="no_widget_message">Aplicați cel puțin un widget Chronus pe ecranul pricipal sau ecranul de blocare înainte de utilizarea aceastei aplicații pentru configurări.\n\nWidget-urile pot fi aplicate utilizând funcțiile respective ale Android și ale launcher-ului Dvs.</string>
 
     <string name="credits_title">Mulțumiri</string>
     <string name="credits_summary">Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la serviciile meteo și billing, revizuiri și îmbunătățiri; lui Nicolai Ehemann și Matt Booth pentru corectările și opțiunile la care au contribuit; comunității de traducători pentru includerea tuturor limbilor existente.\nTraducerea în limba română: Adrian Nistreanu.</string>
@@ -290,4 +292,7 @@
     <string name="calendar_no_events">Nu există evenimente viitoare</string>
     <string name="calendar_no_events_summary">Apăsați + pentru adăugare</string>
 
-</resources>
+    <!--  Cling text -->
+    <string name="cling_widget_select_title">Selectați widget-ul</string>
+    <string name="cling_widget_select_detail">Puteți configura fiecare widget aplicat. Pentru aceasta alegeți widget-ul necesar cu selectorul de sus.</string>
+    </resources>
