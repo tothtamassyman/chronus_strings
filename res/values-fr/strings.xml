@@ -141,6 +141,7 @@
     <string name="calendar_highlight_upcoming_events_title">Surbrillance des événements</string>
     <string name="calendar_highlight_upcoming_events_summary">Mettre en surbrillance les événements de la journée en cours et, après 20 heures, également les événements du lendemain</string>
     <string name="calendar_highlight_upcoming_events_bold">Police en gras</string>
+    <string name="calendar_add_event_title">Ajouter une icône Événement</string>
     <string name="font_color">Couleur de la police</string>
     <string name="font_color_alarm">Couleur de la police d\'alarme</string>
     <string name="font_color_timestamp">Couleur de la police de la date</string>

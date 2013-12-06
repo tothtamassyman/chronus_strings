@@ -18,6 +18,7 @@
     <string name="cancel">Zrušit</string>
     <string name="loading_indicator">Načítání widgetu\u2026</string>
     <string name="menu_done">Hotovo</string>
+    <string name="exit">Ukončit</string>
 
     <string name="weather_0">Tornádo</string>
     <string name="weather_1">Tropická bouře</string>
@@ -194,16 +195,14 @@
         kalendář) - widget automaticky skrývá panely podle toho, jakou má velikost.\n\nNejlepších výsledků docílíte použitím Apex nebo Nova spouštěčů.
         Chronus je možné použít na většině spouštěčů, ale rozsah nastavení je u některých spouštěčů omezený.\n\nPro přidání widgetu na Android 4.2+ obrazovku
         zámku použijte levý panel a po dotyku na tlačítko (+) přidejte widget Chronus. Widgety na obrazovce zámku lze přeskupit dlouhým stiskem na daném
-        widgetu a přesunem na požadovanou pozici nebo smazáním.
-    </string>
-    <string name="no_widget_message">Chronus je widget, který je možné přidat na plochu (Android 4.1+) nebo na obrazovku zámku (pouze pro Android 4.2+)
-        použitím výběru widgetu nebo s použitím spouštěče.\n\nPoté, co je widget přidán a umístěn, je možné touto aplikací změnit nastavení widgetu.
-    </string>
+        widgetu a přesunem na požadovanou pozici nebo smazáním.</string>
+    <string name="no_widget_message">Před použitím této aplikace musí být vytvořen alespoň jeden Chronus widget (na ploše nebo na obrazovce zámku).\n\n
+        Widgety lze přidávat standardní cestou přes výběr widgetu nebo pomocí nainstalovaného spouštěče.</string>
+
     <string name="credits_title">Zásluhy</string>
     <string name="credits_summary">I když jsem napsal významnou část aplikace Chronus sám, mnoho zásluh patří také Danny Baumannovi pro jeho
         práci na počasí a účtovacích službách, kontrole a ladění; další dík patří překladatelům z CyanogenMod komunity, kteří pomohli s překladem
-        do mnoha jazyků; a dalších přispěvovatelů jako Nicolai Ehemann a Matt Booth pro opravy a nově přidané vlastnosti.
-    </string>
+        do mnoha jazyků; a dalších přispěvovatelů jako Nicolai Ehemann a Matt Booth pro opravy a nově přidané vlastnosti.</string>
     <string name="contact_title">Kontakt</string>
     <string name="send_email">Poslat email\u2026</string>
 
@@ -216,8 +215,7 @@
         \u2022 vlastní nastavení jednotlivých widgetů\n
         \u2022 více možností kalendáře\n
         \u2022 panel mini kalendáře\n
-        \u2022 a mnohem více\u2026\n\nNávrhy jsou vždy vítány.\n\nDěkuji za Vaši podporu.
-    </string>
+        \u2022 a mnohem více\u2026\n\nNávrhy jsou vždy vítány.\n\nDěkuji za Vaši podporu.</string>
     <string name="get_pro">Získat verzi Pro</string>
 
     <string name="picker_apps">Aplikace</string>
@@ -264,4 +262,7 @@
 
     <string name="calendar_no_events">Žádné příští události</string>
     <string name="calendar_no_events_summary">Přidat dotykem na +</string>
+
+    <string name="cling_widget_select_title">Zvolte widget</string>
+    <string name="cling_widget_select_detail">Je možné změnit nastavení jakéhokoliv widgetu, který jste vytvořili. Požadovaný widget stačí vybrat pomocí volby nahoře.</string>
 </resources>

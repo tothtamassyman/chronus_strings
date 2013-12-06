@@ -25,6 +25,8 @@
     <string name="loading_indicator">Loading widget\u2026</string>
     <string name="menu_done">Done</string>
     <string name="ok">OK</string>
+    <string-array name="empty_array" translatable="false"/>
+    <string name="exit">Exit</string>
 
     <!-- Formating strings for widget clock -->
     <string name="widget_12_hours_format_h" translatable="false">h</string>
@@ -229,9 +231,9 @@
         it is displayed may be limited.\n\nFor Android 4.2+, to add a widget to the Lock screen, slide left on the Lock screen and then use
         the add widget button (+) to add Chronus. Lock screen widgets can be rearranged by long-pressing then moving or deleting them.</string>
 
-    <string name="no_widget_message">Chronus is a Widget and needs to be manually added to either the Home screen (Android 4.1+) or the
-        Lock screen (only possible on Android 4.2+) using the widget picker feature of Android and your launcher.\n\nOnce the widget is
-        placed, you can use this app to change the widget configuration.</string>
+    <string name="no_widget_message">At least one Chronus Widget must be added to either the Home or the
+        Lock screen before you can use this app to change its configuration.\n\nWidgets can be added using the widget
+        picker feature of Android and your launcher.</string>
 
     <string name="credits_title">Credits</string>
     <string name="credits_summary">Even though I wrote significant parts of Chronus, lots of credit also goes to Danny Baumann for his
@@ -317,4 +319,7 @@
     <string name="calendar_no_events">No events in lookahead window</string>
     <string name="calendar_no_events_summary">Tap + to add</string>
 
+    <!--  Cling text -->
+    <string name="cling_widget_select_title">Select widget</string>
+    <string name="cling_widget_select_detail">You can configure each of your placed widgets. Just select the one you want to configure using the selector at the top.</string>
 </resources>

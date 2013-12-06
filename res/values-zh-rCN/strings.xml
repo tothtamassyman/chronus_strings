@@ -20,6 +20,8 @@
     <string name="cancel">取消</string>
     <string name="loading_indicator">小部件加载中\u2026</string>
     <string name="menu_done">完成</string>
+    <string name="ok">确定</string>
+    <string name="exit">退出</string>
 
     <string name="weather_0">龙卷风</string>
     <string name="weather_1">热带风暴</string>
@@ -210,8 +212,9 @@
     \n\n切记在您的屏幕上调整小部件大小，以便为您已启用的（时钟，天气和日历）面板腾出空间，否则小部件会因为空间不够大而自动隐藏面板。
     \n\n为获得最佳效果，我推荐使用 Apex 或 Nova 启动器。 在大部分启动器上，Chronus 均会工作，但配置其如何进行显示的功能可能会受到限制。
     \n\n对于 Android 4.2，可在锁屏上向左滑动，然后使用添加插件按钮（+）将 Chronus 添加到锁屏上。锁屏小部件可通过长按和移动来重新排列或删除。</string>
-    <string name="no_widget_message">Chronus 是一个小部件，并需要手动添加到主屏幕（Android 4.1+）或锁屏（仅在 Android 4.2+ 上），
-        使用 Android 与启动器内置的小部件选择功能。\n\n一旦安装小部件，您可以通过此应用更改小部件配置。</string>
+
+    <string name="no_widget_message">使用此应用更改 Chronus 设置前必须要至少把一个 Chronus 小部件添加到主屏幕或锁屏。
+    \n\n小部件可通过启动器内置的小部件选择器来添加。</string>
 
     <string name="credits_title">特别感谢</string>
     <string name="credits_summary">虽然我编写了 Chronus 的重要部分，很大一部分的功劳要归于完成天气与账单服务、
@@ -287,4 +290,8 @@
     <!-- Calendar - No events -->
     <string name="calendar_no_events">在查找范围内无活动</string>
     <string name="calendar_no_events_summary">点击“+”以添加</string>
+
+    <!--  Cling text -->
+    <string name="cling_widget_select_title">选择小部件</string>
+    <string name="cling_widget_select_detail">您可以单独配置您所放置的小部件。只需要使用顶部的选择器以切换到您想配置的小部件。</string>
 </resources>

@@ -22,6 +22,7 @@
     <string name="loading_indicator">Modul betöltése\u2026</string>
     <string name="menu_done">Kész</string>
     <string name="ok">OK</string>
+    <string name="exit">Kilépés</string>
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">Tornádó</string>
@@ -133,6 +134,7 @@
     <string name="weather_enabled">Engedélyezve</string>
     <string name="weather_enable">Időjárás megjelenítése</string>
     <string name="weather_source_title">Időjárás forrása</string>
+    <string name="weather_source_yahoo">Yahoo! Időjárás</string>
     <string name="weather_use_custom_location">Egyéni hely használata</string>
     <string name="weather_geolocated">Helyzetmeghatározás</string>
     <string name="weather_custom_location_dialog_title">Hely megadása</string>
@@ -297,4 +299,8 @@
     <!-- Calendar - No events -->
     <string name="calendar_no_events">Nincsenek események az előretekintő ablakban</string>
     <string name="calendar_no_events_summary">Érintse meg a + jelet a hozzáadáshoz</string>
+
+    <!--  Cling text -->
+    <string name="cling_widget_select_title">Válasszon modult</string>
+    <string name="cling_widget_select_detail">A már elhelyezett modulok is konfigurálhatóak. Csak válasszon egyet a fent található jelölő segítségével</string>
 </resources>

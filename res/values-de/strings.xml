@@ -20,6 +20,7 @@
     <string name="loading_indicator">Widget wird geladen\u2026</string>
     <string name="menu_done">Fertig</string>
     <string name="ok">OK</string>
+    <string name="exit">Schließen</string>
     <string name="weather_0">Tornado</string>
     <string name="weather_1">Tropensturm</string>
     <string name="weather_2">Hurrikan</string>
@@ -140,6 +141,7 @@
     <string name="calendar_highlight_upcoming_events_title">Hervorheben</string>
     <string name="calendar_highlight_upcoming_events_summary">Demnächst stattfindende Termine hervorheben</string>
     <string name="calendar_highlight_upcoming_events_bold">Fettschrift</string>
+    <string name="calendar_add_event_title">Symbol \"Neuer Termin\"</string>
     <string name="font_color">Textfarbe</string>
     <string name="font_color_alarm">Farbe des Alarms</string>
     <string name="font_color_timestamp">Farbe der Aktualisierungszeit</string>
@@ -182,10 +184,9 @@
         hinzuzufügen, wischen Sie in der Bildschirmsperre einfach von links nach rechts und berühren die Schaltfläche zum Hinzufügen eines
         Widgets (+). Widgets in der Bildschirmsperre können umsortiert oder gelöscht werden, indem sie lange gedrückt und dann auf eine andere
         Bildschirmseite oder das Papierkorbsymbol verschoben werden.</string>
-    <string name="no_widget_message">Chronus ist ein Widget und muss als solches vor der Verwendung entweder zum Startbildschirm (Android 4.1+)
-        oder zur Bildschirmsperre (nur unter Android 4.2+) mithilfe der Widgetauswahl des Launchers hinzugefügt werden.\n\nSobald das Widget
-        platziert wurde, kann diese App dazu verwendet werden, um das Widget zu konfigurieren - sie kann allerdings keine Widgets automatisch
-        zum Startbildschirm oder zur Bildschirmsperre hinzufügen.</string>
+    <string name="no_widget_message">Es muss mindestens ein Widget zu entweder dem Startbildschirm oder der Bildschirmsperre hinzugefügt werden,
+        bevor es mit Hilfe dieser App konfiguiert werden kann.\n\nWidgets können durch die Widgetauswahl von Android oder dem verwendeten
+        Launcher hinzugefügt werden.</string>
     <string name="credits_title">Danksagungen</string>
     <string name="credits_summary">Auch wenn ich maßgebliche Teile von Chronus entwickelt habe, geht mein Dank an Danny Baumann für seine 
         Arbeit an den Wetter-Aktualisierungsdiensten sowie allgemeine Codeverbesserungen, an die Übersetzer der CyanogenMod-Community 
@@ -241,5 +242,7 @@
     <string name="widget_type_homescreen">Startbildschirm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="widget_rounded_corners_title">Abgerundeete Ecken</string>
     <string name="calendar_no_events">Keine Termine im Vorschauzeitraum</string>
-    <string name="calendar_no_events_summary">Berühren +, um Termin anzulegen</string>
+    <string name="calendar_no_events_summary">Termin durch Berühren von + hinzufügen</string>
+    <string name="cling_widget_select_title">Widget auswählen</string>
+    <string name="cling_widget_select_detail">Mit Hilfe der Auswahlliste am oberen Rand kann jedes platzierte Widget separat konfiguriert werden. Einfach das zu konfigurierende Widget auswählen und dessen Einstellungen setzen.</string>
 </resources>
