@@ -18,7 +18,9 @@
     <string name="unknown">Desconhecido</string>
     <string name="cancel">Cancelar</string>
     <string name="loading_indicator">A carregar widget\u2026</string>
+    <string name="ok">OK</string>
     <string name="menu_done">Concluído</string>
+    <string name="exit">Sair</string>
     <string name="weather_0">Tornado</string>
     <string name="weather_1">Tempestade Tropical</string>
     <string name="weather_2">Furacão</string>
@@ -68,6 +70,8 @@
     <string name="weather_46">Chuva de Neve</string>
     <string name="weather_47">Chuvas com Trovoadas Isoladas</string>
     <string name="weather_3200"></string>
+    <string name="weather_kph">km/h</string>
+    <string name="weather_mph">mph</string>
     <string name="weather_N">N</string>
     <string name="weather_NE">NE</string>
     <string name="weather_E">E</string>
@@ -80,6 +84,7 @@
     <string name="weather_tap_to_refresh">Toque para atualizar</string>
     <string name="weather_refreshing">A atualizar</string>
     <string name="weather_last_sync_just_now">Agora mesmo</string>
+    <string name="weather_cannot_reach_provider">Não é possível alcançar %s de momento.</string>
     <string name="weather_refresh_manual">Manual</string>
     <string name="weather_refresh_30min">30 minutos</string>
     <string name="weather_refresh_60min">60 minutos</string>
@@ -90,8 +95,12 @@
     <string name="clock_category">Relógio e alarme</string>
     <string name="weather_category">Painel do tempo</string>
     <string name="calendar_category">Eventos do calendário</string>
+    <string name="about_category">Sobre o Chronus</string>
+    <string name="appearance_category">Aparência geral</string>
     <string name="general_category">Geral</string>
-    <string name="display_category">Mostrar</string>
+    <string name="display_category">Aparência</string>
+    <string name="widget_type_keyguard">Ecrã de bloqueio</string>
+    <string name="widget_type_homescreen">Ecrã inicial (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="use_digital_clock_title">Usar relógio Digital</string>
     <string name="use_digital_clock_summary">Selecione para alternar entre o relógio Digital e o Analógico</string>
     <string name="clock_font_title">Horas a negrito</string>
@@ -101,6 +110,7 @@
     <string name="clock_am_pm_title">Mostrar indicador AM/PM</string>
     <string name="weather_enabled">Ativo</string>
     <string name="weather_enable">Mostrar Meteorologia</string>
+    <string name="weather_source_title">Fonte de meteorologia</string>
     <string name="weather_source_yahoo">Yahoo! Tempo</string>
     <string name="weather_use_custom_location">Usar localização personalizada</string>
     <string name="weather_geolocated">Geolocalização usando a rede</string>
@@ -135,6 +145,7 @@
     <string name="calendar_highlight_upcoming_events_title">Destacar eventos</string>
     <string name="calendar_highlight_upcoming_events_summary">Destacar os eventos do próprio dia e, após as 20:00, também os do dia seguinte</string>
     <string name="calendar_highlight_upcoming_events_bold">Texto a negrito</string>
+    <string name="calendar_add_event_title">Ícone de adicionar Evento</string>
     <string name="font_color">Cor do texto</string>
     <string name="font_color_alarm">Cor do texto do alarme</string>
     <string name="font_color_timestamp">Cor do texto da hora</string>
@@ -167,8 +178,8 @@
     <string name="how_to_title">Ajuda</string>
     <string name="first_run_title">Bem-vindo ao %s</string>
     <string name="first_run_message">O Chronus é um Widget e precisa ser adicionado manualmente ao ecrã inicial (Android 4.1+) ou ao ecrã de bloqueio (apenas possível em Android 4.2+) usando o seletor de widgets do Android e o seu launcher.\n\nQuando o widget estiver colocado, poderá usar esta app para alterar a configuração do widget.\n\nLembre-se de ajustar o tamanho do widget no seu ecrã para fazer espaço para todos os paineis que ativou (Relógio, Tempo e Calendário), pois o widget ocultará automaticamente painéis se não for grande o suficiente.\n\nPara melhores resultados, eu recomendaria usar os launchers Apex ou Nova. O Chronus funcionará na maioria dos launchers mas a capacidade de configurar como será exibido pode ser limitada.\n\nPara Android 4.2+, para adiconar um widget ao ecrã de bloqueio, deslize para a esquerda nesse ecrã e depois use o botão de adicionar widget (+) para adicionar o Chronus. Os widgets do ecrã de bloqueio podem ser reordenados através de um toque longo e depois movendo-os ou apagando-os.</string>
-    <string name="no_widget_message">O Chronus é um Widget e precisa ser adicionado manualmente ao ecrã inicial (Android 4.1+) ou ao ecrã de bloqueio (apenas possível em Android 4.2+) usando o seletor de widgets do Android e o seu launcher.\n\nQuando o widget estiver colocado, poderá usar esta app para alterar a configuração do widget.</string>
-    <string name="credits_title">Créditos</string>
+    <string name="no_widget_message">É preciso adicionar pelo menos um widget Chronus ao ecrã inicial ou ao ecrã de bloqueio antes de poder utilizar esta aplicação para mudar a sua configuração.\n\nOs widgets podem ser adicionados usando o selecionador de widgets e o seu launcher.</string>
+    <string name="credits_title">Ficha Técnica</string>
     <string name="credits_summary">Apesar de ter escrito partes significativas do Chronus, muito crédito vai também para Danny Baumann pelos seus serviços de tempo e pagamento, revendo e ajustando; os muitos tradutores da comunidade CyanogenMod por adicionarem todos os idiomas que estão incluídos; e outros contribuidores como Nicolai Ehemann e Matt Booth pelos consertos e funcionalidades que contribuiram.</string>
     <string name="contact_title">Contacte-me</string>
     <string name="send_email">Enviar e-mail \u2026</string>
@@ -187,7 +198,7 @@
     <string name="picker_default">Ação padrão</string>
     <string name="picker_select_custom_app_title">Selecionar aplicação personalizada</string>
     <string name="picker_select_custom_activity_title">Selecionar atividade personalizada</string>
-    <string name="tap_action_title">Ação de toque</string>
+    <string name="tap_action_title">Ação ao tocar</string>
     <string name="tap_action_clock_default">Relógio de sistema</string>
     <string name="tap_action_weather_refresh">Atualizar tempo</string>
     <string name="tap_action_calendar_default">Calendário de sistema</string>
@@ -197,7 +208,7 @@
     <string name="widget_background_color_fill">Preenchimento de cor</string>
     <string name="widget_background_custom_image">Imagem personalizada</string>
     <string name="widget_background_dialog_title">Escolher cor</string>
-    <string name="widget_background_result_successful">Fundo mudado com sucesso</string>
+    <string name="widget_background_result_successful">Fundo alterado com sucesso</string>
     <string name="widget_background_result_not_successful">O fundo não pôde ser alterado</string>
     <string name="alignment_title">Alinhamento</string>
     <string name="alignment_centered">Centrado</string>
@@ -214,4 +225,9 @@
     <string name="chronus_small">Chronus Pequeno</string>
     <string name="chronus_medium">Chronus Médio</string>
     <string name="chronus_large">Chronus Grande</string>
+    <string name="widget_rounded_corners_title">Cantos arredondados</string>
+    <string name="calendar_no_events">Sem eventos na janela de eventos futuros.</string>
+    <string name="calendar_no_events_summary">Toque em + para adicionar</string>
+    <string name="cling_widget_select_title">Escolha um widget</string>
+    <string name="cling_widget_select_detail">Pode configurar cada um dos widgets que colocou. Escolha apenas o que quer configurr usando o selecionador no topo.</string>
 </resources>
