@@ -187,9 +187,8 @@
         la habilidad para configurar como es mostrado en pantalla puede verse limitada.\n\nEn Android 4.2+, para añadir un widget a la pantalla de
         bloqueo, desliza la pantalla de bloqueo hacia la derecha y pulsa sobre el botón Añadir (+) para agregar Chronus a la pantalla de bloqueo.
         Los widgets de la pantalla de bloqueo pueden ser reordenados realizando una pulsación prolongada. Podrás entonces mover o borrarlos.</string>
-    <string name="no_widget_message">Chronus es un widget y necesita ser instalado manualmente bien en la pantalla de inicio (Android 4.1+) o en
-        la pantalla de bloqueo (solo posible en Android 4.2+) utilizando la característica de selección de widgets de Android y de tu lanzador de
-        aplicaciones.\n\nUna vez que el widget este colocado, pues usar esta aplicación para cambiar la configuración del widget.</string>
+    <string name="no_widget_message">Al menos debe añadirse un Widget de Chronus a la pantalla de inicio o de bloqueo antes de poder usar esta aplicación
+        para cambiar su configuración.\n\nLos widgets pueden ser añadidos usando el selector de widgets de Android o de tu lanzador de aplicaciones.</string>
     <string name="credits_title">Créditos</string>
     <string name="credits_summary">Aunque creo haber escrito las partes más importantes de Chronus, mucho del crédito debe ir a Danny Baumann
         por su trabajo en los servicios de tiempo y de pasarela de pago, revisiones y ajustes; a los traductores de la comunidad de
