@@ -18,6 +18,8 @@
     <string name="cancel">Zrušiť</string>
     <string name="loading_indicator">Načítavanie miniaplikácie\u2026</string>
     <string name="menu_done">Hotovo</string>
+    <string name="ok">OK</string>
+    <string name="exit">Ukončiť</string>
     <string name="weather_0">Tornádo</string>
     <string name="weather_1">Tropická búrka</string>
     <string name="weather_2">Hurikán</string>
@@ -189,9 +191,8 @@
         by som odporučil spúšťač Apex alebo Nova. Chronus bude fungovať na väčšine spúšťačov, ale možnosť nastaviť spôsob zobrazenia môže byť obmedzená.\n\nPre pridanie miniaplikácie
         na uzamykaciu obrazovku na Androide 4.2+, posuňte vľavo na uzamykaciu obrazovku a potom použite tlačidlo na pridanie miniaplikácií (+) pre pridanie Chronusu. Miniaplikácie
         na uzamykacej obrazovke môžu byť upravené pomocou dlhého stlačenia pre ich následné presunutie alebo odstránenie.</string>
-    <string name="no_widget_message">Chronus je miniaplikácia, ktorú je potrebné ručne pridať buď na plochu (Android 4.1+) alebo na
-        uzamykaciu obrazovku (možné len na Androide 4.2+) pomocou funkcie na výber miniaplikácie v systéme Android a vo Vašom spúšťači.\n\nAkonáhle je miniaplikácia umiestnená,
-        môžete použiť túto aplikáciu na zmenu nastavení miniaplikácie.</string>
+    <string name="no_widget_message">Aspoň jedna miniaplikácia Chronus musí byť pridaná buď na domovskú alebo uzamykaciu obrazovku.\n\nMiniaplikácie je možné pridať pomocou funkcie
+        Androida na výber miniaplikácií a Vášho spúšťača</string>
     <string name="get_pro">Získať Pro verziu</string>
     <string name="picker_apps">Aplikácie</string>
     <string name="picker_activities">Aktivity</string>
@@ -234,5 +235,7 @@
     <string name="chronus_large">Chronus Veľké</string>
     <string name="widget_rounded_corners_title">Zaoblené rohy</string>
     <string name="calendar_no_events">Žiadne nadchádzajúce udalosti</string>
-    <string name="calendar_no_events_summary">Pridať dotykom na +</string>
+    <string name="calendar_no_events_summary">Pridajte dotykom na +</string>
+    <string name="cling_widget_select_title">Vyberte miniaplikáciu</string>
+    <string name="cling_widget_select_detail">Môžete nastaviť každú z Vašich umiestnených miniaplikácií. Stačí si vybrať tú, ktorú chcete nastaviť, pomocou voliča hore.</string>
 </resources>
