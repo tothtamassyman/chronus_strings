@@ -1,6 +1,6 @@
 Chronus este un widget elegant, ce include panouri cu ceas, meteo și calendar pentru ecranul pricipal și ecranul de blocare.
 
-Având același funcțional ca și widgetul CyanogenMod cLock și prezentat de același dezvoltator, acest widget separat și lansat independent își recapătă numele original - Chronus și permite tuturor utilizatorilor Android să se bucure de posibilitățile acestuia.
+Având același funcțional ca și widget-ul CyanogenMod cLock și prezentat de același dezvoltator, acest widget separat și lansat independent își recapătă numele original - Chronus și permite tuturor utilizatorilor Android să se bucure de posibilitățile acestuia.
 
 <b>Atrageți atenție:</b>
 1) Widget-ul ecranului de blocare este compatibil doar cu Android 4.2+. Aceasta este o limitare a SO Android, dar nu din partea Chronus
@@ -15,7 +15,7 @@ Având același funcțional ca și widgetul CyanogenMod cLock și prezentat de a
   - noi posibilități lansate la fiecare 3-4 săptămâni...
 
 <b>Posibilități de bază:</b>
-Versiunea standard este echivalentă cu widgetul CyanogenMod cLock din CM10.2 cu suport adițional pentru versiunile Android mai vechi.
+Versiunea standard este echivalentă cu widget-ul CyanogenMod cLock din CM10.2 cu suport adițional pentru versiunile Android mai vechi.
   - Compatibilitate cu Android 4.1+
   - Aplicare pe ecranul principal (Android 4.1+), ecranul de blocare (Android 4.2+) sau ambele
   - Alegere între ceas analogic sau digital și configurarea modului de afișare
@@ -32,5 +32,5 @@ Versiunea standard este echivalentă cu widgetul CyanogenMod cLock din CM10.2 cu
   - Evidențierea evenimentelor viitoare din calendar cu culori personalizate și font ingroșat
 
 <b>Mulțumiri:</b>
-Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la servciile meteo și billing, revizuiri și îmbunătățiri; lui Nicolai Ehemann și Matt Booth pentru corectările și opțiunile la care au contribuit; comunității de traducători pentru includerea tuturor limbilor existente.\n
+Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la serviciile meteo și billing, revizuiri și îmbunătățiri; lui Nicolai Ehemann și Matt Booth pentru corectările și opțiunile la care au contribuit; comunității de traducători pentru includerea tuturor limbilor existente.\n
 Traducerea în limba română: Adrian Nistreanu.

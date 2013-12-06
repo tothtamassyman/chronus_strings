@@ -20,8 +20,10 @@
     <string name="unknown">Necunoscut</string>
     <string name="cancel">Revocaţi</string>
     <string name="loading_indicator">Încărcare widget\u2026</string>
-    <string name="menu_done">Efectuat</string>
+    <string name="menu_done">OK</string>
     <string name="ok">OK</string>
+    <string-array name="empty_array" translatable="false"/>
+    <string name="exit">Ieșire</string>
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">"Tornadă"</string>
@@ -51,8 +53,8 @@
     <string name="weather_24">"Vânt"</string>
     <string name="weather_25">"Rece"</string>
     <string name="weather_26">"Înnorat"</string>
-    <string name="weather_27">Noros</string> <!-- Night -->
-    <string name="weather_28">Noros</string> <!-- Day -->
+    <string name="weather_27">Înnorat</string> <!-- Night -->
+    <string name="weather_28">Înnorat</string> <!-- Day -->
     <string name="weather_29">Parţial înnorat</string> <!-- Night -->
     <string name="weather_30">Parţial înnorat</string> <!-- Day -->
     <string name="weather_31">Senin</string> <!-- Night -->
@@ -118,8 +120,8 @@
     <string name="widget_type_homescreen">Ecran principal (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 
     <!-- Preferences - Clock -->
-    <string name="use_digital_clock_title">"Utilizați ceasul digital"</string>
-    <string name="use_digital_clock_summary">"Selectați pentru a comuta între ceasul digital și cel analogic"</string>
+    <string name="use_digital_clock_title">"Ceas digital"</string>
+    <string name="use_digital_clock_summary">"Comutare între ceasul digital și cel analogic"</string>
     <string name="clock_font_title">"Font oră îngroșat"</string>
     <string name="clock_font_minutes_title">"Font minute îngroșat"</string>
     <string name="clock_font_date_title">"Font dată și alarmă îngroșat"</string>
@@ -131,7 +133,7 @@
     <string name="weather_enable">"Afişare meteo"</string>
     <string name="weather_source_title">Sursă meteo</string>
     <string name="weather_source_yahoo">Yahoo Meteo</string>
-    <string name="weather_use_custom_location">"Utilizare locaţie personalizată"</string>
+    <string name="weather_use_custom_location">"Locaţie personalizată"</string>
     <string name="weather_geolocated">"Localizare utilizând reţeaua"</string>
     <string name="weather_custom_location_dialog_title">"Introduceţi locaţia"</string>
     <string name="weather_custom_location_hint">"Oraş, Stat/Ţară"</string>
@@ -143,28 +145,28 @@
     <string name="weather_retrieve_location_dialog_title">"Nu se poate prelua locaţia!"</string>
     <string name="weather_retrieve_location_dialog_message">"Geolocalizarea este dezactivată.\n\nSetaţi o locaţie personalizată sau activaţi localizarea în reţea"</string>
     <string name="weather_retrieve_location_dialog_enable_button">"Activată"</string>
-    <string name="weather_invert_lowhigh">"Inversare temperaturi scăzute/ridicate"</string>
+    <string name="weather_invert_lowhigh">"Inversare temperaturi min/max"</string>
     <string name="weather_progress_title">"Verificare locaţie"</string>
-    <string name="weather_alternate_icons_title">"Utilizare pictograme alternative"</string>
-    <string name="weather_alternate_icons_summary">"Selectați pentru a comuta între pictogramele prestabilite (Colore) și cele alternative (Albe)"</string>
-    <string name="weather_show_when_minimized_title">Afişaţi minimizat</string>
+    <string name="weather_alternate_icons_title">"Pictograme alternative"</string>
+    <string name="weather_alternate_icons_summary">"Comutare între pictogramele prestabilite (colore) și cele alternative (albe)"</string>
+    <string name="weather_show_when_minimized_title">Afişare minimizat</string>
     <string name="weather_show_when_minimized_summary">Afişare informație meteo sumară cănd widget-ul este minimizat</string>
     <string name="weather_select_location">Selectați locația</string>
 
     <!-- Preferences - Calendar -->
-    <string name="calendar_title">"Afişare următorul eveniment"</string>
+    <string name="calendar_title">"Afişare eveniment următor"</string>
     <string name="calendars_title">"Calendare"</string>
-    <string name="calendars_summary">"Găsiţi evenimente din aceste calendare"</string>
+    <string name="calendars_summary">"Afișare evenimente din calendarul selectat"</string>
     <string name="calendar_reminders_only_title">"Numai cu memento-uri"</string>
-    <string name="calendar_reminders_only_summary">"Arată doar evenimentele cu memento-uri"</string>
-    <string name="calendar_hide_allday_title">Ascundeți evenim. pt. toată ziua</string>
+    <string name="calendar_reminders_only_summary">"Afișare doar evenimente cu memento-uri"</string>
+    <string name="calendar_hide_allday_title">Ascundere evenim. pt. toată ziua</string>
     <string name="calendar_icon_title">Pictogramă Calendar</string>
     <string name="calendar_lookahead_title">"Perioadă eveniment"</string>
     <string name="calendar_show_location_title">"Locaţie eveniment"</string>
     <string name="calendar_show_description_title">"Descriere eveniment"</string>
     <string name="calendar_upcoming_events_category">Următoarele evenimente</string>
     <string name="calendar_highlight_upcoming_events_title">Evidențiere elemente</string>
-    <string name="calendar_highlight_upcoming_events_summary">Evidențiere evenimente din ziua curentă, iar după 20:00, și cele din ziua următoare</string>
+    <string name="calendar_highlight_upcoming_events_summary">Evenimente din ziua curentă, iar după 20:00, și cele din ziua următoare</string>
     <string name="calendar_highlight_upcoming_events_bold">Font îngroșat</string>
     <string name="calendar_add_event_title">Pictogramă eveniment nou</string>
 
@@ -208,17 +210,11 @@
     <!-- First run -->
     <string name="how_to_title">Ajutor</string>
     <string name="first_run_title">Bun venit la %s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus este un widget ce necesită a fi adiționat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale Android și ale launcherului Dvs.\n\n
-        Odată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.\n\n
-        Modificați mărimea widgetului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar), pentru că widgetul ascunde automat panourile, dacă este prea mic.\n\n
-        Pentru cele mai bune rezultate, recomand utilizarea launchereleor Apex sau Nova. Chronus va lucra pe majoritatea launcherelor, însă posibilitățile de configurare a afișării pot fi limitate.\n\n
-        Cu Android 4.2+, pentru a adiționa widget-ul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul (+) și adăugați Chronus. Widget-urile de pe ecranul de blocare pot fi rearanjate sau șterse prin apăsare.</string>
-    <string name="no_widget_message">Chronus este un widget ce necesită a fi adiționat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale Android și ale launcherului Dvs.\n\n
-        Odată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.</string>
+    <string name="first_run_message">Chronus este un widget ce necesită a fi aplicat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale Android și ale launcher-ului Dvs.\n\nOdată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.\n\nModificați mărimea widget-ului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar), pentru că widget-ul ascunde automat panourile, dacă este prea mic.\n\nPentru cele mai bune rezultate, recomand utilizarea launcher-eleor Apex sau Nova. Chronus va lucra pe majoritatea launcher-elor, însă posibilitățile de configurare a afișării pot fi limitate.\n\nCu Android 4.2+, pentru a adiționa widget-ul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul (+) și adăugați Chronus. Widget-urile de pe ecranul de blocare pot fi rearanjate sau șterse prin apăsare.</string>
+    <string name="no_widget_message">Aplicați cel puțin un widget Chronus pe ecranul pricipal sau ecranul de blocare înainte de utilizarea aceastei aplicații pentru configurări.\n\nWidget-urile pot fi aplicate utilizând funcțiile respective ale Android și ale launcher-ului Dvs.</string>
 
     <string name="credits_title">Mulțumiri</string>
-    <string name="credits_summary">Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la serviciile meteo și billing, revizuiri și îmbunătățiri; lui Nicolai Ehemann și Matt Booth pentru corectările și opțiunile la care au contribuit; comunității de traducători pentru includerea tuturor limbilor existente.\n
-        Traducerea în limba română: Adrian Nistreanu.</string>
+    <string name="credits_summary">Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la serviciile meteo și billing, revizuiri și îmbunătățiri; lui Nicolai Ehemann și Matt Booth pentru corectările și opțiunile la care au contribuit; comunității de traducători pentru includerea tuturor limbilor existente.\nTraducerea în limba română: Adrian Nistreanu.</string>
     <string name="contact_title">Contact</string>
     <string name="send_email">Trimiteți email\u2026</string>
 
@@ -296,4 +292,7 @@
     <string name="calendar_no_events">Nu există evenimente viitoare</string>
     <string name="calendar_no_events_summary">Apăsați + pentru adăugare</string>
 
-</resources>
+    <!--  Cling text -->
+    <string name="cling_widget_select_title">Selectați widget-ul</string>
+    <string name="cling_widget_select_detail">Puteți configura fiecare widget aplicat. Pentru aceasta alegeți widget-ul necesar cu selectorul de sus.</string>
+    </resources>
