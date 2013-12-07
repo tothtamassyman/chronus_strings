@@ -20,6 +20,7 @@
     <string name="loading_indicator">Caricamento widget\u2026</string>
     <string name="menu_done">Fatto</string>
     <string name="ok">OK</string>
+    <string name="exit">Esci</string>
     <string name="weather_0">Tornado</string>
     <string name="weather_1">Tempesta tropicale</string>
     <string name="weather_2">Uragano</string>
@@ -186,9 +187,9 @@
         di configurazione possono essere più limitate.\n\nCon Android 4.2 +, per aggiungere un widget alla schermata di blocco, scorrere a sinistra
         nella schermata di blocco, quindi utilizzare il pulsante Aggiungi Widget (+) per aggiungere Chronus. I widget sulla schermata di
         blocco si possono riorganizzare tramite una pressione lunga, dopo la quale possono essere spostati o cancellati.</string>
-    <string name="no_widget_message">Chronus è un widget e deve essere aggiunto manualmente alla schermata Home (Android 4.1 +) o alla
-        schermata di blocco (possibile solo su Android 4.2 +) utilizzando la funzione di selezione widget di Android e il tuo programma di
-        avvio.\n\nUna volta che il widget è stato aggiunto, è possibile utilizzare questa applicazione per modificare la sua configurazione.</string>
+    <string name="no_widget_message">Occorre aggiungere almeno un widget Chronus alla schermata Home o alla schermata di blocco prima di poter 
+        utilizzare questa applicazione per cambiarne la configurazione.\n\nI widget possono essere aggiunti utilizzando il selettore di widget di 
+        Android e del programma di avvio.</string>
     <string name="credits_title">Meriti</string>
     <string name="credits_summary">Anche se sono l\'autore di molte parti sostanziali di Chronus, una buona parte del merito va attribuita a
         Danny Baumann per il lavoro che ha dedicato al meteo e ai servizi di fatturazione, alla revisione e alle modifiche, ai molti traduttori
@@ -246,4 +247,6 @@
     <string name="widget_rounded_corners_title">Angoli arrotondati</string>
     <string name="calendar_no_events">Non ci sono eventi nella finestra di eventi futuri</string>
     <string name="calendar_no_events_summary">Tocca + per aggiungere</string>
+    <string name="cling_widget_select_title">Seleziona widget</string>
+    <string name="cling_widget_select_detail">Puoi configurare singolarmente ciascuno dei widget aggiunti, scegliendolo tramite il selettore in alto.</string>
 </resources>
