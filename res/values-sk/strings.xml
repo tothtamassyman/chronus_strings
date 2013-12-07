@@ -80,7 +80,7 @@
     <string name="weather_tap_to_refresh">Kliknutím obnovte</string>
     <string name="weather_refreshing">Obnovuje sa</string>
     <string name="weather_last_sync_just_now">Práve teraz</string>
-    <string name="weather_cannot_reach_provider">Nemožno dosiahnuť %s</string>
+    <string name="weather_cannot_reach_provider">Nemožno získať dáta z %s</string>
     <string name="weather_refresh_manual">Ručne</string>
     <string name="weather_refresh_30min">30 minút</string>
     <string name="weather_refresh_60min">60 minút</string>
@@ -89,12 +89,12 @@
     <string name="weather_refresh_6hrs">6 hodín</string>
     <string name="weather_refresh_8hrs">8 hodín</string>
     <string name="clock_category">Hodiny a budík</string>
-    <string name="weather_category">Lišta s počasím</string>
+    <string name="weather_category">Riadok s počasím</string>
     <string name="calendar_category">Udalosti v kalendári</string>
     <string name="about_category">O aplikácii Chronus</string>
     <string name="appearance_category">Všeobecný vzhľad</string>
     <string name="general_category">Všeobecné</string>
-    <string name="display_category">Displej</string>
+    <string name="display_category">Zobrazenie</string>
     <string name="widget_type_keyguard">Obrazovka uzamknutia</string>
     <string name="widget_type_homescreen">Domovská obrazovka (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="use_digital_clock_title">Použiť digitálne hodiny</string>
@@ -182,7 +182,7 @@
         prácu na počasí a fakturačných službách a za prehodnocovanie a vylepšovanie; vďaka tiež patrí komunitným prekladateľom
         CyanogenModu za pridanie všetkých jazykov, ktoré sú zahrnuté; a taktiež vďaka patrí ostatným prispievateľom, akými sú Nicolai Ehemann a Matt Booth za opravy a funkcie
         ktorými prispeli.</string>
-    <string name="how_to_title">Nápoveda</string>
+    <string name="how_to_title">Pomocník</string>
     <string name="first_run_title">Vitajte v aplikácii %s</string>
     <string name="first_run_message">Chronus je miniaplikácia, ktorú je potrebné ručne pridať buď na plochu (Android 4.1+) alebo na
         uzamykaciu obrazovku (možné len na Androide 4.2+) pomocou funkcie na výber miniaplikácie v systéme Android a vo Vašom spúšťači.\n\nAkonáhle je miniaplikácia umiestnená,
@@ -192,7 +192,7 @@
         na uzamykaciu obrazovku na Androide 4.2+, posuňte vľavo na uzamykaciu obrazovku a potom použite tlačidlo na pridanie miniaplikácií (+) pre pridanie Chronusu. Miniaplikácie
         na uzamykacej obrazovke môžu byť upravené pomocou dlhého stlačenia pre ich následné presunutie alebo odstránenie.</string>
     <string name="no_widget_message">Aspoň jedna miniaplikácia Chronus musí byť pridaná buď na domovskú alebo uzamykaciu obrazovku.\n\nMiniaplikácie je možné pridať pomocou funkcie
-        Androida na výber miniaplikácií a Vášho spúšťača</string>
+        Androida na výber miniaplikácií a Vášho spúšťača.</string>
     <string name="get_pro">Získať Pro verziu</string>
     <string name="picker_apps">Aplikácie</string>
     <string name="picker_activities">Aktivity</string>
