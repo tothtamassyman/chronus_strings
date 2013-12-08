@@ -199,7 +199,6 @@
     <string name="pro_features_message">Η έκδοση Pro περιέχει όλα τα χαρακτηριστικά της απλής έκδοσης και
         μέσα στους επόμενους μήνες θα προστεθούν πολλά νέα χαρακτηριστικά, συμπεριλαμβάνοντας:\n\n
         \u2022 Περισσότερα διατάξεις widget\n
-        \u2022 Εναλλακτικό πάροχο καιρού\n
         \u2022 Ρυθμίσεις ανά widget\n
         \u2022 Περισσότερα χαρακτηριστικά ημερολογίου\n
         \u2022 Ένα μίνι πάνελ ημερολογίου\n
@@ -232,7 +231,7 @@
     <string name="clock_digital">Ψηφιακό ρολόι</string>
     <string name="chronus_clockplus">Ρολόι+ Chronus</string>
     <string name="chronus_weather">Καιρός Chronus</string>
-    <string name="chronus_forecast">Πρόγνωση Chronus</string>
+    <string name="chronus_forecast">Πρόγνωση Chronus (Yahoo!)</string>
     <string name="chronus_calendar">Ημερολόγιο Chronus</string>
     <string name="chronus_mini">Μίνι Chronus</string>
     <string name="chronus_small">Μικρό Chronus</string>

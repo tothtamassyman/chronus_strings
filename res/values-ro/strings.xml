@@ -224,7 +224,6 @@
     <string name="pro_features_thanks">Mulțumesc pentru cumpărătură</string>
     <string name="pro_features_message">Versiunea Pro include toate posibilitățile versiunii standard, precum și următoarele posibilități, adăugate pe parcurs:\n\n
         \u2022 Scheme de widget adiționale\n
-        \u2022 Furnizori meteo alternativi\n
         \u2022 Setări individuale pentru widget\n
         \u2022 Opțiuni adiționale pentru calendar\n
         \u2022 Panou calendar mini\n
@@ -278,7 +277,7 @@
     <string name="chronus_flex" translatable="false">Chronus Flex</string>
     <string name="chronus_clockplus">Chronus Ceas+</string>
     <string name="chronus_weather">Chronus Meteo</string>
-    <string name="chronus_forecast">Chronus Prognoză</string>
+    <string name="chronus_forecast">Chronus Prognoză (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Calendar</string>
     <string name="chronus_mini">Chronus Mini</string>
     <string name="chronus_small">Chronus Mic</string>

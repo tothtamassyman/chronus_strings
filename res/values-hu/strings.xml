@@ -238,7 +238,6 @@
     <string name="pro_features_message">A Pro változat minden funkciót tartalmaz, amit a standard verzió is és
         az elkövetkező hónapokban további funkciókkal szeretném még tovább bővíteni. Ilyenek mint:\n\n
         \u2022 További modul elrendezések\n
-        \u2022 Alternatív időjárás szolgáltató\n
         \u2022 Modulonkénti beállítások\n
         \u2022 További naptár funkciók\n
         \u2022 Mini naptárpanel\n
@@ -286,7 +285,7 @@
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus Óra+</string>
     <string name="chronus_weather">Chronus Időjárás</string>
-    <string name="chronus_forecast">Chronus Időjárás-előrejelzés</string>
+    <string name="chronus_forecast">Chronus Időjárás-előrejelzés (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Naptár</string>
     <string name="chronus_mini">Chronus Mini</string>
     <string name="chronus_small">Chronus Kicsi</string>

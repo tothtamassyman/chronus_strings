@@ -229,7 +229,6 @@
     <string name="pro_features_thanks">感谢您购买。</string>
     <string name="pro_features_message">Pro 版包含标准版的所有功能，并将在未来数月内增加许多新的功能，包括：\n\n
         \u2022 更多的小部件布局\n
-        \u2022 多个天气提供商\n
         \u2022 不同小部件的单独设置\n
         \u2022 更多日历功能\n
         \u2022 一个小型日历面板\n
@@ -277,7 +276,7 @@
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus 时钟+</string>
     <string name="chronus_weather">Chronus 天气</string>
-    <string name="chronus_forecast">Chronus 预报</string>
+    <string name="chronus_forecast">Chronus 预报 (雅虎天气)</string>
     <string name="chronus_calendar">Chronus 日历</string>
     <string name="chronus_mini">Chronus 迷你</string>
     <string name="chronus_small">Chronus 小</string>

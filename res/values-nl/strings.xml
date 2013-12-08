@@ -192,7 +192,6 @@
     <string name="pro_features_message">De Pro-versie bevat alle functies van de standaardversie en
         krijgt in de volgende maanden veel meer functies, zoals:\n\n
         \u2022 Meer widgetindelingen\n
-        \u2022 Een andere weeraanbieder\n
         \u2022 Instellingen per widget\n
         \u2022 Meer agendafuncties\n
         \u2022 Een kleiner agendapaneel\n
@@ -224,9 +223,9 @@
     <string name="clock_analog">Analoge klok</string>
     <string name="clock_digital">Digitale klok</string>
     <string name="chronus_clockplus">Chronus (klok+)</string>
-    <string name="chronus_weather">Chronus (weer)</string>
-    <string name="chronus_forecast">Chronus (weersverwachting)</string>
-    <string name="chronus_calendar">Chronus (agenda)</string>
+    <string name="chronus_weather">Chronus Weer</string>
+    <string name="chronus_forecast">Chronus Weersverwachting (Yahoo!)</string>
+    <string name="chronus_calendar">Chronus Agenda</string>
     <string name="chronus_mini">Chronus (kleinst)</string>
     <string name="chronus_small">Chronus (klein)</string>
     <string name="chronus_medium">Chronus (normaal)</string>

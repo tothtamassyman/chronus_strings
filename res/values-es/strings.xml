@@ -201,7 +201,6 @@
     <string name="pro_features_message">La versión de pago incluye todas las características de la versión estándar, añadiéndose durante los próximos
         meses muchas otras nuevas características entre las que se incluyen:\n\n
         \u2022 Más diseños de Widgets\n
-        \u2022 Proveedores alternativos de tiempo\n
         \u2022 Ajuste por widget\n
         \u2022 Más características de calendario\n
         \u2022 Un panel mini de calendarios\n
@@ -234,7 +233,7 @@
     <string name="clock_digital">Reloj digital</string>
     <string name="chronus_clockplus">Chronus Reloj+</string>
     <string name="chronus_weather">Chronus Tiempo</string>
-    <string name="chronus_forecast">Chronus Predicción Tiempo</string>
+    <string name="chronus_forecast">Chronus Predicción Tiempo (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Calendario</string>
     <string name="chronus_mini">Chronus Mini</string>
     <string name="chronus_small">Chronus Pequeño</string>

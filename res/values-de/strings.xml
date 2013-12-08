@@ -199,7 +199,6 @@
     <string name="pro_features_message">Die Pro-Version beinhaltet alle Funktionen der Standard-Version und wird im Laufe
         der nächsten Monate viele neue Funktionen bekommen. Unter anderem sind dies:\n\n
         \u2022 Weitere Widget-Layouts\n
-        \u2022 Alternative Wetterdaten-Anbieter\n
         \u2022 Unabhängige Einstellungen je Widget\n
         \u2022 Weitere Kalender-Funktionen\n
         \u2022 Eine Kalenderanzeige\n
@@ -232,7 +231,7 @@
     <string name="clock_digital">Digitale Uhr</string>
     <string name="chronus_clockplus">Chronus Uhr+</string>
     <string name="chronus_weather">Chronus Wetter</string>
-    <string name="chronus_forecast">Chronus Wettervorhersage</string>
+    <string name="chronus_forecast">Chronus Wettervorhersage (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Kalender</string>
     <string name="chronus_mini">Chronus (mini)</string>
     <string name="chronus_small">Chronus (klein)</string>
