@@ -177,9 +177,9 @@
         Android 4.2 een widget toe te voegen aan het vergrendelingsscherm, sleept u naar links in het vergrendelingsscherm en gebruikt u
         de knop Toevoegen (+) om Chronus toe te voegen. De volgorde kan worden gewijzigd door items lang aan te raken en ze te
         verplaatsen of te verwijderen.</string>
-    <string name="no_widget_message">Chronus is een widget en dient handmatig toegevoegd te worden aan het startscherm
-        (Android 4.1 en hoger) of het vergrendelingsscherm (Android 4.2 en hoger) met het widgetpaneel in uw launcher.\n\nWanneer de
-        widget is geplaatst, kunt u deze app gebruiken om de widget in te stellen.</string>
+    <string name="no_widget_message">Tenminste één Chronus-widget moet toegevoegd zijn op het start-
+        of vergrendelingsscherm om deze app te gebruiken voor het wijzigen van de widgetinstellingen.\n\n Widgets kunnen worden toegevoegd
+        met de widgetkiezer van Android en met uw launcher.</string>
     <string name="credits_title">Dankbetuigingen</string>
     <string name="credits_summary">Hoewel ik grote delen van deze widget heb geschreven, wil ik ook Danny Baumann bedanken voor de
         weerupdate- en aankoopservices en het bekijken en optimaliseren van de code; de vele CyanogenMod-vertalers voor de bijdragen
@@ -192,7 +192,6 @@
     <string name="pro_features_message">De Pro-versie bevat alle functies van de standaardversie en
         krijgt in de volgende maanden veel meer functies, zoals:\n\n
         \u2022 Meer widgetindelingen\n
-        \u2022 Een andere weeraanbieder\n
         \u2022 Instellingen per widget\n
         \u2022 Meer agendafuncties\n
         \u2022 Een kleiner agendapaneel\n
@@ -224,16 +223,19 @@
     <string name="clock_analog">Analoge klok</string>
     <string name="clock_digital">Digitale klok</string>
     <string name="chronus_clockplus">Chronus (klok+)</string>
-    <string name="chronus_weather">Chronus (weer)</string>
-    <string name="chronus_forecast">Chronus (weersverwachting)</string>
-    <string name="chronus_calendar">Chronus (agenda)</string>
+    <string name="chronus_weather">Chronus Weer</string>
+    <string name="chronus_forecast">Chronus Weersverwachting (Yahoo!)</string>
+    <string name="chronus_calendar">Chronus Agenda</string>
     <string name="chronus_mini">Chronus (kleinst)</string>
     <string name="chronus_small">Chronus (klein)</string>
     <string name="chronus_medium">Chronus (normaal)</string>
     <string name="chronus_large">Chronus (groot)</string>
     <string name="widget_rounded_corners_title">Afgeronde hoeken</string>
     <string name="calendar_no_events">Geen komende afspraken</string>
-    <string name="calendar_no_events_summary">Tik + om toe te voegen</string>
+    <string name="calendar_no_events_summary">Tik op + om toe te voegen</string>
     <string name="widget_type_keyguard">Vergrendelingsscherm</string>
     <string name="widget_type_homescreen">Startscherm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="exit">Afsluiten</string>
+    <string name="cling_widget_select_title">Widget selecteren</string>
+    <string name="cling_widget_select_detail">U kunt elke geplaatste widget instellen. Selecteer welke u wilt met de selector bovenaan.</string>
 </resources>

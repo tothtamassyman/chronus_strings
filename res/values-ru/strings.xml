@@ -19,6 +19,7 @@
     <string name="cancel">Отмена</string>
     <string name="loading_indicator">Загрузка виджета\u2026</string>
     <string name="menu_done">Готово</string>
+    <string name="exit">Выход</string>
 
     <string name="weather_0">Торнадо</string>
     <string name="weather_1">Шторм</string>
@@ -195,9 +196,8 @@
         рекомендуется использовать Apex или Nova Launcher. Chronus сможет работать с большинством лаунчеров, но возможности настройки его вида
         могут быть ограничены.\n\nВ Android 4.2+, для добавления виджета на экран блокировки, прокрутите экран блокировки влево, нажмите кнопку
         добавления виджета (+) и выберите виджет Chronus. Виджеты экрана блокировки можно перемещать или удалять долгим нажатием на них.</string>
-    <string name="no_widget_message">Chronus является виджетом, который нужно вручную добавить на главный экран (для Android 4.1+) или на
-        экран блокировки (только для Android 4.2+), используя функцию добавления виджетов вашего лаунчера.\n\nПосле добавления виджета
-        вы сможете использовать это приложение для изменения настроек.</string>
+    <string name="no_widget_message">Необходимо добавить хотя бы один виджет Chronus, прежде чем можно будет использовать это приложение для изменения настроек.\n\n
+        Используйте для этого функцию добавления виджетов вашего лаунчера или экрана блокировки.</string>
 
     <string name="credits_title">Благодарности</string>
     <string name="credits_summary">Хотя значительная часть Chronus была написана мной в одиночку, хотелось бы выразить благодарность Дэнни Бауманну за
@@ -214,7 +214,6 @@
     <string name="pro_features_message">Версия Pro содержит все возможности стандартной и в течение
         ближайшего времени будет получать новые функции, среди которых уже есть:\n\n
         \u2022 Дополнительные варианты отображения виджета\n
-        \u2022 Альтернативные источники погоды\n
         \u2022 Индивидуальные настройки виджетов\n
         \u2022 Дополнительные функции календаря\n
         \u2022 Вариант отображения календаря мини-панелью\n
@@ -262,7 +261,7 @@
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus Clock+</string>
     <string name="chronus_weather">Chronus — погода</string>
-    <string name="chronus_forecast">Chronus — прогноз</string>
+    <string name="chronus_forecast">Chronus — прогноз (Yahoo!)</string>
     <string name="chronus_calendar">Chronus — календарь</string>
     <string name="chronus_mini">Chronus — маленький</string>
     <string name="chronus_small">Chronus — небольшой</string>
@@ -278,6 +277,10 @@
 
     <!-- Calendar - No events -->
     <string name="calendar_no_events">Нет предстоящих событий</string>
-    <string name="calendar_no_events_summary">Нажмите + для добавления</string>
+    <string name="calendar_no_events_summary">Нажмите «+» для добавления</string>
+
+    <!--  Cling text -->
+    <string name="cling_widget_select_title">Выберите виджет</string>
+    <string name="cling_widget_select_detail">Вы можете настроить любой из добавленных виджетов. Выберите нужный, используя переключатель вверху.</string>
 
 </resources>

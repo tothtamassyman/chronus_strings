@@ -18,6 +18,8 @@
     <string name="cancel">Zrušiť</string>
     <string name="loading_indicator">Načítavanie miniaplikácie\u2026</string>
     <string name="menu_done">Hotovo</string>
+    <string name="ok">OK</string>
+    <string name="exit">Ukončiť</string>
     <string name="weather_0">Tornádo</string>
     <string name="weather_1">Tropická búrka</string>
     <string name="weather_2">Hurikán</string>
@@ -78,7 +80,7 @@
     <string name="weather_tap_to_refresh">Kliknutím obnovte</string>
     <string name="weather_refreshing">Obnovuje sa</string>
     <string name="weather_last_sync_just_now">Práve teraz</string>
-    <string name="weather_cannot_reach_provider">Nemožno dosiahnuť %s</string>
+    <string name="weather_cannot_reach_provider">Nemožno získať dáta z %s</string>
     <string name="weather_refresh_manual">Ručne</string>
     <string name="weather_refresh_30min">30 minút</string>
     <string name="weather_refresh_60min">60 minút</string>
@@ -87,12 +89,12 @@
     <string name="weather_refresh_6hrs">6 hodín</string>
     <string name="weather_refresh_8hrs">8 hodín</string>
     <string name="clock_category">Hodiny a budík</string>
-    <string name="weather_category">Lišta s počasím</string>
+    <string name="weather_category">Riadok s počasím</string>
     <string name="calendar_category">Udalosti v kalendári</string>
     <string name="about_category">O aplikácii Chronus</string>
     <string name="appearance_category">Všeobecný vzhľad</string>
     <string name="general_category">Všeobecné</string>
-    <string name="display_category">Displej</string>
+    <string name="display_category">Zobrazenie</string>
     <string name="widget_type_keyguard">Obrazovka uzamknutia</string>
     <string name="widget_type_homescreen">Domovská obrazovka (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="use_digital_clock_title">Použiť digitálne hodiny</string>
@@ -180,7 +182,7 @@
         prácu na počasí a fakturačných službách a za prehodnocovanie a vylepšovanie; vďaka tiež patrí komunitným prekladateľom
         CyanogenModu za pridanie všetkých jazykov, ktoré sú zahrnuté; a taktiež vďaka patrí ostatným prispievateľom, akými sú Nicolai Ehemann a Matt Booth za opravy a funkcie
         ktorými prispeli.</string>
-    <string name="how_to_title">Nápoveda</string>
+    <string name="how_to_title">Pomocník</string>
     <string name="first_run_title">Vitajte v aplikácii %s</string>
     <string name="first_run_message">Chronus je miniaplikácia, ktorú je potrebné ručne pridať buď na plochu (Android 4.1+) alebo na
         uzamykaciu obrazovku (možné len na Androide 4.2+) pomocou funkcie na výber miniaplikácie v systéme Android a vo Vašom spúšťači.\n\nAkonáhle je miniaplikácia umiestnená,
@@ -189,9 +191,8 @@
         by som odporučil spúšťač Apex alebo Nova. Chronus bude fungovať na väčšine spúšťačov, ale možnosť nastaviť spôsob zobrazenia môže byť obmedzená.\n\nPre pridanie miniaplikácie
         na uzamykaciu obrazovku na Androide 4.2+, posuňte vľavo na uzamykaciu obrazovku a potom použite tlačidlo na pridanie miniaplikácií (+) pre pridanie Chronusu. Miniaplikácie
         na uzamykacej obrazovke môžu byť upravené pomocou dlhého stlačenia pre ich následné presunutie alebo odstránenie.</string>
-    <string name="no_widget_message">Chronus je miniaplikácia, ktorú je potrebné ručne pridať buď na plochu (Android 4.1+) alebo na
-        uzamykaciu obrazovku (možné len na Androide 4.2+) pomocou funkcie na výber miniaplikácie v systéme Android a vo Vašom spúšťači.\n\nAkonáhle je miniaplikácia umiestnená,
-        môžete použiť túto aplikáciu na zmenu nastavení miniaplikácie.</string>
+    <string name="no_widget_message">Aspoň jedna miniaplikácia Chronus musí byť pridaná buď na domovskú alebo uzamykaciu obrazovku.\n\nMiniaplikácie je možné pridať pomocou funkcie
+        Androida na výber miniaplikácií a Vášho spúšťača.</string>
     <string name="get_pro">Získať Pro verziu</string>
     <string name="picker_apps">Aplikácie</string>
     <string name="picker_activities">Aktivity</string>
@@ -203,7 +204,6 @@
     <string name="pro_features_message">Pro verzia zahŕňa všetky funkcie štandardnej verzie a počas niekoľkých nasledujúcich mesiacov
         budú pridané mnohé nové funkcie a to vrátane:\n\n
         \u2022 Viac rozložení pre miniaplikáciu\n
-        \u2022 Alternatívny poskytovateľ počasia\n
         \u2022 Nastavenia zvlášť pre každú miniaplikáciu\n
         \u2022 Viac funkcií v kalendári\n
         \u2022 Mini panel kalendára\n
@@ -226,7 +226,7 @@
     <string name="widget_background_result_not_successful">Pozadie nemohlo byť zmenené</string>
     <string name="chronus_clockplus">Chronus Hodiny+</string>
     <string name="chronus_weather">Chronus Počasie</string>
-    <string name="chronus_forecast">Chronus Predpoveď</string>
+    <string name="chronus_forecast">Chronus Predpoveď (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Kalendár</string>
     <string name="chronus_mini">Chronus Mini</string>
     <string name="chronus_small">Chronus Malé</string>
@@ -234,5 +234,7 @@
     <string name="chronus_large">Chronus Veľké</string>
     <string name="widget_rounded_corners_title">Zaoblené rohy</string>
     <string name="calendar_no_events">Žiadne nadchádzajúce udalosti</string>
-    <string name="calendar_no_events_summary">Pridať dotykom na +</string>
+    <string name="calendar_no_events_summary">Pridajte dotykom na +</string>
+    <string name="cling_widget_select_title">Vyberte miniaplikáciu</string>
+    <string name="cling_widget_select_detail">Môžete nastaviť každú z Vašich umiestnených miniaplikácií. Stačí si vybrať tú, ktorú chcete nastaviť, pomocou voliča hore.</string>
 </resources>

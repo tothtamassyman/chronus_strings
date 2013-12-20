@@ -195,7 +195,6 @@
     <string name="pro_features_message">Die Pro weergawe sluit al die funksies van die standaard-weergawe en
         oor die volgende paar maande sal nuwe funksies bygevoeg word, insluitend:\n\n
         \u2022 Meer Legstuk uitlegte\n
-        \u2022 \'n alternatiewe weer verskaffer\n
         \u2022 Per legstuk instellings\n
         \u2022 Meer kalender eienskappe\n
         \u2022 \'n mini kalender paneel\n
@@ -208,6 +207,7 @@
     <string name="picker_select_custom_activity_title">Kies persoonlike aktiwiteit</string>
     <string name="tap_action_title">Aanraak aksie</string>
     <string name="tap_action_clock_default">Stelsel horlosie</string>
+    <string name="tap_action_weather_default">Verfris weer</string>
     <string name="tap_action_calendar_default">Stelsel kalender</string>
     <string name="tap_action_weather_forecast">Wys voorspelling</string>
     <string name="widget_background_title">Legstuk agtergrond</string>

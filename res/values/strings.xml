@@ -26,6 +26,7 @@
     <string name="menu_done">Done</string>
     <string name="ok">OK</string>
     <string-array name="empty_array" translatable="false"/>
+    <string name="send_log" translatable="false">Logcat</string>
     <string name="exit">Exit</string>
 
     <!-- Formating strings for widget clock -->
@@ -240,7 +241,7 @@
         work on the weather and billing services, reviewing and tweaking; the many CyanogenMod community translators for adding all the
         languages that are included; and other contributors such as Nicolai Ehemann and Matt Booth for the fixes and features they have
         contributed.</string>
-    <string name="contact_title">Contact me</string>
+    <string name="contact_title">Contact us</string>
     <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
     <string name="send_email">Send email\u2026</string>
 
@@ -251,12 +252,13 @@
     <string name="pro_features_message">The Pro version includes all the features of the standard version and
         over the next few months will be adding many new features including:\n\n
         \u2022 More Widget layouts\n
-        \u2022 An alternate weather provider\n
         \u2022 Per widget settings\n
         \u2022 More calendar features\n
         \u2022 A mini Calendar panel\n
         \u2022 and more\u2026\n\nSuggestions are always welcome.\n\nThank you in advance for your support.</string>
     <string name="get_pro">Get Pro</string>
+
+    <string name="pro_check_dialog_message">Checking Pro license\u2026</string>
 
     <!-- Shortcut picker -->
     <string name="picker_apps">Apps</string>
@@ -305,7 +307,7 @@
     <string name="chronus_flex" translatable="false">Chronus Flex</string>
     <string name="chronus_clockplus">Chronus Clock+</string>
     <string name="chronus_weather">Chronus Weather</string>
-    <string name="chronus_forecast">Chronus Forecast</string>
+    <string name="chronus_forecast">Chronus Forecast (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Calendar</string>
     <string name="chronus_mini">Chronus Mini</string>
     <string name="chronus_small">Chronus Small</string>
@@ -318,8 +320,10 @@
     <!-- Calendar - No events -->
     <string name="calendar_no_events">No events in lookahead window</string>
     <string name="calendar_no_events_summary">Tap + to add</string>
+    <string name="calendar_no_events_indicator_title">Show \'No events\' text</string>
 
     <!--  Cling text -->
     <string name="cling_widget_select_title">Select widget</string>
     <string name="cling_widget_select_detail">You can configure each of your placed widgets. Just select the one you want to configure using the selector at the top.</string>
+
 </resources>

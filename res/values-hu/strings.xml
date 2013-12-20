@@ -219,9 +219,9 @@
 	az Apex vagy a Nova programindítót javaslom. A Chronus a legtöbb programindítóval képes működni, bár a megjelenés esetenként eltérhet.\n\nAndroid
 	4.2+ vagy újabb rendszereken képernyőzárhoz is hozzáadható. Csúsztassa balra a képernyőzárat, majd kattintson a (+) jelre a
 	Chronus hozzáadásához. A képernyőzár modulok hosszan nyomva tartással átalakíthatóak, mozgathatóak vagy törölhetőek.</string>
-    <string name="no_widget_message">A Chronus egy modul, melyet manuálisan helyezhet el a kezdőképernyőjén (Android 4.1+) vagy a
-        képernyőzárján (csak Android 4.2+) az Android programindítóban található modulválasztó segítségével.\n\nA modul elhelyezése után
-        használja ezt az alkalmazást a beállításokhoz.</string>
+    <string name="no_widget_message">Mielőtt az alkalmazást a beállítások módosítására használná, legalább
+        egy Chronus modult el kell helyezzen a kezdőképernyőjén, vagy a képernyőzárján.\n\nA modulok az Android
+        alkalmazásindítóban található modulválasztóval helyezhetők el.</string>
 
     <string name="credits_title">Köszönetnyilvánítás</string>
     <string name="credits_summary">Annak ellenére, hogy én írtam a Chronus jelentős részét, sok elismerés jár Danny Baumann-nak is,
@@ -238,7 +238,6 @@
     <string name="pro_features_message">A Pro változat minden funkciót tartalmaz, amit a standard verzió is és
         az elkövetkező hónapokban további funkciókkal szeretném még tovább bővíteni. Ilyenek mint:\n\n
         \u2022 További modul elrendezések\n
-        \u2022 Alternatív időjárás szolgáltató\n
         \u2022 Modulonkénti beállítások\n
         \u2022 További naptár funkciók\n
         \u2022 Mini naptárpanel\n
@@ -286,7 +285,7 @@
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus Óra+</string>
     <string name="chronus_weather">Chronus Időjárás</string>
-    <string name="chronus_forecast">Chronus Időjárás-előrejelzés</string>
+    <string name="chronus_forecast">Chronus Időjárás-előrejelzés (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Naptár</string>
     <string name="chronus_mini">Chronus Mini</string>
     <string name="chronus_small">Chronus Kicsi</string>

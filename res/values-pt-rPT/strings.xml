@@ -187,7 +187,6 @@
     <string name="pro_features_thanks">Obrigado por ter comprado</string>
     <string name="pro_features_message">A versão Pro ínclui todas as funcionalidades da versão padrão e durante os próximos meses iremos adicionar novas funcionalidades incluindo:\n\n
         \u2022 Mais layouts de Widget\n
-        \u2022 Um fornecedor de tempo alternativo\n
         \u2022 Definições por widget\n
         \u2022 Mais funcionalidades de calendário\n
         \u2022 Um painel de mini calendário\n
@@ -230,4 +229,5 @@
     <string name="calendar_no_events_summary">Toque em + para adicionar</string>
     <string name="cling_widget_select_title">Escolha um widget</string>
     <string name="cling_widget_select_detail">Pode configurar cada um dos widgets que colocou. Escolha apenas o que quer configurr usando o selecionador no topo.</string>
+
 </resources>
