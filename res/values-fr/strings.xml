@@ -98,8 +98,6 @@
     <string name="appearance_category">Apparence générale</string>
     <string name="general_category">Général</string>
     <string name="display_category">Affichage</string>
-    <string name="use_digital_clock_title">Utiliser l\'horloge digitale</string>
-    <string name="use_digital_clock_summary">Sélectionner pour basculer de l\'horloge digitale à analogique</string>
     <string name="clock_font_title">Heure en gras</string>
     <string name="clock_font_minutes_title">Minutes en gras</string>
     <string name="clock_font_date_title">Date et alarme en gras</string>
@@ -218,7 +216,6 @@
     <string name="calendar_colors">Couleur de l\'événement du calendrier</string>
 
     <!-- Clock types -->
-    <string name="clock_enable">Affichage de l\'horloge</string>
     <string name="clock_analog">Horloge analogique</string>
     <string name="clock_digital">Horloge numérique</string>
 
@@ -227,10 +224,6 @@
     <string name="chronus_clockplus">Horloge Chronus +</string>
     <string name="chronus_weather">Chronus Météo</string>
     <string name="chronus_calendar">Chronus Agendas</string>
-    <string name="chronus_mini">Chronus Mini</string>
-    <string name="chronus_small">Chronus Petit</string>
-    <string name="chronus_medium">Chronus Moyen</string>
-    <string name="chronus_large">Chronus Grand</string>
     <string name="cling_widget_select_title">Sélectionner le widget</string>
     <string name="cling_widget_select_detail">Vous pouvez configurer chacun des widgets que vous avez placés. Il suffit de choisir celui que vous souhaitez configurer avec le sélecteur vers le haut.</string>
 </resources>

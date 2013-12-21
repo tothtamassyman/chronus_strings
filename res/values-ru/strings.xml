@@ -105,8 +105,6 @@
     <string name="display_category">Отображение</string>
     <string name="appearance_category">Внешний вид</string>
     <string name="about_category">О программе Chronus</string>
-    <string name="use_digital_clock_title">Цифровые часы</string>
-    <string name="use_digital_clock_summary">Выбор между цифровыми и аналоговыми часами</string>
     <string name="clock_font_title">Часы полужирным</string>
     <string name="clock_font_minutes_title">Минуты полужирным</string>
     <string name="clock_font_date_title">Дата и будильник полужирным</string>
@@ -253,7 +251,6 @@
     <string name="calendar_colors">Цвет событий календаря</string>
 
     <!-- Clock types -->
-    <string name="clock_enable">Показывать часы</string>
     <string name="clock_analog">Аналоговые часы</string>
     <string name="clock_digital">Цифровые часы</string>
 
@@ -263,10 +260,6 @@
     <string name="chronus_weather">Chronus — погода</string>
     <string name="chronus_forecast">Chronus — прогноз (Yahoo!)</string>
     <string name="chronus_calendar">Chronus — календарь</string>
-    <string name="chronus_mini">Chronus — маленький</string>
-    <string name="chronus_small">Chronus — небольшой</string>
-    <string name="chronus_medium">Chronus — средний</string>
-    <string name="chronus_large">Chronus — большой</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Экран блокировки</string>

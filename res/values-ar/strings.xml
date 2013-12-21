@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+     Copyright (C) 2012 The CyanogenMod Project (DvTonder)
+     Chronus additions (c) 2013 David van Tonder
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="unknown">غير معروف</string>
+    <string name="cancel">الغاء</string>
+    <string name="loading_indicator">جاري تحميل الودجت</string>
+    <string name="menu_done">تم</string>
+    <string name="ok">موافق</string>
+    <string name="exit">خروج</string>
+
+    <!--الطقس - اسماء الطقس-->
+    <string name="weather_0">اعصار</string>
+    <string name="weather_1">العاصفة الاستوائية</string>
+    <string name="weather_2">الإعصار</string>
+    <string name="weather_3">العواصف الرعدية الشديدة</string>
+    <string name="weather_4">العواصف الرعدية</string>
+    <string name="weather_5">المطر والثلج</string>
+    <string name="weather_6">المطر والثلج</string>
+    <string name="weather_7">الثلوج والصقيع</string>
+    <string name="weather_8">قطرات متجمده</string>
+    <string name="weather_9">قطرات</string>
+    <string name="weather_10">مطر متجمد</string>
+    <string name="weather_11">المطر</string>
+    <string name="weather_12">المطر</string>
+    <string name="weather_13">تُثلج</string>
+    <string name="weather_14">غائم</string>
+    <string name="weather_15">تساقط الثلج</string>
+    <string name="weather_16">ثلج</string>
+    <string name="weather_17">حائل</string>
+    <string name="weather_18">تجمد</string>
+    <string name="weather_19">غبار</string>
+    <string name="weather_20">ضباب</string>
+    <string name="weather_21">الضباب</string>
+    <string name="weather_22">الدخان</string>
+    <string name="weather_23">متهيج</string>
+    <string name="weather_24">عاصف</string>
+    <string name="weather_25">بارد</string>
+    <string name="weather_26">غائم</string>
+    <string name="weather_27">غائم جزئيا</string> <!-- مساء -->
+    <string name="weather_28">غائم جزئيا</string> <!-- صباحا -->
+    <string name="weather_29">غائم جزئيا</string> <!-- مساء -->
+    <string name="weather_30">غائم جزئيا</string> <!-- صباحا -->
+    <string name="weather_31">صاف</string> <!-- مساء -->
+    <string name="weather_32">مشمس</string>
+    <string name="weather_33">معتدل</string> <!-- مساء -->
+    <string name="weather_34">معتدل</string> <!-- مساء -->
+    <string name="weather_35">المطر والبرد</string>
+    <string name="weather_36">حار</string>
+    <string name="weather_37">عواصف رعدية متفرقة</string>
+    <string name="weather_38">عواصف رعدية متفرقة</string>
+    <string name="weather_39">عواصف رعدية متفرقة</string>
+    <string name="weather_40">أمطار متفرقة</string>
+    <string name="weather_41">ثلوج كثيفة</string>
+    <string name="weather_42">سقوط ثلوج متفرقة</string>
+    <string name="weather_43">الثلوج الكثيفة</string>
+    <string name="weather_44">غائم جزئيا</string>
+    <string name="weather_45">زخات مطر رعدية</string>
+    <string name="weather_46">زخات الثلج</string>
+    <string name="weather_47">زخات مطر رعدية معزولة</string>
+    <string name="weather_3200"></string> <!-- توقعات غير متوفرة -->
+
+    <!-- الطقس - وحدات السرعه -->
+    <string name="weather_kph">kph</string>
+    <string name="weather_mph">mph</string>
+
+    <!-- الطقس - اتجاه الرياح -->
+    <string name="weather_N">شمال</string>
+    <string name="weather_NE">ش.ش</string>
+    <string name="weather_E">شرق</string>
+    <string name="weather_SE">ج.ش</string>
+    <string name="weather_S">جنوب</string>
+    <string name="weather_SW">ج.غ</string>
+    <string name="weather_W">غرب</string>
+    <string name="weather_NW">ش.غ</string>
+
+    <!-- رسائل الاعلام بالاخطاء -->
+    <string name="weather_no_data">لا توجد بيانات</string>
+    <string name="weather_tap_to_refresh">اضغط للتحديث</string>
+    <string name="weather_refreshing">تحديث</string>
+    <string name="weather_last_sync_just_now">الآن</string>
+    <string name="weather_cannot_reach_provider">Can\'t reach %s at the moment</string>
+
+    <!-- الطقس - تحديث الطقس -->
+    <string name="weather_refresh_manual">دليل</string>
+    <string name="weather_refresh_30min">30دقيقه</string>
+    <string name="weather_refresh_60min">60دقيقه</string>
+    <string name="weather_refresh_2hrs">ساعتين</string>
+    <string name="weather_refresh_4hrs">4ساعات</string>
+    <string name="weather_refresh_6hrs">6ساعات</string>
+    <string name="weather_refresh_8hrs">8ساعات</string>
+
+    <!-- اعدادات - الفئات -->
+    <string name="clock_category">الساعه والمنبه</string>
+    <string name="weather_category">طقس الهاتف</string>
+    <string name="calendar_category">التاريخ والتقويم</string>
+    <string name="about_category">حول Chronus</string>
+    <string name="appearance_category">المظهر العام</string>
+    <string name="general_category">عام</string>
+    <string name="display_category">عرض</string>
+
+    <!-- اعدادات - انواع قائمه الاختيارات -->
+    <string name="widget_type_keyguard">قفل الشاشه</string>
+    <string name="widget_type_homescreen">الشاشه الرئيسيه (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+
+    <!-- اعدادات - الساعه -->
+    <string name="clock_font_title">ساعات عريضة</string>
+    <string name="clock_font_minutes_title">دقائق عريضه</string>
+    <string name="clock_font_date_title">التاريخ والتنبيه عريض</string>
+    <string name="show_alarm_title">التنبيهات المقبله</string>
+    <string name="clock_am_pm_title">اظهار صباحاًومساءً</string>
+
+    <!-- اعدادات - الطقس -->
+    <string name="weather_enabled">سماح</string>
+    <string name="weather_enable">عرض حالة الطقس</string>
+    <string name="weather_source_title">مصدر الطقس</string>
+    <string name="weather_source_yahoo">طقس yahoo</string>
+    <string name="weather_source_wunderground">طقس الجهاز</string>
+    <string name="weather_source_hamweather">Hamweather</string>
+    <string name="weather_source_accuweather">الارصاد</string>
+    <string name="weather_use_custom_location">استخدام موقع مخصص</string>
+    <string name="weather_geolocated">بإستخدام الشبكه</string>
+    <string name="weather_custom_location_dialog_title">اختيار الدوله</string>
+    <string name="weather_custom_location_hint">المدينه,الدوله,البلد</string>
+    <string name="weather_custom_location_title">الموقع</string>
+    <string name="weather_show_location_title">عرض الموقع</string>
+    <string name="weather_show_timestamp_title">عرض الطابع الزمني</string>
+    <string name="weather_refresh_interval">الفاصل الزمني للتحديث</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (applies to all widgets)</string>
+    <string name="weather_use_metric">استخدام متري</string>
+    <string name="weather_retrieve_location_dialog_title">لا يمكن استرداد الموقع!</string>
+    <string name="weather_retrieve_location_dialog_message">تحديد الموقع الجغرافي من الشبكه</string>
+    <string name="weather_retrieve_location_dialog_enable_button">تمكين</string>
+    <string name="weather_invert_lowhigh">عكس انخفاض/ارتفاع درجات الحرارة</string>
+    <string name="weather_progress_title">التحقق من الموقع</string>
+    <string name="weather_alternate_icons_title">اختر لون الايقونه</string>
+    <string name="weather_alternate_icons_summary">حدد هذا الخيار للتبديل بين الافتراضي (اللون) والرموز (أبيض) بديلة</string>
+    <string name="weather_show_when_minimized_title">تظهر عند التصغير</string>
+    <string name="weather_show_when_minimized_summary">عرض معلومات الطقس موجزة عندما يتم تصغير البرنامج</string>
+    <string name="weather_select_location">حدد موقع</string>
+
+    <!-- اعدادات - التقويم -->
+    <string name="calendar_title">عرض الأحداث القادمة</string>
+    <string name="calendars_title">التقويمات الحدث</string>
+    <string name="calendars_summary">العثور على الأحداث من هذه التقويمات</string>
+    <string name="calendar_reminders_only_title">تذكير فقط</string>
+    <string name="calendar_reminders_only_summary">تظهر الأحداث فقط مع التذكير</string>
+    <string name="calendar_hide_allday_title">إخفاء أحداث اليوم كله</string>
+    <string name="calendar_icon_title">رمز التقويمرمز التقويم</string>
+    <string name="calendar_lookahead_title">Event lookahead</string>
+    <string name="calendar_show_location_title">موقع الحدث</string>
+    <string name="calendar_show_description_title">وصف الحدث</string>
+    <string name="calendar_upcoming_events_category">الأحداث القادمة</string>
+    <string name="calendar_highlight_upcoming_events_title">تسليط الضوء على الأحداث</string>
+    <string name="calendar_highlight_upcoming_events_summary">Highlight the current day\'s events and, after 8pm, also the next day\'s events</string>
+    <string name="calendar_highlight_upcoming_events_bold">خط عريض</string>
+    <string name="calendar_add_event_title">إضافة رمز الحدث</string>
+
+    <!-- الطقس - الوان الخطوط -->
+    <string name="font_color">لون الخط</string>
+    <string name="font_color_alarm">الوان الخط</string>
+    <string name="font_color_timestamp">لون الخط الزمني</string>
+    <string name="font_color_calendar_details">لون الخط مع التفاصيل</string>
+
+    <!-- التقويم - الامام -->
+    <string name="calendar_lookahead_3hrs">3ساعات</string>
+    <string name="calendar_lookahead_6hrs">6ساعات</string>
+    <string name="calendar_lookahead_12hrs">12ساعه</string>
+    <string name="calendar_lookahead_today">اليوم</string>
+    <string name="calendar_lookahead_1day">اول يوم</string>
+    <string name="calendar_lookahead_3days">ثالث يوم</string>
+    <string name="calendar_lookahead_1wk">اول اسبوع</string>
+    <string name="calendar_lookahead_2wks">ثاني اسبوع</string>
+    <string name="calendar_lookahead_4wks">رابع اسبوع</string>
+
+    <!-- التقويم - بيانات الاحداث -->
+    <string name="calendar_metadata_none">لاتظهر</string>
+    <string name="calendar_metadata_first_line">إظهار السطر الأول</string>
+    <string name="calendar_metadata_all">اظهار الكل</string>
+
+    <!-- الوان الخطوط -->
+    <string name="white">ابيض</string>
+    <string name="grey">رمادي</string>
+    <string name="black">اسود</string>
+    <string name="holo_blue_light">ازرق فاتح</string>
+    <string name="holo_green_light">اخضر فاتح</string>
+    <string name="holo_red_light">احمر فاتح</string>
+    <string name="holo_blue_dark">ازرق غامق</string>
+    <string name="holo_green_dark">اخضر غامق</string>
+    <string name="holo_red_dark">احمر غامق</string>
+    <string name="holo_purple">بنفسجي</string>
+    <string name="holo_orange_light">برتقالي فاتح</string>
+    <string name="holo_orange_dark">برتقالي غامق</string>
+    <string name="holo_blue_bright">سماوي</string>
+
+    <!-- اول - التشغيل -->
+    <string name="how_to_title">مساعده</string>
+    <string name="first_run_title">مرحبا بكم في % s</string> <!-- '%s' is the App name (name="app_name") -->
+    <string name="first_run_message">Chronus is a Widget and needs to be manually added to either the Home screen (Android 4.1+) or the
+        Lock screen (only possible on Android 4.2+) using the widget picker feature of Android and your launcher.\n\nOnce the widget is
+        placed, you can use this app to change the widget configuration.\n\nRemember to resize the widget on your screen to make space for all the
+        panels you have enabled (Clock, Weather and Calendar) since the widget will automatically hide panels if its not big enough.\n\nFor
+        the best results, I recommended using either the Apex or Nova launchers. Chronus will work on most launchers but the ability to configure how
+        it is displayed may be limited.\n\nFor Android 4.2+, to add a widget to the Lock screen, slide left on the Lock screen and then use
+        the add widget button (+) to add Chronus. Lock screen widgets can be rearranged by long-pressing then moving or deleting them.</string>
+
+    <string name="no_widget_message">مرحبا لتستطيع دخول التطبيق يجب عليك اختيار الاختصار اولا
+	من قائمه البرامج اذهب للتطبيقات المصغره وقم باختيار الاصلي اتمنى ان يجبك التطبيق واتمنى دعمنا في قوقل بلاي تعريب سـامـي الـبـاز</string>
+
+    <string name="credits_title">المصادر</string>
+    <string name="credits_summary">هذا البرنامج هو نفس برنامج الطقس في رومات سيانوجين مود طبعا يعمل بدون روت لقد تم اصلاح المشاكل في جميع اصدارات الاندرويد 
+	التي يدعمها البرنامج لمعرفه الاصدارات يرجى الذهاب للمساعده تعريب سامي الباز</string>
+    <string name="contact_title">اتصل بنا</string>
+    <string name="send_email">Send email\u2026</string>
+
+    <!-- START OF PRO VERSION STRINGS -->
+    <!-- Pro features (About) -->
+    <string name="pro_features_summary">يجب عليك شراء التطبيق ليعمل هذا الخيار</string>
+    <string name="pro_features_thanks">شكرا لك على شراء التطبيق</string>
+    <string name="pro_features_message">إصدار المحترفين يتضمن كافة الميزات من الإصدار القياسي و
+المقبلة سوف تكون بضعة أشهر إضافة العديد من الميزات الجديدة بما في ذلك 
+*اعدادت اكثر للقطعه
+*كل إعدادات القطعة
+*المزيد من الميزات للتقويم
+*اختصار للتقويم
+*والمزيدمن الخيارات
+شكرا لك على دعمنا </string>
+    <string name="get_pro">اشتري النسخه</string>
+
+    <string name="pro_check_dialog_message">Checking Pro license\u2026</string>
+
+    <!-- اختيار الاجرائات -->
+    <string name="picker_apps">تطبيقات</string>
+    <string name="picker_activities">الأنشطة</string>
+    <string name="picker_default">الإجراء الافتراضي</string>
+    <string name="picker_select_custom_app_title">حدد التطبيق المخصص</string>
+    <string name="picker_select_custom_activity_title">حدد نشاط مخصص</string>
+
+    <!-- اعدادت - الاستفاده من الافتراضيات -->
+    <string name="tap_action_title">الاستفادة من العمل</string>
+    <string name="tap_action_clock_default">ساعه النظام</string>
+    <string name="tap_action_weather_refresh">تحديث الطقس</string>
+    <string name="tap_action_calendar_default">نظام التقويم</string>
+    <string name="tap_action_weather_forecast">التوقعات</string>
+
+    <!-- اعدادات - خلفيه البرنامج -->
+    <string name="widget_background_title">القطعة الخلفية</string>
+    <string name="widget_background_default">شفافة</string>
+    <string name="widget_background_color_fill">لون التعبئة</string>
+    <string name="widget_background_custom_image">اختيار صورة</string>
+    <string name="widget_background_dialog_title">اختيار اللون</string>
+    <string name="widget_background_result_successful">الخلفية تغيرت بنجاح</string>
+    <string name="widget_background_result_not_successful">فشل تغير الخلفيه</string>
+
+    <!-- اعدادات المحاذاه -->
+    <string name="alignment_title">المحاذاة</string>
+    <string name="alignment_centered">الوسط</string>
+    <string name="alignment_left">الى اليسار</string>
+    <string name="alignment_right">الى اليمين</string>
+
+    <!-- اسماء الاختصارات -->
+    <string name="chronus_clockplus">الساعه+</string>
+    <string name="chronus_weather">طقس اليوم</string>
+    <string name="chronus_forecast">طقس الاسبوع (Yahoo!)</string>
+    <string name="chronus_calendar">التاريخ</string>
+
+    <!-- اعدادت - خلفيه القطع وتدوير الزوايا -->
+    <string name="widget_rounded_corners_title">تدوير زوايا</string>
+
+    <!-- التقويم - لايوجد ملاحضات -->
+    <string name="calendar_no_events">لايوجد اي احداث جديده</string>
+    <string name="calendar_no_events_summary">اضغط على الاضافه</string>
+    <string name="calendar_no_events_indicator_title">لايوجد احداث نصيه</string>
+
+    <!--  حفظ النص -->
+    <string name="cling_widget_select_title">اختر الاختصار</string>
+    <string name="cling_widget_select_detail">يمكنك اختيار اي شيء تريده ماعليك الا تحديدها في الاعلى</string>
+
+    <string name="show_date_title">اظهار الداتا</string>
+
+    <!-- مجموعه ايقونات الطقس-->
+    <string name="weather_icon_set_title">رمز المجموعه</string>
+    <string name="weather_icons_standard">اللون (مستوى)</string>
+    <string name="weather_icons_monochrome">لون واحد</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_modern">الحديثه</string>
+    <string name="weather_icons_flat">السطح</string>
+
+</resources>

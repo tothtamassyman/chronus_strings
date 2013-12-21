@@ -106,8 +106,6 @@
     <string name="display_category">Näyttö</string>
 
     <!-- Preferences - Clock -->
-    <string name="use_digital_clock_title">Käytä digitaalista kelloa</string>
-    <string name="use_digital_clock_summary">Valitse digitaalinen tai analoginen kello</string>
     <string name="clock_font_title">Lihavoi tunnit</string>
     <string name="clock_font_minutes_title">Lihavoi minuutit</string>
     <string name="clock_font_date_title">Lihavoi päivä ja hälytys</string>

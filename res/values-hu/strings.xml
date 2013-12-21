@@ -122,8 +122,6 @@
     <string name="widget_type_homescreen">Kezdőképernyő (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 
     <!-- Preferences - Clock -->
-    <string name="use_digital_clock_title">Digitális óra</string>
-    <string name="use_digital_clock_summary">Válasszon az analóg illetve a digitális óra közt</string>
     <string name="clock_font_title">Órák félkövérrel</string>
     <string name="clock_font_minutes_title">Percek félkövérrel</string>
     <string name="clock_font_date_title">Dátum és ébresztés félkövérrel</string>
@@ -277,7 +275,6 @@
     <string name="calendar_colors">Naptáresemény színe</string>
 
     <!-- Clock types -->
-    <string name="clock_enable">Óra típusa</string>
     <string name="clock_analog">Analóg</string>
     <string name="clock_digital">Digitális</string>
 
@@ -287,10 +284,6 @@
     <string name="chronus_weather">Chronus Időjárás</string>
     <string name="chronus_forecast">Chronus Időjárás-előrejelzés (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Naptár</string>
-    <string name="chronus_mini">Chronus Mini</string>
-    <string name="chronus_small">Chronus Kicsi</string>
-    <string name="chronus_medium">Chronus Közepes</string>
-    <string name="chronus_large">Chronus Nagy</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Lekerekített sarkok</string>

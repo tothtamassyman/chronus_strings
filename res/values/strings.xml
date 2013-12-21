@@ -131,8 +131,6 @@
     <string name="widget_type_homescreen">Home screen (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 
     <!-- Preferences - Clock -->
-    <string name="use_digital_clock_title">Use Digital clock</string>
-    <string name="use_digital_clock_summary">Select to toggle between the Digital and the Analog clock</string>
     <string name="clock_font_title">Bold hours</string>
     <string name="clock_font_minutes_title">Bold minutes</string>
     <string name="clock_font_date_title">Bold date and alarm</string>
@@ -155,6 +153,7 @@
     <string name="weather_show_location_title">Show location</string>
     <string name="weather_show_timestamp_title">Show timestamp</string>
     <string name="weather_refresh_interval">Update interval</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (applies to all widgets)</string>
     <string name="weather_use_metric">Use metric</string>
     <string name="weather_retrieve_location_dialog_title">Cannot retrieve location!</string>
     <string name="weather_retrieve_location_dialog_message">Network geolocation is disabled.\n\nSet a custom location or enable network location</string>
@@ -290,10 +289,9 @@
     <string name="alignment_right">Right aligned</string>
 
     <!-- Calendar colors -->
-    <string name="calendar_colors">Event calendar color</string>
+    <string name="calendar_colors">Calendar colors</string>
 
     <!-- Clock types -->
-    <string name="clock_enable">Display clock</string>
     <string name="clock_analog">Analog clock</string>
     <string name="clock_digital">Digital clock</string>
 
@@ -309,10 +307,6 @@
     <string name="chronus_weather">Chronus Weather</string>
     <string name="chronus_forecast">Chronus Forecast (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Calendar</string>
-    <string name="chronus_mini">Chronus Mini</string>
-    <string name="chronus_small">Chronus Small</string>
-    <string name="chronus_medium">Chronus Medium</string>
-    <string name="chronus_large">Chronus Large</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Rounded corners</string>
@@ -324,6 +318,19 @@
 
     <!--  Cling text -->
     <string name="cling_widget_select_title">Select widget</string>
-    <string name="cling_widget_select_detail">You can configure each of your placed widgets. Just select the one you want to configure using the selector at the top.</string>
+    <string name="cling_widget_select_detail">You can configure each of your placed widgets. Just select the one you
+        want to configure using the selector at the top.</string>
 
+    <string name="show_date_title">Show date</string>
+
+    <!-- Weather icon sets -->
+    <string name="weather_icon_set_title">Icon set</string>
+    <string name="weather_icons_standard">Colored</string>
+    <string name="weather_icons_monochrome">Monochrome</string>
+    <string name="weather_icons_modern">Modern</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_flat">Flat</string>
+    <string name="weather_icons_vista">Vista</string>
+    <string name="icon_set_selection_get_more">Get more\u2026</string>
+    <string name="icon_set_store_filter" translatable="false">Chronus Weather Icons</string>
 </resources>

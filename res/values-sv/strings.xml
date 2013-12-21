@@ -90,8 +90,6 @@
     <string name="calendar_category">Kalenderhändelser</string>
     <string name="general_category">Allmänt</string>
     <string name="display_category">Visa</string>
-    <string name="use_digital_clock_title">Använd digital klocka</string>
-    <string name="use_digital_clock_summary">Välj för att växla mellan den digitala och den analoga klockan</string>
     <string name="clock_font_title">Timmar i fetstil</string>
     <string name="clock_font_minutes_title">Minuter i fetstil</string>
     <string name="clock_font_date_title">Datum/alarm i fetstil</string>

@@ -92,8 +92,6 @@
     <string name="calendar_category">Wydarzenia z kalendarza</string>
     <string name="general_category">Ogólne</string>
     <string name="display_category">Wyświetlanie</string>
-    <string name="use_digital_clock_title">Użyj zegara cyfrowego</string>
-    <string name="use_digital_clock_summary">Wybierz, aby przełączyć pomiędzy zegarem cyfrowym i analogowym</string>
     <string name="clock_font_title">Pogrubione godziny</string>
     <string name="clock_font_minutes_title">Pogrubione minuty</string>
     <string name="clock_font_date_title">Pogrubione data i alarm</string>

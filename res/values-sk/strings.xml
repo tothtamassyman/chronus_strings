@@ -97,8 +97,6 @@
     <string name="display_category">Zobrazenie</string>
     <string name="widget_type_keyguard">Obrazovka uzamknutia</string>
     <string name="widget_type_homescreen">Domovská obrazovka (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
-    <string name="use_digital_clock_title">Použiť digitálne hodiny</string>
-    <string name="use_digital_clock_summary">Vyberte medzi digitálnymi a ručičkovými hodinami</string>
     <string name="clock_font_title">Hodiny tučným písmom</string>
     <string name="clock_font_minutes_title">Minúty tučným písmom</string>
     <string name="clock_font_date_title">Dátum a budík tučným písmom</string>
@@ -173,7 +171,6 @@
     <string name="alignment_left">Zarovnané vľavo</string>
     <string name="alignment_right">Zarovnané vpravo</string>
     <string name="calendar_colors">Farba udalostí v kalendári</string>
-    <string name="clock_enable">Zobraziť hodiny</string>
     <string name="clock_analog">Analógové hodiny</string>
     <string name="clock_digital">Digitálne hodiny</string>
     <string name="contact_title">Kontakt</string>
@@ -228,10 +225,6 @@
     <string name="chronus_weather">Chronus Počasie</string>
     <string name="chronus_forecast">Chronus Predpoveď (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Kalendár</string>
-    <string name="chronus_mini">Chronus Mini</string>
-    <string name="chronus_small">Chronus Malé</string>
-    <string name="chronus_medium">Chronus Stredné</string>
-    <string name="chronus_large">Chronus Veľké</string>
     <string name="widget_rounded_corners_title">Zaoblené rohy</string>
     <string name="calendar_no_events">Žiadne nadchádzajúce udalosti</string>
     <string name="calendar_no_events_summary">Pridajte dotykom na +</string>

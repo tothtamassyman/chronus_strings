@@ -117,8 +117,6 @@
     <string name="widget_type_homescreen">主屏幕（<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>）</string>
 
     <!-- Preferences - Clock -->
-    <string name="use_digital_clock_title">使用数字时钟</string>
-    <string name="use_digital_clock_summary">在模拟与数字时钟之间进行切换</string>
     <string name="clock_font_title">加粗小时</string>
     <string name="clock_font_minutes_title">加粗分钟</string>
     <string name="clock_font_date_title">加粗日期与闹钟</string>
@@ -268,7 +266,6 @@
     <string name="calendar_colors">事件日历颜色</string>
 
     <!-- Clock types -->
-    <string name="clock_enable">显示时钟</string>
     <string name="clock_analog">模拟时钟</string>
     <string name="clock_digital">数字时钟</string>
 
@@ -278,10 +275,6 @@
     <string name="chronus_weather">Chronus 天气</string>
     <string name="chronus_forecast">Chronus 预报 (雅虎天气)</string>
     <string name="chronus_calendar">Chronus 日历</string>
-    <string name="chronus_mini">Chronus 迷你</string>
-    <string name="chronus_small">Chronus 小</string>
-    <string name="chronus_medium">Chronus 中</string>
-    <string name="chronus_large">Chronus 大</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">弧形边角</string>
