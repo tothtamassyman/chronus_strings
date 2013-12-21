@@ -288,7 +288,7 @@
     <string name="chronus_flex" translatable="false">Chronus Flex</string>
     <string name="chronus_clockplus">Chronus Ceas+</string>
     <string name="chronus_weather">Chronus Meteo</string>
-    <string name="chronus_forecast">Chronus Prognoză (Yahoo!)</string>
+    <string name="chronus_forecast">Chronus Prognoză</string>
     <string name="chronus_calendar">Chronus Calendar</string>
     <string name="chronus_mini">Chronus Mini</string>
     <string name="chronus_small">Chronus Mic</string>
