@@ -123,6 +123,7 @@
     <string name="weather_show_location_title">Показывать местоположение</string>
     <string name="weather_show_timestamp_title">Показывать время</string>
     <string name="weather_refresh_interval">Частота обновления</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (влияет на все виджеты Chronus)</string>
     <string name="weather_use_metric">Метрическая система</string>
     <string name="weather_retrieve_location_dialog_title">Не удаётся получить местоположение!</string>
     <string name="weather_retrieve_location_dialog_message">Определение местоположения по сети выключено.\n\nВключите определение местоположения по сети или введите местоположение вручную.</string>
@@ -211,7 +212,7 @@
     <string name="pro_features_thanks">Спасибо за покупку</string>
     <string name="pro_features_message">Версия Pro содержит все возможности стандартной и в течение
         ближайшего времени будет получать новые функции, среди которых уже есть:\n\n
-        \u2022 Дополнительные варианты отображения виджета\n
+        \u2022 Дополнительные варианты отображения\n
         \u2022 Индивидуальные настройки виджетов\n
         \u2022 Дополнительные функции календаря\n
         \u2022 Вариант отображения календаря мини-панелью\n
@@ -271,9 +272,19 @@
     <!-- Calendar - No events -->
     <string name="calendar_no_events">Нет предстоящих событий</string>
     <string name="calendar_no_events_summary">Нажмите «+» для добавления</string>
+    <string name="calendar_no_events_indicator_title">Показывать надпись «нет событий»</string>
+
 
     <!--  Cling text -->
     <string name="cling_widget_select_title">Выберите виджет</string>
     <string name="cling_widget_select_detail">Вы можете настроить любой из добавленных виджетов. Выберите нужный, используя переключатель вверху.</string>
+
+    <string name="show_date_title">Показывать дату</string>
+ 
+     <!-- Weather icon sets -->
+     <string name="weather_icon_set_title">Набор значков</string>
+     <string name="weather_icons_standard">Цветные</string>
+     <string name="weather_icons_monochrome">Чёрно-белые</string>
+     <string name="icon_set_selection_get_more">Скачать ещё</string>
 
 </resources>
