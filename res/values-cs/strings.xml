@@ -124,6 +124,7 @@
     <string name="weather_show_location_title">Zobrazit polohu</string>
     <string name="weather_show_timestamp_title">Zobrazit časový údaj</string>
     <string name="weather_refresh_interval">Interval aktualizace</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (vztahuje se na všechny widgety)</string>
     <string name="weather_use_metric">Použít metrické jednotky</string>
     <string name="weather_retrieve_location_dialog_title">Není možné určit polohu!</string>
     <string name="weather_retrieve_location_dialog_message">Zjištění polohy sítí je vypnuto.\n\nJe nutné nastavit vlastní polohu, nebo zapnout zjišťování sítí.</string>
@@ -259,4 +260,15 @@
 
     <string name="cling_widget_select_title">Zvolte widget</string>
     <string name="cling_widget_select_detail">Je možné změnit nastavení jakéhokoliv widgetu, který jste vytvořili. Požadovaný widget stačí vybrat pomocí volby nahoře.</string>
+
+    <string name="show_date_title">Zobrazit datum</string>
+
+    <string name="weather_icon_set_title">Sada ikon</string>
+    <string name="weather_icons_standard">Barevné</string>
+    <string name="weather_icons_monochrome">Černobílé</string>
+    <string name="weather_icons_modern">Moderní</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_flat">Ploché</string>
+    <string name="weather_icons_vista">Vista</string>
+    <string name="icon_set_selection_get_more">Získat další\u2026</string>
 </resources>
