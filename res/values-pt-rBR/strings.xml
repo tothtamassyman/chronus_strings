@@ -134,8 +134,6 @@
     <string name="weather_alternate_icons_title">Usar ícones coloridos</string>
     <string name="weather_alternate_icons_summary">Selecione para alternar entre o padrão (Colorido) ou os ícones (Brancos) alternativos</string>
     <string name="loading_indicator">Carregando widget\u2026</string>
-    <string name="use_digital_clock_title">Usar relógio Digital</string>
-    <string name="use_digital_clock_summary">Selecione para alternar entre relógio Digital e o Analógico</string>
     <string name="menu_done">Feito</string>
     <string name="weather_show_when_minimized_title">Exibir quando minimizado</string>
     <string name="weather_show_when_minimized_summary">Exibir um resumo de informações sobre o tempo quando o widget estiver minimizado</string>
@@ -223,16 +221,11 @@
     <string name="alignment_left">Alinhado a esquerda</string>
     <string name="alignment_right">Alinhado a direita</string>
     <string name="calendar_colors">Cor do calendário de eventos</string>
-    <string name="clock_enable">Exibir relógio</string>
     <string name="clock_analog">Relógio analógico</string>
     <string name="clock_digital">Relógio digital</string>
     <string name="chronus_clockplus">Chronus Relógio+</string>
     <string name="chronus_weather">Chronus Tempo</string>
     <string name="chronus_calendar">Chronus Calendário</string>
-    <string name="chronus_mini">Chronus Mini</string>
-    <string name="chronus_small">Chronus Pequeno</string>
-    <string name="chronus_medium">Chronus Médio</string>
-    <string name="chronus_large">Chronus Grande</string>
     <string name="widget_type_keyguard">Tela de bloqueio</string>
     <string name="widget_type_homescreen">Tela inicial (<xliff:g id="columns" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$d</xliff:g>x<xliff:g id="rows" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%2$d</xliff:g>)</string>
     <string name="chronus_forecast">Chronus Previsão do Tempo (Yahoo!)</string>

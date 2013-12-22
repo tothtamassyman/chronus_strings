@@ -96,8 +96,6 @@
     <string name="appearance_category">Generel visning</string>
     <string name="general_category">Generelt</string>
     <string name="display_category">Visning</string>
-    <string name="use_digital_clock_title">Brug digitalt ur</string>
-    <string name="use_digital_clock_summary">Vælg for at skifte mellem digitalt og analogt ur</string>
     <string name="clock_font_title">Timer med fed</string>
     <string name="clock_font_minutes_title">Minutter med fed</string>
     <string name="clock_font_date_title">Dato og alarm med fed</string>
@@ -221,14 +219,9 @@
     <string name="alignment_left">Venstrestillet</string>
     <string name="alignment_right">Højrestillet</string>
     <string name="calendar_colors">Farve til kalenderbegivenhed</string>
-    <string name="clock_enable">Vis ur</string>
     <string name="clock_analog">Analogt ur</string>
     <string name="clock_digital">Digitalt ur</string>
     <string name="chronus_clockplus">Chronus Ur+</string>
     <string name="chronus_weather">Chronus Vejr</string>
     <string name="chronus_calendar">Chronus Kalender</string>
-    <string name="chronus_mini">Chronus Mini</string>
-    <string name="chronus_small">Chronus Lille</string>
-    <string name="chronus_medium">Chronus Normal</string>
-    <string name="chronus_large">Chronus Stor</string>
 </resources>

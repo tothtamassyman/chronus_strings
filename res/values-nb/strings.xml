@@ -92,8 +92,6 @@
     <string name="calendar_category">Kalenderoppføringer</string>
     <string name="general_category">Generelt</string>
     <string name="display_category">Skjerm</string>
-    <string name="use_digital_clock_title">Bruk Digital Klokke</string>
-    <string name="use_digital_clock_summary">Velg for å veksle mellom digital og analog klokke</string>
     <string name="clock_font_title">Timer uthevet</string>
     <string name="clock_font_minutes_title">Minutter uthevet</string>
     <string name="clock_font_date_title">Uthevet dato og alarm</string>

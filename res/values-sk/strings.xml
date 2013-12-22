@@ -97,8 +97,6 @@
     <string name="display_category">Zobrazenie</string>
     <string name="widget_type_keyguard">Obrazovka uzamknutia</string>
     <string name="widget_type_homescreen">Domovská obrazovka (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
-    <string name="use_digital_clock_title">Použiť digitálne hodiny</string>
-    <string name="use_digital_clock_summary">Vyberte medzi digitálnymi a ručičkovými hodinami</string>
     <string name="clock_font_title">Hodiny tučným písmom</string>
     <string name="clock_font_minutes_title">Minúty tučným písmom</string>
     <string name="clock_font_date_title">Dátum a budík tučným písmom</string>
@@ -106,20 +104,21 @@
     <string name="clock_am_pm_title">Zobraziť indikátor AM/PM</string>
     <string name="weather_enabled">Povolené</string>
     <string name="weather_enable">Zobraziť počasie</string>
-    <string name="weather_use_custom_location">Použiť vlastné umiestnenie</string>
+    <string name="weather_use_custom_location">Použiť vlastnú polohu</string>
     <string name="weather_geolocated">Lokalizované pomocou siete</string>
-    <string name="weather_custom_location_dialog_title">Zadajte umiestnenie</string>
+    <string name="weather_custom_location_dialog_title">Zadajte polohu</string>
     <string name="weather_custom_location_hint">Mesto, Štát/Krajina</string>
-    <string name="weather_custom_location_title">Umiestnenie</string>
-    <string name="weather_show_location_title">Zobraziť umiestnenie</string>
+    <string name="weather_custom_location_title">Poloha</string>
+    <string name="weather_show_location_title">Zobraziť polohu</string>
     <string name="weather_show_timestamp_title">Zobraziť časovú značku</string>
     <string name="weather_refresh_interval">Interval aktualizácie</string>
+	<string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minút">%s</xliff:g> (vzťahuje sa na všetky miniaplikácie)</string>
     <string name="weather_use_metric">Použiť metrické jednotky</string>
-    <string name="weather_retrieve_location_dialog_title">Nedá sa získať umiestnenie!</string>
-    <string name="weather_retrieve_location_dialog_message">Lokalizácia pomocou siete je zakázaná.\n\nNastavte vlastné umiestnenie alebo povoľte sieťovú lokalizáciu</string>
+    <string name="weather_retrieve_location_dialog_title">Nemožno získať polohu!</string>
+    <string name="weather_retrieve_location_dialog_message">Lokalizácia pomocou siete je zakázaná.\n\nNastavte vlastnú polohu alebo povoľte sieťovú lokalizáciu</string>
     <string name="weather_retrieve_location_dialog_enable_button">Povoliť</string>
     <string name="weather_invert_lowhigh">Invertovať nízke/vysoké teploty</string>
-    <string name="weather_progress_title">Overuje sa umiestnenie</string>
+    <string name="weather_progress_title">Overovanie polohy</string>
     <string name="weather_alternate_icons_title">Použiť farebné ikony</string>
     <string name="weather_alternate_icons_summary">Vyberte medzi predvolenými (farebnými) alebo alternatívnymi (bielymi) ikonami</string>
     <string name="weather_show_when_minimized_title">Zobraziť pri minimalizovaní</string>
@@ -132,11 +131,11 @@
     <string name="calendar_hide_allday_title">Skryť celodenné udalosti</string>
     <string name="calendar_icon_title">Ikona kalendára</string>
     <string name="calendar_lookahead_title">Prednačítať udalosti dopredu na</string>
-    <string name="calendar_show_location_title">Umiestnenie udalosti</string>
+    <string name="calendar_show_location_title">Poloha udalosti</string>
     <string name="calendar_show_description_title">Popis udalosti</string>
     <string name="calendar_upcoming_events_category">Nadchádzajúce udalosti</string>
     <string name="calendar_highlight_upcoming_events_title">Zvýrazniť udalosti</string>
-    <string name="calendar_highlight_upcoming_events_summary">Zvýrazní udalosti dnešného dňa a po dvadsiatej hodine tiež udalosti ďalšieho dňa</string>
+    <string name="calendar_highlight_upcoming_events_summary">Zvýrazniť udalosti dnešného dňa a po dvadsiatej hodine tiež udalosti ďalšieho dňa</string>
     <string name="calendar_highlight_upcoming_events_bold">Tučné písmo</string>
     <string name="calendar_add_event_title">Pridať ikonu udalosti</string>
     <string name="font_color">Farba písma</string>
@@ -172,15 +171,14 @@
     <string name="alignment_centered">Centrované</string>
     <string name="alignment_left">Zarovnané vľavo</string>
     <string name="alignment_right">Zarovnané vpravo</string>
-    <string name="calendar_colors">Farba udalostí v kalendári</string>
-    <string name="clock_enable">Zobraziť hodiny</string>
+    <string name="calendar_colors">Farby v kalendári</string>
     <string name="clock_analog">Analógové hodiny</string>
     <string name="clock_digital">Digitálne hodiny</string>
-    <string name="contact_title">Kontakt</string>
+    <string name="contact_title">Kontaktujte nás</string>
     <string name="credits_title">Kredity</string>
     <string name="credits_summary">Aj keď som napísal významné časti aplikácie Chronus, veľká vďaka patrí Dannymu Baumannovi za jeho
         prácu na počasí a fakturačných službách a za prehodnocovanie a vylepšovanie; vďaka tiež patrí komunitným prekladateľom
-        CyanogenModu za pridanie všetkých jazykov, ktoré sú zahrnuté; a taktiež vďaka patrí ostatným prispievateľom, akými sú Nicolai Ehemann a Matt Booth za opravy a funkcie
+        CyanogenModu za pridanie všetkých jazykov, ktoré sú zahrnuté; a taktiež vďaka patrí ostatným prispievateľom, ako sú Nicolai Ehemann a Matt Booth za opravy a funkcie
         ktorými prispeli.</string>
     <string name="how_to_title">Pomocník</string>
     <string name="first_run_title">Vitajte v aplikácii %s</string>
@@ -194,6 +192,7 @@
     <string name="no_widget_message">Aspoň jedna miniaplikácia Chronus musí byť pridaná buď na domovskú alebo uzamykaciu obrazovku.\n\nMiniaplikácie je možné pridať pomocou funkcie
         Androida na výber miniaplikácií a Vášho spúšťača.</string>
     <string name="get_pro">Získať Pro verziu</string>
+    <string name="pro_check_dialog_message">Kontrolovanie Pro licencie\u2026</string>
     <string name="picker_apps">Aplikácie</string>
     <string name="picker_activities">Aktivity</string>
     <string name="picker_default">Predvolená akcia</string>
@@ -228,13 +227,19 @@
     <string name="chronus_weather">Chronus Počasie</string>
     <string name="chronus_forecast">Chronus Predpoveď (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Kalendár</string>
-    <string name="chronus_mini">Chronus Mini</string>
-    <string name="chronus_small">Chronus Malé</string>
-    <string name="chronus_medium">Chronus Stredné</string>
-    <string name="chronus_large">Chronus Veľké</string>
     <string name="widget_rounded_corners_title">Zaoblené rohy</string>
     <string name="calendar_no_events">Žiadne nadchádzajúce udalosti</string>
     <string name="calendar_no_events_summary">Pridajte dotykom na +</string>
+    <string name="calendar_no_events_indicator_title">Zobraziť text \'Žiadne uddalosti\'</string>
     <string name="cling_widget_select_title">Vyberte miniaplikáciu</string>
     <string name="cling_widget_select_detail">Môžete nastaviť každú z Vašich umiestnených miniaplikácií. Stačí si vybrať tú, ktorú chcete nastaviť, pomocou voliča hore.</string>
+    <string name="show_date_title">Zobraziť dátum</string>
+    <string name="weather_icon_set_title">Sada ikon</string>
+    <string name="weather_icons_standard">Farebné</string>
+    <string name="weather_icons_monochrome">Monochrome</string>
+    <string name="weather_icons_modern">Moderné</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_flat">Ploché</string>
+    <string name="weather_icons_vista">Vista</string>
+    <string name="icon_set_selection_get_more">Získať viac\u2026</string>
 </resources>

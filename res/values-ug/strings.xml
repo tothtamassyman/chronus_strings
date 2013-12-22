@@ -91,8 +91,6 @@
     <string name="calendar_category">يىلنامە ھادىسىلەر</string>
     <string name="general_category">ئادەتتىكى</string>
     <string name="display_category">ئېكران</string>
-    <string name="use_digital_clock_title">رەقەملىك سائەت ئىشلەت</string>
-    <string name="use_digital_clock_summary">رەقەملىك سائەت بىلەن تەقلىد سائەت ئارىسىدا ئالماشتۇرۇشنى تاللايدۇ</string>
     <string name="clock_font_title">سائەت توم</string>
     <string name="clock_font_minutes_title">مىنۇت توم</string>
     <string name="clock_font_date_title">چېسلا ۋە قوڭغۇراق توم</string>

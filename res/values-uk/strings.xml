@@ -108,8 +108,6 @@
     <string name="display_category">Вигляд</string>
 
     <!-- Preferences - Clock -->
-    <string name="use_digital_clock_title">Цифровий годинник</string>
-    <string name="use_digital_clock_summary">Вибір між цифровим та аналоговим годинником</string>
     <string name="clock_font_title">Години напівжирними</string>
     <string name="clock_font_minutes_title">Хвилини напівжирними</string>
     <string name="clock_font_date_title">Дата та будильник напівжирними</string>

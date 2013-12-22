@@ -92,8 +92,6 @@
     <string name="calendar_category">Esdeveniments del calendari</string>
     <string name="general_category">General</string>
     <string name="display_category">Pantalla</string>
-    <string name="use_digital_clock_title">Utilitza Rellotge Digital</string>
-    <string name="use_digital_clock_summary">Selecciona per commutar entre el rellotge Digital i l\'Analògic</string>
     <string name="clock_font_title">Hores en negreta</string>
     <string name="clock_font_minutes_title">Minuts en negreta</string>
     <string name="clock_font_date_title">Data i alarma en negreta</string>

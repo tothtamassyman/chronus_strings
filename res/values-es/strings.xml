@@ -102,8 +102,6 @@
     <string name="display_category">Aspecto</string>
     <string name="widget_type_keyguard">Pantalla de bloqueo</string>
     <string name="widget_type_homescreen">Pantalla de inicio (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
-    <string name="use_digital_clock_title">Usar reloj digital</string>
-    <string name="use_digital_clock_summary">Seleccionar para alternar entre el reloj digital y el analógico</string>
     <string name="clock_font_title">Resaltar hora</string>
     <string name="clock_font_minutes_title">Resaltar minutos</string>
     <string name="clock_font_date_title">Resaltar fecha y alarma</string>
@@ -228,17 +226,12 @@
     <string name="alignment_left">Izquierda</string>
     <string name="alignment_right">Derecha</string>
     <string name="calendar_colors">Color del evento del calendario</string>
-    <string name="clock_enable">Reloj a mostrar</string>
     <string name="clock_analog">Reloj analógico</string>
     <string name="clock_digital">Reloj digital</string>
     <string name="chronus_clockplus">Chronus Reloj+</string>
     <string name="chronus_weather">Chronus Tiempo</string>
     <string name="chronus_forecast">Chronus Predicción Tiempo (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Calendario</string>
-    <string name="chronus_mini">Chronus Mini</string>
-    <string name="chronus_small">Chronus Pequeño</string>
-    <string name="chronus_medium">Chronus Mediano</string>
-    <string name="chronus_large">Chronus Grande</string>
     <string name="widget_rounded_corners_title">Esquinas redondeadas</string>
     <string name="calendar_no_events">No hay eventos en la ventana de eventos futuros</string>
     <string name="calendar_no_events_summary">Toca + para añadir</string>

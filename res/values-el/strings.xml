@@ -99,8 +99,6 @@
     <string name="display_category">Οθόνη</string>
     <string name="widget_type_keyguard">Οθόνη κλειδώματος</string>
     <string name="widget_type_homescreen">Αρχική οθόνη (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
-    <string name="use_digital_clock_title">Χρήση ψηφιακού ρολογιού</string>
-    <string name="use_digital_clock_summary">Επιλέξτε για εναλλαγή μεταξύ του ψηφιακού και του αναλογικού ρολογιού</string>
     <string name="clock_font_title">Έντονη ώρα</string>
     <string name="clock_font_minutes_title">Έντονα λεπτά</string>
     <string name="clock_font_date_title">Έντονη ημερομηνία και ξυπνητήρι</string>
@@ -226,17 +224,12 @@
     <string name="alignment_left">Στοίχιση αριστερά</string>
     <string name="alignment_right">Στοίχιση δεξιά</string>
     <string name="calendar_colors">Χρώμα συμβάντων ημερολογίου</string>
-    <string name="clock_enable">Εμφάνιση ρολογιού</string>
     <string name="clock_analog">Αναλογικό ρολόι</string>
     <string name="clock_digital">Ψηφιακό ρολόι</string>
     <string name="chronus_clockplus">Ρολόι+ Chronus</string>
     <string name="chronus_weather">Καιρός Chronus</string>
     <string name="chronus_forecast">Πρόγνωση Chronus (Yahoo!)</string>
     <string name="chronus_calendar">Ημερολόγιο Chronus</string>
-    <string name="chronus_mini">Μίνι Chronus</string>
-    <string name="chronus_small">Μικρό Chronus</string>
-    <string name="chronus_medium">Μεσαίο Chronus</string>
-    <string name="chronus_large">Μεγάλο Chronus</string>
     <string name="widget_rounded_corners_title">Στρογγυλεμένες γωνίες</string>
     <string name="calendar_no_events">Δεν έχουν προστεθεί συμβάντα</string>
     <string name="calendar_no_events_summary">Πιέστε + για προσθήκη</string>

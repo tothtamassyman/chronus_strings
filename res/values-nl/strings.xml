@@ -93,8 +93,6 @@
     <string name="calendar_category">Agenda-afspraken</string>
     <string name="general_category">Algemeen</string>
     <string name="display_category">Weergave</string>
-    <string name="use_digital_clock_title">Digitale klok</string>
-    <string name="use_digital_clock_summary">Door deze optie te kiezen, schakelt u tussen de digitale en analoge klok</string>
     <string name="clock_font_title">Uren vetgedrukt</string>
     <string name="clock_font_minutes_title">Minuten vetgedrukt</string>
     <string name="clock_font_date_title">Alarm/datum vetgedrukt</string>
@@ -219,17 +217,12 @@
     <string name="alignment_left">Links</string>
     <string name="alignment_right">Rechts</string>
     <string name="calendar_colors">Kleur afsprakenagenda</string>
-    <string name="clock_enable">Klok weergeven</string>
     <string name="clock_analog">Analoge klok</string>
     <string name="clock_digital">Digitale klok</string>
     <string name="chronus_clockplus">Chronus (klok+)</string>
     <string name="chronus_weather">Chronus Weer</string>
     <string name="chronus_forecast">Chronus Weersverwachting (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Agenda</string>
-    <string name="chronus_mini">Chronus (kleinst)</string>
-    <string name="chronus_small">Chronus (klein)</string>
-    <string name="chronus_medium">Chronus (normaal)</string>
-    <string name="chronus_large">Chronus (groot)</string>
     <string name="widget_rounded_corners_title">Afgeronde hoeken</string>
     <string name="calendar_no_events">Geen komende afspraken</string>
     <string name="calendar_no_events_summary">Tik op + om toe te voegen</string>

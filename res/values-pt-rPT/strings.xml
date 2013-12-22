@@ -101,8 +101,6 @@
     <string name="display_category">Aparência</string>
     <string name="widget_type_keyguard">Ecrã de bloqueio</string>
     <string name="widget_type_homescreen">Ecrã inicial (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
-    <string name="use_digital_clock_title">Usar relógio Digital</string>
-    <string name="use_digital_clock_summary">Selecione para alternar entre o relógio Digital e o Analógico</string>
     <string name="clock_font_title">Horas a negrito</string>
     <string name="clock_font_minutes_title">Minutos a negrito</string>
     <string name="clock_font_date_title">Data e alarme a negrito</string>
@@ -214,16 +212,11 @@
     <string name="alignment_left">Alinhado à esquerda</string>
     <string name="alignment_right">Alinhado à direita</string>
     <string name="calendar_colors">Cor do calendário de eventos</string>
-    <string name="clock_enable">Mostrar relógio</string>
     <string name="clock_analog">Relógio analógico</string>
     <string name="clock_digital">Relógio digital</string>
     <string name="chronus_clockplus">Chronus Relógio+</string>
     <string name="chronus_weather">Chronus Tempo</string>
     <string name="chronus_calendar">Chronus Calendário</string>
-    <string name="chronus_mini">Chronus Mini</string>
-    <string name="chronus_small">Chronus Pequeno</string>
-    <string name="chronus_medium">Chronus Médio</string>
-    <string name="chronus_large">Chronus Grande</string>
     <string name="widget_rounded_corners_title">Cantos arredondados</string>
     <string name="calendar_no_events">Sem eventos na janela de eventos futuros.</string>
     <string name="calendar_no_events_summary">Toque em + para adicionar</string>

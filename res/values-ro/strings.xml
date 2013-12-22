@@ -17,16 +17,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="app_name" translatable="false">Chronus</string>
-    <string name="app_name_pro" translatable="false">Chronus Pro</string>
-
     <string name="unknown">Necunoscut</string>
     <string name="cancel">Revocaţi</string>
     <string name="loading_indicator">Încărcare widget\u2026</string>
     <string name="menu_done">OK</string>
     <string name="ok">OK</string>
-    <string-array name="empty_array" translatable="false"/>
-    <string name="send_log" translatable="false">Logcat</string>
     <string name="exit">Ieșire</string>
 
     <!-- Weather - Weather codes -->
@@ -146,8 +141,8 @@
     <string name="weather_show_location_title">"Afişare locaţie"</string>
     <string name="weather_show_timestamp_title">"Afişare marcaj de timp"</string>
     <string name="weather_refresh_interval">"Interval actualizare"</string>
-string name="weather_refresh_interval">Update interval</string>
-     <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (aplicabil pentru toate widget-urilewidget-urile)</string>
+    <string name="weather_refresh_interval">Update interval</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (aplicabil pentru toate widget-urilewidget-urile)</string>
     <string name="weather_use_metric">"Sistem metric"</string>
     <string name="weather_retrieve_location_dialog_title">"Nu se poate prelua locaţia!"</string>
     <string name="weather_retrieve_location_dialog_message">"Geolocalizarea este dezactivată.\n\nSetaţi o locaţie personalizată sau activaţi localizarea în reţea"</string>
@@ -224,7 +219,6 @@ string name="weather_refresh_interval">Update interval</string>
     <string name="credits_title">Mulțumiri</string>
     <string name="credits_summary">Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la serviciile meteo și billing, revizuiri și îmbunătățiri; lui Nicolai Ehemann și Matt Booth; precum și comunității de traducători care au contribuit.\nTraducerea în limba română: Adrian Nistreanu.</string>
     <string name="contact_title">Contact</string>
-    <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
     <string name="send_email">Trimiteți email\u2026</string>
 
     <!-- START OF PRO VERSION STRINGS -->
@@ -274,18 +268,11 @@ string name="weather_refresh_interval">Update interval</string>
     <string name="calendar_colors">Culori calendar</string>
 
     <!-- Clock types -->
-    <string name="clock_enable">Afișare ceas</string>
     <string name="clock_analog">Ceas analogic</string>
     <string name="clock_digital">Ceas digital</string>
 
-    <!-- Weather providers -->
-    <string name="weather_source_wunderground" translatable="false">Weather Underground</string>
-    <string name="weather_source_hamweather" translatable="false">HAMweather</string>
-    <string name="weather_source_accuweather" translatable="false">AccuWeather</string>
-
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as Chronus -->
-    <string name="chronus_flex" translatable="false">Chronus Flex</string>
     <string name="chronus_clockplus">Chronus Ceas+</string>
     <string name="chronus_weather">Chronus Meteo</string>
     <string name="chronus_forecast">Chronus Prognoză</string>
@@ -314,5 +301,4 @@ string name="weather_refresh_interval">Update interval</string>
     <string name="weather_icons_flat">Flat</string>
     <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Mai multe\u2026</string>
-    <string name="icon_set_store_filter" translatable="false">Chronus Weather Icons</string>
-    </resources>
+</resources>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- <string name="weather_15">Blowing Snow</string> - is this blizzard? -->
-    <string name="use_digital_clock_summary">Select to toggle between digital and analogue display</string>
 
     <string name="weather_use_custom_location">Use custom location</string>
     <string name="weather_geolocated">Geolocated using network</string>

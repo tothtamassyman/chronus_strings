@@ -101,8 +101,6 @@
     <string name="display_category">Visualizzazione</string>
     <string name="widget_type_keyguard">Schermata di blocco</string>
     <string name="widget_type_homescreen">Schermata Home (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
-    <string name="use_digital_clock_title">Usa orologio digitale</string>
-    <string name="use_digital_clock_summary">Selezionare per mostrare l\'orologio digitale invece dell\'analogico</string>
     <string name="clock_font_title">Ore in grassetto</string>
     <string name="clock_font_minutes_title">Minuti in grassetto</string>
     <string name="clock_font_date_title">Data e sveglia in grassetto</string>
@@ -232,17 +230,12 @@
     <string name="alignment_left">Allineato a sinistra</string>
     <string name="alignment_right">Allineato a destra</string>
     <string name="calendar_colors">Colore calendario eventi</string>
-    <string name="clock_enable">Orologio del display</string>
     <string name="clock_analog">Orologio analogico</string>
     <string name="clock_digital">Orologio digitale</string>
     <string name="chronus_clockplus">Chronus Orologio+</string>
     <string name="chronus_weather">Chronus Meteo</string>
     <string name="chronus_forecast">Chronus Previsioni Meteo (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Calendario</string>
-    <string name="chronus_mini">Chronus Mini</string>
-    <string name="chronus_small">Chronus Piccolo</string>
-    <string name="chronus_medium">Chronus Medio</string>
-    <string name="chronus_large">Chronus Grande</string>
     <string name="widget_rounded_corners_title">Angoli arrotondati</string>
     <string name="calendar_no_events">Non ci sono eventi nella finestra di eventi futuri</string>
     <string name="calendar_no_events_summary">Tocca + per aggiungere</string>

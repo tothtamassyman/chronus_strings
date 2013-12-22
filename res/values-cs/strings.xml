@@ -106,8 +106,6 @@
     <string name="widget_type_keyguard">Obrazovka zámku</string>
     <string name="widget_type_homescreen">Plocha (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 
-    <string name="use_digital_clock_title">Použít digitální hodiny</string>
-    <string name="use_digital_clock_summary">Vybrat pro přepnutí mezi digitálními a analogovými hodinami</string>
     <string name="clock_font_title">Zvýraznit hodiny</string>
     <string name="clock_font_minutes_title">Zvýraznit minuty</string>
     <string name="clock_font_date_title">Zvýraznit datum a budík</string>
@@ -217,6 +215,8 @@
         \u2022 a mnohem více\u2026\n\nNávrhy jsou vždy vítány.\n\nDěkuji za Vaši podporu.</string>
     <string name="get_pro">Získat verzi Pro</string>
 
+    <string name="pro_check_dialog_message">Kontrola Pro licence\u2026</string>
+
     <string name="picker_apps">Aplikace</string>
     <string name="picker_activities">Akitivity</string>
     <string name="picker_default">Výchozí akce</string>
@@ -244,7 +244,6 @@
 
     <string name="calendar_colors">Barva události kalendáře</string>
 
-    <string name="clock_enable">Zobrazit hodiny</string>
     <string name="clock_analog">Analogové hodiny</string>
     <string name="clock_digital">Digitální hodiny</string>
 
@@ -252,15 +251,11 @@
     <string name="chronus_weather">Chronus počasí</string>
     <string name="chronus_forecast">Chronus předpověď</string>
     <string name="chronus_calendar">Chronus kalendář</string>
-    <string name="chronus_mini">Chronus mini</string>
-    <string name="chronus_small">Chronus malý</string>
-    <string name="chronus_medium">Chronus střední</string>
-    <string name="chronus_large">Chronus veliký</string>
-
     <string name="widget_rounded_corners_title">Zakulacené rohy</string>
 
     <string name="calendar_no_events">Žádné příští události</string>
     <string name="calendar_no_events_summary">Přidat dotykem na +</string>
+    <string name="calendar_no_events_indicator_title">Zobrazovat \"Žádné události\"</string>
 
     <string name="cling_widget_select_title">Zvolte widget</string>
     <string name="cling_widget_select_detail">Je možné změnit nastavení jakéhokoliv widgetu, který jste vytvořili. Požadovaný widget stačí vybrat pomocí volby nahoře.</string>

@@ -96,8 +96,6 @@
     <string name="appearance_category">Algemene voorkoms</string>
     <string name="general_category">Algemeen</string>
     <string name="display_category">vertooneienskappe</string>
-    <string name="use_digital_clock_title">Gebruik digitale klok</string>
-    <string name="use_digital_clock_summary">Kies om te wissel tussen die digitale en die analoog klok weergawe</string>
     <string name="clock_font_title">Ure vetgedruk</string>
     <string name="clock_font_minutes_title">Minute vetgedruk</string>
     <string name="clock_font_date_title">Datum en alarm vetgedruk</string>
@@ -207,7 +205,7 @@
     <string name="picker_select_custom_activity_title">Kies persoonlike aktiwiteit</string>
     <string name="tap_action_title">Aanraak aksie</string>
     <string name="tap_action_clock_default">Stelsel horlosie</string>
-    <string name="tap_action_weather_default">Verfris weer</string>
+    <string name="tap_action_weather_refresh">Verfris weer</string>
     <string name="tap_action_calendar_default">Stelsel kalender</string>
     <string name="tap_action_weather_forecast">Wys voorspelling</string>
     <string name="widget_background_title">Legstuk agtergrond</string>
@@ -221,15 +219,10 @@
     <string name="alignment_centered">Gesentreerd</string>
     <string name="alignment_left">Linksgerig</string>
     <string name="alignment_right">Regsgerig</string>
-    <string name="calendar_colors">Kalender kleur</string>
-    <string name="clock_enable">Vertoon horlosie</string>
+    <string name="calendar_colors">Kalender kleure</string>
     <string name="clock_analog">Analoog horlosie</string>
     <string name="clock_digital">Digitale horlosie</string>
     <string name="chronus_clockplus">Chronus Horlosie+</string>
     <string name="chronus_weather">Chronus Weer</string>
     <string name="chronus_calendar">Chronus Kalender</string>
-    <string name="chronus_mini">Chronus Mini</string>
-    <string name="chronus_small">Chronus Klein</string>
-    <string name="chronus_medium">Chronus Medium</string>
-    <string name="chronus_large">Chronus Groot</string>
 </resources>

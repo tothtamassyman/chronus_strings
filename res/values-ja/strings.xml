@@ -109,8 +109,6 @@
     <string name="display_category">表示</string>
 
     <!-- Preferences - Clock -->
-    <string name="use_digital_clock_title">デジタル時計を使用</string>
-    <string name="use_digital_clock_summary">デジタル時計かアナログ時計を切り替える。</string>
     <string name="clock_font_title">時を太字にする</string>
     <string name="clock_font_minutes_title">分を太字にする</string>
     <string name="clock_font_date_title">日付とアラームを太字にする</string>

@@ -97,8 +97,6 @@
     <string name="display_category">Anzeige</string>
     <string name="about_category">Über Chronus</string>
     <string name="appearance_category">Darstellung</string>
-    <string name="use_digital_clock_title">Digitaluhr verwenden</string>
-    <string name="use_digital_clock_summary">Digitaluhr an Stelle der Analoguhr verwenden.</string>
     <string name="clock_font_title">Stunden in Fettschrift</string>
     <string name="clock_font_minutes_title">Minuten in Fettschrift</string>
     <string name="clock_font_date_title">Datum und Alarm in Fettschrift</string>
@@ -226,20 +224,15 @@
     <string name="alignment_left">Linksbündig</string>
     <string name="alignment_right">Rechtsbündig</string>
     <string name="calendar_colors">Kalender-Farbe</string>
-    <string name="clock_enable">Uhr anzeigen</string>
     <string name="clock_analog">Analoge Uhr</string>
     <string name="clock_digital">Digitale Uhr</string>
     <string name="chronus_clockplus">Chronus Uhr+</string>
     <string name="chronus_weather">Chronus Wetter</string>
     <string name="chronus_forecast">Chronus Wettervorhersage (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Kalender</string>
-    <string name="chronus_mini">Chronus (mini)</string>
-    <string name="chronus_small">Chronus (klein)</string>
-    <string name="chronus_medium">Chronus (mittel)</string>
-    <string name="chronus_large">Chronus (groß)</string>
     <string name="widget_type_keyguard">Bildschirmsperre</string>
     <string name="widget_type_homescreen">Startbildschirm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
-    <string name="widget_rounded_corners_title">Abgerundeete Ecken</string>
+    <string name="widget_rounded_corners_title">Abgerundete Ecken</string>
     <string name="calendar_no_events">Keine Termine im Vorschauzeitraum</string>
     <string name="calendar_no_events_summary">Termin durch Berühren von + hinzufügen</string>
     <string name="cling_widget_select_title">Widget auswählen</string>
