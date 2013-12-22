@@ -271,7 +271,7 @@ string name="weather_refresh_interval">Update interval</string>
     <string name="alignment_right">Dreapta</string>
 
     <!-- Calendar colors -->
-    <string name="calendar_colors"Culori calendar</string>
+    <string name="calendar_colors">Culori calendar</string>
 
     <!-- Clock types -->
     <string name="clock_enable">Afișare ceas</string>
