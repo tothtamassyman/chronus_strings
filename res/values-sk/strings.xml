@@ -192,7 +192,7 @@
     <string name="no_widget_message">Aspoň jedna miniaplikácia Chronus musí byť pridaná buď na domovskú alebo uzamykaciu obrazovku.\n\nMiniaplikácie je možné pridať pomocou funkcie
         Androida na výber miniaplikácií a Vášho spúšťača.</string>
     <string name="get_pro">Získať Pro verziu</string>
-	<string name="pro_check_dialog_message">Kontrolovanie Pro licencie\u2026</string>
+    <string name="pro_check_dialog_message">Kontrolovanie Pro licencie\u2026</string>
     <string name="picker_apps">Aplikácie</string>
     <string name="picker_activities">Aktivity</string>
     <string name="picker_default">Predvolená akcia</string>
@@ -234,7 +234,7 @@
     <string name="cling_widget_select_title">Vyberte miniaplikáciu</string>
     <string name="cling_widget_select_detail">Môžete nastaviť každú z Vašich umiestnených miniaplikácií. Stačí si vybrať tú, ktorú chcete nastaviť, pomocou voliča hore.</string>
     <string name="show_date_title">Zobraziť dátum</string>
-	<string name="weather_icon_set_title">Sada ikon</string>
+    <string name="weather_icon_set_title">Sada ikon</string>
     <string name="weather_icons_standard">Farebné</string>
     <string name="weather_icons_monochrome">Monochrome</string>
     <string name="weather_icons_modern">Moderné</string>
