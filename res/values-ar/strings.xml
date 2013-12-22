@@ -94,7 +94,7 @@
     <string name="weather_tap_to_refresh">اضغط للتحديث</string>
     <string name="weather_refreshing">تحديث</string>
     <string name="weather_last_sync_just_now">الآن</string>
-    <string name="weather_cannot_reach_provider">Can\'t reach %s at the moment</string>
+    <string name="weather_cannot_reach_provider">لا يمكن أن تصل إلى٪ %s في لحظة</string>
 
     <!-- الطقس - تحديث الطقس -->
     <string name="weather_refresh_manual">دليل</string>
@@ -141,7 +141,7 @@
     <string name="weather_show_location_title">عرض الموقع</string>
     <string name="weather_show_timestamp_title">عرض الطابع الزمني</string>
     <string name="weather_refresh_interval">الفاصل الزمني للتحديث</string>
-    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (applies to all widgets)</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (ينطبق على جميع الاختصارات)</string>
     <string name="weather_use_metric">استخدام متري</string>
     <string name="weather_retrieve_location_dialog_title">لا يمكن استرداد الموقع!</string>
     <string name="weather_retrieve_location_dialog_message">تحديد الموقع الجغرافي من الشبكه</string>
@@ -162,12 +162,12 @@
     <string name="calendar_reminders_only_summary">تظهر الأحداث فقط مع التذكير</string>
     <string name="calendar_hide_allday_title">إخفاء أحداث اليوم كله</string>
     <string name="calendar_icon_title">رمز التقويمرمز التقويم</string>
-    <string name="calendar_lookahead_title">Event lookahead</string>
+    <string name="calendar_lookahead_title">فكر في المستقبل</string>
     <string name="calendar_show_location_title">موقع الحدث</string>
     <string name="calendar_show_description_title">وصف الحدث</string>
     <string name="calendar_upcoming_events_category">الأحداث القادمة</string>
     <string name="calendar_highlight_upcoming_events_title">تسليط الضوء على الأحداث</string>
-    <string name="calendar_highlight_upcoming_events_summary">Highlight the current day\'s events and, after 8pm, also the next day\'s events</string>
+    <string name="calendar_highlight_upcoming_events_summary">تسليط الضوء على أحداث اليوم الحالي، وبعد 8:00، وأيضا الأحداث في اليوم التالي \' ق</string>
     <string name="calendar_highlight_upcoming_events_bold">خط عريض</string>
     <string name="calendar_add_event_title">إضافة رمز الحدث</string>
 
@@ -210,14 +210,12 @@
 
     <!-- اول - التشغيل -->
     <string name="how_to_title">مساعده</string>
-    <string name="first_run_title">مرحبا بكم في % s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus is a Widget and needs to be manually added to either the Home screen (Android 4.1+) or the
-        Lock screen (only possible on Android 4.2+) using the widget picker feature of Android and your launcher.\n\nOnce the widget is
-        placed, you can use this app to change the widget configuration.\n\nRemember to resize the widget on your screen to make space for all the
-        panels you have enabled (Clock, Weather and Calendar) since the widget will automatically hide panels if its not big enough.\n\nFor
-        the best results, I recommended using either the Apex or Nova launchers. Chronus will work on most launchers but the ability to configure how
-        it is displayed may be limited.\n\nFor Android 4.2+, to add a widget to the Lock screen, slide left on the Lock screen and then use
-        the add widget button (+) to add Chronus. Lock screen widgets can be rearranged by long-pressing then moving or deleting them.</string>
+    <string name="first_run_title">مرحبا بكم في %s</string> <!-- '%s' is the App name (name="app_name") -->
+    <string name="first_run_message">Chronus هو اختصار للطقس يحتاج الي اضافه في الشاشه الرئيسيه يدويا عن طريق التطبيقات المصغره يعمل على اصدارات 4.1 واعلى
+	ويمكنك وضعه على شاشه القفل لاكن يجب توفر اصدار 4.2.2 واعلى بامكانك ايضا تغير حجم اختصار الطقس وبامكانك تغير الالوان وبامكانك تغير التقويم والتاريخ 
+	وسوف يتم تحديث الطقس والتاريخ تلقائيا وللحصول على جميعا امكانيات التطبيق يفضل استخدام لانشر نوفا  ولاكن التطبيق يعمل على اي لانشر بدون مشاكل 
+	لاضافه اختصار شاشه القفل قم بسحب الشاشه من اليسار لليمين وقم باضافه الاختصار وعند شرائك للنسخه المدفوعه تستكيع تغير الوان الاختصار في شاشه القفل 
+	واعاده ترتيبها مره اخرى ولحذفها اضغط عليها طويلا واسحبها الي سله المهملات اتنمى ان يعجبكم التطبيق ادعمونا في قوقل بلاي بخمسه نجوم تحياتي.</string>
 
     <string name="no_widget_message">مرحبا لتستطيع دخول التطبيق يجب عليك اختيار الاختصار اولا
 	من قائمه البرامج اذهب للتطبيقات المصغره وقم باختيار الاصلي اتمنى ان يجبك التطبيق واتمنى دعمنا في قوقل بلاي تعريب سـامـي الـبـاز</string>
@@ -226,7 +224,7 @@
     <string name="credits_summary">هذا البرنامج هو نفس برنامج الطقس في رومات سيانوجين مود طبعا يعمل بدون روت لقد تم اصلاح المشاكل في جميع اصدارات الاندرويد 
 	التي يدعمها البرنامج لمعرفه الاصدارات يرجى الذهاب للمساعده تعريب سامي الباز</string>
     <string name="contact_title">اتصل بنا</string>
-    <string name="send_email">Send email\u2026</string>
+    <string name="send_email">ارسال ايميل</string>
 
     <!-- START OF PRO VERSION STRINGS -->
     <!-- Pro features (About) -->
@@ -242,7 +240,7 @@
 شكرا لك على دعمنا </string>
     <string name="get_pro">اشتري النسخه</string>
 
-    <string name="pro_check_dialog_message">Checking Pro license\u2026</string>
+    <string name="pro_check_dialog_message">التحقق من النسخه المدفوعه</string>
 
     <!-- اختيار الاجرائات -->
     <string name="picker_apps">تطبيقات</string>
@@ -301,4 +299,6 @@
     <string name="weather_icons_modern">الحديثه</string>
     <string name="weather_icons_flat">السطح</string>
 
+    <string name="weather_icons_vista">زياره</string>
+    <string name="icon_set_selection_get_more">الحصول على مزيد من \u2026</string>
 </resources>
