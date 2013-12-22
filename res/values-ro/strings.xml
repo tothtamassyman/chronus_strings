@@ -141,8 +141,7 @@
     <string name="weather_show_location_title">"Afişare locaţie"</string>
     <string name="weather_show_timestamp_title">"Afişare marcaj de timp"</string>
     <string name="weather_refresh_interval">"Interval actualizare"</string>
-    <string name="weather_refresh_interval">Update interval</string>
-    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (aplicabil pentru toate widget-urilewidget-urile)</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (aplicabil pentru toate widget-urile)</string>
     <string name="weather_use_metric">"Sistem metric"</string>
     <string name="weather_retrieve_location_dialog_title">"Nu se poate prelua locaţia!"</string>
     <string name="weather_retrieve_location_dialog_message">"Geolocalizarea este dezactivată.\n\nSetaţi o locaţie personalizată sau activaţi localizarea în reţea"</string>
