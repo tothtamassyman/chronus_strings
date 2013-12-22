@@ -18,7 +18,6 @@ Având același funcțional ca și widget-ul CyanogenMod cLock și prezentat de 
 Versiunea standard este echivalentă cu widget-ul CyanogenMod cLock din CM10.2 cu suport adițional pentru versiunile Android mai vechi.
   - Compatibilitate cu Android 4.1+
   - Aplicare pe ecranul principal (Android 4.1+), ecranul de blocare (Android 4.2+) sau ambele
-  - Alegere între ceas analogic sau digital și configurarea modului de afișare
   - Posibilitatea ascunderii afișării alarmelor
   - Alegere între font ingroșat sau normal pentru ceasul digital, dată și alarmă
   - Panou meteo oferit de Yahoo Meteo
