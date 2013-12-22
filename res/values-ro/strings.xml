@@ -124,8 +124,6 @@
     <string name="widget_type_homescreen">Ecran principal (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 
     <!-- Preferences - Clock -->
-    <string name="use_digital_clock_title">"Ceas digital"</string>
-    <string name="use_digital_clock_summary">"Comutare între ceasul digital și cel analogic"</string>
     <string name="clock_font_title">"Font oră îngroșat"</string>
     <string name="clock_font_minutes_title">"Font minute îngroșat"</string>
     <string name="clock_font_date_title">"Font dată și alarmă îngroșat"</string>
@@ -148,6 +146,8 @@
     <string name="weather_show_location_title">"Afişare locaţie"</string>
     <string name="weather_show_timestamp_title">"Afişare marcaj de timp"</string>
     <string name="weather_refresh_interval">"Interval actualizare"</string>
+string name="weather_refresh_interval">Update interval</string>
+     <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (aplicabil pentru toate widget-urilewidget-urile)</string>
     <string name="weather_use_metric">"Sistem metric"</string>
     <string name="weather_retrieve_location_dialog_title">"Nu se poate prelua locaţia!"</string>
     <string name="weather_retrieve_location_dialog_message">"Geolocalizarea este dezactivată.\n\nSetaţi o locaţie personalizată sau activaţi localizarea în reţea"</string>
@@ -271,7 +271,7 @@
     <string name="alignment_right">Dreapta</string>
 
     <!-- Calendar colors -->
-    <string name="calendar_colors">Culoare eveniment din calendar</string>
+    <string name="calendar_colors"Culori calendar</string>
 
     <!-- Clock types -->
     <string name="clock_enable">Afișare ceas</string>
@@ -290,10 +290,6 @@
     <string name="chronus_weather">Chronus Meteo</string>
     <string name="chronus_forecast">Chronus Prognoză</string>
     <string name="chronus_calendar">Chronus Calendar</string>
-    <string name="chronus_mini">Chronus Mini</string>
-    <string name="chronus_small">Chronus Mic</string>
-    <string name="chronus_medium">Chronus Mediu</string>
-    <string name="chronus_large">Chronus Mare</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Colțuri rotungite</string>
@@ -306,4 +302,17 @@
     <!--  Cling text -->
     <string name="cling_widget_select_title">Selectați widget-ul</string>
     <string name="cling_widget_select_detail">Puteți configura fiecare widget aplicat. Pentru aceasta alegeți widget-ul necesar cu selectorul de sus.</string>
+
+    <string name="show_date_title">Afișare dată</string>
+
+    <!-- Weather icon sets -->
+    <string name="weather_icon_set_title">Pictograme</string>
+    <string name="weather_icons_standard">Color</string>
+    <string name="weather_icons_monochrome">Monocrom</string>
+    <string name="weather_icons_modern">Modern</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_flat">Flat</string>
+    <string name="weather_icons_vista">Vista</string>
+    <string name="icon_set_selection_get_more">Mai multe\u2026</string>
+    <string name="icon_set_store_filter" translatable="false">Chronus Weather Icons</string>
     </resources>
