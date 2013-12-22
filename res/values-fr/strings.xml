@@ -14,7 +14,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
     <string name="unknown">Inconnu</string>
@@ -228,6 +227,7 @@
     <string name="pro_features_thanks">Merci pour votre achat.</string>
     <string name="pro_features_message">La version Pro inclue toutes les fonctionnalités de la version standard et dans quelques semaines d\'autres fonctionnalités seront ajoutées:\n\n
         \u2022 Plus d\'agencement pour le widget\n
+        \u2022 Paramètres par widget\n
         \u2022 Plus de fonctionnalité pour le calendrier\n
         \u2022 Un mini calendrier\n
         \u2022 et encore d\'autres\u2026\n\nLes suggestions sont toujours les bienvenues.\n\nMerci par avance pour votre aide.</string>
@@ -288,7 +288,7 @@
 
     <!--  Cling text -->
     <string name="cling_widget_select_title">Sélectionner le widget</string>
-    <string name="cling_widget_select_detail">Vous pouvez configurer chacun des widgets que vous avez placés. Il suffit de choisir celui que vous souhaitez configurer avec le sélecteur vers le haut.</string>
+    <string name="cling_widget_select_detail">Vous pouvez configurer chacun des widgets que vous avez placés. Il suffit de choisir celui que vous souhaitez configurer avec le menu déroulant placé en haut.</string>
 
     <string name="show_date_title">Afficher la date</string>
 
@@ -300,5 +300,5 @@
     <string name="weather_icons_vclouds">VClouds</string>
     <string name="weather_icons_flat">Flat</string>
     <string name="weather_icons_vista">Vista</string>
-    <string name="icon_set_selection_get_more">En obtenir plus\u2026</string>
+    <string name="icon_set_selection_get_more">Plus\u2026</string>
 </resources>
