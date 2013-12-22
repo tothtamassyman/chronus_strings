@@ -199,9 +199,9 @@
         Widgety lze přidávat standardní cestou přes výběr widgetu nebo pomocí nainstalovaného spouštěče.</string>
 
     <string name="credits_title">Zásluhy</string>
-    <string name="credits_summary">I když jsem napsal významnou část aplikace Chronus sám, mnoho zásluh patří také Danny Baumannovi pro jeho
-        práci na počasí a účtovacích službách, kontrole a ladění; další dík patří překladatelům z CyanogenMod komunity, kteří pomohli s překladem
-        do mnoha jazyků; a dalších přispěvovatelů jako Nicolai Ehemann a Matt Booth pro opravy a nově přidané vlastnosti.</string>
+    <string name="credits_summary">I když byla významná část aplikace Chronus napsána Danny Baumannem a mnou, veliký dík patří překladatelům ze CyanogenMod
+        komunity a dalším přispěvovatelům jako Nicolai Ehemann a Matt Booth, kteří pomohli s novými vlastnostmi.
+        \n\nIkony počasí: vClouds (vclouds.deviantart.com) a Moderní (www.mikeafford.com)</string>
     <string name="contact_title">Kontakt</string>
     <string name="send_email">Poslat email\u2026</string>
 
