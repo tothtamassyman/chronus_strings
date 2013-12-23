@@ -110,6 +110,9 @@
     <string name="weather_enable">Visualizza meteo</string>
     <string name="weather_source_title">Fonte meteo</string>
     <string name="weather_source_yahoo">Yahoo! Meteo</string>
+    <string name="weather_source_wunderground">Weather Underground</string>
+    <string name="weather_source_hamweather">Hamweather</string>
+    <string name="weather_source_accuweather">AccuWeather</string>
     <string name="weather_use_custom_location">Posizione personalizzata</string>
     <string name="weather_geolocated">Localizzazione tramite la rete</string>
     <string name="weather_custom_location_dialog_title">Inserisci la posizione</string>
@@ -118,6 +121,7 @@
     <string name="weather_show_location_title">Mostra posizione</string>
     <string name="weather_show_timestamp_title">Tempo trascorso dall\'aggiornamento</string>
     <string name="weather_refresh_interval">Intervallo aggiornamento</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (si applica a tutti i widget)</string>
     <string name="weather_use_metric">Usa unità metriche</string>
     <string name="weather_retrieve_location_dialog_title">Impossibile rilevare la posizione</string>
     <string name="weather_retrieve_location_dialog_message">La localizzazione tramite la rete è disabilitata.\n\nImposta una posizione 
@@ -189,11 +193,11 @@
         utilizzare questa applicazione per cambiarne la configurazione.\n\nI widget possono essere aggiunti utilizzando il selettore di widget di 
         Android e del programma di avvio.</string>
     <string name="credits_title">Meriti</string>
-    <string name="credits_summary">Anche se sono l\'autore di molte parti sostanziali di Chronus, una buona parte del merito va attribuita a
-        Danny Baumann per il lavoro che ha dedicato al meteo e ai servizi di fatturazione, alla revisione e alle modifiche, ai molti traduttori
-        della comunità CyanogenMod per l\'aggiunta di tutte le lingue che sono incluse e ad altri collaboratori quali Nicolai Ehemann e Matt
-        Booth per le correzioni e le funzioni cui hanno collaborato.</string>
-    <string name="contact_title">Contattami</string>
+    <string name="credits_summary">Anche se Danny Baumann e io abbiamo scritto la maggior parte del widget, una buona parte del merito va
+        attribuita ai molti traduttori dei linguaggi inclusi così come ad altri collaboratori, quali Nicolai Ehemann e Matt Booth per le
+        funzionalità alle quali hanno contribuito.
+        \n\nImmagini del meteo: vClouds (vclouds.deviantart.com) e Modern (www.mikeafford.com)</string>
+    <string name="contact_title">Contattaci</string>
     <string name="send_email">Invia e-mail \u2026</string>
 
     <!-- START OF PRO VERSION STRINGS -->
@@ -208,6 +212,7 @@
         \u2022 Un mini pannello con calendario\n
         \u2022 e molto altro \u2026\n\nI consigli sono sempre graditi.\n\nTi ringraziamo anticipatamente per il tuo supporto.</string>
     <string name="get_pro">Acquista Pro</string>
+    <string name="pro_check_dialog_message">Verifica licenza Pro\u2026</string>
     <string name="picker_apps">Applicazioni</string>
     <string name="picker_activities">Attività</string>
     <string name="picker_default">Azione predefinita</string>
@@ -229,7 +234,7 @@
     <string name="alignment_centered">Centrato</string>
     <string name="alignment_left">Allineato a sinistra</string>
     <string name="alignment_right">Allineato a destra</string>
-    <string name="calendar_colors">Colore calendario eventi</string>
+    <string name="calendar_colors">Colore calendario</string>
     <string name="clock_analog">Orologio analogico</string>
     <string name="clock_digital">Orologio digitale</string>
     <string name="chronus_clockplus">Chronus Orologio+</string>
@@ -239,6 +244,16 @@
     <string name="widget_rounded_corners_title">Angoli arrotondati</string>
     <string name="calendar_no_events">Non ci sono eventi nella finestra di eventi futuri</string>
     <string name="calendar_no_events_summary">Tocca + per aggiungere</string>
+    <string name="calendar_no_events_indicator_title">Mostra la scritta \'Nessun evento\'</string>
     <string name="cling_widget_select_title">Seleziona widget</string>
     <string name="cling_widget_select_detail">Puoi configurare singolarmente ciascuno dei widget aggiunti, scegliendolo tramite il selettore in alto.</string>
+    <string name="show_date_title">Mostra data</string>
+    <string name="weather_icon_set_title">Set icone</string>
+    <string name="weather_icons_standard">Colorate</string>
+    <string name="weather_icons_monochrome">Monocrome</string>
+    <string name="weather_icons_modern">Moderne</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_flat">Piatte</string>
+    <string name="weather_icons_vista">Vista</string>
+    <string name="icon_set_selection_get_more">Altre\u2026</string>
 </resources>
