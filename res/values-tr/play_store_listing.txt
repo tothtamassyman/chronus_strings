@@ -31,5 +31,5 @@ Standart özellikler CyanogenMod cLock widget'i ile aynı olmakla birlikte daha 
   - Widget ayarlarını eklerken ya da Chronus uygulaması yardımıyla değiştirebilme
   - Yaklaşan etkinlikleri yazı tipi yardımıyla vurgulayabilme
 
-<b>Credits:</b>
+<b>Hakkında:</b>
 Chronus'un önemli bir kısmını ben yazmış olsam da, ufak ayarlar, hava durumu ve satış işlemleri için Danny Baumann'ın büyük katkısı olmuştur; CyanogenMod'un pek çok geliştirici topluluğu üyesi de çeviri dilleri için çaba sarfetti. Nicholai Ehemann ve Matt Boot'un da pek çok iyileştirme katkısı olmuştur.
