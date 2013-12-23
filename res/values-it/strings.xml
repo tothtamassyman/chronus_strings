@@ -195,8 +195,10 @@
     <string name="credits_title">Meriti</string>
     <string name="credits_summary">Anche se Danny Baumann e io abbiamo scritto la maggior parte del widget, una buona parte del merito va
         attribuita ai molti traduttori dei linguaggi inclusi così come ad altri collaboratori, quali Nicolai Ehemann e Matt Booth per le
-        funzionalità alle quali hanno contribuito.
-        \n\nImmagini del meteo: vClouds (vclouds.deviantart.com) e Modern (www.mikeafford.com)</string>
+        funzionalità alle quali hanno contribuito.\n\n
+		Immagini del meteo:\n
+		\u2022 vClouds (vclouds.deviantart.com)\n
+		\u2022 Moderne (www.mikeafford.com)</string>
     <string name="contact_title">Contattaci</string>
     <string name="send_email">Invia e-mail \u2026</string>
 

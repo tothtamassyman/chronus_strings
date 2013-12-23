@@ -238,8 +238,10 @@
     <string name="credits_title">Credits</string>
     <string name="credits_summary">While Danny Baumann and I wrote most of the widget, credit also
         goes to the many translators for the included languages as well as other contributors such as Nicolai Ehemann
-        and Matt Booth for the features they have contributed.
-        \n\nWeather images: vClouds (vclouds.deviantart.com) and Modern (www.mikeafford.com)</string>
+        and Matt Booth for the features they have contributed.\n\n
+        Weather Icons:\n
+        \u2022 vClouds (vclouds.deviantart.com)\n
+        \u2022 Modern (www.mikeafford.com)</string>
     <string name="contact_title">Contact us</string>
     <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
     <string name="send_email">Send email\u2026</string>
