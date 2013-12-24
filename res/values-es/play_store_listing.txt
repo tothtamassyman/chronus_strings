@@ -8,21 +8,21 @@ Funcionalmente igual que el widget cLock de CyanogenMod y del mismo desarrollado
 3) WidgetLocker no está soportado
 
 <b>Características (Versión Pro):</b>
+  - Widgets adicionales (Predicción de tiempo, Calendario, Tiempo)
   - Pulsaciones personalizadas para el Reloj, Tiempo y Calendario para lanzar aplicaciones y actividades
-  - Establecer el color de fondo
-  - Alineación del reloj digital (centrado, izquierda o derecha)
-  - Alineación del panel del tiempo (centrado, izquierda o derecha)
+  - Establecer el color de fondo de cada widget
+  - Alineación de los paneles del reloj y del tiempo (centrado, izquierda o derecha)
   - y nuevas características cada 3-4 semanas...
 
 <b>Características (Todas las versiones):</b>
-La versión estándar es funcionalmente equivalente al widget cLock de CyanogenMod de la versión CM10.2 con el añadido de ser compatible con versiones anteriores de Android. 
+La versión estándar es funcionalmente equivalente al widget cLock de CyanogenMod con el añadido de ser compatible con versiones anteriores de Android.
   - Soporte para Android 4.1 y posteriores
   - Soporte para ser añadido como widget en la pantalla de inicio (Android 4.1+) o en la pantalla de bloqueo (Android 4.2+) o ambas
-  - Seleccione entre reloj analógico o digital y aspecto personalizable
-  - Seleccione cuando mostrar alarmas
+  - Aspecto customizable del reloj
+  - Seleccione cuando mostrar la fecha y alarmas
   - Cambie la fuente del reloj digital, fecha y alarma entre negrita/normal
-  - Panel de tiempo con soporte para Yahoo! Weather
-  - Iconos de tiempo en color o blanco y negro
+  - Panel de tiempo con soporte para Yahoo! Weather o Accuweather
+  - Soporte para cambiar el conjunto de iconos de tiempo
   - Soporte para widget de tiempo minimizado (especialmente útil en la pantalla de bloqueo)
   - Panel de calendario con una lista desplegable de los próximos eventos
   - Eventos para pulsaciones que abren directamente el evento en la aplicación Calendario
@@ -32,6 +32,6 @@ La versión estándar es funcionalmente equivalente al widget cLock de CyanogenM
   - Resalte los eventos del calendario próximos con colores personalizados y fuentes en negrita
 
 <b>Créditos:</b>
-Aunque creo haber escrito las partes más importantes de Chronus, mucho del crédito debe ir a Danny Baumann
-por su trabajo en los servicios de tiempo y de pasarela de pago, revisiones y ajustes; a los traductores de la comunidad de
-CyanogenMod por traducir la aplicación; y a otros desarrolladores como Nicolai Ehemann y Matt Booth por las correcciones y nuevas características que han aportado al código.
+Mientras que Danny Baumann y yo escribimos la mayoría del código de Chronus, algunos créditos deben ir
+también para los muchos traductores por los idiomas incluidos, así como a otros desarrolladores como
+Nicolai Ehemann y Matt Booth por las correcciones y nuevas características que han aportado al código.
