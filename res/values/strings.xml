@@ -336,7 +336,7 @@
     <string name="weather_icons_standard">Colored</string>
     <string name="weather_icons_monochrome">Monochrome</string>
     <string name="weather_icons_modern">Modern</string>
-    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_vclouds">vClouds</string>
     <string name="weather_icons_flat">Flat</string>
     <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Get more\u2026</string>
