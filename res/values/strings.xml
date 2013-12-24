@@ -310,6 +310,11 @@
     <string name="chronus_weather">Chronus Weather</string>
     <string name="chronus_forecast">Chronus Forecast (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Calendar</string>
+    <string name="chronus_flex_short" translatable="false">Flex</string>
+    <string name="chronus_clockplus_short">Clock+</string>
+    <string name="chronus_weather_short">Weather</string>
+    <string name="chronus_forecast_short">Forecast</string>
+    <string name="chronus_calendar_short">Calendar</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Rounded corners</string>

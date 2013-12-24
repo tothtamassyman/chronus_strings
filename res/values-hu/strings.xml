@@ -284,6 +284,10 @@
     <string name="chronus_weather">Chronus Időjárás</string>
     <string name="chronus_forecast">Chronus Időjárás-előrejelzés (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Naptár</string>
+    <string name="chronus_clockplus_short">Óra+</string>
+    <string name="chronus_weather_short">Időjárás</string>
+    <string name="chronus_forecast_short">Időjárás-előrejelzés</string>
+    <string name="chronus_calendar_short">Naptár</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Lekerekített sarkok</string>

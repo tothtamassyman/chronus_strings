@@ -235,6 +235,10 @@
     <string name="chronus_weather">Καιρός Chronus</string>
     <string name="chronus_forecast">Πρόγνωση Chronus (Yahoo!)</string>
     <string name="chronus_calendar">Ημερολόγιο Chronus</string>
+    <string name="chronus_clockplus_short">Ρολόι+</string>
+    <string name="chronus_weather_short">Καιρός</string>
+    <string name="chronus_forecast_short">Πρόγνωση</string>
+    <string name="chronus_calendar_short">Ημερολόγιο</string>
     <string name="widget_rounded_corners_title">Στρογγυλεμένες γωνίες</string>
     <string name="calendar_no_events">Δεν έχουν προστεθεί συμβάντα</string>
     <string name="calendar_no_events_summary">Πιέστε + για προσθήκη</string>

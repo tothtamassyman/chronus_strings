@@ -252,6 +252,10 @@
     <string name="chronus_weather">Chronus počasí</string>
     <string name="chronus_forecast">Chronus předpověď</string>
     <string name="chronus_calendar">Chronus kalendář</string>
+    <string name="chronus_clockplus_short">Hodiny+</string>
+    <string name="chronus_weather_short">Počasí</string>
+    <string name="chronus_forecast_short">Předpověď</string>
+    <string name="chronus_calendar_short">Kalendář</string>
     <string name="widget_rounded_corners_title">Zakulacené rohy</string>
 
     <string name="calendar_no_events">Žádné příští události</string>

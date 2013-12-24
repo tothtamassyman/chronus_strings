@@ -232,6 +232,10 @@
     <string name="chronus_weather">Chronus Wetter</string>
     <string name="chronus_forecast">Chronus Wettervorhersage (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Kalender</string>
+    <string name="chronus_clockplus_short">Uhr+</string>
+    <string name="chronus_weather_short">Wetter</string>
+    <string name="chronus_forecast_short">Wettervorhersage</string>
+    <string name="chronus_calendar_short">Kalender</string>
     <string name="widget_type_keyguard">Bildschirmsperre</string>
     <string name="widget_type_homescreen">Startbildschirm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="widget_rounded_corners_title">Abgerundete Ecken</string>

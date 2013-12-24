@@ -224,4 +224,7 @@
     <string name="chronus_clockplus">Chronus Ur+</string>
     <string name="chronus_weather">Chronus Vejr</string>
     <string name="chronus_calendar">Chronus Kalender</string>
+    <string name="chronus_clockplus_short">Ur+</string>
+    <string name="chronus_weather_short">Vejr</string>
+    <string name="chronus_calendar_short">Kalender</string>
 </resources>

@@ -261,6 +261,10 @@
     <string name="chronus_weather">Chronus — погода</string>
     <string name="chronus_forecast">Chronus — прогноз (Yahoo!)</string>
     <string name="chronus_calendar">Chronus — календарь</string>
+    <string name="chronus_clockplus_short">Clock+</string>
+    <string name="chronus_weather_short">погода</string>
+    <string name="chronus_forecast_short">прогноз</string>
+    <string name="chronus_calendar_short">календарь</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Экран блокировки</string>

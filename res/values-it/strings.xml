@@ -240,6 +240,10 @@
     <string name="chronus_weather">Chronus Meteo</string>
     <string name="chronus_forecast">Chronus Previsioni Meteo (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Calendario</string>
+    <string name="chronus_clockplus_short">Orologio+</string>
+    <string name="chronus_weather_short">Meteo</string>
+    <string name="chronus_forecast_short">Previsioni Meteo</string>
+    <string name="chronus_calendar_short">Calendario</string>
     <string name="widget_rounded_corners_title">Angoli arrotondati</string>
     <string name="calendar_no_events">Non ci sono eventi nella finestra di eventi futuri</string>
     <string name="calendar_no_events_summary">Tocca + per aggiungere</string>

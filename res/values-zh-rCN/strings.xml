@@ -275,6 +275,10 @@
     <string name="chronus_weather">Chronus 天气</string>
     <string name="chronus_forecast">Chronus 预报 (雅虎天气)</string>
     <string name="chronus_calendar">Chronus 日历</string>
+    <string name="chronus_clockplus_short">时钟+</string>
+    <string name="chronus_weather_short">天气</string>
+    <string name="chronus_forecast_short">预报</string>
+    <string name="chronus_calendar_short">日历</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">弧形边角</string>

@@ -276,6 +276,10 @@
     <string name="chronus_weather">طقس اليوم</string>
     <string name="chronus_forecast">طقس الاسبوع (Yahoo!)</string>
     <string name="chronus_calendar">التاريخ</string>
+    <string name="chronus_clockplus_short">الساعه+</string>
+    <string name="chronus_weather_short">طقس اليوم</string>
+    <string name="chronus_forecast_short">طقس الاسبوع</string>
+    <string name="chronus_calendar_short">التاريخ</string>
 
     <!-- اعدادت - خلفيه القطع وتدوير الزوايا -->
     <string name="widget_rounded_corners_title">تدوير زوايا</string>

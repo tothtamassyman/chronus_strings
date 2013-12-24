@@ -223,6 +223,10 @@
     <string name="chronus_weather">Chronus Weer</string>
     <string name="chronus_forecast">Chronus Weersverwachting (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Agenda</string>
+    <string name="chronus_clockplus_short">Chronus (klok+)</string>
+    <string name="chronus_weather_short">Weer</string>
+    <string name="chronus_forecast_short">Weersverwachting</string>
+    <string name="chronus_calendar_short">Agenda</string>
     <string name="widget_rounded_corners_title">Afgeronde hoeken</string>
     <string name="calendar_no_events">Geen komende afspraken</string>
     <string name="calendar_no_events_summary">Tik op + om toe te voegen</string>
