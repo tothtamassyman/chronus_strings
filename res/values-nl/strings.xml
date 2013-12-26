@@ -182,7 +182,10 @@
     <string name="credits_summary">Hoewel ik grote delen van deze widget heb geschreven, wil ik ook Danny Baumann bedanken voor de
         weerupdate- en aankoopservices en het bekijken en optimaliseren van de code; de vele CyanogenMod-vertalers voor de bijdragen
         in hun taal; en anderen van de CyanogenMod-gemeenschap zoals Nicolai Ehemann en Matt Booth voor de foutoplossingen en extra
-        functies waarvoor zij verantwoordelijk zijn.</string>
+        functies waarvoor zij verantwoordelijk zijn.\n\n
+        Weerpictogrammen:\n
+        \u2022 vClouds (vclouds.deviantart.com)\n
+        \u2022 Modern (www.mikeafford.com)</string>
     <string name="contact_title">Contact opnemen</string>
     <string name="send_email">E-mail verzenden\u2026</string>
     <string name="pro_features_summary">Raak aan om Pro-functies in te schakelen</string>
@@ -195,6 +198,7 @@
         \u2022 Een kleiner agendapaneel\n
         \u2022 en meer\u2026\n\nSuggesties zijn altijd welkom.\n\nAlvast bedankt voor uw ondersteuning.</string>
     <string name="get_pro">Pro-functies verkrijgen</string>
+    <string name="pro_check_dialog_message">Pro-licentie controleren\u2026</string>
     <string name="picker_apps">Apps</string>
     <string name="picker_activities">Activiteiten</string>
     <string name="picker_default">Standaardactie</string>
@@ -220,19 +224,33 @@
     <string name="clock_analog">Analoge klok</string>
     <string name="clock_digital">Digitale klok</string>
     <string name="chronus_clockplus">Chronus (klok+)</string>
-    <string name="chronus_weather">Chronus Weer</string>
-    <string name="chronus_forecast">Chronus Weersverwachting (Yahoo!)</string>
-    <string name="chronus_calendar">Chronus Agenda</string>
-    <string name="chronus_clockplus_short">Chronus (klok+)</string>
+    <string name="chronus_weather">Chronus (weer)</string>
+    <string name="chronus_forecast">Chronus (weersverwachting (Yahoo!))</string>
+    <string name="chronus_calendar">Chronus (agenda)</string>
+    <string name="chronus_clockplus_short">Klok+</string>
     <string name="chronus_weather_short">Weer</string>
     <string name="chronus_forecast_short">Weersverwachting</string>
     <string name="chronus_calendar_short">Agenda</string>
     <string name="widget_rounded_corners_title">Afgeronde hoeken</string>
     <string name="calendar_no_events">Geen komende afspraken</string>
     <string name="calendar_no_events_summary">Tik op + om toe te voegen</string>
+    <string name="calendar_no_events_indicator_title">\'Geen afspraken\' weergeven</string>
+    <string name="cling_widget_select_title">Widget selecteren</string>
+    <string name="cling_widget_select_detail">U kunt elke geplaatste widget instellen. Selecteer welke u wilt met de selector bovenaan.</string>
+    <string name="show_date_title">Datum weergeven</string>
+    <string name="weather_icon_set_title">Pictogrammenpakket</string>
+    <string name="weather_icons_standard">Gekleurd</string>
+    <string name="weather_icons_monochrome">Zwart-wit</string>
+    <string name="weather_icons_modern">Modern</string>
+    <string name="weather_icons_vclouds">vClouds</string>
+    <string name="weather_icons_flat">Vlak</string>
+    <string name="weather_icons_vista">Vista</string>
+    <string name="icon_set_selection_get_more">Meer verkrijgen\u2026</string>
+
+    <string name="appearance_category">Algemene uiterlijk</string>
+    <string name="about_category">Over Chronus</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (van toepassing op alle widgets)</string>
     <string name="widget_type_keyguard">Vergrendelingsscherm</string>
     <string name="widget_type_homescreen">Startscherm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="exit">Afsluiten</string>
-    <string name="cling_widget_select_title">Widget selecteren</string>
-    <string name="cling_widget_select_detail">U kunt elke geplaatste widget instellen. Selecteer welke u wilt met de selector bovenaan.</string>
 </resources>
