@@ -179,10 +179,8 @@
         of vergrendelingsscherm om deze app te gebruiken voor het wijzigen van de widgetinstellingen.\n\n Widgets kunnen worden toegevoegd
         met de widgetkiezer van Android en met uw launcher.</string>
     <string name="credits_title">Dankbetuigingen</string>
-    <string name="credits_summary">Hoewel ik grote delen van deze widget heb geschreven, wil ik ook Danny Baumann bedanken voor de
-        weerupdate- en aankoopservices en het bekijken en optimaliseren van de code; de vele CyanogenMod-vertalers voor de bijdragen
-        in hun taal; en anderen van de CyanogenMod-gemeenschap zoals Nicolai Ehemann en Matt Booth voor de foutoplossingen en extra
-        functies waarvoor zij verantwoordelijk zijn.\n\n
+    <string name="credits_summary">Hoewel Danny Baumann en ik het meeste van deze widget hebben geschreven, wil ik ook de vertalers
+        en anderen, zoals Nicolai Ehemann en Matt Booth bedanken voor hun bijdragen.\n\n
         Weerpictogrammen:\n
         \u2022 vClouds (vclouds.deviantart.com)\n
         \u2022 Modern (www.mikeafford.com)</string>
@@ -245,7 +243,7 @@
     <string name="weather_icons_vclouds">vClouds</string>
     <string name="weather_icons_flat">Vlak</string>
     <string name="weather_icons_vista">Vista</string>
-    <string name="icon_set_selection_get_more">Meer verkrijgen\u2026</string>
+    <string name="icon_set_selection_get_more">Meer\u2026</string>
 
     <string name="appearance_category">Algemene uiterlijk</string>
     <string name="about_category">Over Chronus</string>
