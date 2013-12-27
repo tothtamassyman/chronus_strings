@@ -136,6 +136,7 @@
     <string name="weather_show_location_title">显示位置</string>
     <string name="weather_show_timestamp_title">显示更新时间</string>
     <string name="weather_refresh_interval">更新间隔</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g>（应用于所有小部件）</string>
     <string name="weather_use_metric">使用公制</string>
     <string name="weather_retrieve_location_dialog_title">无法查询位置!</string>
     <string name="weather_retrieve_location_dialog_message">网络定位已被禁用。\n\n请设置一个自定义的位置或启用网络定位服务</string>
@@ -215,10 +216,12 @@
     \n\n小部件可通过启动器内置的小部件选择器来添加。</string>
 
     <string name="credits_title">特别感谢</string>
-    <string name="credits_summary">虽然我编写了 Chronus 的重要部分，很大一部分的功劳要归于完成天气与账单服务、
-    审阅与调成代码的 Danny Baumann；添加此应用所包含语言的 CyanogenMod 社区内的各位翻译员；
-    和像 Nicolai Ehemann 和 Matt Booth 这样提供修复与功能的各位贡献者。</string>
-    <string name="contact_title">联系我</string>
+    <string name="credits_summary">虽然 Danny Baumman 和我编写了 Chronus 的重要部分，很大一部分的功劳要归于添加此应用所包含语言的
+    CyanogenMod 社区内的各位翻译员，和像 Jorge Ruesga、Nicolai Ehemann 与 Matt Booth 这样提供修复与功能的各位贡献者。\n\n
+        天气图标：\n
+        \u2022 vClouds (vclouds.deviantart.com)\n
+        \u2022 现代式 (www.mikeafford.com)</string>
+    <string name="contact_title">联系我们</string>
     <string name="send_email">发送电子邮件\u2026</string>
 
     <!-- START OF PRO VERSION STRINGS -->
@@ -232,6 +235,8 @@
         \u2022 一个小型日历面板\n
         \u2022 与更多\u2026\n\n随时欢迎更多建议。\n\n预先感谢您的支持。</string>
     <string name="get_pro">获得 Pro 版</string>
+
+    <string name="pro_check_dialog_message">正在检查 Pro 版许可证\u2026</string>
 
     <!-- Shortcut picker -->
     <string name="picker_apps">应用</string>
@@ -263,7 +268,7 @@
     <string name="alignment_right">右对齐</string>
 
     <!-- Calendar colors -->
-    <string name="calendar_colors">事件日历颜色</string>
+    <string name="calendar_colors">日历颜色</string>
 
     <!-- Clock types -->
     <string name="clock_analog">模拟时钟</string>
@@ -286,8 +291,22 @@
     <!-- Calendar - No events -->
     <string name="calendar_no_events">在查找范围内无活动</string>
     <string name="calendar_no_events_summary">点击“+”以添加</string>
+    <string name="calendar_no_events_indicator_title">显示“无活动”提示</string>
 
     <!--  Cling text -->
     <string name="cling_widget_select_title">选择小部件</string>
     <string name="cling_widget_select_detail">您可以单独配置您所放置的小部件。只需要使用顶部的选择器以切换到您想配置的小部件。</string>
+
+    <string name="show_date_title">显示日期</string>
+
+    <!-- Weather icon sets -->
+    <string name="weather_icon_set_title">图标集</string>
+    <string name="weather_icons_standard">彩色</string>
+    <string name="weather_icons_monochrome">单色</string>
+    <string name="weather_icons_modern">现代式</string>
+    <string name="weather_icons_vclouds">vClouds</string>
+    <string name="weather_icons_flat">平扁</string>
+    <string name="weather_icons_vista">Vista</string>
+    <string name="icon_set_selection_get_more">获取更多\u2026</string>
+
 </resources>
