@@ -8,28 +8,29 @@ Având același funcțional ca și widget-ul CyanogenMod cLock și prezentat de 
 3) Nu este compatibil cu WidgetLocker
 
 <b>Posibilitățile versiunii Pro:</b>
+  - Widget-uri adiționale (Prognoză, Calendar, Meteo)
   - Acțiuni personalizate la apăsarea panourilor cu ceas, meteo și calendar pentru lansarea aplicațiilor sau activităților
   - Setarea culorii de fundal
-  - Alinierea panoului ceasului digital (centru, stânga sau dreapta)
-  - Alinierea panoului meteo (centru, stânga sau dreapta)
+  - Alinierea ceasului și panoului meteo (centru, stânga sau dreapta)
   - noi posibilități lansate la fiecare 3-4 săptămâni...
 
 <b>Posibilități de bază:</b>
 Versiunea standard este echivalentă cu widget-ul CyanogenMod cLock din CM10.2 cu suport adițional pentru versiunile Android mai vechi.
   - Compatibilitate cu Android 4.1+
   - Aplicare pe ecranul principal (Android 4.1+), ecranul de blocare (Android 4.2+) sau ambele
-  - Posibilitatea ascunderii afișării alarmelor
-  - Alegere între font ingroșat sau normal pentru ceasul digital, dată și alarmă
-  - Panou meteo oferit de Yahoo Meteo
-  - Pictograme meteo colore sau monocrome
-  - Posibilitate de minimizare a panoului meteo (util în special pe ecranul de blocare)
+  - Configurare mod afișare ceas
+  - Posibilitate afișare alarme
+  - Alegere între font ingroșat sau normal pentru ceasul, dată și alarmă
+  - Panou meteo oferit de Yahoo! sau AccuWeather
+  - Configurare pictograme meteo
+  - Panou meteo minimizat (util în special pe ecranul de blocare)
   - Panou calendaristic cu listă derulabilă a evenimentelor viitoare
   - Apăsarea evenimentului deschide Calendarul la acel eveniment
   - Apăsarea pictogramei calendarului deschide ziua curentă din Calendar
   - Schimbarea culorii textelor în toate panourile
-  - Configurarea prin intermediul aplicației Chronus din meniul principal
-  - Evidențierea evenimentelor viitoare din calendar cu culori personalizate și font ingroșat
+  - Configurare prin intermediul aplicației Chronus din meniul principal
+  - Evidențiere evenimente viitoare din calendar cu culori personalizate și font ingroșat
 
 <b>Mulțumiri:</b>
-Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la serviciile meteo și billing, revizuiri și îmbunătățiri; lui Nicolai Ehemann și Matt Booth pentru corectările și opțiunile la care au contribuit; comunității de traducători pentru includerea tuturor limbilor existente.\n
+Chiar dacă am scris împreună cu Danny Baumann părți importante din Chronus, mulțumim comunității de traducători pentru includerea tuturor limbilor existente, precum și lui Jorge Ruesga, Nicolai Ehemann și Matt Booth pentru corectările și opțiunile adiționale la care au contribuit.\n
 Traducerea în limba română: Adrian Nistreanu.
