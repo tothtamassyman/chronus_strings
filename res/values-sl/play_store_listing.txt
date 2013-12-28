@@ -1,0 +1,87 @@
+Welcome to Chronus, an elegant Home and Lock screen clock, weather and calendar widget.
+
+Functionally the same as the CyanogenMod cLock widget and brought to you by the same developer, this independently released,
+stand-alone widget takes back its original name, Chronus and brings the same elegant look and feel to the broader Android community.
+
+<b>Please note:</b>
+1) Lock screen widgets are only supported on Android 4.2+. This is a limitation of Android itself, not Chronus
+2) On some devices you may have to reboot your device after installing for the widget to show up in the widget picker
+3) WidgetLocker is not supported
+
+<b>Features (Pro version):</b>
+  - Additional Widgets (Forecast, Calendar, Weather)
+  - Custom Tap actions for Clock, Weather and Calendar to launch apps or activities
+  - Set Widget backgrounds
+  - Clock and Weather panel alignment (Centered, Left or Right)
+  - with more features to be released every 3-4 weeks...
+
+<b>Features (All versions):</b>
+The standard version is functionally equivalent to the CyanogenMod cLock widget with added support for older versions of Android.
+  - Support for Android 4.1 and later
+  - Supports adding as a widget to either the Home screen (Android 4.1+) or Lock screen (Android 4.2+) or both
+  - Customize the Clock look and feel
+  - Choose whether to show the Date and Alarms
+  - Change font bold/normal in Clock, Date and Alarm
+  - Weather panel with Yahoo! or Accuweather weather
+  - Weather Icon Pack support
+  - Minimized weather widget support (especially handy on lock screen)
+  - Calendar panel showing a scroll-able list of upcoming events
+  - Tapping event opens calendar at selected event
+  - Taping calendar icon opens Calendar at today's date
+  - Change the font color of all text in all panels
+  - Configure widget when adding or from the Chronus app in the app drawer
+  - Highlight upcoming calendar events with custom colors and font bolding
+
+<b>Credits:</b>
+Even though Danny Baumann and I wrote significant parts of the widget, lots of credit also goes to the many CyanogenMod and other community
+translators for adding all the languages that are included, and other contributors such as Jorge Ruesga, Nicolai Ehemann and Matt Booth for
+the fixes and additional features they have contributed.
+
+
+
+SLOVENIAN LANGUAGE:
+
+Dobrodošli pri Chronusu, elegantnem pripomoèku, ki je uporaben na vašem izbranem zaslonu za pametne telefonu in/ali android tablice ali kot pripomoèek pri zaklepu telefona. Pripomoèek je uporaben kot Ura, vremenska napoved in koledar. Funkcionalno je identièen kot CyanogenMod cLock, saj je delo istega avtorja, ta neodvisno izdan, samostojen pripomoèek pa je prevzel nazaj svoje izvirno ime, Chronus, ki vam ponuja enako eleganten izgled in delovanje, svojo podporo pa je našel tudi širši Android skupnosti.
+
+<b>Pomembno:</b>
+
+1) Pripomoèki, ki jih je možno uporabiti kot Zaklep zaslona, so podprti samo pri Android 4.2+. To je omejujoèa funkcija pri samem Android sistemu in ne pri Chronusu.
+2) Nekatere naprave razliènih proizvajalcev potrebujejo ponovni zagon same naprave, da lahko prikažejo možnost uporabe posameznega pripomoèka po uspešni namestitvi na vašo android napravo.
+3) WidgetLocker ni podprt.
+
+<b>Lastnosti (Pro verzija):</b>
+
+- Dodatni pripomoèki (Vremenska napoved, Koledar, Vreme)
+- Dodatne možnosti uporabe pri Uri, vremenu ali Koledarju, ki sprožijo aplikacije po izbiri uporabnika.
+- Izbira ozadja po meri uporabnika
+- Izbira razliène poravnave pri Uri in Vremenu (Na sredini, levo ali desno)
+- z dodatnimi lastnostmi pripomoèka, ki bodo izdane na vsake 3-4 tedne...
+
+
+<b>Lastnosti (Vse verzije):</b>
+
+Osnovna verzija je funkcionalno identièna CyanogenMod cLock pripomoèku, z dodano možnostjo uporabe pri starejših verzijah Androida.
+
+- Podpora za Android 4.1 in kasnejše verzije
+- Dodatna podpora za uporabo pripomoèka na Privzetem zaslonu (Android 4.1+) ali Zaklepu zaslona (Android 4.2+) ali oboje.
+- Prilagajanje izgleda in funkcij pri Uri
+- Izbira prikaza vremena, datuma in budilke
+- Izbira pisave poudarjeno/normalno pri Uri, datumu in budilki
+- Vreme in vremenska napoved ponudnika Yahoo! ali Accuweather
+- Vreme z izbiro razliènih paketnih ikon prikazovanja stanja vremena
+- Podpora za minimizirano funkcijo Vremena (primerno za uporabo pri Zaklepu zaslona)
+- Koledar ima možnost prikazovanja prihajajoèih dogodkov z vrtljivo funkcijo vpogleda
+- Koledar omogoèa vpogled v posamezen dogodek ob pritisku nanj
+- Koledar omogoèa vpogled na današnji dan ob pritisku nanj
+- Možnost uporabe razliène barve pisave pri vseh pripomoèkih
+- Popolnoma prilagodljiv pripomoèek, ko ga dodajate na izbrani zaslon iz Chronus aplikacije ali ko ga izberete preko notranjega sistema dodajanja pripomoèkov v vaši napravi. 
+- Izpostavljanje prihajajoèih dogodkov v Kodelarju z barvo in pisavo po izbiri uporabnika
+
+<b>Zasluge:</b>
+
+Èeprav sva avtorja Danny Baumann in jaz osebno napisala velik delež tega pripomoèka, gredo zasluge tudi skupini CyanogenMod in tudi drugim android skupnostim, prevajalcem, ki so 
+prispevali prevode vseh jezikov, ki so vkljuèeni v pripomoèek, velik del so prispevali tudi Jorge Ruesga, Nicolai Ehemann in Matt Booth za programske popravke in dodatne možnosti uporabe tega pripomoèka.
+
+
+
+

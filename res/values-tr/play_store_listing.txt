@@ -1,0 +1,35 @@
+Elegan bir ana sayfa ve kilit ekranı widget'i olan Chronus'a hoşgeldiniz!
+
+Chronu'un işlevi CyanogenMod CLock widget'i ile benzer olmakla birlikte, geliştiricisi de aynıdır ve ve tüm Android kullanıcılarına aynı işlevi sunmak için sunulmuştur.
+
+<b>Lütfen dikkat:</b>
+1) Kilit ekranı widgetleri sadece Android 4.2 ve üzeri versiyonlarda desteklenir. Bu Android'in bir sınırlamasıdır, Chronus'un değil.
+2) Bazı aletleri Chronus'u yükledikten sonra yeniden başlatmazsanız widget seçimine eklenmemiş olabilir.
+3) WidgetLocker desteği yoktur.
+
+<b>Pro özellikleri</b>
+  - Daha fazla widget (Hava tahmini, Takvim, Anlık Hava)
+  - Tıklamalar için takvim, hava durumu ve saat opsiyonları
+  - Widget arka planı değiştirebilme
+  - Gelişmiş hava durumu ve saat widget'i yerleşimleri (Ortalanmış, sağa veya sola yaslı)
+  - Her 3-4 haftada bir eklenen daha fazla özellik...
+
+<b>Özellikler (Tüm versiyonlar):</b>
+Standart özellikler CyanogenMod cLock widget'i ile aynı olmakla birlikte daha eski Android versiyonları desteklenmektedir.
+  - Android 4.1 ve yukarısı desteği
+  - Ana sayfaya(Android 4.1+) ya da kilit ekranına (Android 4.2+) veya her ikisine birden eklenebilme.
+  - Saat tasarımını özelleştirebilme
+  - Tarihi ya da alarmı gösterme opsiyonu
+  - Saatte, hava durumunda ve takvimde kalın ya da ince yazı tipi
+  - Yahoo! ya da Accuweather desteği
+  - Hava durumu simge temaları
+  - Küçültülmüş hava durumu bildirimi (özellikle kilit ekranında kullanışlıdır)
+  - Yaklaşan etkinlikleri kaydırılabilir şekilde gösteren takvim bildirimi
+  - Tıklamayla açılabilen takvim etkinlikleri
+  - Bugün sayfasını takvime tıklamayla açabilme
+  - Tüm panellerdeki yazı rengini değiştirme opsiyonu
+  - Widget ayarlarını eklerken ya da Chronus uygulaması yardımıyla değiştirebilme
+  - Yaklaşan etkinlikleri yazı tipi yardımıyla vurgulayabilme
+
+<b>Hakkında:</b>
+Chronus'un önemli bir kısmını ben yazmış olsam da, ufak ayarlar, hava durumu ve satış işlemleri için Danny Baumann'ın büyük katkısı olmuştur; CyanogenMod'un pek çok geliştirici topluluğu üyesi de çeviri dilleri için çaba sarfetti. Nicholai Ehemann ve Matt Boot'un da pek çok iyileştirme katkısı olmuştur.

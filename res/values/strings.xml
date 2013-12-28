@@ -236,13 +236,16 @@
         picker feature of Android and your launcher.</string>
 
     <string name="credits_title">Credits</string>
-    <string name="credits_summary">Even though I wrote significant parts of Chronus, lots of credit also goes to Danny Baumann for his
-        work on the weather and billing services, reviewing and tweaking; the many CyanogenMod community translators for adding all the
-        languages that are included; and other contributors such as Nicolai Ehemann and Matt Booth for the fixes and features they have
-        contributed.</string>
+    <string name="credits_summary">While Danny Baumann and I wrote most of the widget, credit also
+        goes to the many translators for the included languages as well as other contributors such as Nicolai Ehemann
+        and Matt Booth for the features they have contributed.\n\n
+        Weather Icons:\n
+        \u2022 vClouds (vclouds.deviantart.com)\n
+        \u2022 Modern (www.mikeafford.com)</string>
     <string name="contact_title">Contact us</string>
     <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
     <string name="send_email">Send email\u2026</string>
+    <string name="google_plus" translatable="false">Google+</string>
 
     <!-- START OF PRO VERSION STRINGS -->
     <!-- Pro features (About) -->
@@ -307,6 +310,11 @@
     <string name="chronus_weather">Chronus Weather</string>
     <string name="chronus_forecast">Chronus Forecast (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Calendar</string>
+    <string name="chronus_flex_short" translatable="false">Flex</string>
+    <string name="chronus_clockplus_short">Clock+</string>
+    <string name="chronus_weather_short">Weather</string>
+    <string name="chronus_forecast_short">Forecast</string>
+    <string name="chronus_calendar_short">Calendar</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Rounded corners</string>
@@ -328,7 +336,7 @@
     <string name="weather_icons_standard">Colored</string>
     <string name="weather_icons_monochrome">Monochrome</string>
     <string name="weather_icons_modern">Modern</string>
-    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_vclouds">vClouds</string>
     <string name="weather_icons_flat">Flat</string>
     <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Get more\u2026</string>

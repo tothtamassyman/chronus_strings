@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project (DvTonder)
+<!-- 
+     Copyright (C) 2012 The CyanogenMod Project (DvTonder)
+     Chronus additions (c) 2013 David van Tonder
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,16 +15,15 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-<resources>
-
-    <!-- General strings -->
     <string name="unknown">Tuntematon</string>
     <string name="cancel">Peruuta</string>
     <string name="loading_indicator">Ladataan widgetiä\u2026</string>
     <string name="menu_done">Valmis</string>
+    <string name="ok">OK</string>
+    <string name="exit">Poistu</string>
 
-    <!-- Weather - Weather codes -->
     <string name="weather_0">Pyörremyrsky</string>
     <string name="weather_1">Trooppinen myrsky</string>
     <string name="weather_2">Hurrikaani</string>
@@ -71,7 +72,11 @@
     <string name="weather_45">Ukkoskuuroja</string>
     <string name="weather_46">Lumikuuroja</string>
     <string name="weather_47">Paikallisia ukkoskuuroja</string>
-    <string name="weather_3200"></string>
+    <string name="weather_3200"></string> <!-- Forecast unavailable -->
+
+    <string name="weather_kph">kph</string>
+    <string name="weather_mph">mph</string>
+
     <string name="weather_N">N</string>
     <string name="weather_NE">NE</string>
     <string name="weather_E">E</string>
@@ -81,13 +86,12 @@
     <string name="weather_W">W</string>
     <string name="weather_NW">NW</string>
 
-    <!-- Weather - error messages -->
     <string name="weather_no_data">Ei tietoja</string>
     <string name="weather_tap_to_refresh">Kosketa päivittääksesi</string>
-    <string name="weather_refreshing">Päivittää</string>
+    <string name="weather_refreshing">Päivitetään</string>
     <string name="weather_last_sync_just_now">Juuri nyt</string>
+    <string name="weather_cannot_reach_provider">Yhteyttä palveluun %s ei saada tällä hetkellä</string>
 
-    <!-- Weather - Update frequency -->
     <string name="weather_refresh_manual">Manuaalinen</string>
     <string name="weather_refresh_30min">30 minuuttia</string>
     <string name="weather_refresh_60min">60 minuuttia</string>
@@ -96,25 +100,30 @@
     <string name="weather_refresh_6hrs">6 tuntia</string>
     <string name="weather_refresh_8hrs">8 tuntia</string>
 
-    <!-- Preferences - Categories -->
     <string name="clock_category">Kello ja hälytys</string>
     <string name="weather_category">Sääpaneeli</string>
     <string name="calendar_category">Kalenteri</string>
-
-    <!-- Preferences - Categories -->
+    <string name="about_category">Tietoja Chronuksesta</string>
+    <string name="appearance_category">Ulkoasu</string>
     <string name="general_category">Yleiset</string>
     <string name="display_category">Näyttö</string>
 
-    <!-- Preferences - Clock -->
+    <string name="widget_type_keyguard">Lukitusnäyttö</string>
+    <string name="widget_type_homescreen">Kotinäyttö (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+
     <string name="clock_font_title">Lihavoi tunnit</string>
     <string name="clock_font_minutes_title">Lihavoi minuutit</string>
     <string name="clock_font_date_title">Lihavoi päivä ja hälytys</string>
     <string name="show_alarm_title">Näytä seuraava hälytys</string>
+    <string name="clock_am_pm_title">Näytä AM/PM tunniste</string>
 
-    <!-- Preferences - Weather -->
     <string name="weather_enabled">Käytössä</string>
     <string name="weather_enable">Näytä sää</string>
-    <string name="weather_source_yahoo">Yahoo! Sää</string>
+    <string name="weather_source_title">Säätietojen lähde</string>
+    <string name="weather_source_yahoo">Yahoo! Weather</string>
+    <string name="weather_source_wunderground">Weather Underground</string>
+    <string name="weather_source_hamweather">Hamweather</string>
+    <string name="weather_source_accuweather">AccuWeather</string>
     <string name="weather_use_custom_location">Käytä itse valittua sijaintia</string>
     <string name="weather_geolocated">Paikannettu verkon avulla</string>
     <string name="weather_custom_location_dialog_title">Syötä sijainti</string>
@@ -123,18 +132,19 @@
     <string name="weather_show_location_title">Näytä sijainti</string>
     <string name="weather_show_timestamp_title">Näytä aika</string>
     <string name="weather_refresh_interval">Päivityksen aikaväli</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (koskee kaikkia widgettejä)</string>
     <string name="weather_use_metric">Käytä metrejä</string>
     <string name="weather_retrieve_location_dialog_title">Paikantaminen epäonnistui!</string>
     <string name="weather_retrieve_location_dialog_message">Verkon kautta paikantaminen poistettu käytöstä. Aseta itse valittu sijainti tai ota verkon kautta paikantaminen käyttöön</string>
     <string name="weather_retrieve_location_dialog_enable_button">Ota käyttöön</string>
     <string name="weather_invert_lowhigh">Käännä pienin/isoin lämpötila</string>
     <string name="weather_progress_title">Tarkastetaan sijaintia</string>
-    <string name="weather_alternate_icons_title">Käytä vaihtoehtoisia kuvakkeita</string>
-    <string name="weather_alternate_icons_summary">Valitse oletukset (valkoinen) tai vaihtoehtoiset (värikkäät) kuvakkeet</string>
+    <string name="weather_alternate_icons_title">Käytä värikkäitä kuvakkeita</string>
+    <string name="weather_alternate_icons_summary">Valitse käytetäänkö oletuskuvakkeita (värikkäät) vai vaihtoehtoisia (valkoiset)</string>
     <string name="weather_show_when_minimized_title">Näytä kun pienennetty</string>
     <string name="weather_show_when_minimized_summary">Näyttää sään yhteenvedon kun widget on pienennetty</string>
+    <string name="weather_select_location">Valitse sijainti</string>
 
-    <!-- Preferences - Calendar -->
     <string name="calendar_title">Näytä seuraava tapahtuma</string>
     <string name="calendars_title">Tapahtumakalenterit</string>
     <string name="calendars_summary">Etsi tapahtuma näistä kalentereista</string>
@@ -144,19 +154,18 @@
     <string name="calendar_icon_title">Kalenterin kuvake</string>
     <string name="calendar_lookahead_title">Tapahtumaan aikaa</string>
     <string name="calendar_show_location_title">Tapahtuman paikka</string>
-    <string name="calendar_show_description_title">Tapahtuman selitys</string>
+    <string name="calendar_show_description_title">Tapahtuman tiedot</string>
     <string name="calendar_upcoming_events_category">Tulevat tapahtumat</string>
     <string name="calendar_highlight_upcoming_events_title">Korosta tapahtumat</string>
     <string name="calendar_highlight_upcoming_events_summary">Korosta saman päivän tapahtumat, ja klo 20.00 jälkeen myös seuraavan päivän tapahtumat</string>
     <string name="calendar_highlight_upcoming_events_bold">Lihavoitu fontti</string>
+    <string name="calendar_add_event_title">Lisää tapahtumakuvake</string>
 
-    <!-- Preferences - Font colors -->
     <string name="font_color">Fontin väri</string>
     <string name="font_color_alarm">Hälytyksen fontin väri</string>
     <string name="font_color_timestamp">Aikaleiman fontin väri</string>
     <string name="font_color_calendar_details">Tietojen fontin väri</string>
 
-    <!-- Calendar - lookahead -->
     <string name="calendar_lookahead_3hrs">3 tuntia</string>
     <string name="calendar_lookahead_6hrs">6 tuntia</string>
     <string name="calendar_lookahead_12hrs">12 tuntia</string>
@@ -167,12 +176,10 @@
     <string name="calendar_lookahead_2wks">2 viikkoa</string>
     <string name="calendar_lookahead_4wks">4 viikkoa</string>
 
-    <!-- Calendar - Event metadata -->
     <string name="calendar_metadata_none">Älä näytä</string>
     <string name="calendar_metadata_first_line">Näytä ensimmäinen rivi</string>
     <string name="calendar_metadata_all">Näytä kaikki</string>
 
-    <!-- Font colors -->
     <string name="white">Valkoinen</string>
     <string name="grey">Harmaa</string>
     <string name="black">Musta</string>
@@ -187,4 +194,84 @@
     <string name="holo_orange_dark">Tumma oranssi</string>
     <string name="holo_blue_bright">Kirkas sininen</string>
 
+    <string name="how_to_title">Apua</string>
+    <string name="first_run_title">Tervetuloa sovellukseen %s</string>
+    <string name="first_run_message">Chronus on widget, joka tulee manuaalisesti lisätä kotinäytölle (Android 4.1+) tai lukitusnäytölle (mahdollista vain Androidin versioissa 4.2+) käyttäen Androidin ja launcherin widgetin lisäystoimintoa.\n\nKun widget on asetettu, voit käyttää tätä sovellusta muuttaaksesi widgetin asetuksia.\n\nMuista muuttaa kaikkien widgettien (Kello, Sää, Kalenteri) kokoa näytöllä, koska widget piilottaa automaattisesti paneelit jotka eivätmahdu ruutuun.\n\nSuosittelen Apex tai Nova launchereita. Chronus toimii useimmilla launchereilla, mutta kaikki ulkoasuun liittyvät asetukset eivät välttämättä toimi.\n\nAndroid 4.2 tai uudemmissa, lisätäksesi widgetin lukitusnäytölle, liu\'uta lukitusnäyttöä vasemmalle ja paina widget-painiketta (+) lisätäksesi Chronuksen. Lukitusnäytönwidgettejä voi siirtää tai poistaa painamalla niitä pitkään.</string>
+    <string name="no_widget_message">Vähintään yksi Chronus-widget tulee lisätä koti- tai lukitusnäytölle ennenkuin voit käyttää sovellusta muuttaaksesi asetuksia.\n\nWidgetin voi lisätä käyttämällä Androidin ja launcherin widgetin lisäystoimintoa.</string>
+
+    <string name="credits_title">Tekijät</string>
+    <string name="credits_summary">Minun ja Danny Baumannin tehdessä suurin osa widgetistä, kiitokset menee kaikille kääntäjäjille kuten myös muille mukana olleille, muun muassa Nicolai Ehemannille ja Matt Boothille.\n\nSääkuvat: vClouds (vclouds.deviantart.com) ja Modern (www.mikeafford.com)</string>
+    <string name="contact_title">Ota yhteyttä</string>
+    <string name="send_email">Lähetä sähköpostia\u2026</string>
+
+    <string name="pro_features_summary">Ota Pro-ominaisuudet käyttöön</string>
+    <string name="pro_features_thanks">Kiitokset ostamisesta</string>
+    <string name="pro_features_message">Pro-versio sisältää kaikki ominaisuudet sekä tulevina kuukausina lisättävät ominaisuudet kuten:\n\n
+        \u2022 Lisää widgetien asettelutapoja\n
+        \u2022 Yhden widgetin asetukset\n
+        \u2022 Lisää kalenterin ominaisuuksia\n
+        \u2022 Pieni kalenteripaneeli\n
+        \u2022 Ja monia muita\u2026\n\nEhdotukset on aina tervetulleita.\n\nKiitos etukäteen tuestasi.</string>
+    <string name="get_pro">Hanki Pro</string>
+
+    <string name="pro_check_dialog_message">Tarkistetaan Pro-lisenssiä\u2026</string>
+
+    <string name="picker_apps">Sovellukset</string>
+    <string name="picker_activities">Aktiviteetit</string>
+    <string name="picker_default">Oletustehtävä</string>
+    <string name="picker_select_custom_app_title">Valitse sovellus</string>
+    <string name="picker_select_custom_activity_title">Valitse aktiviteetti</string>
+
+    <string name="tap_action_title">Kosketuksen tehtävä</string>
+    <string name="tap_action_clock_default">Järjestelmän kello</string>
+    <string name="tap_action_weather_refresh">Päivitä sää</string>
+    <string name="tap_action_calendar_default">Järjestelmän kalenteri</string>
+    <string name="tap_action_weather_forecast">Näytä ennuste</string>
+
+    <string name="widget_background_title">Widgetin tausta</string>
+    <string name="widget_background_default">Läpinäkyvyys</string>
+    <string name="widget_background_color_fill">Täytä värillä</string>
+    <string name="widget_background_custom_image">Kuva</string>
+    <string name="widget_background_dialog_title">Valitse väri</string>
+    <string name="widget_background_result_successful">Tausta vaihdettu onnistuneesti</string>
+    <string name="widget_background_result_not_successful">Taustan vaihto ei onnistunut</string>
+
+    <string name="alignment_title">Asettelu</string>
+    <string name="alignment_centered">Keskitetty</string>
+    <string name="alignment_left">Vasemmalla</string>
+    <string name="alignment_right">Oikealla</string>
+
+    <string name="calendar_colors">Kalenterin värit</string>
+
+    <string name="clock_analog">Analoginen kello</string>
+    <string name="clock_digital">Digitaalinen kello</string>
+
+    <string name="chronus_clockplus">Chronus Clock+</string>
+    <string name="chronus_weather">Chronus Weather</string>
+    <string name="chronus_forecast">Chronus Forecast (Yahoo!)</string>
+    <string name="chronus_calendar">Chronus Calendar</string>
+    <string name="chronus_clockplus_short">Clock+</string>
+    <string name="chronus_weather_short">Weather</string>
+    <string name="chronus_forecast_short">Forecast</string>
+    <string name="chronus_calendar_short">Calendar</string>
+
+    <string name="widget_rounded_corners_title">Pyöristetyt kulmat</string>
+
+    <string name="calendar_no_events">Ei tapahtumia tulossa</string>
+    <string name="calendar_no_events_summary">Paina + lisätäksesi</string>
+    <string name="calendar_no_events_indicator_title">Näytä \'ei tapahtumia\' teksti</string>
+
+    <string name="cling_widget_select_title">Valitse widget</string>
+    <string name="cling_widget_select_detail">Voit muokata jokaista asettamaasi widgettiä. Valitse haluamasi widget valitsimesta yläpuolelta.</string>
+
+    <string name="show_date_title">Näytä päivämäärä</string>
+
+    <string name="weather_icon_set_title">Kuvakkeet</string>
+    <string name="weather_icons_standard">Värikkäät</string>
+    <string name="weather_icons_monochrome">Mustavalkoinen</string>
+    <string name="weather_icons_modern">Moderni</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_flat">Tasainen</string>
+    <string name="weather_icons_vista">Vista</string>
+    <string name="icon_set_selection_get_more">Hanki lisää\u2026</string>
 </resources>

@@ -225,4 +225,7 @@
     <string name="chronus_clockplus">Chronus Horlosie+</string>
     <string name="chronus_weather">Chronus Weer</string>
     <string name="chronus_calendar">Chronus Kalender</string>
+    <string name="chronus_clockplus_short">Horlosie+</string>
+    <string name="chronus_weather_short">Weer</string>
+    <string name="chronus_calendar_short">Kalender</string>
 </resources>

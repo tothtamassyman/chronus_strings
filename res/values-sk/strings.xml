@@ -227,6 +227,10 @@
     <string name="chronus_weather">Chronus Počasie</string>
     <string name="chronus_forecast">Chronus Predpoveď (Yahoo!)</string>
     <string name="chronus_calendar">Chronus Kalendár</string>
+    <string name="chronus_clockplus_short">Hodiny+</string>
+    <string name="chronus_weather_short">Počasie</string>
+    <string name="chronus_forecast_short">Predpoveď</string>
+    <string name="chronus_calendar_short">Kalendár</string>
     <string name="widget_rounded_corners_title">Zaoblené rohy</string>
     <string name="calendar_no_events">Žiadne nadchádzajúce udalosti</string>
     <string name="calendar_no_events_summary">Pridajte dotykom na +</string>
