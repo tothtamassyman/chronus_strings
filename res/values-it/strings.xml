@@ -194,7 +194,7 @@
         attribuita ai molti traduttori dei linguaggi inclusi così come ad altri collaboratori, quali Nicolai Ehemann e Matt Booth per le
         funzionalità alle quali hanno contribuito.\n\n
 		Immagini del meteo:\n
-		\u2022 vClouds (vclouds.deviantart.com)\n
+		\u2022 VClouds (vclouds.deviantart.com)\n
 		\u2022 Moderne (www.mikeafford.com)</string>
     <string name="contact_title">Contattaci</string>
     <string name="send_email">Invia e-mail \u2026</string>
@@ -238,7 +238,7 @@
     <string name="clock_digital">Orologio digitale</string>
     <string name="chronus_clockplus">Chronus Orologio+</string>
     <string name="chronus_weather">Chronus Meteo</string>
-    <string name="chronus_forecast">Chronus Previsioni Meteo (Yahoo!)</string>
+    <string name="chronus_forecast">Chronus Previsioni Meteo</string>
     <string name="chronus_calendar">Chronus Calendario</string>
     <string name="chronus_clockplus_short">Orologio+</string>
     <string name="chronus_weather_short">Meteo</string>

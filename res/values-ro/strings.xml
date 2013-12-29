@@ -218,7 +218,7 @@
     <string name="credits_title">Mulțumiri</string>
     <string name="credits_summary">Chiar dacă am scris împreună cu Danny Baumann părți importante din Chronus, mulțumim comunității de traducători pentru includerea tuturor limbilor existente, precum și lui Jorge Ruesga, Nicolai Ehemann și Matt Booth pentru corectările și opțiunile adiționale la care au contribuit.\nTraducerea în limba română: Adrian Nistreanu.\n\n
         Pictograme meteo:\n
-        \u2022 vClouds (vclouds.deviantart.com)\n
+        \u2022 VClouds (vclouds.deviantart.com)\n
         \u2022 Modern (www.mikeafford.com)</string>
     <string name="contact_title">Contact</string>
     <string name="send_email">Trimiteți email\u2026</string>
@@ -303,7 +303,7 @@
     <string name="weather_icons_standard">Color</string>
     <string name="weather_icons_monochrome">Monocrom</string>
     <string name="weather_icons_modern">Modern</string>
-    <string name="weather_icons_vclouds">vClouds</string>
+    <string name="weather_icons_vclouds">VClouds</string>
     <string name="weather_icons_flat">Flat</string>
     <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Mai multe\u2026</string>

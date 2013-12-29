@@ -219,6 +219,7 @@
     <string name="holo_orange_light">Light orange</string>
     <string name="holo_orange_dark">Dark orange</string>
     <string name="holo_blue_bright">Bright blue</string>
+    <string name="custom_color">Custom</string>
 
     <!-- First run -->
     <string name="how_to_title">Help</string>
@@ -240,7 +241,7 @@
         goes to the many translators for the included languages as well as other contributors such as Nicolai Ehemann
         and Matt Booth for the features they have contributed.\n\n
         Weather Icons:\n
-        \u2022 vClouds (vclouds.deviantart.com)\n
+        \u2022 VClouds (vclouds.deviantart.com)\n
         \u2022 Modern (www.mikeafford.com)</string>
     <string name="contact_title">Contact us</string>
     <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
@@ -302,19 +303,24 @@
     <string name="weather_source_wunderground" translatable="false">Weather Underground</string>
     <string name="weather_source_hamweather" translatable="false">Hamweather</string>
     <string name="weather_source_accuweather" translatable="false">Accuweather</string>
+    <string name="weather_source_openweathermap" translatabale="false">OpenWeatherMap</string>
 
     <!-- Widget names -->
-    <!-- TRANSLATORS: The App name should remain as Chronus -->
+    <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_flex" translatable="false">Chronus Flex</string>
     <string name="chronus_clockplus">Chronus Clock+</string>
     <string name="chronus_weather">Chronus Weather</string>
-    <string name="chronus_forecast">Chronus Forecast (Yahoo!)</string>
+    <string name="chronus_forecast">Chronus Forecast</string>
     <string name="chronus_calendar">Chronus Calendar</string>
     <string name="chronus_flex_short" translatable="false">Flex</string>
     <string name="chronus_clockplus_short">Clock+</string>
     <string name="chronus_weather_short">Weather</string>
     <string name="chronus_forecast_short">Forecast</string>
     <string name="chronus_calendar_short">Calendar</string>
+
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analog)</string>
+    <string name="chronus_flex_analog_short">Flex (Analog)</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Rounded corners</string>
@@ -336,9 +342,10 @@
     <string name="weather_icons_standard">Colored</string>
     <string name="weather_icons_monochrome">Monochrome</string>
     <string name="weather_icons_modern">Modern</string>
-    <string name="weather_icons_vclouds">vClouds</string>
+    <string name="weather_icons_vclouds">VClouds</string>
     <string name="weather_icons_flat">Flat</string>
     <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Get more\u2026</string>
     <string name="icon_set_store_filter" translatable="false">Chronus Weather Icons</string>
+    <string name="weather_icons_realism">Realism</string>
 </resources>

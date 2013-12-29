@@ -219,7 +219,7 @@
     <string name="credits_summary">虽然 Danny Baumman 和我编写了 Chronus 的重要部分，很大一部分的功劳要归于添加此应用所包含语言的
     CyanogenMod 社区内的各位翻译员，和像 Jorge Ruesga、Nicolai Ehemann 与 Matt Booth 这样提供修复与功能的各位贡献者。\n\n
         天气图标：\n
-        \u2022 vClouds (vclouds.deviantart.com)\n
+        \u2022 VClouds (vclouds.deviantart.com)\n
         \u2022 现代式 (www.mikeafford.com)</string>
     <string name="contact_title">联系我们</string>
     <string name="send_email">发送电子邮件\u2026</string>
@@ -278,7 +278,7 @@
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus 时钟+</string>
     <string name="chronus_weather">Chronus 天气</string>
-    <string name="chronus_forecast">Chronus 预报 (雅虎天气)</string>
+    <string name="chronus_forecast">Chronus 预报</string>
     <string name="chronus_calendar">Chronus 日历</string>
     <string name="chronus_clockplus_short">时钟+</string>
     <string name="chronus_weather_short">天气</string>
@@ -304,7 +304,7 @@
     <string name="weather_icons_standard">彩色</string>
     <string name="weather_icons_monochrome">单色</string>
     <string name="weather_icons_modern">现代式</string>
-    <string name="weather_icons_vclouds">vClouds</string>
+    <string name="weather_icons_vclouds">VClouds</string>
     <string name="weather_icons_flat">平扁</string>
     <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">获取更多\u2026</string>

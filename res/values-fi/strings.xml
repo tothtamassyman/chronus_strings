@@ -200,7 +200,8 @@
     <string name="no_widget_message">Vähintään yksi Chronus-widget tulee lisätä koti- tai lukitusnäytölle ennenkuin voit käyttää sovellusta muuttaaksesi asetuksia.\n\nWidgetin voi lisätä käyttämällä Androidin ja launcherin widgetin lisäystoimintoa.</string>
 
     <string name="credits_title">Tekijät</string>
-    <string name="credits_summary">Minun ja Danny Baumannin tehdessä suurin osa widgetistä, kiitokset menee kaikille kääntäjäjille kuten myös muille mukana olleille, muun muassa Nicolai Ehemannille ja Matt Boothille.\n\nSääkuvat: vClouds (vclouds.deviantart.com) ja Modern (www.mikeafford.com)</string>
+    <string name="credits_summary">Minun ja Danny Baumannin tehdessä suurin osa widgetistä, kiitokset menee kaikille kääntäjäjille kuten myös muille mukana olleille, muun muassa Nicolai Ehemannille ja Matt Boothille.\n\n
+        Sääkuvat: VClouds (vclouds.deviantart.com) ja Modern (www.mikeafford.com)</string>
     <string name="contact_title">Ota yhteyttä</string>
     <string name="send_email">Lähetä sähköpostia\u2026</string>
 
@@ -248,7 +249,7 @@
 
     <string name="chronus_clockplus">Chronus Clock+</string>
     <string name="chronus_weather">Chronus Weather</string>
-    <string name="chronus_forecast">Chronus Forecast (Yahoo!)</string>
+    <string name="chronus_forecast">Chronus Forecast</string>
     <string name="chronus_calendar">Chronus Calendar</string>
     <string name="chronus_clockplus_short">Clock+</string>
     <string name="chronus_weather_short">Weather</string>

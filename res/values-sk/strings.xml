@@ -225,7 +225,7 @@
     <string name="widget_background_result_not_successful">Pozadie nemohlo byť zmenené</string>
     <string name="chronus_clockplus">Chronus Hodiny+</string>
     <string name="chronus_weather">Chronus Počasie</string>
-    <string name="chronus_forecast">Chronus Predpoveď (Yahoo!)</string>
+    <string name="chronus_forecast">Chronus Predpoveď</string>
     <string name="chronus_calendar">Chronus Kalendár</string>
     <string name="chronus_clockplus_short">Hodiny+</string>
     <string name="chronus_weather_short">Počasie</string>
