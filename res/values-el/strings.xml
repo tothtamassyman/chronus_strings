@@ -19,6 +19,7 @@
     <string name="loading_indicator">Φόρτωση widget\u2026</string>
     <string name="menu_done">Τέλος</string>
     <string name="ok">ΟΚ</string>
+    <string name="exit">Έξοδος</string>
     <string name="weather_0">Ανεμοστρόβιλος</string>
     <string name="weather_1">Τροπική καταιγίδα</string>
     <string name="weather_2">Τυφώνας</string>
@@ -116,6 +117,7 @@
     <string name="weather_show_location_title">Εμφάνιση τοποθεσίας</string>
     <string name="weather_show_timestamp_title">Εμφάνιση ημερομηνίας</string>
     <string name="weather_refresh_interval">Διάστημα μεταξύ ενημερώσεων</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 λεπτά">%s</xliff:g> (εφαρμόζεται σε όλα τα widget)</string>
     <string name="weather_use_metric">Χρήση μετρικού συστήματος</string>
     <string name="weather_retrieve_location_dialog_title">Δεν είναι δυνατός ο εντοπισμός της τοποθεσίας!</string>
     <string name="weather_retrieve_location_dialog_message">Ο εντοπισμός τοποθεσίας μέσω δικτύου είναι απενεργοποιημένος. /n/nΧρησιμοποιήστε μία προσαρμοσμένη τοποθεσία ή ενεργοποιήστε την τοποθεσία δικτύου</string>
@@ -182,14 +184,16 @@
         περιορισμένη.\n\nΣε Android 4.2+, για να προσθέσετε ένα widget στην οθόνη κλειδώματος, σύρετε αριστερά στην οθόνη κλειδώματος και στη
         συνέχεια χρησιμοποιήστε το κουμπί προσθήκης widget (+) για να προσθέσετε το Chronus. Μπορείτε να κάνετε αναδιάταξη των widget οθόνης
         κλειδώματος, πατώντας παρατεταμένα πάνω τους και στη συνέχεια μπορείτε να τα μετακινήσετε ή να τα διαγράψετε.</string>
-    <string name="no_widget_message">Το Chronus είναι ένα widget και πρέπει να προστεθεί χειροκίνητα είτε στην αρχική οθόνη (Android 4.1+) είτε
-        στην οθόνη κλειδώματος (μόνο σε Android 4.2+), χρησιμοποιώντας τη δυνατότητα widget του Android και του επιλογέα widget του Launcher σας.
-        \n\nΌταν το widget έχει τοποθετηθεί, μπορείτε να χρησιμοποιήσετε αυτή την εφαρμογή για να ρυθμίσετε το widget.</string>
+    <string name="no_widget_message">Πρέπει να προσθέσετε τουλάχιστον ένα widget Chronus είτε στην αρχική οθόνη, είτε στην
+        οθόνη κλειδώματος για να μπορέσετε να χρησιμοποιήσετε αυτή την εφαρμογή για να αλλάξετε τις ρυθμίσεις παραμέτρων του.
+        \n\nΜπορείτε να προσθέσετε widget χρησιμοποιώντας τη δυνατότητα widget του Android και του επιλογέα widget του Launcher σας.</string>
     <string name="credits_title">Συντελεστές</string>
-    <string name="credits_summary">Παρόλο που έγραψα σημαντικά τμήματα του Chronus, αρκετή δουλειά έκανε ο Danny Baumann στην πρόγνωση
-         καιρού και τις υπηρεσίες τιμολόγησης, βοήθησε στην αναθεώρηση του κώδικα και έκανε μικροαλλαγές. Επίσης ευχαριστώ τους πολλούς
-         μεταφραστές της κοινότητας του CyanogenMod για την προσθήκη όλων των γλωσσών που περιλαμβάνονται και τους λοιπούς συντελεστές,
-         όπως τον Nicolai Ehemann και τον Matt Booth για τις διορθώσεις και χαρακτηριστικά που συνέβαλαν.</string>
+    <string name="credits_summary">Παρόλο που ο Danny Baumann και εγώ γράψαμε το μεγαλύτερο μέρος του widget, πολλά εύσημα δίνονται
+        και στους πολλούς μεταφραστές για τις γλώσσες που περιλαμβάνονται όπως επίσης και στους λοιπούς συντελεστές όπως τον Nicolai Ehemann
+        και τον Matt Booth για τα χαρακτηριστικά που συνέβαλαν.\n\n
+        Εικονίδια καιρού:\n
+        \u2022 VClouds (vclouds.deviantart.com)\n
+        \u2022 Μοντέρνα (www.mikeafford.com)</string>
     <string name="contact_title">Επικοινωνία</string>
     <string name="send_email">Αποστολή email\u2026</string>
     <string name="pro_features_summary">Επιλέξτε για ενεργοποίηση χαρακτηριστικών Pro</string>
@@ -202,6 +206,7 @@
         \u2022 Ένα μίνι πάνελ ημερολογίου\n
         \u2022 και ακόμα περισσότερα\u2026\n\nΠροτάσεις είναι πάντα ευπρόσδεκτες.\n\nΣας ευχαριστούμε εκ των προτέρων για την υποστήριξή σας.</string>
     <string name="get_pro">Αποκτήστε Pro</string>
+    <string name="pro_check_dialog_message">Έλεγχος άδειας Pro\u2026</string>
     <string name="picker_apps">Εφαρμογές</string>
     <string name="picker_activities">Δραστηριότητες</string>
     <string name="picker_default">Προεπιλεγμένη ενέργεια</string>
@@ -219,18 +224,35 @@
     <string name="widget_background_dialog_title">Επιλογή χρώματος</string>
     <string name="widget_background_result_successful">Το φόντο άλλαξε με επιτυχία</string>
     <string name="widget_background_result_not_successful">Δεν ήταν δυνατή η αλλαγή του φόντου</string>
-    <string name="alignment_title">Ευθιγράμμιση</string>
+    <string name="alignment_title">Ευθυγράμμιση</string>
     <string name="alignment_centered">Κέντραρισμένο</string>
     <string name="alignment_left">Στοίχιση αριστερά</string>
     <string name="alignment_right">Στοίχιση δεξιά</string>
-    <string name="calendar_colors">Χρώμα συμβάντων ημερολογίου</string>
+    <string name="calendar_colors">Χρώμα ημερολογίου</string>
     <string name="clock_analog">Αναλογικό ρολόι</string>
     <string name="clock_digital">Ψηφιακό ρολόι</string>
     <string name="chronus_clockplus">Ρολόι+ Chronus</string>
     <string name="chronus_weather">Καιρός Chronus</string>
-    <string name="chronus_forecast">Πρόγνωση Chronus (Yahoo!)</string>
+    <string name="chronus_forecast">Πρόγνωση Chronus</string>
     <string name="chronus_calendar">Ημερολόγιο Chronus</string>
+    <string name="chronus_clockplus_short">Ρολόι+</string>
+    <string name="chronus_weather_short">Καιρός</string>
+    <string name="chronus_forecast_short">Πρόγνωση</string>
+    <string name="chronus_calendar_short">Ημερολόγιο</string>
     <string name="widget_rounded_corners_title">Στρογγυλεμένες γωνίες</string>
     <string name="calendar_no_events">Δεν έχουν προστεθεί συμβάντα</string>
     <string name="calendar_no_events_summary">Πιέστε + για προσθήκη</string>
+    <string name="calendar_no_events_indicator_title">Εμφάνιση κειμένου \'Χωρίς συμβάντα\'</string>
+    <string name="cling_widget_select_title">Επιλέξτε widget</string>
+    <string name="cling_widget_select_detail">Μπορείτε να ρυθμίσετε κάθε ένα από τα widget που έχετε τοποθετήσει. Απλά επιλέξτε αυτό
+        που θέλετε να ρυθμίσετε χρησιμοποιώντας τον επιλογέα στην κορυφή.</string>
+    <string name="show_date_title">Εμφάνιση ημερομηνίας</string>
+    <string name="weather_icon_set_title">Σετ εικονιδίων</string>
+    <string name="weather_icons_standard">Χρωματιστά</string>
+    <string name="weather_icons_monochrome">Μονόχρωμα</string>
+    <string name="weather_icons_modern">Μοντέρνα</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_flat">Επίπεδα</string>
+    <string name="weather_icons_vista">Vista</string>
+    <string name="icon_set_selection_get_more">Βρείτε περισσότερα\u2026</string>
 </resources>

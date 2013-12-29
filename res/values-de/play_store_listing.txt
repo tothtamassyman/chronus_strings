@@ -8,21 +8,21 @@ Funktionsgleich mit dem cLock-Widget von CyanogenMod wird diese App vom selben E
 3. WidgetLocker wird nicht unterstützt
 
 <b>Funktionen (Pro-Version):</b>
+  - Zusätzliche Widgets (Wettervorhersage, Kalender, Wetter)
   - Konfigurierbare Klick-Funktionen für Uhr, Wetter und Kalender, um Apps oder Aktionen zu starten
-  - Auswählbare Hintergrundfarbe
-  - Ausrichtung der digitalen Uhr wählbar (Zentriert, Links oder Rechts)
-  - Ausrichtung der Wetter-Anzeige wählbar (Zentriert, Links oder Rechts)
+  - Auswählbarer Widget-Hintergrund
+  - Ausrichtung der Uhr und Wetter-Anzeige wählbar (Zentriert, Links oder Rechts)
   - Neue Funktionen erscheinen alle 3-4 Wochen...
 
 <b>Funktionen (Alle Versionen):</b>
-Die Standard-Version beinhaltet alle Funktionen des CyanogenMod cLock-Widgets aus CM10.2 mit Unterstützung für ältere Android-Versionen
+Die Standard-Version beinhaltet alle Funktionen des CyanogenMod cLock-Widgets mit Unterstützung für ältere Android-Versionen
   - Unterstützt Android ab 4.1
   - Kann als Startbildschirm- (Android 4.1+) oder Bildschirmsperren-Widget (Android 4.2+) hinzugefügt werden
-  - Auswahl zwischen analoger und digitaler Uhr mit anpassbarem Aussehen und wählbarer Klick-Funktion
-  - Auswählen, ob Alarme angezeigt werden sollen
+  - Anpassbares Aussehen und wählbare Klick-Funktion der Uhr
+  - Auswählen, ob Alarme oder das Datum angezeigt werden sollen
   - Schriftstärke von Uhr, Wetter und Kalender wählbar (Normal, Fett)
-  - Wetter-Anzeige mit Yahoo! Wetter
-  - Wahlweise farbige oder weiße Symbole
+  - Wetter-Anzeige mit Yahoo! Wetter oder Accuweather
+  - Unterstützung für Icon-Pakete
   - Minimiertes Wetter-Widget (besonders nützlich für die Bildschirmsperre)
   - Kalender-Anzeige mit scrollbarer Terminliste
   - Anklicken des Termins öffnet die Kalenderansicht des entspechenden Termins

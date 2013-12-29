@@ -217,6 +217,9 @@
     <string name="chronus_clockplus">Chronus Relógio+</string>
     <string name="chronus_weather">Chronus Tempo</string>
     <string name="chronus_calendar">Chronus Calendário</string>
+    <string name="chronus_clockplus_short">Relógio+</string>
+    <string name="chronus_weather_short">Tempo</string>
+    <string name="chronus_calendar_short">Calendário</string>
     <string name="widget_rounded_corners_title">Cantos arredondados</string>
     <string name="calendar_no_events">Sem eventos na janela de eventos futuros.</string>
     <string name="calendar_no_events_summary">Toque em + para adicionar</string>

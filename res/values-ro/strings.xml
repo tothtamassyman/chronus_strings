@@ -130,6 +130,9 @@
     <string name="weather_enable">"Afişare meteo"</string>
     <string name="weather_source_title">Sursă meteo</string>
     <string name="weather_source_yahoo">Yahoo Meteo</string>
+    <string name="weather_source_wunderground">Weather Underground</string>
+    <string name="weather_source_hamweather">HAMweather</string>
+    <string name="weather_source_accuweather">AccuWeather</string>
     <string name="weather_use_custom_location">"Locaţie personalizată"</string>
     <string name="weather_geolocated">"Localizare utilizând reţeaua"</string>
     <string name="weather_custom_location_dialog_title">"Introduceţi locaţia"</string>
@@ -138,6 +141,7 @@
     <string name="weather_show_location_title">"Afişare locaţie"</string>
     <string name="weather_show_timestamp_title">"Afişare marcaj de timp"</string>
     <string name="weather_refresh_interval">"Interval actualizare"</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (aplicabil pentru toate widget-urile)</string>
     <string name="weather_use_metric">"Sistem metric"</string>
     <string name="weather_retrieve_location_dialog_title">"Nu se poate prelua locaţia!"</string>
     <string name="weather_retrieve_location_dialog_message">"Geolocalizarea este dezactivată.\n\nSetaţi o locaţie personalizată sau activaţi localizarea în reţea"</string>
@@ -207,25 +211,31 @@
     <!-- First run -->
     <string name="how_to_title">Ajutor</string>
     <string name="first_run_title">Bun venit la %s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus este un widget ce necesită a fi aplicat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale Android și ale launcher-ului Dvs.\n\nOdată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.\n\nModificați mărimea widget-ului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar), pentru că widget-ul ascunde automat panourile, dacă este prea mic.\n\nPentru cele mai bune rezultate, recomand utilizarea launcher-eleor Apex sau Nova. Chronus va lucra pe majoritatea launcher-elor, însă posibilitățile de configurare a afișării pot fi limitate.\n\nCu Android 4.2+, pentru a adiționa widget-ul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul (+) și adăugați Chronus. Widget-urile de pe ecranul de blocare pot fi rearanjate sau șterse prin apăsare.</string>
-    <string name="no_widget_message">Aplicați cel puțin un widget Chronus pe ecranul pricipal sau ecranul de blocare înainte de utilizarea aceastei aplicații pentru configurări.\n\nWidget-urile pot fi aplicate utilizând funcțiile respective ale Android și ale launcher-ului Dvs.</string>
+    <string name="first_run_message">Chronus este un widget ce necesită a fi aplicat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale launcher-ului Dvs.\n\nOdată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.\n\nModificați mărimea widget-ului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar), pentru că widget-ul ascunde automat panourile, dacă este prea mic.\n\nPentru cele mai bune rezultate, recomand utilizarea launcher-eleor Apex sau Nova. Chronus va lucra pe majoritatea launcher-elor, însă posibilitățile de configurare a afișării pot fi limitate.\n\nCu Android 4.2+, pentru a adiționa widget-ul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul (+) și adăugați Chronus. Widget-urile de pe ecranul de blocare pot fi rearanjate sau șterse prin apăsare.</string>
+
+    <string name="no_widget_message">Aplicați cel puțin un widget Chronus pe ecranul pricipal sau ecranul de blocare înainte de utilizarea aceastei aplicații pentru configurări.\n\nWidget-urile pot fi aplicate utilizând funcțiile respective ale launcher-ului Dvs.</string>
 
     <string name="credits_title">Mulțumiri</string>
-    <string name="credits_summary">Chiar dacă am scris părți importante din Chronus, îi mulțumesс lui Danny Baumann pentru aportul său la serviciile meteo și billing, revizuiri și îmbunătățiri; lui Nicolai Ehemann și Matt Booth; precum și comunității de traducători care au contribuit.\nTraducerea în limba română: Adrian Nistreanu.</string>
+    <string name="credits_summary">Chiar dacă am scris împreună cu Danny Baumann părți importante din Chronus, mulțumim comunității de traducători pentru includerea tuturor limbilor existente, precum și lui Jorge Ruesga, Nicolai Ehemann și Matt Booth pentru corectările și opțiunile adiționale la care au contribuit.\nTraducerea în limba română: Adrian Nistreanu.\n\n
+        Pictograme meteo:\n
+        \u2022 VClouds (vclouds.deviantart.com)\n
+        \u2022 Modern (www.mikeafford.com)</string>
     <string name="contact_title">Contact</string>
     <string name="send_email">Trimiteți email\u2026</string>
 
     <!-- START OF PRO VERSION STRINGS -->
     <!-- Pro features (About) -->
     <string name="pro_features_summary">Click pentru activarea posibilităților Pro</string>
-    <string name="pro_features_thanks">Mulțumesc pentru cumpărătură</string>
+    <string name="pro_features_thanks">Mulțumim pentru achiziție</string>
     <string name="pro_features_message">Versiunea Pro include toate posibilitățile versiunii standard, precum și următoarele posibilități, adăugate pe parcurs:\n\n
         \u2022 Scheme de widget adiționale\n
         \u2022 Setări individuale pentru widget\n
         \u2022 Opțiuni adiționale pentru calendar\n
         \u2022 Panou calendar mini\n
-        \u2022 și altele\u2026\n\nSugestiile sunt binevoite.\n\nMulțumesc anticipat pentru suportul Dvs.</string>
+        \u2022 și altele\u2026\n\nSugestiile sunt binevoite.\n\nMulțumim anticipat pentru suportul Dvs.</string>
     <string name="get_pro">Activare Pro</string>
+
+    <string name="pro_check_dialog_message">Verificare licență Pro\u2026</string>
 
     <!-- Shortcut picker -->
     <string name="picker_apps">Aplicații</string>
@@ -257,7 +267,7 @@
     <string name="alignment_right">Dreapta</string>
 
     <!-- Calendar colors -->
-    <string name="calendar_colors">Culoare eveniment din calendar</string>
+    <string name="calendar_colors">Culori calendar</string>
 
     <!-- Clock types -->
     <string name="clock_analog">Ceas analogic</string>
@@ -267,17 +277,34 @@
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus Ceas+</string>
     <string name="chronus_weather">Chronus Meteo</string>
-    <string name="chronus_forecast">Chronus Prognoză (Yahoo!)</string>
+    <string name="chronus_forecast">Chronus Prognoză</string>
     <string name="chronus_calendar">Chronus Calendar</string>
+    <string name="chronus_clockplus_short">Ceas+</string>
+    <string name="chronus_weather_short">Meteo</string>
+    <string name="chronus_forecast_short">Prognoză</string>
+    <string name="chronus_calendar_short">Calendar</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Colțuri rotungite</string>
 
     <!-- Calendar - No events -->
-    <string name="calendar_no_events">Nu există evenimente viitoare</string>
+    <string name="calendar_no_events">Nu există evenimente</string>
     <string name="calendar_no_events_summary">Apăsați + pentru adăugare</string>
+    <string name="calendar_no_events_indicator_title">Afișare text \'Nu există evenimente\'</string>
 
     <!--  Cling text -->
     <string name="cling_widget_select_title">Selectați widget-ul</string>
     <string name="cling_widget_select_detail">Puteți configura fiecare widget aplicat. Pentru aceasta alegeți widget-ul necesar cu selectorul de sus.</string>
-    </resources>
+
+    <string name="show_date_title">Afișare dată</string>
+
+    <!-- Weather icon sets -->
+    <string name="weather_icon_set_title">Pictograme</string>
+    <string name="weather_icons_standard">Color</string>
+    <string name="weather_icons_monochrome">Monocrom</string>
+    <string name="weather_icons_modern">Modern</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_flat">Flat</string>
+    <string name="weather_icons_vista">Vista</string>
+    <string name="icon_set_selection_get_more">Mai multe\u2026</string>
+</resources>

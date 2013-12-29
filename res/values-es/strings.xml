@@ -119,6 +119,7 @@
     <string name="weather_show_location_title">Mostrar ubicación</string>
     <string name="weather_show_timestamp_title">Mostrar fecha y hora</string>
     <string name="weather_refresh_interval">Intervalo de actualización</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (se aplica a todos los widgets)</string>
     <string name="weather_use_metric">Usar sistema métrico</string>
     <string name="weather_retrieve_location_dialog_title">¡No se puede encontrar la ubicación!</string>
     <string name="weather_retrieve_location_dialog_message">Geolocalización por red desactivada.\n\nConfigura una ubicación personalizada o activa la geolocalización por red</string>
@@ -188,11 +189,13 @@
     <string name="no_widget_message">Al menos debe añadirse un Widget de Chronus a la pantalla de inicio o de bloqueo antes de poder usar esta aplicación
         para cambiar su configuración.\n\nLos widgets pueden ser añadidos usando el selector de widgets de Android o de tu lanzador de aplicaciones.</string>
     <string name="credits_title">Créditos</string>
-    <string name="credits_summary">Aunque creo haber escrito las partes más importantes de Chronus, mucho del crédito debe ir a Danny Baumann
-        por su trabajo en los servicios de tiempo y de pasarela de pago, revisiones y ajustes; a los traductores de la comunidad de
-        CyanogenMod por traducir la aplicación; y a otros desarrolladores como Nicolai Ehemann y Matt Booth por las correcciones y nuevas
-        características que han aportado al código.</string>
-    <string name="contact_title">Contacto</string>
+    <string name="credits_summary">Mientras que Danny Baumann y yo escribimos la mayoría del código de Chronus, algunos créditos deben ir
+        también para los muchos traductores por los idiomas incluidos, así como a otros desarrolladores como
+        Nicolai Ehemann y Matt Booth por las correcciones y nuevas características que han aportado al código.\n\n
+        Iconos de tiempo:\n
+        \u2022 VClouds (vclouds.deviantart.com)\n
+        \u2022 Modern (www.mikeafford.com)</string>
+    <string name="contact_title">Contactanos</string>
     <string name="send_email">Enviar email\u2026</string>
     <string name="pro_features_summary">Pulsa para habilitar las características de pago</string>
     <string name="pro_features_thanks">Gracias por comprar la aplicación</string>
@@ -204,6 +207,7 @@
         \u2022 Un panel mini de calendarios\n
         \u2022 y muchas más\u2026\n\nTus sugerencias siempre son bien recibidas.\n\nGracias de antemano por tu apoyo.</string>
     <string name="get_pro">Funciones de pago</string>
+    <string name="pro_check_dialog_message">Verificando licencia Pro\u2026</string>
     <string name="picker_apps">Aplicaciones</string>
     <string name="picker_activities">Actividades</string>
     <string name="picker_default">Acción por defecto</string>
@@ -225,16 +229,30 @@
     <string name="alignment_centered">Centrada</string>
     <string name="alignment_left">Izquierda</string>
     <string name="alignment_right">Derecha</string>
-    <string name="calendar_colors">Color del evento del calendario</string>
+    <string name="calendar_colors">Color del calendario</string>
     <string name="clock_analog">Reloj analógico</string>
     <string name="clock_digital">Reloj digital</string>
     <string name="chronus_clockplus">Chronus Reloj+</string>
     <string name="chronus_weather">Chronus Tiempo</string>
-    <string name="chronus_forecast">Chronus Predicción Tiempo (Yahoo!)</string>
+    <string name="chronus_forecast">Chronus Predicción Tiempo</string>
     <string name="chronus_calendar">Chronus Calendario</string>
+    <string name="chronus_clockplus_short">Reloj+</string>
+    <string name="chronus_weather_short">Tiempo</string>
+    <string name="chronus_forecast_short">Predicción Tiempo</string>
+    <string name="chronus_calendar_short">Calendario</string>
     <string name="widget_rounded_corners_title">Esquinas redondeadas</string>
     <string name="calendar_no_events">No hay eventos en la ventana de eventos futuros</string>
     <string name="calendar_no_events_summary">Toca + para añadir</string>
+    <string name="calendar_no_events_indicator_title">Mostrar texto \'Sin eventos\' text</string>
     <string name="cling_widget_select_title">Seleccionar widget</string>
     <string name="cling_widget_select_detail">Puedes configurar cada uno de los widgets colocados. Solo selecciona el que quieres configurar utilizando el selector de la barra de acciones.</string>
+    <string name="show_date_title">Mostrar fecha</string>
+    <string name="weather_icon_set_title">Conjunto de íconos</string>
+    <string name="weather_icons_standard">Coloreado</string>
+    <string name="weather_icons_monochrome">Monocromo</string>
+    <string name="weather_icons_modern">Moderno</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_flat">Plano</string>
+    <string name="weather_icons_vista">Vista</string>
+    <string name="icon_set_selection_get_more">Conseguir más\u2026</string>
 </resources>

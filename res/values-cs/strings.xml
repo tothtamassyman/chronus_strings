@@ -124,6 +124,7 @@
     <string name="weather_show_location_title">Zobrazit polohu</string>
     <string name="weather_show_timestamp_title">Zobrazit časový údaj</string>
     <string name="weather_refresh_interval">Interval aktualizace</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (vztahuje se na všechny widgety)</string>
     <string name="weather_use_metric">Použít metrické jednotky</string>
     <string name="weather_retrieve_location_dialog_title">Není možné určit polohu!</string>
     <string name="weather_retrieve_location_dialog_message">Zjištění polohy sítí je vypnuto.\n\nJe nutné nastavit vlastní polohu, nebo zapnout zjišťování sítí.</string>
@@ -198,9 +199,9 @@
         Widgety lze přidávat standardní cestou přes výběr widgetu nebo pomocí nainstalovaného spouštěče.</string>
 
     <string name="credits_title">Zásluhy</string>
-    <string name="credits_summary">I když jsem napsal významnou část aplikace Chronus sám, mnoho zásluh patří také Danny Baumannovi pro jeho
-        práci na počasí a účtovacích službách, kontrole a ladění; další dík patří překladatelům z CyanogenMod komunity, kteří pomohli s překladem
-        do mnoha jazyků; a dalších přispěvovatelů jako Nicolai Ehemann a Matt Booth pro opravy a nově přidané vlastnosti.</string>
+    <string name="credits_summary">I když byla významná část aplikace Chronus napsána Danny Baumannem a mnou, veliký dík patří překladatelům ze CyanogenMod
+        komunity a dalším přispěvovatelům jako Nicolai Ehemann a Matt Booth, kteří pomohli s novými vlastnostmi.
+        \n\nIkony počasí: VClouds (vclouds.deviantart.com) a Moderní (www.mikeafford.com)</string>
     <string name="contact_title">Kontakt</string>
     <string name="send_email">Poslat email\u2026</string>
 
@@ -251,6 +252,10 @@
     <string name="chronus_weather">Chronus počasí</string>
     <string name="chronus_forecast">Chronus předpověď</string>
     <string name="chronus_calendar">Chronus kalendář</string>
+    <string name="chronus_clockplus_short">Hodiny+</string>
+    <string name="chronus_weather_short">Počasí</string>
+    <string name="chronus_forecast_short">Předpověď</string>
+    <string name="chronus_calendar_short">Kalendář</string>
     <string name="widget_rounded_corners_title">Zakulacené rohy</string>
 
     <string name="calendar_no_events">Žádné příští události</string>
@@ -259,4 +264,15 @@
 
     <string name="cling_widget_select_title">Zvolte widget</string>
     <string name="cling_widget_select_detail">Je možné změnit nastavení jakéhokoliv widgetu, který jste vytvořili. Požadovaný widget stačí vybrat pomocí volby nahoře.</string>
+
+    <string name="show_date_title">Zobrazit datum</string>
+
+    <string name="weather_icon_set_title">Sada ikon</string>
+    <string name="weather_icons_standard">Barevné</string>
+    <string name="weather_icons_monochrome">Černobílé</string>
+    <string name="weather_icons_modern">Moderní</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_flat">Ploché</string>
+    <string name="weather_icons_vista">Vista</string>
+    <string name="icon_set_selection_get_more">Získat další\u2026</string>
 </resources>

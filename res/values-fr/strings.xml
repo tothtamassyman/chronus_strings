@@ -278,6 +278,11 @@
     <string name="chronus_forecast">Chronus Prévision</string>
     <string name="chronus_calendar">Chronus Agendas</string>
 
+    <string name="chronus_clockplus_short">Horloge+</string>
+    <string name="chronus_weather_short">Météo</string>
+    <string name="chronus_forecast_short">Prévision</string>
+    <string name="chronus_calendar_short">Agendas</string>
+
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Coins arrondis</string>
 
