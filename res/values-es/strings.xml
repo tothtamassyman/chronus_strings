@@ -240,6 +240,9 @@
     <string name="chronus_weather_short">Tiempo</string>
     <string name="chronus_forecast_short">Predicción Tiempo</string>
     <string name="chronus_calendar_short">Calendario</string>
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analógico)</string>
+    <string name="chronus_flex_analog_short">Flex (Analógico)</string>
     <string name="widget_rounded_corners_title">Esquinas redondeadas</string>
     <string name="calendar_no_events">No hay eventos en la ventana de eventos futuros</string>
     <string name="calendar_no_events_summary">Toca + para añadir</string>

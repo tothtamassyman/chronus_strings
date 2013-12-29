@@ -258,6 +258,11 @@
     <string name="chronus_calendar_short">Kalendář</string>
     <string name="widget_rounded_corners_title">Zakulacené rohy</string>
 
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analogovými)</string>
+    <string name="chronus_flex_analog_short">Flex (Analogovými)</string>
+
+
     <string name="calendar_no_events">Žádné příští události</string>
     <string name="calendar_no_events_summary">Přidat dotykem na +</string>
     <string name="calendar_no_events_indicator_title">Zobrazovat \"Žádné události\"</string>

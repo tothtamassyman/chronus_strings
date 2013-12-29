@@ -288,6 +288,9 @@
     <string name="chronus_weather_short">Időjárás</string>
     <string name="chronus_forecast_short">Időjárás-előrejelzés</string>
     <string name="chronus_calendar_short">Naptár</string>
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analóg)</string>
+    <string name="chronus_flex_analog_short">Flex (Analóg)</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Lekerekített sarkok</string>

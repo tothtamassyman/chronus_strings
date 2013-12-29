@@ -284,6 +284,9 @@
     <string name="chronus_weather_short">天气</string>
     <string name="chronus_forecast_short">预报</string>
     <string name="chronus_calendar_short">日历</string>
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (类似物)</string>
+    <string name="chronus_flex_analog_short">Flex (类似物)</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">弧形边角</string>

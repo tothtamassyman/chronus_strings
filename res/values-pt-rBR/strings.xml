@@ -229,6 +229,9 @@
     <string name="chronus_clockplus_short">Relógio+</string>
     <string name="chronus_weather_short">Tempo</string>
     <string name="chronus_calendar_short">Calendário</string>
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analógico)</string>
+    <string name="chronus_flex_analog_short">Flex (Analógico)</string>
     <string name="widget_type_keyguard">Tela de bloqueio</string>
     <string name="widget_type_homescreen">Tela inicial (<xliff:g id="columns" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$d</xliff:g>x<xliff:g id="rows" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%2$d</xliff:g>)</string>
     <string name="chronus_forecast">Chronus Previsão do Tempo</string>

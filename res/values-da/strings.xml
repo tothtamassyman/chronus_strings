@@ -227,4 +227,9 @@
     <string name="chronus_clockplus_short">Ur+</string>
     <string name="chronus_weather_short">Vejr</string>
     <string name="chronus_calendar_short">Kalender</string>
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analogt)</string>
+    <string name="chronus_flex_analog_short">Flex (Analogt)</string>
+
+
 </resources>

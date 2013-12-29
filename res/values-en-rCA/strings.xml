@@ -22,8 +22,8 @@
 
     <!-- Preferences - Weather -->
     <string name="weather_custom_location_hint">City, Province/Country</string>
-    <string name="weather_alternate_icons_title">Use colour icons</string>
-    <string name="weather_alternate_icons_summary">Select to toggle between the default (Colour) and the alternate (White) icons</string>
+    <string name="weather_show_when_minimized_title">Show when minimised</string>
+    <string name="weather_show_when_minimized_summary">Display summary weather information when the widget is minimised</string>
 
     <!-- Preferences - Font colors -->
     <string name="font_color">Font colour</string>
@@ -40,5 +40,9 @@
 
     <!-- Calendar colors -->
     <string name="calendar_colors">Event calendar colour</string>
+
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analogue)</string>
+    <string name="chronus_flex_analog_short">Flex (Analogue)</string>
 
 </resources>
