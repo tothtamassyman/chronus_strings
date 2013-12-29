@@ -206,9 +206,10 @@
     <string name="holo_orange_light">Orange clair</string>
     <string name="holo_orange_dark">Orange foncé</string>
     <string name="holo_blue_bright">Bleu vif</string>
-    <string name="how_to_title">Aide</string>
+    <string name="custom_color">Personnalisé</string>
 
     <!-- First run -->
+    <string name="how_to_title">Aide</string>
     <string name="first_run_title">Bienvenue dans %s</string>
     <string name="first_run_message">Chronus est un widget qui doit être ajouté manuellement soit à l\'écran d\'accueil (Android 4.1 et supérieur) soit à l\'écran de verrouillage (uniquement possible sur Android 4.2 et supérieur) en utilisant la fonction de sélecteur de widgets de votre lanceur.
         \n\nUne fois que le widget a été ajouté, vous pouvez utiliser cette application pour en modifier sa configuration.
@@ -283,6 +284,10 @@
     <string name="chronus_forecast_short">Prévision</string>
     <string name="chronus_calendar_short">Agendas</string>
 
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analogique)</string>
+    <string name="chronus_flex_analog_short">Flex (Analogique)</string>
+
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Coins arrondis</string>
 
@@ -306,4 +311,5 @@
     <string name="weather_icons_flat">Flat</string>
     <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Plus\u2026</string>
+    <string name="weather_icons_realism">Réaliste</string>
 </resources>
