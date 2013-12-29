@@ -303,7 +303,7 @@
     <string name="weather_source_wunderground" translatable="false">Weather Underground</string>
     <string name="weather_source_hamweather" translatable="false">Hamweather</string>
     <string name="weather_source_accuweather" translatable="false">Accuweather</string>
-    <string name="weather_source_openweathermap" translatabale="false">OpenWeatherMap</string>
+    <string name="weather_source_openweathermap" translatable="false">OpenWeatherMap</string>
 
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
