@@ -193,7 +193,7 @@
         también para los muchos traductores por los idiomas incluidos, así como a otros desarrolladores como
         Nicolai Ehemann y Matt Booth por las correcciones y nuevas características que han aportado al código.\n\n
         Iconos de tiempo:\n
-        \u2022 vClouds (vclouds.deviantart.com)\n
+        \u2022 VClouds (vclouds.deviantart.com)\n
         \u2022 Modern (www.mikeafford.com)</string>
     <string name="contact_title">Contactanos</string>
     <string name="send_email">Enviar email\u2026</string>
@@ -234,12 +234,15 @@
     <string name="clock_digital">Reloj digital</string>
     <string name="chronus_clockplus">Chronus Reloj+</string>
     <string name="chronus_weather">Chronus Tiempo</string>
-    <string name="chronus_forecast">Chronus Predicción Tiempo (Yahoo!)</string>
+    <string name="chronus_forecast">Chronus Predicción Tiempo</string>
     <string name="chronus_calendar">Chronus Calendario</string>
     <string name="chronus_clockplus_short">Reloj+</string>
     <string name="chronus_weather_short">Tiempo</string>
     <string name="chronus_forecast_short">Predicción Tiempo</string>
     <string name="chronus_calendar_short">Calendario</string>
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analógico)</string>
+    <string name="chronus_flex_analog_short">Flex (Analógico)</string>
     <string name="widget_rounded_corners_title">Esquinas redondeadas</string>
     <string name="calendar_no_events">No hay eventos en la ventana de eventos futuros</string>
     <string name="calendar_no_events_summary">Toca + para añadir</string>
@@ -251,7 +254,7 @@
     <string name="weather_icons_standard">Coloreado</string>
     <string name="weather_icons_monochrome">Monocromo</string>
     <string name="weather_icons_modern">Moderno</string>
-    <string name="weather_icons_vclouds">vClouds</string>
+    <string name="weather_icons_vclouds">VClouds</string>
     <string name="weather_icons_flat">Plano</string>
     <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Conseguir más\u2026</string>

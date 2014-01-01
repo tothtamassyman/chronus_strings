@@ -225,12 +225,15 @@
     <string name="widget_background_result_not_successful">Pozadie nemohlo byť zmenené</string>
     <string name="chronus_clockplus">Chronus Hodiny+</string>
     <string name="chronus_weather">Chronus Počasie</string>
-    <string name="chronus_forecast">Chronus Predpoveď (Yahoo!)</string>
+    <string name="chronus_forecast">Chronus Predpoveď</string>
     <string name="chronus_calendar">Chronus Kalendár</string>
     <string name="chronus_clockplus_short">Hodiny+</string>
     <string name="chronus_weather_short">Počasie</string>
     <string name="chronus_forecast_short">Predpoveď</string>
     <string name="chronus_calendar_short">Kalendár</string>
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analógové)</string>
+    <string name="chronus_flex_analog_short">Flex (Analógové)</string>
     <string name="widget_rounded_corners_title">Zaoblené rohy</string>
     <string name="calendar_no_events">Žiadne nadchádzajúce udalosti</string>
     <string name="calendar_no_events_summary">Pridajte dotykom na +</string>

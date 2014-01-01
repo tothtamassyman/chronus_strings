@@ -228,4 +228,8 @@
     <string name="chronus_clockplus_short">Horlosie+</string>
     <string name="chronus_weather_short">Weer</string>
     <string name="chronus_calendar_short">Kalender</string>
+    <string name="chronus_flex_analog">Chronus Flex (Analoog)</string>
+    <string name="chronus_flex_analog_short">Flex (Analoog)</string>
+
+
 </resources>

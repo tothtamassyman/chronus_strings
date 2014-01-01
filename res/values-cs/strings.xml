@@ -201,7 +201,7 @@
     <string name="credits_title">Zásluhy</string>
     <string name="credits_summary">I když byla významná část aplikace Chronus napsána Danny Baumannem a mnou, veliký dík patří překladatelům ze CyanogenMod
         komunity a dalším přispěvovatelům jako Nicolai Ehemann a Matt Booth, kteří pomohli s novými vlastnostmi.
-        \n\nIkony počasí: vClouds (vclouds.deviantart.com) a Moderní (www.mikeafford.com)</string>
+        \n\nIkony počasí: VClouds (vclouds.deviantart.com) a Moderní (www.mikeafford.com)</string>
     <string name="contact_title">Kontakt</string>
     <string name="send_email">Poslat email\u2026</string>
 
@@ -257,6 +257,11 @@
     <string name="chronus_forecast_short">Předpověď</string>
     <string name="chronus_calendar_short">Kalendář</string>
     <string name="widget_rounded_corners_title">Zakulacené rohy</string>
+
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analogovými)</string>
+    <string name="chronus_flex_analog_short">Flex (Analogovými)</string>
+
 
     <string name="calendar_no_events">Žádné příští události</string>
     <string name="calendar_no_events_summary">Přidat dotykem na +</string>
