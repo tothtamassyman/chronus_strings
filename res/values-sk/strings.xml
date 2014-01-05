@@ -179,7 +179,8 @@
     <string name="credits_summary">Aj keď som napísal významné časti aplikácie Chronus, veľká vďaka patrí Dannymu Baumannovi za jeho
         prácu na počasí a fakturačných službách a za prehodnocovanie a vylepšovanie; vďaka tiež patrí komunitným prekladateľom
         CyanogenModu za pridanie všetkých jazykov, ktoré sú zahrnuté; a taktiež vďaka patrí ostatným prispievateľom, ako sú Nicolai Ehemann a Matt Booth za opravy a funkcie
-        ktorými prispeli.</string>
+        ktorými prispeli.
+        \n\nIkony počasia: vClouds (vclouds.deviantart.com) a Moderné (www.mikeafford.com)</string>
     <string name="how_to_title">Pomocník</string>
     <string name="first_run_title">Vitajte v aplikácii %s</string>
     <string name="first_run_message">Chronus je miniaplikácia, ktorú je potrebné ručne pridať buď na plochu (Android 4.1+) alebo na
@@ -231,7 +232,6 @@
     <string name="chronus_weather_short">Počasie</string>
     <string name="chronus_forecast_short">Predpoveď</string>
     <string name="chronus_calendar_short">Kalendár</string>
-    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
     <string name="chronus_flex_analog">Chronus Flex (Analógové)</string>
     <string name="chronus_flex_analog_short">Flex (Analógové)</string>
     <string name="widget_rounded_corners_title">Zaoblené rohy</string>
