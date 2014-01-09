@@ -138,6 +138,7 @@
     <string name="calendar_highlight_upcoming_events_title">Verlig afsprake</string>
     <string name="calendar_highlight_upcoming_events_summary">Verlig die huidige dag se afsprake en, na 20:00, ook die volgende dag se afsprake</string>
     <string name="calendar_highlight_upcoming_events_bold">Vetgedruk</string>
+    <string name="calendar_add_event_title">Voeg afsprake by ikoon</string>
     <string name="font_color">Letertipe kleur</string>
     <string name="font_color_alarm">Alarm Letertipe kleur</string>
     <string name="font_color_timestamp">Tyd Stempel Letertipe kleur</string>
@@ -230,6 +231,20 @@
     <string name="chronus_calendar_short">Kalender</string>
     <string name="chronus_flex_analog">Chronus Flex (Analoog)</string>
     <string name="chronus_flex_analog_short">Flex (Analoog)</string>
-
-
+    <string name="widget_rounded_corners_title">Ronde hoeke</string>
+    <string name="calendar_no_events">Geen afsprake in vooruitkyk tydperk nie</string>
+    <string name="calendar_no_events_summary">Raak + om by te voeg</string>
+    <string name="calendar_no_events_indicator_title">Wys \'Geen afsprake\' teks</string>
+    <string name="cling_widget_select_title">Kies legstuk</string>
+    <string name="cling_widget_select_detail">Jy kan elk van jou geplaasde legstukke opstel. Kies net die een wat jy wil gebruik van die kieslys hier bo.</string>
+    <string name="show_date_title">Wys datum</string>
+    <string name="weather_icon_set_title">Ikoon stel</string>
+    <string name="weather_icons_standard">Gekleurde</string>
+    <string name="weather_icons_monochrome">Monochroom</string>
+    <string name="weather_icons_modern">Modern</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_flat">Plat</string>
+    <string name="weather_icons_vista">Vista</string>
+    <string name="icon_set_selection_get_more">Kry meer\u2026</string>
+    <string name="weather_icons_realism">Realisme</string>
 </resources>

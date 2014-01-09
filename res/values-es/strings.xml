@@ -71,8 +71,8 @@
     <string name="weather_46">Nieve</string>
     <string name="weather_47">Chap. aislados</string>
     <string name="weather_3200"></string> <!-- No disponible -->
-    <string name="weather_kph">Kmph</string>
-    <string name="weather_mph">Mph</string>
+    <string name="weather_kph">kph</string>
+    <string name="weather_mph">mph</string>
     <string name="weather_N">N</string>
     <string name="weather_NE">NE</string>
     <string name="weather_E">E</string>
@@ -240,17 +240,16 @@
     <string name="chronus_weather_short">Tiempo</string>
     <string name="chronus_forecast_short">Predicción Tiempo</string>
     <string name="chronus_calendar_short">Calendario</string>
-    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
     <string name="chronus_flex_analog">Chronus Flex (Analógico)</string>
     <string name="chronus_flex_analog_short">Flex (Analógico)</string>
     <string name="widget_rounded_corners_title">Esquinas redondeadas</string>
     <string name="calendar_no_events">No hay eventos en la ventana de eventos futuros</string>
     <string name="calendar_no_events_summary">Toca + para añadir</string>
-    <string name="calendar_no_events_indicator_title">Mostrar texto \'Sin eventos\' text</string>
+    <string name="calendar_no_events_indicator_title">Mostrar texto \u00ABSin eventos\u00BB</string>
     <string name="cling_widget_select_title">Seleccionar widget</string>
     <string name="cling_widget_select_detail">Puedes configurar cada uno de los widgets colocados. Solo selecciona el que quieres configurar utilizando el selector de la barra de acciones.</string>
     <string name="show_date_title">Mostrar fecha</string>
-    <string name="weather_icon_set_title">Conjunto de íconos</string>
+    <string name="weather_icon_set_title">Conjunto de iconos</string>
     <string name="weather_icons_standard">Coloreado</string>
     <string name="weather_icons_monochrome">Monocromo</string>
     <string name="weather_icons_modern">Moderno</string>

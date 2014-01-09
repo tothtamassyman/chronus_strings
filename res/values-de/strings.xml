@@ -170,6 +170,7 @@
     <string name="holo_orange_light">Helles Orange</string>
     <string name="holo_orange_dark">Dunkles Orange</string>
     <string name="holo_blue_bright">Leuchtendes Blau</string>
+    <string name="custom_color">Benutzerdefiniert</string>
     <string name="how_to_title">Hilfe</string>
     <string name="first_run_title">Willkommen bei %s</string>
     <string name="first_run_message">Chronus ist ein Widget und muss als solches vor der Verwendung entweder zum Startbildschirm (Android 4.1+)
