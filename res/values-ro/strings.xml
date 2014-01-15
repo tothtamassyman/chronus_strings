@@ -212,7 +212,7 @@
     <!-- First run -->
     <string name="how_to_title">Ajutor</string>
     <string name="first_run_title">Bun venit la %s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus este un widget ce necesită a fi aplicat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale launcher-ului Dvs.\n\nOdată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.\n\nModificați mărimea widget-ului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar), pentru că widget-ul ascunde automat panourile, dacă este prea mic.\n\nPentru cele mai bune rezultate, recomand utilizarea launcher-eleor Apex sau Nova. Chronus va lucra pe majoritatea launcher-elor, însă posibilitățile de configurare a afișării pot fi limitate.\n\nCu Android 4.2+, pentru a adiționa widget-ul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul (+) și adăugați Chronus. Widget-urile de pe ecranul de blocare pot fi rearanjate sau șterse prin apăsare.</string>
+    <string name="first_run_message">Chronus este un widget ce necesită a fi aplicat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale launcher-ului Dvs.\n\nOdată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.\n\nModificați mărimea widget-ului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar), pentru că widget-ul le ascunde automat, dacă este prea mic.\n\nPentru cele mai bune rezultate, recomandăm utilizarea launcher-elor Apex sau Nova. Chronus va lucra pe majoritatea launcher-elor, însă posibilitățile de configurare a afișării pot fi limitate.\n\nCu Android 4.2+, pentru a adiționa widget-ul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul (+) și adăugați Chronus. Widget-urile de pe ecranul de blocare pot fi rearanjate sau șterse prin apăsare.</string>
 
     <string name="no_widget_message">Aplicați cel puțin un widget Chronus pe ecranul pricipal sau ecranul de blocare înainte de utilizarea aceastei aplicații pentru configurări.\n\nWidget-urile pot fi aplicate utilizând funcțiile respective ale launcher-ului Dvs.</string>
 
@@ -313,3 +313,4 @@
     <string name="weather_icons_realism">Realism</string>
     <string name="icon_set_selection_get_more">Mai multe\u2026</string>
 </resources>
+string name=
