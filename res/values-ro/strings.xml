@@ -18,11 +18,15 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
     <string name="unknown">Necunoscut</string>
-    <string name="cancel">Revocaţi</string>
+    <string name="cancel">Revocare</string>
     <string name="loading_indicator">Încărcare widget\u2026</string>
     <string name="menu_done">OK</string>
+    <string name="menu_add">Adăugare</string>
     <string name="ok">OK</string>
     <string name="exit">Ieșire</string>
+    
+    <!-- Formats -->
+    <string name="format_seconds">%s sec.</string>
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">"Tornadă"</string>
@@ -108,11 +112,13 @@
     <!-- Preferences - Categories -->
     <string name="clock_category">Ceas şi alarmă</string>
     <string name="weather_category">Panou meteo</string>
+    <string name="news_feed_category">Flux de știri</string>
     <string name="calendar_category">Evenimente din calendar</string>
     <string name="about_category">Despre Chronus</string>
     <string name="appearance_category">Aspect general</string>
     <string name="general_category">General</string>
     <string name="display_category">Afișare</string>
+    <string name="provider_category">Furnizor</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Ecran blocare</string>
@@ -170,6 +176,27 @@
     <string name="calendar_highlight_upcoming_events_summary">Evenimente din ziua curentă, iar după 20:00, și cele din ziua următoare</string>
     <string name="calendar_highlight_upcoming_events_bold">Font îngroșat</string>
     <string name="calendar_add_event_title">Pictogramă eveniment nou</string>
+     	 
+    <!-- Preferences - News feed -->
+    <string name="news_feed_title">Afișare flux de știri</string>
+    <string name="news_feed_icon_title">Pictogramă flux de știri</string>
+    <string name="news_feed_rotate_interval">Interval rotație</string>
+    <string name="news_feed_display_unread_status">Indicator necitit</string>
+    <string name="news_feed_hide_viewed">Ascundere vizulizate</string>
+    <string name="news_feed_provider_title">Tip furnizor</string>
+    <string name="news_feed_provider_rss">RSS</string>
+    <string name="news_feed_provider_settings_title">Surse de flux</string>
+    <string name="news_feed_refresh_interval">Interval actualizare</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (se aplică pentru toate widget-urile)</string>
+
+    <!-- News Feed - Update frequency -->
+    <string name="news_feed_refresh_manual">Manual</string>
+    <string name="news_feed_refresh_30min">30 minute</string>
+    <string name="news_feed_refresh_60min">60 minute</string>
+    <string name="news_feed_refresh_2hrs">2 ore</string>
+    <string name="news_feed_refresh_4hrs">4 ore</string>
+    <string name="news_feed_refresh_6hrs">6 ore</string>
+    <string name="news_feed_refresh_8hrs">8 ore</string>
 
     <!-- Preferences - Font colors -->
     <string name="font_color">Culoare font</string>
@@ -193,6 +220,32 @@
     <string name="calendar_metadata_first_line">"Afişare primul rând"</string>
     <string name="calendar_metadata_all">"Afişare totală"</string>
 
+    <!-- News - Widgets -->
+    <string name="news_feed_loading">Încărcare articole</string>
+    <string name="news_feed_loading_summary">Durează câteva secunde\u2026</string>
+    <string name="news_feed_no_data">Nu există articole noi</string>
+    <string name="news_feed_no_data_summary">Apăsați pentru actualizare</string>
+    <string name="news_feed_article_new_format">[NOU] <xliff:g id="title">%s</xliff:g></string>
+    <string name="news_feed_read_more">Continuare\u2026</string>
+
+    <!-- News - Service -->
+    <plurals name="news_feed_new_articles">
+    <item quantity="one">1 articol nou</item>
+    <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> articole noi</item>
+    </plurals>
+
+    <!-- News - Reader -->
+    <string name="news_feed_reader_list_all_articles_title">Toate articolele</string>
+    <string name="news_feed_reader_list_unread_articles_title">Articole necitite</string>
+    <string name="news_feed_reader_list_last_published">Actualizat la <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
+    <string name="news_feed_reader_goto_button">Accesare articol</string>
+
+    <!-- News Feed Provider Settings - RSS -->
+    <string name="rss_sources_custom_header">Definit de utilizator</string>
+    <string name="rss_custom_source_url">Url:</string>
+    <string name="rss_custom_source_title">Sursă personalizată</string>
+    <string name="rss_custom_source_name">Denumire:</string>
+
     <!-- Font colors -->
     <string name="white">Alb</string>
     <string name="grey">Gri</string>
@@ -212,12 +265,12 @@
     <!-- First run -->
     <string name="how_to_title">Ajutor</string>
     <string name="first_run_title">Bun venit la %s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus este un widget ce necesită a fi aplicat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale launcher-ului Dvs.\n\nOdată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.\n\nModificați mărimea widget-ului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar), pentru că widget-ul le ascunde automat, dacă este prea mic.\n\nPentru cele mai bune rezultate, recomandăm utilizarea launcher-elor Apex sau Nova. Chronus va lucra pe majoritatea launcher-elor, însă posibilitățile de configurare a afișării pot fi limitate.\n\nCu Android 4.2+, pentru a adiționa widget-ul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul (+) și adăugați Chronus. Widget-urile de pe ecranul de blocare pot fi rearanjate sau șterse prin apăsare.</string>
+    <string name="first_run_message">Chronus este un widget ce necesită a fi aplicat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale launcher-ului Dvs.\n\nOdată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.\n\nModificați mărimea widget-ului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar), pentru că widget-ul le ascunde automat, dacă este prea mic.\n\nPentru cele mai bune rezultate, recomandăm utilizarea launcher-elor Apex sau Nova. Chronus va lucra pe majoritatea launcher-elor, însă posibilitățile de configurare a afișării pot fi limitate.\n\nCu Android 4.2+, pentru a adiționa widget-ul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul + și adăugați Chronus. Widget-urile de pe ecranul de blocare pot fi rearanjate sau șterse prin apăsare.</string>
 
     <string name="no_widget_message">Aplicați cel puțin un widget Chronus pe ecranul pricipal sau ecranul de blocare înainte de utilizarea aceastei aplicații pentru configurări.\n\nWidget-urile pot fi aplicate utilizând funcțiile respective ale launcher-ului Dvs.</string>
 
     <string name="credits_title">Mulțumiri</string>
-    <string name="credits_summary">Chiar dacă am scris împreună cu Danny Baumann părți importante din Chronus, mulțumim comunității de traducători pentru includerea tuturor limbilor existente, precum și lui Jorge Ruesga, Nicolai Ehemann și Matt Booth pentru corectările și opțiunile adiționale la care au contribuit.\nTraducerea în limba română: Adrian Nistreanu.\n\n
+    <string name="credits_summary">Chiar dacă am scris împreună cu Danny Baumann părți importante din Chronus, mulțumim comunității de traducători, precum și lui Jorge Ruesga, Nicolai Ehemann și Matt Booth pentru corectările și opțiunile adiționale la care au contribuit.\nTraducerea în limba română: Adrian Nistreanu.\n\n
         Pictograme meteo:\n
         \u2022 VClouds (vclouds.deviantart.com)\n
         \u2022 Modern (www.mikeafford.com)</string>
@@ -251,6 +304,7 @@
     <string name="tap_action_weather_refresh">Actualizare</string>
     <string name="tap_action_calendar_default">Calendar</string>
     <string name="tap_action_weather_forecast">Afișare prognoză</string>
+    <string name="tap_action_do_nothing">Fără ațiune</string>
 
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">Fundal</string>
@@ -269,10 +323,8 @@
 
     <!-- Calendar colors -->
     <string name="calendar_colors">Culori calendar</string>
-
-    <!-- Clock types -->
-    <string name="clock_analog">Ceas analogic</string>
-    <string name="clock_digital">Ceas digital</string>
+    <string name="calendar_event_color_ifneeded">Afișare dacă este necesar</string>
+    <string name="calendar_event_color_always">Afișare întotdeauna</string>
 
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
