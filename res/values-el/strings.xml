@@ -18,8 +18,10 @@
     <string name="cancel">Ακύρωση</string>
     <string name="loading_indicator">Φόρτωση widget\u2026</string>
     <string name="menu_done">Τέλος</string>
+    <string name="menu_add">Προσθήκη</string>
     <string name="ok">ΟΚ</string>
     <string name="exit">Έξοδος</string>
+    <string name="format_seconds">%s δευτ.</string>
     <string name="weather_0">Ανεμοστρόβιλος</string>
     <string name="weather_1">Τροπική καταιγίδα</string>
     <string name="weather_2">Τυφώνας</string>
@@ -93,11 +95,13 @@
     <string name="weather_refresh_8hrs">8 ώρες</string>
     <string name="clock_category">Ρολόι και ξυπνητήρι</string>
     <string name="weather_category">Καιρός</string>
+    <string name="news_feed_category">Ροή ειδήσεων</string>
     <string name="calendar_category">Ημερολόγιο</string>
     <string name="about_category">Σχετικά με το Chronus</string>
     <string name="appearance_category">Γενική εμφάνιση</string>
     <string name="general_category">Γενικά</string>
     <string name="display_category">Οθόνη</string>
+    <string name="provider_category">Πάροχος</string>
     <string name="widget_type_keyguard">Οθόνη κλειδώματος</string>
     <string name="widget_type_homescreen">Αρχική οθόνη (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="clock_font_title">Έντονη ώρα</string>
@@ -144,6 +148,23 @@
     <string name="calendar_highlight_upcoming_events_summary">Επισήμανση των συμβάντων της τρέχουσας ημέρας και μετά τις 8μμ, επίσης, τα γεγονότα της επόμενης ημέρας</string>
     <string name="calendar_highlight_upcoming_events_bold">Έντονη γραμματοσειρά</string>
     <string name="calendar_add_event_title">Προσθήκη εικονιδίου συμβάντος</string>
+    <string name="news_feed_title">Εμφάνιση ροής ειδήσεων</string>
+    <string name="news_feed_icon_title">Εικονίδιο ροής ειδήσεων</string>
+    <string name="news_feed_rotate_interval">Χρ. διάστημα εναλλαγής</string>
+    <string name="news_feed_display_unread_status">Ένδειξη μη αναγνωσμένων</string>
+    <string name="news_feed_hide_viewed">Απόκρυψη αναγνωσμένων</string>
+    <string name="news_feed_provider_title">Είδος παρόχου</string>
+    <string name="news_feed_provider_rss">RSS</string>
+    <string name="news_feed_provider_settings_title">Πηγές τροφοδοσίας</string>
+    <string name="news_feed_refresh_interval">Διάστημα μεταξύ ενημερώσεων</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 λεπτά">%s</xliff:g> (εφαρμόζεται σε όλα τα widget)</string>
+    <string name="news_feed_refresh_manual">Χειροκίνητα</string>
+    <string name="news_feed_refresh_30min">30 λεπτά</string>
+    <string name="news_feed_refresh_60min">60 λεπτά</string>
+    <string name="news_feed_refresh_2hrs">2 ώρες</string>
+    <string name="news_feed_refresh_4hrs">4 ώρες</string>
+    <string name="news_feed_refresh_6hrs">6 ώρες</string>
+    <string name="news_feed_refresh_8hrs">8 ώρες</string>
     <string name="font_color">Χρώμα γραμματοσειράς</string>
     <string name="font_color_alarm">Χρώμα ξυπνητηριού</string>
     <string name="font_color_timestamp">Χρώμα ώρας</string>
@@ -160,6 +181,24 @@
     <string name="calendar_metadata_none">Απόκρυψη</string>
     <string name="calendar_metadata_first_line">Εμφάνιση της πρώτης γραμμής</string>
     <string name="calendar_metadata_all">Εμφάνιση όλων</string>
+    <string name="news_feed_loading">Φόρτωση άρθρων</string>
+    <string name="news_feed_loading_summary">Παρακαλώ περιμένετε μερικά δευτερόλεπτα\u2026</string>
+    <string name="news_feed_no_data">Δεν υπάρχουν νέα άρθρα διαθέσιμα</string>
+    <string name="news_feed_no_data_summary">Πιέστε για ανανέωση</string>
+    <string name="news_feed_article_new_format">[ΝΕΟ] <xliff:g id="title">%s</xliff:g></string>
+    <string name="news_feed_read_more">Διαβάστε περισσότερα\u2026</string>
+    <plurals name="news_feed_new_articles">
+        <item quantity="one">1 νέο άρθρο</item>
+        <item quantity="other"><xliff:g id="articles" example="12 νέα άρθρα">%s</xliff:g> νέα άρθρα</item>
+    </plurals>
+    <string name="news_feed_reader_list_all_articles_title">Όλα τα άρθρα</string>
+    <string name="news_feed_reader_list_unread_articles_title">Μη αναγνωσμένα άρθρα</string>
+    <string name="news_feed_reader_list_last_published">Ενημερώθηκε στις <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 μαρ">%2$s</xliff:g></string>
+    <string name="news_feed_reader_goto_button">Πηγαίνετε στο άρθρο</string>
+    <string name="rss_sources_custom_header">Προσαρμοσμένες από το χρήστη</string>
+    <string name="rss_custom_source_url">Url:</string>
+    <string name="rss_custom_source_title">Προσθήκη πηγής</string>
+    <string name="rss_custom_source_name">Όνομα:</string>
     <string name="white">Λευκό</string>
     <string name="grey">Γκρι</string>
     <string name="black">Μαύρο</string>
@@ -188,9 +227,9 @@
         οθόνη κλειδώματος για να μπορέσετε να χρησιμοποιήσετε αυτή την εφαρμογή για να αλλάξετε τις ρυθμίσεις παραμέτρων του.
         \n\nΜπορείτε να προσθέσετε widget χρησιμοποιώντας τη δυνατότητα widget του Android και του επιλογέα widget του Launcher σας.</string>
     <string name="credits_title">Συντελεστές</string>
-    <string name="credits_summary">Παρόλο που ο Danny Baumann και εγώ γράψαμε το μεγαλύτερο μέρος του widget, πολλά εύσημα δίνονται
-        και στους πολλούς μεταφραστές για τις γλώσσες που περιλαμβάνονται όπως επίσης και στους λοιπούς συντελεστές όπως τον Nicolai Ehemann
-        και τον Matt Booth για τα χαρακτηριστικά που συνέβαλαν.\n\n
+    <string name="credits_summary">Παρόλο που ο Danny Baumann και εγώ γράψαμε το μεγαλύτερο μέρος του widget, πολλά εύσημα δίνονται στους πολλούς
+        μεταφραστές και στους λοιπούς συντελεστές όπως τον Nicolai Ehemann, τον Matt Booth και τον Jorge Ruesga για τις γλώσσες
+        και τα χαρακτηριστικά που συνέβαλαν.\n\n
         Εικονίδια καιρού:\n
         \u2022 VClouds (vclouds.deviantart.com)\n
         \u2022 Μοντέρνα (www.mikeafford.com)</string>
@@ -217,6 +256,7 @@
     <string name="tap_action_weather_refresh">Ανανέωση καιρού</string>
     <string name="tap_action_calendar_default">Ημερολόγιο συστήματος</string>
     <string name="tap_action_weather_forecast">Εμφάνιση πρόγνωσης</string>
+    <string name="tap_action_do_nothing">Καμία ενέργεια</string>
     <string name="widget_background_title">Φόντο widget</string>
     <string name="widget_background_default">Διάφανο</string>
     <string name="widget_background_color_fill">Γέμισμα με χρώμα</string>
@@ -229,6 +269,8 @@
     <string name="alignment_left">Στοίχιση αριστερά</string>
     <string name="alignment_right">Στοίχιση δεξιά</string>
     <string name="calendar_colors">Χρώμα ημερολογίου</string>
+    <string name="calendar_event_color_ifneeded">Εμφάνιση εαν χρειάζεται</string>
+    <string name="calendar_event_color_always">Πάντα εμφάνιση</string>
     <string name="chronus_clockplus">Ρολόι+ Chronus</string>
     <string name="chronus_weather">Καιρός Chronus</string>
     <string name="chronus_forecast">Πρόγνωση Chronus</string>
