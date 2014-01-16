@@ -266,10 +266,6 @@
     <!-- Calendar colors -->
     <string name="calendar_colors">Takvim renkleri</string>
 
-    <!-- Clock types -->
-    <string name="clock_analog">Analog saat</string>
-    <string name="clock_digital">Dijital saat</string>
-
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus Clock+</string>

@@ -172,8 +172,6 @@
     <string name="alignment_left">Zarovnané vľavo</string>
     <string name="alignment_right">Zarovnané vpravo</string>
     <string name="calendar_colors">Farby v kalendári</string>
-    <string name="clock_analog">Analógové hodiny</string>
-    <string name="clock_digital">Digitálne hodiny</string>
     <string name="contact_title">Kontaktujte nás</string>
     <string name="credits_title">Kredity</string>
     <string name="credits_summary">Aj keď som napísal významné časti aplikácie Chronus, veľká vďaka patrí Dannymu Baumannovi za jeho

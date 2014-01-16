@@ -270,10 +270,6 @@
     <!-- Calendar colors -->
     <string name="calendar_colors">日历颜色</string>
 
-    <!-- Clock types -->
-    <string name="clock_analog">模拟时钟</string>
-    <string name="clock_digital">数字时钟</string>
-
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus 时钟+</string>

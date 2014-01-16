@@ -212,8 +212,6 @@
     <string name="alignment_left">Alinhado à esquerda</string>
     <string name="alignment_right">Alinhado à direita</string>
     <string name="calendar_colors">Cor do calendário de eventos</string>
-    <string name="clock_analog">Relógio analógico</string>
-    <string name="clock_digital">Relógio digital</string>
     <string name="chronus_clockplus">Chronus Relógio+</string>
     <string name="chronus_weather">Chronus Tempo</string>
     <string name="chronus_calendar">Chronus Calendário</string>

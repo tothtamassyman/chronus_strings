@@ -219,8 +219,6 @@
     <string name="alignment_left">Links</string>
     <string name="alignment_right">Rechts</string>
     <string name="calendar_colors">Kleur afsprakenagenda</string>
-    <string name="clock_analog">Analoge klok</string>
-    <string name="clock_digital">Digitale klok</string>
     <string name="chronus_clockplus">Chronus (klok+)</string>
     <string name="chronus_weather">Chronus (weer)</string>
     <string name="chronus_forecast">Chronus (weersverwachting)</string>

@@ -246,9 +246,6 @@
 
     <string name="calendar_colors">Barva události kalendáře</string>
 
-    <string name="clock_analog">Analogové hodiny</string>
-    <string name="clock_digital">Digitální hodiny</string>
-
     <string name="chronus_clockplus">Chronus hodiny+</string>
     <string name="chronus_weather">Chronus počasí</string>
     <string name="chronus_forecast">Chronus předpověď</string>

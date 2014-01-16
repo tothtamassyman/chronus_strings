@@ -92,8 +92,6 @@
     <string name="calendar_category">日曆活動</string>
     <string name="general_category">一般</string>
     <string name="display_category">顯示</string>
-    <string name="use_digital_clock_title">使用數位時鐘</string>
-    <string name="use_digital_clock_summary">選取以在數位與類比時鐘之間切換</string>
     <string name="clock_font_title">粗體的小時</string>
     <string name="clock_font_minutes_title">粗體的分鐘</string>
     <string name="clock_font_date_title">粗體的日期與鬧鐘</string>

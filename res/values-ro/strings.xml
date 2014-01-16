@@ -270,10 +270,6 @@
     <!-- Calendar colors -->
     <string name="calendar_colors">Culori calendar</string>
 
-    <!-- Clock types -->
-    <string name="clock_analog">Ceas analogic</string>
-    <string name="clock_digital">Ceas digital</string>
-
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_clockplus">Chronus Ceas+</string>

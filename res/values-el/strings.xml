@@ -229,8 +229,6 @@
     <string name="alignment_left">Στοίχιση αριστερά</string>
     <string name="alignment_right">Στοίχιση δεξιά</string>
     <string name="calendar_colors">Χρώμα ημερολογίου</string>
-    <string name="clock_analog">Αναλογικό ρολόι</string>
-    <string name="clock_digital">Ψηφιακό ρολόι</string>
     <string name="chronus_clockplus">Ρολόι+ Chronus</string>
     <string name="chronus_weather">Καιρός Chronus</string>
     <string name="chronus_forecast">Πρόγνωση Chronus</string>

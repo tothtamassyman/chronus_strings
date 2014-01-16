@@ -269,10 +269,6 @@ prispevali prevode vseh jezikov, ki so vključeni v pripomoček, velik del so pr
     <!-- Calendar colors -->
     <string name="calendar_colors">Barve koledarja</string>
 
-    <!-- Clock types -->
-    <string name="clock_analog">Analogna ura</string>
-    <string name="clock_digital">Digitalna ura</string>
-
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus Ura+</string>

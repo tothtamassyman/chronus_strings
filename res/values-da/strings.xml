@@ -219,8 +219,6 @@
     <string name="alignment_left">Venstrestillet</string>
     <string name="alignment_right">Højrestillet</string>
     <string name="calendar_colors">Farve til kalenderbegivenhed</string>
-    <string name="clock_analog">Analogt ur</string>
-    <string name="clock_digital">Digitalt ur</string>
     <string name="chronus_clockplus">Chronus Ur+</string>
     <string name="chronus_weather">Chronus Vejr</string>
     <string name="chronus_calendar">Chronus Kalender</string>
