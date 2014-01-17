@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project (DvTonder)
+<!-- 
+     Copyright (C) 2012 The CyanogenMod Project (DvTonder)
+     Chronus additions (c) 2013 David van Tonder
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,7 +20,10 @@
     <string name="cancel">Zrušit</string>
     <string name="loading_indicator">Načítání widgetu\u2026</string>
     <string name="menu_done">Hotovo</string>
+    <string name="menu_add">Přidat</string>
     <string name="exit">Ukončit</string>
+
+    <string name="format_seconds">%s sek.</string>
 
     <string name="weather_0">Tornádo</string>
     <string name="weather_1">Tropická bouře</string>
@@ -97,11 +102,13 @@
 
     <string name="clock_category">Hodiny a budík</string>
     <string name="weather_category">Panel počasí</string>
+    <string name="news_feed_category">Zdroj zpráv</string>
     <string name="calendar_category">Události kalendáře</string>
     <string name="about_category">O aplikaci Chronus</string>
     <string name="appearance_category">Celkový vzhled</string>
     <string name="general_category">Obecné</string>
     <string name="display_category">Zobrazení</string>
+    <string name="provider_category">Zdroj</string>
 
     <string name="widget_type_keyguard">Obrazovka zámku</string>
     <string name="widget_type_homescreen">Plocha (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
@@ -153,6 +160,24 @@
     <string name="calendar_highlight_upcoming_events_bold">Tučné písmo</string>
     <string name="calendar_add_event_title">Přidat ikonu události</string>
 
+    <string name="news_feed_title">Zobrazit zprávy</string>
+    <string name="news_feed_icon_title">Ikona zpráv</string>
+    <string name="news_feed_rotate_interval">Interval výměny</string>
+    <string name="news_feed_display_unread_status">Ukazatel nepřečtených zpráv</string>
+    <string name="news_feed_hide_viewed">Skrýt přečtené</string>
+    <string name="news_feed_provider_title">Typ zdroje</string>
+    <string name="news_feed_provider_settings_title">Zdroj zpráv</string>
+    <string name="news_feed_refresh_interval">Interval aktualizace</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (použije se na všechny widgety)</string>
+
+    <string name="news_feed_refresh_manual">Ručně</string>
+    <string name="news_feed_refresh_30min">30 minut</string>
+    <string name="news_feed_refresh_60min">60 minut</string>
+    <string name="news_feed_refresh_2hrs">2 hodiny</string>
+    <string name="news_feed_refresh_4hrs">4 hodiny</string>
+    <string name="news_feed_refresh_6hrs">6 hodin</string>
+    <string name="news_feed_refresh_8hrs">8 hodin</string>
+
     <string name="font_color">Barva písma</string>
     <string name="font_color_alarm">Barva budíku</string>
     <string name="font_color_timestamp">Barva časové značky</string>
@@ -171,6 +196,29 @@
     <string name="calendar_metadata_none">Nezobrazovat</string>
     <string name="calendar_metadata_first_line">Zobrazit první řádek</string>
     <string name="calendar_metadata_all">Zobrazit vše</string>
+
+    <string name="news_feed_loading">Načítání článků</string>
+    <string name="news_feed_loading_summary">Počkejte prosím chilku\u2026</string>
+    <string name="news_feed_no_data">Žádné nové články</string>
+    <string name="news_feed_no_data_summary">Dotykem dojde k obnovení</string>
+    <string name="news_feed_article_new_format">[NOVÝ] <xliff:g id="title">%s</xliff:g></string>
+    <string name="news_feed_read_more">Více\u2026</string>
+
+    <plurals name="news_feed_new_articles">
+        <item quantity="one">Jeden nový článek</item>
+        <item quantity="few"><xliff:g id="articles" example="2 new articles">%s</xliff:g> nové články</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> nových článků</item>
+    </plurals>
+
+    <string name="news_feed_reader_list_all_articles_title">Všechny články</string>
+    <string name="news_feed_reader_list_unread_articles_title">Nepřečtené články</string>
+    <string name="news_feed_reader_list_last_published">Aktualizováno <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
+    <string name="news_feed_reader_goto_button">Přejít na článek</string>
+
+    <string name="rss_sources_custom_header">Uživatelský</string>
+    <string name="rss_custom_source_url">Adresa:</string>
+    <string name="rss_custom_source_title">Přidat vlastní zdroj</string>
+    <string name="rss_custom_source_name">Název:</string>
 
     <string name="white">Bílá</string>
     <string name="grey">Šedivá</string>
@@ -230,6 +278,7 @@
     <string name="tap_action_weather_refresh">Obnovit widget</string>
     <string name="tap_action_calendar_default">Systémový kalendář</string>
     <string name="tap_action_weather_forecast">Zobrazit předpověď</string>
+    <string name="tap_action_do_nothing">Nedělat nic</string>
 
     <string name="widget_background_title">Pozadí widgetu</string>
     <string name="widget_background_default">Průhledné</string>
@@ -245,9 +294,8 @@
     <string name="alignment_right">Zarovnání vpravo</string>
 
     <string name="calendar_colors">Barva události kalendáře</string>
-
-    <string name="clock_analog">Analogové hodiny</string>
-    <string name="clock_digital">Digitální hodiny</string>
+    <string name="calendar_event_color_ifneeded">Zobrazit pokud požadováno</string>
+    <string name="calendar_event_color_always">Vždy zobrazi</string>
 
     <string name="chronus_clockplus">Chronus hodiny+</string>
     <string name="chronus_weather">Chronus počasí</string>

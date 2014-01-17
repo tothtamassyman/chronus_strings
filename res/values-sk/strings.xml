@@ -18,8 +18,10 @@
     <string name="cancel">Zrušiť</string>
     <string name="loading_indicator">Načítavanie miniaplikácie\u2026</string>
     <string name="menu_done">Hotovo</string>
+    <string name="menu_add">Pridať</string>
     <string name="ok">OK</string>
     <string name="exit">Ukončiť</string>
+    <string name="format_seconds">%s sek.</string>
     <string name="weather_0">Tornádo</string>
     <string name="weather_1">Tropická búrka</string>
     <string name="weather_2">Hurikán</string>
@@ -80,7 +82,7 @@
     <string name="weather_tap_to_refresh">Kliknutím obnovte</string>
     <string name="weather_refreshing">Obnovuje sa</string>
     <string name="weather_last_sync_just_now">Práve teraz</string>
-    <string name="weather_cannot_reach_provider">Nemožno získať dáta z %s</string>
+    <string name="weather_cannot_reach_provider">Nemožno momentálne získať dáta z %s</string>
     <string name="weather_refresh_manual">Ručne</string>
     <string name="weather_refresh_30min">30 minút</string>
     <string name="weather_refresh_60min">60 minút</string>
@@ -90,11 +92,13 @@
     <string name="weather_refresh_8hrs">8 hodín</string>
     <string name="clock_category">Hodiny a budík</string>
     <string name="weather_category">Riadok s počasím</string>
+    <string name="news_feed_category">Kanál noviniek</string>
     <string name="calendar_category">Udalosti v kalendári</string>
     <string name="about_category">O aplikácii Chronus</string>
     <string name="appearance_category">Všeobecný vzhľad</string>
     <string name="general_category">Všeobecné</string>
     <string name="display_category">Zobrazenie</string>
+    <string name="provider_category">Poskytovateľ</string>
     <string name="widget_type_keyguard">Obrazovka uzamknutia</string>
     <string name="widget_type_homescreen">Domovská obrazovka (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="clock_font_title">Hodiny tučným písmom</string>
@@ -114,7 +118,7 @@
     <string name="weather_refresh_interval">Interval aktualizácie</string>
     <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minút">%s</xliff:g> (vzťahuje sa na všetky miniaplikácie)</string>
     <string name="weather_use_metric">Použiť metrické jednotky</string>
-    <string name="weather_retrieve_location_dialog_title">Nemožno získať polohu!</string>
+    <string name="weather_retrieve_location_dialog_title">Nemožno získať polohu</string>
     <string name="weather_retrieve_location_dialog_message">Lokalizácia pomocou siete je zakázaná.\n\nNastavte vlastnú polohu alebo povoľte sieťovú lokalizáciu</string>
     <string name="weather_retrieve_location_dialog_enable_button">Povoliť</string>
     <string name="weather_invert_lowhigh">Invertovať nízke/vysoké teploty</string>
@@ -138,6 +142,23 @@
     <string name="calendar_highlight_upcoming_events_summary">Zvýrazniť udalosti dnešného dňa a po dvadsiatej hodine tiež udalosti ďalšieho dňa</string>
     <string name="calendar_highlight_upcoming_events_bold">Tučné písmo</string>
     <string name="calendar_add_event_title">Pridať ikonu udalosti</string>
+    <string name="news_feed_title">Zobraziť kanál noviniek</string>
+    <string name="news_feed_icon_title">Ikona kanála noviniek</string>
+    <string name="news_feed_rotate_interval">Interval rotácie</string>
+    <string name="news_feed_display_unread_status">Indikátor neprečítaných článkov</string>
+    <string name="news_feed_hide_viewed">Skryť zobrazené</string>
+    <string name="news_feed_provider_title">Typ poskytovateľov</string>
+    <string name="news_feed_provider_rss">RSS</string>
+    <string name="news_feed_provider_settings_title">Zdroje kanálov</string>
+    <string name="news_feed_refresh_interval">Interval aktualizácie</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minút">%s</xliff:g> (vzťahuje sa na všetky miniaplikácie)</string>
+    <string name="news_feed_refresh_manual">Ručne</string>
+    <string name="news_feed_refresh_30min">30 minút</string>
+    <string name="news_feed_refresh_60min">60 minút</string>
+    <string name="news_feed_refresh_2hrs">2 hodiny</string>
+    <string name="news_feed_refresh_4hrs">4 hodiny</string>
+    <string name="news_feed_refresh_6hrs">6 hodín</string>
+    <string name="news_feed_refresh_8hrs">8 hodín</string>
     <string name="font_color">Farba písma</string>
     <string name="font_color_alarm">Farba písma budíka</string>
     <string name="font_color_timestamp">Farba písma časovej značky</string>
@@ -154,6 +175,25 @@
     <string name="calendar_metadata_none">Nezobraziť</string>
     <string name="calendar_metadata_first_line">Zobraziť prvý riadok</string>
     <string name="calendar_metadata_all">Zobraziť všetko</string>
+    <string name="news_feed_loading">Načítavanie článkov</string>
+    <string name="news_feed_loading_summary">Prosím, počkajte niekoľko sekúnd\u2026</string>
+    <string name="news_feed_no_data">Žiadne nové články nie sú dostupné</string>
+    <string name="news_feed_no_data_summary">Kliknutím aktualizujete</string>
+    <string name="news_feed_article_new_format">[NOVÉ] <xliff:g id="title">%s</xliff:g></string>
+    <string name="news_feed_read_more">Čítať viac\u2026</string>
+    <plurals name="news_feed_new_articles">
+        <item quantity="one">1 nový článok</item>
+        <item quantity="few"><xliff:g id="articles" example="3 nové články">%s</xliff:g> nové články</item>
+        <item quantity="other"><xliff:g id="articles" example="12 nových článkov">%s</xliff:g> nových článkov</item>
+    </plurals>
+    <string name="news_feed_reader_list_all_articles_title">Všetky články</string>
+    <string name="news_feed_reader_list_unread_articles_title">Neprečítané články</string>
+    <string name="news_feed_reader_list_last_published">Aktualizované dňa <xliff:g id="date" example="24. marca">%2$s</xliff:g>, o <xliff:g id="time" example="8:30">%1$s</xliff:g></string>  
+    <string name="news_feed_reader_goto_button">Prejsť na článok</string>
+    <string name="rss_sources_custom_header">Používateľom určené</string>
+    <string name="rss_custom_source_url">URL:</string>
+    <string name="rss_custom_source_title">Pridať vlastný zdroj</string>
+    <string name="rss_custom_source_name">Názov:</string>
     <string name="white">Biela</string>
     <string name="grey">Šedá</string>
     <string name="black">Čierna</string>
@@ -172,14 +212,16 @@
     <string name="alignment_left">Zarovnané vľavo</string>
     <string name="alignment_right">Zarovnané vpravo</string>
     <string name="calendar_colors">Farby v kalendári</string>
-    <string name="clock_analog">Analógové hodiny</string>
-    <string name="clock_digital">Digitálne hodiny</string>
+    <string name="calendar_event_color_ifneeded">Zobraziť, ak je to potrebné</string>
+    <string name="calendar_event_color_always">Vždy zobraziť</string>
     <string name="contact_title">Kontaktujte nás</string>
     <string name="credits_title">Kredity</string>
-    <string name="credits_summary">Aj keď som napísal významné časti aplikácie Chronus, veľká vďaka patrí Dannymu Baumannovi za jeho
-        prácu na počasí a fakturačných službách a za prehodnocovanie a vylepšovanie; vďaka tiež patrí komunitným prekladateľom
-        CyanogenModu za pridanie všetkých jazykov, ktoré sú zahrnuté; a taktiež vďaka patrí ostatným prispievateľom, ako sú Nicolai Ehemann a Matt Booth za opravy a funkcie
-        ktorými prispeli.\n\nIkony počasia: vClouds (vclouds.deviantart.com) a Moderné (www.mikeafford.com)</string>
+    <string name="credits_summary">Aj keď som ja spolu s Dannym Baumannom napísal väčšinu aplikácie Chronus, veľká vďaka patrí prekladateľom
+        za ich preklady, ktoré sú zahrnuté v aplikácii a taktiež poďakovanie patrí ostatným prispievateľom, ako sú Nicolai Ehemann, Matt Booth
+        a Jorge Ruesga za jazyky a funkcie, ktorými prispeli.\n\n
+        Ikony počasia:\n
+        \u2022 vClouds (vclouds.deviantart.com)\n
+        \u2022 Moderné (www.mikeafford.com)</string>
     <string name="how_to_title">Pomocník</string>
     <string name="first_run_title">Vitajte v aplikácii %s</string>
     <string name="first_run_message">Chronus je miniaplikácia, ktorú je potrebné ručne pridať buď na plochu (Android 4.1+) alebo na
@@ -213,6 +255,7 @@
     <string name="tap_action_weather_refresh">Aktualizácia počasia</string>
     <string name="tap_action_calendar_default">Systémový kalendár</string>
     <string name="tap_action_weather_forecast">Zobrazenie predpovede</string>
+    <string name="tap_action_do_nothing">Neurobiť nič</string>
     <string name="weather_select_location">Vybrať polohu</string>
     <string name="weather_source_title">Zdroj počasia</string>
     <string name="weather_source_yahoo">Yahoo! Počasie</string>
@@ -242,7 +285,7 @@
     <string name="show_date_title">Zobraziť dátum</string>
     <string name="weather_icon_set_title">Sada ikon</string>
     <string name="weather_icons_standard">Farebné</string>
-    <string name="weather_icons_monochrome">Monochrome</string>
+    <string name="weather_icons_monochrome">Jednofarebné</string>
     <string name="weather_icons_modern">Moderné</string>
     <string name="weather_icons_vclouds">VClouds</string>
     <string name="weather_icons_flat">Ploché</string>

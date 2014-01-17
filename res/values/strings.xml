@@ -24,10 +24,14 @@
     <string name="cancel">Cancel</string>
     <string name="loading_indicator">Loading widget\u2026</string>
     <string name="menu_done">Done</string>
+    <string name="menu_add">Add</string>
     <string name="ok">OK</string>
     <string-array name="empty_array" translatable="false"/>
     <string name="send_log" translatable="false">Logcat</string>
     <string name="exit">Exit</string>
+
+    <!-- Formats -->
+    <string name="format_seconds">%s sec.</string>
 
     <!-- Formating strings for widget clock -->
     <string name="widget_12_hours_format_h" translatable="false">h</string>
@@ -120,11 +124,13 @@
     <!-- Preferences - Categories -->
     <string name="clock_category">Clock and alarm</string>
     <string name="weather_category">Weather panel</string>
+    <string name="news_feed_category">News feed</string>
     <string name="calendar_category">Calendar events</string>
     <string name="about_category">About Chronus</string>
     <string name="appearance_category">General appearance</string>
     <string name="general_category">General</string>
     <string name="display_category">Display</string>
+    <string name="provider_category">Provider</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Lock screen</string>
@@ -183,6 +189,28 @@
     <string name="calendar_highlight_upcoming_events_bold">Bold font</string>
     <string name="calendar_add_event_title">Add Event icon</string>
 
+    <!-- Preferences - News feed -->
+    <string name="news_feed_title">Display News feed</string>
+    <string name="news_feed_icon_title">News feed icon</string>
+    <string name="news_feed_rotate_interval">Rotation interval</string>
+    <string name="news_feed_display_unread_status">Unread indicator</string>
+    <string name="news_feed_hide_viewed">Hide viewed</string>
+    <string name="news_feed_no_articles_text_title">Show \'No articles\' text</string>
+    <string name="news_feed_provider_title">Provider type</string>
+    <string name="news_feed_provider_rss">RSS</string>
+    <string name="news_feed_provider_settings_title">Feed sources</string>
+    <string name="news_feed_refresh_interval">Update interval</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (applies to all widgets)</string>
+
+    <!-- News Feed - Update frequency -->
+    <string name="news_feed_refresh_manual">Manual</string>
+    <string name="news_feed_refresh_30min">30 minutes</string>
+    <string name="news_feed_refresh_60min">60 minutes</string>
+    <string name="news_feed_refresh_2hrs">2 hours</string>
+    <string name="news_feed_refresh_4hrs">4 hours</string>
+    <string name="news_feed_refresh_6hrs">6 hours</string>
+    <string name="news_feed_refresh_8hrs">8 hours</string>
+
     <!-- Preferences - Font colors -->
     <string name="font_color">Font color</string>
     <string name="font_color_alarm">Alarm font color</string>
@@ -204,6 +232,32 @@
     <string name="calendar_metadata_none">Do not show</string>
     <string name="calendar_metadata_first_line">Show first line</string>
     <string name="calendar_metadata_all">Show all</string>
+
+    <!-- News - Widgets -->
+    <string name="news_feed_loading">Loading articles</string>
+    <string name="news_feed_loading_summary">Please wait a few seconds\u2026</string>
+    <string name="news_feed_no_data">No new articles available</string>
+    <string name="news_feed_no_data_summary">Tap to refresh</string>
+    <string name="news_feed_article_new_format">[NEW] <xliff:g id="title">%s</xliff:g></string>
+    <string name="news_feed_read_more">Read more\u2026</string>
+
+    <!-- News - Service -->
+    <plurals name="news_feed_new_articles">
+        <item quantity="one">1 new article</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> new articles</item>
+    </plurals>
+
+    <!-- News - Reader -->
+    <string name="news_feed_reader_list_all_articles_title">All articles</string>
+    <string name="news_feed_reader_list_unread_articles_title">Unread articles</string>
+    <string name="news_feed_reader_list_last_published">Updated on <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
+    <string name="news_feed_reader_goto_button">Go to article</string>
+
+    <!-- News Feed Provider Settings - RSS -->
+    <string name="rss_sources_custom_header">User-defined</string>
+    <string name="rss_custom_source_url">Url:</string>
+    <string name="rss_custom_source_title">Add custom source</string>
+    <string name="rss_custom_source_name">Name:</string>
 
     <!-- Font colors -->
     <string name="white">White</string>
@@ -237,9 +291,9 @@
         picker feature of Android and your launcher.</string>
 
     <string name="credits_title">Credits</string>
-    <string name="credits_summary">While Danny Baumann and I wrote most of the widget, credit also
-        goes to the many translators for the included languages as well as other contributors such as Nicolai Ehemann
-        and Matt Booth for the features they have contributed.\n\n
+    <string name="credits_summary">While Danny Baumann and I wrote most of the widget, credit also goes to the many
+        translators as well as other contributors such as Nicolai Ehemann, Matt Booth and Jorge Ruesga for the
+        languages and features they have contributed.\n\n
         Weather Icons:\n
         \u2022 VClouds (vclouds.deviantart.com)\n
         \u2022 Modern (www.mikeafford.com)</string>
@@ -276,6 +330,7 @@
     <string name="tap_action_weather_refresh">Refresh weather</string>
     <string name="tap_action_calendar_default">System calendar</string>
     <string name="tap_action_weather_forecast">Show forecast</string>
+    <string name="tap_action_do_nothing">Do nothing</string>
 
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">Widget background</string>
@@ -294,10 +349,8 @@
 
     <!-- Calendar colors -->
     <string name="calendar_colors">Calendar colors</string>
-
-    <!-- Clock types -->
-    <string name="clock_analog">Analog clock</string>
-    <string name="clock_digital">Digital clock</string>
+    <string name="calendar_event_color_ifneeded">Show if needed</string>
+    <string name="calendar_event_color_always">Always show</string>
 
     <!-- Weather providers -->
     <string name="weather_source_wunderground" translatable="false">Weather Underground</string>

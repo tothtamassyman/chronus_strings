@@ -234,8 +234,6 @@
     <string name="alignment_left">Allineato a sinistra</string>
     <string name="alignment_right">Allineato a destra</string>
     <string name="calendar_colors">Colore calendario</string>
-    <string name="clock_analog">Orologio analogico</string>
-    <string name="clock_digital">Orologio digitale</string>
     <string name="chronus_clockplus">Chronus Orologio+</string>
     <string name="chronus_weather">Chronus Meteo</string>
     <string name="chronus_forecast">Chronus Previsioni Meteo</string>

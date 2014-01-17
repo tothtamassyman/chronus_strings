@@ -86,8 +86,6 @@
   <string name="calendar_category">กิจกรรมปฏิทิน</string>
   <string name="general_category">ทั่วไป</string>
   <string name="display_category">แสดง</string>
-  <string name="use_digital_clock_title">ใช้นาฬิกาดิจิตอล</string>
-  <string name="use_digital_clock_summary">เลือกระหว่างนาฬิกาดิจิตอล หรือนาฬิกาแบบเข็ม</string>
   <string name="clock_font_title">แสดงตัวเลข\"ชั่วโมง\"เป็นตัวหนา</string>
   <string name="clock_font_minutes_title">แสดงตัวเลข\"นาที\"เป็นตัวหนา</string>
   <string name="clock_font_date_title">แสดงตัวหนาสำหรับวันที่และนาฬิกาปลุก</string>
