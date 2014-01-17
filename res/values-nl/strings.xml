@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2012-2013 The CyanogenMod Project (DvTonder)
+<!-- 
+     Copyright (C) 2012 The CyanogenMod Project (DvTonder)
+     Chronus additions (c) 2013 David van Tonder
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,8 +18,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="unknown">Onbekend</string>
     <string name="cancel">Annuleren</string>
-    <string name="loading_indicator">Bezig met laden van widget\u2026</string>
-    <string name="menu_done">Gereed</string>
+    <string name="loading_indicator">Widget laden\u2026</string>
+    <string name="menu_done">OK</string>
+    <string name="menu_add">Toevoegen</string>
+    <string name="ok">OK</string>
+    <string name="exit">Afsluiten</string>
+
+    <string name="format_seconds">%s sec.</string>
+
     <string name="weather_0">Tornado</string>
     <string name="weather_1">Tropische storm</string>
     <string name="weather_2">Tropische cycloon</string>
@@ -68,6 +75,10 @@
     <string name="weather_46">Sneeuwstormen</string>
     <string name="weather_47">Geïsoleerde onweersbuien</string>
     <string name="weather_3200"></string>
+
+    <string name="weather_kph">km/u</string>
+    <string name="weather_mph">mph</string>
+
     <string name="weather_N">N</string>
     <string name="weather_NE">NO</string>
     <string name="weather_E">O</string>
@@ -76,11 +87,13 @@
     <string name="weather_SW">ZW</string>
     <string name="weather_W">W</string>
     <string name="weather_NW">NW</string>
+
     <string name="weather_no_data">Geen gegevens</string>
     <string name="weather_tap_to_refresh">Tik om te vernieuwen</string>
     <string name="weather_refreshing">Vernieuwen\u2026</string>
     <string name="weather_last_sync_just_now">Zojuist</string>
-    <string name="weather_cannot_reach_provider">Kan %s niet bereiken</string>
+    <string name="weather_cannot_reach_provider">%s momenteel niet bereikbaar</string>
+
     <string name="weather_refresh_manual">Handmatig</string>
     <string name="weather_refresh_30min">0,5 uur</string>
     <string name="weather_refresh_60min">1 uur</string>
@@ -88,19 +101,33 @@
     <string name="weather_refresh_4hrs">4 uur</string>
     <string name="weather_refresh_6hrs">6 uur</string>
     <string name="weather_refresh_8hrs">8 uur</string>
+
     <string name="clock_category">Klok &amp; alarm</string>
     <string name="weather_category">Weerpaneel</string>
+    <string name="news_feed_category">Nieuws</string>
     <string name="calendar_category">Agenda-afspraken</string>
+    <string name="appearance_category">Algemene uiterlijk</string>
+    <string name="about_category">Over Chronus</string>
     <string name="general_category">Algemeen</string>
     <string name="display_category">Weergave</string>
+    <string name="provider_category">Bron</string>
+
+    <string name="widget_type_keyguard">Vergrendelingsscherm</string>
+    <string name="widget_type_homescreen">Startscherm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+
     <string name="clock_font_title">Uren vetgedrukt</string>
     <string name="clock_font_minutes_title">Minuten vetgedrukt</string>
     <string name="clock_font_date_title">Alarm/datum vetgedrukt</string>
     <string name="show_alarm_title">Volgend alarm tonen</string>
     <string name="clock_am_pm_title">AM/PM weergeven</string>
+
     <string name="weather_enabled">Ingeschakeld</string>
     <string name="weather_enable">Weer tonen</string>
+    <string name="weather_source_title">Weather source</string>
     <string name="weather_source_yahoo">Yahoo! Weer</string>
+    <string name="weather_source_wunderground">Weather Underground</string>
+    <string name="weather_source_hamweather">Hamweather</string>
+    <string name="weather_source_accuweather">AccuWeather</string>
     <string name="weather_use_custom_location">Aangepaste locatie</string>
     <string name="weather_geolocated">Locatie bepalen door netwerk</string>
     <string name="weather_custom_location_dialog_title">Locatie invoeren</string>
@@ -109,6 +136,7 @@
     <string name="weather_show_location_title">Locatie tonen</string>
     <string name="weather_show_timestamp_title">Tijdsaanduiding tonen</string>
     <string name="weather_refresh_interval">Vernieuwingsinterval</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (van toepassing op alle widgets)</string>
     <string name="weather_use_metric">Metrische eenheden</string>
     <string name="weather_retrieve_location_dialog_title">Kan locatie niet bepalen</string>
     <string name="weather_retrieve_location_dialog_message">Netwerklocatiebepaling is uitgeschakeld. Stel een aangepaste locatie in of schakel netwerklocatiebepaling in</string>
@@ -120,7 +148,7 @@
     <string name="weather_show_when_minimized_title">Tonen indien geminimaliseerd</string>
     <string name="weather_show_when_minimized_summary">Weersinformatie tonen indien widget is geminimaliseerd</string>
     <string name="weather_select_location">Locatie selecteren</string>
-    <string name="calendar_upcoming_events_category">Aankomende afspraken</string>
+
     <string name="calendar_title">Volgende afspraak tonen</string>
     <string name="calendars_title">Afspraakagenda\'s</string>
     <string name="calendars_summary">Afspraken gebruiken uit deze agenda\'s</string>
@@ -131,13 +159,36 @@
     <string name="calendar_lookahead_title">Vooruitkijken op afspraak</string>
     <string name="calendar_show_location_title">Afspraaklocatie</string>
     <string name="calendar_show_description_title">Afspraakbeschrijving</string>
+    <string name="calendar_upcoming_events_category">Eerstvolgende afspraken</string>
     <string name="calendar_highlight_upcoming_events_title">Afspraken benadrukken</string>
     <string name="calendar_highlight_upcoming_events_summary">Afspraken benadrukken van vandaag en, na acht uur \'s avonds, van morgen</string>
     <string name="calendar_highlight_upcoming_events_bold">Vetgedrukt</string>
+    <string name="calendar_add_event_title">Pictogram voor afspraak toevoegen</string>
+
+    <string name="news_feed_title">Nieuws tonen</string>
+    <string name="news_feed_icon_title">Nieuwspictogram</string>
+    <string name="news_feed_rotate_interval">Wisselinterval</string>
+    <string name="news_feed_display_unread_status">Indicatie voor ongelezen</string>
+    <string name="news_feed_hide_viewed">Gelezen verbergen</string>
+    <string name="news_feed_provider_title">Soort bron</string>
+    <string name="news_feed_provider_rss">RSS</string>
+    <string name="news_feed_provider_settings_title">Nieuwsbron</string>
+    <string name="news_feed_refresh_interval">Vernieuwingsinterval</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (van toepassing op alle widgets)</string>
+
+    <string name="news_feed_refresh_manual">Handmatig</string>
+    <string name="news_feed_refresh_30min">0,5 uur</string>
+    <string name="news_feed_refresh_60min">1 uur</string>
+    <string name="news_feed_refresh_2hrs">2 uur</string>
+    <string name="news_feed_refresh_4hrs">4 uur</string>
+    <string name="news_feed_refresh_6hrs">6 uur</string>
+    <string name="news_feed_refresh_8hrs">8 uur</string>
+
     <string name="font_color">Letterkleur</string>
     <string name="font_color_alarm">Letterkleur alarm</string>
     <string name="font_color_timestamp">Letterkleur tijdsaanduiding</string>
     <string name="font_color_calendar_details">Letterkleur details</string>
+
     <string name="calendar_lookahead_3hrs">3 uur</string>
     <string name="calendar_lookahead_6hrs">6 uur</string>
     <string name="calendar_lookahead_12hrs">12 uur</string>
@@ -147,9 +198,33 @@
     <string name="calendar_lookahead_1wk">1 week</string>
     <string name="calendar_lookahead_2wks">2 weken</string>
     <string name="calendar_lookahead_4wks">4 weken</string>
+
     <string name="calendar_metadata_none">Niet tonen</string>
     <string name="calendar_metadata_first_line">Eerste regel tonen</string>
     <string name="calendar_metadata_all">Alles tonen</string>
+
+    <string name="news_feed_loading">Berichten laden</string>
+    <string name="news_feed_loading_summary">Even geduld a.u.b.\u2026</string>
+    <string name="news_feed_no_data">Geen nieuwe berichten beschikbaar</string>
+    <string name="news_feed_no_data_summary">Tik om te vernieuwen</string>
+    <string name="news_feed_article_new_format">[NIEUW] <xliff:g id="title">%s</xliff:g></string>
+    <string name="news_feed_read_more">Meer lezen\u2026</string>
+
+    <plurals name="news_feed_new_articles">
+        <item quantity="one">1 nieuw bericht</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> nieuwe berichten</item>
+    </plurals>
+
+    <string name="news_feed_reader_list_all_articles_title">Alle berichten</string>
+    <string name="news_feed_reader_list_unread_articles_title">Ongelezen berichten</string>
+    <string name="news_feed_reader_list_last_published">Bijgewerkt om <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
+    <string name="news_feed_reader_goto_button">Naar bericht</string>
+
+    <string name="rss_sources_custom_header">Door de gebruiker gedefinieerd</string>
+    <string name="rss_custom_source_url">URL:</string>
+    <string name="rss_custom_source_title">Aangepaste bron</string>
+    <string name="rss_custom_source_name">Naam:</string>
+
     <string name="white">Wit</string>
     <string name="grey">Grijs</string>
     <string name="black">Zwart</string>
@@ -163,8 +238,8 @@
     <string name="holo_orange_light">Lichtoranje</string>
     <string name="holo_orange_dark">Donkeroranje</string>
     <string name="holo_blue_bright">Helderblauw</string>
+    <string name="custom_color">Aangepast</string>
 
-    <!-- Chronus -->
     <string name="how_to_title">Help</string>
     <string name="first_run_title">Welkom bij %s</string>
     <string name="first_run_message">Chronus is een widget en dient handmatig toegevoegd te worden aan het startscherm
@@ -175,17 +250,20 @@
         Android 4.2 een widget toe te voegen aan het vergrendelingsscherm, sleept u naar links in het vergrendelingsscherm en gebruikt u
         de knop Toevoegen (+) om Chronus toe te voegen. De volgorde kan worden gewijzigd door items lang aan te raken en ze te
         verplaatsen of te verwijderen.</string>
-    <string name="no_widget_message">Tenminste één Chronus-widget moet toegevoegd zijn op het start-
+
+    <string name="no_widget_message">Ten minste één Chronus-widget moet toegevoegd zijn op het start-
         of vergrendelingsscherm om deze app te gebruiken voor het wijzigen van de widgetinstellingen.\n\n Widgets kunnen worden toegevoegd
         met de widgetkiezer van Android en met uw launcher.</string>
+
     <string name="credits_title">Dankbetuigingen</string>
     <string name="credits_summary">Hoewel Danny Baumann en ik het meeste van deze widget hebben geschreven, wil ik ook de vertalers
-        en anderen, zoals Nicolai Ehemann en Matt Booth bedanken voor hun bijdragen.\n\n
+        en anderen, zoals Nicolai Ehemann, Matt Booth en Jorge Ruesga bedanken voor hun bijdragen aan de vertalingen en de mogelijkheden.\n\n
         Weerpictogrammen:\n
         \u2022 VClouds (vclouds.deviantart.com)\n
         \u2022 Modern (www.mikeafford.com)</string>
     <string name="contact_title">Contact opnemen</string>
     <string name="send_email">E-mail verzenden\u2026</string>
+
     <string name="pro_features_summary">Raak aan om Pro-functies in te schakelen</string>
     <string name="pro_features_thanks">Bedankt voor uw aankoop</string>
     <string name="pro_features_message">De Pro-versie bevat alle functies van de standaardversie en
@@ -196,17 +274,22 @@
         \u2022 Een kleiner agendapaneel\n
         \u2022 en meer\u2026\n\nSuggesties zijn altijd welkom.\n\nAlvast bedankt voor uw ondersteuning.</string>
     <string name="get_pro">Pro-functies verkrijgen</string>
+
     <string name="pro_check_dialog_message">Pro-licentie controleren\u2026</string>
+
     <string name="picker_apps">Apps</string>
     <string name="picker_activities">Activiteiten</string>
     <string name="picker_default">Standaardactie</string>
     <string name="picker_select_custom_app_title">Aangepaste app selecteren</string>
     <string name="picker_select_custom_activity_title">Aangepaste activiteit selecteren</string>
+
     <string name="tap_action_title">Aanraakactie</string>
     <string name="tap_action_clock_default">Systeemklok</string>
     <string name="tap_action_weather_refresh">Weer vernieuwen</string>
     <string name="tap_action_calendar_default">Systeemagenda</string>
     <string name="tap_action_weather_forecast">Voorspelling weergeven</string>
+    <string name="tap_action_do_nothing">Niets doen</string>
+
     <string name="widget_background_title">Widgetachtergrond</string>
     <string name="widget_background_default">Transparant</string>
     <string name="widget_background_color_fill">Kleur</string>
@@ -214,11 +297,16 @@
     <string name="widget_background_dialog_title">Kleur selecteren</string>
     <string name="widget_background_result_successful">Achtergrond succesvol gewijzigd</string>
     <string name="widget_background_result_not_successful">Kan achtergrond niet wijzigen</string>
+
     <string name="alignment_title">Indeling</string>
     <string name="alignment_centered">Midden</string>
     <string name="alignment_left">Links</string>
     <string name="alignment_right">Rechts</string>
-    <string name="calendar_colors">Kleur afsprakenagenda</string>
+
+    <string name="calendar_colors">Agendakleuren</string>
+    <string name="calendar_event_color_ifneeded">Tonen indien nodig</string>
+    <string name="calendar_event_color_always">Altijd tonen</string>
+
     <string name="chronus_clockplus">Chronus (klok+)</string>
     <string name="chronus_weather">Chronus (weer)</string>
     <string name="chronus_forecast">Chronus (weersverwachting)</string>
@@ -227,13 +315,22 @@
     <string name="chronus_weather_short">Weer</string>
     <string name="chronus_forecast_short">Weersverwachting</string>
     <string name="chronus_calendar_short">Agenda</string>
+
+    <string name="chronus_flex_analog">Chronus Flex (Analoog)</string>
+    <string name="chronus_flex_analog_short">Flex (Analoog)</string>
+
+
     <string name="widget_rounded_corners_title">Afgeronde hoeken</string>
+
     <string name="calendar_no_events">Geen komende afspraken</string>
     <string name="calendar_no_events_summary">Tik op + om toe te voegen</string>
     <string name="calendar_no_events_indicator_title">\'Geen afspraken\' weergeven</string>
+
     <string name="cling_widget_select_title">Widget selecteren</string>
     <string name="cling_widget_select_detail">U kunt elke geplaatste widget instellen. Selecteer welke u wilt met de selector bovenaan.</string>
+
     <string name="show_date_title">Datum weergeven</string>
+
     <string name="weather_icon_set_title">Pictogrammenpakket</string>
     <string name="weather_icons_standard">Gekleurd</string>
     <string name="weather_icons_monochrome">Zwart-wit</string>
@@ -242,11 +339,5 @@
     <string name="weather_icons_flat">Vlak</string>
     <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Meer\u2026</string>
-
-    <string name="appearance_category">Algemene uiterlijk</string>
-    <string name="about_category">Over Chronus</string>
-    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (van toepassing op alle widgets)</string>
-    <string name="widget_type_keyguard">Vergrendelingsscherm</string>
-    <string name="widget_type_homescreen">Startscherm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
-    <string name="exit">Afsluiten</string>
+     <string name="weather_icons_realism">Realistisch</string>
 </resources>
