@@ -20,8 +20,12 @@
     <string name="cancel">Annuler</string>
     <string name="loading_indicator">Chargement du widget\u2026</string>
     <string name="menu_done">OK</string>
+    <string name="menu_add">Ajouter</string>
     <string name="ok">OK</string>
     <string name="exit">Quitter</string>
+
+    <!-- Formats -->
+    <string name="format_seconds">%s s</string>
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">Tornade</string>
@@ -107,11 +111,13 @@
     <!-- Preferences - Categories -->
     <string name="clock_category">Horloge et alarme</string>
     <string name="weather_category">Météo</string>
+    <string name="news_feed_category">Flux RSS</string>
     <string name="calendar_category">Événement de l\'agenda</string>
     <string name="about_category">À propos de Chronus</string>
     <string name="appearance_category">Apparence générale</string>
     <string name="general_category">Général</string>
     <string name="display_category">Affichage</string>
+    <string name="provider_category">Fournisseur</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Écran de verrouillage</string>
@@ -170,6 +176,27 @@
     <string name="calendar_highlight_upcoming_events_bold">Police en gras</string>
     <string name="calendar_add_event_title">Icône nouvel événement</string>
 
+    <!-- Preferences - News feed -->
+    <string name="news_feed_title">Afficher le flux RSS</string>
+    <string name="news_feed_icon_title">Icône de flux RSS</string>
+    <string name="news_feed_rotate_interval">Délai avant rotation</string>
+    <string name="news_feed_display_unread_status">Indicateur de non-lus</string>
+    <string name="news_feed_hide_viewed">Masquer les articles vues</string>
+    <string name="news_feed_provider_title">Type de fournisseur</string>
+    <string name="news_feed_provider_rss">RSS</string>
+    <string name="news_feed_provider_settings_title">Sources des flux</string>
+    <string name="news_feed_refresh_interval">Interval de mise à jour</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (s\'applique à tous les widgets)</string>
+
+    <!-- News Feed - Update frequency -->
+    <string name="news_feed_refresh_manual">Manuel</string>
+    <string name="news_feed_refresh_30min">30 minutes</string>
+    <string name="news_feed_refresh_60min">60 minutes</string>
+    <string name="news_feed_refresh_2hrs">2 heures</string>
+    <string name="news_feed_refresh_4hrs">4 heures</string>
+    <string name="news_feed_refresh_6hrs">6 heures</string>
+    <string name="news_feed_refresh_8hrs">8 heures</string>
+
     <!-- Preferences - Font colors -->
     <string name="font_color">Couleur de la police</string>
     <string name="font_color_alarm">Couleur de la police d\'alarme</string>
@@ -191,6 +218,32 @@
     <string name="calendar_metadata_none">Ne pas afficher</string>
     <string name="calendar_metadata_first_line">Afficher la première ligne</string>
     <string name="calendar_metadata_all">Tout afficher</string>
+
+    <!-- News - Widgets -->
+    <string name="news_feed_loading">Chargement des articles</string>
+    <string name="news_feed_loading_summary">Patienter quelques secondes\u2026</string>
+    <string name="news_feed_no_data">Pas de nouveaux articles disponibles</string>
+    <string name="news_feed_no_data_summary">Appuyer pour rafraîchir</string>
+    <string name="news_feed_article_new_format">[NOUVEAU] <xliff:g id="title">%s</xliff:g></string>
+    <string name="news_feed_read_more">Plus\u2026</string>
+
+    <!-- News - Service -->
+    <plurals name="news_feed_new_articles">
+        <item quantity="one">1 nouvel article</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> nouveaux articles</item>
+    </plurals>
+
+    <!-- News - Reader -->
+    <string name="news_feed_reader_list_all_articles_title">Tous les articles</string>
+    <string name="news_feed_reader_list_unread_articles_title">Articles non lus</string>
+    <string name="news_feed_reader_list_last_published">Mise à jour à <xliff:g id="time" example="8:30">%1$s</xliff:g> le <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
+    <string name="news_feed_reader_goto_button">Aller à l\'article</string>
+
+    <!-- News Feed Provider Settings - RSS -->
+    <string name="rss_sources_custom_header">Utilisateur</string>
+    <string name="rss_custom_source_url">Url :</string>
+    <string name="rss_custom_source_title">Ajouter une source personnalisée</string>
+    <string name="rss_custom_source_name">Nom :</string>
 
     <!-- Font colors -->
     <string name="white">Blanc</string>
@@ -216,6 +269,7 @@
         \n\nN\'oubliez pas de redimensionner le widget sur votre écran d\'accueil pour faire de la place pour tous les panneaux que vous avez activés (horloge, météo et calendrier), le widget cachera automatiquement les panneaux si la place n\'est pas suffisante.
         \n\nPour de meilleurs résultats, je recommande d\'utiliser soit Apex soit Nova launchers. Chronus devrait fonctionner sur la plupart des lanceurs, mais la possibilité de configurer le mode d\'affichage peut être limité.
         \n\nAvec Android 4.2 et supérieur, pour ajouter un widget à l\'écran de verrouillage, glissez à gauche sur l\'écran de verrouillage, puis utilisez le bouton (+) pour ajouter Chronus. Les widgets de l\'écran de verrouillage peuvent être réorganisés avec un appui prolongé puis en déplaçant ou en supprimant les widgets.</string>
+
     <string name="no_widget_message">Avant de pouvoir modifier cette application au moins un Widget Chronus doit être ajouté soit à l\'écran d\'accueil soit à l\'écran de verrouillage.\n\nLes widgets peuvent être ajoutés à l\'aide de la fonction de sélecteur de widget d\'Android et de votre lanceur d\'application.</string>
     <string name="credits_title">Crédits</string>
     <string name="credits_summary">Même si j\'ai écrit des parties importantes de Chronus énormément de mérite revient à Danny Baumann pour son travail sur les conditions météorologiques, le service de facturation, l\'examen et le peaufinage du code ; mais également aux nombreux traducteurs de la communauté CyanogenMod pour avoir ajouté toutes les langues qui sont incluses, et d\'autres contributeurs comme Nicolai Ehemann et Matt Booth pour les correctifs et les fonctionnalités qu\'ils ont ajoutées.</string>
@@ -249,6 +303,7 @@
     <string name="tap_action_weather_refresh">Rafraîchir la météo</string>
     <string name="tap_action_calendar_default">Calendrier du système</string>
     <string name="tap_action_weather_forecast">Afficher les prévisions</string>
+    <string name="tap_action_do_nothing">Ne rien faire</string>
 
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">Arrière plan du widget</string>
@@ -266,15 +321,16 @@
     <string name="alignment_right">Aligné à droite</string>
 
     <!-- Calendar colors -->
-    <string name="calendar_colors">Couleur de l\'événement du calendrier</string>
+    <string name="calendar_colors">Couleur des événements du calendrier</string>
+    <string name="calendar_event_color_ifneeded">Afficher si nécessaire</string>
+    <string name="calendar_event_color_always">Toujours afficher</string>
 
     <!-- Widget names -->
-    <!-- TRANSLATORS: The App name should remain as Chronus -->
+    <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_clockplus">Chronus Horloge+</string>
     <string name="chronus_weather">Chronus Météo</string>
     <string name="chronus_forecast">Chronus Prévision</string>
     <string name="chronus_calendar">Chronus Agendas</string>
-
     <string name="chronus_clockplus_short">Horloge+</string>
     <string name="chronus_weather_short">Météo</string>
     <string name="chronus_forecast_short">Prévision</string>
