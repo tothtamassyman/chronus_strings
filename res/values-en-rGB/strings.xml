@@ -6,8 +6,6 @@
     <string name="weather_geolocated">Geolocated using network</string>
     <string name="weather_custom_location_dialog_title">Enter location</string>
     <string name="weather_custom_location_hint">Town/City, County/Region/Country</string>
-    <string name="weather_alternate_icons_title">Use colour icons</string>
-    <string name="weather_alternate_icons_summary">Select to toggle between the default (colour) and the alternative (white) icons</string>
     <string name="weather_show_when_minimized_title">Show when minimised</string>
     <string name="weather_show_when_minimized_summary">Display summary weather information when the widget is minimised</string>
 
@@ -17,4 +15,19 @@
     <string name="font_color_calendar_details">Details font colour</string>
 
     <string name="grey">Grey</string><!-- just in case the default ever becomes 'Gray' -->
+
+    <!-- Preferences - Widget background -->
+    <string name="widget_background_color_fill">Colour fill</string>
+    <string name="widget_background_dialog_title">Choose colour</string>
+
+    <!-- Alignment settings -->
+    <string name="alignment_centered">Centred</string>
+
+    <!-- Calendar colors -->
+    <string name="calendar_colors">Event calendar colour</string>
+
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analogue)</string>
+    <string name="chronus_flex_analog_short">Flex (Analogue)</string>
+
 </resources>

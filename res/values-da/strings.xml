@@ -219,12 +219,15 @@
     <string name="alignment_left">Venstrestillet</string>
     <string name="alignment_right">Højrestillet</string>
     <string name="calendar_colors">Farve til kalenderbegivenhed</string>
-    <string name="clock_analog">Analogt ur</string>
-    <string name="clock_digital">Digitalt ur</string>
     <string name="chronus_clockplus">Chronus Ur+</string>
     <string name="chronus_weather">Chronus Vejr</string>
     <string name="chronus_calendar">Chronus Kalender</string>
     <string name="chronus_clockplus_short">Ur+</string>
     <string name="chronus_weather_short">Vejr</string>
     <string name="chronus_calendar_short">Kalender</string>
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analogt)</string>
+    <string name="chronus_flex_analog_short">Flex (Analogt)</string>
+
+
 </resources>

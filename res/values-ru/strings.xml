@@ -251,10 +251,6 @@
     <!-- Calendar colors -->
     <string name="calendar_colors">Цвет событий календаря</string>
 
-    <!-- Clock types -->
-    <string name="clock_analog">Аналоговые часы</string>
-    <string name="clock_digital">Цифровые часы</string>
-
     <!-- Widget Names -->
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus Clock+</string>
@@ -265,6 +261,9 @@
     <string name="chronus_weather_short">погода</string>
     <string name="chronus_forecast_short">прогноз</string>
     <string name="chronus_calendar_short">календарь</string>
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Аналоговые)</string>
+    <string name="chronus_flex_analog_short">Flex (Аналоговые)</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Экран блокировки</string>
@@ -274,6 +273,7 @@
     <string name="widget_rounded_corners_title">Скруглённые углы</string>
 
     <!-- Calendar - No events -->
+    <string name="calendar_add_event_title">Значок добавления события</string>
     <string name="calendar_no_events">Нет предстоящих событий</string>
     <string name="calendar_no_events_summary">Нажмите «+» для добавления</string>
     <string name="calendar_no_events_indicator_title">Показывать надпись «нет событий»</string>
@@ -286,9 +286,9 @@
     <string name="show_date_title">Показывать дату</string>
  
      <!-- Weather icon sets -->
-     <string name="weather_icon_set_title">Набор значков</string>
-     <string name="weather_icons_standard">Цветные</string>
-     <string name="weather_icons_monochrome">Чёрно-белые</string>
-     <string name="icon_set_selection_get_more">Скачать ещё</string>
+    <string name="weather_icon_set_title">Набор значков</string>
+    <string name="weather_icons_standard">Цветные</string>
+    <string name="weather_icons_monochrome">Монохромные</string>
+    <string name="icon_set_selection_get_more">Скачать ещё</string>
 
 </resources>

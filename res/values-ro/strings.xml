@@ -207,6 +207,7 @@
     <string name="holo_orange_light">Portocaliu deschis</string>
     <string name="holo_orange_dark">Portocaliu închis</string>
     <string name="holo_blue_bright">Albastru aprins</string>
+    <string name="custom_color">Personalizată</string>
 
     <!-- First run -->
     <string name="how_to_title">Ajutor</string>
@@ -232,7 +233,7 @@
         \u2022 Setări individuale pentru widget\n
         \u2022 Opțiuni adiționale pentru calendar\n
         \u2022 Panou calendar mini\n
-        \u2022 și altele\u2026\n\nSugestiile sunt binevoite.\n\nMulțumim anticipat pentru suportul Dvs.</string>
+        \u2022 și altele\u2026\n\nSugestiile sunt binevenite.\n\nMulțumim anticipat pentru suportul Dvs.</string>
     <string name="get_pro">Activare Pro</string>
 
     <string name="pro_check_dialog_message">Verificare licență Pro\u2026</string>
@@ -269,12 +270,8 @@
     <!-- Calendar colors -->
     <string name="calendar_colors">Culori calendar</string>
 
-    <!-- Clock types -->
-    <string name="clock_analog">Ceas analogic</string>
-    <string name="clock_digital">Ceas digital</string>
-
     <!-- Widget names -->
-    <!-- TRANSLATORS: The App name should remain as Chronus -->
+    <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_clockplus">Chronus Ceas+</string>
     <string name="chronus_weather">Chronus Meteo</string>
     <string name="chronus_forecast">Chronus Prognoză</string>
@@ -283,6 +280,9 @@
     <string name="chronus_weather_short">Meteo</string>
     <string name="chronus_forecast_short">Prognoză</string>
     <string name="chronus_calendar_short">Calendar</string>
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analog)</string>
+    <string name="chronus_flex_analog_short">Flex (Analog)</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Colțuri rotungite</string>
@@ -306,5 +306,6 @@
     <string name="weather_icons_vclouds">VClouds</string>
     <string name="weather_icons_flat">Flat</string>
     <string name="weather_icons_vista">Vista</string>
+    <string name="weather_icons_realism">Realism</string>
     <string name="icon_set_selection_get_more">Mai multe\u2026</string>
 </resources>

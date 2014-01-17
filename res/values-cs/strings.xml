@@ -31,10 +31,10 @@
     <string name="weather_8">Mrznoucí mrholení</string>
     <string name="weather_9">Mrholení</string>
     <string name="weather_10">Mrznoucí déšť</string>
-    <string name="weather_11">Silný déšť</string>
+    <string name="weather_11">Přeháňky</string>
     <string name="weather_12">Přeháňky</string>
     <string name="weather_13">Sněhové přeháňky</string>
-    <string name="weather_14">Lehké přeháňky se sněhem</string>
+    <string name="weather_14">Slabé přeháňky se sněhem</string>
     <string name="weather_15">Zvířený sníh</string>
     <string name="weather_16">Sněžení</string>
     <string name="weather_17">Krupobití</string>
@@ -62,7 +62,7 @@
     <string name="weather_39">Občasné bouřky</string>
     <string name="weather_40">Ojediněle přeháňky</string>
     <string name="weather_41">Silné sněžení</string>
-    <string name="weather_42">Ojediněle sněhové přeháňky</string>
+    <string name="weather_42">Ojedinělé sněhové přeháňky</string>
     <string name="weather_43">Silné sněžení</string>
     <string name="weather_44">Polojasno</string>
     <string name="weather_45">Bouřkové přeháňky</string>
@@ -114,8 +114,8 @@
 
     <string name="weather_enabled">Použít</string>
     <string name="weather_enable">Zobrazit počasí</string>
-    <string name="weather_source_title">Zdroj informací o počasí</string>
-    <string name="weather_source_yahoo">Yahoo! počasí</string>
+    <string name="weather_source_title">Poskytovatel informací o počasí</string>
+    <string name="weather_source_yahoo">Počasí Yahoo!</string>
     <string name="weather_use_custom_location">Použít vlastní polohu</string>
     <string name="weather_geolocated">Zjistit polohu ze sítě</string>
     <string name="weather_custom_location_dialog_title">Zadat polohu</string>
@@ -185,6 +185,7 @@
     <string name="holo_orange_light">Světle oranžová</string>
     <string name="holo_orange_dark">Tmavě oranžová</string>
     <string name="holo_blue_bright">Bledě modrá</string>
+    <string name="custom_color">Vlastní</string>
 
     <string name="how_to_title">Nápověda</string>
     <string name="first_run_title">Vítejte v %s</string>
@@ -245,9 +246,6 @@
 
     <string name="calendar_colors">Barva události kalendáře</string>
 
-    <string name="clock_analog">Analogové hodiny</string>
-    <string name="clock_digital">Digitální hodiny</string>
-
     <string name="chronus_clockplus">Chronus hodiny+</string>
     <string name="chronus_weather">Chronus počasí</string>
     <string name="chronus_forecast">Chronus předpověď</string>
@@ -256,6 +254,10 @@
     <string name="chronus_weather_short">Počasí</string>
     <string name="chronus_forecast_short">Předpověď</string>
     <string name="chronus_calendar_short">Kalendář</string>
+
+    <string name="chronus_flex_analog">Chronus Flex (Analogový)</string>
+    <string name="chronus_flex_analog_short">Flex (Analogový)</string>
+
     <string name="widget_rounded_corners_title">Zakulacené rohy</string>
 
     <string name="calendar_no_events">Žádné příští události</string>
@@ -274,5 +276,6 @@
     <string name="weather_icons_vclouds">VClouds</string>
     <string name="weather_icons_flat">Ploché</string>
     <string name="weather_icons_vista">Vista</string>
+    <string name="weather_icons_realism">Realismus</string>
     <string name="icon_set_selection_get_more">Získat další\u2026</string>
 </resources>

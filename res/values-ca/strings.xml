@@ -80,6 +80,7 @@
     <string name="weather_tap_to_refresh">Pica per actualitzar</string>
     <string name="weather_refreshing">Actualitzant</string>
     <string name="weather_last_sync_just_now">Ara</string>
+    <string name="weather_cannot_reach_provider">No es pot contactar amb %s</string>
     <string name="weather_refresh_manual">Manual</string>
     <string name="weather_refresh_30min">30 minuts</string>
     <string name="weather_refresh_60min">60 minuts</string>
@@ -162,4 +163,10 @@
     <string name="holo_orange_light">Taronja clar</string>
     <string name="holo_orange_dark">Taronja fosc</string>
     <string name="holo_blue_bright">Blau brillant</string>
+
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analògic)</string>
+    <string name="chronus_flex_analog_short">Flex (Analògic)</string>
+
+
 </resources>

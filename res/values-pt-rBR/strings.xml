@@ -221,14 +221,15 @@
     <string name="alignment_left">Alinhado a esquerda</string>
     <string name="alignment_right">Alinhado a direita</string>
     <string name="calendar_colors">Cor do calendário de eventos</string>
-    <string name="clock_analog">Relógio analógico</string>
-    <string name="clock_digital">Relógio digital</string>
     <string name="chronus_clockplus">Chronus Relógio+</string>
     <string name="chronus_weather">Chronus Tempo</string>
     <string name="chronus_calendar">Chronus Calendário</string>
     <string name="chronus_clockplus_short">Relógio+</string>
     <string name="chronus_weather_short">Tempo</string>
     <string name="chronus_calendar_short">Calendário</string>
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (Analógico)</string>
+    <string name="chronus_flex_analog_short">Flex (Analógico)</string>
     <string name="widget_type_keyguard">Tela de bloqueio</string>
     <string name="widget_type_homescreen">Tela inicial (<xliff:g id="columns" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$d</xliff:g>x<xliff:g id="rows" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%2$d</xliff:g>)</string>
     <string name="chronus_forecast">Chronus Previsão do Tempo</string>
@@ -239,4 +240,16 @@
     <string name="calendar_no_events_summary">Toque em + para adicionar</string>
     <string name="cling_widget_select_title">Selecionar widget</string>
     <string name="cling_widget_select_detail">Você pode configurar cada widget colocado por você. Você só precisa selecionar qual você deseja configurar usando o seletor no topo.</string>
+    <string name="weather_source_openweathermap">OpenWeatherMap</string>
+    <string name="calendar_add_event_title">Ícone para adicionar evento</string>
+    <string name="calendar_no_events">Nenhum evento próximo</string>
+    <string name="calendar_no_events_summary">Toque em + para adicionar</string>
+    <string name="calendar_no_events_indicator_title">Exibir texto \'Nenhum evento\'</string>
+    <string name="weather_icon_set_title">Ícones</string>
+    <string name="weather_icons_standard">Colorido</string>
+    <string name="weather_icons_monochrome">Monocromático</string>
+    <string name="weather_icons_vclouds">VNuvens</string>
+    <string name="icon_set_selection_get_more">Obtenha mais\u2026</string>
+    <string name="weather_kph">km/h</string>
+    <string name="weather_mph">mph</string>
 </resources>

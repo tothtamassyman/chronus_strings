@@ -229,8 +229,6 @@
     <string name="alignment_left">Στοίχιση αριστερά</string>
     <string name="alignment_right">Στοίχιση δεξιά</string>
     <string name="calendar_colors">Χρώμα ημερολογίου</string>
-    <string name="clock_analog">Αναλογικό ρολόι</string>
-    <string name="clock_digital">Ψηφιακό ρολόι</string>
     <string name="chronus_clockplus">Ρολόι+ Chronus</string>
     <string name="chronus_weather">Καιρός Chronus</string>
     <string name="chronus_forecast">Πρόγνωση Chronus</string>
@@ -239,6 +237,10 @@
     <string name="chronus_weather_short">Καιρός</string>
     <string name="chronus_forecast_short">Πρόγνωση</string>
     <string name="chronus_calendar_short">Ημερολόγιο</string>
+    <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
+    <string name="chronus_flex_analog">Chronus Flex (αναλογικού)</string>
+    <string name="chronus_flex_analog_short">Flex (αναλογικού)</string>
+
     <string name="widget_rounded_corners_title">Στρογγυλεμένες γωνίες</string>
     <string name="calendar_no_events">Δεν έχουν προστεθεί συμβάντα</string>
     <string name="calendar_no_events_summary">Πιέστε + για προσθήκη</string>
