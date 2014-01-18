@@ -183,6 +183,7 @@
     <string name="news_feed_rotate_interval">Interval rotație</string>
     <string name="news_feed_display_unread_status">Indicator necitit</string>
     <string name="news_feed_hide_viewed">Ascundere vizulizate</string>
+    <string name="news_feed_no_articles_text_title">Afișare text \'Nu există articole\' text</string>
     <string name="news_feed_provider_title">Tip furnizor</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_title">Surse de flux</string>
