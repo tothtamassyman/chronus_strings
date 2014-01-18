@@ -171,7 +171,7 @@
     <string name="calendar_add_event_title">Aggiungi icona evento</string>
 
     <!-- Preferences - News feed -->
-    <string name="news_feed_title">Mostra Notizie</string>
+    <string name="news_feed_title">Visualizza notizie</string>
     <string name="news_feed_icon_title">Icona notizie</string>
     <string name="news_feed_rotate_interval">Intervallo rotazione</string>
     <string name="news_feed_display_unread_status">Indicatore articoli non letti</string>
