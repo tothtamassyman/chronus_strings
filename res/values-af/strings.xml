@@ -92,6 +92,7 @@
     <string name="clock_category">Klok en alarm</string>
     <string name="weather_category">Weerpaneel</string>
     <string name="calendar_category">Kalender afsprake</string>
+    <string name="news_feed_category">Nuus stroom</string>
     <string name="about_category">Aangaande Chronus</string>
     <string name="appearance_category">Algemene voorkoms</string>
     <string name="general_category">Algemeen</string>
@@ -139,6 +140,17 @@
     <string name="calendar_highlight_upcoming_events_summary">Verlig die huidige dag se afsprake en, na 20:00, ook die volgende dag se afsprake</string>
     <string name="calendar_highlight_upcoming_events_bold">Vetgedruk</string>
     <string name="calendar_add_event_title">Voeg afsprake by ikoon</string>
+    <string name="news_feed_title">Wys nuus stroom</string>
+    <string name="news_feed_icon_title">Nuus stroom ikoon</string>
+    <string name="news_feed_rotate_interval">Rotasie interval</string>
+    <string name="news_feed_display_unread_status">Ongeleesde aanwyser</string>
+    <string name="news_feed_hide_viewed">Versteek gesiendes</string>
+    <string name="news_feed_no_articles_text_title">Wys \'Geen artikels\' teks</string>
+    <string name="news_feed_provider_title">Tipe verskaffer</string>
+    <string name="news_feed_provider_rss">RSS</string>
+    <string name="news_feed_provider_settings_title">Toevoer bronne</string>
+    <string name="news_feed_refresh_interval">Opdaterings interval</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (van toepassing op alle lekstukke)</string>
     <string name="font_color">Letertipe kleur</string>
     <string name="font_color_alarm">Alarm Letertipe kleur</string>
     <string name="font_color_timestamp">Tyd Stempel Letertipe kleur</string>
