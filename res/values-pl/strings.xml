@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The CyanogenMod Project (DvTonder)
+<!-- 
+     Copyright (C) 2012 The CyanogenMod Project (DvTonder)
+     Chronus additions (c) 2013 David van Tonder
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,12 +15,15 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="unknown">Nieznane</string>
     <string name="cancel">Anuluj</string>
-    <string name="loading_indicator">Uruchamianie widżetu\u2026</string>
-    <string name="menu_done">Wykonano</string>
+    <string name="loading_indicator">Wczytywanie widżetu\u2026</string>
+    <string name="menu_done">Gotowe</string>
+    <string name="menu_add">Dodaj</string>
+    <string name="ok">OK</string>
+    <string name="exit">Wyjście</string>
+    <string name="format_seconds">%s s.</string>
     <string name="weather_0">Tornado</string>
     <string name="weather_1">Burza tropikalna</string>
     <string name="weather_2">Huragan</string>
@@ -68,6 +73,8 @@
     <string name="weather_46">Przelotny śnieg</string>
     <string name="weather_47">Lokalne ulewne burze</string>
     <string name="weather_3200"></string>
+    <string name="weather_kph">km/h</string>
+    <string name="weather_mph">mph</string>
     <string name="weather_N">N</string>
     <string name="weather_NE">NE</string>
     <string name="weather_E">E</string>
@@ -79,7 +86,8 @@
     <string name="weather_no_data">Brak danych</string>
     <string name="weather_tap_to_refresh">Dotknij, aby odświeżyć</string>
     <string name="weather_refreshing">Odświeżanie</string>
-    <string name="weather_last_sync_just_now">Teraz</string>
+    <string name="weather_last_sync_just_now">Natychmiast</string>
+    <string name="weather_cannot_reach_provider">%s poza zasięgiem</string>
     <string name="weather_refresh_manual">Ręcznie</string>
     <string name="weather_refresh_30min">30 minut</string>
     <string name="weather_refresh_60min">60 minut</string>
@@ -89,16 +97,27 @@
     <string name="weather_refresh_8hrs">8 godzin</string>
     <string name="clock_category">Zegar i alarm</string>
     <string name="weather_category">Panel pogody</string>
+    <string name="news_feed_category">Strumień newsów</string>
     <string name="calendar_category">Wydarzenia z kalendarza</string>
+    <string name="about_category">O programie Chronus</string>
+    <string name="appearance_category">Ogólny wygląd</string>
     <string name="general_category">Ogólne</string>
     <string name="display_category">Wyświetlanie</string>
+    <string name="provider_category">Dostawca</string>
+    <string name="widget_type_keyguard">Ekran blokady</string>
+    <string name="widget_type_homescreen">Ekran domowy (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="clock_font_title">Pogrubione godziny</string>
     <string name="clock_font_minutes_title">Pogrubione minuty</string>
     <string name="clock_font_date_title">Pogrubione data i alarm</string>
-    <string name="show_alarm_title">Wyświetl następny alarm</string>
-    <string name="weather_enabled">Włączone</string>
+    <string name="show_alarm_title">Pogrubione data i alarm</string>
+    <string name="clock_am_pm_title">Pokaż wskaźnik AM/PM</string>
+    <string name="weather_enabled">Aktywne</string>
     <string name="weather_enable">Wyświetl pogodę</string>
+    <string name="weather_source_title">Źródło prognozy</string>
     <string name="weather_source_yahoo">Pogoda Yahoo!</string>
+    <string name="weather_source_wunderground">Weather Underground</string>
+    <string name="weather_source_hamweather">Hamweather</string>
+    <string name="weather_source_accuweather">AccuWeather</string>
     <string name="weather_use_custom_location">Użyj własnej lokalizacji</string>
     <string name="weather_geolocated">Użyj sieci do lokalizacji</string>
     <string name="weather_custom_location_dialog_title">Podaj lokalizację</string>
@@ -107,6 +126,7 @@
     <string name="weather_show_location_title">Wyświetl lokalizację</string>
     <string name="weather_show_timestamp_title">Wyświetl czas aktualizacji</string>
     <string name="weather_refresh_interval">Interwał odświeżania</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (dotyczy wszystkich widżetów)</string>
     <string name="weather_use_metric">Jednostki metryczne</string>
     <string name="weather_retrieve_location_dialog_title">Nie udało się odnaleźć lokalizacji!</string>
     <string name="weather_retrieve_location_dialog_message">Lokalizacja przez sieć jest wyłączona.\n\nUstaw swoje położenie lub włącz lokalizację przez sieć</string>
@@ -114,9 +134,10 @@
     <string name="weather_invert_lowhigh">Zamień niską/wysoką temperaturę</string>
     <string name="weather_progress_title">Sprawdzanie lokalizacji</string>
     <string name="weather_alternate_icons_title">Użyj alternatywnych ikon</string>
-    <string name="weather_alternate_icons_summary">Wybierz, aby przełączyć między domyślnymi (białymi), a alternatywnymi (kolorowymi) ikonami</string>
+    <string name="weather_alternate_icons_summary">Wybierz, aby przełączyć między domyślnymi, a alternatywnymi ikonami</string>
     <string name="weather_show_when_minimized_title">Pokazuj kiedy zminimalizowany</string>
     <string name="weather_show_when_minimized_summary">Wyświetl informacje o pogodzie, kiedy widżet jest zminimalizowany</string>
+    <string name="weather_select_location">Wybierz lokalizację</string>
     <string name="calendar_title">Wyświetl następne wydarzenie</string>
     <string name="calendars_title">Używane kalendarze</string>
     <string name="calendars_summary">Wyszukuj wydarzenia w tych kalendarzach</string>
@@ -124,13 +145,31 @@
     <string name="calendar_reminders_only_summary">Wyświetl tylko wydarzenia z przypomnieniem</string>
     <string name="calendar_hide_allday_title">Ukryj całodniowe wydarzenia</string>
     <string name="calendar_icon_title">Ikona kalendarza</string>
-    <string name="calendar_lookahead_title">Zakres wyświetlania"</string>
+    <string name="calendar_lookahead_title">Zakres wyświetlania</string>
     <string name="calendar_show_location_title">Lokalizacja wydarzenia</string>
     <string name="calendar_show_description_title">Opis wydarzenia</string>
     <string name="calendar_upcoming_events_category">Najbliższe wydarzenia</string>
     <string name="calendar_highlight_upcoming_events_title">Wyróżnij wydarzenia</string>
     <string name="calendar_highlight_upcoming_events_summary">Wyróżniaj dzisiejsze, a po godz. 20:00 również jutrzejsze wydarzenia</string>
     <string name="calendar_highlight_upcoming_events_bold">Pogrubienie</string>
+    <string name="calendar_add_event_title">Dodaj nazwę wydarzenia</string>
+    <string name="news_feed_title">Wyświetl strumień newsów</string>
+    <string name="news_feed_icon_title">Ikona strumienia newsów</string>
+    <string name="news_feed_rotate_interval">Interwał rotacji</string>
+    <string name="news_feed_display_unread_status">Wskaźnik nieprzeczytanych</string>
+    <string name="news_feed_hide_viewed">Ukryj obejrzane</string>
+    <string name="news_feed_provider_title">Rodzaj dostawcy</string>
+    <string name="news_feed_provider_rss">RSS</string>
+    <string name="news_feed_provider_settings_title">Źródła kanału</string>
+    <string name="news_feed_refresh_interval">Interwał odświeżania</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (dotyczy wszystkich widżetów)</string>
+    <string name="news_feed_refresh_manual">Ręcznie</string>
+    <string name="news_feed_refresh_30min">30 minut</string>
+    <string name="news_feed_refresh_60min">60 minut</string>
+    <string name="news_feed_refresh_2hrs">2 godziny</string>
+    <string name="news_feed_refresh_4hrs">4 godziny</string>
+    <string name="news_feed_refresh_6hrs">6 godzin</string>
+    <string name="news_feed_refresh_8hrs">8 godzin</string>
     <string name="font_color">Kolor czcionki</string>
     <string name="font_color_alarm">Kolor czcionki alarmu</string>
     <string name="font_color_timestamp">Kolor czcionki czasu aktualizacji</string>
@@ -147,6 +186,24 @@
     <string name="calendar_metadata_none">Nie wyświetlaj</string>
     <string name="calendar_metadata_first_line">Wyświetl pierwszą linię</string>
     <string name="calendar_metadata_all">Wyświetl wszystko</string>
+    <string name="news_feed_loading">Wczytywanie artykułów</string>
+    <string name="news_feed_loading_summary">Proszę czekać\u2026</string>
+    <string name="news_feed_no_data">Brak nowych artykułów</string>
+    <string name="news_feed_no_data_summary">Dotknij, aby odświeżyć</string>
+    <string name="news_feed_article_new_format">[NOWY] <xliff:g id="title">%s</xliff:g></string>
+    <string name="news_feed_read_more">Więcej\u2026</string>
+    <plurals name="news_feed_new_articles">
+        <item quantity="one">1 nowy artykuł</item>
+        <item quantity="other">Nowe artykuły: <xliff:g id="articles" example="12 new articles">%s</xliff:g></item>
+    </plurals>
+    <string name="news_feed_reader_list_all_articles_title">Wszystkie artykuły</string>
+    <string name="news_feed_reader_list_unread_articles_title">Nieprzeczytane artykuły</string>
+    <string name="news_feed_reader_list_last_published">Zaktualizowano <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
+    <string name="news_feed_reader_goto_button">Idź do artykułu</string>
+    <string name="rss_sources_custom_header">Zdefiniowane przez użytkownika</string>
+    <string name="rss_custom_source_url">URL:</string>
+    <string name="rss_custom_source_title">Dodaj własne źródło</string>
+    <string name="rss_custom_source_name">Nazwa:</string>
     <string name="white">Biały</string>
     <string name="grey">Szary</string>
     <string name="black">Czarny</string>
@@ -160,7 +217,90 @@
     <string name="holo_orange_light">Jasnopomarańczowy</string>
     <string name="holo_orange_dark">Ciemnopomarańczowy</string>
     <string name="holo_blue_bright">Jaskrawy niebieski</string>
-    <string name="weather_cannot_reach_provider">%s poza zasięgiem</string>
-    <string name="weather_select_location">Wybierz lokalizację</string>
-    <string name="clock_am_pm_title">Pokaż wskaźnik AM/PM</string>
+    <string name="custom_color">Własny</string>
+    <string name="how_to_title">Pomoc</string>
+    <string name="first_run_title">Witaj w %s</string>
+    <string name="first_run_message">Chronus jest widżetem i musi zostać dodany do ekranu domowego (Android 4.1 i nowszy) albo ekranu blokady (Android 4.2 i nowszy) za pomocą panelu widżetó Androida lub używanego przez Ciebie launchera.\n\nKiedy już widżet jest aktywny
+        możesz użyć tej aplikacji do jego konfiguracji.\n\nPamiętaj, że możesz zmienić rozmiar widżetu i stworzyć w ten sposób miejsce
+        dla wszystkich aktywnych paneli (zegar, pogoda i kalendarz). Widżet będzie automatycznie ukrywał panele, które się nie zmieszczą.\n\nDla
+        uzyskania najlepszych rezultatów warto używać launcherów Apex lub Nova. Chronus będzie współpracował z różnymi launcherami, ale mogą one ograniczać
+        jego możliwości konfiguracji.\n\nW Androidzie 4.2 i nowszym, aby dodać widżet to ekranu blokady, przeciągnij palcem w lewo i użyj
+        przycisku dodawania widżetów (+) aby dodać Chronus. Widżety ekranu blokady można usuwać i przenosić poprzez ich dłuższe naciśnięcie.</string>
+
+    <string name="no_widget_message">Przynajmniej jeden widżet musi zostać dodany do ekranu domowego lub ekranu blokady zanim będziesz mógł użyć tej aplikaci do konfiguracji.\n\nWidżety mogą być dodawane z poziomu panelu widżetów Androida lub używanego przez Ciebie launchera.</string>
+
+    <string name="credits_title">Twórcy</string>
+    <string name="credits_summary">Danny Baumann i ja napisaliśmy większość programu, ale nie można pominąć też wielu
+        tłumaczy oraz innych twórców, jak Nicolai Ehemann, Matt Booth i Jorge Ruesga, którzy wprowadzali nowe języki oraz funkcje.\n\n
+        Zestawy ikon:\n
+        \u2022 VClouds (vclouds.deviantart.com)\n
+        \u2022 Modern (www.mikeafford.com)</string>
+    <string name="contact_title">Kontakt</string>
+    <string name="send_email">Wyślij e-mail\u2026</string>
+
+
+    <!-- START OF PRO VERSION STRINGS -->
+    <!-- Pro features (About) -->
+    <string name="pro_features_summary">Naciśnij, aby aktywować funkcje Pro</string>
+    <string name="pro_features_thanks">Dziękujemy za zakup</string>
+    <string name="pro_features_message">Wersja Pro zawiera wszystkie funkcje wydania podstawowego oraz
+        w najbliższych miesiącach będzie rozbudowywana o nowe rozwiązania, jak:\n\n
+        \u2022 Więcej motywów dla widżetów\n
+        \u2022 Ustawienia poszczególnych widżetów\n
+        \u2022 Więcej funkcji kalendarza\n
+        \u2022 Panel mini kalendarza\n
+        \u2022 i więcej\u2026\n\nSugestie zawsze mile widziane.\n\nZ góry dziękujemy za Twoje wsparcie.</string>
+    <string name="get_pro">Przejdź na wersję Pro</string>
+    <string name="pro_check_dialog_message">Sprawdzanie licencji pro\u2026</string>
+    <string name="picker_apps">Aplikacje</string>
+    <string name="picker_activities">Aktywności</string>
+    <string name="picker_default">Domyślna akcja</string>
+    <string name="picker_select_custom_app_title">Wybierz własną aplikację</string>
+    <string name="picker_select_custom_activity_title">Wybierz własną aktywność</string>
+    <string name="tap_action_title">Reakcja na dotknięcie</string>
+    <string name="tap_action_clock_default">Uruchom aplikację zegara</string>
+    <string name="tap_action_weather_refresh">Odśwież pogodę</string>
+    <string name="tap_action_calendar_default">Uruchom aplikację kalendarza</string>
+    <string name="tap_action_weather_forecast">Pokaż prognozę</string>
+    <string name="tap_action_do_nothing">Nic nie rób</string>
+    <string name="widget_background_title">Tło widżetu</string>
+    <string name="widget_background_default">Przeźroczyste</string>
+    <string name="widget_background_color_fill">Wypełnienie kolorem</string>
+    <string name="widget_background_custom_image">Własny obrazek</string>
+    <string name="widget_background_dialog_title">Wybierz kolor</string>
+    <string name="widget_background_result_successful">Zmiana tła zakończona sukcesem</string>
+    <string name="widget_background_result_not_successful">Tło nie może zostać zmienione</string>
+    <string name="alignment_title">Wyrównanie</string>
+    <string name="alignment_centered">Do środka</string>
+    <string name="alignment_left">Do lewej</string>
+    <string name="alignment_right">Do prawej</string>
+    <string name="calendar_colors">Kolory kalendarza</string>
+    <string name="calendar_event_color_ifneeded">Pokazuj, jeśli potrzeba</string>
+    <string name="calendar_event_color_always">Zawsze pokazuj</string>
+    <string name="chronus_clockplus">Chronus Zegar+</string>
+    <string name="chronus_weather">Pogoda Chronus</string>
+    <string name="chronus_forecast">Prognoza Chronus</string>
+    <string name="chronus_calendar">Kalendarz Chronus</string>
+    <string name="chronus_clockplus_short">Zegar+</string>
+    <string name="chronus_weather_short">Pogoda</string>
+    <string name="chronus_forecast_short">Prognoza</string>
+    <string name="chronus_calendar_short">Kalendarz</string>
+    <string name="chronus_flex_analog">Chronus Flex (analogowy)</string>
+    <string name="chronus_flex_analog_short">Flex (analogowy)</string>
+    <string name="widget_rounded_corners_title">Zaokrąglone narożniki</string>
+    <string name="calendar_no_events">Brak wydarzeń w okienku kalendarza</string>
+    <string name="calendar_no_events_summary">Naciśnij + aby dodać</string>
+    <string name="calendar_no_events_indicator_title">Pokazuj komunikat \'Brak wydarzeń\'</string>
+    <string name="cling_widget_select_title">Wybierz widżet</string>
+    <string name="cling_widget_select_detail">Możesz skonfigurować każdy z aktywnych widżetów. Po prostu wybierz jeden z nich, używając selektora na górze.</string>
+    <string name="show_date_title">Pokaż datę</string>
+    <string name="weather_icon_set_title">Zestaw ikon</string>
+    <string name="weather_icons_standard">Kolorowe</string>
+    <string name="weather_icons_monochrome">Monochromatyczne</string>
+    <string name="weather_icons_modern">Modern</string>
+    <string name="weather_icons_vclouds">VClouds</string>
+    <string name="weather_icons_flat">Spłaszczone</string>
+    <string name="weather_icons_vista">Vista</string>
+    <string name="icon_set_selection_get_more">Pobierz więcej\u2026</string>
+    <string name="weather_icons_realism">Realistyczne</string>
 </resources>

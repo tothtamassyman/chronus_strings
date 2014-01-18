@@ -19,7 +19,11 @@
     <string name="cancel">Отмена</string>
     <string name="loading_indicator">Загрузка виджета\u2026</string>
     <string name="menu_done">Готово</string>
+    <string name="menu_add">Добавить</string>
     <string name="exit">Выход</string>
+
+    <!-- Formats -->
+    <string name="format_seconds">%s сек.</string>
 
     <string name="weather_0">Торнадо</string>
     <string name="weather_1">Шторм</string>
@@ -100,9 +104,11 @@
 
     <string name="clock_category">Часы и будильник</string>
     <string name="weather_category">Погода</string>
+    <string name="news_feed_category">Новости</string>
     <string name="calendar_category">Календарь</string>
     <string name="general_category">Основные</string>
     <string name="display_category">Отображение</string>
+    <string name="provider_category">Источник</string>
     <string name="appearance_category">Внешний вид</string>
     <string name="about_category">О программе Chronus</string>
     <string name="clock_font_title">Часы полужирным</string>
@@ -112,9 +118,8 @@
     <string name="clock_am_pm_title">Показывать индикатор «AM/PM»</string>
 
     <string name="weather_enabled">Включено</string>
-    <string name="weather_enable">Погода отображается</string>
+    <string name="weather_enable">Показывать погоду</string>
     <string name="weather_source_title">Сервер погоды</string>
-    <string name="weather_source_yahoo">Yahoo! Погода</string>
     <string name="weather_use_custom_location">Не определять автоматически</string>
     <string name="weather_geolocated">Местоположение по сети</string>
     <string name="weather_custom_location_dialog_title">Введите местоположение</string>
@@ -151,6 +156,27 @@
     <string name="calendar_highlight_upcoming_events_summary">Выделять события текущего дня, а после 20:00 также события следующего дня</string>
     <string name="calendar_highlight_upcoming_events_bold">Полужирный шрифт</string>
 
+    <!-- Preferences - News feed -->
+    <string name="news_feed_title">Показывать заголовки новостей</string>
+    <string name="news_feed_icon_title">Значок новостей</string>
+    <string name="news_feed_rotate_interval">Интервал смены новостей</string>
+    <string name="news_feed_display_unread_status">Индикатор непрочитанных</string>
+    <string name="news_feed_hide_viewed">Скрывать просмотренные</string>
+    <string name="news_feed_provider_title">Тип источника</string>
+    <string name="news_feed_provider_rss">RSS</string>
+    <string name="news_feed_provider_settings_title">Источники новостей</string>
+    <string name="news_feed_refresh_interval">Интервал обновления</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (влияет на все виджеты Chronus)</string>
+
+    <!-- News Feed - Update frequency -->
+    <string name="news_feed_refresh_manual">Вручную</string>
+    <string name="news_feed_refresh_30min">30 минут</string>
+    <string name="news_feed_refresh_60min">60 минут</string>
+    <string name="news_feed_refresh_2hrs">2 часа</string>
+    <string name="news_feed_refresh_4hrs">4 часа</string>
+    <string name="news_feed_refresh_6hrs">6 часов</string>
+    <string name="news_feed_refresh_8hrs">8 часов</string>
+
     <string name="font_color">Цвет шрифта</string>
     <string name="font_color_alarm">Будильник</string>
     <string name="font_color_timestamp">Дата</string>
@@ -169,6 +195,33 @@
     <string name="calendar_metadata_none">Не показывать</string>
     <string name="calendar_metadata_first_line">Показывать первую строку</string>
     <string name="calendar_metadata_all">Показывать всё</string>
+
+    <!-- News - Widgets -->
+    <string name="news_feed_loading">Загрузка новостей</string>
+    <string name="news_feed_loading_summary">Пожалуйста, подождите\u2026</string>
+    <string name="news_feed_no_data">Нет новых статей</string>
+    <string name="news_feed_no_data_summary">Нажмите для обновления</string>
+    <string name="news_feed_article_new_format">[НОВОЕ] <xliff:g id="title">%s</xliff:g></string>
+    <string name="news_feed_read_more">Читать дальше\u2026</string>
+
+    <!-- News - Service -->
+    <plurals name="news_feed_new_articles">
+        <item quantity="one"><xliff:g id="articles" example="1 new article">%s</xliff:g> новая статья</item>
+        <item quantity="few"><xliff:g id="articles" example="2 new article">%s</xliff:g> новых статьи</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> новых статей</item>
+    </plurals>
+
+    <!-- News - Reader -->
+    <string name="news_feed_reader_list_all_articles_title">Все статьи</string>
+    <string name="news_feed_reader_list_unread_articles_title">Непрочитанные</string>
+    <string name="news_feed_reader_list_last_published">Обновлено <xliff:g id="date" example="24 mar">%2$s</xliff:g> в <xliff:g id="time" example="8:30">%1$s</xliff:g></string>
+    <string name="news_feed_reader_goto_button">Перейти к статье</string>
+
+    <!-- News Feed Provider Settings - RSS -->
+    <string name="rss_sources_custom_header">Пользовательский</string>
+    <string name="rss_custom_source_url">Адрес:</string>
+    <string name="rss_custom_source_title">Добавление источника новостей</string>
+    <string name="rss_custom_source_name">Название:</string>
 
     <string name="white">Белый</string>
     <string name="grey">Серый</string>
@@ -201,8 +254,12 @@
     <string name="credits_title">Благодарности</string>
     <string name="credits_summary">Хотя значительная часть Chronus была написана мной в одиночку, хотелось бы выразить благодарность Дэнни Бауманну за
         его работу над службами погоды и биллинга, рецензии и исправления, переводчикам CyanogenMod за добавление всех языков, которые
-        включены в это приложение, а также Николаю Эеманну и Мэтту Бусу за исправления и функции, которые они присылали в ходе работы.\n
-        Перевод приложения на русский язык: Владислав Колдобский и Павел Волков.</string>
+        включены в это приложение, а также Николаю Эеманну, Мэтту Бусу и Жоржи Руэсга за исправления и функции, которые они присылали в ходе работы.\n
+        Перевод приложения на русский язык: Владислав Колдобский и Павел Волков.\n\n
+        Наборы значков для категорий погоды:\n
+          \u2022 VClouds (vclouds.deviantart.com)\n
+          \u2022 Modern (www.mikeafford.com)
+        </string>
     <string name="contact_title">Обратная связь</string>
     <string name="send_email">Написать e-mail\u2026</string>
 
@@ -232,6 +289,7 @@
     <string name="tap_action_weather_refresh">Обновить погоду</string>
     <string name="tap_action_calendar_default">Открыть «Календарь»</string>
     <string name="tap_action_weather_forecast">Показать прогноз погоды</string>
+    <string name="tap_action_do_nothing">Нет действия</string>
 
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">Фон виджета</string>
@@ -249,8 +307,10 @@
     <string name="alignment_right">По правому краю</string>
 
     <!-- Calendar colors -->
-    <string name="calendar_colors">Цвет событий календаря</string>
-
+    <string name="calendar_colors">Цвета событий календаря</string>
+    <string name="calendar_event_color_ifneeded">Показывать, если требуется</string>
+    <string name="calendar_event_color_always">Показывать всегда</string>
+    
     <!-- Widget Names -->
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus Clock+</string>
@@ -267,7 +327,7 @@
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Экран блокировки</string>
-    <string name="widget_type_homescreen">Главный экран (<xliff:g id="columns">%1$d</xliff:g>×<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Домашний экран (<xliff:g id="columns">%1$d</xliff:g>×<xliff:g id="rows">%2$d</xliff:g>)</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Скруглённые углы</string>
