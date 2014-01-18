@@ -44,7 +44,7 @@
     <string name="weather_17">Granizo</string>
     <string name="weather_18">Aguanieve</string>
     <string name="weather_19">Polvo</string>
-    <string name="weather_20">Nublado</string>
+    <string name="weather_20">Niebla</string>
     <string name="weather_21">Neblina</string>
     <string name="weather_22">Humo</string>
     <string name="weather_23">Borrascoso</string>
@@ -156,6 +156,7 @@
     <string name="news_feed_rotate_interval">Intervalo de rotación</string>
     <string name="news_feed_display_unread_status">Indicador de no leído</string>
     <string name="news_feed_hide_viewed">Ocultar leidas</string>
+    <string name="news_feed_no_articles_text_title">Mostrar texto \u00ABSin artículos\u00BB</string>
     <string name="news_feed_provider_title">Tipo de proveedor</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_title">Fuente de noticias</string>
