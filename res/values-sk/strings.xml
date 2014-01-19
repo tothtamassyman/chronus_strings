@@ -147,6 +147,7 @@
     <string name="news_feed_rotate_interval">Interval rotácie</string>
     <string name="news_feed_display_unread_status">Indikátor neprečítaných článkov</string>
     <string name="news_feed_hide_viewed">Skryť zobrazené</string>
+    <string name="news_feed_no_articles_text_title">Zobraziť text \'Žiadne články\'</string>
     <string name="news_feed_provider_title">Typ poskytovateľov</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_title">Zdroje kanálov</string>
