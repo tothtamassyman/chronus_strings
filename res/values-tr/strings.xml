@@ -364,9 +364,8 @@
     <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Daha fazla\u2026</string>
     <string name="weather_icons_realism">Realism</string>
-</resources>
 
-<!-- Daydream -->
+    <!-- Daydream -->
     <string name="daydream_night_mode_title">Night mode</string>
     <string name="daydream_night_mode_summary">Karanlık ortamlarda daha iyi bir görüş için ekranı karart</string>
     <string name="daydream_effect_title">Efekt</string>
