@@ -361,9 +361,6 @@
     <string name="weather_icons_standard">彩色</string>
     <string name="weather_icons_monochrome">单色</string>
     <string name="weather_icons_modern">现代式</string>
-    <string name="weather_icons_vclouds">VClouds</string>
-    <string name="weather_icons_flat">平扁</string>
-    <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">获取更多\u2026</string>
 
 </resources>

@@ -288,8 +288,6 @@
     <string name="weather_icons_standard">Farebné</string>
     <string name="weather_icons_monochrome">Jednofarebné</string>
     <string name="weather_icons_modern">Moderné</string>
-    <string name="weather_icons_vclouds">VClouds</string>
-    <string name="weather_icons_flat">Ploché</string>
-    <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Získať viac\u2026</string>
+
 </resources>

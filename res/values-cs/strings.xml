@@ -325,8 +325,5 @@
     <string name="weather_icons_standard">Barevné</string>
     <string name="weather_icons_monochrome">Černobílé</string>
     <string name="weather_icons_modern">Moderní</string>
-    <string name="weather_icons_flat">Ploché</string>
-    <string name="weather_icons_vista">Vista</string>
-    <string name="weather_icons_realism">Realismus</string>
     <string name="icon_set_selection_get_more">Získat další\u2026</string>
 </resources>

@@ -263,11 +263,9 @@
   <string name="weather_icons_standard">צבעוני</string>
   <string name="weather_icons_monochrome">אחיד</string>
   <string name="weather_icons_modern">מודרני</string>
-  <string name="weather_icons_flat">שטוח</string>
-  <string name="weather_icons_vista">ויסטה</string>
-  <string name="weather_icons_realism">ריאליזם</string>
   <plurals name="news_feed_new_articles">
     <item quantity="one">מאמר אחד חדש</item>
     <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> מאמרים חדשים</item>
   </plurals>
+
 </resources>

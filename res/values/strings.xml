@@ -39,6 +39,7 @@
     <string name="widget_12_hours_format_m" translatable="false">:mm<font size="15">aa</font></string>
     <string name="widget_24_hours_format_h" translatable="false">kk</string>
     <string name="widget_24_hours_format_m" translatable="false">:mm</string>
+    <string name="widget_am_pm_format" translatable="false">a</string>
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">Tornado</string>
@@ -131,9 +132,11 @@
     <string name="general_category">General</string>
     <string name="display_category">Display</string>
     <string name="provider_category">Provider</string>
+    <string name="daydream_category">Screensaver</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Lock screen</string>
+    <string name="widget_type_daydream">Daydream Screensaver</string>
     <string name="widget_type_homescreen">Home screen (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 
     <!-- Preferences - Clock -->
@@ -400,9 +403,17 @@
     <string name="weather_icons_monochrome">Monochrome</string>
     <string name="weather_icons_modern">Modern</string>
     <string name="weather_icons_vclouds" translatable="false">VClouds</string>
-    <string name="weather_icons_flat">Flat</string>
-    <string name="weather_icons_vista">Vista</string>
-    <string name="weather_icons_realism">Realism</string>
-    <string name="weather_icons_tv" translatable="false">TV</string>
+
+    <!-- Daydream -->
+    <string name="daydream_settings_name" translatable="false">Chronus Dream</string>
+    <string name="daydream_night_mode_title">Night mode</string>
+    <string name="daydream_night_mode_summary">Dim the screen for a better display in dark environments</string>
+    <string name="daydream_effect_title">Effect</string>
+    <string name="daydream_effect_none">None (not recomended)</string>
+    <string name="daydream_effect_fade">Fade</string>
+    <string name="daydream_effect_slide">Slide</string>
+    <string name="daydream_effect_explode">Explode</string>
+    <string name="daydream_bg_color_interpolation_title">Smooth background color</string>
+    <string name="daydream_bg_color_interpolation_summary">Slowly change background color over time</string>
 
 </resources>

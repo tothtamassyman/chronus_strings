@@ -104,7 +104,9 @@
     <string name="general_category">General</string>
     <string name="display_category">Aspecto</string>
     <string name="provider_category">Proveedor</string>
+    <string name="daydream_category">Salvapantallas</string>
     <string name="widget_type_keyguard">Pantalla de bloqueo</string>
+    <string name="widget_type_daydream">Salvapantallas Daydream</string>
     <string name="widget_type_homescreen">Pantalla de inicio (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="clock_font_title">Resaltar hora</string>
     <string name="clock_font_minutes_title">Resaltar minutos</string>
@@ -293,8 +295,16 @@
     <string name="weather_icons_standard">Coloreado</string>
     <string name="weather_icons_monochrome">Monocromo</string>
     <string name="weather_icons_modern">Moderno</string>
-    <string name="weather_icons_vclouds">VClouds</string>
-    <string name="weather_icons_flat">Plano</string>
-    <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Conseguir más\u2026</string>
+
+    <string name="daydream_night_mode_title">Modo noche</string>
+    <string name="daydream_night_mode_summary">Atenuar la pantalla para una mejor visualización en entornos oscuros</string>
+    <string name="daydream_effect_title">Efecto</string>
+    <string name="daydream_effect_none">Ninguno (no recomendado)</string>
+    <string name="daydream_effect_fade">Desvanecer</string>
+    <string name="daydream_effect_slide">Deslizar</string>
+    <string name="daydream_effect_explode">Explotar</string>
+    <string name="daydream_bg_color_interpolation_title">Cambiar color fondo</string>
+    <string name="daydream_bg_color_interpolation_summary">El color de fondo de la pantalla ira cambiando poco a poco</string>
+
 </resources>

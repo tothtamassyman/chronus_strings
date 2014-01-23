@@ -362,11 +362,7 @@ prispevali prevode vseh jezikov, ki so vključeni v pripomoček, velik del so pr
     <string name="weather_icons_standard">Barvne ikone</string>
     <string name="weather_icons_monochrome">Monochrome</string>
     <string name="weather_icons_modern">Moderno</string>
-    <string name="weather_icons_vclouds">VClouds</string>
-    <string name="weather_icons_flat">Flat</string>
-    <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Več\u2026</string>
-    <string name="weather_icons_realism">Realistično</string>
 
     <!-- Daydream -->
     <string name="daydream_night_mode_title">Nočni način</string>
