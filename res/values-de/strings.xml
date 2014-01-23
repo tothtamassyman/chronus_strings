@@ -297,9 +297,6 @@
     <string name="weather_icons_standard">Farbig</string>
     <string name="weather_icons_monochrome">Einfarbig</string>
     <string name="weather_icons_modern">Modern</string>
-    <string name="weather_icons_vclouds">VClouds</string>
-    <string name="weather_icons_flat">Flach</string>
-    <string name="weather_icons_vista">Vista</string>
-    <string name="weather_icons_realism">Realistisch</string>
     <string name="icon_set_selection_get_more">Mehr beziehen\u2026</string>
+
 </resources>

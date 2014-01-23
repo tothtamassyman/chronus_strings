@@ -20,8 +20,12 @@
     <string name="cancel">取消</string>
     <string name="loading_indicator">小部件加载中\u2026</string>
     <string name="menu_done">完成</string>
+    <string name="menu_add">添加</string>
     <string name="ok">确定</string>
     <string name="exit">退出</string>
+
+    <!-- Formats -->
+    <string name="format_seconds">%s 秒</string>
 
     <string name="weather_0">龙卷风</string>
     <string name="weather_1">热带风暴</string>
@@ -106,11 +110,13 @@
     <!-- Preferences - Categories -->
     <string name="clock_category">时钟与闹钟</string>
     <string name="weather_category">天气面板</string>
+    <string name="news_feed_category">新闻订阅</string>
     <string name="calendar_category">日历活动</string>
     <string name="about_category">关于 Chronus</string>
     <string name="appearance_category">整体外观</string>
     <string name="general_category">常规</string>
     <string name="display_category">显示</string>
+    <string name="provider_category">提供商</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">锁屏</string>
@@ -166,6 +172,28 @@
     <string name="calendar_highlight_upcoming_events_bold">使用粗体显示</string>
     <string name="calendar_add_event_title">添加活动图标</string>
 
+    <!-- Preferences - News feed -->
+    <string name="news_feed_title">显示新闻订阅</string>
+    <string name="news_feed_icon_title">新闻订阅图标</string>
+    <string name="news_feed_rotate_interval">转动间隔</string>
+    <string name="news_feed_display_unread_status">未读指示器</string>
+    <string name="news_feed_hide_viewed">隐藏已读条文</string>
+    <string name="news_feed_no_articles_text_title">显示“无文章”提示</string>
+    <string name="news_feed_provider_title">提供商类型</string>
+    <string name="news_feed_provider_rss">RSS</string>
+    <string name="news_feed_provider_settings_title">订阅来源</string>
+    <string name="news_feed_refresh_interval">更新间隔</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g>（应用于所有小部件）</string>
+
+    <!-- News Feed - Update frequency -->
+    <string name="news_feed_refresh_manual">手动</string>
+    <string name="news_feed_refresh_30min">30 分钟</string>
+    <string name="news_feed_refresh_60min">60 分钟</string>
+    <string name="news_feed_refresh_2hrs">2 小时</string>
+    <string name="news_feed_refresh_4hrs">4 小时</string>
+    <string name="news_feed_refresh_6hrs">6 小时</string>
+    <string name="news_feed_refresh_8hrs">8 小时</string>
+
     <!-- Preferences - Font colors -->
     <string name="font_color">字体颜色</string>
     <string name="font_color_alarm">闹钟字体颜色</string>
@@ -187,6 +215,32 @@
     <string name="calendar_metadata_none">不显示</string>
     <string name="calendar_metadata_first_line">显示第一行</string>
     <string name="calendar_metadata_all">完全显示</string>
+
+    <!-- News - Widgets -->
+    <string name="news_feed_loading">正在读取文章</string>
+    <string name="news_feed_loading_summary">请稍等片刻\u2026</string>
+    <string name="news_feed_no_data">无新文章可阅读</string>
+    <string name="news_feed_no_data_summary">点击以刷新</string>
+    <string name="news_feed_article_new_format">[新] <xliff:g id="title">%s</xliff:g></string>
+    <string name="news_feed_read_more">阅读更多\u2026</string>
+
+    <!-- News - Service -->
+    <plurals name="news_feed_new_articles">
+        <item quantity="one">1 条新文章</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> 条新文章</item>
+    </plurals>
+
+    <!-- News - Reader -->
+    <string name="news_feed_reader_list_all_articles_title">所有文章</string>
+    <string name="news_feed_reader_list_unread_articles_title">未读文章</string>
+    <string name="news_feed_reader_list_last_published"><xliff:g id="time" example="8:30">%1$s</xliff:g>，<xliff:g id="date" example="24 mar">%2$s</xliff:g>最后更新</string>
+    <string name="news_feed_reader_goto_button">转到文章</string>
+
+    <!-- News Feed Provider Settings - RSS -->
+    <string name="rss_sources_custom_header">用户定义</string>
+    <string name="rss_custom_source_url">网址：</string>
+    <string name="rss_custom_source_title">添加自定义来源</string>
+    <string name="rss_custom_source_name">名称：</string>
 
     <!-- Font colors -->
     <string name="white">白色</string>
@@ -216,8 +270,8 @@
     \n\n小部件可通过启动器内置的小部件选择器来添加。</string>
 
     <string name="credits_title">特别感谢</string>
-    <string name="credits_summary">虽然 Danny Baumman 和我编写了 Chronus 的重要部分，很大一部分的功劳要归于添加此应用所包含语言的
-    CyanogenMod 社区内的各位翻译员，和像 Jorge Ruesga、Nicolai Ehemann 与 Matt Booth 这样提供修复与功能的各位贡献者。\n\n
+    <string name="credits_summary">虽然 Danny Baumman 和我编写了 Chronus 的重要部分，很大一部分的功劳要归于 CyanogenMod 社区内的各位翻译员和
+        像 Jorge Ruesga、Nicolai Ehemann 与 Matt Booth 这样提供修复与功能的各位贡献者。\n\n
         天气图标：\n
         \u2022 VClouds (vclouds.deviantart.com)\n
         \u2022 现代式 (www.mikeafford.com)</string>
@@ -251,6 +305,7 @@
     <string name="tap_action_weather_refresh">刷新天气</string>
     <string name="tap_action_calendar_default">系统日历</string>
     <string name="tap_action_weather_forecast">显示天气预报</string>
+    <string name="tap_action_do_nothing">无操作</string>
 
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">小部件背景</string>
@@ -269,6 +324,8 @@
 
     <!-- Calendar colors -->
     <string name="calendar_colors">日历颜色</string>
+    <string name="calendar_event_color_ifneeded">需要时显示</string>
+    <string name="calendar_event_color_always">总是显示</string>
 
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as Chronus -->
@@ -280,9 +337,10 @@
     <string name="chronus_weather_short">天气</string>
     <string name="chronus_forecast_short">预报</string>
     <string name="chronus_calendar_short">日历</string>
+	
     <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
-    <string name="chronus_flex_analog">Chronus Flex (类似物)</string>
-    <string name="chronus_flex_analog_short">Flex (类似物)</string>
+    <string name="chronus_flex_analog">Chronus Flex (模拟)</string>
+    <string name="chronus_flex_analog_short">Flex (模拟)</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">弧形边角</string>
@@ -303,9 +361,6 @@
     <string name="weather_icons_standard">彩色</string>
     <string name="weather_icons_monochrome">单色</string>
     <string name="weather_icons_modern">现代式</string>
-    <string name="weather_icons_vclouds">VClouds</string>
-    <string name="weather_icons_flat">平扁</string>
-    <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">获取更多\u2026</string>
 
 </resources>

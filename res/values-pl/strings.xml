@@ -16,8 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name" translatable="false">Chronus</string>
-    <string name="app_name_pro" translatable="false">Chronus Pro</string>
     <string name="unknown">Nieznane</string>
     <string name="cancel">Anuluj</string>
     <string name="loading_indicator">Wczytywanie widżetu\u2026</string>
@@ -300,9 +298,6 @@
     <string name="weather_icons_standard">Kolorowe</string>
     <string name="weather_icons_monochrome">Monochromatyczne</string>
     <string name="weather_icons_modern">Modern</string>
-    <string name="weather_icons_vclouds">VClouds</string>
-    <string name="weather_icons_flat">Spłaszczone</string>
-    <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Pobierz więcej\u2026</string>
-    <string name="weather_icons_realism">Realistyczne</string>
+
 </resources>

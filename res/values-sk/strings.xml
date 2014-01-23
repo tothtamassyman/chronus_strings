@@ -147,6 +147,7 @@
     <string name="news_feed_rotate_interval">Interval rotácie</string>
     <string name="news_feed_display_unread_status">Indikátor neprečítaných článkov</string>
     <string name="news_feed_hide_viewed">Skryť zobrazené</string>
+    <string name="news_feed_no_articles_text_title">Zobraziť text \'Žiadne články\'</string>
     <string name="news_feed_provider_title">Typ poskytovateľov</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_title">Zdroje kanálov</string>
@@ -287,8 +288,6 @@
     <string name="weather_icons_standard">Farebné</string>
     <string name="weather_icons_monochrome">Jednofarebné</string>
     <string name="weather_icons_modern">Moderné</string>
-    <string name="weather_icons_vclouds">VClouds</string>
-    <string name="weather_icons_flat">Ploché</string>
-    <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Získať viac\u2026</string>
+
 </resources>
