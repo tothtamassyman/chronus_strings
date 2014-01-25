@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 
+<!--
      Copyright (C) 2012 The CyanogenMod Project (DvTonder)
      Chronus additions (c) 2013 David van Tonder
 
@@ -23,6 +23,9 @@
     <string name="menu_done">Fatto</string>
     <string name="ok">OK</string>
     <string name="exit">Esci</string>
+
+    <!-- Formats -->
+    <string name="format_seconds">%s sec.</string>
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">Tornado</string>
@@ -115,11 +118,13 @@
     <string name="general_category">Generale</string>
     <string name="display_category">Visualizzazione</string>
     <string name="provider_category">Provider</string>
+    <string name="daydream_category">Salvaschermo</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Schermata di blocco</string>
+    <string name="widget_type_daydream">Salvaschermo Daydream</string>
     <string name="widget_type_homescreen">Schermata Home (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
-    
+
     <!-- Preferences - Clock -->
     <string name="clock_font_title">Ore in grassetto</string>
     <string name="clock_font_minutes_title">Minuti in grassetto</string>
@@ -150,7 +155,7 @@
     <string name="weather_alternate_icons_title">Usa icone colorate</string>
     <string name="weather_alternate_icons_summary">Seleziona per sostituire le icone predefinite (Colorate) con quelle alternative (Bianche)</string>
     <string name="weather_show_when_minimized_title">Mostra se minimizzato</string>
-    <string name="weather_show_when_minimized_summary">Mostra le informazioni di riepilogo sul meteo quando il widget è minimizzato</string>
+    <string name="weather_show_when_minimized_summary">Mostra informazioni di riepilogo sul meteo quando il widget è minimizzato</string>
     <string name="weather_select_location">Seleziona posizione</string>
 
     <!-- Preferences - Calendar -->
@@ -176,7 +181,7 @@
     <string name="news_feed_rotate_interval">Intervallo rotazione</string>
     <string name="news_feed_display_unread_status">Indicatore articoli non letti</string>
     <string name="news_feed_hide_viewed">Nascondi notizie visualizzate</string>
-    <string name="news_feed_no_articles_text_title">Mostra la scritta \'Nessun articolo\'</string>
+    <string name="news_feed_no_articles_text_title">Mostra il testo \'Nessun articolo\'</string>
     <string name="news_feed_provider_title">Tipo di provider</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_title">Fonti</string>
@@ -264,12 +269,12 @@
         avvio (Launcher).\n\nUna volta che il widget è stato aggiunto è possibile utilizzare questa applicazione per modificare la sua configurazione.
         \n\nRicordarsi di ridimensionare il widget sul vostro schermo per contenere tutti i pannelli abilitati (Orologio, Meteo e Agenda)
         in quanto il widget nasconderà automaticamente i pannelli se non vi è abbastanza spazio.\n\nPer i migliori risultati, raccomandiamo
-        di utilizzare i programmi di avvio Apex o Nova. Chronus può funzionare con la maggior parte dei programmi di avvio, ma le possibilità 
+        di utilizzare i programmi di avvio Apex o Nova. Chronus può funzionare con la maggior parte dei programmi di avvio, ma le possibilità
         di configurazione possono essere più limitate.\n\nCon Android 4.2 +, per aggiungere un widget alla schermata di blocco, scorrere a sinistra
         nella schermata di blocco, quindi utilizzare il pulsante Aggiungi Widget (+) per aggiungere Chronus. I widget sulla schermata di
         blocco si possono riorganizzare tramite una pressione lunga, dopo la quale possono essere spostati o cancellati.</string>
-    <string name="no_widget_message">Occorre aggiungere almeno un widget Chronus alla schermata Home o alla schermata di blocco prima di poter 
-        utilizzare questa applicazione per cambiarne la configurazione.\n\nI widget possono essere aggiunti utilizzando il selettore di widget di 
+    <string name="no_widget_message">Occorre aggiungere almeno un widget Chronus alla schermata Home o alla schermata di blocco prima di poter
+        utilizzare questa applicazione per cambiarne la configurazione.\n\nI widget possono essere aggiunti utilizzando il selettore di widget di
         Android e del programma di avvio.</string>
     <string name="credits_title">Meriti</string>
     <string name="credits_summary">Anche se Danny Baumann e io abbiamo scritto la maggior parte del widget, una buona parte del merito va
@@ -293,7 +298,7 @@
         \u2022 Un mini pannello con calendario\n
         \u2022 e molto altro \u2026\n\nI consigli sono sempre graditi.\n\nTi ringraziamo anticipatamente per il tuo supporto.</string>
     <string name="get_pro">Acquista Pro</string>
-    
+
     <string name="pro_check_dialog_message">Verifica licenza Pro\u2026</string>
 
     <!-- Shortcut picker -->
@@ -319,18 +324,18 @@
     <string name="widget_background_dialog_title">Scegli colore</string>
     <string name="widget_background_result_successful">Sfondo modificato</string>
     <string name="widget_background_result_not_successful">Impossibile modificare sfondo</string>
-    
+
     <!-- Alignment settings -->
     <string name="alignment_title">Allineamento</string>
     <string name="alignment_centered">Centrato</string>
     <string name="alignment_left">Allineato a sinistra</string>
     <string name="alignment_right">Allineato a destra</string>
-    
+
     <!-- Calendar colors -->
     <string name="calendar_colors">Colore calendario</string>
     <string name="calendar_event_color_ifneeded">Mostra se necessario</string>
     <string name="calendar_event_color_always">Mostra sempre</string>
-    
+
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_clockplus">Chronus Orologio+</string>
@@ -341,30 +346,43 @@
     <string name="chronus_weather_short">Meteo</string>
     <string name="chronus_forecast_short">Previsioni Meteo</string>
     <string name="chronus_calendar_short">Calendario</string>
-    
+
     <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
     <string name="chronus_flex_analog">Chronus Flex (Analogico)</string>
     <string name="chronus_flex_analog_short">Flex (Analogico)</string>
-    
+
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Angoli arrotondati</string>
-    
+
     <!-- Calendar - No events -->
     <string name="calendar_no_events">Non ci sono eventi nella finestra di eventi futuri</string>
     <string name="calendar_no_events_summary">Tocca + per aggiungere</string>
-    <string name="calendar_no_events_indicator_title">Mostra la scritta \'Nessun evento\'</string>
-    
+    <string name="calendar_no_events_indicator_title">Mostra il testo \'Nessun evento\'</string>
+
     <!--  Cling text -->
     <string name="cling_widget_select_title">Seleziona widget</string>
     <string name="cling_widget_select_detail">Puoi configurare singolarmente ciascuno dei widget aggiunti, scegliendolo tramite il selettore in alto.</string>
-    
+
     <string name="show_date_title">Mostra data</string>
 
     <!-- Weather icon sets -->
     <string name="weather_icon_set_title">Set icone</string>
-    <string name="weather_icons_standard">Colorate</string>
-    <string name="weather_icons_monochrome">Monocrome</string>
-    <string name="weather_icons_modern">Moderne</string>
     <string name="icon_set_selection_get_more">Altre\u2026</string>
+
+    <!-- Icon Set names -->
+    <string name="weather_icons_standard">Colorate</string>
+    <string name="weather_icons_monochrome">Monocromatiche</string>
+    <string name="weather_icons_modern">Moderne</string>
+
+    <!-- Daydream -->
+    <string name="daydream_night_mode_title">Modalità notte</string>
+    <string name="daydream_night_mode_summary">Ridurre la luminosità per una migliore visione in ambienti bui</string>
+    <string name="daydream_effect_title">Effetto</string>
+    <string name="daydream_effect_none">Nessuno (non consigliato)</string>
+    <string name="daydream_effect_fade">Dissolvenza</string>
+    <string name="daydream_effect_slide">Scorrimento</string>
+    <string name="daydream_effect_explode">Esplosione</string>
+    <string name="daydream_bg_color_interpolation_title">Colori sfumati</string>
+    <string name="daydream_bg_color_interpolation_summary">Modifica lentamente i colori col passare del tempo</string>
 
 </resources>
