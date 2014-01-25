@@ -108,7 +108,7 @@
     <!-- Preferences - Categories -->
     <string name="clock_category">Orologio e sveglia</string>
     <string name="weather_category">Meteo</string>
-    <string name="news_feed_category">News feed</string>
+    <string name="news_feed_category">Notizie</string>
     <string name="calendar_category">Eventi del calendario</string>
     <string name="about_category">Info su Chronus</string>
     <string name="appearance_category">Aspetto generale</string>
@@ -175,13 +175,13 @@
     <string name="news_feed_icon_title">Icona notizie</string>
     <string name="news_feed_rotate_interval">Intervallo rotazione</string>
     <string name="news_feed_display_unread_status">Indicatore articoli non letti</string>
-    <string name="news_feed_hide_viewed">Nascondi visualizzate</string>
+    <string name="news_feed_hide_viewed">Nascondi notizie visualizzate</string>
     <string name="news_feed_no_articles_text_title">Mostra la scritta \'Nessun articolo\'</string>
     <string name="news_feed_provider_title">Tipo di provider</string>
     <string name="news_feed_provider_rss">RSS</string>
-    <string name="news_feed_provider_settings_title">Sorgenti feed</string>
+    <string name="news_feed_provider_settings_title">Fonti</string>
     <string name="news_feed_refresh_interval">Intervallo aggiornamento</string>
-    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (applies to all widgets)</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (si applica a tutti i widget)</string>
 
     <!-- News Feed - Update frequency -->
     <string name="news_feed_refresh_manual">Manuale</string>
@@ -365,9 +365,6 @@
     <string name="weather_icons_standard">Colorate</string>
     <string name="weather_icons_monochrome">Monocrome</string>
     <string name="weather_icons_modern">Moderne</string>
-    <string name="weather_icons_vclouds">VClouds</string>
-    <string name="weather_icons_flat">Piatte</string>
-    <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Altre\u2026</string>
-    <string name="weather_icons_realism">Realistiche</string>
+
 </resources>

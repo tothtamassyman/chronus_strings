@@ -21,8 +21,12 @@
     <string name="cancel">İptal</string>
     <string name="loading_indicator">Widget yükleniyor\u2026</string>
     <string name="menu_done">Tamam</string>
+    <string name="menu_add">Ekle</string>
     <string name="ok">OK</string>
     <string name="exit">Çıkış</string>
+    
+    <!-- Formats -->
+    <string name="format_seconds">Salise</string>
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">Hortum</string>
@@ -108,14 +112,18 @@
     <!-- Preferences - Categories -->
     <string name="clock_category">Saat ve alarm</string>
     <string name="weather_category">Hava durumu</string>
+    <string name="news_feed_category">Haber Kaynağı</string>
     <string name="calendar_category">Takvim etkinlikleri</string>
     <string name="about_category">Chronus hakkında</string>
     <string name="appearance_category">Genel görünüm</string>
     <string name="general_category">Genel</string>
     <string name="display_category">Görünüm</string>
+    <string name="provider_category">Veri Sağlayıcı</string>
+    <string name="daydream_category">Hafif Uyku</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Kilit ekranı</string>
+    <string name="widget_type_daydream">Hafif Uyku Ekranı</string>
     <string name="widget_type_homescreen">Ana ekran (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 
     <!-- Preferences - Clock -->
@@ -171,7 +179,29 @@
     <string name="calendar_highlight_upcoming_events_bold">Kalın yazı</string>
     <string name="calendar_add_event_title">Etkinlik simgesi ekle</string>
 
-    <!-- Preferences - Font colors -->
+     <!-- Preferences - News feed -->
+    <string name="news_feed_title">Haber Verilerini Göster</string>
+    <string name="news_feed_icon_title">Haber simgesi</string>
+    <string name="news_feed_rotate_interval">Değiştirme aralığı</string>
+    <string name="news_feed_display_unread_status">Okunmamış bildirimi</string>
+    <string name="news_feed_hide_viewed">Okunanları gizle</string>
+    <string name="news_feed_no_articles_text_title">Boşşa \'Haber Yok\' göster</string>
+    <string name="news_feed_provider_title">Sağlayıcı tipi</string>
+    <string name="news_feed_provider_rss">RSS</string>
+    <string name="news_feed_provider_settings_title">Haber kaynakları</string>
+    <string name="news_feed_refresh_interval">Güncelleme aralığı</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (tüm widgetlere uygulanır)</string>
+
+    <!-- News Feed - Update frequency -->
+    <string name="news_feed_refresh_manual">El ile</string>
+    <string name="news_feed_refresh_30min">30 dakika</string>
+    <string name="news_feed_refresh_60min">60 dakika</string>
+    <string name="news_feed_refresh_2hrs">2 saat</string>
+    <string name="news_feed_refresh_4hrs">4 saat</string>
+    <string name="news_feed_refresh_6hrs">6 saat</string>
+    <string name="news_feed_refresh_8hrs">8 saat</string>
+
+<!-- Preferences - Font colors -->
     <string name="font_color">Yazı rengi</string>
     <string name="font_color_alarm">Alarm yazı rengi</string>
     <string name="font_color_timestamp">Güncelleme saati rengi</string>
@@ -192,6 +222,32 @@
     <string name="calendar_metadata_none">Gösterme</string>
     <string name="calendar_metadata_first_line">İlk satırı göster</string>
     <string name="calendar_metadata_all">Hepsini göster</string>
+ 
+    <!-- News - Widgets -->
+    <string name="news_feed_loading">Başlıklar yükleniyor</string>
+    <string name="news_feed_loading_summary">Lütfen birkaç saniye bekleyin\u2026</string>
+    <string name="news_feed_no_data">Yeni başlık mevcut değil</string>
+    <string name="news_feed_no_data_summary">Yenilemek için tıklayın</string>
+    <string name="news_feed_article_new_format">[YENİ] <xliff:g id="title">%s</xliff:g></string>
+    <string name="news_feed_read_more">Daha fazla\u2026</string>
+
+    <!-- News - Service -->
+    <plurals name="news_feed_new_articles">
+        <item quantity="one">1 yeni başlık</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> yeni başlık</item>
+    </plurals>
+
+    <!-- News - Reader -->
+    <string name="news_feed_reader_list_all_articles_title">Tüm başlıklar</string>
+    <string name="news_feed_reader_list_unread_articles_title">Okunmamış başlıklar</string>
+    <string name="news_feed_reader_list_last_published">Günceleme <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
+    <string name="news_feed_reader_goto_button">Başlığa git</string>
+
+    <!-- News Feed Provider Settings - RSS -->
+    <string name="rss_sources_custom_header">Kullanıcı tanımlı</string>
+    <string name="rss_custom_source_url">Url:</string>
+    <string name="rss_custom_source_title">Özel kaynak ekle</string>
+    <string name="rss_custom_source_name">İsim:</string>
 
     <!-- Font colors -->
     <string name="white">Beyaz</string>
@@ -247,7 +303,8 @@
     <string name="tap_action_weather_refresh">Hava durumu güncelle</string>
     <string name="tap_action_calendar_default">Sistem takvimi</string>
     <string name="tap_action_weather_forecast">Hava tahmini göster</string>
-
+    <string name="tap_action_do_nothing">Bir şey yapma</string>
+    
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">Widget arka planı</string>
     <string name="widget_background_default">Şeffaf</string>
@@ -265,6 +322,8 @@
 
     <!-- Calendar colors -->
     <string name="calendar_colors">Takvim renkleri</string>
+    <string name="calendar_event_color_ifneeded">Gerekirse göster</string>
+    <string name="calendar_event_color_always">Her zaman göster</string>
 
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as Chronus -->
@@ -296,8 +355,15 @@
     <string name="weather_icons_standard">Renkli</string>
     <string name="weather_icons_monochrome">Monokrom</string>
     <string name="weather_icons_modern">Modern</string>
-    <string name="weather_icons_vclouds">VClouds</string>
-    <string name="weather_icons_flat">Flat</string>
-    <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Daha fazla\u2026</string>
+
+    <!-- Daydream -->
+    <string name="daydream_night_mode_title">Night mode</string>
+    <string name="daydream_night_mode_summary">Karanlık ortamlarda daha iyi bir görüş için ekranı karart</string>
+    <string name="daydream_effect_title">Efekt</string>
+    <string name="daydream_effect_none">Yok (Önerilmez)</string>
+    <string name="daydream_effect_fade">Silinme</string>
+    <string name="daydream_effect_slide">Kayma</string>
+    <string name="daydream_bg_color_interpolation_title">Arkaplan rengi yuvarlaması</string>
+    <string name="daydream_bg_color_interpolation_summary">Arkaplan rengi yakın renk skalalarından sağlanacak</string>
 </resources>

@@ -21,8 +21,11 @@
     <string name="cancel">Peruuta</string>
     <string name="loading_indicator">Ladataan widgetiä\u2026</string>
     <string name="menu_done">Valmis</string>
+    <string name="menu_add">Lisää</string>
     <string name="ok">OK</string>
     <string name="exit">Poistu</string>
+	
+    <string name="format_seconds">%s sek.</string>
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">Pyörremyrsky</string>
@@ -106,11 +109,13 @@
     <!-- Preferences - Categories -->
     <string name="clock_category">Kello ja hälytys</string>
     <string name="weather_category">Sääpaneeli</string>
+    <string name="news_feed_category">Uutissyöte</string>
     <string name="calendar_category">Kalenteri</string>
     <string name="about_category">Tietoja Chronuksesta</string>
     <string name="appearance_category">Ulkoasu</string>
     <string name="general_category">Yleiset</string>
     <string name="display_category">Näyttö</string>
+    <string name="provider_category">Tarjoaja</string>
 
     <string name="widget_type_keyguard">Lukitusnäyttö</string>
     <string name="widget_type_homescreen">Kotinäyttö (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
@@ -165,6 +170,28 @@
     <string name="calendar_highlight_upcoming_events_bold">Lihavoitu fontti</string>
     <string name="calendar_add_event_title">Lisää tapahtumakuvake</string>
 
+    <!-- Preferences - News feed -->
+    <string name="news_feed_title">Näytä uutissyöte</string>
+    <string name="news_feed_icon_title">Uutissyötteen kuvake</string>
+    <string name="news_feed_rotate_interval">Kääntämisen aikaväli</string>
+    <string name="news_feed_display_unread_status">Lukemattoman merkki</string>
+    <string name="news_feed_hide_viewed">Piilota nähdyt</string>
+    <string name="news_feed_no_articles_text_title">Näytä \'Ei artikkeleita\' teksti</string>
+    <string name="news_feed_provider_title">Tarjoajan tyyppi</string>
+    <string name="news_feed_provider_rss">RSS</string>
+    <string name="news_feed_provider_settings_title">Syötteen lähteet</string>
+    <string name="news_feed_refresh_interval">Päivityksen aikaväli</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (vaikuttaa kaikkiin widgetteihin)</string>
+
+    <!-- News Feed - Update frequency -->
+    <string name="news_feed_refresh_manual">Manuaalinen</string>
+    <string name="news_feed_refresh_30min">30 minuuttia</string>
+    <string name="news_feed_refresh_60min">60 minuuttia</string>
+    <string name="news_feed_refresh_2hrs">2 tuntia</string>
+    <string name="news_feed_refresh_4hrs">4 tuntia</string>
+    <string name="news_feed_refresh_6hrs">6 tuntia</string>
+    <string name="news_feed_refresh_8hrs">8 tuntia</string>
+
     <!-- Preferences - Font colors -->
     <string name="font_color">Fontin väri</string>
     <string name="font_color_alarm">Hälytyksen fontin väri</string>
@@ -187,6 +214,32 @@
     <string name="calendar_metadata_first_line">Näytä ensimmäinen rivi</string>
     <string name="calendar_metadata_all">Näytä kaikki</string>
 
+    <!-- News - Widgets -->
+    <string name="news_feed_loading">Etsitään artikkeleita</string>
+    <string name="news_feed_loading_summary">Odota muutama sekunti\u2026</string>
+    <string name="news_feed_no_data">Uusia artikkeleita ei saatavilla</string>
+    <string name="news_feed_no_data_summary">Kosketa päivittääksesi</string>
+    <string name="news_feed_article_new_format">[UUSI] <xliff:g id="title">%s</xliff:g></string>
+    <string name="news_feed_read_more">Lue lisää\u2026</string>
+
+    <!-- News - Service -->
+    <plurals name="news_feed_new_articles">
+        <item quantity="one">1 uusi artikkeli</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> uutta artikkelia</item>
+    </plurals>
+
+    <!-- News - Reader -->
+    <string name="news_feed_reader_list_all_articles_title">Kaikki artikkelit</string>
+    <string name="news_feed_reader_list_unread_articles_title">Lukemattomat artikkelit</string>
+    <string name="news_feed_reader_list_last_published">Päivitetty <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
+    <string name="news_feed_reader_goto_button">Lue artikkeli</string>
+
+    <!-- News Feed Provider Settings - RSS -->
+    <string name="rss_sources_custom_header">Käyttäjän määrittelemä</string>
+    <string name="rss_custom_source_url">URL:</string>
+    <string name="rss_custom_source_title">Lisää oma lähde</string>
+    <string name="rss_custom_source_name">Nimi:</string>
+
     <!-- Font colors -->
     <string name="white">Valkoinen</string>
     <string name="grey">Harmaa</string>
@@ -201,6 +254,7 @@
     <string name="holo_orange_light">Vaalea oranssi</string>
     <string name="holo_orange_dark">Tumma oranssi</string>
     <string name="holo_blue_bright">Kirkas sininen</string>
+    <string name="custom_color">Mukautettu</string>
 
     <string name="how_to_title">Apua</string>
     <string name="first_run_title">Tervetuloa sovellukseen %s</string>
@@ -208,8 +262,10 @@
     <string name="no_widget_message">Vähintään yksi Chronus-widget tulee lisätä koti- tai lukitusnäytölle ennenkuin voit käyttää sovellusta muuttaaksesi asetuksia.\n\nWidgetin voi lisätä käyttämällä Androidin ja launcherin widgetin lisäystoimintoa.</string>
 
     <string name="credits_title">Tekijät</string>
-    <string name="credits_summary">Minun ja Danny Baumannin tehdessä suurin osa widgetistä, kiitokset menee kaikille kääntäjäjille kuten myös muille mukana olleille, muun muassa Nicolai Ehemannille ja Matt Boothille.\n\n
-        Sääkuvat: VClouds (vclouds.deviantart.com) ja Modern (www.mikeafford.com)</string>
+    <string name="credits_summary">Minun ja Danny Baumannin tehdessä suurin osa widgetistä, kiitokset menee kaikille kääntäjäjille kuten myös muille mukana olleille, muun muassa Nicolai Ehemannille, Matt Boothille sekä Jorge Ruesgalle kielistä sekä ominaisuuksista jotka he ovat lisänneet.\n\n
+        Sääkuvat:\n
+        \u2022 VClouds (vclouds.deviantart.com)\n
+        \u2022 Modern (www.mikeafford.com)</string>
     <string name="contact_title">Ota yhteyttä</string>
     <string name="send_email">Lähetä sähköpostia\u2026</string>
 
@@ -236,6 +292,7 @@
     <string name="tap_action_weather_refresh">Päivitä sää</string>
     <string name="tap_action_calendar_default">Järjestelmän kalenteri</string>
     <string name="tap_action_weather_forecast">Näytä ennuste</string>
+    <string name="tap_action_do_nothing">Älä tee mitään</string>
 
     <string name="widget_background_title">Widgetin tausta</string>
     <string name="widget_background_default">Läpinäkyvyys</string>
@@ -251,6 +308,9 @@
     <string name="alignment_right">Oikealla</string>
 
     <string name="calendar_colors">Kalenterin värit</string>
+
+    <string name="calendar_event_color_ifneeded">Näytä tarvittaessa</string>
+    <string name="calendar_event_color_always">Näytä aina</string>
 
     <string name="chronus_clockplus">Chronus Clock+</string>
     <string name="chronus_weather">Chronus Weather</string>
@@ -279,8 +339,5 @@
     <string name="weather_icons_standard">Värikkäät</string>
     <string name="weather_icons_monochrome">Mustavalkoinen</string>
     <string name="weather_icons_modern">Moderni</string>
-    <string name="weather_icons_vclouds">VClouds</string>
-    <string name="weather_icons_flat">Tasainen</string>
-    <string name="weather_icons_vista">Vista</string>
     <string name="icon_set_selection_get_more">Hanki lisää\u2026</string>
 </resources>
