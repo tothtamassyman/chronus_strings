@@ -118,9 +118,11 @@
     <string name="general_category">Général</string>
     <string name="display_category">Affichage</string>
     <string name="provider_category">Fournisseur</string>
+    <string name="daydream_category">Écran de veille</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Écran de verrouillage</string>
+    <string name="widget_type_daydream">Écran de veille interactif</string>
     <string name="widget_type_homescreen">Écran d\'accueil (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 
     <!-- Preferences - Clock -->
@@ -357,9 +359,22 @@
 
     <!-- Weather icon sets -->
     <string name="weather_icon_set_title">Définir les icônes</string>
+    <string name="icon_set_selection_get_more">Plus\u2026</string>
+
+    <!-- Icon Set names -->
     <string name="weather_icons_standard">Coloré</string>
     <string name="weather_icons_monochrome">Monochrome</string>
     <string name="weather_icons_modern">Moderne</string>
-    <string name="icon_set_selection_get_more">Plus\u2026</string>
+
+    <!-- Daydream -->
+    <string name="daydream_night_mode_title">Mode nuit</string>
+    <string name="daydream_night_mode_summary">Affichage peu lumineux pour les pièces sombres</string>
+    <string name="daydream_effect_title">Effet</string>
+    <string name="daydream_effect_none">Aucun (non recommandé)</string>
+    <string name="daydream_effect_fade">Fondu</string>
+    <string name="daydream_effect_slide">Glissement</string>
+    <string name="daydream_effect_explode">Explosion</string>
+    <string name="daydream_bg_color_interpolation_title">Lisser la couleur de fond</string>
+    <string name="daydream_bg_color_interpolation_summary">Changer lentement la couleur de fond au fil du temps</string>
 
 </resources>
