@@ -102,7 +102,9 @@
     <string name="general_category">Γενικά</string>
     <string name="display_category">Οθόνη</string>
     <string name="provider_category">Πάροχος</string>
+    <string name="daydream_category">Προφύλαξη οθόνης</string>
     <string name="widget_type_keyguard">Οθόνη κλειδώματος</string>
+    <string name="widget_type_daydream">Προφύλαξη οθόνης daydream</string>
     <string name="widget_type_homescreen">Αρχική οθόνη (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="clock_font_title">Έντονη ώρα</string>
     <string name="clock_font_minutes_title">Έντονα λεπτά</string>
@@ -124,7 +126,7 @@
     <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 λεπτά">%s</xliff:g> (εφαρμόζεται σε όλα τα widget)</string>
     <string name="weather_use_metric">Χρήση μετρικού συστήματος</string>
     <string name="weather_retrieve_location_dialog_title">Δεν είναι δυνατός ο εντοπισμός της τοποθεσίας!</string>
-    <string name="weather_retrieve_location_dialog_message">Ο εντοπισμός τοποθεσίας μέσω δικτύου είναι απενεργοποιημένος. /n/nΧρησιμοποιήστε μία προσαρμοσμένη τοποθεσία ή ενεργοποιήστε την τοποθεσία δικτύου</string>
+    <string name="weather_retrieve_location_dialog_message">Ο εντοπισμός τοποθεσίας μέσω δικτύου είναι απενεργοποιημένος.\n\nΧρησιμοποιήστε μία προσαρμοσμένη τοποθεσία ή ενεργοποιήστε την τοποθεσία δικτύου</string>
     <string name="weather_retrieve_location_dialog_enable_button">Ενεργοποίηση</string>
     <string name="weather_invert_lowhigh">Αντιστροφή χαμηλής/υψηλής θερμοκρασίας</string>
     <string name="weather_progress_title">Επαλήθευση τοποθεσίας</string>
@@ -153,6 +155,7 @@
     <string name="news_feed_rotate_interval">Χρ. διάστημα εναλλαγής</string>
     <string name="news_feed_display_unread_status">Ένδειξη μη αναγνωσμένων</string>
     <string name="news_feed_hide_viewed">Απόκρυψη αναγνωσμένων</string>
+    <string name="news_feed_no_articles_text_title">Εμφάνιση κειμένου \'Δεν υπάρχουν άρθρα\'</string>
     <string name="news_feed_provider_title">Είδος παρόχου</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_title">Πηγές τροφοδοσίας</string>
@@ -292,9 +295,17 @@
         που θέλετε να ρυθμίσετε χρησιμοποιώντας τον επιλογέα στην κορυφή.</string>
     <string name="show_date_title">Εμφάνιση ημερομηνίας</string>
     <string name="weather_icon_set_title">Σετ εικονιδίων</string>
+    <string name="icon_set_selection_get_more">Βρείτε περισσότερα\u2026</string>
     <string name="weather_icons_standard">Χρωματιστά</string>
     <string name="weather_icons_monochrome">Μονόχρωμα</string>
     <string name="weather_icons_modern">Μοντέρνα</string>
-    <string name="icon_set_selection_get_more">Βρείτε περισσότερα\u2026</string>
-
+    <string name="daydream_night_mode_title">Νυχτερινή λειτουργία</string>
+    <string name="daydream_night_mode_summary">Συσκότιση της οθόνης για καλύτερη απεικόνιση σε σκοτεινό περιβάλλον</string>
+    <string name="daydream_effect_title">Εφέ</string>
+    <string name="daydream_effect_none">Κανένα (δεν συνιστάται)</string>
+    <string name="daydream_effect_fade">Ξεθώριασμα</string>
+    <string name="daydream_effect_slide">Ολίσθηση</string>
+    <string name="daydream_effect_explode">Έκρηξη</string>
+    <string name="daydream_bg_color_interpolation_title">Ομαλό χρώμα φόντου</string>
+    <string name="daydream_bg_color_interpolation_summary">Αργή αλλαγή του χρώματος φόντου με την πάροδο του χρόνου</string>
 </resources>
