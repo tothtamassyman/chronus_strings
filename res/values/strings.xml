@@ -25,6 +25,7 @@
     <string name="loading_indicator">Loading widget\u2026</string>
     <string name="menu_done">Done</string>
     <string name="menu_add">Add</string>
+    <string name="menu_search">Search</string>
     <string name="ok">OK</string>
     <string-array name="empty_array" translatable="false"/>
     <string name="send_log" translatable="false">Logcat</string>
@@ -259,6 +260,7 @@
     <!-- News Feed Provider Settings - RSS -->
     <string name="rss_sources_custom_header">User-defined</string>
     <string name="rss_custom_source_url">Url:</string>
+    <string name="rss_custom_source_url_hint" translatable="false">http://</string>
     <string name="rss_custom_source_title">Add custom source</string>
     <string name="rss_custom_source_name">Name:</string>
 
@@ -368,11 +370,14 @@
     <string name="chronus_weather">Chronus Weather</string>
     <string name="chronus_forecast">Chronus Forecast</string>
     <string name="chronus_calendar">Chronus Calendar</string>
+    <string name="chronus_clockplus_forecast">Chronus Clock+ (Forecast)</string>
+
     <string name="chronus_flex_short" translatable="false">Flex</string>
     <string name="chronus_clockplus_short">Clock+</string>
     <string name="chronus_weather_short">Weather</string>
     <string name="chronus_forecast_short">Forecast</string>
     <string name="chronus_calendar_short">Calendar</string>
+    <string name="chronus_clockplus_forecast_short">Clock+ (Forecast)</string>
 
     <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
     <string name="chronus_flex_analog">Chronus Flex (Analog)</string>
