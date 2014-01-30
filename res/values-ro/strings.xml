@@ -119,10 +119,12 @@
     <string name="general_category">General</string>
     <string name="display_category">Afișare</string>
     <string name="provider_category">Furnizor</string>
+    <string name="daydream_category">Screensaver</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Ecran blocare</string>
     <string name="widget_type_homescreen">Ecran principal (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_daydream">Screensaver Daydream</string>
 
     <!-- Preferences - Clock -->
     <string name="clock_font_title">"Font oră îngroșat"</string>
@@ -183,8 +185,8 @@
     <string name="news_feed_rotate_interval">Interval rotație</string>
     <string name="news_feed_display_unread_status">Indicator necitit</string>
     <string name="news_feed_hide_viewed">Ascundere vizulizate</string>
-    <string name="news_feed_no_articles_text_title">Afișare text \'Nu există articole\' text</string>
-    <string name="news_feed_provider_title">Tip furnizor</string>
+    <string name="news_feed_no_articles_text_title">Afișare text \'Nu există articole\'</string>
+    <string name="news_feed_provider_title">Tip flux</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_title">Surse de flux</string>
     <string name="news_feed_refresh_interval">Interval actualizare</string>
@@ -357,9 +359,22 @@
 
     <!-- Weather icon sets -->
     <string name="weather_icon_set_title">Pictograme</string>
+    <string name="icon_set_selection_get_more">Mai multe\u2026</string>
+
+     <!-- Icon Set names -->
+     <string name="weather_icons_standard">Colored</string>
     <string name="weather_icons_standard">Color</string>
     <string name="weather_icons_monochrome">Monocrom</string>
     <string name="weather_icons_modern">Modern</string>
-    <string name="icon_set_selection_get_more">Mai multe\u2026</string>
 
+     <!-- Daydream -->
+     <string name="daydream_night_mode_title">Mod de noapte</string>
+     <string name="daydream_night_mode_summary">Întunecă ecranul pentru o vizibilitate mai bună în medii întunecate</string>
+     <string name="daydream_effect_title">Efect</string>
+     <string name="daydream_effect_none">Fără (nu se recomandăt)</string>
+     <string name="daydream_effect_fade">Stingere</string>
+     <string name="daydream_effect_slide">Glisare</string>
+     <string name="daydream_effect_explode">Explozie</string>
+     <string name="daydream_bg_color_interpolation_title">Culoare omogenă de fundal</string>
+     <string name="daydream_bg_color_interpolation_summary">Schimbare lină în timp a culorii de fundal</string>
 </resources>
