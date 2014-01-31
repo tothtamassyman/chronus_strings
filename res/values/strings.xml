@@ -30,6 +30,7 @@
     <string-array name="empty_array" translatable="false"/>
     <string name="send_log" translatable="false">Logcat</string>
     <string name="exit">Exit</string>
+    <string name="msg_login_failed">Login failed</string>
 
     <!-- Formats -->
     <string name="format_seconds">%s sec.</string>
@@ -202,7 +203,9 @@
     <string name="news_feed_no_articles_text_title">Show \'No articles\' text</string>
     <string name="news_feed_provider_title">Provider type</string>
     <string name="news_feed_provider_rss">RSS</string>
-    <string name="news_feed_provider_settings_title">Feed sources</string>
+    <string name="news_feed_provider_feedly" translatable="false">Feedly</string>
+    <string name="news_feed_provider_settings_rss_title">Feed sources</string>
+    <string name="news_feed_provider_settings_feedly_title">Feedly settings</string>
     <string name="news_feed_refresh_interval">Update interval</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (applies to all widgets)</string>
 
@@ -263,6 +266,18 @@
     <string name="rss_custom_source_url_hint" translatable="false">http://</string>
     <string name="rss_custom_source_title">Add custom source</string>
     <string name="rss_custom_source_name">Name:</string>
+
+    <!-- News Feed Provider Settings - Feedly -->
+    <string name="feedly_account_title">Feedly account</string>
+    <string name="feedly_account_summary_logout">You don\'t have any account linked to Feedly. Tap here to link your account</string>
+    <string name="feedly_account_summary_login">Your account is linked to Feedly. Tap here to unlink your account.\n\nAccount: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="feedly_preferences_title">Preferences</string>
+    <string name="feedly_engaging_content_title">Show most engaging content</string>
+    <string name="feedly_categories_title">Categories</string>
+    <string name="feedly_msg_retrieving_user_profile">Retrieving user profile. Wait\u2026</string>
+    <string name="feedly_msg_retrieving_user_categories">Retrieving user categories. Wait\u2026</string>
+    <string name="feedly_msg_auth_access_success">Account linked successfully</string>
+    <string name="feedly_msg_access_error">Failed to access user information</string>
 
     <!-- Font colors -->
     <string name="white">White</string>
@@ -362,6 +377,7 @@
     <string name="weather_source_hamweather" translatable="false">Hamweather</string>
     <string name="weather_source_accuweather" translatable="false">Accuweather</string>
     <string name="weather_source_openweathermap" translatable="false">OpenWeatherMap</string>
+    <string name="weather_source_yrno" translatable="false">yr.no</string>
 
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
@@ -371,6 +387,7 @@
     <string name="chronus_forecast">Chronus Forecast</string>
     <string name="chronus_calendar">Chronus Calendar</string>
     <string name="chronus_clockplus_forecast">Chronus Clock+ (Forecast)</string>
+    <string name="chronus_news">Chronus News</string>
 
     <string name="chronus_flex_short" translatable="false">Flex</string>
     <string name="chronus_clockplus_short">Clock+</string>
@@ -378,6 +395,7 @@
     <string name="chronus_forecast_short">Forecast</string>
     <string name="chronus_calendar_short">Calendar</string>
     <string name="chronus_clockplus_forecast_short">Clock+ (Forecast)</string>
+    <string name="chronus_news_short">News</string>
 
     <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
     <string name="chronus_flex_analog">Chronus Flex (Analog)</string>

@@ -181,7 +181,7 @@
     <string name="news_feed_no_articles_text_title">显示“无文章”提示</string>
     <string name="news_feed_provider_title">提供商类型</string>
     <string name="news_feed_provider_rss">RSS</string>
-    <string name="news_feed_provider_settings_title">订阅来源</string>
+    <string name="news_feed_provider_settings_rss_title">订阅来源</string>
     <string name="news_feed_refresh_interval">更新间隔</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g>（应用于所有小部件）</string>
 

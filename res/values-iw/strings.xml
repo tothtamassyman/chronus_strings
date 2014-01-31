@@ -141,7 +141,7 @@
   <string name="news_feed_hide_viewed">הסתר נצפים</string>
   <string name="news_feed_no_articles_text_title">הצג טקסט \'אין מאמרים\'</string>
   <string name="news_feed_provider_title">סוג ספק</string>
-  <string name="news_feed_provider_settings_title">מקורות הזנה</string>
+  <string name="news_feed_provider_settings_rss_title">מקורות הזנה</string>
   <string name="news_feed_refresh_interval">מרווח עדכון</string>
   <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (מתאים לכל הווידג\'טים)</string>
   <string name="news_feed_refresh_manual">ידני</string>

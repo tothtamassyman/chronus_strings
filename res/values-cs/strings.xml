@@ -167,7 +167,7 @@
     <string name="news_feed_hide_viewed">Skrýt přečtené</string>
     <string name="news_feed_no_articles_text_title">Zobrazovat \"Bez článků\"</string>
     <string name="news_feed_provider_title">Typ zdroje</string>
-    <string name="news_feed_provider_settings_title">Zdroj zpráv</string>
+    <string name="news_feed_provider_settings_rss_title">Zdroj zpráv</string>
     <string name="news_feed_refresh_interval">Interval aktualizace</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (použije se na všechny widgety)</string>
 
