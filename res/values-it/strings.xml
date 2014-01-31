@@ -360,14 +360,13 @@
     <string name="widget_rounded_corners_title">Angoli arrotondati</string>
 
     <!-- Calendar - No events -->
-    <string name="calendar_no_events">Non ci sono eventi nella finestra di eventi futuri</string>
+    <string name="calendar_no_events">Non ci sono eventi imminenti</string>
     <string name="calendar_no_events_summary">Tocca + per aggiungere</string>
     <string name="calendar_no_events_indicator_title">Mostra il testo \'Nessun evento\'</string>
 
     <!--  Cling text -->
     <string name="cling_widget_select_title">Seleziona widget</string>
     <string name="cling_widget_select_detail">Puoi configurare singolarmente ciascuno dei widget aggiunti, scegliendolo tramite il selettore in alto.</string>
-
     <string name="show_date_title">Mostra data</string>
 
     <!-- Weather icon sets -->
