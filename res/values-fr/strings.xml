@@ -21,6 +21,7 @@
     <string name="loading_indicator">Chargement du widget\u2026</string>
     <string name="menu_done">OK</string>
     <string name="menu_add">Ajouter</string>
+    <string name="menu_search">Rechercher</string>
     <string name="ok">OK</string>
     <string name="exit">Quitter</string>
 
@@ -334,10 +335,13 @@
     <string name="chronus_weather">Chronus Météo</string>
     <string name="chronus_forecast">Chronus Prévision</string>
     <string name="chronus_calendar">Chronus Agendas</string>
+    <string name="chronus_clockplus_forecast">Chronus Horloge+ (Prévision)</string>
+
     <string name="chronus_clockplus_short">Horloge+</string>
     <string name="chronus_weather_short">Météo</string>
     <string name="chronus_forecast_short">Prévision</string>
     <string name="chronus_calendar_short">Agendas</string>
+    <string name="chronus_clockplus_forecast_short">Horloge+ (Prévision)</string>
 
     <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
     <string name="chronus_flex_analog">Chronus Flex (Analogique)</string>
