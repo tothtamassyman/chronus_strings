@@ -24,6 +24,7 @@
     <string name="menu_search">Rechercher</string>
     <string name="ok">OK</string>
     <string name="exit">Quitter</string>
+    <string name="msg_login_failed">Connexion échouée</string>
 
     <!-- Formats -->
     <string name="format_seconds">%s s</string>
@@ -189,6 +190,7 @@
     <string name="news_feed_provider_title">Type de fournisseur</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_rss_title">Sources des flux</string>
+    <string name="news_feed_provider_settings_feedly_title">Paramètres Feedly</string>
     <string name="news_feed_refresh_interval">Intervalle de mise à jour</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (s\'applique à tous les widgets)</string>
 
@@ -248,6 +250,18 @@
     <string name="rss_custom_source_url">Url :</string>
     <string name="rss_custom_source_title">Ajouter une source personnalisée</string>
     <string name="rss_custom_source_name">Nom :</string>
+
+    <!-- News Feed Provider Settings - Feedly -->
+    <string name="feedly_account_title">Compte Feedly</string>
+    <string name="feedly_account_summary_logout">Vous n\'avez aucun compte lié à Feedly. Appuyer ici pour le lier</string>
+    <string name="feedly_account_summary_login">Votre compte est lié à Feedly. Appuyer ici pour le retirer.\n\nCompte\u00A0: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="feedly_preferences_title">Paramètres</string>
+    <string name="feedly_trending_content_title">Afficher le contenu le plus pertinent</string>
+    <string name="feedly_categories_title">Catégories</string>
+    <string name="feedly_msg_retrieving_user_profile">Réception de votre compte utilisateur. Patienter\u2026</string>
+    <string name="feedly_msg_retrieving_user_categories">Réception des catégories. Patienter\u2026</string>
+    <string name="feedly_msg_auth_access_success">Connexion au compte réussi</string>
+    <string name="feedly_msg_access_error">Accès aux informations utilisateur échoué</string>
 
     <!-- Font colors -->
     <string name="white">Blanc</string>
@@ -336,12 +350,14 @@
     <string name="chronus_forecast">Chronus Prévision</string>
     <string name="chronus_calendar">Chronus Agendas</string>
     <string name="chronus_clockplus_forecast">Chronus Horloge+ (Prévision)</string>
+    <string name="chronus_news">Chronus Actualité</string>
 
     <string name="chronus_clockplus_short">Horloge+</string>
     <string name="chronus_weather_short">Météo</string>
     <string name="chronus_forecast_short">Prévision</string>
     <string name="chronus_calendar_short">Agendas</string>
     <string name="chronus_clockplus_forecast_short">Horloge+ (Prévision)</string>
+    <string name="chronus_news_short">Actualité</string>
 
     <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
     <string name="chronus_flex_analog">Chronus Flex (Analogique)</string>
