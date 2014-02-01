@@ -1,6 +1,6 @@
-Chronus este un widget elegant, ce include panouri cu ceas, meteo și calendar pentru ecranul pricipal și ecranul de blocare.
+Chronus este un widget elegant, ce include panouri cu ceas, meteo, flux de știri și calendar pentru ecranul pricipal și cel de blocare.
 
-Având același funcțional ca și widget-ul CyanogenMod cLock și prezentat de același dezvoltator, acest widget separat și lansat independent își recapătă numele original - Chronus și permite tuturor utilizatorilor Android să se bucure de posibilitățile acestuia.
+Având funcțional similar widget-ul CyanogenMod cLock și prezentat de același dezvoltator, acest widget separat și lansat independent își recapătă numele original - Chronus și permite tuturor utilizatorilor Android să se bucure de aceleași posibilități, de rând cu multe alte funcții noi și îmbunătățiri.
 
 <b>Atrageți atenție:</b>
 1) Widget-ul ecranului de blocare este compatibil doar cu Android 4.2+. Aceasta este o limitare a SO Android, dar nu din partea Chronus
@@ -12,25 +12,25 @@ Având același funcțional ca și widget-ul CyanogenMod cLock și prezentat de 
   - Acțiuni personalizate la apăsarea panourilor cu ceas, meteo și calendar pentru lansarea aplicațiilor sau activităților
   - Setarea culorii de fundal
   - Alinierea ceasului și panoului meteo (centru, stânga sau dreapta)
+	- Culori pentru Calendar
+	- Pictograme meteo 'Modern'
   - noi posibilități lansate la fiecare 3-4 săptămâni...
 
 <b>Posibilități de bază:</b>
 Versiunea standard este echivalentă cu widget-ul CyanogenMod cLock din CM10.2 cu suport adițional pentru versiunile Android mai vechi.
-  - Compatibilitate cu Android 4.1+
-  - Aplicare pe ecranul principal (Android 4.1+), ecranul de blocare (Android 4.2+) sau ambele
-  - Configurare mod afișare ceas
-  - Posibilitate afișare alarme
-  - Alegere între font ingroșat sau normal pentru ceasul, dată și alarmă
-  - Panou meteo oferit de Yahoo! sau AccuWeather
-  - Configurare pictograme meteo
-  - Panou meteo minimizat (util în special pe ecranul de blocare)
+  - Widget-uri Flex, Flex (Analog) și Ceas+ complet funcționale
+  - Aplicare pe ecranul principal (Android 4.1+) sau ecranul de blocare (Android 4.2+)
+  - Configurare mod de afișare ceas (componente vizibile, font normal/îngroșat)
+  - Panou meteo oferit de Yahoo, AccuWeather sau OpenWeatherMap
+	- Suport pentru panou meteo minimizat (pentru ecranul de blocare)
+	- Panou cu flux de știri și Vizualizator integrat
   - Panou calendaristic cu listă derulabilă a evenimentelor viitoare
-  - Apăsarea evenimentului deschide Calendarul la acel eveniment
-  - Apăsarea pictogramei calendarului deschide ziua curentă din Calendar
+  - Atingerea evenimentului deschide Calendarul la acel eveniment
+  - Atingerea pictogramei calendarului deschide ziua curentă din Calendar
+  - Evidențierea evenimentelor viitoare din calendar cu culori personalizate și font ingroșat
   - Schimbarea culorii textelor în toate panourile
   - Configurare prin intermediul aplicației Chronus din meniul principal
-  - Evidențiere evenimente viitoare din calendar cu culori personalizate și font ingroșat
 
 <b>Mulțumiri:</b>
-Chiar dacă am scris împreună cu Danny Baumann părți importante din Chronus, mulțumim comunității de traducători pentru includerea tuturor limbilor existente, precum și lui Jorge Ruesga, Nicolai Ehemann și Matt Booth pentru corectările și opțiunile adiționale la care au contribuit.\n
+În timp ce am creat împreună cu Danny Baumann cea mai mare parte din Chronus, mulțumim comunității de traducători, precum și lui Nicolai Ehemann, Matt Booth și Jorge Ruesga pentru limbile și opțiunile la care au contribuit.\n
 Traducerea în limba română: Adrian Nistreanu.

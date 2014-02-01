@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 
+<!--
      Copyright (C) 2012 The CyanogenMod Project (DvTonder)
      Chronus additions (c) 2013 David van Tonder
 
@@ -21,6 +21,8 @@
     <string name="cancel">Annulla</string>
     <string name="loading_indicator">Caricamento widget\u2026</string>
     <string name="menu_done">Fatto</string>
+    <string name="menu_add">Aggiungi</string>
+    <string name="menu_search">Cerca</string>
     <string name="ok">OK</string>
     <string name="exit">Esci</string>
 
@@ -184,7 +186,7 @@
     <string name="news_feed_no_articles_text_title">Mostra il testo \'Nessun articolo\'</string>
     <string name="news_feed_provider_title">Tipo di provider</string>
     <string name="news_feed_provider_rss">RSS</string>
-    <string name="news_feed_provider_settings_title">Fonti</string>
+    <string name="news_feed_provider_settings_rss_title">Fonti</string>
     <string name="news_feed_refresh_interval">Intervallo aggiornamento</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (si applica a tutti i widget)</string>
 
@@ -342,10 +344,13 @@
     <string name="chronus_weather">Chronus Meteo</string>
     <string name="chronus_forecast">Chronus Previsioni Meteo</string>
     <string name="chronus_calendar">Chronus Calendario</string>
+    <string name="chronus_clockplus_forecast">Chronus Orologio+ (Previsioni Meteo)</string>
+
     <string name="chronus_clockplus_short">Orologio+</string>
     <string name="chronus_weather_short">Meteo</string>
     <string name="chronus_forecast_short">Previsioni Meteo</string>
     <string name="chronus_calendar_short">Calendario</string>
+    <string name="chronus_clockplus_forecast_short">Orologio+ (Previsioni Meteo)</string>
 
     <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
     <string name="chronus_flex_analog">Chronus Flex (Analogico)</string>
@@ -355,15 +360,14 @@
     <string name="widget_rounded_corners_title">Angoli arrotondati</string>
 
     <!-- Calendar - No events -->
-    <string name="calendar_no_events">Non ci sono eventi nella finestra di eventi futuri</string>
+    <string name="calendar_no_events">Non ci sono eventi imminenti</string>
     <string name="calendar_no_events_summary">Tocca + per aggiungere</string>
     <string name="calendar_no_events_indicator_title">Mostra il testo \'Nessun evento\'</string>
+    <string name="show_date_title">Mostra data</string>
 
     <!--  Cling text -->
     <string name="cling_widget_select_title">Seleziona widget</string>
     <string name="cling_widget_select_detail">Puoi configurare singolarmente ciascuno dei widget aggiunti, scegliendolo tramite il selettore in alto.</string>
-
-    <string name="show_date_title">Mostra data</string>
 
     <!-- Weather icon sets -->
     <string name="weather_icon_set_title">Set icone</string>
