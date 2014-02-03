@@ -275,8 +275,8 @@
     <string name="feedly_preferences_title">Preferences</string>
     <string name="feedly_trending_content_title">Show trending content</string>
     <string name="feedly_categories_title">Categories</string>
-    <string name="feedly_msg_retrieving_user_profile">Retrieving user profile. Wait\u2026</string>
-    <string name="feedly_msg_retrieving_user_categories">Retrieving user categories. Wait\u2026</string>
+    <string name="feedly_msg_retrieving_user_profile">Retrieving user profile\u2026</string>
+    <string name="feedly_msg_retrieving_user_categories">Retrieving user categories\u2026</string>
     <string name="feedly_msg_auth_access_success">Account linked successfully</string>
     <string name="feedly_msg_access_error">Failed to access user information</string>
 
