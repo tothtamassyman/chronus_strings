@@ -25,6 +25,7 @@
     <string name="menu_add">Adăugare</string>
     <string name="ok">OK</string>
     <string name="exit">Ieșire</string>
+    <string name="msg_login_failed">Eroare logare</string>
     
     <!-- Formats -->
     <string name="format_seconds">%s sec.</string>
@@ -190,6 +191,7 @@
     <string name="news_feed_provider_title">Tip flux</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_rss_title">Surse de flux</string>
+    <string name="news_feed_provider_settings_feedly_title">Setări Feedly</string>
     <string name="news_feed_refresh_interval">Interval actualizare</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (se aplică pentru toate widget-urile)</string>
 
@@ -223,6 +225,7 @@
     <string name="calendar_metadata_none">"Nu se afişează"</string>
     <string name="calendar_metadata_first_line">"Afişare primul rând"</string>
     <string name="calendar_metadata_all">"Afişare totală"</string>
+    <string name="calendar_metadata_all_day">Toată ziua</string>
 
     <!-- News - Widgets -->
     <string name="news_feed_loading">Încărcare articole</string>
@@ -249,6 +252,18 @@
     <string name="rss_custom_source_url">Url:</string>
     <string name="rss_custom_source_title">Sursă personalizată</string>
     <string name="rss_custom_source_name">Denumire:</string>
+    
+    <!-- News Feed Provider Settings - Feedly -->
+    <string name="feedly_account_title">Cont Feedly</string>
+    <string name="feedly_account_summary_logout">Nu aveți conturi conectate la Feedly. Apăsați aici pentru a vă conecta contul</string>
+    <string name="feedly_account_summary_login">Contul Dvs este conectat la Feedly. Apăsați aici pentru a deconecta vă contul.\n\nCont: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="feedly_preferences_title">Preferințe</string>
+    <string name="feedly_trending_content_title">Afișare trenduri</string>
+    <string name="feedly_categories_title">Categorii</string>
+    <string name="feedly_msg_retrieving_user_profile">Preluare profil\u2026</string>
+    <string name="feedly_msg_retrieving_user_categories">Preluare categorii\u2026</string>
+    <string name="feedly_msg_auth_access_success">Cont conectat cu succes</string>
+    <string name="feedly_msg_access_error">Eroare accesare informație cont</string>
 
     <!-- Font colors -->
     <string name="white">Alb</string>
@@ -337,13 +352,15 @@
     <string name="chronus_forecast">Chronus Prognoză</string>
     <string name="chronus_calendar">Chronus Calendar</string>
     <string name="chronus_clockplus_forecast">Chronus Ceas+ (Progoză)</string>
+    <string name="chronus_news">Chronus Știri</string>
     
     <string name="chronus_clockplus_short">Ceas+</string>
     <string name="chronus_weather_short">Meteo</string>
     <string name="chronus_forecast_short">Prognoză</string>
     <string name="chronus_calendar_short">Calendar</string>
     <string name="chronus_clockplus_forecast_short">Ceas+ (Progoză)</string>
-    
+    <string name="chronus_news_short">Știri</string>
+
     <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
     <string name="chronus_flex_analog">Chronus Flex (Analog)</string>
     <string name="chronus_flex_analog_short">Flex (Analog)</string>
