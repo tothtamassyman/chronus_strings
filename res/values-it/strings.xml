@@ -25,6 +25,7 @@
     <string name="menu_search">Cerca</string>
     <string name="ok">OK</string>
     <string name="exit">Esci</string>
+    <string name="msg_service_unavailable">Servizio non disponibile</string>
     <string name="msg_login_failed">Login fallito</string>
 
     <!-- Formats -->
@@ -139,7 +140,6 @@
     <string name="weather_enabled">Attivo</string>
     <string name="weather_enable">Visualizza meteo</string>
     <string name="weather_source_title">Fonte meteo</string>
-    <string name="weather_source_yahoo">Yahoo! Meteo</string>
     <string name="weather_use_custom_location">Posizione personalizzata</string>
     <string name="weather_geolocated">Localizzazione tramite la rete</string>
     <string name="weather_custom_location_dialog_title">Inserisci la posizione</string>
@@ -149,7 +149,7 @@
     <string name="weather_show_timestamp_title">Tempo trascorso dall\'aggiornamento</string>
     <string name="weather_refresh_interval">Intervallo aggiornamento</string>
     <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (si applica a tutti i widget)</string>
-    <string name="weather_use_metric">Usa unità metriche</string>
+    <string name="weather_use_metric">Usa unità metriche (\u00b0C)</string>
     <string name="weather_retrieve_location_dialog_title">Impossibile rilevare la posizione!</string>
     <string name="weather_retrieve_location_dialog_message">La localizzazione tramite la rete è disabilitata.\n\nImposta una posizione personalizzata o abilita la localizzazione tramite la rete</string>
     <string name="weather_retrieve_location_dialog_enable_button">Abilita</string>
@@ -160,6 +160,7 @@
     <string name="weather_show_when_minimized_title">Mostra se minimizzato</string>
     <string name="weather_show_when_minimized_summary">Mostra informazioni di riepilogo sul meteo quando il widget è minimizzato</string>
     <string name="weather_select_location">Seleziona posizione</string>
+    <string name="weather_show_refresh">Mostra l\'icona di aggiornamento</string>
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">Visualizza eventi</string>
@@ -353,6 +354,9 @@
     <string name="calendar_event_color_ifneeded">Mostra se necessario</string>
     <string name="calendar_event_color_always">Mostra sempre</string>
 
+    <!-- Weather providers -->
+    <string name="weather_source_yahoo">Yahoo! Meteo</string>
+
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_clockplus">Chronus Orologio+</string>
@@ -381,6 +385,7 @@
     <string name="calendar_no_events_summary">Tocca + per aggiungere</string>
     <string name="calendar_no_events_indicator_title">Mostra il testo \'Nessun evento\'</string>
     <string name="show_date_title">Mostra data</string>
+    <string name="show_battery_title">Mostra percentuale batteria</string>
 
     <!--  Cling text -->
     <string name="cling_widget_select_title">Seleziona widget</string>
