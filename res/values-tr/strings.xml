@@ -138,9 +138,6 @@
     <string name="weather_enable">Hava durumunu göster</string>
     <string name="weather_source_title">Hava durumu kaynağı</string>
     <string name="weather_source_yahoo">Yahoo! Weather</string>
-    <string name="weather_source_wunderground">Weather Underground</string>
-    <string name="weather_source_hamweather">Hamweather</string>
-    <string name="weather_source_accuweather">AccuWeather</string>
     <string name="weather_use_custom_location">Özel bir konum kullan</string>
     <string name="weather_geolocated">Ağ jeolokasyonu ile konum</string>
     <string name="weather_custom_location_dialog_title">Konum girişi</string>

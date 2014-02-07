@@ -170,9 +170,6 @@
     <string name="about_category">Sobre Chronus</string>
     <string name="appearance_category">Aparência geral</string>
     <string name="weather_source_title">Fonte de dados</string>
-    <string name="weather_source_wunderground">Weather Underground</string>
-    <string name="weather_source_hamweather">Hamweather</string>
-    <string name="weather_source_accuweather">AccuWeather</string>
     <string name="how_to_title">Ajuda</string>
     <string name="first_run_title">Bem-vindo a %s</string>
     <string name="first_run_message">Chronus é um Widget e precisa ser adicionado manualmente à tela inicial (Android 4.1+) ou na
@@ -240,15 +237,10 @@
     <string name="calendar_no_events_summary">Toque em + para adicionar</string>
     <string name="cling_widget_select_title">Selecionar widget</string>
     <string name="cling_widget_select_detail">Você pode configurar cada widget colocado por você. Você só precisa selecionar qual você deseja configurar usando o seletor no topo.</string>
-    <string name="calendar_add_event_title">Ícone para adicionar evento</string>
-    <string name="calendar_no_events">Nenhum evento próximo</string>
-    <string name="calendar_no_events_summary">Toque em + para adicionar</string>
     <string name="calendar_no_events_indicator_title">Exibir texto \'Nenhum evento\'</string>
     <string name="weather_icon_set_title">Ícones</string>
     <string name="weather_icons_standard">Colorido</string>
     <string name="weather_icons_monochrome">Monocromático</string>
     <string name="icon_set_selection_get_more">Obtenha mais\u2026</string>
-    <string name="weather_kph">km/h</string>
-    <string name="weather_mph">mph</string>
 
 </resources>

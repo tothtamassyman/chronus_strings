@@ -23,6 +23,7 @@
     <string name="menu_add">Añadir</string>
     <string name="ok">Aceptar</string>
     <string name="exit">Salir</string>
+    <string name="msg_service_unavailable">Servicio no disponible</string>
     <string name="msg_login_failed">Fallo de autenticación</string>
     <string name="format_seconds">%s seg.</string>
     <string name="weather_0">Tornado</string>
@@ -127,7 +128,7 @@
     <string name="weather_show_timestamp_title">Mostrar fecha y hora</string>
     <string name="weather_refresh_interval">Intervalo de actualización</string>
     <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (se aplica a todos los widgets)</string>
-    <string name="weather_use_metric">Usar sistema métrico</string>
+    <string name="weather_use_metric">Usar sistema métrico (\u00b0C)</string>
     <string name="weather_retrieve_location_dialog_title">¡No se puede encontrar la ubicación!</string>
     <string name="weather_retrieve_location_dialog_message">Geolocalización por red desactivada.\n\nConfigura una ubicación personalizada o activa la geolocalización por red</string>
     <string name="weather_retrieve_location_dialog_enable_button">Activar</string>
@@ -138,6 +139,7 @@
     <string name="weather_show_when_minimized_title">Mostrar al minimizar</string>
     <string name="weather_show_when_minimized_summary">Mostrar la información climática cuando el widget esté minimizado</string>
     <string name="weather_select_location">Seleccionar ubicación</string>
+    <string name="weather_show_refresh">Mostrar icono refrescar</string>
     <string name="calendar_title">Mostrar próximo evento</string>
     <string name="calendars_title">Calendario de eventos</string>
     <string name="calendars_summary">Buscar eventos en los calendarios</string>
@@ -153,7 +155,6 @@
     <string name="calendar_highlight_upcoming_events_summary">Resaltar los eventos del día actual y, después de las 20:00, resaltar también los eventos del día siguiente</string>
     <string name="calendar_highlight_upcoming_events_bold">Resaltar el texto</string>
     <string name="calendar_add_event_title">Mostrar icono Añadir Evento</string>
-    <string name="news_feed_title">Display News feed</string>
     <string name="news_feed_title">Mostrar noticias</string>
     <string name="news_feed_icon_title">Icono de noticias</string>
     <string name="news_feed_rotate_interval">Intervalo de rotación</string>
@@ -275,6 +276,7 @@
     <string name="tap_action_weather_refresh">Refrescar tiempo</string>
     <string name="tap_action_calendar_default">Calendario del sistema</string>
     <string name="tap_action_weather_forecast">Mostrar predicción de tiempo</string>
+    <string name="tap_action_do_nothing">No hacer nada</string>
     <string name="widget_background_title">Fondo del widget</string>
     <string name="widget_background_default">Transparente</string>
     <string name="widget_background_color_fill">Color de relleno</string>
@@ -308,6 +310,7 @@
     <string name="cling_widget_select_title">Seleccionar widget</string>
     <string name="cling_widget_select_detail">Puedes configurar cada uno de los widgets colocados. Solo selecciona el que quieres configurar utilizando el selector de la barra de acciones.</string>
     <string name="show_date_title">Mostrar fecha</string>
+    <string name="show_battery_title">Mostrar porcentaje batería</string>
     <string name="weather_icon_set_title">Conjunto de iconos</string>
     <string name="weather_icons_standard">Coloreado</string>
     <string name="weather_icons_monochrome">Monocromo</string>
