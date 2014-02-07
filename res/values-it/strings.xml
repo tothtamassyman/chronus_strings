@@ -82,9 +82,11 @@
     <string name="weather_47">Rovesci temporaleschi isolati</string>
     <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
-    <!-- Weather - Speed units -->
+    <!-- Weather - Units -->
     <string name="weather_kph">kph</string>
     <string name="weather_mph">mph</string>
+    <string name="weather_mm">mm</string>
+    <string name="weather_inch">in</string>
 
     <!-- Weather - Wind directions -->
     <string name="weather_N">N</string>
@@ -97,6 +99,7 @@
     <string name="weather_NW">NO</string>
 
     <!-- Weather - Error messages -->
+    <string name="weather_loading">Caricamento dati meteo\u2026</string>
     <string name="weather_no_data">Dati non disponibili</string>
     <string name="weather_tap_to_refresh">Tocca per aggiornare</string>
     <string name="weather_refreshing">Aggiornamento</string>
