@@ -21,7 +21,10 @@
     <string name="loading_indicator">Načítání widgetu\u2026</string>
     <string name="menu_done">Hotovo</string>
     <string name="menu_add">Přidat</string>
+    <string name="menu_search">Vyhledávat</string>
     <string name="exit">Ukončit</string>
+    <string name="msg_service_unavailable">Služba nedostupná</string>
+    <string name="msg_login_failed">Přihlášení selhalo</string>
 
     <string name="format_seconds">%s sek.</string>
 
@@ -86,6 +89,7 @@
     <string name="weather_W">Z</string>
     <string name="weather_NW">SZ</string>
 
+    <string name="weather_loading">Načítání informací o počasí\u2026</string>
     <string name="weather_no_data">Žádná data</string>
     <string name="weather_tap_to_refresh">Kliknutím obnovit</string>
     <string name="weather_refreshing">Obnovování</string>
@@ -109,8 +113,10 @@
     <string name="general_category">Obecné</string>
     <string name="display_category">Zobrazení</string>
     <string name="provider_category">Zdroj</string>
+    <string name="daydream_category">Spořič obrazovky</string>
 
     <string name="widget_type_keyguard">Obrazovka zámku</string>
+    <string name="widget_type_daydream">Spořič obrazovky</string>
     <string name="widget_type_homescreen">Plocha (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 
     <string name="clock_font_title">Zvýraznit hodiny</string>
@@ -143,6 +149,7 @@
     <string name="weather_show_when_minimized_title">Zobrazit v minimalizaci</string>
     <string name="weather_show_when_minimized_summary">Pokud je widget minimalizován, zobrazit shrnující informace o počasí</string>
     <string name="weather_select_location">Zvolte umístění</string>
+    <string name="weather_show_refresh">Zobrazit ikonu obnovení</string>
 
     <string name="calendar_title">Zobrazit další událost</string>
     <string name="calendars_title">Událost kalendářů</string>
@@ -165,9 +172,10 @@
     <string name="news_feed_rotate_interval">Interval výměny</string>
     <string name="news_feed_display_unread_status">Ukazatel nepřečtených zpráv</string>
     <string name="news_feed_hide_viewed">Skrýt přečtené</string>
-    <string name="news_feed_no_articles_text_title">Zobrazovat \"Bez článků\"</string>
+    <string name="news_feed_no_articles_text_title">Zobrazovat \u201eBez článků\u201c</string>
     <string name="news_feed_provider_title">Typ zdroje</string>
     <string name="news_feed_provider_settings_rss_title">Zdroj zpráv</string>
+    <string name="news_feed_provider_settings_feedly_title">Nastavení Feedly</string>
     <string name="news_feed_refresh_interval">Interval aktualizace</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (použije se na všechny widgety)</string>
 
@@ -197,6 +205,7 @@
     <string name="calendar_metadata_none">Nezobrazovat</string>
     <string name="calendar_metadata_first_line">Zobrazit první řádek</string>
     <string name="calendar_metadata_all">Zobrazit vše</string>
+    <string name="calendar_metadata_all_day">Celodenní</string>
 
     <string name="news_feed_loading">Načítání článků</string>
     <string name="news_feed_loading_summary">Počkejte prosím chilku\u2026</string>
@@ -220,6 +229,17 @@
     <string name="rss_custom_source_url">Adresa:</string>
     <string name="rss_custom_source_title">Přidat vlastní zdroj</string>
     <string name="rss_custom_source_name">Název:</string>
+
+    <string name="feedly_account_title">Účet Feedly</string>
+    <string name="feedly_account_summary_logout">Žádný účet není propojen s Feedly. Dotykem zde provede propojení účtu</string>
+    <string name="feedly_account_summary_login">Účet je propjen s Feedly. Dotykem zde provedete rozpojení účtu.\n\nÚčet: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="feedly_preferences_title">Nastavení</string>
+    <string name="feedly_trending_content_title">Zobrazit dle oblíbenosti</string>
+    <string name="feedly_categories_title">Kategorie</string>
+    <string name="feedly_msg_retrieving_user_profile">Načítání profilu\u2026</string>
+    <string name="feedly_msg_retrieving_user_categories">Načítání kategorií\u2026</string>
+    <string name="feedly_msg_auth_access_success">Úspěšné propojení účtu</string>
+    <string name="feedly_msg_access_error">Přístup k uživatelským informacím selhal</string>
 
     <string name="white">Bílá</string>
     <string name="grey">Šedivá</string>
@@ -302,28 +322,43 @@
     <string name="chronus_weather">Chronus počasí</string>
     <string name="chronus_forecast">Chronus předpověď</string>
     <string name="chronus_calendar">Chronus kalendář</string>
+    <string name="chronus_clockplus_forecast">Chronus hodiny+ (předpověď)</string>
+    <string name="chronus_news">Chronus zprávy</string>
     <string name="chronus_clockplus_short">Hodiny+</string>
     <string name="chronus_weather_short">Počasí</string>
     <string name="chronus_forecast_short">Předpověď</string>
     <string name="chronus_calendar_short">Kalendář</string>
+    <string name="chronus_clockplus_forecast_short">Hodiny+ (předpověď)</string>
+    <string name="chronus_news_short">Zprávy</string>
 
-    <string name="chronus_flex_analog">Chronus Flex (Analogový)</string>
-    <string name="chronus_flex_analog_short">Flex (Analogový)</string>
+    <string name="chronus_flex_analog">Chronus Flex (analogový)</string>
+    <string name="chronus_flex_analog_short">Flex (analogový)</string>
 
     <string name="widget_rounded_corners_title">Zakulacené rohy</string>
 
     <string name="calendar_no_events">Žádné příští události</string>
     <string name="calendar_no_events_summary">Přidat dotykem na +</string>
-    <string name="calendar_no_events_indicator_title">Zobrazovat \"Žádné události\"</string>
+    <string name="calendar_no_events_indicator_title">Zobrazovat \u201eŽádné události\u201c</string>
 
     <string name="cling_widget_select_title">Zvolte widget</string>
     <string name="cling_widget_select_detail">Je možné změnit nastavení jakéhokoliv widgetu, který jste vytvořili. Požadovaný widget stačí vybrat pomocí volby nahoře.</string>
 
     <string name="show_date_title">Zobrazit datum</string>
+    <string name="show_battery_title">Zobrazit procenta baterie</string>
 
     <string name="weather_icon_set_title">Sada ikon</string>
     <string name="weather_icons_standard">Barevné</string>
     <string name="weather_icons_monochrome">Černobílé</string>
     <string name="weather_icons_modern">Moderní</string>
     <string name="icon_set_selection_get_more">Získat další\u2026</string>
+
+    <string name="daydream_night_mode_title">Noční režim</string>
+    <string name="daydream_night_mode_summary">Ztlumené podsvícení obrazovky (pro tmavé místnosti)</string>
+    <string name="daydream_effect_title">Efect</string>
+    <string name="daydream_effect_none">Žádný (nedoporučováno)</string>
+    <string name="daydream_effect_fade">Plynulý</string>
+    <string name="daydream_effect_slide">Posouvání</string>
+    <string name="daydream_effect_explode">Exploze</string>
+    <string name="daydream_bg_color_interpolation_title">Plynulý přechod barvy pozadí</string>
+    <string name="daydream_bg_color_interpolation_summary">Pomalu měnit barvu pozadí</string>
 </resources>
