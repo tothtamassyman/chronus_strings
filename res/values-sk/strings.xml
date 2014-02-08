@@ -237,7 +237,6 @@
     <string name="calendar_colors">Farby v kalendári</string>
     <string name="calendar_event_color_ifneeded">Zobraziť, ak je to potrebné</string>
     <string name="calendar_event_color_always">Vždy zobraziť</string>
-    <string name="weather_source_yahoo">Yahoo! Počasie</string>
     <string name="contact_title">Kontaktujte nás</string>
     <string name="credits_title">Kredity</string>
     <string name="credits_summary">Aj keď som ja spolu s Dannym Baumannom napísal väčšinu aplikácie Chronus, veľká vďaka patrí prekladateľom
@@ -283,6 +282,7 @@
     <string name="weather_select_location">Vybrať polohu</string>
     <string name="weather_show_refresh">Zobraziť ikonu aktualizácie</string>
     <string name="weather_source_title">Zdroj počasia</string>
+    <string name="weather_source_yahoo">Yahoo! Počasie</string>
     <string name="widget_background_title">Pozadie miniaplikácie</string>
     <string name="widget_background_default">Priehľadné</string>
     <string name="widget_background_color_fill">Farebná výplň</string>
