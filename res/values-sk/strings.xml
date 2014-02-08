@@ -23,6 +23,7 @@
     <string name="ok">OK</string>
     <string name="exit">Ukončiť</string>
     <string name="msg_login_failed">Prihlásenie zlyhalo</string>
+    <string name="msg_service_unavailable">Služba nie je dostupná</string>
     <string name="format_seconds">%s sek.</string>
     <string name="weather_0">Tornádo</string>
     <string name="weather_1">Tropická búrka</string>
@@ -72,6 +73,10 @@
     <string name="weather_45">Silné prehánky</string>
     <string name="weather_46">Snehové prehánky</string>
     <string name="weather_47">Izolované silné prehánky</string>
+    <string name="weather_kph">k/h</string>
+    <string name="weather_mph">m/h</string>
+    <string name="weather_mm">milimetrov</string>
+    <string name="weather_inch">palcov</string>
     <string name="weather_N">S</string>
     <string name="weather_NE">SV</string>
     <string name="weather_E">V</string>
@@ -80,11 +85,12 @@
     <string name="weather_SW">JZ</string>
     <string name="weather_W">Z</string>
     <string name="weather_NW">SZ</string>
+    <string name="weather_loading">Načítavanie údajov o počasí\u2026</string>
     <string name="weather_no_data">Žiadne údaje</string>
     <string name="weather_tap_to_refresh">Kliknutím obnovte</string>
     <string name="weather_refreshing">Obnovuje sa</string>
     <string name="weather_last_sync_just_now">Práve teraz</string>
-    <string name="weather_cannot_reach_provider">Nemožno momentálne získať dáta z %s</string>
+    <string name="weather_cannot_reach_provider">Nemožno momentálne získať údaje z %s</string>
     <string name="weather_refresh_manual">Ručne</string>
     <string name="weather_refresh_30min">30 minút</string>
     <string name="weather_refresh_60min">60 minút</string>
@@ -105,6 +111,7 @@
     <string name="widget_type_keyguard">Obrazovka uzamknutia</string>
     <string name="widget_type_daydream">Šetrič obrazovky</string>
     <string name="widget_type_homescreen">Domovská obrazovka (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_launcher" translatable="false"><xliff:g id="name">%1$s</xliff:g> (<xliff:g id="columns">%2$d</xliff:g>x<xliff:g id="rows">%3$d</xliff:g>)</string>
     <string name="clock_font_title">Hodiny tučným písmom</string>
     <string name="clock_font_minutes_title">Minúty tučným písmom</string>
     <string name="clock_font_date_title">Dátum a budík tučným písmom</string>
@@ -121,7 +128,7 @@
     <string name="weather_show_timestamp_title">Zobraziť časovú značku</string>
     <string name="weather_refresh_interval">Interval aktualizácie</string>
     <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minút">%s</xliff:g> (vzťahuje sa na všetky miniaplikácie)</string>
-    <string name="weather_use_metric">Použiť metrické jednotky</string>
+    <string name="weather_use_metric">Použiť metrické jednotky (\u00b0C)</string>
     <string name="weather_retrieve_location_dialog_title">Nemožno získať polohu</string>
     <string name="weather_retrieve_location_dialog_message">Lokalizácia pomocou siete je zakázaná.\n\nNastavte vlastnú polohu alebo povoľte sieťovú lokalizáciu</string>
     <string name="weather_retrieve_location_dialog_enable_button">Povoliť</string>
@@ -207,8 +214,8 @@
     <string name="feedly_preferences_title">Nastavenia</string>
     <string name="feedly_trending_content_title">Zobraziť trendy</string>
     <string name="feedly_categories_title">Kategórie</string>
-    <string name="feedly_msg_retrieving_user_profile">Získava sa profil používateľa. Čakajte\u2026</string>
-    <string name="feedly_msg_retrieving_user_categories">Získavajú sa kategórie používateľa. Čakajte\u2026</string>
+    <string name="feedly_msg_retrieving_user_profile">Získava sa profil používateľa\u2026</string>
+    <string name="feedly_msg_retrieving_user_categories">Získavajú sa kategórie používateľa\u2026</string>
     <string name="feedly_msg_auth_access_success">Spojenie s účtom bolo úspešné</string>
     <string name="feedly_msg_access_error">Nepodarilo sa získať informácie o používateľovi</string>
     <string name="white">Biela</string>
@@ -231,6 +238,7 @@
     <string name="calendar_colors">Farby v kalendári</string>
     <string name="calendar_event_color_ifneeded">Zobraziť, ak je to potrebné</string>
     <string name="calendar_event_color_always">Vždy zobraziť</string>
+    <string name="weather_source_yahoo">Yahoo! Počasie</string>
     <string name="contact_title">Kontaktujte nás</string>
     <string name="credits_title">Kredity</string>
     <string name="credits_summary">Aj keď som ja spolu s Dannym Baumannom napísal väčšinu aplikácie Chronus, veľká vďaka patrí prekladateľom
@@ -274,8 +282,8 @@
     <string name="tap_action_weather_forecast">Zobrazenie predpovede</string>
     <string name="tap_action_do_nothing">Neurobiť nič</string>
     <string name="weather_select_location">Vybrať polohu</string>
+    <string name="weather_show_refresh">Zobraziť ikonu aktualizácie</string>
     <string name="weather_source_title">Zdroj počasia</string>
-    <string name="weather_source_yahoo">Yahoo! Počasie</string>
     <string name="widget_background_title">Pozadie miniaplikácie</string>
     <string name="widget_background_default">Priehľadné</string>
     <string name="widget_background_color_fill">Farebná výplň</string>
@@ -304,6 +312,7 @@
     <string name="cling_widget_select_title">Vyberte miniaplikáciu</string>
     <string name="cling_widget_select_detail">Môžete nastaviť každú z Vašich umiestnených miniaplikácií. Stačí si vybrať tú, ktorú chcete nastaviť, pomocou voliča hore.</string>
     <string name="show_date_title">Zobraziť dátum</string>
+    <string name="show_battery_title">Zobraziť stav batérie v percentách</string>
     <string name="weather_icon_set_title">Sada ikon</string>
     <string name="weather_icons_standard">Farebné</string>
     <string name="weather_icons_monochrome">Jednofarebné</string>
