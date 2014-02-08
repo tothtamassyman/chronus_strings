@@ -83,7 +83,7 @@
     <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
     <!-- Weather - Units -->
-    <string name="weather_kph">kph</string>
+    <string name="weather_kph">km/h</string>
     <string name="weather_mph">mph</string>
     <string name="weather_mm">mm</string>
     <string name="weather_inch">in</string>
@@ -156,7 +156,7 @@
     <string name="weather_retrieve_location_dialog_title">Impossibile rilevare la posizione!</string>
     <string name="weather_retrieve_location_dialog_message">La localizzazione tramite la rete è disabilitata.\n\nImposta una posizione personalizzata o abilita la localizzazione tramite la rete</string>
     <string name="weather_retrieve_location_dialog_enable_button">Abilita</string>
-    <string name="weather_invert_lowhigh">Inverti temperature minime/massime</string>
+    <string name="weather_invert_lowhigh">Inverti temperature min/max</string>
     <string name="weather_progress_title">Verifica della posizione</string>
     <string name="weather_alternate_icons_title">Usa icone colorate</string>
     <string name="weather_alternate_icons_summary">Seleziona per sostituire le icone predefinite (Colorate) con quelle alternative (Bianche)</string>
@@ -405,7 +405,7 @@
 
     <!-- Daydream -->
     <string name="daydream_night_mode_title">Modalità notte</string>
-    <string name="daydream_night_mode_summary">Ridurre la luminosità per una migliore visione in ambienti bui</string>
+    <string name="daydream_night_mode_summary">Riduce la luminosità per una migliore visione in ambienti bui</string>
     <string name="daydream_effect_title">Effetto</string>
     <string name="daydream_effect_none">Nessuno (non consigliato)</string>
     <string name="daydream_effect_fade">Dissolvenza</string>
