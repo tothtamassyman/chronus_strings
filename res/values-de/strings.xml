@@ -20,8 +20,11 @@
     <string name="loading_indicator">Widget wird geladen\u2026</string>
     <string name="menu_done">Fertig</string>
     <string name="menu_add">Hinzufügen</string>
+    <string name="menu_search">Suchen</string>
     <string name="ok">OK</string>
     <string name="exit">Schließen</string>
+    <string name="msg_service_unavailable">Dienst ist nicht erreichbar</string>
+    <string name="msg_login_failed">Anmeldung ist fehlgeschlagen</string>
     <string name="format_seconds">%s Sekunden</string>
     <string name="weather_0">Tornado</string>
     <string name="weather_1">Tropensturm</string>
@@ -74,6 +77,8 @@
     <string name="weather_3200"></string>
     <string name="weather_kph">km/h</string>
     <string name="weather_mph">mph</string>
+    <string name="weather_mm">mm</string>
+    <string name="weather_inch">Zoll</string>
     <string name="weather_N">N</string>
     <string name="weather_NE">NO</string>
     <string name="weather_E">O</string>
@@ -101,6 +106,7 @@
     <string name="general_category">Allgemein</string>
     <string name="display_category">Anzeige</string>
     <string name="provider_category">Anbieter</string>
+    <string name="daydream_category">Bildschirmschoner</string>
     <string name="about_category">Über Chronus</string>
     <string name="appearance_category">Darstellung</string>
     <string name="clock_font_title">Stunden in Fettschrift</string>
@@ -125,13 +131,14 @@
     <string name="weather_retrieve_location_dialog_title">Standort kann nicht bestimmt werden!</string>
     <string name="weather_retrieve_location_dialog_message">Standortdienste sind deaktiviert.\n\nAktivieren oder benutzerdefinierten Standort festlegen.</string>
     <string name="weather_retrieve_location_dialog_enable_button">Aktivieren</string>
-    <string name="weather_invert_lowhigh">Anzeigereihenfolge Min/Max-Temperatur tauschen</string>
+    <string name="weather_invert_lowhigh">Min-/Max-Temperatur tauschen</string>
     <string name="weather_progress_title">Standort wird überprüft</string>
     <string name="weather_alternate_icons_title">Farbige Icons</string>
     <string name="weather_alternate_icons_summary">Die farbigen Standardicons anstelle der alternativen, weißen Icons verwenden</string>
     <string name="weather_show_when_minimized_title">Minimierte Anzeige</string>
     <string name="weather_show_when_minimized_summary">Wetterinformationen anzeigen, wenn das Widget minimiert ist</string>
     <string name="weather_select_location">Standort auswählen</string>
+    <string name="weather_show_refresh">Aktualisierungssymbol anzeigen</string>
     <string name="calendar_title">Nächsten Termin anzeigen</string>
     <string name="calendars_title">Kalender</string>
     <string name="calendars_summary">Termine aus diesen Kalendern anzeigen</string>
@@ -163,14 +170,17 @@
     <string name="calendar_metadata_none">Nicht anzeigen</string>
     <string name="calendar_metadata_first_line">Nur die erste Zeile anzeigen</string>
     <string name="calendar_metadata_all">Alles anzeigen</string>
+    <string name="calendar_metadata_all_day">Ganztägig</string>
     <string name="news_feed_title">Nachrichten anzeigen</string>
     <string name="news_feed_icon_title">Nachrichtensymbol</string>
     <string name="news_feed_rotate_interval">Wechsel-Intervall</string>
     <string name="news_feed_display_unread_status">Ungelesene hervorheben</string>
     <string name="news_feed_hide_viewed">Gelesene ausblenden</string>
+    <string name="news_feed_no_articles_text_title">Text \"Keine Artikel\" anzeigen</string>
     <string name="news_feed_provider_title">Anbieter</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_rss_title">Feed-Quellen</string>
+    <string name="news_feed_provider_settings_feedly_title">Feedly-Einstellungen</string>
     <string name="news_feed_refresh_interval">Aktualisierungsintervall</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (Für alle Widgets gültig)</string>
     <string name="news_feed_refresh_manual">Manuell</string>
@@ -198,6 +208,16 @@
     <string name="rss_custom_source_url">URL:</string>
     <string name="rss_custom_source_title">Feed hinzufügen</string>
     <string name="rss_custom_source_name">Name:</string>
+    <string name="feedly_account_title">Feedly-Konto</string>
+    <string name="feedly_account_summary_logout">Es wurde noch kein Feedly-Konto eingerichtet. Berühren, um das Konto zu verbinden</string>
+    <string name="feedly_account_summary_login">Das Feedly-Konto wurde eingerichtet. Berühren, um die Konto-Verbindung zu entfernen\n\nKonto: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="feedly_preferences_title">Einstellungen</string>
+    <string name="feedly_trending_content_title">Oft gelesene Inhalte anzeigen</string>
+    <string name="feedly_categories_title">Kategorien</string>
+    <string name="feedly_msg_retrieving_user_profile">Nutzerprofil wird abgerufen\u2026</string>
+    <string name="feedly_msg_retrieving_user_categories">Nutzerkategorien werden abgerufen\u2026</string>
+    <string name="feedly_msg_auth_access_success">Konto erfolgreich verbunden</string>
+    <string name="feedly_msg_access_error">Nutzerinformationen konnten nicht abgerufen werden</string>
     <string name="white">Weiß</string>
     <string name="grey">Grau</string>
     <string name="black">Schwarz</string>
@@ -276,15 +296,20 @@
     <string name="chronus_weather">Chronus Wetter</string>
     <string name="chronus_forecast">Chronus Wettervorhersage</string>
     <string name="chronus_calendar">Chronus Kalender</string>
+    <string name="chronus_clockplus_forecast">Chronus Uhr+ (Wetter)</string>
+    <string name="chronus_news">Chronus Nachrichten</string>
     <string name="chronus_clockplus_short">Uhr+</string>
     <string name="chronus_weather_short">Wetter</string>
     <string name="chronus_forecast_short">Wettervorhersage</string>
     <string name="chronus_calendar_short">Kalender</string>
+    <string name="chronus_clockplus_forecast_short">Uhr+ (Wetter)</string>
+    <string name="chronus_news_short">Nachrichten</string>
     <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
     <string name="chronus_flex_analog">Chronus Flex (Analoguhr)</string>
     <string name="chronus_flex_analog_short">Flex (Analoguhr)</string>
 
     <string name="widget_type_keyguard">Bildschirmsperre</string>
+    <string name="widget_type_daydream">Daydream-Bildschirmschoner</string>
     <string name="widget_type_homescreen">Startbildschirm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
     <string name="widget_rounded_corners_title">Abgerundete Ecken</string>
     <string name="calendar_no_events">Keine Termine im Vorschauzeitraum</string>
@@ -293,10 +318,19 @@
     <string name="cling_widget_select_title">Widget auswählen</string>
     <string name="cling_widget_select_detail">Mit Hilfe der Auswahlliste am oberen Rand kann jedes platzierte Widget separat konfiguriert werden. Einfach das zu konfigurierende Widget auswählen und dessen Einstellungen setzen.</string>
     <string name="show_date_title">Datum anzeigen</string>
+    <string name="show_battery_title">Akkustand anzeigen</string>
     <string name="weather_icon_set_title">Icon-Pakete</string>
     <string name="weather_icons_standard">Farbig</string>
     <string name="weather_icons_monochrome">Einfarbig</string>
     <string name="weather_icons_modern">Modern</string>
     <string name="icon_set_selection_get_more">Mehr beziehen\u2026</string>
-
+    <string name="daydream_night_mode_title">Nachtmodus</string>
+    <string name="daydream_night_mode_summary">Bildschirm dimmen, um in dunkler Umgebung nicht zu blenden</string>
+    <string name="daydream_effect_title">Effekt</string>
+    <string name="daydream_effect_none">Keiner</string>
+    <string name="daydream_effect_fade">Ausblenden</string>
+    <string name="daydream_effect_slide">Verschieben</string>
+    <string name="daydream_effect_explode">Explodieren</string>
+    <string name="daydream_bg_color_interpolation_title">Stufenloser Hintergrund</string>
+    <string name="daydream_bg_color_interpolation_summary">Hintergrundfarbe mit der Zeit langsam ändern</string>
 </resources>

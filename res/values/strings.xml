@@ -30,6 +30,7 @@
     <string-array name="empty_array" translatable="false"/>
     <string name="send_log" translatable="false">Logcat</string>
     <string name="exit">Exit</string>
+    <string name="msg_service_unavailable">Service unavailable</string>
     <string name="msg_login_failed">Login failed</string>
 
     <!-- Formats -->
@@ -94,9 +95,11 @@
     <string name="weather_47">Isolated Thundershowers</string>
     <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
-    <!-- Weather - Speed units -->
+    <!-- Weather - Units -->
     <string name="weather_kph">kph</string>
     <string name="weather_mph">mph</string>
+    <string name="weather_mm">mm</string>
+    <string name="weather_inch">in</string>
 
     <!-- Weather - Wind directions -->
     <string name="weather_N">N</string>
@@ -109,6 +112,7 @@
     <string name="weather_NW">NW</string>
 
     <!-- Weather - Error messages -->
+    <string name="weather_loading">Loading weather data\u2026</string>
     <string name="weather_no_data">No data</string>
     <string name="weather_tap_to_refresh">Tap to refresh</string>
     <string name="weather_refreshing">Refreshing</string>
@@ -140,6 +144,7 @@
     <string name="widget_type_keyguard">Lock screen</string>
     <string name="widget_type_daydream">Daydream Screensaver</string>
     <string name="widget_type_homescreen">Home screen (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_launcher" translatable="false"><xliff:g id="name">%1$s</xliff:g> (<xliff:g id="columns">%2$d</xliff:g>x<xliff:g id="rows">%3$d</xliff:g>)</string>
 
     <!-- Preferences - Clock -->
     <string name="clock_font_title">Bold hours</string>
@@ -152,10 +157,6 @@
     <string name="weather_enabled">Enabled</string>
     <string name="weather_enable">Display weather</string>
     <string name="weather_source_title">Weather source</string>
-    <string name="weather_source_yahoo">Yahoo! Weather</string>
-    <string name="weather_source_wunderground">Weather Underground</string>
-    <string name="weather_source_hamweather">Hamweather</string>
-    <string name="weather_source_accuweather">AccuWeather</string>
     <string name="weather_use_custom_location">Use custom location</string>
     <string name="weather_geolocated">Geolocated using network</string>
     <string name="weather_custom_location_dialog_title">Enter location</string>
@@ -165,7 +166,7 @@
     <string name="weather_show_timestamp_title">Show timestamp</string>
     <string name="weather_refresh_interval">Update interval</string>
     <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (applies to all widgets)</string>
-    <string name="weather_use_metric">Use metric</string>
+    <string name="weather_use_metric">Use metric (\u00b0C)</string>
     <string name="weather_retrieve_location_dialog_title">Cannot retrieve location!</string>
     <string name="weather_retrieve_location_dialog_message">Network geolocation is disabled.\n\nSet a custom location or enable network location</string>
     <string name="weather_retrieve_location_dialog_enable_button">Enable</string>
@@ -176,6 +177,7 @@
     <string name="weather_show_when_minimized_title">Show when minimized</string>
     <string name="weather_show_when_minimized_summary">Display summary weather information when the widget is minimized</string>
     <string name="weather_select_location">Select location</string>
+    <string name="weather_show_refresh">Show refresh icon</string>
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">Display next event</string>
@@ -374,9 +376,10 @@
     <string name="calendar_event_color_always">Always show</string>
 
     <!-- Weather providers -->
+    <string name="weather_source_yahoo">Yahoo! Weather</string>
     <string name="weather_source_wunderground" translatable="false">Weather Underground</string>
     <string name="weather_source_hamweather" translatable="false">Hamweather</string>
-    <string name="weather_source_accuweather" translatable="false">Accuweather</string>
+    <string name="weather_source_accuweather" translatable="false">AccuWeather</string>
     <string name="weather_source_openweathermap" translatable="false">OpenWeatherMap</string>
     <string name="weather_source_yrno" translatable="false">yr.no</string>
 
@@ -416,6 +419,7 @@
         want to configure using the selector at the top.</string>
 
     <string name="show_date_title">Show date</string>
+    <string name="show_battery_title">Show battery percentage</string>
 
     <!-- Weather icon sets -->
     <string name="weather_icon_set_title">Icon set</string>
@@ -433,7 +437,7 @@
     <string name="daydream_night_mode_title">Night mode</string>
     <string name="daydream_night_mode_summary">Dim the screen for a better display in dark environments</string>
     <string name="daydream_effect_title">Effect</string>
-    <string name="daydream_effect_none">None (not recomended)</string>
+    <string name="daydream_effect_none">None (not recommended)</string>
     <string name="daydream_effect_fade">Fade</string>
     <string name="daydream_effect_slide">Slide</string>
     <string name="daydream_effect_explode">Explode</string>

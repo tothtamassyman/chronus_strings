@@ -25,6 +25,7 @@
     <string name="menu_add">Adăugare</string>
     <string name="ok">OK</string>
     <string name="exit">Ieșire</string>
+    <string name="msg_service_unavailable">Serviciu indisponibil</string>
     <string name="msg_login_failed">Eroare logare</string>
     
     <!-- Formats -->
@@ -81,9 +82,11 @@
     <string name="weather_47">"Descărcări electrice izolate"</string>
     <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
-    <!-- Weather - Speed units -->
+    <!-- Weather - Units -->
     <string name="weather_kph">km/h</string>
     <string name="weather_mph">ml/h</string>
+    <string name="weather_mm">mm</string>
+    <string name="weather_inch">in</string>
 
     <!-- Weather - Wind directions -->
     <string name="weather_N">N</string>
@@ -96,6 +99,7 @@
     <string name="weather_NW">NV</string>
 
     <!-- Weather - Error messages -->
+    <string name="weather_loading">Încărcare date meteo\u2026</string>
     <string name="weather_no_data">Nu există date</string>
     <string name="weather_tap_to_refresh">Apăsați pentru actualizare</string>
     <string name="weather_refreshing">Actualizare</string>
@@ -139,10 +143,6 @@
     <string name="weather_enabled">"Activat"</string>
     <string name="weather_enable">"Afişare meteo"</string>
     <string name="weather_source_title">Sursă meteo</string>
-    <string name="weather_source_yahoo">Yahoo Meteo</string>
-    <string name="weather_source_wunderground">Weather Underground</string>
-    <string name="weather_source_hamweather">HAMweather</string>
-    <string name="weather_source_accuweather">AccuWeather</string>
     <string name="weather_use_custom_location">"Locaţie personalizată"</string>
     <string name="weather_geolocated">"Localizare utilizând reţeaua"</string>
     <string name="weather_custom_location_dialog_title">"Introduceţi locaţia"</string>
@@ -152,7 +152,7 @@
     <string name="weather_show_timestamp_title">"Afişare marcaj de timp"</string>
     <string name="weather_refresh_interval">"Interval actualizare"</string>
     <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (aplicabil pentru toate widget-urile)</string>
-    <string name="weather_use_metric">"Sistem metric"</string>
+    <string name="weather_use_metric">"Sistem metric (\u00b0C)"</string>
     <string name="weather_retrieve_location_dialog_title">"Nu se poate prelua locaţia!"</string>
     <string name="weather_retrieve_location_dialog_message">"Geolocalizarea este dezactivată.\n\nSetaţi o locaţie personalizată sau activaţi localizarea în reţea"</string>
     <string name="weather_retrieve_location_dialog_enable_button">"Activată"</string>
@@ -163,6 +163,7 @@
     <string name="weather_show_when_minimized_title">Afişare minimizat</string>
     <string name="weather_show_when_minimized_summary">Afişare informație meteo sumară cănd widget-ul este minimizat</string>
     <string name="weather_select_location">Selectați locația</string>
+    <string name="weather_show_refresh">Pictogramă actualizare</string>
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">"Afişare eveniment următor"</string>
@@ -255,8 +256,8 @@
     
     <!-- News Feed Provider Settings - Feedly -->
     <string name="feedly_account_title">Cont Feedly</string>
-    <string name="feedly_account_summary_logout">Nu aveți conturi conectate la Feedly. Apăsați aici pentru a vă conecta contul</string>
-    <string name="feedly_account_summary_login">Contul Dvs este conectat la Feedly. Apăsați aici pentru a deconecta vă contul.\n\nCont: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="feedly_account_summary_logout">Deconectat. Apăsați aici pentru conectare</string>
+    <string name="feedly_account_summary_login">Conectat. Apăsați aici pentru deconectare\n\nCont: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
     <string name="feedly_preferences_title">Preferințe</string>
     <string name="feedly_trending_content_title">Afișare trenduri</string>
     <string name="feedly_categories_title">Categorii</string>
@@ -344,6 +345,9 @@
     <string name="calendar_colors">Culori calendar</string>
     <string name="calendar_event_color_ifneeded">Afișare dacă este necesar</string>
     <string name="calendar_event_color_always">Afișare întotdeauna</string>
+    
+    <!-- Weather providers -->
+    <string name="weather_source_yahoo">Yahoo Meteo</string>
 
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
@@ -378,22 +382,22 @@
     <string name="cling_widget_select_detail">Puteți configura fiecare widget aplicat. Pentru aceasta alegeți widget-ul necesar cu selectorul de sus.</string>
 
     <string name="show_date_title">Afișare dată</string>
+    <string name="show_battery_title">Afișare baterie</string>
 
     <!-- Weather icon sets -->
     <string name="weather_icon_set_title">Pictograme</string>
     <string name="icon_set_selection_get_more">Mai multe\u2026</string>
 
      <!-- Icon Set names -->
-     <string name="weather_icons_standard">Colored</string>
-    <string name="weather_icons_standard">Color</string>
-    <string name="weather_icons_monochrome">Monocrom</string>
-    <string name="weather_icons_modern">Modern</string>
+     <string name="weather_icons_standard">Color</string>
+     <string name="weather_icons_monochrome">Monocrom</string>
+     <string name="weather_icons_modern">Modern</string>
 
      <!-- Daydream -->
      <string name="daydream_night_mode_title">Mod de noapte</string>
      <string name="daydream_night_mode_summary">Întunecă ecranul pentru o vizibilitate mai bună în medii întunecate</string>
      <string name="daydream_effect_title">Efect</string>
-     <string name="daydream_effect_none">Fără (nu se recomandăt)</string>
+     <string name="daydream_effect_none">Fără (nerecomandat)</string>
      <string name="daydream_effect_fade">Stingere</string>
      <string name="daydream_effect_slide">Glisare</string>
      <string name="daydream_effect_explode">Explozie</string>
