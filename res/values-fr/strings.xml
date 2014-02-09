@@ -24,6 +24,7 @@
     <string name="menu_search">Rechercher</string>
     <string name="ok">OK</string>
     <string name="exit">Quitter</string>
+    <string name="msg_service_unavailable">Service indisponible</string>
     <string name="msg_login_failed">Connexion échouée</string>
 
     <!-- Formats -->
@@ -83,6 +84,8 @@
     <!-- Weather - Speed units -->
     <string name="weather_kph">km/h</string>
     <string name="weather_mph">mi/h</string>
+    <string name="weather_mm">mm</string>
+    <string name="weather_inch">po</string>
 
     <!-- Weather - Wind directions -->
     <string name="weather_N">N</string>
@@ -95,6 +98,7 @@
     <string name="weather_NW">NO</string>
 
     <!-- Weather - Error messages -->
+    <string name="weather_loading">Chargement des données météo\u2026</string>
     <string name="weather_no_data">Aucune donnée</string>
     <string name="weather_tap_to_refresh">Appuyez pour actualiser</string>
     <string name="weather_refreshing">Actualisation\u2026</string>
@@ -159,6 +163,7 @@
     <string name="weather_show_when_minimized_title">Afficher lorsque minimisé</string>
     <string name="weather_show_when_minimized_summary">Afficher le résumé des informations météo lorsque le widget est réduit</string>
     <string name="weather_select_location">Définir le lieu</string>
+    <string name="weather_show_refresh">Afficher le bouton d\'actualisation</string>
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">Afficher le prochain événement</string>
@@ -225,7 +230,7 @@
 
     <!-- News - Widgets -->
     <string name="news_feed_loading">Chargement des articles</string>
-    <string name="news_feed_loading_summary">Patienter quelques secondes\u2026</string>
+    <string name="news_feed_loading_summary">Patientez quelques secondes\u2026</string>
     <string name="news_feed_no_data">Pas de nouveaux articles disponibles</string>
     <string name="news_feed_no_data_summary">Appuyer pour rafraîchir</string>
     <string name="news_feed_article_new_format">[NOUVEAU] <xliff:g id="title">%s</xliff:g></string>
@@ -251,8 +256,8 @@
 
     <!-- News Feed Provider Settings - Feedly -->
     <string name="feedly_account_title">Compte Feedly</string>
-    <string name="feedly_account_summary_logout">Vous n\'avez aucun compte lié à Feedly. Appuyer ici pour le lier</string>
-    <string name="feedly_account_summary_login">Votre compte est lié à Feedly. Appuyer ici pour le retirer.\n\nCompte\u00A0: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="feedly_account_summary_logout">Vous n\'avez aucun compte lié à Feedly. Appuyez ici pour le lier</string>
+    <string name="feedly_account_summary_login">Votre compte est lié à Feedly. Appuyez ici pour le retirer.\n\nCompte\u00A0: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
     <string name="feedly_preferences_title">Paramètres</string>
     <string name="feedly_trending_content_title">Afficher le contenu le plus pertinent</string>
     <string name="feedly_categories_title">Catégories</string>
@@ -374,6 +379,7 @@
     <string name="cling_widget_select_detail">Vous pouvez configurer chacun des widgets que vous avez placés. Il suffit de choisir celui que vous souhaitez configurer avec le menu déroulant placé en haut.</string>
 
     <string name="show_date_title">Afficher la date</string>
+    <string name="show_battery_title">Afficher le pourcentage de batterie</string>
 
     <!-- Weather icon sets -->
     <string name="weather_icon_set_title">Définir les icônes</string>
