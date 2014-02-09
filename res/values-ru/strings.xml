@@ -251,11 +251,11 @@
         Используйте для этого функцию добавления виджетов вашего лаунчера или экрана блокировки.</string>
 
     <string name="credits_title">Благодарности</string>
-    <string name="credits_summary">Хотя значительная часть Chronus была написана мной в одиночку, хотелось бы выразить благодарность Дэнни Бауманну за
-        его работу над службами погоды и биллинга, рецензии и исправления, переводчикам CyanogenMod за добавление всех языков, которые
-        включены в это приложение, а также Николаю Эеманну, Мэтту Бусу и Жоржи Руэсга за исправления и функции, которые они присылали в ходе работы.\n
-        Перевод приложения на русский язык: Владислав Колдобский и Павел Волков.\n\n
-        Наборы значков для категорий погоды:\n
+    <string name="credits_summary">Хотя значительная часть Chronus была написана мной в одиночку, хотелось бы выразить благодарность Дэнни Бауманну,
+        переводчикам CyanogenMod за добавление всех языков, которые включены в это приложение, а также Николаю Эеманну, Мэтту Бусу и Жоржи Руэсга
+        за исправления и функции, которые они присылали в ходе работы.
+        \nПеревод приложения на русский язык: Владислав Колдобский и Павел Волков.
+        \n\nНаборы значков для категорий погоды:\n
           \u2022 VClouds (vclouds.deviantart.com)\n
           \u2022 Modern (www.mikeafford.com)
         </string>
@@ -274,6 +274,7 @@
         \u2022 Вариант отображения календаря мини-панелью\n
         \u2022 и многое другое\u2026\n\nМы рады новым предложениям и идеям.\n\nСпасибо за вашу поддержку!</string>
     <string name="get_pro">Приобрести Pro-версию</string>
+
 
     <!-- Shortcut picker -->
     <string name="picker_apps">Приложения</string>
@@ -317,12 +318,13 @@
     <string name="chronus_forecast">Chronus — прогноз</string>
     <string name="chronus_calendar">Chronus — календарь</string>
     <string name="chronus_clockplus_short">Clock+</string>
-    <string name="chronus_weather_short">погода</string>
-    <string name="chronus_forecast_short">прогноз</string>
-    <string name="chronus_calendar_short">календарь</string>
+    <string name="chronus_weather_short">Погода</string>
+    <string name="chronus_forecast_short">Прогноз</string>
+    <string name="chronus_calendar_short">Календарь</string>
+    <string name="chronus_news_short">Новости</string>
     <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
-    <string name="chronus_flex_analog">Chronus Flex (Аналоговые)</string>
-    <string name="chronus_flex_analog_short">Flex (Аналоговые)</string>
+    <string name="chronus_flex_analog">Chronus Flex (аналоговые)</string>
+    <string name="chronus_flex_analog_short">Flex (аналоговые)</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Экран блокировки</string>
@@ -349,5 +351,16 @@
     <string name="weather_icons_standard">Цветные</string>
     <string name="weather_icons_monochrome">Монохромные</string>
     <string name="icon_set_selection_get_more">Скачать ещё</string>
+    
+    <!-- Daydream -->
+    <string name="daydream_night_mode_title">Ночной режим</string>
+    <string name="daydream_night_mode_summary">Тусклый дисплей (для тёмных помещений)</string>
+    <string name="daydream_effect_title">Эффект</string>
+    <string name="daydream_effect_none">Нет (не рекомендуется)</string>
+    <string name="daydream_effect_fade">Затухание</string>
+    <string name="daydream_effect_slide">Сдвиг</string>
+    <string name="daydream_effect_explode">Взрыв</string>
+    <string name="daydream_bg_color_interpolation_title">Изменять цвет фона</string>
+    <string name="daydream_bg_color_interpolation_summary">Плавно менять цвет фона время от времени</string>
 
 </resources>
