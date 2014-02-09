@@ -71,7 +71,6 @@
   <string name="weather_NW">NW</string>
   <string name="weather_no_data">ไม่มีข้อมูล</string>
   <string name="weather_tap_to_refresh">แตะเพือรีเฟรช</string>
-  <string name="weather_refreshing">กำลังรีเฟรช</string>
   <string name="weather_last_sync_just_now">เดี๋ยวนี้</string>
   <string name="weather_cannot_reach_provider">ไม่สามารถเข้าถึง %s</string>
   <string name="weather_refresh_manual">ด้วยตัวเอง</string>

@@ -74,7 +74,6 @@
   <string name="weather_loading">טוען מידע על מזג אוויר\u2026</string>
   <string name="weather_no_data">אין נתונים</string>
   <string name="weather_tap_to_refresh">הקש לרענון</string>
-  <string name="weather_refreshing">מרענן</string>
   <string name="weather_last_sync_just_now">רק עכשיו</string>
   <string name="weather_cannot_reach_provider">אין אפשרות להגיע אל %s כרגע</string>
   <string name="weather_refresh_manual">ידני</string>
