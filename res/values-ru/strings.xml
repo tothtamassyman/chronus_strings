@@ -20,7 +20,10 @@
     <string name="loading_indicator">Загрузка виджета\u2026</string>
     <string name="menu_done">Готово</string>
     <string name="menu_add">Добавить</string>
+    <string name="menu_search">Поиск</string>
     <string name="exit">Выход</string>
+    <string name="msg_service_unavailable">Служба недоступна</string>
+    <string name="msg_login_failed">Вход не удался</string>
 
     <!-- Formats -->
     <string name="format_seconds">%s сек.</string>
@@ -75,9 +78,11 @@
     <string name="weather_47">Местами грозы</string>
     <string name="weather_3200"></string>
 
-    <!-- Weather - Speed units -->
+    <!-- Weather - Units -->
     <string name="weather_kph">км/ч</string>
     <string name="weather_mph">миль/ч</string>
+    <string name="weather_mm">мм</string>
+    <string name="weather_inch">дюйм</string>
 
     <string name="weather_N">С</string>
     <string name="weather_NE">СВ</string>
@@ -88,6 +93,7 @@
     <string name="weather_W">З</string>
     <string name="weather_NW">СЗ</string>
 
+    <string name="weather_loading">Загрузка сведений о погоде\u2026</string>
     <string name="weather_no_data">Нет данных</string>
     <string name="weather_tap_to_refresh">Нажмите для обновления</string>
     <string name="weather_last_sync_just_now">Только что</string>
@@ -108,6 +114,7 @@
     <string name="general_category">Основные</string>
     <string name="display_category">Отображение</string>
     <string name="provider_category">Источник</string>
+    <string name="daydream_category">Заставка</string>
     <string name="appearance_category">Внешний вид</string>
     <string name="about_category">О программе Chronus</string>
     <string name="clock_font_title">Часы полужирным</string>
@@ -139,6 +146,7 @@
     <string name="weather_show_when_minimized_title">Показывать всегда</string>
     <string name="weather_show_when_minimized_summary">Отображать погоду, когда виджет в свёрнутом состоянии</string>
     <string name="weather_select_location">Выберите местоположение</string>
+    <string name="weather_show_refresh">Показывать значок обновления</string>
 
     <string name="calendar_title">Показывать события</string>
     <string name="calendars_title">События календарей</string>
@@ -161,9 +169,11 @@
     <string name="news_feed_rotate_interval">Интервал смены новостей</string>
     <string name="news_feed_display_unread_status">Индикатор непрочитанных</string>
     <string name="news_feed_hide_viewed">Скрывать просмотренные</string>
+    <string name="news_feed_no_articles_text_title">Показывать надпись «Нет новостей»</string>
     <string name="news_feed_provider_title">Тип источника</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_rss_title">Источники новостей</string>
+    <string name="news_feed_provider_settings_feedly_title">Настройки Feedly</string>
     <string name="news_feed_refresh_interval">Интервал обновления</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (влияет на все виджеты Chronus)</string>
 
@@ -194,6 +204,7 @@
     <string name="calendar_metadata_none">Не показывать</string>
     <string name="calendar_metadata_first_line">Показывать первую строку</string>
     <string name="calendar_metadata_all">Показывать всё</string>
+    <string name="calendar_metadata_all_day">События на весь день</string>
 
     <!-- News - Widgets -->
     <string name="news_feed_loading">Загрузка новостей</string>
@@ -221,6 +232,18 @@
     <string name="rss_custom_source_url">Адрес:</string>
     <string name="rss_custom_source_title">Добавление источника новостей</string>
     <string name="rss_custom_source_name">Название:</string>
+
+    <!-- News Feed Provider Settings - Feedly -->
+    <string name="feedly_account_title">Аккаунт Feedly</string>
+    <string name="feedly_account_summary_logout">Нет аккаунта, связанного с Feedly. Нажмите здесь для регистрации</string>
+    <string name="feedly_account_summary_login">Аккаунт связан со службой Feedly. Нажмите здесь для его отключения.\n\nАккаунт: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="feedly_preferences_title">Настройки</string>
+    <string name="feedly_engaging_content_title">Показывать актуальные темы</string>
+    <string name="feedly_categories_title">Категории</string>
+    <string name="feedly_msg_retrieving_user_profile">Загрузка профиля\u2026</string>
+    <string name="feedly_msg_retrieving_user_categories">Загрузка категорий\u2026</string>
+    <string name="feedly_msg_auth_access_success">Аккаунт успешно привязан</string>
+    <string name="feedly_msg_access_error">Не удаётся получить данные пользователя</string>
 
     <string name="white">Белый</string>
     <string name="grey">Серый</string>
@@ -251,11 +274,11 @@
         Используйте для этого функцию добавления виджетов вашего лаунчера или экрана блокировки.</string>
 
     <string name="credits_title">Благодарности</string>
-    <string name="credits_summary">Хотя значительная часть Chronus была написана мной в одиночку, хотелось бы выразить благодарность Дэнни Бауманну за
-        его работу над службами погоды и биллинга, рецензии и исправления, переводчикам CyanogenMod за добавление всех языков, которые
-        включены в это приложение, а также Николаю Эеманну, Мэтту Бусу и Жоржи Руэсга за исправления и функции, которые они присылали в ходе работы.\n
-        Перевод приложения на русский язык: Владислав Колдобский и Павел Волков.\n\n
-        Наборы значков для категорий погоды:\n
+    <string name="credits_summary">Хотя значительная часть Chronus была написана мной в одиночку, хотелось бы выразить благодарность Дэнни Бауманну,
+        переводчикам CyanogenMod за добавление всех языков, которые включены в это приложение, а также Николаю Эеманну, Мэтту Бусу и Жоржи Руэсга
+        за исправления и функции, которые они присылали в ходе работы.
+        \nПеревод приложения на русский язык: Владислав Колдобский и Павел Волков.
+        \n\nНаборы значков для категорий погоды:\n
           \u2022 VClouds (vclouds.deviantart.com)\n
           \u2022 Modern (www.mikeafford.com)
         </string>
@@ -274,6 +297,8 @@
         \u2022 Вариант отображения календаря мини-панелью\n
         \u2022 и многое другое\u2026\n\nМы рады новым предложениям и идеям.\n\nСпасибо за вашу поддержку!</string>
     <string name="get_pro">Приобрести Pro-версию</string>
+
+    <string name="pro_check_dialog_message">Выполняется проверка лицензии\u2026</string>
 
     <!-- Shortcut picker -->
     <string name="picker_apps">Приложения</string>
@@ -316,16 +341,21 @@
     <string name="chronus_weather">Chronus — погода</string>
     <string name="chronus_forecast">Chronus — прогноз</string>
     <string name="chronus_calendar">Chronus — календарь</string>
+    <string name="chronus_clockplus_forecast">Chronus Clock+ (прогноз)</string>
+    <string name="chronus_news">Chronus — новости</string>
     <string name="chronus_clockplus_short">Clock+</string>
-    <string name="chronus_weather_short">погода</string>
-    <string name="chronus_forecast_short">прогноз</string>
-    <string name="chronus_calendar_short">календарь</string>
+    <string name="chronus_weather_short">Погода</string>
+    <string name="chronus_forecast_short">Прогноз</string>
+    <string name="chronus_calendar_short">Календарь</string>
+    <string name="chronus_clockplus_forecast_short">Clock+ (прогноз)</string>
+    <string name="chronus_news_short">Новости</string>
     <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
-    <string name="chronus_flex_analog">Chronus Flex (Аналоговые)</string>
-    <string name="chronus_flex_analog_short">Flex (Аналоговые)</string>
+    <string name="chronus_flex_analog">Chronus Flex (аналоговые)</string>
+    <string name="chronus_flex_analog_short">Flex (аналоговые)</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Экран блокировки</string>
+    <string name="widget_type_daydream">Заставка</string>
     <string name="widget_type_homescreen">Домашний экран (<xliff:g id="columns">%1$d</xliff:g>×<xliff:g id="rows">%2$d</xliff:g>)</string>
 
     <!-- Preferences - Widget background rounded corners -->
@@ -343,11 +373,23 @@
     <string name="cling_widget_select_detail">Вы можете настроить любой из добавленных виджетов. Выберите нужный, используя переключатель вверху.</string>
 
     <string name="show_date_title">Показывать дату</string>
+    <string name="show_battery_title">Показывать заряд батареи</string>
  
      <!-- Weather icon sets -->
     <string name="weather_icon_set_title">Набор значков</string>
     <string name="weather_icons_standard">Цветные</string>
     <string name="weather_icons_monochrome">Монохромные</string>
     <string name="icon_set_selection_get_more">Скачать ещё</string>
+    
+    <!-- Daydream -->
+    <string name="daydream_night_mode_title">Ночной режим</string>
+    <string name="daydream_night_mode_summary">Тусклый дисплей (для тёмных помещений)</string>
+    <string name="daydream_effect_title">Эффект</string>
+    <string name="daydream_effect_none">Нет (не рекомендуется)</string>
+    <string name="daydream_effect_fade">Затухание</string>
+    <string name="daydream_effect_slide">Сдвиг</string>
+    <string name="daydream_effect_explode">Взрыв</string>
+    <string name="daydream_bg_color_interpolation_title">Изменять цвет фона</string>
+    <string name="daydream_bg_color_interpolation_summary">Плавно менять цвет фона время от времени</string>
 
 </resources>
