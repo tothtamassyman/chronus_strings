@@ -93,7 +93,6 @@
     <!-- Weather - error messages -->
     <string name="weather_no_data">Ei tietoja</string>
     <string name="weather_tap_to_refresh">Kosketa päivittääksesi</string>
-    <string name="weather_refreshing">Päivitetään</string>
     <string name="weather_last_sync_just_now">Juuri nyt</string>
     <string name="weather_cannot_reach_provider">Yhteyttä palveluun %s ei saada tällä hetkellä</string>
 

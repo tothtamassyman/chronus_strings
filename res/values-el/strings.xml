@@ -83,7 +83,6 @@
     <string name="weather_NW">ΒΔ</string>
     <string name="weather_no_data">Χωρίς δεδομένα</string>
     <string name="weather_tap_to_refresh">Πιέστε για ανανέωση</string>
-    <string name="weather_refreshing">Γίνεται ανανέωση</string>
     <string name="weather_last_sync_just_now">Μόλις τώρα</string>
     <string name="weather_cannot_reach_provider">Αδύνατη η σύνδεση με %s</string>
     <string name="weather_refresh_manual">Χειροκίνητα</string>

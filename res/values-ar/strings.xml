@@ -92,7 +92,6 @@
     <!-- رسائل الاعلام بالاخطاء -->
     <string name="weather_no_data">لا توجد بيانات</string>
     <string name="weather_tap_to_refresh">اضغط للتحديث</string>
-    <string name="weather_refreshing">تحديث</string>
     <string name="weather_last_sync_just_now">الآن</string>
     <string name="weather_cannot_reach_provider">لا يمكن أن تصل إلى٪ %s في لحظة</string>
 

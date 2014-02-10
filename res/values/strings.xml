@@ -115,7 +115,6 @@
     <string name="weather_loading">Loading weather data\u2026</string>
     <string name="weather_no_data">No data</string>
     <string name="weather_tap_to_refresh">Tap to refresh</string>
-    <string name="weather_refreshing">Refreshing</string>
     <string name="weather_last_sync_just_now">Just now</string>
     <string name="weather_cannot_reach_provider">Can\'t reach %s at the moment</string>
 
@@ -277,6 +276,7 @@
     <string name="feedly_preferences_title">Preferences</string>
     <string name="feedly_trending_content_title">Show trending content</string>
     <string name="feedly_categories_title">Categories</string>
+    <string name="feedly_category_uncategorized">Uncategorized</string>
     <string name="feedly_msg_retrieving_user_profile">Retrieving user profile\u2026</string>
     <string name="feedly_msg_retrieving_user_categories">Retrieving user categories\u2026</string>
     <string name="feedly_msg_auth_access_success">Account linked successfully</string>
@@ -443,5 +443,10 @@
     <string name="daydream_effect_explode">Explode</string>
     <string name="daydream_bg_color_interpolation_title">Smooth background color</string>
     <string name="daydream_bg_color_interpolation_summary">Slowly change background color over time</string>
+
+    <!-- Analog clock style -->
+    <string name="analog_style_title">Clock style</string>
+    <string name="analog_style_standard">Standard</string>
+    <string name="analog_style_classic">Classic</string>
 
 </resources>
