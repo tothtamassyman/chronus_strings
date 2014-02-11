@@ -293,10 +293,12 @@
         di utilizzare i programmi di avvio Apex o Nova. Chronus può funzionare con la maggior parte dei programmi di avvio, ma le possibilità
         di configurazione possono essere più limitate.\n\nCon Android 4.2 +, per aggiungere un widget alla schermata di blocco, scorrere a sinistra
         nella schermata di blocco, quindi utilizzare il pulsante Aggiungi Widget (+) per aggiungere Chronus. I widget sulla schermata di
-        blocco si possono riorganizzare tramite una pressione lunga, dopo la quale possono essere spostati o cancellati.</string>
+        blocco si possono riorganizzare tramite una pressione prolungata, dopo la quale possono essere spostati o cancellati.</string>
+
     <string name="no_widget_message">Occorre aggiungere almeno un widget Chronus alla schermata Home o alla schermata di blocco prima di poter
         utilizzare questa applicazione per cambiarne la configurazione.\n\nI widget possono essere aggiunti utilizzando il selettore di widget di
         Android e del programma di avvio.</string>
+
     <string name="credits_title">Meriti</string>
     <string name="credits_summary">Anche se Danny Baumann e io abbiamo scritto la maggior parte del widget, una buona parte del merito va
         attribuita ai molti traduttori delle lingue incluse così come ad altri collaboratori, quali Nicolai Ehemann e Matt Booth per le
@@ -416,6 +418,7 @@
 
     <!-- Layout styles -->
     <string name="analog_style_title">Stile orologio</string>
+    <string name="weather_style_title">Stile meteo</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Classico</string>
 
