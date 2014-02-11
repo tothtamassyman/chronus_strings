@@ -416,6 +416,7 @@
 
     <!-- Layout styles -->
     <string name="analog_style_title">Stile orologio</string>
+    <string name="weather_style_title">Stile meteo</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Classico</string>
 
