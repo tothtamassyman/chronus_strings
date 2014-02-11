@@ -404,9 +404,9 @@
      <string name="daydream_bg_color_interpolation_title">Culoare omogenă de fundal</string>
      <string name="daydream_bg_color_interpolation_summary">Schimbare lină în timp a culorii de fundal</string>
 
-     <!-- Analog clock style -->
+    <!-- Layout styles -->
      <string name="analog_style_title">Stil ceas</string>
-     <string name="analog_style_standard">Standard</string>
-     <string name="analog_style_classic">Clasic</string>
+     <string name="standard_style">Standard</string>
+     <string name="classic_style">Clasic</string>
 
 </resources>

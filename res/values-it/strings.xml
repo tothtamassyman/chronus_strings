@@ -414,9 +414,9 @@
     <string name="daydream_bg_color_interpolation_title">Colori sfumati</string>
     <string name="daydream_bg_color_interpolation_summary">Modifica lentamente i colori col passare del tempo</string>
 
-    <!-- Analog clock style -->
+    <!-- Layout styles -->
     <string name="analog_style_title">Stile orologio</string>
-    <string name="analog_style_standard">Standard</string>
-    <string name="analog_style_classic">Classico</string>
+    <string name="standard_style">Standard</string>
+    <string name="classic_style">Classico</string>
 
 </resources>

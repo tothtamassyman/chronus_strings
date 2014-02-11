@@ -363,6 +363,6 @@
     <string name="daydream_bg_color_interpolation_summary">Pomalu měnit barvu pozadí</string>
 
     <string name="analog_style_title">Vzhled hodin</string>
-    <string name="analog_style_standard">Standardní</string>
-    <string name="analog_style_classic">Klasické</string>
+    <string name="standard_style">Standardní</string>
+    <string name="classic_style">Klasické</string>
 </resources>

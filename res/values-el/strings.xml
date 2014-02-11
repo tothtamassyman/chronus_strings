@@ -19,7 +19,7 @@
     <string name="loading_indicator">Φόρτωση widget\u2026</string>
     <string name="menu_done">Τέλος</string>
     <string name="menu_add">Προσθήκη</string>
-    <string name="menu_search">Αναζήτηση</string></string>
+    <string name="menu_search">Αναζήτηση</string>
     <string name="ok">ΟΚ</string>
     <string name="exit">Έξοδος</string>
     <string name="msg_service_unavailable">Η υπηρεσία δεν είναι διαθέσιμη</string>
@@ -330,6 +330,6 @@
     <string name="daydream_bg_color_interpolation_title">Ομαλό χρώμα φόντου</string>
     <string name="daydream_bg_color_interpolation_summary">Αργή αλλαγή του χρώματος φόντου με την πάροδο του χρόνου</string>
     <string name="analog_style_title">Στυλ ρολογιού</string>
-    <string name="analog_style_standard">Κανονικό</string>
-    <string name="analog_style_classic">Κλασικό</string>
+    <string name="standard_style">Κανονικό</string>
+    <string name="classic_style">Κλασικό</string>
 </resources>
