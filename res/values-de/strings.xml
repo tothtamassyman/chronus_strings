@@ -204,6 +204,7 @@
     <string name="news_feed_reader_list_unread_articles_title">Ungelesene Artikel</string>
     <string name="news_feed_reader_list_last_published">Aktualisiert am <xliff:g id="date">%2$s</xliff:g> um <xliff:g id="time">%1$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Artikel lesen</string>
+    <string name="news_feed_internal_viewer_title">Internen Betrachter verwenden</string>
     <string name="rss_sources_custom_header">Benutzerdefiniert</string>
     <string name="rss_custom_source_url">URL:</string>
     <string name="rss_custom_source_title">Feed hinzufügen</string>
@@ -334,4 +335,8 @@
     <string name="daydream_effect_explode">Explodieren</string>
     <string name="daydream_bg_color_interpolation_title">Stufenloser Hintergrund</string>
     <string name="daydream_bg_color_interpolation_summary">Hintergrundfarbe mit der Zeit langsam ändern</string>
+    <string name="analog_style_title">Uhr-Stil</string>
+    <string name="weather_style_title">Wetter-Stil</string>
+    <string name="standard_style">Standard</string>
+    <string name="classic_style">Klassisch</string>
 </resources>
