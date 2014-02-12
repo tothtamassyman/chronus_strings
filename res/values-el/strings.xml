@@ -205,6 +205,7 @@
     <string name="news_feed_reader_list_unread_articles_title">Μη αναγνωσμένα άρθρα</string>
     <string name="news_feed_reader_list_last_published">Ενημερώθηκε στις <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 μαρ">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Πηγαίνετε στο άρθρο</string>
+    <string name="news_feed_internal_viewer_title">Χρήση ενσωματωμένης προβολής</string>
     <string name="rss_sources_custom_header">Προσαρμοσμένες από το χρήστη</string>
     <string name="rss_custom_source_url">Url:</string>
     <string name="rss_custom_source_title">Προσθήκη πηγής</string>
@@ -330,6 +331,7 @@
     <string name="daydream_bg_color_interpolation_title">Ομαλό χρώμα φόντου</string>
     <string name="daydream_bg_color_interpolation_summary">Αργή αλλαγή του χρώματος φόντου με την πάροδο του χρόνου</string>
     <string name="analog_style_title">Στυλ ρολογιού</string>
+    <string name="weather_style_title">Στυλ καιρού</string>
     <string name="standard_style">Κανονικό</string>
     <string name="classic_style">Κλασικό</string>
 </resources>
