@@ -246,6 +246,7 @@
     <string name="news_feed_reader_list_unread_articles_title">Articoli non letti</string>
     <string name="news_feed_reader_list_last_published">Aggiornato il <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Vai all\'articolo</string>
+    <string name="news_feed_internal_viewer_title">Usa visualizzatore interno</string>
 
     <!-- News Feed Provider Settings - RSS -->
     <string name="rss_sources_custom_header">Definito dall\'utente</string>
@@ -386,7 +387,7 @@
     <string name="widget_rounded_corners_title">Angoli arrotondati</string>
 
     <!-- Calendar - No events -->
-    <string name="calendar_no_events">Non ci sono eventi imminenti</string>
+    <string name="calendar_no_events">Non ci sono eventi in arrivo</string>
     <string name="calendar_no_events_summary">Tocca + per aggiungere</string>
     <string name="calendar_no_events_indicator_title">Mostra il testo \'Nessun evento\'</string>
     <string name="show_date_title">Mostra data</string>
