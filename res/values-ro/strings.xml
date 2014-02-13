@@ -246,6 +246,7 @@
     <string name="news_feed_reader_list_unread_articles_title">Articole necitite</string>
     <string name="news_feed_reader_list_last_published">Actualizat la <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Accesare articol</string>
+    <string name="news_feed_internal_viewer_title">Viewer internal</string>
 
     <!-- News Feed Provider Settings - RSS -->
     <string name="rss_sources_custom_header">Definit de utilizator</string>
@@ -404,9 +405,10 @@
      <string name="daydream_bg_color_interpolation_title">Culoare omogenă de fundal</string>
      <string name="daydream_bg_color_interpolation_summary">Schimbare lină în timp a culorii de fundal</string>
 
-    <!-- Layout styles -->
+     <!-- Layout styles -->
      <string name="analog_style_title">Stil ceas</string>
+     <string name="weather_style_title">Stil meteo</string>
      <string name="standard_style">Standard</string>
-     <string name="classic_style">Clasic</string>
+     <string name="classic_style">Classic</string>
 
 </resources>
