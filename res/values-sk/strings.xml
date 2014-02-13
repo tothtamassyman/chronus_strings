@@ -241,10 +241,7 @@
     <string name="credits_title">Kredity</string>
     <string name="credits_summary">Aj keď som ja spolu s Dannym Baumannom napísal väčšinu aplikácie Chronus, veľká vďaka patrí prekladateľom
         za ich preklady, ktoré sú zahrnuté v aplikácii a taktiež poďakovanie patrí ostatným prispievateľom, ako sú Nicolai Ehemann, Matt Booth
-        a Jorge Ruesga za jazyky a funkcie, ktorými prispeli.\n\n
-        Ikony počasia:\n
-        \u2022 vClouds (vclouds.deviantart.com)\n
-        \u2022 Moderné (www.mikeafford.com)</string>
+        a Jorge Ruesga za jazyky a funkcie, ktorými prispeli.</string>
     <string name="how_to_title">Pomocník</string>
     <string name="first_run_title">Vitajte v aplikácii %s</string>
     <string name="first_run_message">Chronus je miniaplikácia, ktorú je potrebné ručne pridať buď na plochu (Android 4.1+) alebo na
@@ -315,7 +312,6 @@
     <string name="weather_icon_set_title">Sada ikon</string>
     <string name="weather_icons_standard">Farebné</string>
     <string name="weather_icons_monochrome">Jednofarebné</string>
-    <string name="weather_icons_modern">Moderné</string>
     <string name="icon_set_selection_get_more">Získať viac\u2026</string>
     <string name="daydream_night_mode_title">Nočný režim</string>
     <string name="daydream_night_mode_summary">Pre lepšie zobrazenie stmaviť obrazovku v tmavých prostrediach</string>

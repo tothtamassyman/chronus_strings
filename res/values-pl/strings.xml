@@ -227,10 +227,7 @@
 
     <string name="credits_title">Twórcy</string>
     <string name="credits_summary">Danny Baumann i ja napisaliśmy większość programu, ale nie można pominąć też wielu
-        tłumaczy oraz innych twórców, jak Nicolai Ehemann, Matt Booth i Jorge Ruesga, którzy wprowadzali nowe języki oraz funkcje.\n\n
-        Zestawy ikon:\n
-        \u2022 VClouds (vclouds.deviantart.com)\n
-        \u2022 Modern (www.mikeafford.com)</string>
+        tłumaczy oraz innych twórców, jak Nicolai Ehemann, Matt Booth i Jorge Ruesga, którzy wprowadzali nowe języki oraz funkcje.</string>
     <string name="contact_title">Kontakt</string>
     <string name="send_email">Wyślij e-mail\u2026</string>
 
@@ -293,7 +290,6 @@
     <string name="weather_icon_set_title">Zestaw ikon</string>
     <string name="weather_icons_standard">Kolorowe</string>
     <string name="weather_icons_monochrome">Monochromatyczne</string>
-    <string name="weather_icons_modern">Modern</string>
     <string name="icon_set_selection_get_more">Pobierz więcej\u2026</string>
 
 </resources>

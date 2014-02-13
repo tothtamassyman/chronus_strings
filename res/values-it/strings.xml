@@ -303,10 +303,7 @@
     <string name="credits_title">Meriti</string>
     <string name="credits_summary">Anche se Danny Baumann e io abbiamo scritto la maggior parte del widget, una buona parte del merito va
         attribuita ai molti traduttori delle lingue incluse così come ad altri collaboratori, quali Nicolai Ehemann e Matt Booth per le
-        funzionalità alle quali hanno contribuito.\n\n
-		Immagini del meteo:\n
-		\u2022 VClouds (vclouds.deviantart.com)\n
-		\u2022 Moderne (www.mikeafford.com)</string>
+        funzionalità alle quali hanno contribuito.</string>
     <string name="contact_title">Contattaci</string>
     <string name="send_email">Invia e-mail \u2026</string>
 
@@ -404,7 +401,6 @@
     <!-- Icon Set names -->
     <string name="weather_icons_standard">Colorate</string>
     <string name="weather_icons_monochrome">Monocromatiche</string>
-    <string name="weather_icons_modern">Moderne</string>
 
     <!-- Daydream -->
     <string name="daydream_night_mode_title">Modalità notte</string>

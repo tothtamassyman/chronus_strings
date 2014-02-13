@@ -317,10 +317,7 @@
     <string name="credits_title">Credits</string>
     <string name="credits_summary">While Danny Baumann and I wrote most of the widget, credit also goes to the many
         translators as well as other contributors such as Nicolai Ehemann, Matt Booth and Jorge Ruesga for the
-        languages and features they have contributed.\n\n
-        Weather Icons:\n
-        \u2022 VClouds (vclouds.deviantart.com)\n
-        \u2022 Modern (www.mikeafford.com)</string>
+        languages and features they have contributed.</string>
     <string name="contact_title">Contact us</string>
     <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
     <string name="send_email">Send email\u2026</string>
@@ -430,8 +427,6 @@
     <!-- Icon Set names -->
     <string name="weather_icons_standard">Colored</string>
     <string name="weather_icons_monochrome">Monochrome</string>
-    <string name="weather_icons_modern">Modern</string>
-    <string name="weather_icons_vclouds" translatable="false">VClouds</string>
 
     <!-- Daydream -->
     <string name="daydream_settings_name" translatable="false">Chronus Dream</string>

@@ -220,7 +220,6 @@
   <string name="credits_title">קרדיטים</string>
   <string name="credits_summary">בזמן Danny Baumann ואני כתבנו את מרבית הקוד, יש להודות גם להרבה מהמתרגמים ולתורמי קוד אחרים כמו Nicolai Ehemann, Matt Booth ו-Jorge Ruesga עבור שפות ותכונות שהם תרמו.\n\n
 סמלי מזג אוויר:\n
-\u2022 VClouds (vclouds.deviantart.com)\n
 \u2022 מודרני (www.mikeafford.com)</string>
   <string name="contact_title">צור קשר</string>
   <string name="send_email">לשלוח e-mail\u2026</string>
@@ -284,7 +283,6 @@
   <string name="icon_set_selection_get_more">קבל עוד\u2026</string>
   <string name="weather_icons_standard">צבעוני</string>
   <string name="weather_icons_monochrome">אחיד</string>
-  <string name="weather_icons_modern">מודרני</string>
   <string name="daydream_night_mode_title">מצב לילה</string>
   <string name="daydream_night_mode_summary">עמעם מסך עבור תצוגה טובה יותר בסביבה חשוכה</string>
   <string name="daydream_effect_title">אפקט</string>

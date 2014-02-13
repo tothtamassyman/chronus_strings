@@ -254,8 +254,7 @@
     <string name="credits_summary">Auch wenn ich maßgebliche Teile von Chronus entwickelt habe, geht mein Dank an Danny Baumann für seine 
         Arbeit an den Wetter-Aktualisierungsdiensten sowie allgemeine Codeverbesserungen, an die Übersetzer der CyanogenMod-Community 
         für ihre Arbeit an den Übersetzungen der vielen unterstützten Sprachen, sowie an andere 
-        Mitwirkende wie Nicolai Ehemann und Matt Booth für ihre Beiträge.
-        \n\nWetter-Icons: VClouds (vclouds.deviantart.com) and Modern (www.mikeafford.com)</string>
+        Mitwirkende wie Nicolai Ehemann und Matt Booth für ihre Beiträge.</string>
     <string name="contact_title">Autor kontaktieren</string>
     <string name="send_email">E-Mail schreiben\u2026</string>
     <string name="pro_features_summary">Berühren, um Pro-Funktionen zu aktivieren</string>
@@ -324,7 +323,6 @@
     <string name="weather_icon_set_title">Icon-Pakete</string>
     <string name="weather_icons_standard">Farbig</string>
     <string name="weather_icons_monochrome">Einfarbig</string>
-    <string name="weather_icons_modern">Modern</string>
     <string name="icon_set_selection_get_more">Mehr beziehen\u2026</string>
     <string name="daydream_night_mode_title">Nachtmodus</string>
     <string name="daydream_night_mode_summary">Bildschirm dimmen, um in dunkler Umgebung nicht zu blenden</string>
