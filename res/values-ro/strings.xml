@@ -246,6 +246,7 @@
     <string name="news_feed_reader_list_unread_articles_title">Articole necitite</string>
     <string name="news_feed_reader_list_last_published">Actualizat la <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Accesare articol</string>
+    <string name="news_feed_internal_viewer_title">Afișare internă</string>
 
     <!-- News Feed Provider Settings - RSS -->
     <string name="rss_sources_custom_header">Definit de utilizator</string>
@@ -388,25 +389,26 @@
     <string name="weather_icon_set_title">Pictograme</string>
     <string name="icon_set_selection_get_more">Mai multe\u2026</string>
 
-     <!-- Icon Set names -->
-     <string name="weather_icons_standard">Color</string>
-     <string name="weather_icons_monochrome">Monocrom</string>
-     <string name="weather_icons_modern">Modern</string>
+    <!-- Icon Set names -->
+    <string name="weather_icons_standard">Color</string>
+    <string name="weather_icons_monochrome">Monocrom</string>
+    <string name="weather_icons_modern">Modern</string>
 
-     <!-- Daydream -->
-     <string name="daydream_night_mode_title">Mod de noapte</string>
-     <string name="daydream_night_mode_summary">Întunecă ecranul pentru o vizibilitate mai bună în medii întunecate</string>
-     <string name="daydream_effect_title">Efect</string>
-     <string name="daydream_effect_none">Fără (nerecomandat)</string>
-     <string name="daydream_effect_fade">Stingere</string>
-     <string name="daydream_effect_slide">Glisare</string>
-     <string name="daydream_effect_explode">Explozie</string>
-     <string name="daydream_bg_color_interpolation_title">Culoare omogenă de fundal</string>
-     <string name="daydream_bg_color_interpolation_summary">Schimbare lină în timp a culorii de fundal</string>
+    <!-- Daydream -->
+    <string name="daydream_night_mode_title">Mod de noapte</string>
+    <string name="daydream_night_mode_summary">Întunecă ecranul pentru o vizibilitate mai bună în medii întunecate</string>
+    <string name="daydream_effect_title">Efect</string>
+    <string name="daydream_effect_none">Fără (nerecomandat)</string>
+    <string name="daydream_effect_fade">Stingere</string>
+    <string name="daydream_effect_slide">Glisare</string>
+    <string name="daydream_effect_explode">Explozie</string>
+    <string name="daydream_bg_color_interpolation_title">Culoare omogenă de fundal</string>
+    <string name="daydream_bg_color_interpolation_summary">Schimbare lină în timp a culorii de fundal</string>
 
     <!-- Layout styles -->
-     <string name="analog_style_title">Stil ceas</string>
-     <string name="standard_style">Standard</string>
-     <string name="classic_style">Clasic</string>
+    <string name="analog_style_title">Stil ceas</string>
+    <string name="weather_style_title">Stil meteo</string>
+    <string name="standard_style">Standard</string>
+    <string name="classic_style">Clasic</string>
 
 </resources>
