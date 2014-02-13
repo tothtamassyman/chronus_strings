@@ -223,6 +223,7 @@
     <string name="news_feed_reader_list_unread_articles_title">Nepřečtené články</string>
     <string name="news_feed_reader_list_last_published">Aktualizováno <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Přejít na článek</string>
+    <string name="news_feed_internal_viewer_title">Použít prohlížeč aplikace</string>
 
     <string name="rss_sources_custom_header">Uživatelský</string>
     <string name="rss_custom_source_url">Adresa:</string>
