@@ -77,7 +77,6 @@
     <string name="weather_45">Nevihta z grmenjem</string>
     <string name="weather_46">Rahlo sneženje</string>
     <string name="weather_47">Lokalna nevihta z grmenjem</string>
-    <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
     <!-- Weather - Speed units -->
     <string name="weather_kph">km/h</string>
@@ -96,7 +95,6 @@
     <!-- Weather - Error messages -->
     <string name="weather_no_data">Ni podatkov</string>
     <string name="weather_tap_to_refresh">Pritisni za osvežitev</string>
-    <string name="weather_refreshing">Osveževanje podatkov</string>
     <string name="weather_last_sync_just_now">Pravkar</string>
     <string name="weather_cannot_reach_provider">Nedosegljivo ta trenutek</string>
 
@@ -124,7 +122,7 @@
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Zaklepanje zaslona</string>
     <string name="widget_type_daydream">Dnevno sanjarjenje</string>
-    <string name="widget_type_homescreen">Home screen (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Domači zaslon (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
 
     <!-- Preferences - Clock -->
     <string name="clock_font_title">Poudarjena ura</string>
@@ -146,7 +144,7 @@
     <string name="weather_show_location_title">Prikaži lokacijo</string>
     <string name="weather_show_timestamp_title">Prikaži čas osvežitve</string>
     <string name="weather_refresh_interval">Posodobitev intervala</string>
-    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (applies to all widgets)</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (Privzeto za vse pripomočke)</string>
     <string name="weather_use_metric">Uporabi metrične enote</string>
     <string name="weather_retrieve_location_dialog_title">Ne morem določiti lokacije</string>
     <string name="weather_retrieve_location_dialog_message">Geolokacija omrežja je onemogočena.\n\nIzberite lokacijo po meri ali omogočite geolokacijo.</string>
@@ -182,12 +180,12 @@
     <string name="news_feed_rotate_interval">Interval rotacije</string>
     <string name="news_feed_display_unread_status">Indikator za neprebrano</string>
     <string name="news_feed_hide_viewed">Skrij prebrano</string>
-    <string name="news_feed_no_articles_text_title">Prikaži \'Brez vsebine\' tekst</string>
+    <string name="news_feed_no_articles_text_title">Prikaži tekst \'Brez vsebine\' </string>
     <string name="news_feed_provider_title">Tip ponudnika</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_rss_title">Vir Novic</string>
     <string name="news_feed_refresh_interval">Interval posodobitev</string>
-    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (applies to all widgets)</string>
+    <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (Privzeto za vse pripomočke)</string>
 
     <!-- News Feed - Update frequency -->
     <string name="news_feed_refresh_manual">Ročno</string>
@@ -237,7 +235,7 @@
     <!-- News - Reader -->
     <string name="news_feed_reader_list_all_articles_title">Vsi članki</string>
     <string name="news_feed_reader_list_unread_articles_title">Neprebrano</string>
-    <string name="news_feed_reader_list_last_published">Updated on <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
+    <string name="news_feed_reader_list_last_published">Posodobljeno <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Pojdi na članek</string>
 
     <!-- News Feed Provider Settings - RSS -->
@@ -265,13 +263,27 @@
     <!-- First run -->
     <string name="how_to_title">Pomoč</string>
     <string name="first_run_title">Dobrodošli %s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus je pripomoček, ki mora biti ročno dodan na vaš privzeti zaslon (Android 4.1+) ali na zaslon zaklepanja (samo pri Android 4.2+) z uporabo interne funkcije dodajanja pripomočkov na zaslon.\n\nKo ste izbrali pripomoček, lahko z uporabo te aplikacije spremenite konfiguracijo pripomočka.\n\nNe pozabite spremeniti velikost pripomočka na privzetem zaslonu, da se vam lahko prikažejo vse nastavitve, ki ste jih omogočili (Ura, vreme in koledar) saj lahko pripomoček ne prikaže vseh željenih podatkov, če prikazno okno ni dovolj veliko.\n\nZa prikaz najboljših rezultatov priporočamo uporabo Apex ali Nova zaganjalnika. Chronus bo najverjetneje nemoteno deloval na vseh zaganjalnikih, omejena je pa je lahko vidnost in velikost pripomočka na drugih zaganjalnikih.\n\nPri Android 4.2+, za dodajanje pripomočka na privzeti zaslon pritisnite in držite na praznem mestu na zaslonu in uporabite funkcijo Dodaj pripomoček, prelistajte po možnostih iz izberite pripomoček po meri. Pri določenih zaganjalnikih preprosto pritisnite in držite pripomoček, da omogočite urejanje, premikanje ali brisanje.</string>
+    <string name="first_run_message">Chronus je pripomoček, ki mora biti ročno dodan na vaš privzeti zaslon
+        (Android 4.1+) ali na zaslon zaklepanja (samo pri Android 4.2+) z uporabo interne funkcije dodajanja
+        pripomočkov na zaslon.\n\nKo ste izbrali pripomoček, lahko z uporabo te aplikacije spremenite konfiguracijo
+        pripomočka.\n\nNe pozabite spremeniti velikost pripomočka na privzetem zaslonu, da se vam lahko prikažejo vse
+        nastavitve, ki ste jih omogočili (Ura, vreme in koledar) saj lahko pripomoček ne prikaže vseh željenih
+        podatkov, če prikazno okno ni dovolj veliko.\n\nZa prikaz najboljših rezultatov priporočamo uporabo Apex
+        ali Nova zaganjalnika. Chronus bo najverjetneje nemoteno deloval na vseh zaganjalnikih, omejena je pa je
+        lahko vidnost in velikost pripomočka na drugih zaganjalnikih.\n\nPri Android 4.2+, za dodajanje pripomočka
+        na privzeti zaslon pritisnite in držite na praznem mestu na zaslonu in uporabite funkcijo Dodaj pripomoček,
+        prelistajte po možnostih iz izberite pripomoček po meri. Pri določenih zaganjalnikih preprosto pritisnite in
+        držite pripomoček, da omogočite urejanje, premikanje ali brisanje.</string>
 
-    <string name="no_widget_message">Izberite vsaj en Chronus pripomoček, ki ga lahko dodate na privzeti zaslon ali Zaslon zaklepanja in ga nato prilagodite po meri.\n\nPripomoček lahko dodate direktno iz pripomočkov na vaši napravi ali z uporabo funkcije Dodaj pripomoček na vašem zaslonu.</string>
+    <string name="no_widget_message">Izberite vsaj en Chronus pripomoček, ki ga lahko dodate na privzeti zaslon ali
+        Zaslon zaklepanja in ga nato prilagodite po meri.\n\nPripomoček lahko dodate direktno iz pripomočkov na vaši
+        napravi ali z uporabo funkcije Dodaj pripomoček na vašem zaslonu.</string>
 
     <string name="credits_title">Zasluge</string>
-    <string name="credits_summary">Čeprav sva avtorja Danny Baumann in jaz osebno napisala velik delež tega pripomočka, gredo zasluge tudi skupini CyanogenMod in tudi drugim android skupnostim, prevajalcem, ki so 
-prispevali prevode vseh jezikov, ki so vključeni v pripomoček, velik del so prispevali tudi Jorge Ruesga, Nicolai Ehemann in Matt Booth za programske popravke in dodatne možnosti uporabe tega pripomočka.
+    <string name="credits_summary">Čeprav sva avtorja Danny Baumann in jaz osebno napisala velik delež tega pripomočka,
+        gredo zasluge tudi skupini CyanogenMod in tudi drugim android skupnostim, prevajalcem, ki so prispevali prevode
+        vseh jezikov, ki so vključeni v pripomoček, velik del so prispevali tudi Jorge Ruesga, Nicolai Ehemann in
+        Matt Booth za programske popravke in dodatne možnosti uporabe tega pripomočka.
         \n\nVremenske podobe: VClouds (vclouds.deviantart.com) and Modern (www.mikeafford.com)</string>
     <string name="contact_title">Kontaktirajte nas</string>
     <string name="send_email">Pošlji email\u2026</string>
@@ -280,7 +292,8 @@ prispevali prevode vseh jezikov, ki so vključeni v pripomoček, velik del so pr
     <!-- Pro features (About) -->
     <string name="pro_features_summary">Pritisnite da omogočite PRO lastnosti</string>
     <string name="pro_features_thanks">Hvala za nakup</string>
-    <string name="pro_features_message">Pro verzija vključuje vse lastnosti standardne verzije in v naslednjih mesecih bo vključenih veliko novih nastavitev:\n\n
+    <string name="pro_features_message">Pro verzija vključuje vse lastnosti standardne verzije in v naslednjih mesecih
+        bo vključenih veliko novih nastavitev:\n\n
         \u2022 Več postavitev pripomočka\n
         \u2022 Nastavitve pripomočka\n
         \u2022 Več lastnosti koledarja\n
@@ -350,9 +363,11 @@ prispevali prevode vseh jezikov, ki so vključeni v pripomoček, velik del so pr
 
     <!--  Cling text -->
     <string name="cling_widget_select_title">Izberi pripomoček</string>
-    <string name="cling_widget_select_detail">Možna je konfiguracija vseh izbranih pripomočkov. Izberite tistega, ki ga želite urediti s pritiskom, zaključite urejanje s pritiskom kljukice na vrhu.</string>
+    <string name="cling_widget_select_detail">Možna je konfiguracija vseh izbranih pripomočkov.
+        Izberite tistega, ki ga želite urediti s pritiskom, zaključite urejanje s pritiskom kljukice na vrhu.</string>
 
     <string name="show_date_title">Prikaži datum</string>
+    <string name="show_battery_title">Prikaži stanje baterije v odstotkih</string>
 
     <!-- Weather icon sets -->
     <string name="weather_icon_set_title">Paket ikon</string>
@@ -369,5 +384,6 @@ prispevali prevode vseh jezikov, ki so vključeni v pripomoček, velik del so pr
     <string name="daydream_effect_fade">Obledelo</string>
     <string name="daydream_effect_slide">Drsajoče</string>
     <string name="daydream_bg_color_interpolation_title">Barvna interpolacija ozadja</string>
-    <string name="daydream_bg_color_interpolation_summary">Ozadje zaslona bo prevzelo izbrano barvo z interpolacijo barvne lestvice</string>
+    <string name="daydream_bg_color_interpolation_summary">Ozadje zaslona bo prevzelo izbrano barvo z interpolacijo
+        barvne lestvice</string>
 </resources>

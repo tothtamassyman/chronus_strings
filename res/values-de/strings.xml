@@ -88,8 +88,8 @@
     <string name="weather_W">W</string>
     <string name="weather_NW">NW</string>
     <string name="weather_no_data">Keine Daten</string>
+    <string name="weather_loading">Wetterdaten werden geladen\u2026</string>
     <string name="weather_tap_to_refresh">Zum Aktualisieren berühren</string>
-    <string name="weather_refreshing">Aktualisiere\u2026</string>
     <string name="weather_last_sync_just_now">Gerade jetzt</string>
     <string name="weather_cannot_reach_provider">%s ist nicht erreichbar</string>
     <string name="weather_refresh_manual">Manuell</string>
@@ -204,6 +204,7 @@
     <string name="news_feed_reader_list_unread_articles_title">Ungelesene Artikel</string>
     <string name="news_feed_reader_list_last_published">Aktualisiert am <xliff:g id="date">%2$s</xliff:g> um <xliff:g id="time">%1$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Artikel lesen</string>
+    <string name="news_feed_internal_viewer_title">Internen Betrachter verwenden</string>
     <string name="rss_sources_custom_header">Benutzerdefiniert</string>
     <string name="rss_custom_source_url">URL:</string>
     <string name="rss_custom_source_title">Feed hinzufügen</string>
@@ -214,6 +215,7 @@
     <string name="feedly_preferences_title">Einstellungen</string>
     <string name="feedly_trending_content_title">Oft gelesene Inhalte anzeigen</string>
     <string name="feedly_categories_title">Kategorien</string>
+    <string name="feedly_category_uncategorized">Nicht zugeordnet</string>
     <string name="feedly_msg_retrieving_user_profile">Nutzerprofil wird abgerufen\u2026</string>
     <string name="feedly_msg_retrieving_user_categories">Nutzerkategorien werden abgerufen\u2026</string>
     <string name="feedly_msg_auth_access_success">Konto erfolgreich verbunden</string>
@@ -333,4 +335,8 @@
     <string name="daydream_effect_explode">Explodieren</string>
     <string name="daydream_bg_color_interpolation_title">Stufenloser Hintergrund</string>
     <string name="daydream_bg_color_interpolation_summary">Hintergrundfarbe mit der Zeit langsam ändern</string>
+    <string name="analog_style_title">Uhr-Stil</string>
+    <string name="weather_style_title">Wetter-Stil</string>
+    <string name="standard_style">Standard</string>
+    <string name="classic_style">Klassisch</string>
 </resources>

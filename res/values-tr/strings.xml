@@ -96,7 +96,6 @@
     <!-- Weather - Error messages -->
     <string name="weather_no_data">Veri yok</string>
     <string name="weather_tap_to_refresh">Yenilemek için tıklayın</string>
-    <string name="weather_refreshing">Yeniliyor</string>
     <string name="weather_last_sync_just_now">Şimdi</string>
     <string name="weather_cannot_reach_provider">%s ulaşılamaz</string>
 
