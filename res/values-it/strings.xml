@@ -246,6 +246,7 @@
     <string name="news_feed_reader_list_unread_articles_title">Articoli non letti</string>
     <string name="news_feed_reader_list_last_published">Aggiornato il <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Vai all\'articolo</string>
+    <string name="news_feed_internal_viewer_title">Usa visualizzatore interno</string>
 
     <!-- News Feed Provider Settings - RSS -->
     <string name="rss_sources_custom_header">Definito dall\'utente</string>
@@ -293,10 +294,12 @@
         di utilizzare i programmi di avvio Apex o Nova. Chronus può funzionare con la maggior parte dei programmi di avvio, ma le possibilità
         di configurazione possono essere più limitate.\n\nCon Android 4.2 +, per aggiungere un widget alla schermata di blocco, scorrere a sinistra
         nella schermata di blocco, quindi utilizzare il pulsante Aggiungi Widget (+) per aggiungere Chronus. I widget sulla schermata di
-        blocco si possono riorganizzare tramite una pressione lunga, dopo la quale possono essere spostati o cancellati.</string>
+        blocco si possono riorganizzare tramite una pressione prolungata, dopo la quale possono essere spostati o cancellati.</string>
+
     <string name="no_widget_message">Occorre aggiungere almeno un widget Chronus alla schermata Home o alla schermata di blocco prima di poter
         utilizzare questa applicazione per cambiarne la configurazione.\n\nI widget possono essere aggiunti utilizzando il selettore di widget di
         Android e del programma di avvio.</string>
+
     <string name="credits_title">Meriti</string>
     <string name="credits_summary">Anche se Danny Baumann e io abbiamo scritto la maggior parte del widget, una buona parte del merito va
         attribuita ai molti traduttori delle lingue incluse così come ad altri collaboratori, quali Nicolai Ehemann e Matt Booth per le
@@ -384,7 +387,7 @@
     <string name="widget_rounded_corners_title">Angoli arrotondati</string>
 
     <!-- Calendar - No events -->
-    <string name="calendar_no_events">Non ci sono eventi imminenti</string>
+    <string name="calendar_no_events">Non ci sono eventi in arrivo</string>
     <string name="calendar_no_events_summary">Tocca + per aggiungere</string>
     <string name="calendar_no_events_indicator_title">Mostra il testo \'Nessun evento\'</string>
     <string name="show_date_title">Mostra data</string>
@@ -414,9 +417,10 @@
     <string name="daydream_bg_color_interpolation_title">Colori sfumati</string>
     <string name="daydream_bg_color_interpolation_summary">Modifica lentamente i colori col passare del tempo</string>
 
-    <!-- Analog clock style -->
+    <!-- Layout styles -->
     <string name="analog_style_title">Stile orologio</string>
-    <string name="analog_style_standard">Standard</string>
-    <string name="analog_style_classic">Classico</string>
+    <string name="weather_style_title">Stile meteo</string>
+    <string name="standard_style">Standard</string>
+    <string name="classic_style">Classico</string>
 
 </resources>
