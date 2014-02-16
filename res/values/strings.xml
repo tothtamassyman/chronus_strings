@@ -32,6 +32,7 @@
     <string name="exit">Exit</string>
     <string name="msg_service_unavailable">Service unavailable</string>
     <string name="msg_login_failed">Login failed</string>
+    <string name="searching">Searching\u2026</string>
 
     <!-- Formats -->
     <string name="format_seconds">%s sec.</string>
@@ -443,6 +444,7 @@
     <!-- Layout styles -->
     <string name="analog_style_title">Clock style</string>
     <string name="weather_style_title">Weather style</string>
+    <string name="calendar_style_title">Calendar style</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Classic</string>
 
