@@ -27,6 +27,7 @@
     <string name="exit">Esci</string>
     <string name="msg_service_unavailable">Servizio non disponibile</string>
     <string name="msg_login_failed">Login fallito</string>
+    <string name="searching">Ricerca\u2026</string>
 
     <!-- Formats -->
     <string name="format_seconds">%s sec.</string>
@@ -416,6 +417,7 @@
     <!-- Layout styles -->
     <string name="analog_style_title">Stile orologio</string>
     <string name="weather_style_title">Stile meteo</string>
+    <string name="calendar_style_title">Stile calendario</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Classico</string>
 
