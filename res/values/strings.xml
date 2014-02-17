@@ -353,6 +353,8 @@
     <string name="tap_action_calendar_default">System calendar</string>
     <string name="tap_action_weather_forecast">Show forecast</string>
     <string name="tap_action_do_nothing">Do nothing</string>
+    <string name="tap_action_event_title">Event tap action</string>
+    <string name="tap_action_event_default">Open event</string>
 
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">Widget background</string>
