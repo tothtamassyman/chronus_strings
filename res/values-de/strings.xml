@@ -26,6 +26,7 @@
     <string name="msg_service_unavailable">Dienst ist nicht erreichbar</string>
     <string name="msg_login_failed">Anmeldung ist fehlgeschlagen</string>
     <string name="format_seconds">%s Sekunden</string>
+    <string name="searching">Suche läuft\u2026</string>
     <string name="weather_0">Tornado</string>
     <string name="weather_1">Tropensturm</string>
     <string name="weather_2">Hurrikan</string>
@@ -279,6 +280,8 @@
     <string name="tap_action_calendar_default">System-Kalender</string>
     <string name="tap_action_weather_forecast">Wettervorhersage anzeigen</string>
     <string name="tap_action_do_nothing">Keine Aktion</string>
+    <string name="tap_action_event_title">Aktion bei Termin-Berührung</string>
+    <string name="tap_action_event_default">Kalendereintrag öffnen</string>
     <string name="widget_background_title">Widget-Hintergrund</string>
     <string name="widget_background_default">Transparent</string>
     <string name="widget_background_color_fill">Farbfüllung</string>
@@ -335,6 +338,7 @@
     <string name="daydream_bg_color_interpolation_summary">Hintergrundfarbe mit der Zeit langsam ändern</string>
     <string name="analog_style_title">Uhr-Stil</string>
     <string name="weather_style_title">Wetter-Stil</string>
+    <string name="calendar_style_title">Kalender-Stil</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Klassisch</string>
 </resources>
