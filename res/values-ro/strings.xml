@@ -27,6 +27,7 @@
     <string name="exit">Ieșire</string>
     <string name="msg_service_unavailable">Serviciu indisponibil</string>
     <string name="msg_login_failed">Eroare logare</string>
+    <string name="searching">Căutare\u2026</string>
     
     <!-- Formats -->
     <string name="format_seconds">%s sec.</string>
@@ -323,6 +324,8 @@
     <string name="tap_action_calendar_default">Calendar</string>
     <string name="tap_action_weather_forecast">Afișare prognoză</string>
     <string name="tap_action_do_nothing">Fără acțiune</string>
+    <string name="tap_action_event_title">Acțiune atingere eveniment</string>
+    <string name="tap_action_event_default">Deschidere eveniment</string>
 
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">Fundal</string>
@@ -404,7 +407,9 @@
     <!-- Layout styles -->
     <string name="analog_style_title">Stil ceas</string>
     <string name="weather_style_title">Stil meteo</string>
+    <string name="calendar_style_title">Stil calendar</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Clasic</string>
 
 </resources>
+calendar_lookahead_1wk
