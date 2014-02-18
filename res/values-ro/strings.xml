@@ -247,7 +247,7 @@
     <string name="news_feed_reader_list_unread_articles_title">Articole necitite</string>
     <string name="news_feed_reader_list_last_published">Actualizat la <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Accesare articol</string>
-    <string name="news_feed_internal_viewer_title">Afișare internă</string>
+    <string name="news_feed_internal_viewer_title">Vizualizator intern</string>
 
     <!-- News Feed Provider Settings - RSS -->
     <string name="rss_sources_custom_header">Definit de utilizator</string>
