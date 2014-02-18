@@ -270,10 +270,7 @@
 
     <string name="credits_title">特别感谢</string>
     <string name="credits_summary">虽然 Danny Baumman 和我编写了 Chronus 的重要部分，很大一部分的功劳要归于 CyanogenMod 社区内的各位翻译员和
-        像 Jorge Ruesga、Nicolai Ehemann 与 Matt Booth 这样提供修复与功能的各位贡献者。\n\n
-        天气图标：\n
-        \u2022 VClouds (vclouds.deviantart.com)\n
-        \u2022 现代式 (www.mikeafford.com)</string>
+        像 Jorge Ruesga、Nicolai Ehemann 与 Matt Booth 这样提供修复与功能的各位贡献者。</string>
     <string name="contact_title">联系我们</string>
     <string name="send_email">发送电子邮件\u2026</string>
 
@@ -359,7 +356,6 @@
     <string name="weather_icon_set_title">图标集</string>
     <string name="weather_icons_standard">彩色</string>
     <string name="weather_icons_monochrome">单色</string>
-    <string name="weather_icons_modern">现代式</string>
     <string name="icon_set_selection_get_more">获取更多\u2026</string>
 
 </resources>

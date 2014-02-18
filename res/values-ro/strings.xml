@@ -291,10 +291,7 @@
     <string name="no_widget_message">Aplicați cel puțin un widget Chronus pe ecranul pricipal sau ecranul de blocare înainte de utilizarea aceastei aplicații pentru configurări.\n\nWidget-urile pot fi aplicate utilizând funcțiile respective ale launcher-ului Dvs.</string>
 
     <string name="credits_title">Mulțumiri</string>
-    <string name="credits_summary">Chiar dacă am scris împreună cu Danny Baumann părți importante din Chronus, mulțumim comunității de traducători, precum și lui Jorge Ruesga, Nicolai Ehemann și Matt Booth pentru corectările și opțiunile adiționale la care au contribuit.\nTraducerea în limba română: Adrian Nistreanu.\n\n
-        Pictograme meteo:\n
-        \u2022 VClouds (vclouds.deviantart.com)\n
-        \u2022 Modern (www.mikeafford.com)</string>
+    <string name="credits_summary">Chiar dacă am scris împreună cu Danny Baumann părți importante din Chronus, mulțumim comunității de traducători, precum și lui Jorge Ruesga, Nicolai Ehemann și Matt Booth pentru corectările și opțiunile adiționale la care au contribuit.\nTraducerea în limba română: Adrian Nistreanu.</string>
     <string name="contact_title">Contact</string>
     <string name="send_email">Trimiteți email\u2026</string>
 
@@ -392,7 +389,6 @@
     <!-- Icon Set names -->
     <string name="weather_icons_standard">Color</string>
     <string name="weather_icons_monochrome">Monocrom</string>
-    <string name="weather_icons_modern">Modern</string>
 
     <!-- Daydream -->
     <string name="daydream_night_mode_title">Mod de noapte</string>

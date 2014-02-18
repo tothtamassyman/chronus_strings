@@ -205,6 +205,7 @@
     <string name="news_feed_reader_list_unread_articles_title">Artículos no leídos</string>
     <string name="news_feed_reader_list_last_published">Actualizado a las <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Ir a artículo</string>
+    <string name="news_feed_internal_viewer_title">Usar visor interno</string>
     <string name="rss_sources_custom_header">Definido por el usuario</string>
     <string name="rss_custom_source_url">Url:</string>
     <string name="rss_custom_source_title">Añadir fuente personalizada</string>
@@ -215,6 +216,7 @@
     <string name="feedly_preferences_title">Preferencias</string>
     <string name="feedly_trending_content_title">Contenido más popular</string>
     <string name="feedly_categories_title">Categorias</string>
+    <string name="feedly_category_uncategorized">Sin categorizar</string>
     <string name="feedly_msg_retrieving_user_profile">Recuperando perfil de usuario\u2026</string>
     <string name="feedly_msg_retrieving_user_categories">Recuperando categorias\u2026</string>
     <string name="feedly_msg_auth_access_success">Cuenta vinculada correctamente</string>
@@ -248,10 +250,7 @@
     <string name="credits_title">Créditos</string>
     <string name="credits_summary">Mientras que Danny Baumann y yo escribimos la mayoría del código de Chronus, algunos créditos deben ir
         también para los muchos traductores por los idiomas incluidos, así como a otros desarrolladores como
-        Nicolai Ehemann y Matt Booth por las correcciones y nuevas características que han aportado al código.\n\n
-        Iconos de tiempo:\n
-        \u2022 VClouds (vclouds.deviantart.com)\n
-        \u2022 Modern (www.mikeafford.com)</string>
+        Nicolai Ehemann y Matt Booth por las correcciones y nuevas características que han aportado al código.</string>
     <string name="contact_title">Contactanos</string>
     <string name="send_email">Enviar email\u2026</string>
     <string name="pro_features_summary">Pulsa para habilitar las características de pago</string>
@@ -313,7 +312,6 @@
     <string name="weather_icon_set_title">Conjunto de iconos</string>
     <string name="weather_icons_standard">Coloreado</string>
     <string name="weather_icons_monochrome">Monocromo</string>
-    <string name="weather_icons_modern">Moderno</string>
     <string name="icon_set_selection_get_more">Conseguir más\u2026</string>
     <string name="daydream_night_mode_title">Modo noche</string>
     <string name="daydream_night_mode_summary">Atenuar la pantalla para una mejor visualización en entornos oscuros</string>
@@ -324,4 +322,8 @@
     <string name="daydream_effect_explode">Explotar</string>
     <string name="daydream_bg_color_interpolation_title">Cambiar color fondo</string>
     <string name="daydream_bg_color_interpolation_summary">El color de fondo de la pantalla ira cambiando poco a poco</string>
+    <string name="analog_style_title">Estilo del reloj</string>
+    <string name="weather_style_title">Estilo del tiempo</string>
+    <string name="standard_style">Estándar</string>
+    <string name="classic_style">Clásico</string>
 </resources>

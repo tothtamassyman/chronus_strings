@@ -283,8 +283,7 @@
     <string name="credits_summary">Čeprav sva avtorja Danny Baumann in jaz osebno napisala velik delež tega pripomočka,
         gredo zasluge tudi skupini CyanogenMod in tudi drugim android skupnostim, prevajalcem, ki so prispevali prevode
         vseh jezikov, ki so vključeni v pripomoček, velik del so prispevali tudi Jorge Ruesga, Nicolai Ehemann in
-        Matt Booth za programske popravke in dodatne možnosti uporabe tega pripomočka.
-        \n\nVremenske podobe: VClouds (vclouds.deviantart.com) and Modern (www.mikeafford.com)</string>
+        Matt Booth za programske popravke in dodatne možnosti uporabe tega pripomočka.</string>
     <string name="contact_title">Kontaktirajte nas</string>
     <string name="send_email">Pošlji email\u2026</string>
 
@@ -373,7 +372,6 @@
     <string name="weather_icon_set_title">Paket ikon</string>
     <string name="weather_icons_standard">Barvne ikone</string>
     <string name="weather_icons_monochrome">Monochrome</string>
-    <string name="weather_icons_modern">Moderno</string>
     <string name="icon_set_selection_get_more">Več\u2026</string>
 
     <!-- Daydream -->

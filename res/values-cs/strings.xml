@@ -223,6 +223,7 @@
     <string name="news_feed_reader_list_unread_articles_title">Nepřečtené články</string>
     <string name="news_feed_reader_list_last_published">Aktualizováno <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Přejít na článek</string>
+    <string name="news_feed_internal_viewer_title">Použít prohlížeč aplikace</string>
 
     <string name="rss_sources_custom_header">Uživatelský</string>
     <string name="rss_custom_source_url">Adresa:</string>
@@ -270,8 +271,7 @@
 
     <string name="credits_title">Zásluhy</string>
     <string name="credits_summary">I když byla významná část aplikace Chronus napsána Danny Baumannem a mnou, veliký dík patří překladatelům ze CyanogenMod
-        komunity a dalším přispěvovatelům jako Nicolai Ehemann a Matt Booth, kteří pomohli s novými vlastnostmi.
-        \n\nIkony počasí: VClouds (vclouds.deviantart.com) a Moderní (www.mikeafford.com)</string>
+        komunity a dalším přispěvovatelům jako Nicolai Ehemann a Matt Booth, kteří pomohli s novými vlastnostmi.</string>
     <string name="contact_title">Kontakt</string>
     <string name="send_email">Poslat email\u2026</string>
 
@@ -349,7 +349,6 @@
     <string name="weather_icon_set_title">Sada ikon</string>
     <string name="weather_icons_standard">Barevné</string>
     <string name="weather_icons_monochrome">Černobílé</string>
-    <string name="weather_icons_modern">Moderní</string>
     <string name="icon_set_selection_get_more">Získat další\u2026</string>
 
     <string name="daydream_night_mode_title">Noční režim</string>
