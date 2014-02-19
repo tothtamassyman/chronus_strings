@@ -5,7 +5,7 @@ Având funcțional similar widget-ul CyanogenMod cLock și prezentat de același
 <b>Atrageți atenție:</b>
 1) Widget-ul ecranului de blocare este compatibil doar cu Android 4.2+. Aceasta este o limitare a SO Android, dar nu din partea Chronus
 2) Pentru unele dispozitive este necesară restartarea acestora după instalare, pentru ca widget-ul să apară în lista disponibilă
-3) Informația detaliată privind Permisiunile utilizate este disponibile la adresa: http://goo.gl/EbMLmm
+3) Informația detaliată privind Permisiunile utilizate este disponibilă la adresa: http://goo.gl/EbMLmm
 
 <b>Posibilitățile versiunii Pro:</b>
   - Widget-uri adiționale (Prognoză, Calendar, Ceas+ (Prognoză))
