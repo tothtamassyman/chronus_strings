@@ -23,7 +23,7 @@ Versiunea standard este echivalentă cu widget-ul CyanogenMod cLock din CM10.2 c
   - Widget-uri Flex, Flex (Analog), Ceas+ și Meteo complet funcționale
   - Aplicare pe ecranul principal (Android 4.1+) sau ecranul de blocare (Android 4.2+)
   - Configurare mod de afișare ceas (componente vizibile, font normal/îngroșat)
-  - Panou meteo oferit de Yahoo, AccuWeather, OpenWeatherMap și and yr.no
+  - Panou meteo oferit de Yahoo, AccuWeather, OpenWeatherMap și yr.no
   - Suport pentru panou meteo minimizat (pentru ecranul de blocare)
   - Panou de știri și fluxuri RSS integrate
   - Vizualizator intern pentru articole
