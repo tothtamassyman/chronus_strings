@@ -185,6 +185,7 @@
   <string name="news_feed_reader_list_unread_articles_title">מאמרים שלא נקראו</string>
   <string name="news_feed_reader_list_last_published">עודכן ב-<xliff:g id="date" example="24 mar">%2$s</xliff:g>, בשעה <xliff:g id="time" example="8:30">%1$s</xliff:g></string>
   <string name="news_feed_reader_goto_button">לך למאמר</string>
+  <string name="news_feed_internal_viewer_title">שימוש בתצוגה מובנית</string>
   <string name="rss_sources_custom_header">מוגדר על ידי המשתמש</string>
   <string name="rss_custom_source_url">קישור:</string>
   <string name="rss_custom_source_title">הוסף מקור מותאם אישית</string>
@@ -242,6 +243,8 @@
   <string name="tap_action_calendar_default">לוח שנה של מערכת</string>
   <string name="tap_action_weather_forecast">הצג תחזית</string>
   <string name="tap_action_do_nothing">עשה כלום</string>
+  <string name="tap_action_event_title">פעולת לחיצה על אירוע</string>
+  <string name="tap_action_event_default">פתיחת האירוע</string>
   <string name="widget_background_title">רקע ווידג\'ט</string>
   <string name="widget_background_default">שקוף</string>
   <string name="widget_background_color_fill">צבע המילוי</string>
@@ -294,4 +297,9 @@
     <item quantity="one">מאמר אחד חדש</item>
     <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> מאמרים חדשים</item>
   </plurals>
+    <string name="analog_style_title">סגנון שעון</string>
+    <string name="weather_style_title">סגנון מזג אוויר</string>
+    <string name="calendar_style_title">סגנון לוח שנה</string>
+    <string name="standard_style">רגיל</string>
+    <string name="classic_style">קלאסי</string>
 </resources>
