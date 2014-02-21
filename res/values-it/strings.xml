@@ -149,7 +149,7 @@
     <string name="weather_custom_location_hint">Città, Regione/Stato</string>
     <string name="weather_custom_location_title">Posizione</string>
     <string name="weather_show_location_title">Mostra posizione</string>
-    <string name="weather_show_timestamp_title">Tempo trascorso dall\'aggiornamento</string>
+    <string name="weather_show_timestamp_title">Mostra ultimo aggiornamento</string>
     <string name="weather_refresh_interval">Intervallo aggiornamento</string>
     <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (si applica a tutti i widget)</string>
     <string name="weather_use_metric">Usa unità metriche (\u00b0C)</string>
@@ -208,7 +208,7 @@
     <!-- Preferences - Font colors -->
     <string name="font_color">Colore carattere</string>
     <string name="font_color_alarm">Colore carattere sveglia</string>
-    <string name="font_color_timestamp">Colore carattere timestamp</string>
+    <string name="font_color_timestamp">Colore carattere ultimo aggiornamento</string>
     <string name="font_color_calendar_details">Colore carattere dettagli</string>
 
     <!-- Calendar - Lookahead -->
