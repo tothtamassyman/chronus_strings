@@ -27,6 +27,7 @@
     <string name="exit">Ieșire</string>
     <string name="msg_service_unavailable">Serviciu indisponibil</string>
     <string name="msg_login_failed">Eroare logare</string>
+    <string name="searching">Căutare\u2026</string>
     
     <!-- Formats -->
     <string name="format_seconds">%s sec.</string>
@@ -246,7 +247,7 @@
     <string name="news_feed_reader_list_unread_articles_title">Articole necitite</string>
     <string name="news_feed_reader_list_last_published">Actualizat la <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Accesare articol</string>
-    <string name="news_feed_internal_viewer_title">Afișare internă</string>
+    <string name="news_feed_internal_viewer_title">Vizualizator intern</string>
 
     <!-- News Feed Provider Settings - RSS -->
     <string name="rss_sources_custom_header">Definit de utilizator</string>
@@ -323,6 +324,8 @@
     <string name="tap_action_calendar_default">Calendar</string>
     <string name="tap_action_weather_forecast">Afișare prognoză</string>
     <string name="tap_action_do_nothing">Fără acțiune</string>
+    <string name="tap_action_event_title">Acțiune atingere eveniment</string>
+    <string name="tap_action_event_default">Deschidere eveniment</string>
 
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">Fundal</string>
@@ -404,6 +407,7 @@
     <!-- Layout styles -->
     <string name="analog_style_title">Stil ceas</string>
     <string name="weather_style_title">Stil meteo</string>
+    <string name="calendar_style_title">Stil calendar</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Clasic</string>
 

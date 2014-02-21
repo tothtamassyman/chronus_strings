@@ -5,25 +5,28 @@ Având funcțional similar widget-ul CyanogenMod cLock și prezentat de același
 <b>Atrageți atenție:</b>
 1) Widget-ul ecranului de blocare este compatibil doar cu Android 4.2+. Aceasta este o limitare a SO Android, dar nu din partea Chronus
 2) Pentru unele dispozitive este necesară restartarea acestora după instalare, pentru ca widget-ul să apară în lista disponibilă
-3) Nu este compatibil cu WidgetLocker
+3) Informația detaliată privind Permisiunile utilizate este disponibilă la adresa: http://goo.gl/EbMLmm
 
 <b>Posibilitățile versiunii Pro:</b>
-  - Widget-uri adiționale (Prognoză, Calendar, Meteo)
+  - Widget-uri adiționale (Prognoză, Calendar, Ceas+ (Prognoză))
   - Acțiuni personalizate la apăsarea panourilor cu ceas, meteo și calendar pentru lansarea aplicațiilor sau activităților
   - Setarea culorii de fundal
   - Alinierea ceasului și panoului meteo (centru, stânga sau dreapta)
-	- Culori pentru Calendar
-	- Pictograme meteo 'Modern'
+  - Selectare stil ceas analog (Standard sau Clasic)
+  - Culori pentru Calendar
+  - Suport Feedly
+  - Screensaver Daydream
   - noi posibilități lansate la fiecare 3-4 săptămâni...
 
 <b>Posibilități de bază:</b>
 Versiunea standard este echivalentă cu widget-ul CyanogenMod cLock din CM10.2 cu suport adițional pentru versiunile Android mai vechi.
-  - Widget-uri Flex, Flex (Analog) și Ceas+ complet funcționale
+  - Widget-uri Flex, Flex (Analog), Ceas+ și Meteo complet funcționale
   - Aplicare pe ecranul principal (Android 4.1+) sau ecranul de blocare (Android 4.2+)
   - Configurare mod de afișare ceas (componente vizibile, font normal/îngroșat)
-  - Panou meteo oferit de Yahoo, AccuWeather sau OpenWeatherMap
-	- Suport pentru panou meteo minimizat (pentru ecranul de blocare)
-	- Panou cu flux de știri și Vizualizator integrat
+  - Panou meteo oferit de Yahoo, AccuWeather, OpenWeatherMap și yr.no
+  - Suport pentru panou meteo minimizat (pentru ecranul de blocare)
+  - Panou de știri și fluxuri RSS integrate
+  - Vizualizator intern pentru articole
   - Panou calendaristic cu listă derulabilă a evenimentelor viitoare
   - Atingerea evenimentului deschide Calendarul la acel eveniment
   - Atingerea pictogramei calendarului deschide ziua curentă din Calendar
