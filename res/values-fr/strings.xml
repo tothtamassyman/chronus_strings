@@ -26,6 +26,7 @@
     <string name="exit">Quitter</string>
     <string name="msg_service_unavailable">Service indisponible</string>
     <string name="msg_login_failed">Connexion échouée</string>
+    <string name="searching">Recherche\u2026</string>
 
     <!-- Formats -->
     <string name="format_seconds">%s s</string>
@@ -326,6 +327,8 @@
     <string name="tap_action_calendar_default">Calendrier du système</string>
     <string name="tap_action_weather_forecast">Afficher les prévisions</string>
     <string name="tap_action_do_nothing">Ne rien faire</string>
+    <string name="tap_action_event_title">Appui sur un événement</string>
+    <string name="tap_action_event_default">Ouvrir l\'événement</string>
 
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">Arrière plan du widget</string>
@@ -404,6 +407,7 @@
     <!-- Layout styles -->
     <string name="analog_style_title">Style de l\'horloge</string>
     <string name="weather_style_title">Style de la météo</string>
+    <string name="calendar_style_title">Style du calendrier</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Classique</string>
 
