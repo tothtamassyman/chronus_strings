@@ -389,7 +389,6 @@
     <!-- Icon Set names -->
     <string name="weather_icons_standard">Coloré</string>
     <string name="weather_icons_monochrome">Monochrome</string>
-    <string name="weather_icons_modern">Moderne</string>
 
     <!-- Daydream -->
     <string name="daydream_night_mode_title">Mode nuit</string>

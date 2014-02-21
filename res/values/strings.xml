@@ -32,6 +32,7 @@
     <string name="exit">Exit</string>
     <string name="msg_service_unavailable">Service unavailable</string>
     <string name="msg_login_failed">Login failed</string>
+    <string name="searching">Searching\u2026</string>
 
     <!-- Formats -->
     <string name="format_seconds">%s sec.</string>
@@ -317,10 +318,7 @@
     <string name="credits_title">Credits</string>
     <string name="credits_summary">While Danny Baumann and I wrote most of the widget, credit also goes to the many
         translators as well as other contributors such as Nicolai Ehemann, Matt Booth and Jorge Ruesga for the
-        languages and features they have contributed.\n\n
-        Weather Icons:\n
-        \u2022 VClouds (vclouds.deviantart.com)\n
-        \u2022 Modern (www.mikeafford.com)</string>
+        languages and features they have contributed.</string>
     <string name="contact_title">Contact us</string>
     <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
     <string name="send_email">Send email\u2026</string>
@@ -355,6 +353,8 @@
     <string name="tap_action_calendar_default">System calendar</string>
     <string name="tap_action_weather_forecast">Show forecast</string>
     <string name="tap_action_do_nothing">Do nothing</string>
+    <string name="tap_action_event_title">Event tap action</string>
+    <string name="tap_action_event_default">Open event</string>
 
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">Widget background</string>
@@ -430,8 +430,6 @@
     <!-- Icon Set names -->
     <string name="weather_icons_standard">Colored</string>
     <string name="weather_icons_monochrome">Monochrome</string>
-    <string name="weather_icons_modern">Modern</string>
-    <string name="weather_icons_vclouds" translatable="false">VClouds</string>
 
     <!-- Daydream -->
     <string name="daydream_settings_name" translatable="false">Chronus Dream</string>
@@ -448,6 +446,7 @@
     <!-- Layout styles -->
     <string name="analog_style_title">Clock style</string>
     <string name="weather_style_title">Weather style</string>
+    <string name="calendar_style_title">Calendar style</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Classic</string>
 

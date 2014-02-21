@@ -253,10 +253,7 @@
 
     <string name="credits_title">Dankbetuigingen</string>
     <string name="credits_summary">Hoewel Danny Baumann en ik het meeste van deze widget hebben geschreven, wil ik ook de vertalers
-        en anderen, zoals Nicolai Ehemann, Matt Booth en Jorge Ruesga bedanken voor hun bijdragen aan de vertalingen en de mogelijkheden.\n\n
-        Weerpictogrammen:\n
-        \u2022 VClouds (vclouds.deviantart.com)\n
-        \u2022 Modern (www.mikeafford.com)</string>
+        en anderen, zoals Nicolai Ehemann, Matt Booth en Jorge Ruesga bedanken voor hun bijdragen aan de vertalingen en de mogelijkheden.</string>
     <string name="contact_title">Contact opnemen</string>
     <string name="send_email">E-mail verzenden\u2026</string>
 
@@ -330,7 +327,6 @@
     <string name="weather_icon_set_title">Pictogrammenpakket</string>
     <string name="weather_icons_standard">Gekleurd</string>
     <string name="weather_icons_monochrome">Zwart-wit</string>
-    <string name="weather_icons_modern">Modern</string>
     <string name="icon_set_selection_get_more">Meer\u2026</string>
 
 </resources>

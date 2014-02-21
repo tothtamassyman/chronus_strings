@@ -5,26 +5,29 @@ Functionally similar to its older brother the CyanogenMod cLock widget and broug
 <b>Please note:</b>
 1) Lock screen widgets are only supported on Android 4.2+. This is a limitation of Android itself, not Chronus
 2) On some devices you may have to reboot your device after installing for the widget to show up in the widget picker
-3) WidgetLocker is not supported
+3) Details on the Permissions we use are available at http://goo.gl/EbMLmm
 
 <b>Features (Pro version):</b>
-  - Additional Widgets (Forecast, Calendar, Weather)
+  - Additional Widgets (Forecast, Calendar, Clock+ (Forecast))
   - Custom Tap actions for Clock, Weather and Calendar to launch apps or activities
   - Set Widget backgrounds
-  - Change Clock and Weather panel alignment (Centered, Left or Right)
+  - Change Clock and Weather panel alignment (Centred, Left or Right)
+  - Select Analog clock style (Standard or Classic)
   - Calendar colors
-  - 'Modern' Weather Icon set
+  - Feedly News provider
+  - Daydream screensaver
   - with more features to be released every 3-4 weeks...
 
 <b>Features (All versions):</b>
 The standard version is functionally equivalent to the CyanogenMod cLock widget with added support for older versions of Android.
-  - Fully functional Flex, Flex (Analog) and Clock+ Widgets
+  - Fully functional Flex, Flex (Analog), Clock+ and Weather Widgets
   - Supports adding as a widget to the Home screen (Android 4.1+) or Lock screen (Android 4.2+)
   - Customize the Clock look and feel (visible components, font normal/bold)
-  - Weather panel with Yahoo!, Accuweather or OpenWeatherMap weather providers
+  - Weather panel with Yahoo!, Accuweather, OpenWeatherMap and yr.no weather providers
   - Minimized weather widget support (for the lock screen)
-  - News Feed Panel and built-in Article Reader
-  - Calendar panel showing a scroll-able list of upcoming events
+  - News Feed Panel and built-in RSS sources
+  - Internal Article Reader
+  - Calendar panel showing a scrollable list of upcoming events
   - Tapping event opens calendar at selected event
   - Taping calendar icon opens Calendar at today's date
   - Highlight upcoming calendar events with custom colors and font bolding

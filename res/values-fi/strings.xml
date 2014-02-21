@@ -258,10 +258,7 @@
     <string name="no_widget_message">Vähintään yksi Chronus-widget tulee lisätä koti- tai lukitusnäytölle ennenkuin voit käyttää sovellusta muuttaaksesi asetuksia.\n\nWidgetin voi lisätä käyttämällä Androidin ja launcherin widgetin lisäystoimintoa.</string>
 
     <string name="credits_title">Tekijät</string>
-    <string name="credits_summary">Minun ja Danny Baumannin tehdessä suurin osa widgetistä, kiitokset menee kaikille kääntäjäjille kuten myös muille mukana olleille, muun muassa Nicolai Ehemannille, Matt Boothille sekä Jorge Ruesgalle kielistä sekä ominaisuuksista jotka he ovat lisänneet.\n\n
-        Sääkuvat:\n
-        \u2022 VClouds (vclouds.deviantart.com)\n
-        \u2022 Modern (www.mikeafford.com)</string>
+    <string name="credits_summary">Minun ja Danny Baumannin tehdessä suurin osa widgetistä, kiitokset menee kaikille kääntäjäjille kuten myös muille mukana olleille, muun muassa Nicolai Ehemannille, Matt Boothille sekä Jorge Ruesgalle kielistä sekä ominaisuuksista jotka he ovat lisänneet.</string>
     <string name="contact_title">Ota yhteyttä</string>
     <string name="send_email">Lähetä sähköpostia\u2026</string>
 
@@ -334,6 +331,5 @@
     <string name="weather_icon_set_title">Kuvakkeet</string>
     <string name="weather_icons_standard">Värikkäät</string>
     <string name="weather_icons_monochrome">Mustavalkoinen</string>
-    <string name="weather_icons_modern">Moderni</string>
     <string name="icon_set_selection_get_more">Hanki lisää\u2026</string>
 </resources>
