@@ -25,6 +25,7 @@
     <string name="exit">Salir</string>
     <string name="msg_service_unavailable">Servicio no disponible</string>
     <string name="msg_login_failed">Fallo de autenticación</string>
+    <string name="searching">Buscando\u2026</string>
     <string name="format_seconds">%s seg.</string>
     <string name="weather_0">Tornado</string>
     <string name="weather_1">Torm. tropical</string>
@@ -275,6 +276,8 @@
     <string name="tap_action_calendar_default">Calendario del sistema</string>
     <string name="tap_action_weather_forecast">Mostrar predicción de tiempo</string>
     <string name="tap_action_do_nothing">No hacer nada</string>
+    <string name="tap_action_event_title">Acción asociada a evento</string>
+    <string name="tap_action_event_default">Abrir evento</string>
     <string name="widget_background_title">Fondo del widget</string>
     <string name="widget_background_default">Transparente</string>
     <string name="widget_background_color_fill">Color de relleno</string>
