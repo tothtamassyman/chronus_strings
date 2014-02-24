@@ -138,6 +138,7 @@
     <string name="clock_font_date_title">"Font dată și alarmă îngroșat"</string>
     <string name="show_alarm_title">"Afișare următoarea alarmă"</string>
     <string name="clock_am_pm_title">Afișare indicator AM/PM</string>
+    <string name="clock_font_upscaling_title">Permite redimensionare</string>
 
     <!-- Preferences - Weather -->
     <string name="weather_enabled">"Activat"</string>
@@ -160,8 +161,8 @@
     <string name="weather_progress_title">"Verificare locaţie"</string>
     <string name="weather_alternate_icons_title">"Pictograme alternative"</string>
     <string name="weather_alternate_icons_summary">"Comutare între pictogramele prestabilite (colore) și cele alternative (albe)"</string>
-    <string name="weather_show_when_minimized_title">Afişare minimizat</string>
-    <string name="weather_show_when_minimized_summary">Afişare informație meteo sumară cănd widget-ul este minimizat</string>
+    <string name="weather_show_when_minimized_title">Minimizare</string>
+    <string name="weather_show_when_minimized_summary">Afişare informație meteo sumară când widget-ul este minimizat</string>
     <string name="weather_select_location">Selectați locația</string>
     <string name="weather_show_refresh">Pictogramă actualizare</string>
 
@@ -322,7 +323,7 @@
     <string name="tap_action_clock_default">Ceas</string>
     <string name="tap_action_weather_refresh">Actualizare</string>
     <string name="tap_action_calendar_default">Calendar</string>
-    <string name="tap_action_weather_forecast">Afișare prognoză</string>
+    <string name="tap_action_weather_forecast">Prognoză</string>
     <string name="tap_action_do_nothing">Fără acțiune</string>
     <string name="tap_action_event_title">Acțiune atingere eveniment</string>
     <string name="tap_action_event_default">Deschidere eveniment</string>
