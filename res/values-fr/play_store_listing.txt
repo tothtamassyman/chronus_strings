@@ -5,19 +5,22 @@ Ce widget est proposé par les mêmes développeurs et avec les mêmes fonctionn
 <b>Notes :</b>
 1) Le widget de l'écran de verrouillage est supporté seulement par Android 4.2 et supérieur. C'est une limitation d'Android, pas de Chronus.
 2) Sur certains appareils il est nécessaire de redémarrer après l'installation pour que le widget apparaisse dans la liste des widgets.
-3) WidgetLocker n'est pas supporté.
+3) Le détail des permissions peut être consulté à l'adresse http://goo.gl/EbMLmm.
 
 <b>Fonctionnalités (Version Pro):</b>
   - Widgets supplémentaires (Prévisions, Calendrier, Météo)
   - Actions personnalisées lors d'un appui sur l'heure, la météo et le calendrier afin de lancer des applications ou des activités personnalisées
-  - Définir la couleur de l'arrière-plan
+  - Définir l'arrière plan des widgets
   - Modifier l'alignement de l'horloge et de la météo (Centré, Gauche ou Droite)
-  - Pack d'icônes 'Moderne'
+  - Choisir le style d'horloge analogique (Classique ou standard)
+  - Couleurs des calendriers
+  - Lecteur d'article Feedly
+  - Écran de veille interactif
   - et d'autres fonctionnalités qui arriveront dans 3-4 semaines...
 
 <b>Fonctionnalités (Toute version):</b>
 La version standard est équivalente au widget cLock de CyanogenMod avec en plus le support pour les anciennes versions d'Android.
-  - Toutes les fonctions de Flex, Flex (analogique) et du widget Horloge+
+  - Toutes les fonctions des widgets Flex, Flex (analogique), Clock+ et Horloge+
   - Support de l'ajout du widget à l'écran d'accueil (Android 4.1 et supérieur) ou à l'écran de verrouillage (Android 4.2 et supérieur)
   - Personnalisation de l'apparence de l'heure (éléments visibles, police normale/grasse)
   - Choix du fournisseur de prévision météo : Yahoo!, Accuweather ou OpenWeatherMap
