@@ -334,6 +334,6 @@
     <string name="weather_style_title">Weer styl</string>
     <string name="widget_type_keyguard">Slot skerm</string>
     <string name="widget_type_daydream">Dagdroom Screensaver</string>
-    <string name="widget_type_homescreen">Tuis skerm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Tuis skerm</string>
 
 </resources>

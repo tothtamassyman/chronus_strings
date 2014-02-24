@@ -314,7 +314,7 @@
 
     <string name="widget_type_keyguard">Bildschirmsperre</string>
     <string name="widget_type_daydream">Daydream-Bildschirmschoner</string>
-    <string name="widget_type_homescreen">Startbildschirm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Startbildschirm</string>
     <string name="widget_rounded_corners_title">Abgerundete Ecken</string>
     <string name="calendar_no_events">Keine Termine im Vorschauzeitraum</string>
     <string name="calendar_no_events_summary">Termin durch Berühren von + hinzufügen</string>

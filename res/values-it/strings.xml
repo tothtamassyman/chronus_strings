@@ -130,7 +130,7 @@
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Schermata di blocco</string>
     <string name="widget_type_daydream">Salvaschermo Daydream</string>
-    <string name="widget_type_homescreen">Schermata Home (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Schermata Home</string>
 
     <!-- Preferences - Clock -->
     <string name="clock_font_title">Ore in grassetto</string>

@@ -110,7 +110,7 @@
     <string name="daydream_category">Šetrič obrazovky</string>
     <string name="widget_type_keyguard">Obrazovka uzamknutia</string>
     <string name="widget_type_daydream">Šetrič obrazovky Daydream</string>
-    <string name="widget_type_homescreen">Domovská obrazovka (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Domovská obrazovka</string>
     <string name="clock_font_title">Hodiny tučným písmom</string>
     <string name="clock_font_minutes_title">Minúty tučným písmom</string>
     <string name="clock_font_date_title">Dátum a budík tučným písmom</string>

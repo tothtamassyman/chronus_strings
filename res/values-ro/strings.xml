@@ -129,7 +129,7 @@
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Ecran blocare</string>
-    <string name="widget_type_homescreen">Ecran principal (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Ecran principal</string>
     <string name="widget_type_daydream">Screensaver Daydream</string>
 
     <!-- Preferences - Clock -->

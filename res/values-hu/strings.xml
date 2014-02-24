@@ -118,7 +118,7 @@
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Képernyőzár</string>
-    <string name="widget_type_homescreen">Kezdőképernyő (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Kezdőképernyő</string>
 
     <!-- Preferences - Clock -->
     <string name="clock_font_title">Órák félkövérrel</string>

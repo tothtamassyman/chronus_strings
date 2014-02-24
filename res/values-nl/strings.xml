@@ -112,7 +112,7 @@
     <string name="provider_category">Bron</string>
 
     <string name="widget_type_keyguard">Vergrendelingsscherm</string>
-    <string name="widget_type_homescreen">Startscherm (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Startscherm</string>
 
     <string name="clock_font_title">Uren vetgedrukt</string>
     <string name="clock_font_minutes_title">Minuten vetgedrukt</string>

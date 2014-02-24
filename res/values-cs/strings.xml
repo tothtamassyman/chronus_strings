@@ -117,7 +117,7 @@
 
     <string name="widget_type_keyguard">Obrazovka zámku</string>
     <string name="widget_type_daydream">Spořič obrazovky</string>
-    <string name="widget_type_homescreen">Plocha (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Plocha</string>
 
     <string name="clock_font_title">Zvýraznit hodiny</string>
     <string name="clock_font_minutes_title">Zvýraznit minuty</string>

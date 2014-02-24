@@ -109,7 +109,7 @@
     <string name="daydream_category">Salvapantallas</string>
     <string name="widget_type_keyguard">Pantalla de bloqueo</string>
     <string name="widget_type_daydream">Salvapantallas Daydream</string>
-    <string name="widget_type_homescreen">Pantalla de inicio (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Pantalla de inicio</string>
     <string name="clock_font_title">Resaltar hora</string>
     <string name="clock_font_minutes_title">Resaltar minutos</string>
     <string name="clock_font_date_title">Resaltar fecha y alarma</string>
