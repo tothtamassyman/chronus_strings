@@ -117,7 +117,7 @@
     <string name="provider_category">Tarjoaja</string>
 
     <string name="widget_type_keyguard">Lukitusnäyttö</string>
-    <string name="widget_type_homescreen">Kotinäyttö (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Kotinäyttö</string>
 
     <string name="clock_font_title">Lihavoi tunnit</string>
     <string name="clock_font_minutes_title">Lihavoi minuutit</string>

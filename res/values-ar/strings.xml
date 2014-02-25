@@ -115,7 +115,7 @@
 
     <!-- اعدادات - انواع قائمه الاختيارات -->
     <string name="widget_type_keyguard">قفل الشاشه</string>
-    <string name="widget_type_homescreen">الشاشه الرئيسيه (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">الشاشه الرئيسيه</string>
 
     <!-- اعدادات - الساعه -->
     <string name="clock_font_title">ساعات عريضة</string>

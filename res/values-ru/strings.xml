@@ -352,7 +352,7 @@
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Экран блокировки</string>
     <string name="widget_type_daydream">Заставка</string>
-    <string name="widget_type_homescreen">Домашний экран (<xliff:g id="columns">%1$d</xliff:g>×<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Домашний экран</string>
 
     <!-- Preferences - Widget background rounded corners -->
     <string name="widget_rounded_corners_title">Скруглённые углы</string>

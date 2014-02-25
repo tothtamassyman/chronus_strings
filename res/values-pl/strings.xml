@@ -104,7 +104,7 @@
     <string name="display_category">Wyświetlanie</string>
     <string name="provider_category">Dostawca</string>
     <string name="widget_type_keyguard">Ekran blokady</string>
-    <string name="widget_type_homescreen">Ekran domowy (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Ekran domowy</string>
     <string name="clock_font_title">Pogrubione godziny</string>
     <string name="clock_font_minutes_title">Pogrubione minuty</string>
     <string name="clock_font_date_title">Pogrubione data i alarm</string>

@@ -130,7 +130,7 @@
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Schermata di blocco</string>
     <string name="widget_type_daydream">Salvaschermo Daydream</string>
-    <string name="widget_type_homescreen">Schermata Home (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Schermata Home</string>
 
     <!-- Preferences - Clock -->
     <string name="clock_font_title">Ore in grassetto</string>
@@ -138,6 +138,7 @@
     <string name="clock_font_date_title">Data e sveglia in grassetto</string>
     <string name="show_alarm_title">Visualizza la prossima sveglia</string>
     <string name="clock_am_pm_title">Mostra l\'indicatore AM/PM</string>
+    <string name="clock_font_upscaling_title">Permetti ingrandimento</string>
 
     <!-- Preferences - Weather -->
     <string name="weather_enabled">Attivo</string>
@@ -149,7 +150,7 @@
     <string name="weather_custom_location_hint">Città, Regione/Stato</string>
     <string name="weather_custom_location_title">Posizione</string>
     <string name="weather_show_location_title">Mostra posizione</string>
-    <string name="weather_show_timestamp_title">Tempo trascorso dall\'aggiornamento</string>
+    <string name="weather_show_timestamp_title">Mostra ultimo aggiornamento</string>
     <string name="weather_refresh_interval">Intervallo aggiornamento</string>
     <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (si applica a tutti i widget)</string>
     <string name="weather_use_metric">Usa unità metriche (\u00b0C)</string>
@@ -208,7 +209,7 @@
     <!-- Preferences - Font colors -->
     <string name="font_color">Colore carattere</string>
     <string name="font_color_alarm">Colore carattere sveglia</string>
-    <string name="font_color_timestamp">Colore carattere timestamp</string>
+    <string name="font_color_timestamp">Colore carattere ultimo aggiornamento</string>
     <string name="font_color_calendar_details">Colore carattere dettagli</string>
 
     <!-- Calendar - Lookahead -->

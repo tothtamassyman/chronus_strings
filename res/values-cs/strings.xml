@@ -25,6 +25,7 @@
     <string name="exit">Ukončit</string>
     <string name="msg_service_unavailable">Služba nedostupná</string>
     <string name="msg_login_failed">Přihlášení selhalo</string>
+    <string name="searching">Vyhledávání\u2026</string>
 
     <string name="format_seconds">%s sek.</string>
 
@@ -105,7 +106,7 @@
 
     <string name="clock_category">Hodiny a budík</string>
     <string name="weather_category">Panel počasí</string>
-    <string name="news_feed_category">Zdroj zpráv</string>
+    <string name="news_feed_category">Zprávy</string>
     <string name="calendar_category">Události kalendáře</string>
     <string name="about_category">O aplikaci Chronus</string>
     <string name="appearance_category">Celkový vzhled</string>
@@ -116,7 +117,7 @@
 
     <string name="widget_type_keyguard">Obrazovka zámku</string>
     <string name="widget_type_daydream">Spořič obrazovky</string>
-    <string name="widget_type_homescreen">Plocha (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Plocha</string>
 
     <string name="clock_font_title">Zvýraznit hodiny</string>
     <string name="clock_font_minutes_title">Zvýraznit minuty</string>
@@ -210,7 +211,7 @@
     <string name="news_feed_loading_summary">Počkejte prosím chilku\u2026</string>
     <string name="news_feed_no_data">Žádné nové články</string>
     <string name="news_feed_no_data_summary">Dotykem dojde k obnovení</string>
-    <string name="news_feed_article_new_format">[NOVÝ] <xliff:g id="title">%s</xliff:g></string>
+    <string name="news_feed_article_new_format">\u005bNOVÝ\u005d <xliff:g id="title">%s</xliff:g></string>
     <string name="news_feed_read_more">Více\u2026</string>
 
     <plurals name="news_feed_new_articles">
@@ -232,7 +233,7 @@
 
     <string name="feedly_account_title">Účet Feedly</string>
     <string name="feedly_account_summary_logout">Žádný účet není propojen s Feedly. Dotykem zde provede propojení účtu</string>
-    <string name="feedly_account_summary_login">Účet je propjen s Feedly. Dotykem zde provedete rozpojení účtu.\n\nÚčet: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="feedly_account_summary_login">Účet je propoen s Feedly. Dotykem zde provedete rozpojení účtu.\n\nÚčet: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
     <string name="feedly_preferences_title">Nastavení</string>
     <string name="feedly_trending_content_title">Zobrazit dle oblíbenosti</string>
     <string name="feedly_categories_title">Kategorie</string>
@@ -300,6 +301,8 @@
     <string name="tap_action_calendar_default">Systémový kalendář</string>
     <string name="tap_action_weather_forecast">Zobrazit předpověď</string>
     <string name="tap_action_do_nothing">Nedělat nic</string>
+    <string name="tap_action_event_title">Akce dotyku na událost</string>
+    <string name="tap_action_event_default">Otevřít událost</string>
 
     <string name="widget_background_title">Pozadí widgetu</string>
     <string name="widget_background_default">Průhledné</string>
@@ -363,6 +366,7 @@
 
     <string name="analog_style_title">Vzhled hodin</string>
     <string name="weather_style_title">Vzhled počasí</string>
+    <string name="calendar_style_title">Vzhled kalendáře</string>
     <string name="standard_style">Standardní</string>
     <string name="classic_style">Klasické</string>
 </resources>

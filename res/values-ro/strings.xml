@@ -27,6 +27,7 @@
     <string name="exit">Ieșire</string>
     <string name="msg_service_unavailable">Serviciu indisponibil</string>
     <string name="msg_login_failed">Eroare logare</string>
+    <string name="searching">Căutare\u2026</string>
     
     <!-- Formats -->
     <string name="format_seconds">%s sec.</string>
@@ -128,7 +129,7 @@
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Ecran blocare</string>
-    <string name="widget_type_homescreen">Ecran principal (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Ecran principal</string>
     <string name="widget_type_daydream">Screensaver Daydream</string>
 
     <!-- Preferences - Clock -->
@@ -137,6 +138,7 @@
     <string name="clock_font_date_title">"Font dată și alarmă îngroșat"</string>
     <string name="show_alarm_title">"Afișare următoarea alarmă"</string>
     <string name="clock_am_pm_title">Afișare indicator AM/PM</string>
+    <string name="clock_font_upscaling_title">Permite redimensionarea</string>
 
     <!-- Preferences - Weather -->
     <string name="weather_enabled">"Activat"</string>
@@ -159,8 +161,8 @@
     <string name="weather_progress_title">"Verificare locaţie"</string>
     <string name="weather_alternate_icons_title">"Pictograme alternative"</string>
     <string name="weather_alternate_icons_summary">"Comutare între pictogramele prestabilite (colore) și cele alternative (albe)"</string>
-    <string name="weather_show_when_minimized_title">Afişare minimizat</string>
-    <string name="weather_show_when_minimized_summary">Afişare informație meteo sumară cănd widget-ul este minimizat</string>
+    <string name="weather_show_when_minimized_title">Minimizare</string>
+    <string name="weather_show_when_minimized_summary">Afişare informație meteo sumară când widget-ul este minimizat</string>
     <string name="weather_select_location">Selectați locația</string>
     <string name="weather_show_refresh">Pictogramă actualizare</string>
 
@@ -246,7 +248,7 @@
     <string name="news_feed_reader_list_unread_articles_title">Articole necitite</string>
     <string name="news_feed_reader_list_last_published">Actualizat la <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Accesare articol</string>
-    <string name="news_feed_internal_viewer_title">Afișare internă</string>
+    <string name="news_feed_internal_viewer_title">Vizualizator intern</string>
 
     <!-- News Feed Provider Settings - RSS -->
     <string name="rss_sources_custom_header">Definit de utilizator</string>
@@ -321,8 +323,10 @@
     <string name="tap_action_clock_default">Ceas</string>
     <string name="tap_action_weather_refresh">Actualizare</string>
     <string name="tap_action_calendar_default">Calendar</string>
-    <string name="tap_action_weather_forecast">Afișare prognoză</string>
+    <string name="tap_action_weather_forecast">Prognoză</string>
     <string name="tap_action_do_nothing">Fără acțiune</string>
+    <string name="tap_action_event_title">Acțiune atingere eveniment</string>
+    <string name="tap_action_event_default">Deschidere eveniment</string>
 
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">Fundal</string>
@@ -404,6 +408,7 @@
     <!-- Layout styles -->
     <string name="analog_style_title">Stil ceas</string>
     <string name="weather_style_title">Stil meteo</string>
+    <string name="calendar_style_title">Stil calendar</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Clasic</string>
 

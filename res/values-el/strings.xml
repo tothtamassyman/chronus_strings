@@ -110,7 +110,7 @@
     <string name="daydream_category">Προφύλαξη οθόνης</string>
     <string name="widget_type_keyguard">Οθόνη κλειδώματος</string>
     <string name="widget_type_daydream">Προφύλαξη οθόνης daydream</string>
-    <string name="widget_type_homescreen">Αρχική οθόνη (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Αρχική οθόνη</string>
     <string name="clock_font_title">Έντονη ώρα</string>
     <string name="clock_font_minutes_title">Έντονα λεπτά</string>
     <string name="clock_font_date_title">Έντονη ημερομηνία και ξυπνητήρι</string>

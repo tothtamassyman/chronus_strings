@@ -119,7 +119,7 @@
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">锁屏</string>
-    <string name="widget_type_homescreen">主屏幕（<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>）</string>
+    <string name="widget_type_homescreen">主屏幕</string>
 
     <!-- Preferences - Clock -->
     <string name="clock_font_title">加粗小时</string>
