@@ -453,11 +453,11 @@
 
     <!-- Incompatible launcher -->
     <string name="incompatible_launcher_title">Incompatible launcher</string>
-    <string name="incompatible_launcher_message">Your launcher does not fully support the Android APPWIDGET_MIN_HEIGHT
+    <string name="incompatible_launcher_message">Your launcher does not fully support the APPWIDGET_MIN_HEIGHT
         API call introduced by Google in Android 4.1 and, as a result, several features of Chronus may not function as
-        designed.\n\nIf necessary, Chronus will switch to a basic, \'Compatibility mode\' with all advanced widget
-        resizing and automatic panel hiding functionality disabled.\n\nPlease contact your launcher developer for an
-        update or switch to a compatible launcher.</string>
+        designed.\n\nIf necessary, Chronus will switch to a basic, \'Compatibility mode\' with most of the advanced
+        widget resizing and automatic component hiding functions disabled.\n\nPlease contact your launcher
+        developer for an update or switch to a compatible launcher.</string>
     <string name="incompatible_launcher_header_notice">Running in Compatibility mode. Touch for details</string>
 
 </resources>
