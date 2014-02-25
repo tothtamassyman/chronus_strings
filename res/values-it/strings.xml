@@ -314,7 +314,7 @@
     <!-- Pro features (About) -->
     <string name="pro_features_summary">Fai clic per attivare le funzioni Pro</string>
     <string name="pro_features_thanks">Grazie per l\'acquisto</string>
-    <string name="pro_features_message">La versione Pro comprende tutte le funzioni della versione standard e nei prossimi mesi verrà arricchita
+    <string name="pro_features_message">La versione Pro comprende tutte le caratteristiche della versione standard e nei prossimi mesi verrà arricchita
         di molte altre funzioni tra cui:\n
         \u2022 Altri layout di widget\n
         \u2022 Impostazioni per singolo widget\n
@@ -429,10 +429,10 @@
     <string name="incompatible_launcher_title">Launcher incompatibile</string>
     <string name="incompatible_launcher_message">Il tuo launcher non supporta la chiamata API APPWIDGET_MIN_HEIGHT introdotta
 		da Google in Android 4.1 e, come risultato, molte caratteristiche di Chronus non funzioneranno come progettato.
-		\n\nChronus è passato ad una basilare, \'Modalità di compatibilità\' con molte delle funzioni
+		\n\nChronus è passato ad una basilare, \'modalità di Compatibilità\' con molte delle funzioni
 		di ridimensionamento avanzato dei widget e mascheramento automatico dei componenti disabilitate.
 		\n\nPer favore contatta lo sviluppatore del tuo launcher per un aggiornamento o passa ad un launcher compatibile.</string>
-    <string name="incompatible_launcher_header_notice">Running in Compatibility mode. Touch for details</string>
+    <string name="incompatible_launcher_header_notice">Esecuzione in modalità di Compatibilità. Tocca per i dettagli</string>
     <string name="hide_incompatibility_notice">Nascondi avviso</string>
 
 </resources>
