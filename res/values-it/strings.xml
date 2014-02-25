@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2012 The CyanogenMod Project (DvTonder)
-     Chronus additions (c) 2013 David van Tonder
+     Chronus additions (c) 2014 David van Tonder
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,6 +24,7 @@
     <string name="menu_add">Aggiungi</string>
     <string name="menu_search">Cerca</string>
     <string name="ok">OK</string>
+    <string name="close">Chiudi</string>
     <string name="exit">Esci</string>
     <string name="msg_service_unavailable">Servizio non disponibile</string>
     <string name="msg_login_failed">Login fallito</string>
@@ -423,5 +424,15 @@
     <string name="calendar_style_title">Stile calendario</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Classico</string>
+
+    <!-- Incompatible launcher -->
+    <string name="incompatible_launcher_title">Launcher incompatibile</string>
+    <string name="incompatible_launcher_message">Il tuo launcher non supporta la chiamata API APPWIDGET_MIN_HEIGHT introdotta
+		da Google in Android 4.1 e, come risultato, molte caratteristiche di Chronus non funzioneranno come progettato.
+		\n\nChronus è passato ad una basilare, \'Modalità di compatibilità\' con molte delle funzioni
+		di ridimensionamento avanzato dei widget e mascheramento automatico dei componenti disabilitate.
+		\n\nPer favore contatta lo sviluppatore del tuo launcher per un aggiornamento o passa ad un launcher compatibile.</string>
+    <string name="incompatible_launcher_header_notice">Running in Compatibility mode. Touch for details</string>
+    <string name="hide_incompatibility_notice">Nascondi avviso</string>
 
 </resources>
