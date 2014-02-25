@@ -23,6 +23,7 @@
     <string name="menu_add">Ajouter</string>
     <string name="menu_search">Rechercher</string>
     <string name="ok">OK</string>
+    <string name="close">Fermer</string>
     <string name="exit">Quitter</string>
     <string name="msg_service_unavailable">Service indisponible</string>
     <string name="msg_login_failed">Connexion échouée</string>
@@ -137,6 +138,7 @@
     <string name="clock_font_date_title">Date et alarme en gras</string>
     <string name="show_alarm_title">Afficher la prochaine alarme</string>
     <string name="clock_am_pm_title">Afficher l\'indicateur AM/PM</string>
+    <string name="clock_font_upscaling_title">Autoriser le suréchantillonnage</string>
 
     <!-- Preferences - Weather -->
     <string name="weather_enabled">Activer</string>
@@ -411,4 +413,9 @@
     <string name="standard_style">Standard</string>
     <string name="classic_style">Classique</string>
 
+    <!-- Incompatible launcher -->
+    <string name="incompatible_launcher_title">Lanceur d\'application incompatible</string>
+    <string name="incompatible_launcher_message">Votre lanceur d\'application ne supporte pas l\'appel d\'API APPWIDGET_MIN_HEIGHT utilisé par Google depuis Android 4.1, il en résulte que plusieurs fonctionnalités de Chronus ne fonctionneront pas comme prévu.\n\nChronus a basculé dans un mode basique de compatibilité, la plupart des fonctions avancée de redimensionnement et de masquage automatiques du widget sont désactivés.\n\nS\'il vous plaît, contactez le développeur du lanceur d\'application pour une mise à jour ou passez à un lanceur compatible.</string>
+    <string name="incompatible_launcher_header_notice">Lancer en mode de compatibilité. Appuyer pour plus de détails</string>
+    <string name="hide_incompatibility_notice">Masquer l\'avertissement</string>
 </resources>
