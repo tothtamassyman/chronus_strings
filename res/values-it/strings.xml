@@ -428,8 +428,8 @@
     <!-- Incompatible launcher -->
     <string name="incompatible_launcher_title">Launcher incompatibile</string>
     <string name="incompatible_launcher_message">Il tuo launcher non supporta la chiamata API APPWIDGET_MIN_HEIGHT introdotta
-		da Google in Android 4.1 e, come risultato, molte caratteristiche di Chronus non funzioneranno come progettato.
-		\n\nChronus è passato ad una basilare, \'modalità di Compatibilità\' con molte delle funzioni
+		da Google in Android 4.1 e, di conseguenza, diverse caratteristiche di Chronus non funzioneranno come progettate.
+		\n\nChronus è passato ad una \'modalità di Compatibilità\' di base, con molte delle funzioni
 		di ridimensionamento avanzato dei widget e mascheramento automatico dei componenti disabilitate.
 		\n\nPer favore contatta lo sviluppatore del tuo launcher per un aggiornamento o passa ad un launcher compatibile.</string>
     <string name="incompatible_launcher_header_notice">Esecuzione in modalità di Compatibilità. Tocca per i dettagli</string>
