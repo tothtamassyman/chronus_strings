@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2012 The CyanogenMod Project (DvTonder)
-     Chronus additions (c) 2013 David van Tonder
+     Chronus additions (c) 2014 David van Tonder
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,6 +24,7 @@
     <string name="menu_add">Aggiungi</string>
     <string name="menu_search">Cerca</string>
     <string name="ok">OK</string>
+    <string name="close">Chiudi</string>
     <string name="exit">Esci</string>
     <string name="msg_service_unavailable">Servizio non disponibile</string>
     <string name="msg_login_failed">Login fallito</string>
@@ -130,7 +131,7 @@
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Schermata di blocco</string>
     <string name="widget_type_daydream">Salvaschermo Daydream</string>
-    <string name="widget_type_homescreen">Schermata Home (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Schermata Home</string>
 
     <!-- Preferences - Clock -->
     <string name="clock_font_title">Ore in grassetto</string>
@@ -138,6 +139,7 @@
     <string name="clock_font_date_title">Data e sveglia in grassetto</string>
     <string name="show_alarm_title">Visualizza la prossima sveglia</string>
     <string name="clock_am_pm_title">Mostra l\'indicatore AM/PM</string>
+    <string name="clock_font_upscaling_title">Permetti ingrandimento</string>
 
     <!-- Preferences - Weather -->
     <string name="weather_enabled">Attivo</string>
@@ -312,7 +314,7 @@
     <!-- Pro features (About) -->
     <string name="pro_features_summary">Fai clic per attivare le funzioni Pro</string>
     <string name="pro_features_thanks">Grazie per l\'acquisto</string>
-    <string name="pro_features_message">La versione Pro comprende tutte le funzioni della versione standard e nei prossimi mesi verrà arricchita
+    <string name="pro_features_message">La versione Pro comprende tutte le caratteristiche della versione standard e nei prossimi mesi verrà arricchita
         di molte altre funzioni tra cui:\n
         \u2022 Altri layout di widget\n
         \u2022 Impostazioni per singolo widget\n
@@ -422,5 +424,15 @@
     <string name="calendar_style_title">Stile calendario</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Classico</string>
+
+    <!-- Incompatible launcher -->
+    <string name="incompatible_launcher_title">Launcher incompatibile</string>
+    <string name="incompatible_launcher_message">Il tuo launcher non supporta la chiamata API APPWIDGET_MIN_HEIGHT introdotta
+		da Google in Android 4.1 e, di conseguenza, diverse caratteristiche di Chronus non funzioneranno come progettate.
+		\n\nChronus è passato ad una \'modalità di Compatibilità\' di base, con molte delle funzioni
+		di ridimensionamento avanzato dei widget e mascheramento automatico dei componenti disabilitate.
+		\n\nPer favore contatta lo sviluppatore del tuo launcher per un aggiornamento o passa ad un launcher compatibile.</string>
+    <string name="incompatible_launcher_header_notice">Esecuzione in modalità di Compatibilità. Tocca per i dettagli</string>
+    <string name="hide_incompatibility_notice">Nascondi avviso</string>
 
 </resources>

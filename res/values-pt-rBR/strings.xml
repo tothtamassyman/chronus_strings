@@ -227,7 +227,7 @@
     <string name="chronus_flex_analog">Chronus Flex (Analógico)</string>
     <string name="chronus_flex_analog_short">Flex (Analógico)</string>
     <string name="widget_type_keyguard">Tela de bloqueio</string>
-    <string name="widget_type_homescreen">Tela inicial (<xliff:g id="columns" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$d</xliff:g>x<xliff:g id="rows" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Tela inicial</string>
     <string name="chronus_forecast">Chronus Previsão do Tempo</string>
     <string name="chronus_forecast_short">Previsão do Tempo</string>
     <string name="exit">Sair</string>

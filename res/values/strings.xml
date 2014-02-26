@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 
      Copyright (C) 2012 The CyanogenMod Project (DvTonder)
-     Chronus additions (c) 2013 David van Tonder
+     Chronus additions (c) 2014 David van Tonder
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -27,6 +27,7 @@
     <string name="menu_add">Add</string>
     <string name="menu_search">Search</string>
     <string name="ok">OK</string>
+    <string name="close">Close</string>
     <string-array name="empty_array" translatable="false"/>
     <string name="send_log" translatable="false">Logcat</string>
     <string name="exit">Exit</string>
@@ -143,8 +144,8 @@
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Lock screen</string>
     <string name="widget_type_daydream">Daydream Screensaver</string>
-    <string name="widget_type_homescreen">Home screen (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
-    <string name="widget_type_launcher" translatable="false"><xliff:g id="name">%1$s</xliff:g> (<xliff:g id="columns">%2$d</xliff:g>x<xliff:g id="rows">%3$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Home screen</string>
+    <string name="widget_type_homescreen_format" translatable="false"><xliff:g id="name">%1$s</xliff:g> (<xliff:g id="columns">%2$d</xliff:g>x<xliff:g id="rows">%3$d</xliff:g>)</string>
 
     <!-- Preferences - Clock -->
     <string name="clock_font_title">Bold hours</string>
@@ -450,5 +451,15 @@
     <string name="calendar_style_title">Calendar style</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Classic</string>
+
+    <!-- Incompatible launcher -->
+    <string name="incompatible_launcher_title">Incompatible launcher</string>
+    <string name="incompatible_launcher_message">Your launcher does not support the APPWIDGET_MIN_HEIGHT
+        API call introduced by Google in Android 4.1 and, as a result, several features of Chronus will not function as
+        designed.\n\nChronus has switched to a basic, \'Compatibility mode\' with most of the advanced
+        widget resizing and automatic component hiding functions disabled.\n\nPlease contact your launcher
+        developer for an update or switch to a compatible launcher.</string>
+    <string name="incompatible_launcher_header_notice">Running in Compatibility mode. Touch for details</string>
+    <string name="hide_incompatibility_notice">Hide notice</string>
 
 </resources>

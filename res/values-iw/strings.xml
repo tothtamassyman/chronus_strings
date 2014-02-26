@@ -95,7 +95,7 @@
   <string name="daydream_category">שומר מסך</string>
   <string name="widget_type_keyguard">מסך הנעילה</string>
   <string name="widget_type_daydream">שומר מסך ליום</string>
-  <string name="widget_type_homescreen">מסך הבית (<xliff:g id="columns">%1$d</xliff:g>X<xliff:g id="rows">%2$d</xliff:g>)</string>
+  <string name="widget_type_homescreen">מסך הבית</string>
   <string name="clock_font_title">שעות מודגשות</string>
   <string name="clock_font_minutes_title">דקות מודגשות</string>
   <string name="clock_font_date_title">שעון מעורר ותאריך מודגשים</string>

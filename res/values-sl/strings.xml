@@ -122,7 +122,7 @@
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Zaklepanje zaslona</string>
     <string name="widget_type_daydream">Dnevno sanjarjenje</string>
-    <string name="widget_type_homescreen">Domači zaslon (<xliff:g id="columns">%1$d</xliff:g>x<xliff:g id="rows">%2$d</xliff:g>)</string>
+    <string name="widget_type_homescreen">Domači zaslon</string>
 
     <!-- Preferences - Clock -->
     <string name="clock_font_title">Poudarjena ura</string>

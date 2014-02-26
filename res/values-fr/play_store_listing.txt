@@ -23,9 +23,10 @@ La version standard est équivalente au widget cLock de CyanogenMod avec en plus
   - Toutes les fonctions des widgets Flex, Flex (analogique), Clock+ et Horloge+
   - Support de l'ajout du widget à l'écran d'accueil (Android 4.1 et supérieur) ou à l'écran de verrouillage (Android 4.2 et supérieur)
   - Personnalisation de l'apparence de l'heure (éléments visibles, police normale/grasse)
-  - Choix du fournisseur de prévision météo : Yahoo!, Accuweather ou OpenWeatherMap
-  - Support du widget minimisé (Particulièrement pratique pour l'écran de verrouillage)
+  - Choix du fournisseur de prévision météo : Yahoo!, Accuweather, OpenWeatherMap ou yr.no
+  - Support du widget météo minimisé (pour l'écran de verrouillage)
   - Panneau et lecteur de flux RSS
+  - Lecteur d'article intégré
   - Défilement du panneau du calendrier pour afficher les événements à venir
   - Un appui sur un événement du calendrier, l'ouvre directement dans l'application calendrier
   - Un appui sur l'icône du calendrier, l'ouvre à la date d'aujourd’hui
