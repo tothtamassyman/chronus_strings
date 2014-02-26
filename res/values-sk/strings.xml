@@ -116,6 +116,7 @@
     <string name="clock_font_date_title">Dátum a budík tučným písmom</string>
     <string name="show_alarm_title">Zobraziť nasledujúci budík</string>
     <string name="clock_am_pm_title">Zobraziť indikátor AM/PM</string>
+    <string name="clock_font_upscaling_title">Povoliť zväčšovanie</string>
     <string name="weather_enabled">Povolené</string>
     <string name="weather_enable">Zobraziť počasie</string>
     <string name="weather_use_custom_location">Použiť vlastnú polohu</string>
@@ -189,7 +190,7 @@
     <string name="calendar_metadata_all">Zobraziť všetko</string>
     <string name="calendar_metadata_all_day">Celodenné</string>
     <string name="news_feed_loading">Načítavanie článkov</string>
-    <string name="news_feed_loading_summary">Prosím, počkajte niekoľko sekúnd\u2026</string>
+    <string name="news_feed_loading_summary">Prosím počkajte niekoľko sekúnd\u2026</string>
     <string name="news_feed_no_data">Žiadne nové články nie sú dostupné</string>
     <string name="news_feed_no_data_summary">Kliknutím aktualizujete</string>
     <string name="news_feed_article_new_format">[NOVÉ] <xliff:g id="title">%s</xliff:g></string>
@@ -246,14 +247,14 @@
         a Jorge Ruesga za jazyky a funkcie, ktorými prispeli.</string>
     <string name="how_to_title">Pomocník</string>
     <string name="first_run_title">Vitajte v aplikácii %s</string>
-    <string name="first_run_message">Chronus je miniaplikácia, ktorú je potrebné ručne pridať buď na plochu (Android 4.1+) alebo na
+    <string name="first_run_message">Chronus je miniaplikácia, ktorú je potrebné ručne pridať buď na plochu (Android 4.1+), alebo na
         uzamykaciu obrazovku (možné len na Androide 4.2+) pomocou funkcie na výber miniaplikácie v systéme Android a vo Vašom spúšťači.\n\nAkonáhle je miniaplikácia umiestnená,
         môžete použiť túto aplikáciu na zmenu nastavení miniaplikácie.\n\nNezabudnite zmeniť veľkosť miniaplikácie na Vašej obrazovke pre vytvorenie priestoru na všetky panely,
         ktoré ste povolili (Hodiny, Počasie a Kalendár), pretože miniaplikácia automaticky skryje panely ak tento priestor nie je dosť veľký.\n\nPre dosiahnutie najlepších výsledkov
         by som odporučil spúšťač Apex alebo Nova. Chronus bude fungovať na väčšine spúšťačov, ale možnosť nastaviť spôsob zobrazenia môže byť obmedzená.\n\nPre pridanie miniaplikácie
         na uzamykaciu obrazovku na Androide 4.2+, posuňte vľavo na uzamykaciu obrazovku a potom použite tlačidlo na pridanie miniaplikácií (+) pre pridanie Chronusu. Miniaplikácie
         na uzamykacej obrazovke môžu byť upravené pomocou dlhého stlačenia pre ich následné presunutie alebo odstránenie.</string>
-    <string name="no_widget_message">Aspoň jedna miniaplikácia Chronus musí byť pridaná buď na domovskú alebo uzamykaciu obrazovku.\n\nMiniaplikácie je možné pridať pomocou funkcie
+    <string name="no_widget_message">Aspoň jedna miniaplikácia Chronus musí byť pridaná buď na domovskú, alebo na uzamykaciu obrazovku.\n\nMiniaplikácie je možné pridať pomocou funkcie
         Androida na výber miniaplikácií a Vášho spúšťača.</string>
     <string name="get_pro">Získať Pro verziu</string>
     <string name="pro_check_dialog_message">Kontrolovanie Pro licencie\u2026</string>
@@ -331,5 +332,17 @@
     <string name="calendar_style_title">Štýl kalendára</string>
     <string name="analog_style_standard">Štandardné</string>
     <string name="analog_style_classic">Klasické</string>
+    <string name="incompatible_launcher_title">Nekompatibilný spúšťač</string>
+    <string name="incompatible_launcher_message">Váš spúšťač plne nepodporuje API volanie APPWIDGET_MIN_HEIGHT, ktoré
+        predstavila spoločnosť Google v Androide 4.1 a výsledkom toho je skutočnosť, že niektoré funkcie Chronusu nemusia
+        správne fungovať.\n\nAk je to nutné, Chronus sa prepne do tzv. \'Režimu kompatibility\', v ktorom je zakázaná väčšina
+        funkcií na pokročilú úpravu miniaplikácií a na automatické skrývanie súčastí v miniaplikáciách.\n\nProsím kontaktujte
+        vývojára vášho spúšťača a požiadajte o aktualizáciu špúšťača alebo začnite používať podporovaný spúšťač.</string>
+    <string name="incompatible_launcher_header_notice">Spustené v režime kompatibility. Kliknite pre podrobnosti</string>
+    <string name="incompatible_launcher_message_2">Váš spúšťač plne nepodporuje API volanie APPWIDGET_MIN_HEIGHT, ktoré
+        predstavila spoločnosť Google v Androide 4.1 a výsledkom toho je skutočnosť, že niektoré funkcie Chronusu nemusia
+        správne fungovať.\n\nAk je to nutné, Chronus sa prepne do tzv. \'Režimu kompatibility\', v ktorom je zakázaná väčšina
+        funkcií na pokročilú úpravu miniaplikácií a na automatické skrývanie súčastí v miniaplikáciách.\n\nProsím kontaktujte
+        vývojára vášho spúšťača a požiadajte o aktualizáciu špúšťača alebo začnite používať podporovaný spúšťač.</string>
 
 </resources>
