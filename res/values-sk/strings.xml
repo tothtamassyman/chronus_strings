@@ -339,10 +339,5 @@
         funkcií na pokročilú úpravu miniaplikácií a na automatické skrývanie súčastí v miniaplikáciách.\n\nProsím kontaktujte
         vývojára vášho spúšťača a požiadajte o aktualizáciu špúšťača alebo začnite používať podporovaný spúšťač.</string>
     <string name="incompatible_launcher_header_notice">Spustené v režime kompatibility. Kliknite pre podrobnosti</string>
-    <string name="incompatible_launcher_message_2">Váš spúšťač plne nepodporuje API volanie APPWIDGET_MIN_HEIGHT, ktoré
-        predstavila spoločnosť Google v Androide 4.1 a výsledkom toho je skutočnosť, že niektoré funkcie Chronusu nemusia
-        správne fungovať.\n\nAk je to nutné, Chronus sa prepne do tzv. \'Režimu kompatibility\', v ktorom je zakázaná väčšina
-        funkcií na pokročilú úpravu miniaplikácií a na automatické skrývanie súčastí v miniaplikáciách.\n\nProsím kontaktujte
-        vývojára vášho spúšťača a požiadajte o aktualizáciu špúšťača alebo začnite používať podporovaný spúšťač.</string>
 
 </resources>
