@@ -415,7 +415,7 @@
 
     <!-- Incompatible launcher -->
     <string name="incompatible_launcher_title">Launcher incompatibil</string>
-    <string name="incompatible_launcher_message">Launcher-ul Dvs nu suportă comanda API APPWIDGET_MIN_HEIGHT introdusă de către Google în Android 4.1+ și, ca urmare, unele funcții din Chronus nu vor rula așa cum s-a planificat.\n\nChronus a fost comutat în regimul de bază, \'Regim compatibil\' cu majoritatea funțiilor de redimensionare a widget-ului și de ascundere automatizată a componentelor deconectate.\n\nContactați dezvoltatorul launcher-ului Dvs pentru a cere actualizarea acestuia sau folosiți un launcher compatibil.</string>
+    <string name="incompatible_launcher_message">Launcher-ul Dvs nu suportă comanda API APPWIDGET_MIN_HEIGHT introdusă de către Google în Android 4.1+ și, ca urmare, unele funcții din Chronus nu vor rula așa cum s-au planificat.\n\nChronus a fost comutat în regimul de bază, \'Regim compatibil\' cu majoritatea funțiilor de redimensionare a widget-ului și de ascundere automatizată a componentelor deconectate.\n\nContactați dezvoltatorul launcher-ului Dvs pentru a cere actualizarea acestuia sau folosiți un launcher compatibil.</string>
     <string name="incompatible_launcher_header_notice">Rulare în regim compatibil. Atingeți pentru detalii</string>
     <string name="hide_incompatibility_notice">Asundere avertisment</string>
 
