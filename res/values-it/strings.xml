@@ -289,26 +289,27 @@
     <!-- First run -->
     <string name="how_to_title">Guida</string>
     <string name="first_run_title">Benvenuto su %s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus è un widget e deve essere aggiunto manualmente alla schermata Home (Android 4.1 +) o alla
-        schermata di blocco (possibile solo su Android 4.2 +) utilizzando la funzione di selezione widget di Android e il tuo programma di
-        avvio (Launcher).\n\nUna volta che il widget è stato aggiunto è possibile utilizzare questa applicazione per modificare la sua configurazione.
-        \n\nRicordarsi di ridimensionare il widget sul vostro schermo per contenere tutti i pannelli abilitati (Orologio, Meteo e Agenda)
-        in quanto il widget nasconderà automaticamente i pannelli se non vi è abbastanza spazio.\n\nPer i migliori risultati, raccomandiamo
-        di utilizzare i programmi di avvio Apex o Nova. Chronus può funzionare con la maggior parte dei programmi di avvio, ma le possibilità
-        di configurazione possono essere più limitate.\n\nCon Android 4.2 +, per aggiungere un widget alla schermata di blocco, scorrere a sinistra
-        nella schermata di blocco, quindi utilizzare il pulsante Aggiungi Widget (+) per aggiungere Chronus. I widget sulla schermata di
-        blocco si possono riorganizzare tramite una pressione prolungata, dopo la quale possono essere spostati o cancellati.</string>
+    <string name="first_run_message">Chronus è un widget e deve essere aggiunto manualmente alla schermata Home (Android 4.1+) o alla schermata di blocco
+    (possibile solo su Android 4.2+) utilizzando la funzione di selezione widget di Android e il tuo launcher.
+    \n\nUna volta che il widget è stato aggiunto, è possibile utilizzare questa applicazione per modificare la sua configurazione.
+    \n\nRicordati di ridimensionare il widget sul tuo schermo per contenere tutti i pannelli che hai abilitato (Orologio, Meteo e Calendario)
+    in quanto il widget nasconderà automaticamente i pannelli se non vi è abbastanza spazio.
+    \n\nPer risultati migliori, consiglio di utilizzare il launcher Apex o Nova. Chronus funzionerà con la maggior parte dei launcher
+    ma la possibilità di configurare la modalità di visualizzazione potrebbe essere limitata.
+    \n\nCon Android 4.2+, per aggiungere un widget alla schermata di blocco, scorri a sinistra nella schermata di blocco
+    e quindi utilizza il pulsante Aggiungi Widget (+) per aggiungere Chronus.
+    I widget sulla schermata di blocco si possono riorganizzare tramite una pressione prolungata, dopo la quale possono essere spostati o cancellati.</string>
 
     <string name="no_widget_message">Occorre aggiungere almeno un widget Chronus alla schermata Home o alla schermata di blocco prima di poter
-        utilizzare questa applicazione per cambiarne la configurazione.\n\nI widget possono essere aggiunti utilizzando il selettore di widget di
-        Android e del programma di avvio.</string>
+        utilizzare questa applicazione per cambiarne la configurazione.\n\nI widget possono essere aggiunti utilizzando la funzione di selezione widget di
+        Android e il tuo launcher.</string>
 
     <string name="credits_title">Meriti</string>
     <string name="credits_summary">Anche se Danny Baumann e io abbiamo scritto la maggior parte del widget, una buona parte del merito va
-        attribuita ai molti traduttori delle lingue incluse così come ad altri collaboratori, quali Nicolai Ehemann e Matt Booth per le
-        funzionalità alle quali hanno contribuito.</string>
+    attribuita ai molti traduttori così come ad altri collaboratori quali Nicolai Ehemann e Matt Booth e Jorge Ruesga
+    per le lingue e le funzionalità alle quali hanno contribuito.</string>
     <string name="contact_title">Contattaci</string>
-    <string name="send_email">Invia e-mail \u2026</string>
+    <string name="send_email">Invia una mail\u2026</string>
 
     <!-- START OF PRO VERSION STRINGS -->
     <!-- Pro features (About) -->
@@ -317,8 +318,8 @@
     <string name="pro_features_message">La versione Pro comprende tutte le caratteristiche della versione standard e nei prossimi mesi verrà arricchita
         di molte altre funzioni tra cui:\n
         \u2022 Altri layout di widget\n
-        \u2022 Impostazioni per singolo widget\n
-        \u2022 Altre funzioni di calendario\n
+        \u2022 Impostazioni indipendenti per widget\n
+        \u2022 Altre funzioni per il calendario\n
         \u2022 Un mini pannello con calendario\n
         \u2022 e molto altro \u2026\n\nI consigli sono sempre graditi.\n\nTi ringraziamo anticipatamente per il tuo supporto.</string>
     <string name="get_pro">Acquista Pro</string>
