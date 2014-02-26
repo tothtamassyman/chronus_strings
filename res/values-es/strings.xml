@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2012 The CyanogenMod Project (DvTonder)
-     Chronus additions (c) 2013 David van Tonder
+     Chronus additions (c) 2014 David van Tonder
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -22,6 +22,7 @@
     <string name="menu_done">Hecho</string>
     <string name="menu_add">Añadir</string>
     <string name="ok">Aceptar</string>
+    <string name="close">Cerrar</string>
     <string name="exit">Salir</string>
     <string name="msg_service_unavailable">Servicio no disponible</string>
     <string name="msg_login_failed">Fallo de autenticación</string>
@@ -115,6 +116,7 @@
     <string name="clock_font_date_title">Resaltar fecha y alarma</string>
     <string name="show_alarm_title">Mostrar alarma siguiente</string>
     <string name="clock_am_pm_title">Mostrar indicador AM/PM</string>
+    <string name="clock_font_upscaling_title">Reescalado de fuente</string>
     <string name="weather_enabled">Activado</string>
     <string name="weather_enable">Mostrar clima</string>
     <string name="weather_source_title">Servicio de clima</string>
@@ -329,4 +331,12 @@
     <string name="weather_style_title">Estilo del tiempo</string>
     <string name="standard_style">Estándar</string>
     <string name="classic_style">Clásico</string>
+    <string name="incompatible_launcher_title">Lanzador incompatible</string>
+    <string name="incompatible_launcher_message">Tu lanzador de aplicaciones no soporta la función APPWIDGET_MIN_HEIGHT
+        introducida por Google in Android 4.1 y, como resultado, varias de las características de Chronus no funcionan
+        tal y como fueron diseñadas.\n\nChronus ha cambiado a \'Modo de compatibilidad\' básico, con muchas de sus
+        funciones de redimensionado y ocultación automática de componentes del widget deshabilitadas.\n\nPor favor,
+        contacta con el desarrollo de tu lanzador de aplicaciones para que actualice su aplicación o cambia a uno compatible.</string>
+    <string name="incompatible_launcher_header_notice">Ejecutandose en \'Modo de compatibilidad\'. Toca para obtener más detalles.</string>
+    <string name="hide_incompatibility_notice">Ocultar aviso</string>
 </resources>
