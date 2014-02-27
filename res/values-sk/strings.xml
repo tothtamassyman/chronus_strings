@@ -21,6 +21,7 @@
     <string name="menu_add">Pridať</string>
     <string name="menu_search">Vyhľadať</string>
     <string name="ok">OK</string>
+    <string name="close">Zavrieť</string>
     <string name="exit">Ukončiť</string>
     <string name="msg_service_unavailable">Služba nie je dostupná</string>
     <string name="msg_login_failed">Prihlásenie zlyhalo</string>
@@ -339,5 +340,6 @@
         funkcií na pokročilú úpravu miniaplikácií a na automatické skrývanie súčastí v miniaplikáciách.\n\nProsím kontaktujte
         vývojára vášho spúšťača a požiadajte o aktualizáciu špúšťača alebo začnite používať podporovaný spúšťač.</string>
     <string name="incompatible_launcher_header_notice">Spustené v režime kompatibility. Kliknite pre podrobnosti</string>
+    <string name="hide_incompatibility_notice">Skryť oznam</string>
 
 </resources>
