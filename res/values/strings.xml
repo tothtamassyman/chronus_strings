@@ -154,6 +154,7 @@
     <string name="show_alarm_title">Show next alarm</string>
     <string name="clock_am_pm_title">Show AM/PM indicator</string>
     <string name="clock_font_upscaling_title">Allow upscaling</string>
+    <string name="clock_font_upscaling_summary">This feature may not work properly with Lock screen widgets</string>
 
     <!-- Preferences - Weather -->
     <string name="weather_enabled">Enabled</string>
