@@ -387,6 +387,8 @@
     <string name="weather_source_openweathermap" translatable="false">OpenWeatherMap</string>
     <string name="weather_source_yrno" translatable="false">yr.no</string>
 
+    <string name="weather_attribution_yrno">Data provided by the Norwegian Meteorological Institute</string>
+
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_flex" translatable="false">Chronus Flex</string>
