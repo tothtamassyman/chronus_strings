@@ -20,6 +20,9 @@
     <string name="loading_indicator">Legstuk laai tans\u2026</string>
     <string name="menu_done">Stoor</string>
     <string name="ok">OK</string>
+    <string name="exit">Beeindig</string>
+    <string name="close">Maak toe</string>
+
     <string name="weather_0">Tornado</string>
     <string name="weather_1">Tropiese storm</string>
     <string name="weather_2">Orkaan</string>
@@ -68,7 +71,7 @@
     <string name="weather_45">Donderstorms</string>
     <string name="weather_46">Sneeubuie</string>
     <string name="weather_47">Geïsoleerde donderstorms</string>
-    <string name="weather_3200"></string>
+
     <string name="weather_N">N</string>
     <string name="weather_NE">NO</string>
     <string name="weather_E">O</string>
@@ -77,6 +80,11 @@
     <string name="weather_SW">SW</string>
     <string name="weather_W">W</string>
     <string name="weather_NW">NW</string>
+    <string name="weather_kph">kph</string>
+    <string name="weather_mph">mph</string>
+    <string name="weather_mm">mm</string>
+    <string name="weather_inch">dm</string>
+
     <string name="weather_no_data">Geen data</string>
     <string name="weather_tap_to_refresh">Raak om te verfris</string>
     <string name="weather_last_sync_just_now">Sopas</string>
@@ -88,6 +96,10 @@
     <string name="weather_refresh_4hrs">4 ure</string>
     <string name="weather_refresh_6hrs">6 ure</string>
     <string name="weather_refresh_8hrs">8 ure</string>
+    <string name="weather_loading">Laai weer data\u2026</string>
+    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (van toepassing op alle legstukke)</string>
+    <string name="weather_show_refresh">Wys Vefris ikoon</string>
+
     <string name="clock_category">Klok en alarm</string>
     <string name="weather_category">Weerpaneel</string>
     <string name="calendar_category">Kalender afsprake</string>
@@ -96,11 +108,14 @@
     <string name="appearance_category">Algemene voorkoms</string>
     <string name="general_category">Algemeen</string>
     <string name="display_category">vertooneienskappe</string>
+
     <string name="clock_font_title">Ure vetgedruk</string>
     <string name="clock_font_minutes_title">Minute vetgedruk</string>
     <string name="clock_font_date_title">Datum en alarm vetgedruk</string>
     <string name="show_alarm_title">Wys opkomende alarm</string>
     <string name="clock_am_pm_title">Wys VM/NM indikator</string>
+    <string name="show_battery_title">Wys battery persentasie</string>
+
     <string name="weather_enabled">Geaktiveer</string>
     <string name="weather_enable">Weerpaneel sigbaar</string>
     <string name="weather_source_title">Weer bron</string>
@@ -124,6 +139,7 @@
     <string name="weather_show_when_minimized_title">Wys wanneer geminimaliseer</string>
     <string name="weather_show_when_minimized_summary">Wys opgesomde weerbesonderhede wanneer die legstuk geminimaliseer word</string>
     <string name="weather_select_location">Selekteer ligging</string>
+
     <string name="calendar_title">Wys volgende item</string>
     <string name="calendars_title">Afsprake kalenders</string>
     <string name="calendars_summary">Vind afsprake in bepaalde kalenders</string>
@@ -139,6 +155,7 @@
     <string name="calendar_highlight_upcoming_events_summary">Verlig die huidige dag se afsprake en, na 20:00, ook die volgende dag se afsprake</string>
     <string name="calendar_highlight_upcoming_events_bold">Vetgedruk</string>
     <string name="calendar_add_event_title">Voeg afsprake by ikoon</string>
+
     <string name="news_feed_title">Wys nuus stroom</string>
     <string name="news_feed_icon_title">Nuus stroom ikoon</string>
     <string name="news_feed_rotate_interval">Rotasie interval</string>
@@ -150,10 +167,12 @@
     <string name="news_feed_provider_settings_rss_title">Toevoer bronne</string>
     <string name="news_feed_refresh_interval">Opdaterings interval</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (van toepassing op alle lekstukke)</string>
+
     <string name="font_color">Letertipe kleur</string>
     <string name="font_color_alarm">Alarm Letertipe kleur</string>
     <string name="font_color_timestamp">Tyd Stempel Letertipe kleur</string>
     <string name="font_color_calendar_details">Details van Letertipe kleur</string>
+
     <string name="calendar_lookahead_3hrs">3 ure</string>
     <string name="calendar_lookahead_6hrs">6 ure</string>
     <string name="calendar_lookahead_12hrs">12 ure</string>
@@ -166,6 +185,7 @@
     <string name="calendar_metadata_none">Wys niks</string>
     <string name="calendar_metadata_first_line">Wys eerste lyn</string>
     <string name="calendar_metadata_all">Wys alles</string>
+
     <string name="white">Wit</string>
     <string name="grey">Grys</string>
     <string name="black">Swart</string>
@@ -179,26 +199,34 @@
     <string name="holo_orange_light">Ligte oranje</string>
     <string name="holo_orange_dark">Donker oranje</string>
     <string name="holo_blue_bright">Helder blou</string>
+
     <!-- First run -->
     <string name="how_to_title">Hulp</string>
     <string name="first_run_title">Welkom by %s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus is \'n Legstuk en kan met die hand bygevoeg word op jou Tuisskerm (Android 4.1+) of die
-        Slotskerm (slegs moontlik op Android 4.2+) deur middel van die legstuk kieser opsie van Android en jou lanseerder.\n\nWanneer die legstuk 
-        geplaas is, kan hierdie program gebruik word om die legstuk instellings te verander.\n\nOnthou om die legstuk grootte op jou skerm in te
-        stel om plek te maak vir al die panele wat aangeskakel is (Horlosie, weer en kalender) aangesien die legstuk outomaties panele verberg
-        indien dit nie groot genoeg is nie.\n\nVir die beste resultaat, beveel ek die gebruik van die Apex of Nova laaiers aan. Chronus sal werk
-        op meeste laaiers maar die vermoë om dit te konfigureer kan beperk wees.\n\nVir Android 4.2+, om \'n legstuk by te voeg tot die 
-        Slotskerm, skuif links op die skerm en gebruik dan die Voeg legstuk by knoppie (+) om Chronus by te voeg. Slotskerm legstukke
-        kan geherrangskik word deur \'n lang-druk en dan beweeg of die verwydering van hulle met jou vinger.</string>
-    <string name="no_widget_message">Chronus is \'n Legstuk en kan met die hand bygevoeg word op jou Tuisskerm (Android 4.1+) of die
-        Slotskerm (slegs moontlik op Android 4.2+) deur middel van die legstuk kieser opsie van Android en jou lanseerder.\n\nWanneer die legstuk
-        geplaas is, kan hierdie program gebruik word om die legstuk instellings te verander.</string>
+    <string name="first_run_message">Chronus is \'n Legstuk wat handmatig op jou Tuisskerm (Android 4.1+) of die
+        Slotskerm (slegs moontlik op Android 4.2+) deur middel van die legstuk kieser opsie van Android en jou Laaier
+        geplaas word.\n\nWanneer die legstuk geplaas is, kan die program gebruik word om die legstuk instellings te
+        verander.\n\nOnthou om die legstuk grootte op jou skerm in te stel om plek te maak vir al die panele wat
+        aangeskakel is (Klok, Weer, Nuus en Kalender) aangesien die legstuk outomaties panele verberg indien daar nie
+        genoeg spasie is om begoorlik te vertoon nie.\n\nChronus sal werk op meeste laaiers maar die vermoë om dit
+        te konfigureer kan beperk wees.\n\nVir Android 4.2+, om \'n legstuk tot die Slotskerm by te voeg,
+        skuif links op die skerm en gebruik dan die + knoppie om Chronus by te voeg. Slotskerm legstukke
+        kan geherrangskik word deur \'n lang-druk en dan te beweeg of te verwyder.</string>
+
+    <string name="no_widget_message">At least one Chronus Widget must be added to either the Home or the
+        Lock screen before you can use this app to change its configuration.\n\nWidgets can be added using the widget
+        picker feature of Android and your launcher.</string>
+
+    <string name="no_widget_message">Ten minste een Chronus legstuk moet op die Tuisskerm of Slotskerm geplaas
+        word voordat die program gebruik kan word om legstuk instellings te verander. Legstukke word deur middel van
+        die legstuk kieser opsie van Android en jou Laaier geplaas.</string>
+
     <string name="credits_title">Krediete</string>
-    <string name="credits_summary">Selfs al het ek beduidende dele van Chronus geskryf, kan van die krediet ook gaan aan Danny Baumann vir sy
-        werk op die weer en faktuur dienste, hersiening en verfyning; Die baie CyanogenMod gemeenskap vertalers vir die toevoeging van al die
-        vertalings wat ingesluit is en ander bydraers soos Nicolai Ehemann en Matt Booth vir hulle verbeterings en funksies wat hulle
-        bygedra het.</string>
-    <string name="contact_title">Kontak my</string>
+    <string name="credits_summary">Alhoewel Danny Baumann en ek meeste van Chronus geskryf het, moet krediet ook gaan
+        na die baie vertalers and ander bydraers soos Nicolai Ehemann, Matt Booth and Jorge Ruesga vir die vertalings
+        en funksies wat hulle bygedra het.</string>
+
+    <string name="contact_title">Kontak ons</string>
     <string name="send_email">Stuur e-pos\u2026</string>
     <string name="pro_features_summary">Raak om Pro funksies te aktiveer</string>
     <string name="pro_features_thanks">Baie dankie vir die aankoop</string>
@@ -210,16 +238,23 @@
         \u2022 \'n mini kalender paneel\n
         \u2022 en meer\u2026\n\nVoorstelle is altyd welkom\n\nDankie by voorbaat vir u ondersteuning.</string>
     <string name="get_pro">Kry Pro</string>
+    <string name="pro_check_dialog_message">Skandeer Pro lisensie\u2026</string>
+
     <string name="picker_apps">Programme</string>
     <string name="picker_activities">Aktiwiteite</string>
     <string name="picker_default">Standaard aksie</string>
     <string name="picker_select_custom_app_title">Kies persoonlike program</string>
     <string name="picker_select_custom_activity_title">Kies persoonlike aktiwiteit</string>
+
     <string name="tap_action_title">Aanraak aksie</string>
-    <string name="tap_action_clock_default">Stelsel horlosie</string>
+    <string name="tap_action_clock_default">Stelsel klok</string>
     <string name="tap_action_weather_refresh">Verfris weer</string>
     <string name="tap_action_calendar_default">Stelsel kalender</string>
     <string name="tap_action_weather_forecast">Wys voorspelling</string>
+    <string name="tap_action_do_nothing">Doen niks</string>
+    <string name="tap_action_event_default">Wys afspraak</string>
+    <string name="tap_action_event_title">Afspraak aanraak aksie</string>
+
     <string name="widget_background_title">Legstuk agtergrond</string>
     <string name="widget_background_default">Deurskynend</string>
     <string name="widget_background_color_fill">Kleur invul</string>
@@ -227,21 +262,30 @@
     <string name="widget_background_dialog_title">Kies kleur</string>
     <string name="widget_background_result_successful">Agtergrond suksesvol verander</string>
     <string name="widget_background_result_not_successful">Agtergrond kan nie verander word nie</string>
+
     <string name="alignment_title">Inlynstelling</string>
     <string name="alignment_centered">Gesentreerd</string>
     <string name="alignment_left">Linksgerig</string>
     <string name="alignment_right">Regsgerig</string>
+
     <string name="calendar_colors">Kalender kleure</string>
-    <string name="chronus_clockplus">Chronus Horlosie+</string>
+
+    <string name="chronus_clockplus">Chronus Klok+</string>
     <string name="chronus_weather">Chronus Weer</string>
     <string name="chronus_calendar">Chronus Kalender</string>
-    <string name="chronus_clockplus_short">Horlosie+</string>
+    <string name="chronus_flex_analog">Chronus Flex (Analoog)</string>
+    <string name="chronus_clockplus_forecast">Chronus Klok+ (Voorspelling)</string>
+    <string name="chronus_forecast">Chronus Voorspelling</string>
+    <string name="chronus_news">Chronus Nuus</string>
+
+    <string name="chronus_clockplus_short">Klok+</string>
     <string name="chronus_weather_short">Weer</string>
     <string name="chronus_calendar_short">Kalender</string>
-    <string name="chronus_flex_analog">Chronus Flex (Analoog)</string>
     <string name="chronus_flex_analog_short">Flex (Analoog)</string>
-    <string name="weather_kph">kph</string>
-    <string name="weather_mph">mph</string>
+    <string name="chronus_clockplus_forecast_short">Klok+ (Voorspelling)</string>
+    <string name="chronus_forecast_short">Voorspelling</string>
+    <string name="chronus_news_short">Nuus</string>
+
     <string name="widget_rounded_corners_title">Ronde hoeke</string>
     <string name="calendar_no_events">Geen afsprake in vooruitkyk tydperk nie</string>
     <string name="calendar_no_events_summary">Raak + om by te voeg</string>
@@ -249,35 +293,38 @@
     <string name="cling_widget_select_title">Kies legstuk</string>
     <string name="cling_widget_select_detail">Jy kan elk van jou geplaasde legstukke opstel. Kies net die een wat jy wil gebruik van die kieslys hier bo.</string>
     <string name="show_date_title">Wys datum</string>
+
     <string name="weather_icon_set_title">Ikoon stel</string>
     <string name="weather_icons_standard">Gekleurd</string>
     <string name="weather_icons_monochrome">Monochroom</string>
     <string name="icon_set_selection_get_more">Kry meer\u2026</string>
+
     <string name="analog_style_title">Klok styl</string>
+    <string name="weather_style_title">Weer styl</string>
+    <string name="calendar_style_title">Kalender styl</string>
+
+    <string name="standard_style">Standaard</string>
+    <string name="classic_style">Klassiek</string>
+
     <string name="calendar_event_color_ifneeded">Wys as nodig</string>
     <string name="calendar_event_color_always">Wys Altyd</string>
     <string name="calendar_metadata_all_day">Heel dag</string>
-    <string name="chronus_clockplus_forecast">Chronus Klok+ (Voorspelling)</string>
-    <string name="chronus_clockplus_forecast_short">Klok+ (Voorspelling)</string>
-    <string name="chronus_forecast">Chronus Voorspelling</string>
-    <string name="chronus_forecast_short">Chronus Voorspelling</string>
-    <string name="chronus_news">Chronus Nuus</string>
-    <string name="chronus_news_short">Chronus Nuus</string>
-    <string name="classic_style">Klassiek</string>
-    <string name="custom_color">Persoonlike</string>
-    <string name="daydream_bg_color_interpolation_title">Gladde agtergrond</string>
-    <string name="daydream_bg_color_interpolation_summary">Verander stadig die agtergrond met verloop van tyd</string>
-    <string name="daydream_category">Screensaver</string>
-    <string name="daydream_night_mode_title">Nag modus</string>
+
+    <string name="custom_color">Pasgemaakte kleur</string>
+
+    <string name="daydream_category">Skermspaarder</string>
+    <string name="daydream_night_mode_title">Nagmodus</string>
     <string name="daydream_night_mode_summary">Verdof die skerm vir \'n beter vertoning in donker omgewings</string>
     <string name="daydream_effect_title">Effek</string>
     <string name="daydream_effect_none">Geen (nie aanbeveel)</string>
-    <string name="daydream_effect_fade">Faag</string>
+    <string name="daydream_effect_fade">Vervaag</string>
     <string name="daydream_effect_slide">Skyfie</string>
-    <string name="daydream_effect_explode">Ontplof</string>
-    <string name="exit">Beeindig</string>
+    <string name="daydream_effect_explode">Ontploffing</string>
+    <string name="daydream_bg_color_interpolation_title">Agtergrond gladmaking</string>
+    <string name="daydream_bg_color_interpolation_summary">Sikliese verandering van agtergrond kleur</string>
+
     <string name="feedly_account_title">Feedly rekening</string>
-    <string name="feedly_account_summary_logout">Jy het nie \'n rekening wat gekoppel is aan Feedly. Tik hier om jou rekening te koppel</string>
+    <string name="feedly_account_summary_logout">\'n rekening is nognie aan Feedly gekoppel nie. Tik hier om jou rekening te koppel</string>
     <string name="feedly_account_summary_login">Jou rekening is gekoppel aan Feedly. Tik hier om jou rekening te ontkoppel.\n\nRekening: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
     <string name="feedly_preferences_title">Voorkeure</string>
     <string name="feedly_trending_content_title">Wys tedense</string>
@@ -288,13 +335,15 @@
     <string name="feedly_msg_auth_access_success">Rekening suksesvol gekoppel</string>
     <string name="feedly_msg_access_error">Kon nie gebruiker inligting bekom</string>
     <string name="format_seconds">%s sek.</string>
+
     <string name="menu_add">Voeg by</string>
     <string name="menu_search">Soek</string>
-    <string name="msg_login_failed">Teken in het misluk</string>
+    <string name="msg_login_failed">Intekening het misluk</string>
     <string name="msg_service_unavailable">Diens onbeskikbaar</string>
+
     <string name="news_feed_loading">Laai artikels\u2026</string>
     <string name="news_feed_loading_summary">Wag asseblief \'n paar sekondes\u2026</string>
-    <string name="news_feed_no_data">Geen nuwe artikels</string>
+    <string name="news_feed_no_data">Geen nuwe artikels nie</string>
     <string name="news_feed_no_data_summary">Tik om te verfris</string>
     <string name="news_feed_article_new_format">[NUUT] <xliff:g id="title">%s</xliff:g></string>
     <string name="news_feed_read_more">Lees meer\u2026</string>
@@ -306,7 +355,7 @@
     <string name="news_feed_reader_list_unread_articles_title">Ongeleesde artikels</string>
     <string name="news_feed_reader_list_last_published">Opgedateer op <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Gaan na die artikel</string>
-    <string name="news_feed_internal_viewer_title">Gebruik interne program</string>
+    <string name="news_feed_internal_viewer_title">Gebruik interne leser</string>
     <string name="news_feed_provider_settings_feedly_title">Feedly Instellings</string>
     <string name="news_feed_refresh_manual">Handmatig</string>
     <string name="news_feed_refresh_30min">30 minute</string>
@@ -315,25 +364,29 @@
     <string name="news_feed_refresh_4hrs">4 ure</string>
     <string name="news_feed_refresh_6hrs">6 ure</string>
     <string name="news_feed_refresh_8hrs">8 ure</string>
-    <string name="pro_check_dialog_message">Nagaan van Pro lisensie\u2026</string>
     <string name="provider_category">Diensverskaffer</string>
     <string name="rss_sources_custom_header">Die gebruiker bepaal</string>
     <string name="rss_custom_source_url">Url:</string>
     <string name="rss_custom_source_title">Voeg persoonlike bron by</string>
     <string name="rss_custom_source_name">Naam:</string>
-    <string name="show_battery_title">Wys battery persentasie</string>
-    <string name="standard_style">Standaard</string>
-    <string name="tap_action_do_nothing">Doen niks</string>
-    <string name="weather_kph">kph</string>
-    <string name="weather_mph">mph</string>
-    <string name="weather_mm">mm</string>
-    <string name="weather_inch">dm</string>
-    <string name="weather_loading">Laai weer data\u2026</string>
-    <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (van toepassing op alle legkaarte)</string>
-    <string name="weather_show_refresh">Wys vefris ikoon</string>
-    <string name="weather_style_title">Weer styl</string>
-    <string name="widget_type_keyguard">Slot skerm</string>
-    <string name="widget_type_daydream">Dagdroom Screensaver</string>
-    <string name="widget_type_homescreen">Tuis skerm</string>
+    <string name="searching">Soek tans\u2026</string>
+
+    <string name="widget_type_keyguard">Slotskerm</string>
+    <string name="widget_type_daydream">Dagdroom</string>
+    <string name="widget_type_homescreen">Tuisskerm</string>
+
+    <string name="clock_font_upscaling_title">Laat opskaling toe</string>
+    <string name="clock_font_upscaling_summary">Die funksie se werking op Slotskerms is onbetroubaar</string>
+
+    <string name="incompatible_launcher_title">Onversoenbare laaier</string>
+    <string name="incompatible_launcher_header_notice">Loop tans in versoenbaarheidsmodus. Raak vir besonderhede</string>
+    <string name="incompatible_launcher_message">Jou huidige Laaier ondersteun nie die APPWIDGET_MIN_HEIGHT funksie wat
+        deur Google in Android 4.1 ingestel is nie. Die gevolg is dat somige funksies van Chronus nie kan funksioneer
+        soos ontwerp nie.\n\nChronus loop tans in \'versoenbaarheidsmodus\' met meeste van die gevorderde skalering
+        en automatiese komponent verberging funksies afgeskakel.\n\nKontak jou Laaier verskaffer vir \'n nuwe weergawe
+        of skakel oor na \'n versoenbare Laaier.</string>
+    <string name="hide_incompatibility_notice">Verberg kennisgewing</string>
+
+    <string name="weather_attribution_yrno">Data verskaf deur die Noorse Meteorologiese Instituut</string>
 
 </resources>

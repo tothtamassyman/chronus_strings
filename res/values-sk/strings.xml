@@ -330,11 +330,14 @@
     <string name="daydream_effect_explode">Explodovanie</string>
     <string name="daydream_bg_color_interpolation_title">Plynulá farba pozadia</string>
     <string name="daydream_bg_color_interpolation_summary">Pomaly meniť farbu pozadia v priebehu času</string>
+
     <string name="analog_style_title">Štýl hodín</string>
     <string name="weather_style_title">Štýl počasia</string>
     <string name="calendar_style_title">Štýl kalendára</string>
-    <string name="analog_style_standard">Štandardné</string>
-    <string name="analog_style_classic">Klasické</string>
+
+    <string name="standard_style">Štandardné</string>
+    <string name="classic_style">Klasické</string>
+
     <string name="incompatible_launcher_title">Nekompatibilný spúšťač</string>
     <string name="incompatible_launcher_message">Váš spúšťač plne nepodporuje API volanie APPWIDGET_MIN_HEIGHT, ktoré
         predstavila spoločnosť Google v Androide 4.1 a výsledkom toho je skutočnosť, že niektoré funkcie Chronusu nemusia
