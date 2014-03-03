@@ -13,26 +13,27 @@ widget se vrací ke svému původnímu jménu - Chronus. Přináší stejný ele
   - vlastní akce na hodiny, počasí nebo kalendář pro spuštění aplikace nebo aktivity
   - nastavení barvy pozadí
   - zarovnání panelu hodin nebo počasí (doprostřed, vlevo, vpravo)
-  - další funkce budou uvolněny v příštích týdnech...
+  - barvy kalendáře
+  - podpora poskytovatele Feedly
+  - podpora šetřiče obrazovky
 
 <b>Vlastnosti (všechny verze):</b>
 Standardní verze je funkčně identická s aplikací cLock z projektu CyanogenMod s přidanou podporou pro starší verze systému Android.
-  - podpora pro Android verze 4.1 a novější
+  - plně funkční widgety Flex, Flex (analogový), Hodiny+ a Počasí 
   - podpora přidání widgetu na domovskou obrazovku (Android 4.1+) nebo obrazovku zámku (Android 4.2+) nebo na obě
   - volba mezi analogovými nebo digitálními hodinamy s možností změny vzhledu
-  - možnost zobrazit datum a nastavené budíky
-  - zmenit styl písma (tučný/normální) u hodin, datumu či budíku
-  - panel počasí (možnost výběru poskytovatele - Yahoo!, AccuWeather, OpenWeatherMap) 
-  - podporá témat pro ikony počasí
+  - panel počasí podporující poskytovatele Yahoo!, Accuweather, OpenWeatherMap a yr.no
   - podpora minimalizace widgetu počasí (pěkné na zámku obrazovky)
+  - panel denních zpráv s vestavěnou podporou RSS
+  - vestavěná čtečka článků
   - panel kalendáře s možností posunu seznamu odálostí
   - dotykem na událost je tato otevřena v aplikaci kalendáře
   - dotykem na ikonu kalendáře bude zobrazen kalendář na aktuálním datu
+  - zvýraznění nadcházející události v kalendáři s vlastními barvami či tučným stylem písma
   - změna stylu písma a barev všech textů a panelů
   - konfigurace widgetu při přidání nebo z aplikace Chronus
-  - zvýraznění nadcházející události v kalendáři s vlastními barvami či tučným stylem písma
 
 <b>Zásluhy:</b>
 Významnou část aplikace Chronus napsal Danny Bauman a já, ale mnoho zásluh také patří překladatelům z CyanogenMod komunity,
-kteří pomohli s překladem do mnoha jazyků; a dalších přispěvovatelů jako Jorge Ruesga, Nicolai Ehemann a Matt Booth pro
+kteří pomohli s překladem do mnoha jazyků; a dalších přispěvovatelů jako Nicolai Ehemann, Matt Booth, či Jorge Ruesga pro
 opravy a nově přidané vlastnosti.
