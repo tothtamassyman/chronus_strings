@@ -22,6 +22,7 @@
     <string name="menu_done">Hotovo</string>
     <string name="menu_add">Přidat</string>
     <string name="menu_search">Vyhledávat</string>
+    <string name="close">Zavřít</string>
     <string name="exit">Ukončit</string>
     <string name="msg_service_unavailable">Služba nedostupná</string>
     <string name="msg_login_failed">Přihlášení selhalo</string>
@@ -124,6 +125,8 @@
     <string name="clock_font_date_title">Zvýraznit datum a budík</string>
     <string name="show_alarm_title">Zobrazit příští budík</string>
     <string name="clock_am_pm_title">Zobrazit AM/PM</string>
+    <string name="clock_font_upscaling_title">Umožnit zvětšování</string>
+    <string name="clock_font_upscaling_summary">Tato vlastnost nemusí správně fungovat u widgetu na zámku obrazovky</string>
 
     <string name="weather_enabled">Použít</string>
     <string name="weather_enable">Zobrazit počasí</string>
@@ -321,6 +324,8 @@
     <string name="calendar_event_color_ifneeded">Zobrazit pokud požadováno</string>
     <string name="calendar_event_color_always">Vždy zobrazi</string>
 
+    <string name="weather_attribution_yrno">Data poskytnuta Norským meteorologickým institutem</string>
+
     <string name="chronus_clockplus">Chronus hodiny+</string>
     <string name="chronus_weather">Chronus počasí</string>
     <string name="chronus_forecast">Chronus předpověď</string>
@@ -369,4 +374,13 @@
     <string name="calendar_style_title">Vzhled kalendáře</string>
     <string name="standard_style">Standardní</string>
     <string name="classic_style">Klasické</string>
+
+    <string name="incompatible_launcher_title">Nekompatibilní spouštěč</string>
+    <string name="incompatible_launcher_message">Používaný spouštěč nepodporuje volání API APPWIDGET_MIN_HEIGHT,
+        které bylo uvedeno v Android 4.1 a proto některé vlastnosti aplikace Chronus nebudou pracovat správně.\n\n
+        Aplikace Chronus použije základní \u201ekompatibilní režim\u201c se zakázanou rozšířenou podporou
+        změny velikosti widgetu a automatického skrývání komponent.\n\nPro nápravu prosím kontaktujte tvůrce
+        použivaného spouštěče nebo použijte kompatibilní spouštěč.</string>
+    <string name="incompatible_launcher_header_notice">Spuštěno v režimu kompatibility. Dotykem získáte více informací</string>
+    <string name="hide_incompatibility_notice">Skrýt upozornění</string>
 </resources>
