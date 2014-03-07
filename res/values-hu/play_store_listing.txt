@@ -1,0 +1,38 @@
+Üdvözöljük! A Chronus egy elegáns kezdő illetve képernyőzárra elhelyezhető Óra, Időjárás, Hírcsatorna és naptár modul.
+
+A CyanogenMod-ban található cLock modul nagytestvére, melyet a fejlesztői elérhetővé tettek a nagy Android közösség számára is. Az önállóan telepíthető, eredeti nevére - Chronus - visszakeresztelt alkalmazás a már megszokott elegancia és tudás mellett, további számos új funkciót és fejlesztést tartalmaz.
+
+<b>Megjegyzés:</b>
+1) A képernyőzár modulok csak az Android 4.2-es vagy újabb verzióiban támogatott. Ez az Android korlátozása, nem a Chronus-é.
+2) Egyes eszközökön előfordulhat, hogy a modul telepítése után szükség lesz az eszköz újraindítására ahhoz, hogy a modul megjelenjen a modul választóban.
+3) A program által használt jogosultságok megtekintéséhez látogasson el a http://goo.gl/EbMLmm weboldalra
+
+<b>Funkciók (Pro verzió):</b>
+  - További modulok (Időjárás-előrejelzés, Naptár, Óra+ (Időjárás-előrejelzés))
+  - Egyéni érintési események az Óra, az Időjárás és a Naptár számára (alkalmazások vagy események megnyitása)
+  - Módosítható modul háttér
+  - Óra és időjárás panel igazíthatóság (középre, balra vagy jobbra rendezés)
+  - Választható analóg óra stílus (szabvány vagy klasszikus)
+  - Naptárszínezés
+  - Feedly hírszolgáltató
+  - Álmodozás képernyővédő
+  - 3-4 hetente megjelenő új funkciók...
+
+<b>Funkciók (Minden verzió):</b>
+Az alap változat funkcionálisan megegyezik a CyanogenMod-ban található cLock modullal, kiegészítve korábbi Android verziók támogatásával.
+  - Teljes funkciónalitással működő Flex, Flex (Analóg), Óra+ és Időjárás modulok
+  - Kezdőképernyőre (Android 4.1+) vagy képernyőzárra (Android 4.2+) helyezhető modulok támogatása
+  - Személyre szabható óra megjelenés (megjelenő elemek, normál vagy vastag betűtípus)
+  - Választható időjárás szolgáltató (Yahoo!, Accuweather, OpenWeatherMap and yr.no) az Időjárás panelhez
+  - Kisméretű időjárás modul támogatás (a képernyőzáron) 
+  - Hírcsatorna panel és beépített RSS források 
+  - Beépített hírolvasó
+  - Naptár panel görgethető előretekintő ablakkal
+  - Kiválasztott naptáresemény megnyitása érintéssel
+  - Naptár ikon érintésére az aznapi események megjelenítése
+  - Következő napi naptári események kiemelése egyéni színekkel és vastagbetűvel
+  - Minden panelen változható a szövegek betűszíne
+  - Modulok konfigurálhatósága hozzáadáskor illetve utólag a Chronus alkalmazásból
+
+<b>Köszönetnyilvánítás:</b>
+Annak ellenére, hogy Danny Baumann és én írtam a Chronus modulok jelentős részét, külön köszönetet jár a megannyi fordítóknak és egyéb fejlesztőknek, mint például Nicolai Ehemann, Matt Booth és Jorge Ruesga, akik hozzájárultak az alkalmazáshoz.

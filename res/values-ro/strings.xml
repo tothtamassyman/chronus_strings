@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 
      Copyright (C) 2012 The CyanogenMod Project (DvTonder)
-     Chronus additions (c) 2013 David van Tonder
+     Chronus additions (c) 2014 David van Tonder
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -21,9 +21,10 @@
     <string name="cancel">Revocare</string>
     <string name="loading_indicator">Încărcare widget\u2026</string>
     <string name="menu_done">OK</string>
-    <string name="menu_search">Căutare</string>
     <string name="menu_add">Adăugare</string>
+    <string name="menu_search">Căutare</string>
     <string name="ok">OK</string>
+    <string name="close">Închide</string>
     <string name="exit">Ieșire</string>
     <string name="msg_service_unavailable">Serviciu indisponibil</string>
     <string name="msg_login_failed">Eroare logare</string>
@@ -139,6 +140,7 @@
     <string name="show_alarm_title">"Afișare următoarea alarmă"</string>
     <string name="clock_am_pm_title">Afișare indicator AM/PM</string>
     <string name="clock_font_upscaling_title">Permite redimensionarea</string>
+    <string name="clock_font_upscaling_summary">Această opțiune poate să nu lucreze corespunzător în cazul widget-urilor pentru ecranul de blocare</string>
 
     <!-- Preferences - Weather -->
     <string name="weather_enabled">"Activat"</string>
@@ -288,7 +290,7 @@
     <!-- First run -->
     <string name="how_to_title">Ajutor</string>
     <string name="first_run_title">Bun venit la %s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus este un widget ce necesită a fi aplicat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale launcher-ului Dvs.\n\nOdată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.\n\nModificați mărimea widget-ului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar), pentru că widget-ul le ascunde automat, dacă este prea mic.\n\nPentru cele mai bune rezultate, recomandăm utilizarea launcher-elor Apex sau Nova. Chronus va lucra pe majoritatea launcher-elor, însă posibilitățile de configurare a afișării pot fi limitate.\n\nCu Android 4.2+, pentru a adiționa widget-ul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul + și adăugați Chronus. Widget-urile de pe ecranul de blocare pot fi rearanjate sau șterse prin apăsare.</string>
+    <string name="first_run_message">Chronus este un widget ce necesită a fi aplicat manual pe ecranul principal (Android 4.1+) sau pe ecranul de blocare (Android 4.2+) utilizând funcțiile respective ale launcher-ului Dvs.\n\nOdată plasat, puteți utiliza această aplicație pentru a modifica configurările widget-ului.\n\nModificați mărimea widget-ului pe ecranul Dvs pentru a face loc tuturor panourilor, pe care le-ați activat (Ceas, Meteo și Calendar), pentru că widget-ul le ascunde automat, dacă este prea mic.\n\nPentru cele mai bune rezultate, recomandăm utilizarea launcher-elor Apex sau Nova. Chronus va lucra pe majoritatea launcher-elor, însă posibilitățile de configurare a afișării pot fi limitate.\n\nCu Android 4.2+, pentru a adiționa widget-ul pe ecranul de blocare, glisați în stânga pe ecranul de blocare, după care utilizați butonul + și adăugați Chronus. Widget-urile de pe ecranul de blocare pot fi rearanjate sau șterse prin glisare.</string>
 
     <string name="no_widget_message">Aplicați cel puțin un widget Chronus pe ecranul pricipal sau ecranul de blocare înainte de utilizarea aceastei aplicații pentru configurări.\n\nWidget-urile pot fi aplicate utilizând funcțiile respective ale launcher-ului Dvs.</string>
 
@@ -319,7 +321,7 @@
     <string name="picker_select_custom_activity_title">Alegeți activitatea personalizată</string>
 
     <!-- Preferences - Tap actions -->
-    <string name="tap_action_title">Acțiune apăsare</string>
+    <string name="tap_action_title">Acțiune atingere</string>
     <string name="tap_action_clock_default">Ceas</string>
     <string name="tap_action_weather_refresh">Actualizare</string>
     <string name="tap_action_calendar_default">Calendar</string>
@@ -350,6 +352,7 @@
     
     <!-- Weather providers -->
     <string name="weather_source_yahoo">Yahoo Meteo</string>
+    <string name="weather_attribution_yrno">Date oferite de către Institutul Meteorologic Norvegian</string>
 
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
@@ -411,5 +414,11 @@
     <string name="calendar_style_title">Stil calendar</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Clasic</string>
+
+    <!-- Incompatible launcher -->
+    <string name="incompatible_launcher_title">Launcher incompatibil</string>
+    <string name="incompatible_launcher_message">Launcher-ul Dvs nu suportă comanda API APPWIDGET_MIN_HEIGHT introdusă de către Google în Android 4.1+ și, ca urmare, unele funcții din Chronus nu vor rula așa cum s-au planificat.\n\nChronus a fost comutat în regimul de bază, \'Regim compatibil\' cu majoritatea funțiilor de redimensionare a widget-ului și de ascundere automatizată a componentelor deconectate.\n\nContactați dezvoltatorul launcher-ului Dvs pentru a cere actualizarea acestuia sau folosiți un launcher compatibil.</string>
+    <string name="incompatible_launcher_header_notice">Rulare în regim compatibil. Atingeți pentru detalii</string>
+    <string name="hide_incompatibility_notice">Asundere avertisment</string>
 
 </resources>
