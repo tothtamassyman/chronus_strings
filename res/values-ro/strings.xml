@@ -140,6 +140,7 @@
     <string name="show_alarm_title">"Afișare următoarea alarmă"</string>
     <string name="clock_am_pm_title">Afișare indicator AM/PM</string>
     <string name="clock_font_upscaling_title">Permite redimensionarea</string>
+    <string name="clock_font_upscaling_summary">Această opțiune poate să nu lucreze corespunzător în cazul widget-urilor pentru ecranul de blocare</string>
 
     <!-- Preferences - Weather -->
     <string name="weather_enabled">"Activat"</string>
@@ -351,6 +352,8 @@
     
     <!-- Weather providers -->
     <string name="weather_source_yahoo">Yahoo Meteo</string>
+
+    <string name="weather_attribution_yrno">Date oferite de către Institutul Meteorologic Norvegian</string>
 
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
