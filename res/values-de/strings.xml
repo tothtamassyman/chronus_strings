@@ -23,6 +23,7 @@
     <string name="menu_search">Suchen</string>
     <string name="ok">OK</string>
     <string name="exit">Schließen</string>
+    <string name="close">Schließen</string>
     <string name="msg_service_unavailable">Dienst ist nicht erreichbar</string>
     <string name="msg_login_failed">Anmeldung ist fehlgeschlagen</string>
     <string name="format_seconds">%s Sekunden</string>
@@ -116,6 +117,7 @@
     <string name="show_alarm_title">Nächsten Alarm anzeigen</string>
     <string name="clock_am_pm_title">Vorm./Nachm. anzeigen</string>
     <string name="clock_font_upscaling_title">Vergrößern erlauben</string>
+    <string name="clock_font_upscaling_summary">Diese Funktion funktioniert unter Umständen nur eingeschränkt mit Sperrbildschirm-Widgets</string>
     <string name="weather_enabled">Aktiviert</string>
     <string name="weather_enable">Wetter anzeigen</string>
     <string name="weather_source_title">Wetterdienst</string>
@@ -350,4 +352,5 @@
         in dem die meisten Funktionen für Größenanpassung deaktiviert sind.\n\nBitte fragen Sie beim Entwickler des
         Launchers nach einem Update oder wechseln Sie zu einem kompatiblen Launcher.</string>
     <string name="incompatible_launcher_header_notice">Kompatibilitätsmodus aktiv. Berühren für Details</string>
+    <string name="hide_incompatibility_notice">Nicht mehr anzeigen</string>
 </resources>

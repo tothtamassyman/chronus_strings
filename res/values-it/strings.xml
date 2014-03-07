@@ -129,7 +129,7 @@
     <string name="daydream_category">Salvaschermo</string>
 
     <!-- Preferences - widget types in selection list -->
-    <string name="widget_type_keyguard">Schermata di blocco</string>
+    <string name="widget_type_keyguard">Schermata di Blocco</string>
     <string name="widget_type_daydream">Salvaschermo Daydream</string>
     <string name="widget_type_homescreen">Schermata Home</string>
 
@@ -140,6 +140,7 @@
     <string name="show_alarm_title">Visualizza la prossima sveglia</string>
     <string name="clock_am_pm_title">Mostra l\'indicatore AM/PM</string>
     <string name="clock_font_upscaling_title">Permetti ingrandimento</string>
+    <string name="clock_font_upscaling_summary">Questa caratteristica potrebbe non funzionare correttamente con i widget nella schermata di Blocco</string>
 
     <!-- Preferences - Weather -->
     <string name="weather_enabled">Attivo</string>
@@ -289,18 +290,18 @@
     <!-- First run -->
     <string name="how_to_title">Guida</string>
     <string name="first_run_title">Benvenuto su %s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus è un widget e deve essere aggiunto manualmente alla schermata Home (Android 4.1+) o alla schermata di blocco
+    <string name="first_run_message">Chronus è un widget e deve essere aggiunto manualmente alla schermata Home (Android 4.1+) o alla schermata di Blocco
     (possibile solo su Android 4.2+) utilizzando la funzione di selezione widget di Android e il tuo launcher.
     \n\nUna volta che il widget è stato aggiunto, è possibile utilizzare questa applicazione per modificare la sua configurazione.
     \n\nRicordati di ridimensionare il widget sul tuo schermo per contenere tutti i pannelli che hai abilitato (Orologio, Meteo e Calendario)
     in quanto il widget nasconderà automaticamente i pannelli se non vi è abbastanza spazio.
     \n\nPer risultati migliori, consiglio di utilizzare il launcher Apex o Nova. Chronus funzionerà con la maggior parte dei launcher
     ma la possibilità di configurare la modalità di visualizzazione potrebbe essere limitata.
-    \n\nCon Android 4.2+, per aggiungere un widget alla schermata di blocco, scorri a sinistra nella schermata di blocco
+    \n\nCon Android 4.2+, per aggiungere un widget alla schermata di Blocco, scorri a sinistra nella schermata di Blocco
     e quindi utilizza il pulsante Aggiungi Widget (+) per aggiungere Chronus.
-    I widget sulla schermata di blocco si possono riorganizzare tramite una pressione prolungata, dopo la quale possono essere spostati o cancellati.</string>
+    I widget sulla schermata di Blocco si possono riorganizzare tramite una pressione prolungata, dopo la quale possono essere spostati o cancellati.</string>
 
-    <string name="no_widget_message">Occorre aggiungere almeno un widget Chronus alla schermata Home o alla schermata di blocco prima di poter
+    <string name="no_widget_message">Occorre aggiungere almeno un widget Chronus alla schermata Home o alla schermata di Blocco prima di poter
         utilizzare questa applicazione per cambiarne la configurazione.\n\nI widget possono essere aggiunti utilizzando la funzione di selezione widget di
         Android e il tuo launcher.</string>
 
@@ -365,6 +366,8 @@
 
     <!-- Weather providers -->
     <string name="weather_source_yahoo">Yahoo! Meteo</string>
+
+    <string name="weather_attribution_yrno">Dati forniti dall\'Istituto Meteorologico Norvegese</string>
 
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->

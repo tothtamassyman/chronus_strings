@@ -33,7 +33,7 @@
     <string name="weather_3">Silné búrky</string>
     <string name="weather_4">Búrky</string>
     <string name="weather_5">Zmiešaný dážd so snehom</string>
-    <string name="weather_6">Zmiešaný dážď so snehomMixed Rain and Sleet</string>
+    <string name="weather_6">Zmiešaný dážď so snehom</string>
     <string name="weather_7">Zmiešaný sneh a dážď so snehom</string>
     <string name="weather_8">Mrznúce mrholenie</string>
     <string name="weather_9">Mrholenie</string>
@@ -103,13 +103,13 @@
     <string name="weather_category">Riadok s počasím</string>
     <string name="news_feed_category">Kanál noviniek</string>
     <string name="calendar_category">Udalosti v kalendári</string>
-    <string name="about_category">O aplikácii Chronus</string>
+    <string name="about_category">O Chronuse</string>
     <string name="appearance_category">Všeobecný vzhľad</string>
     <string name="general_category">Všeobecné</string>
     <string name="display_category">Zobrazenie</string>
     <string name="provider_category">Poskytovateľ</string>
     <string name="daydream_category">Šetrič obrazovky</string>
-    <string name="widget_type_keyguard">Obrazovka uzamknutia</string>
+    <string name="widget_type_keyguard">Uzamykacia obrazovka</string>
     <string name="widget_type_daydream">Šetrič obrazovky Daydream</string>
     <string name="widget_type_homescreen">Domovská obrazovka</string>
     <string name="clock_font_title">Hodiny tučným písmom</string>
@@ -118,6 +118,7 @@
     <string name="show_alarm_title">Zobraziť nasledujúci budík</string>
     <string name="clock_am_pm_title">Zobraziť indikátor AM/PM</string>
     <string name="clock_font_upscaling_title">Povoliť zväčšovanie</string>
+    <string name="clock_font_upscaling_summary">Táto funkcia nemusí správne fungovať s miniaplikáciami na uzamykacej obrazovke</string>
     <string name="weather_enabled">Povolené</string>
     <string name="weather_enable">Zobraziť počasie</string>
     <string name="weather_use_custom_location">Použiť vlastnú polohu</string>
@@ -286,6 +287,7 @@
     <string name="weather_show_refresh">Zobraziť ikonu aktualizácie</string>
     <string name="weather_source_title">Zdroj počasia</string>
     <string name="weather_source_yahoo">Yahoo! Počasie</string>
+    <string name="weather_attribution_yrno">Údaje poskytuje Nórsky meteorologický inštitút</string>
     <string name="widget_background_title">Pozadie miniaplikácie</string>
     <string name="widget_background_default">Priehľadné</string>
     <string name="widget_background_color_fill">Farebná výplň</string>
@@ -328,11 +330,14 @@
     <string name="daydream_effect_explode">Explodovanie</string>
     <string name="daydream_bg_color_interpolation_title">Plynulá farba pozadia</string>
     <string name="daydream_bg_color_interpolation_summary">Pomaly meniť farbu pozadia v priebehu času</string>
+
     <string name="analog_style_title">Štýl hodín</string>
     <string name="weather_style_title">Štýl počasia</string>
     <string name="calendar_style_title">Štýl kalendára</string>
-    <string name="analog_style_standard">Štandardné</string>
-    <string name="analog_style_classic">Klasické</string>
+
+    <string name="standard_style">Štandardné</string>
+    <string name="classic_style">Klasické</string>
+
     <string name="incompatible_launcher_title">Nekompatibilný spúšťač</string>
     <string name="incompatible_launcher_message">Váš spúšťač plne nepodporuje API volanie APPWIDGET_MIN_HEIGHT, ktoré
         predstavila spoločnosť Google v Androide 4.1 a výsledkom toho je skutočnosť, že niektoré funkcie Chronusu nemusia

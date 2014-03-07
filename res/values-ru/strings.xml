@@ -238,7 +238,7 @@
     <string name="feedly_account_summary_logout">Нет аккаунта, связанного с Feedly. Нажмите здесь для регистрации</string>
     <string name="feedly_account_summary_login">Аккаунт связан со службой Feedly. Нажмите здесь для его отключения.\n\nАккаунт: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
     <string name="feedly_preferences_title">Настройки</string>
-    <string name="feedly_engaging_content_title">Показывать актуальные темы</string>
+    <string name="feedly_trending_content_title">Показывать актуальные темы</string>
     <string name="feedly_categories_title">Категории</string>
     <string name="feedly_msg_retrieving_user_profile">Загрузка профиля\u2026</string>
     <string name="feedly_msg_retrieving_user_categories">Загрузка категорий\u2026</string>

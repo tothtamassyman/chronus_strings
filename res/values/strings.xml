@@ -154,6 +154,7 @@
     <string name="show_alarm_title">Show next alarm</string>
     <string name="clock_am_pm_title">Show AM/PM indicator</string>
     <string name="clock_font_upscaling_title">Allow upscaling</string>
+    <string name="clock_font_upscaling_summary">This feature may not work properly with Lock screen widgets</string>
 
     <!-- Preferences - Weather -->
     <string name="weather_enabled">Enabled</string>
@@ -385,6 +386,8 @@
     <string name="weather_source_accuweather" translatable="false">AccuWeather</string>
     <string name="weather_source_openweathermap" translatable="false">OpenWeatherMap</string>
     <string name="weather_source_yrno" translatable="false">yr.no</string>
+
+    <string name="weather_attribution_yrno">Data provided by the Norwegian Meteorological Institute</string>
 
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
