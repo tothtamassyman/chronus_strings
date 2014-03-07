@@ -352,7 +352,6 @@
     
     <!-- Weather providers -->
     <string name="weather_source_yahoo">Yahoo Meteo</string>
-
     <string name="weather_attribution_yrno">Date oferite de către Institutul Meteorologic Norvegian</string>
 
     <!-- Widget names -->
