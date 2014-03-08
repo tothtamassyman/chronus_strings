@@ -189,7 +189,7 @@
     <string name="news_feed_title">Visualizza notizie</string>
     <string name="news_feed_icon_title">Icona notizie</string>
     <string name="news_feed_rotate_interval">Intervallo rotazione</string>
-    <string name="news_feed_display_unread_status">Indicatore articoli non letti</string>
+    <string name="news_feed_display_unread_status">Indicatore elementi non letti</string>
     <string name="news_feed_hide_viewed">Nascondi notizie visualizzate</string>
     <string name="news_feed_no_articles_text_title">Mostra il testo \'Nessun elemento\'</string>
     <string name="news_feed_provider_title">Tipo di fornitore</string>
