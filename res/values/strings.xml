@@ -205,7 +205,7 @@
     <string name="news_feed_rotate_interval">Rotation interval</string>
     <string name="news_feed_display_unread_status">Unread indicator</string>
     <string name="news_feed_hide_viewed">Hide viewed</string>
-    <string name="news_feed_no_articles_text_title">Show \'No articles\' text</string>
+    <string name="news_feed_no_articles_text_title">Show \'No items\' text</string>
     <string name="news_feed_provider_title">Provider type</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_feedly" translatable="false">Feedly</string>
@@ -247,24 +247,24 @@
     <string name="calendar_metadata_all_day">All-day</string>
 
     <!-- News - Widgets -->
-    <string name="news_feed_loading">Loading articles</string>
+    <string name="news_feed_loading">Loading items</string>
     <string name="news_feed_loading_summary">Please wait a few seconds\u2026</string>
-    <string name="news_feed_no_data">No new articles available</string>
+    <string name="news_feed_no_data">No new items available</string>
     <string name="news_feed_no_data_summary">Tap to refresh</string>
     <string name="news_feed_article_new_format">[NEW] <xliff:g id="title">%s</xliff:g></string>
     <string name="news_feed_read_more">Read more\u2026</string>
 
     <!-- News - Service -->
     <plurals name="news_feed_new_articles">
-        <item quantity="one">1 new article</item>
-        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> new articles</item>
+        <item quantity="one">1 new item</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> new items</item>
     </plurals>
 
     <!-- News - Reader -->
-    <string name="news_feed_reader_list_all_articles_title">All articles</string>
-    <string name="news_feed_reader_list_unread_articles_title">Unread articles</string>
+    <string name="news_feed_reader_list_all_articles_title">All</string>
+    <string name="news_feed_reader_list_unread_articles_title">Unread</string>
     <string name="news_feed_reader_list_last_published">Updated on <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
-    <string name="news_feed_reader_goto_button">Go to article</string>
+    <string name="news_feed_reader_goto_button">Go to item</string>
     <string name="news_feed_internal_viewer_title">Use internal viewer</string>
 
     <!-- News Feed Provider Settings - RSS -->
