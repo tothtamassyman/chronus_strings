@@ -139,12 +139,12 @@
     <string name="show_alarm_title">Afficher la prochaine alarme</string>
     <string name="clock_am_pm_title">Afficher l\'indicateur AM/PM</string>
     <string name="clock_font_upscaling_title">Autoriser le suréchantillonnage</string>
+    <string name="clock_font_upscaling_summary">Cette fonction peut ne pas fonctionner correctement avec le widget de verrouillage d\'écran</string>
 
     <!-- Preferences - Weather -->
     <string name="weather_enabled">Activer</string>
     <string name="weather_enable">Afficher la météo</string>
     <string name="weather_source_title">Source météo</string>
-    <string name="weather_source_yahoo">Yahoo! Météo</string>
     <string name="weather_use_custom_location">Définir un lieu</string>
     <string name="weather_geolocated">Utiliser la géolocalisation</string>
     <string name="weather_custom_location_dialog_title">Définir un lieu</string>
@@ -351,6 +351,10 @@
     <string name="calendar_colors">Couleur des événements du calendrier</string>
     <string name="calendar_event_color_ifneeded">Afficher si nécessaire</string>
     <string name="calendar_event_color_always">Toujours afficher</string>
+
+    <!-- Weather providers -->
+    <string name="weather_source_yahoo">Yahoo! Météo</string>
+    <string name="weather_attribution_yrno">Données fournies par l\'Institut Météorologique Norvégienne</string>
 
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
