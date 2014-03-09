@@ -117,6 +117,7 @@
     <string name="show_alarm_title">Mostrar alarma siguiente</string>
     <string name="clock_am_pm_title">Mostrar indicador AM/PM</string>
     <string name="clock_font_upscaling_title">Reescalado de fuente</string>
+    <string name="clock_font_upscaling_summary">Esta característica puede no funcionar correctamente en los widgets de bloqueo de pantalla</string>
     <string name="weather_enabled">Activado</string>
     <string name="weather_enable">Mostrar clima</string>
     <string name="weather_source_title">Servicio de clima</string>
@@ -162,7 +163,7 @@
     <string name="news_feed_rotate_interval">Intervalo de rotación</string>
     <string name="news_feed_display_unread_status">Indicador de no leído</string>
     <string name="news_feed_hide_viewed">Ocultar leidas</string>
-    <string name="news_feed_no_articles_text_title">Mostrar texto \u00ABSin artículos\u00BB</string>
+    <string name="news_feed_no_articles_text_title">Mostrar texto \u00ABSin elementos\u00BB</string>
     <string name="news_feed_provider_title">Tipo de proveedor</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_rss_title">Fuentes de noticias</string>
@@ -193,21 +194,21 @@
     <string name="calendar_metadata_first_line">Mostrar primera línea</string>
     <string name="calendar_metadata_all">Mostrar todo</string>
     <string name="calendar_metadata_all_day">Todo el día</string>
-    <string name="news_feed_loading">Cargando artículos</string>
+    <string name="news_feed_loading">Cargando elementos</string>
     <string name="news_feed_loading_summary">Por favor, espere unos segundos\u2026</string>
-    <string name="news_feed_no_data">No existen nuevos artículos</string>
+    <string name="news_feed_no_data">No existen nuevos elementos</string>
     <string name="news_feed_no_data_summary">Toca para refrescar</string>
     <string name="news_feed_article_new_format">[NUEVO] <xliff:g id="title">%s</xliff:g></string>
     <string name="news_feed_read_more">Leer más\u2026</string>
     <plurals name="news_feed_new_articles">
-        <item quantity="zero">No hay nuevos artículos</item>
-        <item quantity="one">1 nuevo artículo</item>
-        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> nuevos artículos</item>
+        <item quantity="zero">No hay nuevos elementos</item>
+        <item quantity="one">1 nuevo elemento</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> nuevos elementos</item>
     </plurals>
-    <string name="news_feed_reader_list_all_articles_title">Todos los artículos</string>
-    <string name="news_feed_reader_list_unread_articles_title">Artículos no leídos</string>
+    <string name="news_feed_reader_list_all_articles_title">Todos</string>
+    <string name="news_feed_reader_list_unread_articles_title">No leídos</string>
     <string name="news_feed_reader_list_last_published">Actualizado a las <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
-    <string name="news_feed_reader_goto_button">Ir a artículo</string>
+    <string name="news_feed_reader_goto_button">Ir a elemento</string>
     <string name="news_feed_internal_viewer_title">Usar visor interno</string>
     <string name="rss_sources_custom_header">Definido por el usuario</string>
     <string name="rss_custom_source_url">Url:</string>
@@ -292,6 +293,7 @@
     <string name="alignment_left">Izquierda</string>
     <string name="alignment_right">Derecha</string>
     <string name="calendar_colors">Color del calendario</string>
+    <string name="weather_attribution_yrno">Datos proporcionados por Norwegian Meteorological Institute</string>
     <string name="chronus_clockplus">Chronus Reloj+</string>
     <string name="chronus_weather">Chronus Tiempo</string>
     <string name="chronus_forecast">Chronus Predicción Tiempo</string>
