@@ -158,20 +158,20 @@
 
     <string name="news_feed_title">Wys nuus stroom</string>
     <string name="news_feed_icon_title">Nuus stroom ikoon</string>
-    <string name="news_feed_rotate_interval">Rotasie interval</string>
+    <string name="news_feed_rotate_interval">Rotasie spoed</string>
     <string name="news_feed_display_unread_status">Ongeleesde aanwyser</string>
-    <string name="news_feed_hide_viewed">Versteek gesiendes</string>
-    <string name="news_feed_no_articles_text_title">Wys \'Geen artikels\' teks</string>
-    <string name="news_feed_provider_title">Tipe verskaffer</string>
+    <string name="news_feed_hide_viewed">Versteek geleesde items</string>
+    <string name="news_feed_no_articles_text_title">Wys \'Geen items nie\' teks</string>
+    <string name="news_feed_provider_title">Verskaffer</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_rss_title">Toevoer bronne</string>
-    <string name="news_feed_refresh_interval">Opdaterings interval</string>
+    <string name="news_feed_refresh_interval">Opdaterings frekwensie</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (van toepassing op alle lekstukke)</string>
 
     <string name="font_color">Letertipe kleur</string>
     <string name="font_color_alarm">Alarm Letertipe kleur</string>
-    <string name="font_color_timestamp">Tyd Stempel Letertipe kleur</string>
-    <string name="font_color_calendar_details">Details van Letertipe kleur</string>
+    <string name="font_color_timestamp">Tydstempel Letertipe kleur</string>
+    <string name="font_color_calendar_details">Besonderhede Letertipe kleur</string>
 
     <string name="calendar_lookahead_3hrs">3 ure</string>
     <string name="calendar_lookahead_6hrs">6 ure</string>
@@ -341,20 +341,20 @@
     <string name="msg_login_failed">Intekening het misluk</string>
     <string name="msg_service_unavailable">Diens onbeskikbaar</string>
 
-    <string name="news_feed_loading">Laai artikels\u2026</string>
+    <string name="news_feed_loading">Laai items\u2026</string>
     <string name="news_feed_loading_summary">Wag asseblief \'n paar sekondes\u2026</string>
-    <string name="news_feed_no_data">Geen nuwe artikels nie</string>
+    <string name="news_feed_no_data">Geen nuwe items nie</string>
     <string name="news_feed_no_data_summary">Tik om te verfris</string>
     <string name="news_feed_article_new_format">[NUUT] <xliff:g id="title">%s</xliff:g></string>
     <string name="news_feed_read_more">Lees meer\u2026</string>
     <plurals name="news_feed_new_articles">
-        <item quantity="one">1 nuwe artikel</item>
-        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> nuwe artikels</item>
+        <item quantity="one">1 nuwe item</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> nuwe items</item>
     </plurals>
-    <string name="news_feed_reader_list_all_articles_title">Alle artikels</string>
-    <string name="news_feed_reader_list_unread_articles_title">Ongeleesde artikels</string>
+    <string name="news_feed_reader_list_all_articles_title">Almal</string>
+    <string name="news_feed_reader_list_unread_articles_title">Ongeleesde</string>
     <string name="news_feed_reader_list_last_published">Opgedateer op <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
-    <string name="news_feed_reader_goto_button">Gaan na die artikel</string>
+    <string name="news_feed_reader_goto_button">Gaan na die item</string>
     <string name="news_feed_internal_viewer_title">Gebruik interne leser</string>
     <string name="news_feed_provider_settings_feedly_title">Feedly Instellings</string>
     <string name="news_feed_refresh_manual">Handmatig</string>

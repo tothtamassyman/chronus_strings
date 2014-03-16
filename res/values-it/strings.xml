@@ -189,9 +189,9 @@
     <string name="news_feed_title">Visualizza notizie</string>
     <string name="news_feed_icon_title">Icona notizie</string>
     <string name="news_feed_rotate_interval">Intervallo rotazione</string>
-    <string name="news_feed_display_unread_status">Indicatore articoli non letti</string>
+    <string name="news_feed_display_unread_status">Indicatore elementi non letti</string>
     <string name="news_feed_hide_viewed">Nascondi notizie visualizzate</string>
-    <string name="news_feed_no_articles_text_title">Mostra il testo \'Nessun articolo\'</string>
+    <string name="news_feed_no_articles_text_title">Mostra il testo \'Nessun elemento\'</string>
     <string name="news_feed_provider_title">Tipo di fornitore</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_rss_title">Fonti</string>
@@ -232,24 +232,24 @@
     <string name="calendar_metadata_all_day">Tutto il giorno</string>
 
     <!-- News - Widgets -->
-    <string name="news_feed_loading">Caricamento articoli</string>
+    <string name="news_feed_loading">Caricamento elementi</string>
     <string name="news_feed_loading_summary">Per favore attendi qualche secondo\u2026</string>
-    <string name="news_feed_no_data">Nessun nuovo articolo disponibile</string>
+    <string name="news_feed_no_data">Nessun nuovo elemento disponibile</string>
     <string name="news_feed_no_data_summary">Tocca per aggiornare</string>
     <string name="news_feed_article_new_format">[NUOVO] <xliff:g id="title">%s</xliff:g></string>
     <string name="news_feed_read_more">Leggi altro\u2026</string>
 
     <!-- News - Service -->
     <plurals name="news_feed_new_articles">
-        <item quantity="one">1 nuovo articolo</item>
-        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> nuovi articoli</item>
+        <item quantity="one">1 nuovo elemento</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> nuovi elementi</item>
     </plurals>
 
     <!-- News - Reader -->
-    <string name="news_feed_reader_list_all_articles_title">Tutti gli articoli</string>
-    <string name="news_feed_reader_list_unread_articles_title">Articoli non letti</string>
+    <string name="news_feed_reader_list_all_articles_title">Tutti</string>
+    <string name="news_feed_reader_list_unread_articles_title">Non letti</string>
     <string name="news_feed_reader_list_last_published">Aggiornato il <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
-    <string name="news_feed_reader_goto_button">Vai all\'articolo</string>
+    <string name="news_feed_reader_goto_button">Vai all\'elemento</string>
     <string name="news_feed_internal_viewer_title">Usa visualizzatore interno</string>
 
     <!-- News Feed Provider Settings - RSS -->
