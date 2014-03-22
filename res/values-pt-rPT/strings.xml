@@ -220,10 +220,129 @@
     <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
     <string name="chronus_flex_analog">Chronus Flex (Analógico)</string>
     <string name="chronus_flex_analog_short">Flex (Analógico)</string>
+	<string name="chronus_clockplus_forecast">Chronus Clock+ (Tempo)</string>
+	<string name="chronus_clockplus_forecast_short">Clock+ (Tempo)</string>
+	<string name="chronus_forecast">Chronus Tempo</string>
+	<string name="chronus_forecast_short">Tempo</string>
+	<string name="chronus_news">Chronus Notícias</string>
+	<string name="chronus_news_short">Notícias</string>
+
     <string name="widget_rounded_corners_title">Cantos arredondados</string>
-    <string name="calendar_no_events">Sem eventos na janela de eventos futuros.</string>
-    <string name="calendar_no_events_summary">Toque em + para adicionar</string>
+    <string name="calendar_no_events">Sem eventos futuros</string>
+    <string name="calendar_no_events_summary">Toque em + para adicionar evento</string>
     <string name="cling_widget_select_title">Escolha um widget</string>
     <string name="cling_widget_select_detail">Pode configurar cada um dos widgets que colocou. Escolha apenas o que quer configurr usando o selecionador no topo.</string>
 
+	<!-- New strings -->
+	<string name="icon_set_selection_get_more">Obter mais\u2026</string>
+	<string name="pro_check_dialog_message">A verificar a licença Pro\u2026</string>
+
+	<string name="analog_style_title">Estilo do relógio</string>
+	<string name="calendar_style_title">Estilo do calendário</string>
+	<string name="weather_style_title">Estilo do tempo</string>
+	<string name="classic_style">Clássico</string>
+	<string name="standard_style">Standard</string>
+
+	<string name="calendar_event_color_always">Mostrar sempre</string>
+	<string name="calendar_event_color_ifneeded">Mostrar se necessário</string>
+	<string name="calendar_metadata_all_day">Todo o dia</string>
+	<string name="calendar_no_events_indicator_title">Mostrar texto "Sem eventos"</string>
+
+	<string name="clock_font_upscaling_summary">Esta função poderá não funcionar corretamente com widgets de bloqueio de ecrã</string>
+	<string name="clock_font_upscaling_title">Permitir upscaling</string>
+
+	<string name="close">Fechar</string>
+
+	<string name="custom_color">Personalizar</string>
+
+	<string name="widget_type_daydream">Daydream Screensaver</string>
+	<string name="daydream_bg_color_interpolation_summary">Mudar lentamente a cor de fundo ao longo do tempo</string>
+	<string name="daydream_bg_color_interpolation_title">Cor de fundo suave</string>
+	<string name="daydream_category">Screensaver</string>
+	<string name="daydream_effect_explode">Explodir</string>
+	<string name="daydream_effect_fade">Desvanecer</string>
+	<string name="daydream_effect_none">Nenhum (não recomendado)</string>
+	<string name="daydream_effect_slide">Deslizar</string>
+	<string name="daydream_effect_title">Efeito</string>
+	<string name="daydream_night_mode_summary">Escurecer o ecrã para uma melhor visualização em ambientes escuros</string>
+	<string name="daydream_night_mode_title">Modo noturno</string>
+
+	<string name="feedly_account_summary_logout">Não dispõe de qualquer conta vinculada com o Feedly. Toque aqui para vincular a sua conta</string>
+	<string name="feedly_account_title">Conta Feedly</string>
+	<string name="feedly_categories_title">Categorias</string>
+	<string name="feedly_category_uncategorized">Sem categoria</string>
+	<string name="feedly_msg_access_error">Falha ao aceder às informações do utilizador</string>
+	<string name="feedly_msg_auth_access_success">Conta vinculada com sucesso</string>
+	<string name="feedly_msg_retrieving_user_categories">A obter categorias do utilizador\u2026</string>
+	<string name="feedly_msg_retrieving_user_profile">A obter perfil do utilizador\u2026</string>
+	<string name="feedly_preferences_title">Preferências</string>
+	<string name="feedly_trending_content_title">Mostrar conteúdo em tendência</string>
+
+	<string name="format_seconds">%s seg.</string>
+
+	<string name="hide_incompatibility_notice">Ocultar aviso</string>
+	<string name="incompatible_launcher_header_notice">A funcionar em modo de compatibilidade. Toque para mais detalhes</string>
+	<string name="incompatible_launcher_message">O seu launcher não suporta o API APPWIDGET_MIN_HEIGHT
+			que foi intro pela Google no Android 4.1 e, deste modo, várias funcionalidades do Chronus não funcionarão da forma prevista.\n\nO Chronus 
+                           mudou para um modo básico, \'Compatibility mode\' com a maior parte das funções avançadas (como o redimensionamento dos widgets e a ocultação 
+                           de informação dos mesmos) desativada.\n\nPor favor, contacte o criador do seu launcher solicitando uma atualização do mesmo ou mude para um launcher compatível.</string>
+	<string name="incompatible_launcher_title">Launcher incompatível</string>
+
+	<string name="menu_add">Adicionar</string>
+	<string name="menu_search">Procurar</string>
+
+	<string name="msg_login_failed">Login falhou</string>
+	<string name="msg_service_unavailable">Serviço indisponível</string>
+
+	<string name="news_feed_category">Feed de notícias</string>
+	<string name="news_feed_display_unread_status">Indicador de notícias não lidas</string>
+	<string name="news_feed_hide_viewed">Ocultar notícias lidas</string>
+	<string name="news_feed_icon_title">Ícone do feed de notícias</string>
+	<string name="news_feed_internal_viewer_title">Usar visualizador interno</string>
+	<string name="news_feed_loading">A carregar itens</string>
+	<string name="news_feed_loading_summary">Por favor, aguarde alguns segundos\u2026</string>
+	<string name="news_feed_no_articles_text_title">Mostrar texto "Sem notícias"</string>
+	<string name="news_feed_no_data">Não há notícias novas disponíveis</string>
+	<string name="news_feed_no_data_summary">Toque para atualizar</string>
+	<string name="news_feed_provider_rss">RSS</string>
+	<string name="news_feed_provider_settings_feedly_title">Definições Feedly</string>
+	<string name="news_feed_provider_settings_rss_title">Fontes de informação</string>
+	<string name="news_feed_provider_title">Tipo de provedor</string>
+	<string name="news_feed_read_more">Ler mais\u2026</string>
+	<string name="news_feed_reader_goto_button">Ir para a notícia</string>
+	<string name="news_feed_reader_list_all_articles_title">Todas</string>
+	<string name="news_feed_reader_list_unread_articles_title">Não lidas</string>
+	<string name="news_feed_refresh_2hrs">2 horas</string>
+	<string name="news_feed_refresh_30min">30 minutos</string>
+	<string name="news_feed_refresh_4hrs">4 horas</string>
+	<string name="news_feed_refresh_60min">60 minutos</string>
+	<string name="news_feed_refresh_6hrs">6 horas</string>
+	<string name="news_feed_refresh_8hrs">8 horas</string>
+	<string name="news_feed_refresh_interval">Intervalo de atualização</string>
+	<string name="news_feed_refresh_manual">Manual</string>
+	<string name="news_feed_rotate_interval">Intervalo de rotação</string>
+	<string name="news_feed_title">Mostrar feed de notícias</string>
+	<string name="provider_category">Provedor</string>
+	<string name="rss_custom_source_name">Nome:</string>
+	<string name="rss_custom_source_title">Adicionar fonte personalizada</string>
+	<string name="rss_custom_source_url">Url:</string>
+	<string name="rss_sources_custom_header">Definido pelo utilizador</string>
+
+	<string name="searching">À procura\u2026</string>
+
+	<string name="show_battery_title">Mostrar percentagem da bateria</string>
+	<string name="show_date_title">Mostrar data</string>
+
+	<string name="tap_action_do_nothing">Não fazer nada</string>
+	<string name="tap_action_event_default">Abrir evento</string>
+	<string name="tap_action_event_title">Ação ao tocar no evento</string>
+
+	<string name="weather_attribution_yrno">Informação fornecida pelo Instituto Meteorológico Norueguês</string>
+	<string name="weather_icon_set_title">Conjunto de ícones</string>
+	<string name="weather_icons_monochrome">Monocromático</string>
+	<string name="weather_icons_standard">Colorido</string>
+	<string name="weather_inch">in</string>
+	<string name="weather_loading">Carregando informação meteorológica\u2026</string>
+	<string name="weather_mm">mm</string>
+	<string name="weather_show_refresh">Mostrar ícone de atualização</string>
 </resources>
