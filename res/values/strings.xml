@@ -209,8 +209,10 @@
     <string name="news_feed_provider_title">Provider type</string>
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_feedly" translatable="false">Feedly</string>
+    <string name="news_feed_provider_facebook" translatable="false">Facebook</string>
     <string name="news_feed_provider_settings_rss_title">Feed sources</string>
     <string name="news_feed_provider_settings_feedly_title">Feedly settings</string>
+    <string name="news_feed_provider_settings_facebook_title">Facebook settings</string>
     <string name="news_feed_refresh_interval">Update interval</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (applies to all widgets)</string>
 
@@ -287,6 +289,15 @@
     <string name="feedly_msg_auth_access_success">Account linked successfully</string>
     <string name="feedly_msg_access_error">Failed to access user information</string>
 
+    <!-- News Feed Provider Settings - Facebook -->
+    <string name="facebook_article_source" translatable="false">%1$s</string>
+    <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
+    <string name="facebook_account_title">Facebook account</string>
+    <string name="facebook_account_summary_logout">You don\'t have any account linked to Facebook. Tap here to link your account</string>
+    <string name="facebook_account_summary_login">Your account is linked to Facebook. Tap here to unlink your account.\n\nAccount: <xliff:g id="account" example="user@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="facebook_msg_auth_access_success">Account linked successfully</string>
+    <string name="facebook_msg_access_error">Failed to access user information</string>
+
     <!-- Font colors -->
     <string name="white">White</string>
     <string name="grey">Grey</string>
@@ -358,6 +369,7 @@
     <string name="tap_action_do_nothing">Do nothing</string>
     <string name="tap_action_event_title">Event tap action</string>
     <string name="tap_action_event_default">Open event</string>
+    <string name="tap_action_month_view">Toggle Month/List view</string>
 
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">Widget background</string>
@@ -454,6 +466,7 @@
     <string name="calendar_style_title">Calendar style</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Classic</string>
+    <string name="month_view_style">Month view</string>
 
     <!-- Incompatible launcher -->
     <string name="incompatible_launcher_title">Incompatible launcher</string>
