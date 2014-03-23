@@ -276,7 +276,7 @@
     <string name="facebook_article_source_with_app">%1$s (prin %2$s)</string>
     <string name="facebook_account_title">Cont Facebook</string>
     <string name="facebook_account_summary_logout">Neconectat. Atingeți aici pentru conectare</string>
-    <string name="facebook_account_summary_login">Conectat. Atingeți aici pentru deconectare.\n\nCont: <xliff:g id="account" example="user@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="facebook_account_summary_login">Conectat. Atingeți aici pentru deconectare\n\nCont: <xliff:g id="account" example="user@myaccount.com">%1$s</xliff:g>\n</string>
     <string name="facebook_msg_auth_access_success">Conectat cu succes</string>
     <string name="facebook_msg_access_error">Nu s-a reușit accesarea informației utilizatorului</string>
 
@@ -338,7 +338,7 @@
     <string name="tap_action_do_nothing">Fără acțiune</string>
     <string name="tap_action_event_title">Acțiune atingere eveniment</string>
     <string name="tap_action_event_default">Deschidere eveniment</string>
-    <string name="tap_action_month_view">Comutare afișare Lună/Listă</string>
+    <string name="tap_action_month_view">Comutare Lună/Listă</string>
 
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">Fundal</string>
