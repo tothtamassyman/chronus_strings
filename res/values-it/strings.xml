@@ -196,6 +196,7 @@
     <string name="news_feed_provider_rss">RSS</string>
     <string name="news_feed_provider_settings_rss_title">Fonti</string>
     <string name="news_feed_provider_settings_feedly_title">Impostazioni Feedly</string>
+    <string name="news_feed_provider_settings_facebook_title">Impostazioni Facebook</string>
     <string name="news_feed_refresh_interval">Intervallo aggiornamento</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (si applica a tutti i widget)</string>
 
@@ -271,6 +272,14 @@
     <string name="feedly_msg_auth_access_success">Account collegato con successo</string>
     <string name="feedly_msg_access_error">Accesso alle informazioni utente fallito</string>
 
+    <!-- News Feed Provider Settings - Facebook -->
+    <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
+    <string name="facebook_account_title">Account Facebook</string>
+    <string name="facebook_account_summary_logout">Non hai nessun account collegato a Facebook. Tocca per collegare il tuo account</string>
+    <string name="facebook_account_summary_login">Il tuo account è collegato a Facebook. Tocca per scollegare il tuo account.\n\nAccount: <xliff:g id="account" example="user@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="facebook_msg_auth_access_success">Account collegato con successo</string>
+    <string name="facebook_msg_access_error">Accesso alle informazioni utente fallito</string>
+
     <!-- Font colors -->
     <string name="white">Bianco</string>
     <string name="grey">Grigio</string>
@@ -343,6 +352,7 @@
     <string name="tap_action_do_nothing">Non fare nulla</string>
     <string name="tap_action_event_title">Azione al tocco dell\'evento</string>
     <string name="tap_action_event_default">Apri evento</string>
+    <string name="tap_action_month_view">Toggle Month/List view</string>
 
     <!-- Preferences - Widget background -->
     <string name="widget_background_title">Sfondo widget</string>
@@ -428,6 +438,7 @@
     <string name="calendar_style_title">Stile calendario</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Classico</string>
+    <string name="month_view_style">Vista Mese</string>
 
     <!-- Incompatible launcher -->
     <string name="incompatible_launcher_title">Launcher incompatibile</string>
