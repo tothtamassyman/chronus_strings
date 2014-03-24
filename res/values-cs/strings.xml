@@ -179,6 +179,7 @@
     <string name="news_feed_provider_title">Typ zdroje</string>
     <string name="news_feed_provider_settings_rss_title">Zdroj zpráv</string>
     <string name="news_feed_provider_settings_feedly_title">Nastavení Feedly</string>
+    <string name="news_feed_provider_settings_facebook_title">Nastavení Facebook</string>
     <string name="news_feed_refresh_interval">Interval aktualizace</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (použije se na všechny widgety)</string>
 
@@ -246,6 +247,13 @@
     <string name="feedly_msg_auth_access_success">Úspěšné propojení účtu</string>
     <string name="feedly_msg_access_error">Přístup k uživatelským informacím selhal</string>
 
+    <string name="facebook_article_source_with_app">%1$s (pomocí %2$s)</string>
+    <string name="facebook_account_title">Účet Facebook</string>
+    <string name="facebook_account_summary_logout">Není nastaven žádný účet pro Facebook. Dotykem zde jej můžete zadat</string>
+    <string name="facebook_account_summary_login">Účet pro Facebook je aktivní. Dotykem zde jej můžete zrušit.\n\nÚčet: <xliff:g id="account" example="user@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="facebook_msg_auth_access_success">Účet aktivován úspěšně</string>
+    <string name="facebook_msg_access_error">Selhalo získání uživatelských informací</string>
+
     <string name="white">Bílá</string>
     <string name="grey">Šedivá</string>
     <string name="black">Černá</string>
@@ -306,6 +314,7 @@
     <string name="tap_action_do_nothing">Nedělat nic</string>
     <string name="tap_action_event_title">Akce dotyku na událost</string>
     <string name="tap_action_event_default">Otevřít událost</string>
+    <string name="tap_action_month_view">Přepnout pohled měsíc/seznam</string>
 
     <string name="widget_background_title">Pozadí widgetu</string>
     <string name="widget_background_default">Průhledné</string>
@@ -374,6 +383,7 @@
     <string name="calendar_style_title">Vzhled kalendáře</string>
     <string name="standard_style">Standardní</string>
     <string name="classic_style">Klasické</string>
+    <string name="month_view_style">Měsíční přehled</string>
 
     <string name="incompatible_launcher_title">Nekompatibilní spouštěč</string>
     <string name="incompatible_launcher_message">Používaný spouštěč nepodporuje volání API APPWIDGET_MIN_HEIGHT,
