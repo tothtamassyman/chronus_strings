@@ -242,8 +242,8 @@
 
     <!-- News - Service -->
     <plurals name="news_feed_new_articles">
-    <item quantity="one">1 articol nou</item>
-    <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> articole noi</item>
+         <item quantity="one">1 articol nou</item>
+         <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> articole noi</item>
     </plurals>
 
     <!-- News - Reader -->
@@ -252,6 +252,7 @@
     <string name="news_feed_reader_list_last_published">Actualizat la <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Accesare articol</string>
     <string name="news_feed_internal_viewer_title">Vizualizator intern</string>
+    <string name="news_feed_reader_no_maps_installed">Nu există aplicație pentru afișarea locației</string>
 
     <!-- News Feed Provider Settings - RSS -->
     <string name="rss_sources_custom_header">Definit de utilizator</string>
@@ -259,18 +260,20 @@
     <string name="rss_custom_source_title">Sursă personalizată</string>
     <string name="rss_custom_source_name">Denumire:</string>
     
-    <!-- News Feed Provider Settings - Feedly -->
-    <string name="feedly_account_title">Cont Feedly</string>
+    <!-- News Feed Provider Settings - OAuth shared -->
     <string name="oauth_account_summary_logout">Deconectat. Atingeți aici pentru conectare</string>
     <string name="oauth_account_summary_login">Conectat. Atingeți aici pentru deconectare\n\nCont: <xliff:g id="account" example="user@myaccount.com">%2$s</xliff:g>\n</string>
+    <string name="oauth_msg_auth_access_success">Cont conectat cu succes</string>
+    <string name="oauth_msg_access_error">Eroare accesare informație cont</string>
+    
+    <!-- News Feed Provider Settings - Feedly -->
+    <string name="feedly_account_title">Cont Feedly</string>
     <string name="feedly_preferences_title">Preferințe</string>
     <string name="feedly_trending_content_title">Afișare trenduri</string>
     <string name="feedly_categories_title">Categorii</string>
     <string name="feedly_category_uncategorized">Necategorizate</string>
     <string name="feedly_msg_retrieving_user_profile">Preluare profil\u2026</string>
     <string name="feedly_msg_retrieving_user_categories">Preluare categorii\u2026</string>
-    <string name="oauth_msg_auth_access_success">Cont conectat cu succes</string>
-    <string name="oauth_msg_access_error">Eroare accesare informație cont</string>
 
     <!-- News Feed Provider Settings - Facebook -->
     <string name="facebook_article_source_with_app">%1$s (prin %2$s)</string>
