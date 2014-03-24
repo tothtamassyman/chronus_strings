@@ -212,16 +212,16 @@
     <string name="rss_custom_source_title">Pridať vlastný zdroj</string>
     <string name="rss_custom_source_name">Názov:</string>
     <string name="feedly_account_title">Účet Feedly</string>
-    <string name="feedly_account_summary_logout">Nemáte žiadny účet spojený s Feedly. Kliknite sem pre spojenie vášho účtu</string>
-    <string name="feedly_account_summary_login">Váš účet je spojený s Feedly. Kliknite sem pre odpojenie vášho účtu.\n\nÚčet: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="oauth_account_summary_logout">Nemáte žiadny účet spojený s <xliff:g id="provider">%1$s</xliff:g>. Kliknite sem pre spojenie vášho účtu</string>
+    <string name="oauth_account_summary_login">Váš účet je spojený s <xliff:g id="provider">%1$s</xliff:g>. Kliknite sem pre odpojenie vášho účtu.\n\nÚčet: <xliff:g id="account" example="user@myaccount.com">%2$s</xliff:g>\n</string>
     <string name="feedly_preferences_title">Nastavenia</string>
     <string name="feedly_trending_content_title">Zobraziť trendy</string>
     <string name="feedly_categories_title">Kategórie</string>
     <string name="feedly_category_uncategorized">Nezaradené</string>
     <string name="feedly_msg_retrieving_user_profile">Získava sa profil používateľa\u2026</string>
     <string name="feedly_msg_retrieving_user_categories">Získavajú sa kategórie používateľa\u2026</string>
-    <string name="feedly_msg_auth_access_success">Spojenie s účtom bolo úspešné</string>
-    <string name="feedly_msg_access_error">Nepodarilo sa získať informácie o používateľovi</string>
+    <string name="oauth_msg_auth_access_success">Spojenie s účtom bolo úspešné</string>
+    <string name="oauth_msg_access_error">Nepodarilo sa získať informácie o používateľovi</string>
     <string name="white">Biela</string>
     <string name="grey">Šedá</string>
     <string name="black">Čierna</string>

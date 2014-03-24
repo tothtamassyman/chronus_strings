@@ -261,24 +261,20 @@
     
     <!-- News Feed Provider Settings - Feedly -->
     <string name="feedly_account_title">Cont Feedly</string>
-    <string name="feedly_account_summary_logout">Deconectat. Atingeți aici pentru conectare</string>
-    <string name="feedly_account_summary_login">Conectat. Atingeți aici pentru deconectare\n\nCont: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="oauth_account_summary_logout">Deconectat. Atingeți aici pentru conectare</string>
+    <string name="oauth_account_summary_login">Conectat. Atingeți aici pentru deconectare\n\nCont: <xliff:g id="account" example="user@myaccount.com">%2$s</xliff:g>\n</string>
     <string name="feedly_preferences_title">Preferințe</string>
     <string name="feedly_trending_content_title">Afișare trenduri</string>
     <string name="feedly_categories_title">Categorii</string>
     <string name="feedly_category_uncategorized">Necategorizate</string>
     <string name="feedly_msg_retrieving_user_profile">Preluare profil\u2026</string>
     <string name="feedly_msg_retrieving_user_categories">Preluare categorii\u2026</string>
-    <string name="feedly_msg_auth_access_success">Cont conectat cu succes</string>
-    <string name="feedly_msg_access_error">Eroare accesare informație cont</string>
+    <string name="oauth_msg_auth_access_success">Cont conectat cu succes</string>
+    <string name="oauth_msg_access_error">Eroare accesare informație cont</string>
 
     <!-- News Feed Provider Settings - Facebook -->
     <string name="facebook_article_source_with_app">%1$s (prin %2$s)</string>
     <string name="facebook_account_title">Cont Facebook</string>
-    <string name="facebook_account_summary_logout">Neconectat. Atingeți aici pentru conectare</string>
-    <string name="facebook_account_summary_login">Conectat. Atingeți aici pentru deconectare\n\nCont: <xliff:g id="account" example="user@myaccount.com">%1$s</xliff:g>\n</string>
-    <string name="facebook_msg_auth_access_success">Conectat cu succes</string>
-    <string name="facebook_msg_access_error">Nu s-a reușit accesarea informației utilizatorului</string>
 
     <!-- Font colors -->
     <string name="white">Alb</string>
