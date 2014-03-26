@@ -140,6 +140,7 @@
     <string name="display_category">Display</string>
     <string name="provider_category">Provider</string>
     <string name="daydream_category">Screensaver</string>
+    <string name="maintenance_category">Maintenance</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Lock screen</string>
@@ -215,6 +216,9 @@
     <string name="news_feed_provider_settings_facebook_title">Facebook settings</string>
     <string name="news_feed_refresh_interval">Update interval</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (applies to all widgets)</string>
+    <string name="news_feed_clear_cache_title">Clear cache</string>
+    <string name="news_feed_clear_cache_summary">Delete all locally cached items, images and thumbnails</string>
+    <string name="news_feed_cache_cleared">Item cache cleared</string>
 
     <!-- News Feed - Update frequency -->
     <string name="news_feed_refresh_manual">Manual</string>
@@ -296,6 +300,8 @@
     <string name="facebook_article_source" translatable="false">%1$s</string>
     <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
     <string name="facebook_account_title">Facebook account</string>
+    <string name="facebook_show_avatar_title">Show Avatar images</string>
+    <string name="facebook_show_thumbnail_title">Show thumbnails</string>
 
     <!-- Font colors -->
     <string name="white">White</string>
