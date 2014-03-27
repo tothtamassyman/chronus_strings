@@ -77,7 +77,6 @@
     <string name="weather_45">Gökgürültülü</string>
     <string name="weather_46">Kar Yağışlı</string>
     <string name="weather_47">Bölgesel Gökgürültülü</string>
-    <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
     <!-- Weather - Speed units -->
     <string name="weather_kph">kmh</string>
@@ -184,7 +183,7 @@
     <string name="news_feed_no_articles_text_title">\'Haber Yok\' göster </string>
     <string name="news_feed_provider_title">Kaynak tipi</string>
     <string name="news_feed_provider_rss">RSS</string>
-    <string name="news_feed_provider_settings_title">Haber kaynakları</string>
+    <string name="news_feed_provider_settings_rss_title">Haber kaynakları</string>
     <string name="news_feed_refresh_interval">Güncelleme aralığı</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (tüm widgetler için geçerli)</string>
 
@@ -225,32 +224,6 @@
     <string name="news_feed_no_data">Yeni başlık mevcut değil</string>
     <string name="news_feed_no_data_summary">Yenilemek için tıklayın</string>
     <string name="news_feed_article_new_format">[YENİ] <xliff:g id="title">%s</xliff:g></string>
-    <string name="news_feed_read_more">Daha fazla\u2026</string>
-
-    <!-- News - Service -->
-    <plurals name="news_feed_new_articles">
-        <item quantity="one">1 yeni başlık</item>
-        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> yeni başlık</item>
-    </plurals>
-
-    <!-- News - Reader -->
-    <string name="news_feed_reader_list_all_articles_title">Tüm başlıklar</string>
-    <string name="news_feed_reader_list_unread_articles_title">Okunmamış başlıklar</string>
-    <string name="news_feed_reader_list_last_published">Günceleme <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
-    <string name="news_feed_reader_goto_button">Başlığa git</string>
-
-    <!-- News Feed Provider Settings - RSS -->
-    <string name="rss_sources_custom_header">Kullanıcı tanımlı</string>
-    <string name="rss_custom_source_url">Url:</string>
-    <string name="rss_custom_source_title">Özel kaynak ekle</string>
-    <string name="rss_custom_source_name">İsim:</string>
-
-    <!-- News - Widgets -->
-    <string name="news_feed_loading">Başlıklar yükleniyor</string>
-    <string name="news_feed_loading_summary">Lütfen birkaç saniye bekleyin\u2026</string>
-    <string name="news_feed_no_data">Yeni başlık yok</string>
-    <string name="news_feed_no_data_summary">Yenilemek için dokunun</string>
-    <string name="news_feed_article_new_format">[Yeni] <xliff:g id="title">%s</xliff:g></string>
     <string name="news_feed_read_more">Daha fazla\u2026</string>
 
     <!-- News - Service -->
