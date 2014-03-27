@@ -265,7 +265,7 @@
     <string name="rss_custom_source_name">Denumire:</string>
     
     <!-- News Feed Provider Settings - OAuth shared -->
-    <string name="oauth_account_summary_logout">Deconectat. Atingeți aici pentru conectare</string>
+    <string name="oauth_account_summary_logout">Deconectat. Atingeți aici pentru conectare.</string>
     <string name="oauth_account_summary_login">Conectat. Atingeți aici pentru deconectare\n\nCont: <xliff:g id="account" example="user@myaccount.com">%2$s</xliff:g>\n</string>
     <string name="oauth_msg_auth_access_success">Cont conectat cu succes</string>
     <string name="oauth_msg_access_error">Eroare accesare informație cont</string>
@@ -282,9 +282,8 @@
     <!-- News Feed Provider Settings - Facebook -->
     <string name="facebook_article_source_with_app">%1$s (prin %2$s)</string>
     <string name="facebook_account_title">Cont Facebook</string>
-<string name="facebook_show_avatar_title">Afișare avatare</string>
- 	304	
-+    <string name="facebook_show_thumbnail_title">Afișare miniaturi</string>
+    <string name="facebook_show_avatar_title">Afișare avatare</string>
+    <string name="facebook_show_thumbnail_title">Afișare miniaturi</string>
 
     <!-- Font colors -->
     <string name="white">Alb</string>
