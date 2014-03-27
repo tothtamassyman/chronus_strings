@@ -127,6 +127,7 @@
     <string name="display_category">Afișare</string>
     <string name="provider_category">Furnizor</string>
     <string name="daydream_category">Screensaver</string>
+    <string name="maintenance_category"Mentenanță</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Ecran blocare</string>
@@ -199,6 +200,9 @@
     <string name="news_feed_provider_settings_facebook_title">Setări Facebook</string>
     <string name="news_feed_refresh_interval">Interval actualizare</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (se aplică pentru toate widget-urile)</string>
+    <string name="news_feed_clear_cache_title">Curățare cache</string>
+    <string name="news_feed_clear_cache_summary">Ștergere completă a datelor cache locale</string>
+    <string name="news_feed_cache_cleared">Cache curățat</string>
 
     <!-- News Feed - Update frequency -->
     <string name="news_feed_refresh_manual">Manual</string>
@@ -278,6 +282,9 @@
     <!-- News Feed Provider Settings - Facebook -->
     <string name="facebook_article_source_with_app">%1$s (prin %2$s)</string>
     <string name="facebook_account_title">Cont Facebook</string>
+<string name="facebook_show_avatar_title">Afișare avatare</string>
+ 	304	
++    <string name="facebook_show_thumbnail_title">Afișare miniaturi</string>
 
     <!-- Font colors -->
     <string name="white">Alb</string>
