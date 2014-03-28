@@ -230,8 +230,6 @@
     <string name="feedly_category_uncategorized">Nezaradené</string>
     <string name="feedly_msg_retrieving_user_profile">Získava sa profil používateľa\u2026</string>
     <string name="feedly_msg_retrieving_user_categories">Získavajú sa kategórie používateľa\u2026</string>
-    <string name="oauth_msg_auth_access_success">Spojenie s účtom bolo úspešné</string>
-    <string name="oauth_msg_access_error">Nepodarilo sa získať informácie o používateľovi</string>
     <string name="facebook_article_source_with_app">%1$s (cez %2$s)</string>
     <string name="facebook_account_title">Účet Facebook</string>
     <string name="facebook_show_avatar_title">Zobraziť obrázky avatarov</string>
