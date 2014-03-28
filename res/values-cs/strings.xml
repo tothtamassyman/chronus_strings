@@ -115,6 +115,7 @@
     <string name="display_category">Zobrazení</string>
     <string name="provider_category">Zdroj</string>
     <string name="daydream_category">Spořič obrazovky</string>
+    <string name="maintenance_category">Údržba</string>
 
     <string name="widget_type_keyguard">Obrazovka zámku</string>
     <string name="widget_type_daydream">Spořič obrazovky</string>
@@ -182,6 +183,9 @@
     <string name="news_feed_provider_settings_facebook_title">Nastavení Facebook</string>
     <string name="news_feed_refresh_interval">Interval aktualizace</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (použije se na všechny widgety)</string>
+    <string name="news_feed_clear_cache_title">Vyčistit cache</string>
+    <string name="news_feed_clear_cache_summary">Smazat všechny lokálně uložené soubory, obrázky a náhledy</string>
+    <string name="news_feed_cache_cleared">Cache souborů vyčištěna</string>
 
     <string name="news_feed_refresh_manual">Ručně</string>
     <string name="news_feed_refresh_30min">30 minut</string>
@@ -229,6 +233,7 @@
     <string name="news_feed_reader_list_last_published">Aktualizováno <xliff:g id="time" example="8:30">%1$s</xliff:g>, <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Přejít na článek</string>
     <string name="news_feed_internal_viewer_title">Použít prohlížeč aplikace</string>
+    <string name="news_feed_reader_no_maps_installed">Nenalezena žádná aplikace na zpracování umístění</string>
 
     <string name="rss_sources_custom_header">Uživatelský</string>
     <string name="rss_custom_source_url">Adresa:</string>
@@ -249,6 +254,8 @@
 
     <string name="facebook_article_source_with_app">%1$s (pomocí %2$s)</string>
     <string name="facebook_account_title">Účet Facebook</string>
+    <string name="facebook_show_avatar_title">Zobrazit avatara</string>
+    <string name="facebook_show_thumbnail_title">Zobrazit náhledy</string>
 
     <string name="white">Bílá</string>
     <string name="grey">Šedivá</string>
