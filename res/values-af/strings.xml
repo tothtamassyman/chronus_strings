@@ -108,6 +108,7 @@
     <string name="appearance_category">Algemene voorkoms</string>
     <string name="general_category">Algemeen</string>
     <string name="display_category">vertooneienskappe</string>
+    <string name="maintenance_category">Onderhoud</string>
 
     <string name="clock_font_title">Ure vetgedruk</string>
     <string name="clock_font_minutes_title">Minute vetgedruk</string>
@@ -254,6 +255,7 @@
     <string name="tap_action_do_nothing">Doen niks</string>
     <string name="tap_action_event_default">Wys afspraak</string>
     <string name="tap_action_event_title">Afspraak aanraak aksie</string>
+    <string name="tap_action_month_view">Wissel Maand/Lys aansig</string>
 
     <string name="widget_background_title">Legstuk agtergrond</string>
     <string name="widget_background_default">Deurskynend</string>
@@ -302,6 +304,7 @@
     <string name="analog_style_title">Klok styl</string>
     <string name="weather_style_title">Weer styl</string>
     <string name="calendar_style_title">Kalender styl</string>
+    <string name="month_view_style">Maandelikse styl</string>
 
     <string name="standard_style">Standaard</string>
     <string name="classic_style">Klassiek</string>
@@ -327,7 +330,7 @@
     <string name="oauth_account_summary_logout">\'n rekening is nognie aan <xliff:g id="provider">%1$s</xliff:g> gekoppel nie. Tik hier om jou rekening te koppel</string>
     <string name="oauth_account_summary_login">Jou rekening is gekoppel aan <xliff:g id="provider">%1$s</xliff:g>. Tik hier om jou rekening te ontkoppel.\n\nRekening: <xliff:g id="account" example="user@myaccount.com">%2$s</xliff:g>\n</string>
     <string name="feedly_preferences_title">Voorkeure</string>
-    <string name="feedly_trending_content_title">Wys tedense</string>
+    <string name="feedly_trending_content_title">Wys tedense items</string>
     <string name="feedly_categories_title">Kategorieë</string>
     <string name="feedly_category_uncategorized">Ongekategoriseer</string>
     <string name="feedly_msg_retrieving_user_profile">Verkry gebruiker profiel\u2026</string>
@@ -370,6 +373,10 @@
     <string name="rss_custom_source_title">Voeg persoonlike bron by</string>
     <string name="rss_custom_source_name">Naam:</string>
     <string name="searching">Soek tans\u2026</string>
+    <string name="news_feed_cache_cleared">Gecacheerde items verwyder</string>
+    <string name="news_feed_clear_cache_summary">Verwyder alle gecacheerde items, foto\'s en duimnaelsketse</string>
+    <string name="news_feed_clear_cache_title">Vee cache uit</string>
+    <string name="news_feed_reader_no_maps_installed">Geen program vir die oopmaak \'n ligging skakel is gevind nie</string>
 
     <string name="widget_type_keyguard">Slotskerm</string>
     <string name="widget_type_daydream">Dagdroom</string>
@@ -388,5 +395,12 @@
     <string name="hide_incompatibility_notice">Verberg kennisgewing</string>
 
     <string name="weather_attribution_yrno">Data verskaf deur die Noorse Meteorologiese Instituut</string>
+
+    <!-- facebook -->
+    <string name="news_feed_provider_settings_facebook_title">Facebook instellings</string>
+    <string name="facebook_account_title">Facebook rekening</string>
+    <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
+    <string name="facebook_show_avatar_title">Wys avatar beeld</string>
+    <string name="facebook_show_thumbnail_title">Wys duimnaelskets</string>
 
 </resources>

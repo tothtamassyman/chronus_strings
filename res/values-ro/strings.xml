@@ -82,7 +82,6 @@
     <string name="weather_45">"Descărcări electrice"</string>
     <string name="weather_46">"Averse de ninsoare"</string>
     <string name="weather_47">"Descărcări electrice izolate"</string>
-    <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
     <!-- Weather - Units -->
     <string name="weather_kph">km/h</string>
@@ -127,7 +126,7 @@
     <string name="display_category">Afișare</string>
     <string name="provider_category">Furnizor</string>
     <string name="daydream_category">Screensaver</string>
-    <string name="maintenance_category"Mentenanță</string>
+    <string name="maintenance_category">Mentenanță</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Ecran blocare</string>
