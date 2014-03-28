@@ -428,7 +428,7 @@
     <string name="calendar_style_title">Stil calendar</string>
     <string name="standard_style">Standard</string>
     <string name="classic_style">Clasic</string>
-    <string name="month_view_style">Stil afișare lună</string>
+    <string name="month_view_style">Afișare lună</string>
 
     <!-- Incompatible launcher -->
     <string name="incompatible_launcher_title">Launcher incompatibil</string>
