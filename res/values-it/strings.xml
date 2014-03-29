@@ -120,7 +120,7 @@
     <string name="clock_category">Orologio e sveglia</string>
     <string name="weather_category">Meteo</string>
     <string name="news_feed_category">Notizie</string>
-    <string name="calendar_category">Eventi del calendario</string>
+    <string name="calendar_category">Calendario</string>
     <string name="about_category">Info su Chronus</string>
     <string name="appearance_category">Aspetto generale</string>
     <string name="general_category">Generale</string>
