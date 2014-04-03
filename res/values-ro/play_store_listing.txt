@@ -11,8 +11,7 @@ Având funcțional similar widget-ul CyanogenMod cLock și prezentat de același
 <b>Posibilitățile versiunii Pro (disponibile prin cumpărături in-app):</b>
   - Widget-uri adiționale (Prognoză, Calendar, Ceas+ (Prognoză))
   - Acțiuni personalizate la apăsarea panourilor cu ceas, meteo și calendar pentru lansarea aplicațiilor sau activităților
-  - Alinierea ceasului Feedly
-oului meteo (centru, stânga sau dreapta)
+  - Alinierea ceasului și panoului meteo (centru, stânga sau dreapta)
   - Selectare stil ceas analog (Standard sau Clasic)
   - Stil lunar de afișare pentru calendar
   - Culori pentru Calendar
