@@ -2,7 +2,7 @@ Chronus este un widget elegant, ce include panouri cu ceas, meteo, flux de știr
 
 Având funcțional similar widget-ul CyanogenMod cLock și prezentat de același dezvoltator, acest widget separat și lansat independent își recapătă numele original - Chronus și permite tuturor utilizatorilor Android să se bucure de aceleași posibilități, de rând cu multe alte funcții noi și îmbunătățiri.
 
-Fiind un widget "Informațional" flexibil, Chronus este extrem de optimizat la capitolul utilizare procesor și date, cu un potențial de a înlocui alte câteva widget-uri informaționale. Multiple widget-uri Chronus pe același dispozitiv utilizează aceleași servicii, iar actualizările sunt cumulate. Aceasta permite utilizarea mai redusă a bateriei, oferind în același timp utilizatorului informație amplă. Puteți opta pentru utilizarea tuturor posibilităților sau doar a uneia, iar cele neutilizate fiind complet deconectate, neutilizînd resursele procesorului, bateriei sau date.
+Fiind un widget "Informațional" flexibil, Chronus este extrem de optimizat la capitolul utilizare procesor și date, cu un potențial de a înlocui alte câteva widget-uri informaționale. Multiple widget-uri Chronus pe același dispozitiv utilizează aceleași servicii, iar actualizările sunt cumulate. Aceasta permite utilizarea mai redusă a bateriei, oferind în același timp utilizatorului informație amplă. Puteți opta pentru utilizarea tuturor posibilităților sau doar a uneia, astfel ca cele neutilizate să fie complet deconectate, neutilizînd resursele procesorului, bateriei sau date.
 
 <b>Atrageți atenție:</b>
 1) Widget-ul ecranului de blocare este compatibil doar cu Android 4.2+. Aceasta este o limitare a SO Android, dar nu din partea Chronus
