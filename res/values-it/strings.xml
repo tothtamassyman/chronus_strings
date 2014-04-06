@@ -168,6 +168,7 @@
     <string name="weather_show_when_minimized_summary">Mostra informazioni di riepilogo sul meteo quando il widget è minimizzato</string>
     <string name="weather_select_location">Seleziona posizione</string>
     <string name="weather_show_refresh">Mostra l\'icona di aggiornamento</string>
+    <string name="weather_show_notification">Mostra notifiche</string>
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">Visualizza eventi</string>
