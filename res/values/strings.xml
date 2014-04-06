@@ -141,6 +141,7 @@
     <string name="provider_category">Provider</string>
     <string name="daydream_category">Screensaver</string>
     <string name="maintenance_category">Maintenance</string>
+    <string name="notifications_category">Notifications</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Lock screen</string>
@@ -182,7 +183,12 @@
     <string name="weather_show_when_minimized_summary">Display summary weather information when the widget is minimized</string>
     <string name="weather_select_location">Select location</string>
     <string name="weather_show_refresh">Show refresh icon</string>
-    <string name="weather_show_notification">Show notifications</string>
+
+    <!-- Weather notifications -->
+    <string name="weather_show_notification">Current conditions</string>
+    <string name="weather_show_notification_summary">Display a low priority notification after a weather refresh</string>
+    <string name="weather_notification_forecast">Include forecast</string>
+    <string name="weather_notification_forecast_summary">Show as an expandable notification with the multi-day forecast (if available)</string>
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">Display next event</string>
