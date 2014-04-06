@@ -104,7 +104,7 @@
     <string name="weather_no_data">Nu există date</string>
     <string name="weather_tap_to_refresh">Atingeți pentru actualizare</string>
     <string name="weather_last_sync_just_now">Acum</string>
-    <string name="weather_cannot_reach_provider">Meteo indisponibil</string>
+    <string name="weather_cannot_reach_provider">Meteo %s indisponibil</string>
 
     <!-- Weather - Update frequency -->
     <string name="weather_refresh_manual">"Manual"</string>
