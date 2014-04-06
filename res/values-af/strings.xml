@@ -140,6 +140,7 @@
     <string name="weather_show_when_minimized_title">Wys wanneer geminimaliseer</string>
     <string name="weather_show_when_minimized_summary">Wys opgesomde weerbesonderhede wanneer die legstuk geminimaliseer word</string>
     <string name="weather_select_location">Selekteer ligging</string>
+    <string name="weather_show_notification">Wys kennisgerwings</string>
 
     <string name="calendar_title">Wys volgende item</string>
     <string name="calendars_title">Afsprake kalenders</string>
@@ -213,10 +214,6 @@
         te konfigureer kan beperk wees.\n\nVir Android 4.2+, om \'n legstuk tot die Slotskerm by te voeg,
         skuif links op die skerm en gebruik dan die + knoppie om Chronus by te voeg. Slotskerm legstukke
         kan geherrangskik word deur \'n lang-druk en dan te beweeg of te verwyder.</string>
-
-    <string name="no_widget_message">At least one Chronus Widget must be added to either the Home or the
-        Lock screen before you can use this app to change its configuration.\n\nWidgets can be added using the widget
-        picker feature of Android and your launcher.</string>
 
     <string name="no_widget_message">Ten minste een Chronus legstuk moet op die Tuisskerm of Slotskerm geplaas
         word voordat die program gebruik kan word om legstuk instellings te verander. Legstukke word deur middel van

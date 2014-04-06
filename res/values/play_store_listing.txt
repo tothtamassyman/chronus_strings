@@ -2,19 +2,23 @@ Welcome to Chronus, an elegant Home & Lock screen Clock, Weather, News feed and 
 
 Functionally similar to its older brother the CyanogenMod cLock widget and brought to you by the same developers, this independently released, stand-alone widget takes back its original name - Chronus - and brings the same elegant look and feel, enhanced with many new features and improvements, to the broader Android community.
 
+As a flexible "Information" widget, Chronus is highly optimized in terms of CPU and data usage with the potential of replacing several other info widgets.  Multiple Chronus widgets on the same device share the same back-end services and updates are batched.  This makes the system use less battery while still providing the user with rich information. You can choose to use one or all of the features, those not used are completely disabled, using no CPU, data or battery.
+
 <b>Please note:</b>
 1) Lock screen widgets are only supported on Android 4.2+. This is a limitation of Android itself, not Chronus
 2) On some devices you may have to reboot your device after installing for the widget to show up in the widget picker
 3) Details on the Permissions we use are available at http://goo.gl/EbMLmm
+4) IF YOU USE THE XPOSED FRAMEWORK TO BYPASS THE ANDROID WIDGET API'S, THINGS WILL BREAK! 
 
-<b>Features (Pro version):</b>
+<b>Features (Pro version, available via in-app purchase):</b>
   - Additional Widgets (Forecast, Calendar, Clock+ (Forecast))
   - Custom Tap actions for Clock, Weather and Calendar to launch apps or activities
-  - Set Widget backgrounds
   - Change Clock and Weather panel alignment (Centred, Left or Right)
   - Select Analog clock style (Standard or Classic)
+  - Month view Calendar style
   - Calendar colors
   - Feedly News provider
+  - Facebook News provider
   - Daydream screensaver
   - with more features to be released every 3-4 weeks...
 
@@ -31,6 +35,7 @@ The standard version is functionally equivalent to the CyanogenMod cLock widget 
   - Tapping event opens calendar at selected event
   - Taping calendar icon opens Calendar at today's date
   - Highlight upcoming calendar events with custom colors and font bolding
+  - Set Widget backgrounds
   - Change the font color of all text in all panels
   - Configure widget when adding or from the Chronus app in the app drawer
 

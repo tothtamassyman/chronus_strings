@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- General strings -->
   <string name="unknown">לא ידוע</string>
   <string name="cancel">ביטול</string>
   <string name="loading_indicator">טוען ווידג\'ט\u2026</string>
@@ -7,10 +8,18 @@
   <string name="menu_add">הוספה</string>
   <string name="menu_search">חיפוש</string>
   <string name="ok">אישור</string>
+  <string name="close">סגירה</string>
   <string name="exit">יציאה</string>
   <string name="msg_service_unavailable">השירות איננו זמין</string>
   <string name="msg_login_failed">התחברות נכשלה</string>
+  <string name="searching">מחפש\u2026</string>
+  
+  <!-- Formats -->
   <string name="format_seconds">%s שניות.</string>
+  
+  <!-- Formating strings for widget clock -->
+  
+  <!-- Weather - Weather codes -->
   <string name="weather_0">טורנדו</string>
   <string name="weather_1">סופה טרופית</string>
   <string name="weather_2">הוריקן</string>
@@ -59,10 +68,15 @@
   <string name="weather_45">סופות גשמים ורעמים</string>
   <string name="weather_46">ממטרי שלג</string>
   <string name="weather_47">סופות רעמים בודדות</string>
+  <string name="weather_3200"></string> <!-- Forecast unavailable -->
+  
+  <!-- Weather - Units -->
   <string name="weather_kph">קמ\"ש</string>
   <string name="weather_mph">מייל לשעה</string>
   <string name="weather_mm">מילימטר</string>
   <string name="weather_inch">אינץ\'</string>
+  
+  <!-- Weather - Wind directions -->
   <string name="weather_N">צפונית</string>
   <string name="weather_NE">צפון מזרחית</string>
   <string name="weather_E">מזרחית</string>
@@ -71,11 +85,15 @@
   <string name="weather_SW">דרום מערבית</string>
   <string name="weather_W">מערבית</string>
   <string name="weather_NW">צפון מערבית</string>
-  <string name="weather_loading">טוען מידע על מזג אוויר\u2026</string>
+  
+  <!-- Weather - Error messages -->
+  <string name="weather_loading">טעינת מידע על מזג האוויר\u2026</string>
   <string name="weather_no_data">אין נתונים</string>
   <string name="weather_tap_to_refresh">הקשה לרענון</string>
   <string name="weather_last_sync_just_now">כרגע</string>
   <string name="weather_cannot_reach_provider">אין אפשרות להגיע אל %s כרגע</string>
+  
+  <!-- Weather - Update frequency -->
   <string name="weather_refresh_manual">ידני</string>
   <string name="weather_refresh_30min">30 דקות</string>
   <string name="weather_refresh_60min">60 דקות</string>
@@ -83,6 +101,8 @@
   <string name="weather_refresh_4hrs">4 שעות</string>
   <string name="weather_refresh_6hrs">6 שעות</string>
   <string name="weather_refresh_8hrs">8 שעות</string>
+  
+  <!-- Preferences - Categories -->
   <string name="clock_category">שעון ושעון מעורר</string>
   <string name="weather_category">לוח מזג אוויר</string>
   <string name="news_feed_category">הזנת חדשות</string>
@@ -93,14 +113,23 @@
   <string name="display_category">תצוגה</string>
   <string name="provider_category">ספק</string>
   <string name="daydream_category">שומר מסך</string>
-  <string name="widget_type_keyguard">מסך הנעילה</string>
+  <string name="maintenance_category">תחזוקה</string>
+  
+  <!-- Preferences - widget types in selection list -->
+  <string name="widget_type_keyguard">מסך נעילה</string>
   <string name="widget_type_daydream">שומר מסך ליום</string>
   <string name="widget_type_homescreen">מסך הבית</string>
+  
+  <!-- Preferences - Clock -->
   <string name="clock_font_title">שעות מודגשות</string>
   <string name="clock_font_minutes_title">דקות מודגשות</string>
   <string name="clock_font_date_title">שעון מעורר ותאריך מודגשים</string>
   <string name="show_alarm_title">הצגת השעון המעורר הבא</string>
   <string name="clock_am_pm_title">הצגת מחוון AM/PM</string>
+  <string name="clock_font_upscaling_title">אפשור איכות משופרת</string>
+  <string name="clock_font_upscaling_summary">אפשרות זו עלולה לא לעבוד באופן תקין עם ווידג\'ט מסך הנעילה</string>
+  
+  <!-- Preferences - Weather -->
   <string name="weather_enabled">מאופשר</string>
   <string name="weather_enable">הצגת מזג אוויר</string>
   <string name="weather_source_title">מקור למזג אוויר</string>
@@ -113,7 +142,7 @@
   <string name="weather_show_timestamp_title">הצגת חותמת זמן</string>
   <string name="weather_refresh_interval">מרווחי זמן לעידכון</string>
   <string name="weather_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (מתאים לכל הווידג\'טים)</string>
-  <string name="weather_use_metric">השתמש במטרים (\u00b0C)</string>
+  <string name="weather_use_metric">שימוש במטרים (\u00b0C)</string>
   <string name="weather_retrieve_location_dialog_title">אין אפשרות לקבל מיקום!</string>
   <string name="weather_retrieve_location_dialog_message">מיקום רשת מכובה.\n\nבחרו מיקום ידנית או הפעילו מיקום רשת</string>
   <string name="weather_retrieve_location_dialog_enable_button">אפשור</string>
@@ -125,6 +154,8 @@
   <string name="weather_show_when_minimized_summary">הצגת תקציר נתוני התחזית כאשר הווידג\'ט ממוזער</string>
   <string name="weather_select_location">בחירת מיקום</string>
   <string name="weather_show_refresh">הצגת אייקון הרענון</string>
+  
+  <!-- Preferences - Calendar -->
   <string name="calendar_title">הצגת האירוע הבא</string>
   <string name="calendars_title">אירועי לוח שנה</string>
   <string name="calendars_summary">מציאת אירועים מלוחות שנה אלו</string>
@@ -140,17 +171,26 @@
   <string name="calendar_highlight_upcoming_events_summary">הדגש אירועי היום הנוכחי, ולאחר השעה 20:00, גם את אירועי למחרת</string>
   <string name="calendar_highlight_upcoming_events_bold">גופן מודגש</string>
   <string name="calendar_add_event_title">הוספת סמל אירוע</string>
+  
+  <!-- Preferences - News feed -->
   <string name="news_feed_title">הצגת עדכוני חדשות</string>
   <string name="news_feed_icon_title">אייקון הזנת חדשות</string>
   <string name="news_feed_rotate_interval">מרווח סיבוב</string>
   <string name="news_feed_display_unread_status">מחוון לא נקראו</string>
-  <string name="news_feed_hide_viewed">הסתר נצפים</string>
+  <string name="news_feed_hide_viewed">הסתרת נצפים</string>
   <string name="news_feed_no_articles_text_title">הצג טקסט \'אין מאמרים\'</string>
   <string name="news_feed_provider_title">סוג ספק</string>
+  <string name="news_feed_provider_rss">RSS</string>
   <string name="news_feed_provider_settings_rss_title">מקורות הזנה</string>
   <string name="news_feed_provider_settings_feedly_title">הגדרות Feedly</string>
+  <string name="news_feed_provider_settings_facebook_title">הגדרות Facebook</string>
   <string name="news_feed_refresh_interval">מרווח עדכון</string>
   <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (מתאים לכל הווידג\'טים)</string>
+  <string name="news_feed_clear_cache_title">ניקוי המטמון</string>
+  <string name="news_feed_clear_cache_summary">מחיקת כל פריטי המטמון המקומיים, תמונות ותמונות ממוזערות</string>
+  <string name="news_feed_cache_cleared">מטמון הפריט נוקה</string>
+  
+  <!-- News Feed - Update frequency -->
   <string name="news_feed_refresh_manual">ידני</string>
   <string name="news_feed_refresh_30min">30 דקות</string>
   <string name="news_feed_refresh_60min">60 דקות</string>
@@ -158,10 +198,14 @@
   <string name="news_feed_refresh_4hrs">4 שעות</string>
   <string name="news_feed_refresh_6hrs">6 שעות</string>
   <string name="news_feed_refresh_8hrs">8 שעות</string>
+  
+  <!-- Preferences - Font colors -->
   <string name="font_color">צבע גופן</string>
   <string name="font_color_alarm">צבע גופן שעון מעורר</string>
   <string name="font_color_timestamp">צבע גופן חותמת זמן</string>
   <string name="font_color_calendar_details">צבע גופן של פרטים</string>
+  
+  <!-- Calendar - Lookahead -->
   <string name="calendar_lookahead_3hrs">3 שעות</string>
   <string name="calendar_lookahead_6hrs">6 שעות</string>
   <string name="calendar_lookahead_12hrs">12 שעות</string>
@@ -171,35 +215,63 @@
   <string name="calendar_lookahead_1wk">שבוע אחד</string>
   <string name="calendar_lookahead_2wks">2 שבועות</string>
   <string name="calendar_lookahead_4wks">4 שבועות</string>
-  <string name="calendar_metadata_none">אל תראה</string>
-  <string name="calendar_metadata_first_line">הצג שורה ראשונה</string>
-  <string name="calendar_metadata_all">הצג הכל</string>
+  
+  <!-- Calendar - Event metadata -->
+  <string name="calendar_metadata_none">לא להציג</string>
+  <string name="calendar_metadata_first_line">הצגת השורה הראשונה</string>
+  <string name="calendar_metadata_all">להציג הכל</string>
   <string name="calendar_metadata_all_day">כל היום</string>
+  
+  <!-- News - Widgets -->
   <string name="news_feed_loading">טעינת מאמרים</string>
   <string name="news_feed_loading_summary">אנא המתן מספר שניות\u2026</string>
   <string name="news_feed_no_data">אין מאמרים חדשים זמינים</string>
   <string name="news_feed_no_data_summary">הקש לרענון</string>
   <string name="news_feed_article_new_format">[חדש] <xliff:g id="title">%s</xliff:g></string>
-  <string name="news_feed_read_more">קרע עוד\u2026</string>
+  <string name="news_feed_read_more">קרא עוד\u2026</string>
+  
+  <!-- News - Service -->
+  <plurals name="news_feed_new_articles">
+    <item quantity="one">מאמר אחד חדש</item>
+    <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> מאמרים חדשים</item>
+  </plurals>
+  
+  <!-- News - Reader -->
   <string name="news_feed_reader_list_all_articles_title">כל המאמרים</string>
   <string name="news_feed_reader_list_unread_articles_title">מאמרים שלא נקראו</string>
   <string name="news_feed_reader_list_last_published">עודכן ב-<xliff:g id="date" example="24 mar">%2$s</xliff:g>, בשעה <xliff:g id="time" example="8:30">%1$s</xliff:g></string>
   <string name="news_feed_reader_goto_button">לך למאמר</string>
   <string name="news_feed_internal_viewer_title">שימוש בתצוגה מובנית</string>
+  <string name="news_feed_reader_no_maps_installed">לא ניתן למצוא אפליקציה לטיפול בקישורי מיקום</string>
+  
+  <!-- News Feed Provider Settings - RSS -->
   <string name="rss_sources_custom_header">מוגדר על ידי המשתמש</string>
   <string name="rss_custom_source_url">קישור:</string>
   <string name="rss_custom_source_title">הוסף מקור מותאם אישית</string>
   <string name="rss_custom_source_name">שם:</string>
-  <string name="feedly_account_title">חשבון Feedly</string>
+  
+  <!-- News Feed Provider Settings - OAuth shared -->
   <string name="oauth_account_summary_logout">אין לך שום חשבון המקושר ל-<xliff:g id="provider">%1$s</xliff:g>. הקש כאן כדי לקשר לחשבונך</string>
   <string name="oauth_account_summary_login">חשבונך מקושר ל-<xliff:g id="provider">%1$s</xliff:g>. הקש כאן כדי לבטל קישור.\n\nחשבון: <xliff:g id="account" example="user@myaccount.com">%2$s</xliff:g>\n</string>
+  <string name="oauth_msg_auth_access_success">חשבון קושר בהצלחה</string>
+  <string name="oauth_msg_access_error">נכשל בגישה למידע חשבון</string>
+  
+  <!-- News Feed Provider Settings - Feedly -->
+  <string name="feedly_account_title">חשבון Feedly</string>
   <string name="feedly_preferences_title">העדפות</string>
   <string name="feedly_trending_content_title">הצג תוכן נפוץ</string>
   <string name="feedly_categories_title">קטגוריות</string>
+  <string name="feedly_category_uncategorized">ללא קטגוריה</string>
   <string name="feedly_msg_retrieving_user_profile">מאחזר פרופיל משתמש\u2026</string>
   <string name="feedly_msg_retrieving_user_categories">מאחזר קטגוריות\u2026</string>
-  <string name="oauth_msg_auth_access_success">חשבון קושר בהצלחה</string>
-  <string name="oauth_msg_access_error">נכשל בגישה למידע חשבון</string>
+  
+  <!-- News Feed Provider Settings - Facebook -->
+  <string name="facebook_article_source_with_app">%1$s (באמצעות %2$s)</string>
+  <string name="facebook_account_title">חשבון Facebook</string>
+  <string name="facebook_show_avatar_title">הצגת תמונות אוואטר</string>
+  <string name="facebook_show_thumbnail_title">הצגת תמונות ממוזערות</string>
+  
+  <!-- Font colors -->
   <string name="white">לבן</string>
   <string name="grey">אפור</string>
   <string name="black">שחור</string>
@@ -214,6 +286,8 @@
   <string name="holo_orange_dark">כתום כהה</string>
   <string name="holo_blue_bright">כחול בהיר</string>
   <string name="custom_color">מותאם אישית</string>
+  
+   <!-- First run -->
   <string name="how_to_title">עזרה</string>
   <string name="first_run_title">ברוכים הבאים ל-%s</string>
   <string name="first_run_message">Chronus הוא ווידג\'ט אשר דורש הוספה עצמית למסך הנעילה (אנדרואיד 4.1 ומעלה) או למסך הנעילה (אנדרואיד 4.2 ומעלה) בעזרת בוחר הווידג\'טים של אנדרואיד והלאונצ\'ר שלך.\n\nכאשר הווידג\'ט ממוקם, אתה יכול להשתמש אתה יכול להשתמש ביישוםכדי לשנות הגדרות.\n\nזכור לשנות גודל לוח שיהיה מקום לכל הלוחות (שעון, מזג אוויר ולוח שנה) מאחר והווידג\'ט יחביא אוטומטית את הלוחות אם לא גדול מספיק.\n\nעבור התוצאות הטובות ביותר, אני ממליץ להשתמש בלאנצ\'רי Apex או Nova. Chronus יעבוד על מרבית הלאנצ\'רים אבל האפשרות להגדיר איך הם יוצגו יכול להיות מוגבל.\n\nעבור אנרואיד 4.2 ומעלה, הזז שמאלה במסך הנעילה והשתמש בווידג\'ט הפלוס כדי להוסיף את Chronus. מסך הנעילה יכול להיות מסודר על ידי לחיצה ארוכה ואז הזזה או מחיקה שלהם.</string>
@@ -222,6 +296,9 @@
   <string name="credits_summary">בעוד אני ו-Danny Baumann כתבנו את רוב הוידג\'ט, מגיע קרדיט גם למתרגמים הרבים וגם כן לתורמים אחרים כגון Nicolai Ehemann, Matt Booth ו-Jorge Ruesga עבור השפות והתכונות שהם תרמו.</string>
   <string name="contact_title">יצירת קשר</string>
   <string name="send_email">לשלוח e-mail\u2026</string>
+  
+  <!-- START OF PRO VERSION STRINGS -->
+    <!-- Pro features (About) -->
   <string name="pro_features_summary">לחץ כדי להפעיל תכונות פרו</string>
   <string name="pro_features_thanks">תודה על רכישתך</string>
   <string name="pro_features_message">גרסה מלאה כוללת את כל התכונות של הרגילה, ובחודשים הקרובים יווספו תכונות חדשות, כמו:\n\n
@@ -232,11 +309,15 @@
 \u2022 ועוד\u2026\n\nהצעות יתקבלו תמיד בברכה.\n\nתודה רבה על התמיכה שלך.</string>
   <string name="get_pro">קבל Pro</string>
   <string name="pro_check_dialog_message">בודק רישיון Pro\u2026</string>
-  <string name="picker_apps">יישומים</string>
+  
+  <!-- Shortcut picker -->
+  <string name="picker_apps">אפליקציות</string>
   <string name="picker_activities">פעילויות</string>
   <string name="picker_default">פעולת ברירת המחדל</string>
-  <string name="picker_select_custom_app_title">בחר יישום אחר</string>
-  <string name="picker_select_custom_activity_title">בחר פעילות אחרת</string>
+  <string name="picker_select_custom_app_title">בחירת אפליקציה מותאמת</string>
+  <string name="picker_select_custom_activity_title">בחירת פעילות מותאמת</string>
+  
+  <!-- Preferences - Tap actions -->
   <string name="tap_action_title">פעולת הקשה</string>
   <string name="tap_action_clock_default">שעון המערכת</string>
   <string name="tap_action_weather_refresh">רענן מזג האוויר</string>
@@ -245,45 +326,73 @@
   <string name="tap_action_do_nothing">עשה כלום</string>
   <string name="tap_action_event_title">פעולת לחיצה על אירוע</string>
   <string name="tap_action_event_default">פתיחת האירוע</string>
+  <string name="tap_action_month_view">מעבר בין תצוגת חודש/רשימה</string>
+  
+  <!-- Preferences - Widget background -->
   <string name="widget_background_title">רקע ווידג\'ט</string>
   <string name="widget_background_default">שקוף</string>
   <string name="widget_background_color_fill">צבע המילוי</string>
   <string name="widget_background_custom_image">תמונה מותאמת אישית</string>
   <string name="widget_background_dialog_title">בחירת צבע</string>
   <string name="widget_background_result_successful">רקע שונה בהצלחה</string>
-  <string name="widget_background_result_not_successful">לא היתה אפשרות לשנות את רקע</string>
+  <string name="widget_background_result_not_successful">לא ניתן לשנות הרקע</string>
+  
+  <!-- Alignment settings -->
   <string name="alignment_title">יישור</string>
   <string name="alignment_centered">ממורכז</string>
-  <string name="alignment_left">מיושר לשמאל</string>
-  <string name="alignment_right">מיושר לימין</string>
+  <string name="alignment_left">יישור לשמאל</string>
+  <string name="alignment_right">יישור לימין</string>
+  
+  <!-- Calendar colors -->
   <string name="calendar_colors">צבעי לוח שנה</string>
   <string name="calendar_event_color_ifneeded">הצג במידת הצורך</string>
   <string name="calendar_event_color_always">הצג תמיד</string>
+  
+  <!-- Weather providers -->
   <string name="weather_source_yahoo">מזג האוויר ב-Yahoo</string>
+  <string name="weather_attribution_yrno">מידע מסופק על ידי המכון המטרולוגי הנורבגי</string>
+  
+  <!-- Widget names -->
   <string name="chronus_clockplus">Chronus שעון+</string>
   <string name="chronus_weather">מזג אוויר Chronus</string>
   <string name="chronus_forecast">תחזית Chronus</string>
   <string name="chronus_calendar">Chronus לוח שנה</string>
+  <string name="chronus_clockplus_forecast">Chronus שעון+ (תחזית)</string>
   <string name="chronus_news">חדשות Chronus</string>
+  
   <string name="chronus_clockplus_short">שעון+</string>
   <string name="chronus_weather_short">מזג אוויר</string>
   <string name="chronus_forecast_short">תחזית</string>
   <string name="chronus_calendar_short">לוח שנה</string>
+  <string name="chronus_clockplus_forecast_short">שעון+ (תחזית)</string>
   <string name="chronus_news_short">חדשות</string>
+  
   <string name="chronus_flex_analog">Chronus Flex (אנלוגי)</string>
   <string name="chronus_flex_analog_short">Flex (אנלוגי)</string>
+  
+  <!-- Preferences - Widget background rounded corners -->
   <string name="widget_rounded_corners_title">פינות מעוגלות</string>
+  
+  <!-- Calendar - No events -->
   <string name="calendar_no_events">אין אירועים בחלון חיפוש קדימה</string>
   <string name="calendar_no_events_summary">הקש על + כדי להוסיף</string>
   <string name="calendar_no_events_indicator_title">הצג טקסט \'אין אירועים\'</string>
+  
+  <!--  Cling text -->
   <string name="cling_widget_select_title">בחר ווידג\'ט</string>
   <string name="cling_widget_select_detail">ניתן להגדיר כל אחד מהווידג\'טים שימוקם במסמך שלך. בחר אחד שברצונך לקבוע את תצורתה באמצעות הבוחר בחלק העליון.</string>
   <string name="show_date_title">הצגת תאריך</string>
   <string name="show_battery_title">הצגת אחוז סוללה</string>
+  
+  <!-- Weather icon sets -->
   <string name="weather_icon_set_title">ערכת אייקונים</string>
   <string name="icon_set_selection_get_more">קבל עוד\u2026</string>
+  
+  <!-- Icon Set names -->
   <string name="weather_icons_standard">צבעוני</string>
   <string name="weather_icons_monochrome">אחיד</string>
+  
+  <!-- Daydream -->
   <string name="daydream_night_mode_title">מצב לילה</string>
   <string name="daydream_night_mode_summary">עמעם מסך עבור תצוגה טובה יותר בסביבה חשוכה</string>
   <string name="daydream_effect_title">אפקט</string>
@@ -293,13 +402,22 @@
   <string name="daydream_effect_explode">פיצוץ</string>
   <string name="daydream_bg_color_interpolation_title">צבע רקע חלק</string>
   <string name="daydream_bg_color_interpolation_summary">באיטיות שנה צבע רקע לאורך זמן</string>
-  <plurals name="news_feed_new_articles">
-    <item quantity="one">מאמר אחד חדש</item>
-    <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> מאמרים חדשים</item>
-  </plurals>
-    <string name="analog_style_title">סגנון שעון</string>
-    <string name="weather_style_title">סגנון מזג אוויר</string>
-    <string name="calendar_style_title">סגנון לוח שנה</string>
-    <string name="standard_style">רגיל</string>
-    <string name="classic_style">קלאסי</string>
+  
+  <!-- Layout styles -->
+  <string name="analog_style_title">סגנון שעון</string>
+  <string name="weather_style_title">סגנון מזג אוויר</string>
+  <string name="calendar_style_title">סגנון לוח שנה</string>
+  <string name="standard_style">רגיל</string>
+  <string name="classic_style">קלאסי</string>
+  <string name="month_view_style">תצוגת חודש</string>
+  
+  <!-- Incompatible launcher -->
+    <string name="incompatible_launcher_title">לאנצ\'ר לא תואם</string>
+    <string name="incompatible_launcher_message">Your launcher does not support the APPWIDGET_MIN_HEIGHT
+        API call introduced by Google in Android 4.1 and, as a result, several features of Chronus will not function as
+        designed.\n\nChronus has switched to a basic, \'Compatibility mode\' with most of the advanced
+        widget resizing and automatic component hiding functions disabled.\n\nPlease contact your launcher
+        developer for an update or switch to a compatible launcher.</string>
+    <string name="incompatible_launcher_header_notice">רץ במצב תאימות. לחצו לפרטים נוספים</string>
+    <string name="hide_incompatibility_notice">הסתרת ההודעה</string>
 </resources>
