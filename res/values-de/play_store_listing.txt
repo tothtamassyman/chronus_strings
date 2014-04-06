@@ -1,38 +1,44 @@
 Willkommen bei Chronus, einem eleganten Startbildschirm- und Bildschirmsperren-Widget, mit Wetter- und Kalenderfunktion.
 
-Funktionsgleich mit dem cLock-Widget von CyanogenMod wird diese App vom selben Entwickler unter dem ursprünglichen Namen (Chronus) als separate App veröffentlicht. Chronus macht das elegante Aussehen und die Funktionen des cLock-Widgets nun für die gesamte Android-Community verfügbar.
+Funktionsgleich mit dem cLock-Widget von CyanogenMod wird diese App vom selben Entwickler unter dem ursprünglichen Namen (Chronus) als separate App veröffentlicht. Chronus macht das elegante Aussehen und die Funktionen des cLock-Widgets nun für die gesamte Android-Community verfügbar, zusammen mit einer großen Menge an neuen Funktionen und Erweiterungen.
+
+Da Chronus viele verschiedene Informationen in einem Widget zusammenfasst und dabei darauf optimiert ist, akkusparend zu arbeiten und geringen Datenverbrauch zu verursachen, kann es potenziell einige andere Widgets ersetzen. Werden mehrere Chronus-Widgets verwendet und deren Einstellungen es erlauben, werden die Nachrichten- und Wetterdaten zwischen den Widgets geteilt, so dass keine unnötigen Ressourcen verbraucht werden. Nicht verwendete Funktionen werden komplett deaktiviert und verbrauchen keinerlei Prozessorlast, Akku- oder Datenverbrauch.
 
 <b>Bitte beachten:</b>
 1. Bildschirmsperren-Widgets werden erst ab Android 4.2 unterstützt. Dies ist eine Limitierung von Android, nicht von Chronus
 2. Manche Geräte müssen nach der Installation neu gestartet werden, damit Chronus in der Widget-Auswahl erscheint
-3. WidgetLocker wird nicht unterstützt
+3. Details zu den verwendeten Berechtigungen sind (in Englisch) hier verfügbar: http://goo.gl/EbMLmm
+4. Die Verwendung mancher Module des Xposed-Frameworks kann zu Problemen führen!
+5. WidgetLocker wird nicht unterstützt
 
 <b>Funktionen (Pro-Version):</b>
   - Zusätzliche Widgets (Wettervorhersage, Kalender, Wetter)
   - Konfigurierbare Klick-Funktionen für Uhr, Wetter und Kalender, um Apps oder Aktionen zu starten
-  - Auswählbarer Widget-Hintergrund
   - Ausrichtung der Uhr und Wetter-Anzeige wählbar (Zentriert, Links oder Rechts)
+  - Auswählbarer Stil der analogen Uhr (Standard oder klassisch)
+  - Monatsansicht für Kalender
+  - Anzeige der Farbe von Kalendereinträgen
+  - Feedly als Nachrichtenanbieter
+  - Facebook als Nachrichtenanbieter
+  - 'Daydream'-Bildschirmschoner
   - Neue Funktionen erscheinen alle 3-4 Wochen...
 
 <b>Funktionen (Alle Versionen):</b>
 Die Standard-Version beinhaltet alle Funktionen des CyanogenMod cLock-Widgets mit Unterstützung für ältere Android-Versionen
-  - Unterstützt Android ab 4.1
+  - Verschiedene Widgets: Flex, Flex (Analog), Uhr+, Wetter und Nachrichten
   - Kann als Startbildschirm- (Android 4.1+) oder Bildschirmsperren-Widget (Android 4.2+) hinzugefügt werden
   - Anpassbares Aussehen und wählbare Klick-Funktion der Uhr
-  - Auswählen, ob Alarme oder das Datum angezeigt werden sollen
-  - Schriftstärke von Uhr, Wetter und Kalender wählbar (Normal, Fett)
-  - Wetter-Anzeige mit Yahoo! Wetter oder Accuweather
-  - Unterstützung für Icon-Pakete
+  - Wetter-Anzeige mit Daten von Yahoo! Wetter, Accuweather, OpenWeatherMap oder yr.no
   - Minimiertes Wetter-Widget (besonders nützlich für die Bildschirmsperre)
+  - Nachrichten-Widget für RSS-Feeds mit integrierter Artikelanzeige
+  - Unterstützung für Icon-Pakete
   - Kalender-Anzeige mit scrollbarer Terminliste
   - Anklicken des Termins öffnet die Kalenderansicht des entspechenden Termins
   - Anklicken des Kalender-Icons öffnet den Kalender mit dem aktuellen Datum
   - Auswählbare Farbe aller Texte der einzelnen Anzeigen
-  - Konfiguration des Widgets beim Hinzufügen der Chronus-App aus der Anwendungsübersicht
+  - Auswählbarer Widget-Hintergrund
   - Anstehende Kalendertermine mit auswählbaren Farben und Schriftstärken versehen
+  - Konfiguration des Widgets beim Hinzufügen oder über die Chronus-App in der Anwendungsübersicht
 
 <b>Danksagungen:</b>
-Auch wenn ich maßgebliche Teile von Chronus entwickelt habe, geht mein Dank an Danny Baumann für seine Arbeit an den 
-Wetter-Aktualisierungsdiensten sowie allgemeine Codeverbesserungen, an die Übersetzer der CyanogenMod-Community 
-für ihre Arbeit an den Übersetzungen der vielen unterstützten Sprachen, sowie an andere Mitwirkende wie Nicolai Ehemann 
-und Matt Booth für ihre Beiträge.
+Auch wenn Danny Baumann und ich maßgebliche Teile von Chronus entwickelt haben, geht mein Dank auch an die vielen Übersetzer sowie an andere Mitwirkende wie Nicolai Ehemann, Matt Booth und Jorge Ruesga für die von ihnen beibetragenen Übersetzungen und Funktionen.

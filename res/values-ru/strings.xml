@@ -37,11 +37,11 @@
     <string name="weather_6">Дождь с мокрым снегом</string>
     <string name="weather_7">Мокрый снег</string>
     <string name="weather_8">Изморозь</string>
-    <string name="weather_9">Мелкий дождь</string>
-    <string name="weather_10">Град</string>
-    <string name="weather_11">Ливень</string>
-    <string name="weather_12">Ливень</string>
-    <string name="weather_13">Снег с дождём</string>
+    <string name="weather_9">Моросящий дождь</string>
+    <string name="weather_10">Дождь с гололедом</string>
+    <string name="weather_11">Ливни</string>
+    <string name="weather_12">Ливни</string>
+    <string name="weather_13">Кратковременный снег</string>
     <string name="weather_14">Небольшой снег</string>
     <string name="weather_15">Метель</string>
     <string name="weather_16">Снег</string>
@@ -49,16 +49,16 @@
     <string name="weather_18">Мокрый снег</string>
     <string name="weather_19">Пыль</string>
     <string name="weather_20">Туманно</string>
-    <string name="weather_21">Туман</string>
-    <string name="weather_22">Дым</string>
-    <string name="weather_23">Ветрено</string>
+    <string name="weather_21">Дымка</string>
+    <string name="weather_22">Дымно</string>
+    <string name="weather_23">Очень ветрено</string>
     <string name="weather_24">Ветрено</string>
     <string name="weather_25">Холодно</string>
     <string name="weather_26">Облачно</string>
-    <string name="weather_27">Малооблачно</string> <!-- Night -->
-    <string name="weather_28">Малооблачно</string> <!-- Day -->
-    <string name="weather_29">Малооблачно</string> <!-- Night -->
-    <string name="weather_30">Малооблачно</string> <!-- Day -->
+    <string name="weather_27">Значительная облачность</string> <!-- Night -->
+    <string name="weather_28">Значительная облачность</string> <!-- Day -->
+    <string name="weather_29">Переменная облачность</string> <!-- Night -->
+    <string name="weather_30">Переменная облачность</string> <!-- Day -->
     <string name="weather_31">Ясно</string> <!-- Night -->
     <string name="weather_32">Солнечно</string>
     <string name="weather_33">Ясно</string> <!-- Night -->
@@ -66,17 +66,17 @@
     <string name="weather_35">Дождь с градом</string>
     <string name="weather_36">Жарко</string>
     <string name="weather_37">Местами грозы</string>
-    <string name="weather_38">Возможны грозы</string>
-    <string name="weather_39">Возможны грозы</string>
-    <string name="weather_40">Возможны грозы</string>
+    <string name="weather_38">Временами грозы</string>
+    <string name="weather_39">Временами грозы</string>
+    <string name="weather_40">Временами ливни</string>
     <string name="weather_41">Сильный снег</string>
-    <string name="weather_42">Возможен снег</string>
+    <string name="weather_42">Временами снегопады</string>
     <string name="weather_43">Сильный снег</string>
-    <string name="weather_44">Малооблачно</string>
-    <string name="weather_45">Дождь с грозой</string>
-    <string name="weather_46">Дождь со снегом</string>
-    <string name="weather_47">Местами грозы</string>
-    <string name="weather_3200"></string>
+    <string name="weather_44">Переменная облачность</string>
+    <string name="weather_45">Грозовые ливни</string>
+    <string name="weather_46">Снегопады</string>
+    <string name="weather_47">Местами грозовые ливни</string>
+    <string name="weather_3200">Не доступно</string>
 
     <!-- Weather - Units -->
     <string name="weather_kph">км/ч</string>
@@ -235,15 +235,15 @@
 
     <!-- News Feed Provider Settings - Feedly -->
     <string name="feedly_account_title">Аккаунт Feedly</string>
-    <string name="feedly_account_summary_logout">Нет аккаунта, связанного с Feedly. Нажмите здесь для регистрации</string>
-    <string name="feedly_account_summary_login">Аккаунт связан со службой Feedly. Нажмите здесь для его отключения.\n\nАккаунт: <xliff:g id="account" example="user.feedly@myaccount.com">%1$s</xliff:g>\n</string>
+    <string name="oauth_account_summary_logout">Нет аккаунта, связанного с <xliff:g id="provider">%1$s</xliff:g>. Нажмите здесь для регистрации</string>
+    <string name="oauth_account_summary_login">Аккаунт связан со службой <xliff:g id="provider">%1$s</xliff:g>. Нажмите здесь для его отключения.\n\nАккаунт: <xliff:g id="account" example="user@myaccount.com">%2$s</xliff:g>\n</string>
     <string name="feedly_preferences_title">Настройки</string>
     <string name="feedly_trending_content_title">Показывать актуальные темы</string>
     <string name="feedly_categories_title">Категории</string>
     <string name="feedly_msg_retrieving_user_profile">Загрузка профиля\u2026</string>
     <string name="feedly_msg_retrieving_user_categories">Загрузка категорий\u2026</string>
-    <string name="feedly_msg_auth_access_success">Аккаунт успешно привязан</string>
-    <string name="feedly_msg_access_error">Не удаётся получить данные пользователя</string>
+    <string name="oauth_msg_auth_access_success">Аккаунт успешно привязан</string>
+    <string name="oauth_msg_access_error">Не удаётся получить данные пользователя</string>
 
     <string name="white">Белый</string>
     <string name="grey">Серый</string>
