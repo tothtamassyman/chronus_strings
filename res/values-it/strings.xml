@@ -174,7 +174,8 @@
     <string name="weather_show_notification">Condizioni attuali</string>
     <string name="weather_show_notification_summary">Visualizza una notifica a bassa priorità dopo un aggiornamento meteo</string>
     <string name="weather_notification_forecast">Includi previsioni</string>
-    <string name="weather_notification_forecast_summary">Mostra come una notifica espandibile con la previsione di più giorni (se disponibile)</string>
+    <string name="weather_notification_forecast_summary">Mostra come una notifica espandibile con la previsione per più giorni inclusa</string>
+    <string name="notify_no_forecast_data">%s non fornisce la previsione per più giorni</string>
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">Visualizza eventi</string>
