@@ -188,7 +188,8 @@
     <string name="weather_show_notification">Current conditions</string>
     <string name="weather_show_notification_summary">Display a low priority notification after a weather refresh</string>
     <string name="weather_notification_forecast">Include forecast</string>
-    <string name="weather_notification_forecast_summary">Show as an expandable notification with the multi-day forecast (if available)</string>
+    <string name="weather_notification_forecast_summary">Show as an expandable notification with the multi-day forecast included</string>
+    <string name="notify_no_forecast_data">%s does not provide multi-day forecast data</string>
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">Display next event</string>

@@ -145,7 +145,8 @@
     <string name="weather_show_notification">Huidige omstandighede</string>
     <string name="weather_show_notification_summary">Wys \'n lae-prioriteit kennisgewing nadat die weer verfris is</string>
     <string name="weather_notification_forecast">Sluit voorspellings in</string>
-    <string name="weather_notification_forecast_summary">Wys as \'n vergrootbare kennisgewing met multi-dag voorspellings (wanneer beskikbaar)</string>
+    <string name="weather_notification_forecast_summary">Wys as \'n vergrootbare kennisgewing met die multi-dag voorspellings ingesluit</string>
+    <string name="notify_no_forecast_data">%s verskaf nie multi-dag voorspellings data nie</string>
 
     <string name="calendar_title">Wys volgende item</string>
     <string name="calendars_title">Afsprake kalenders</string>
