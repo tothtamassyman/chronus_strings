@@ -132,6 +132,7 @@
     <string name="widget_type_keyguard">Ecran blocare</string>
     <string name="widget_type_homescreen">Ecran principal</string>
     <string name="widget_type_daydream">Screensaver Daydream</string>
+    <string name="notifications_category">Notificări</string>
 
     <!-- Preferences - Clock -->
     <string name="clock_font_title">"Font oră îngroșat"</string>
@@ -167,6 +168,13 @@
     <string name="weather_show_when_minimized_summary">Afişare informație meteo sumară când widget-ul este minimizat</string>
     <string name="weather_select_location">Selectați locația</string>
     <string name="weather_show_refresh">Pictogramă actualizare</string>
+
+    <!-- Weather notifications -->
+    <string name="weather_show_notification">Condiții currente</string>
+    <string name="weather_show_notification_summary">Afișare notificări cu prioritate redusă după actualizările meteo</string>
+    <string name="weather_notification_forecast">Includere prognoză</string>
+    <string name="weather_notification_forecast_summary">Afișare ca notificări cu prognoze meteo extensibile</string>
+    <string name="notify_no_forecast_data">%s nu oferă prognoză meteo</string>
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">"Afişare eveniment următor"</string>
