@@ -173,7 +173,7 @@
     <string name="weather_show_notification">Condiții currente</string>
     <string name="weather_show_notification_summary">Afișare notificări cu prioritate redusă după actualizările meteo</string>
     <string name="weather_notification_forecast">Includere prognoză</string>
-    <string name="weather_notification_forecast_summary">Afișare ca notificări cu prognoze meteo expandabile</string>
+    <string name="weather_notification_forecast_summary">Afișare ca notificări cu prognoze meteo extensibile</string>
     <string name="notify_no_forecast_data">%s nu oferă prognoză meteo</string>
 
     <!-- Preferences - Calendar -->
