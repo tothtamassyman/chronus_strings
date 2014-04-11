@@ -128,6 +128,8 @@
     <string name="provider_category">Fournisseur</string>
     <string name="daydream_category">Écran de veille</string>
     <string name="maintenance_category">Maintenance</string>
+    <string name="notifications_category">Notifications</string>
+    <string name="backup_restore_category">Sauvegarde et restauration</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Écran de verrouillage</string>
@@ -168,7 +170,15 @@
     <string name="weather_show_when_minimized_summary">Afficher le résumé des informations météo lorsque le widget est réduit</string>
     <string name="weather_select_location">Définir le lieu</string>
     <string name="weather_show_refresh">Afficher le bouton d\'actualisation</string>
-    <string name="weather_show_notification">Afficher les notifications</string>
+
+    <!-- Weather notifications -->
+    <string name="weather_show_notification">Conditions météo</string>
+    <string name="weather_show_notification_summary">Afficher une notification après un rafraîchissement de la météo</string>
+    <string name="weather_notification_forecast">Inclure les prévisions</string>
+    <string name="weather_notification_forecast_summary">Afficher une notification étendue avec les prévisions sur plusieurs jours</string>
+    <string name="notify_no_forecast_data">%s ne peut pas fournir des prévisions sur plusieurs jours</string>
+    <string name="weather_notification_persistent">Notification persistante</string>
+    <string name="weather_notification_persistent_summary">Afficher une notification persistante, non-révocable</string>
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">Afficher le prochain événement</string>
@@ -438,4 +448,19 @@
     <string name="incompatible_launcher_message">Votre lanceur d\'application ne supporte pas l\'appel d\'API APPWIDGET_MIN_HEIGHT utilisé par Google depuis Android 4.1, il en résulte que plusieurs fonctionnalités de Chronus ne fonctionneront pas comme prévu.\n\nChronus a basculé dans un mode basique de compatibilité, la plupart des fonctions avancée de redimensionnement et de masquage automatiques du widget sont désactivés.\n\nS\'il vous plaît, contactez le développeur du lanceur d\'application pour une mise à jour ou passez à un lanceur compatible.</string>
     <string name="incompatible_launcher_header_notice">Lancer en mode de compatibilité. Appuyer pour plus de détails</string>
     <string name="hide_incompatibility_notice">Masquer l\'avertissement</string>
+
+    <!-- Preferences backup -->
+    <string name="backup_widget_prefs_title">Sauvegarder le widget sélectionné</string>
+    <string name="backup_all_widget_prefs_title">Sauvegarder tous les widgets</string>
+    <string name="restore_prefs_title">Restaurer les paramètres du widget</string>
+    <string name="restore_no_backup_summary">Aucune sauvegarde correspondante n\'a pu être trouvée</string>
+    <string name="restore_select_dialog_title">Sélection du fichier de sauvegarde</string>
+    <string name="backup_failure_no_storage_toast" product="nosdcard">Les paramètres du widget n\'ont pas pu être sauvegardés, le stockage USB n\'est pas disponible</string>
+    <string name="backup_failure_no_storage_toast" product="default">Les paramètres du widget n\'ont pas pu être sauvegardés, la carte SD n\'est pas disponible</string>
+    <string name="backup_single_success_toast">Les paramètres du widget ont été sauvegardés avec succès</string>
+    <string name="backup_single_failure_toast">Les paramètres du widget n\'ont pas pu être sauvegardés</string>
+    <string name="backup_multiple_result_toast">Les paramètres de <xliff:g id="count">%d</xliff:g> widgets sauvegardés</string>
+    <string name="restore_failure_toast">Les paramètres du widget n\'ont pas pu être restaurés</string>
+    <string name="restore_success_toast">Les paramètres du widget ont été restaurés avec succès</string>
+
 </resources>
