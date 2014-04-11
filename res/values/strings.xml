@@ -142,6 +142,7 @@
     <string name="daydream_category">Screensaver</string>
     <string name="maintenance_category">Maintenance</string>
     <string name="notifications_category">Notifications</string>
+    <string name="backup_restore_category">Backup and restore</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Lock screen</string>
@@ -492,5 +493,19 @@
         developer for an update or switch to a compatible launcher.</string>
     <string name="incompatible_launcher_header_notice">Running in Compatibility mode. Touch for details</string>
     <string name="hide_incompatibility_notice">Hide notice</string>
+
+    <!-- Preferences backup -->
+    <string name="backup_widget_prefs_title">Backup selected widget</string>
+    <string name="backup_all_widget_prefs_title">Backup all widgets</string>
+    <string name="restore_prefs_title">Restore widget settings</string>
+    <string name="restore_no_backup_summary">No matching backups could be found</string>
+    <string name="restore_select_dialog_title">Select backup file</string>
+    <string name="backup_failure_no_storage_toast" product="nosdcard">Widget settings can\'t be backed up, the USB storage is not available</string>
+    <string name="backup_failure_no_storage_toast" product="default">Widget settings can\'t be backed up, the SD card is not available</string>
+    <string name="backup_single_success_toast">Successfully backed up widget settings</string>
+    <string name="backup_single_failure_toast">Widget settings could not be backed up</string>
+    <string name="backup_multiple_result_toast">Backed up settings of <xliff:g id="count">%d</xliff:g> widgets</string>
+    <string name="restore_failure_toast">Backup file could not be restored</string>
+    <string name="restore_success_toast">Successfully restored widget settings</string>
 
 </resources>
