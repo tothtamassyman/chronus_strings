@@ -127,6 +127,7 @@
     <string name="display_category">Affichage</string>
     <string name="provider_category">Fournisseur</string>
     <string name="daydream_category">Écran de veille</string>
+    <string name="maintenance_category">Maintenance</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Écran de verrouillage</string>
@@ -167,6 +168,7 @@
     <string name="weather_show_when_minimized_summary">Afficher le résumé des informations météo lorsque le widget est réduit</string>
     <string name="weather_select_location">Définir le lieu</string>
     <string name="weather_show_refresh">Afficher le bouton d\'actualisation</string>
+    <string name="weather_show_notification">Afficher les notifications</string>
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">Afficher le prochain événement</string>
@@ -199,6 +201,9 @@
     <string name="news_feed_provider_settings_facebook_title">Paramètres Facebook</string>
     <string name="news_feed_refresh_interval">Intervalle de mise à jour</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (s\'applique à tous les widgets)</string>
+    <string name="news_feed_clear_cache_title">Nettoyer le cache</string>
+    <string name="news_feed_clear_cache_summary">Supprimer tous les éléments, images et vignettes, mis en cache localement</string>
+    <string name="news_feed_cache_cleared">Éléments du cache nettoyés</string>
 
     <!-- News Feed - Update frequency -->
     <string name="news_feed_refresh_manual">Manuel</string>
@@ -230,7 +235,7 @@
     <string name="calendar_metadata_none">Ne pas afficher</string>
     <string name="calendar_metadata_first_line">Afficher la première ligne</string>
     <string name="calendar_metadata_all">Tout afficher</string>
-    <string name="calendar_metadata_all_day">Journée en cours</string>
+    <string name="calendar_metadata_all_day">Journée entière</string>
 
     <!-- News - Widgets -->
     <string name="news_feed_loading">Chargement des articles</string>
@@ -252,6 +257,7 @@
     <string name="news_feed_reader_list_last_published">Mise à jour à <xliff:g id="time" example="8:30">%1$s</xliff:g> le <xliff:g id="date" example="24 mar">%2$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Aller à l\'article</string>
     <string name="news_feed_internal_viewer_title">Utiliser la visionneuse intégrée</string>
+    <string name="news_feed_reader_no_maps_installed">Aucune application trouvée pour la gestion des liens</string>
 
     <!-- News Feed Provider Settings - RSS -->
     <string name="rss_sources_custom_header">Utilisateur</string>
@@ -275,6 +281,8 @@
     <!-- News Feed Provider Settings - Facebook -->
     <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
     <string name="facebook_account_title">Compte Facebook</string>
+    <string name="facebook_show_avatar_title">Afficher l\'avatar</string>
+    <string name="facebook_show_thumbnail_title">Afficher les miniatures</string>
 
     <!-- Font colors -->
     <string name="white">Blanc</string>
