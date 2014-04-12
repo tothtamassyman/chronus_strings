@@ -454,8 +454,8 @@
     <string name="restore_no_backup_summary">Nu au fost găsite backup-uri</string>
     <string name="restore_select_dialog_title">Selectare backup</string>
     <string name="restore_button">Restabilire</string>
-    <string name="backup_failure_no_storage_toast" product="nosdcard">Widget settings can\'t be backed up, the USB storage is not available</string>
-    <string name="backup_failure_no_storage_toast" product="default">Widget settings can\'t be backed up, the SD card is not available</string>
+    <string name="backup_failure_no_storage_toast" product="nosdcard">Setările nu pot fi salvate, spațiul USB de stocare nu este disponibil</string>
+    <string name="backup_failure_no_storage_toast" product="default">Setările nu pot fi salvate, cardul SD nu este disponibi</string>
     <string name="backup_single_success_toast">Setările au fost salvate</string>
     <string name="backup_single_failure_toast">Nu s-a reușit salvarea setărilor</string>
     <string name="backup_multiple_result_toast">S-au salvat setările pentru <xliff:g id="count">%d</xliff:g> widget-uri</string>
