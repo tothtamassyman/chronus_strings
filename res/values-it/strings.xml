@@ -128,6 +128,7 @@
     <string name="provider_category">Fornitore</string>
     <string name="daydream_category">Salvaschermo</string>
     <string name="maintenance_category">Manutenzione</string>
+    <string name="notifications_category">Notifiche</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Schermata di Blocco</string>
@@ -168,6 +169,13 @@
     <string name="weather_show_when_minimized_summary">Mostra informazioni di riepilogo sul meteo quando il widget è minimizzato</string>
     <string name="weather_select_location">Seleziona posizione</string>
     <string name="weather_show_refresh">Mostra l\'icona di aggiornamento</string>
+
+    <!-- Weather notifications -->
+    <string name="weather_show_notification">Condizioni attuali</string>
+    <string name="weather_show_notification_summary">Visualizza una notifica a bassa priorità dopo un aggiornamento meteo</string>
+    <string name="weather_notification_forecast">Includi previsioni</string>
+    <string name="weather_notification_forecast_summary">Mostra come una notifica espandibile con la previsione per più giorni inclusa</string>
+    <string name="notify_no_forecast_data">%s non fornisce la previsione per più giorni</string>
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">Visualizza eventi</string>

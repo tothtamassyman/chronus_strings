@@ -413,11 +413,24 @@
   
   <!-- Incompatible launcher -->
     <string name="incompatible_launcher_title">לאנצ\'ר לא תואם</string>
-    <string name="incompatible_launcher_message">Your launcher does not support the APPWIDGET_MIN_HEIGHT
-        API call introduced by Google in Android 4.1 and, as a result, several features of Chronus will not function as
-        designed.\n\nChronus has switched to a basic, \'Compatibility mode\' with most of the advanced
-        widget resizing and automatic component hiding functions disabled.\n\nPlease contact your launcher
-        developer for an update or switch to a compatible launcher.</string>
+    <string name="incompatible_launcher_message">הלאנצ\'ר שלכם איננו תומך בקריאת API ה-APPWIDGET_MIN_HEIGHT שהוצגה ע"י גוגל באנדרויד 4.1, 
+      וכתוצאה מכך, תכונות מסויימות של Chronus לא יתפקדות כראוי. \n\nChronus עבר ל\'מצב תאימות\' בסיסי, 
+      כאשר רוב שינויי הגודל המתקדמים של הוידג\'ט ותכונות הסתרת רכיבים אוטומטית נוטרלו. \n\n אנא צרו קשר עם מפתח 
+      הלאנצ\'ר שלכם לעידכון או עברו ללאנצ\'ר תואם.</string>
     <string name="incompatible_launcher_header_notice">רץ במצב תאימות. לחצו לפרטים נוספים</string>
     <string name="hide_incompatibility_notice">הסתרת ההודעה</string>
+    
+    <!-- Preferences backup -->
+    <string name="backup_widget_prefs_title">גיבוי וידג\'ט נבחר</string>
+    <string name="backup_all_widget_prefs_title">גיבוי כל הוידג\'טים</string>
+    <string name="restore_prefs_title">שחזור הגדרות וידג\'ט</string>
+    <string name="restore_no_backup_summary">לא נמצאו גיבויים תואמים</string>
+    <string name="restore_select_dialog_title">בחירת קובץ גיבוי</string>
+    <string name="backup_failure_no_storage_toast" product="nosdcard">לא ניתן לגבות את הגדרות הוידג\'ט, אחסון ה-USB איננו זמין</string>
+    <string name="backup_failure_no_storage_toast" product="default">לא ניתן לגבות את הגדרות הוידג\'ט, כרטיס ה-SD איננו זמין</string>
+    <string name="backup_single_success_toast">הגדרות הוידג\'ט גובו בהצלחה</string>
+    <string name="backup_single_failure_toast">לא ניתן לגבות את הגדרות הוידג\'ט</string>
+    <string name="backup_multiple_result_toast">ההגדרות של <xliff:g id="count">%d</xliff:g> וידג\'טים גובו</string>
+    <string name="restore_failure_toast">לא ניתן לשחזר מקובץ הגיבוי</string>
+    <string name="restore_success_toast">הגדרות הוידג\'ט שוחזרו בהצלחה</string>
 </resources>

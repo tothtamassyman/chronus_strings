@@ -110,6 +110,8 @@
     <string name="provider_category">Poskytovateľ</string>
     <string name="daydream_category">Šetrič obrazovky</string>
     <string name="maintenance_category">Údržba</string>
+    <string name="notifications_category">Oznámenia</string>
+    <string name="backup_restore_category">Záloha a obnova</string>
     <string name="widget_type_keyguard">Uzamykacia obrazovka</string>
     <string name="widget_type_daydream">Šetrič obrazovky Daydream</string>
     <string name="widget_type_homescreen">Domovská obrazovka</string>
@@ -298,6 +300,13 @@
     <string name="tap_action_month_view">Prepnúť zobrazenie mesiaca/zoznamu</string>
     <string name="weather_select_location">Vybrať polohu</string>
     <string name="weather_show_refresh">Zobraziť ikonu aktualizácie</string>
+    <string name="weather_show_notification">Aktuálny stav</string>
+    <string name="weather_show_notification_summary">Zobraziť oznámenie s nízkou prioritou po aktualizácii počasia</string>
+    <string name="weather_notification_forecast">Zahrnúť predpoveď</string>
+    <string name="weather_notification_forecast_summary">Zobraziť ako rozšíriteľné oznámenie so zahrnutou viacdňovou predpoveďou</string>
+    <string name="notify_no_forecast_data">%s neposkytuje údaje pre viacdňové predpovede</string>
+    <string name="weather_notification_persistent">Trvalé oznámenie</string>
+    <string name="weather_notification_persistent_summary">Zobraziť ako prebiehajúce a nezrušitelné oznámenie</string>
     <string name="weather_source_title">Zdroj počasia</string>
     <string name="weather_source_yahoo">Yahoo! Počasie</string>
     <string name="weather_attribution_yrno">Údaje poskytuje Nórsky meteorologický inštitút</string>
@@ -357,5 +366,16 @@
         vývojára vášho spúšťača a požiadajte o aktualizáciu špúšťača alebo začnite používať podporovaný spúšťač.</string>
     <string name="incompatible_launcher_header_notice">Spustené v režime kompatibility. Kliknite pre podrobnosti</string>
     <string name="hide_incompatibility_notice">Skryť oznam</string>
-
+    <string name="backup_widget_prefs_title">Zálohovať vybranú miniaplikáciu</string>
+    <string name="backup_all_widget_prefs_title">Zálohovať všetky miniaplikácie</string>
+    <string name="restore_prefs_title">Obnoviť nastavenia miniaplikácií</string>
+    <string name="restore_no_backup_summary">Nebola nájdená žiadna zodpovedajúca záloha</string>
+    <string name="restore_select_dialog_title">Vyberte súbor zálohy</string>
+    <string name="backup_failure_no_storage_toast" product="nosdcard">Nastavenia miniaplikácií nemôžu byť zálohované, USB úložisko nie je dostupné</string>
+    <string name="backup_failure_no_storage_toast" product="default">Nastavenia miniaplikácií nemôžu byť zálohované, karta SD nie je dostupná</string>
+    <string name="backup_single_success_toast">>Nastavenia miniaplikácií boli úspešne zálohované</string>
+    <string name="backup_single_failure_toast">Nastavenia miniaplikácií nemohli byť zálohované</string>
+    <string name="backup_multiple_result_toast">Nastavenia <xliff:g id="count">%d</xliff:g> miniaplikácií boli zálohované</string>
+    <string name="restore_failure_toast">Súbor zálohy nemohol byť obnovený</string>
+    <string name="restore_success_toast">Nastavenia miniaplikácií boli úspešne obnovené</string>
 </resources>

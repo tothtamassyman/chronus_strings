@@ -109,6 +109,7 @@
     <string name="general_category">Algemeen</string>
     <string name="display_category">vertooneienskappe</string>
     <string name="maintenance_category">Onderhoud</string>
+    <string name="notifications_category">Kennisgewings</string>
 
     <string name="clock_font_title">Ure vetgedruk</string>
     <string name="clock_font_minutes_title">Minute vetgedruk</string>
@@ -129,7 +130,7 @@
     <string name="weather_show_location_title">Wys ligging</string>
     <string name="weather_show_timestamp_title">Wys tydstempel</string>
     <string name="weather_refresh_interval">Opdateringsinterval</string>
-    <string name="weather_use_metric">Gebruik metries</string>
+    <string name="weather_use_metric">Gebruik metrieke eenhede (\u00b0C)</string>
     <string name="weather_retrieve_location_dialog_title">Kon nie die ligging bepaal nie!</string>
     <string name="weather_retrieve_location_dialog_message">Netwerk geoligging is afgeskakel.\n\nVerskaf \'n persoonlike ligging of aktiveer netwerk ligging</string>
     <string name="weather_retrieve_location_dialog_enable_button">Aktiveer</string>
@@ -140,7 +141,12 @@
     <string name="weather_show_when_minimized_title">Wys wanneer geminimaliseer</string>
     <string name="weather_show_when_minimized_summary">Wys opgesomde weerbesonderhede wanneer die legstuk geminimaliseer word</string>
     <string name="weather_select_location">Selekteer ligging</string>
-    <string name="weather_show_notification">Wys kennisgerwings</string>
+
+    <string name="weather_show_notification">Huidige omstandighede</string>
+    <string name="weather_show_notification_summary">Wys \'n lae-prioriteit kennisgewing nadat die weer verfris is</string>
+    <string name="weather_notification_forecast">Sluit voorspellings in</string>
+    <string name="weather_notification_forecast_summary">Wys as \'n vergrootbare kennisgewing met die multi-dag voorspellings ingesluit</string>
+    <string name="notify_no_forecast_data">%s verskaf nie multi-dag voorspellings data nie</string>
 
     <string name="calendar_title">Wys volgende item</string>
     <string name="calendars_title">Afsprake kalenders</string>
