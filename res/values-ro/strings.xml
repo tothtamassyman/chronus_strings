@@ -254,7 +254,7 @@
     <!-- News - Service -->
     <plurals name="news_feed_new_articles">
          <item quantity="one">1 articol nou</item>
-         <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g>articole noi</item>
+         <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> articole noi</item>
     </plurals>
 
     <!-- News - Reader -->
