@@ -110,6 +110,8 @@
     <string name="provider_category">Anbieter</string>
     <string name="daydream_category">Bildschirmschoner</string>
     <string name="maintenance_category">Wartung</string>
+    <string name="notifications_category">Benachrichtigungen</string>
+    <string name="backup_restore_category">Datensicherung</string>
     <string name="about_category">Über Chronus</string>
     <string name="appearance_category">Darstellung</string>
     <string name="clock_font_title">Stunden in Fettschrift</string>
@@ -145,6 +147,13 @@
     <string name="weather_show_when_minimized_summary">Wetterinformationen anzeigen, wenn das Widget minimiert ist</string>
     <string name="weather_select_location">Standort auswählen</string>
     <string name="weather_show_refresh">Aktualisierungssymbol anzeigen</string>
+    <string name="weather_show_notification">Wetterbedingungen</string>
+    <string name="weather_show_notification_summary">Nach der Aktualisierung der Wetterdaten eine Benachrichtigung anzeigen</string>
+    <string name="weather_notification_forecast">Vorhersage anzeigen</string>
+    <string name="weather_notification_forecast_summary">Wettervorhersage für die nächsten Tage in der erweiterten Benachrichtigung anzeigen</string>
+    <string name="notify_no_forecast_data">%s stellt keine Vorhersagedaten zur Verfügung</string>
+    <string name="weather_notification_persistent">Dauerhaft anzeigen</string>
+    <string name="weather_notification_persistent_summary">Verhindern, dass die Benachrichtigung aus der Statusleiste entfernt werden kann</string>
     <string name="calendar_title">Nächsten Termin anzeigen</string>
     <string name="calendars_title">Kalender</string>
     <string name="calendars_summary">Termine aus diesen Kalendern anzeigen</string>
@@ -366,4 +375,17 @@
         Launchers nach einem Update oder wechseln Sie zu einem kompatiblen Launcher.</string>
     <string name="incompatible_launcher_header_notice">Kompatibilitätsmodus aktiv. Berühren für Details</string>
     <string name="hide_incompatibility_notice">Nicht mehr anzeigen</string>
+    <string name="backup_widget_prefs_title">Dieses Widget sichern</string>
+    <string name="backup_all_widget_prefs_title">Alle Widgets sichern</string>
+    <string name="restore_prefs_title">Widget-Einstellungen wiederherstellen</string>
+    <string name="restore_no_backup_summary">Es sind keine passenden Sicherungen vorhanden</string>
+    <string name="restore_select_dialog_title">Sicherung auswählen</string>
+    <string name="restore_button">Wiederherstellen</string>
+    <string name="backup_failure_no_storage_toast" product="nosdcard">Widget-Einstellungen konnten nicht gesichert werden, da der USB-Speicher nicht verfügbar ist</string>
+    <string name="backup_failure_no_storage_toast" product="default">Widget-Einstellungen konnten nicht gesichert werden, da die SD-Karte nicht verfügbar ist</string>
+    <string name="backup_single_success_toast">Widget-Einstellungen wurden erfolgreich gesichert</string>
+    <string name="backup_single_failure_toast">Die Sicherung der Widget-Einstellungen ist fehlgeschlagen</string>
+    <string name="backup_multiple_result_toast">Die Einstellungen von <xliff:g id="count">%d</xliff:g> Widgets wurden gesichert</string>
+    <string name="restore_failure_toast">Sicherung konnte nicht wiederhergestellt werden</string>
+    <string name="restore_success_toast">Sicherung wurde erfolgreich wiederhergestellt</string>
 </resources>

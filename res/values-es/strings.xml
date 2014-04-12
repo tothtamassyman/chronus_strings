@@ -109,6 +109,8 @@
     <string name="provider_category">Proveedor</string>
     <string name="daydream_category">Salvapantallas</string>
     <string name="maintenance_category">Mantenimiento</string>
+    <string name="notifications_category">Notificaciones</string>
+    <string name="backup_restore_category">Copia de seguridad</string>
     <string name="widget_type_keyguard">Pantalla de bloqueo</string>
     <string name="widget_type_daydream">Salvapantallas Daydream</string>
     <string name="widget_type_homescreen">Pantalla de inicio</string>
@@ -144,6 +146,13 @@
     <string name="weather_show_when_minimized_summary">Mostrar la información climática cuando el widget esté minimizado</string>
     <string name="weather_select_location">Seleccionar ubicación</string>
     <string name="weather_show_refresh">Mostrar icono refrescar</string>
+    <string name="weather_show_notification">Condiciones actuales</string>
+    <string name="weather_show_notification_summary">Mostar notificación de baja prioridad después de un refresco de tiempo</string>
+    <string name="weather_notification_forecast">Incluir predicción</string>
+    <string name="weather_notification_forecast_summary">Mostrar la notificación como expandible con la predicción de varios días</string>
+    <string name="notify_no_forecast_data">%s no dispone de información de predicción de varios días</string>
+    <string name="weather_notification_persistent">Notificación persistente</string>
+    <string name="weather_notification_persistent_summary">Mostrar la notificación como en curso y no descartable</string>
     <string name="calendar_title">Mostrar próximo evento</string>
     <string name="calendars_title">Calendario de eventos</string>
     <string name="calendars_summary">Buscar eventos en los calendarios</string>
@@ -354,4 +363,17 @@
         contacta con el desarrollo de tu lanzador de aplicaciones para que actualice su aplicación o cambia a uno compatible.</string>
     <string name="incompatible_launcher_header_notice">Ejecutandose en \'Modo de compatibilidad\'. Toca para obtener más detalles.</string>
     <string name="hide_incompatibility_notice">Ocultar aviso</string>
+    <string name="backup_widget_prefs_title">Copiar ajustes del widget</string>
+    <string name="backup_all_widget_prefs_title">Copiar ajustes de widgets</string>
+    <string name="restore_prefs_title">Restablecer ajustes del widget</string>
+    <string name="restore_no_backup_summary">No se han encontrado copias de seguridad</string>
+    <string name="restore_select_dialog_title">Seleccionar archivo de copia de seguridad</string>
+    <string name="restore_button">Restaurar</string>
+    <string name="backup_failure_no_storage_toast" product="nosdcard">No se puede crear copia de seguridad de los ajustes del widget porque el almacenamiento USB no está disponible</string>
+    <string name="backup_failure_no_storage_toast" product="default">No se puede crear copia de seguridad de los ajustes del widget porque la tarjeta SD no está disponible Widget</string>
+    <string name="backup_single_success_toast">Copia de seguridad completada satisfactoriamente</string>
+    <string name="backup_single_failure_toast">No se pudo crear copia de seguridad de los ajustes del widget</string>
+    <string name="backup_multiple_result_toast">Creada copia de seguridad de ajustes de <xliff:g id="count">%d</xliff:g> widgets</string>
+    <string name="restore_failure_toast">El archivo de copia de seguridad no pudo ser restablecido</string>
+    <string name="restore_success_toast">Ajustes de widget restablecidos satisfactoriamente</string>
 </resources>

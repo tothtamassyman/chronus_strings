@@ -500,6 +500,7 @@
     <string name="restore_prefs_title">Restore widget settings</string>
     <string name="restore_no_backup_summary">No matching backups could be found</string>
     <string name="restore_select_dialog_title">Select backup file</string>
+    <string name="restore_button">Restore</string>
     <string name="backup_failure_no_storage_toast" product="nosdcard">Widget settings can\'t be backed up, the USB storage is not available</string>
     <string name="backup_failure_no_storage_toast" product="default">Widget settings can\'t be backed up, the SD card is not available</string>
     <string name="backup_single_success_toast">Successfully backed up widget settings</string>
