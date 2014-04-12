@@ -128,6 +128,7 @@
     <string name="daydream_category">Screensaver</string>
     <string name="maintenance_category">Mentenanță</string>
     <string name="notifications_category">Notificări</string>
+    <string name="backup_restore_category">Backup și restabilire</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Ecran blocare</string>
