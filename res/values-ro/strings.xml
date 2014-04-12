@@ -172,10 +172,12 @@
 
     <!-- Weather notifications -->
     <string name="weather_show_notification">Condiții currente</string>
-    <string name="weather_show_notification_summary">Afișare notificări cu prioritate redusă după actualizările meteo</string>
+    <string name="weather_show_notification_summary">Afișare notificare după actualizările meteo</string>
     <string name="weather_notification_forecast">Includere prognoză</string>
-    <string name="weather_notification_forecast_summary">Afișare ca notificări cu prognoze meteo extensibile</string>
+    <string name="weather_notification_forecast_summary">Afișare notificare cu prognoză meteo extensibilă</string>
     <string name="notify_no_forecast_data">%s nu oferă prognoză meteo</string>
+    <string name="weather_notification_persistent">Fixare</string>
+    <string name="weather_notification_persistent_summary">Afișare notificare nerevocabilă</string>
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">"Afişare eveniment următor"</string>
@@ -444,4 +446,20 @@
     <string name="incompatible_launcher_message">Launcher-ul Dvs nu suportă comanda API APPWIDGET_MIN_HEIGHT introdusă de către Google în Android 4.1+ și, ca urmare, unele funcții din Chronus nu vor rula așa cum s-au planificat.\n\nChronus a fost comutat în regimul de bază, \'Regim compatibil\' cu majoritatea funțiilor de redimensionare a widget-ului și de ascundere automatizată a componentelor deconectate.\n\nContactați dezvoltatorul launcher-ului Dvs pentru a cere actualizarea acestuia sau folosiți un launcher compatibil.</string>
     <string name="incompatible_launcher_header_notice">Rulare în regim compatibil. Atingeți pentru detalii</string>
     <string name="hide_incompatibility_notice">Asundere avertisment</string>
+    
+    <!-- Preferences backup -->
+    <string name="backup_widget_prefs_title">Backup widget-uri selectate</string>
+    <string name="backup_all_widget_prefs_title">Backup total widget-uri</string>
+    <string name="restore_prefs_title">Restabilire setări widget-uri</string>
+    <string name="restore_no_backup_summary">Nu au fost găsite backup-uri</string>
+    <string name="restore_select_dialog_title">Selectare backup</string>
+    <string name="restore_button">Restabilire</string>
+    <string name="backup_failure_no_storage_toast" product="nosdcard">Widget settings can\'t be backed up, the USB storage is not available</string>
+    <string name="backup_failure_no_storage_toast" product="default">Widget settings can\'t be backed up, the SD card is not available</string>
+    <string name="backup_single_success_toast">Setările au fost salvate</string>
+    <string name="backup_single_failure_toast">Nu s-a reușit salvarea setărilor</string>
+    <string name="backup_multiple_result_toast">S-au salvat setările pentru <xliff:g id="count">%d</xliff:g> widget-uri</string>
+    <string name="restore_failure_toast">Nu s-a reușit restabilirea setărilor</string>
+    <string name="restore_success_toast">Setările au fost restabilite</string>
+    
 </resources>
