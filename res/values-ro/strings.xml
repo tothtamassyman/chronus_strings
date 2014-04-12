@@ -127,6 +127,7 @@
     <string name="provider_category">Furnizor</string>
     <string name="daydream_category">Screensaver</string>
     <string name="maintenance_category">Mentenanță</string>
+    <string name="notifications_category">Notificări</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Ecran blocare</string>
@@ -166,8 +167,8 @@
     <string name="weather_alternate_icons_summary">"Comutare între pictogramele prestabilite (colore) și cele alternative (albe)"</string>
     <string name="weather_show_when_minimized_title">Minimizare</string>
     <string name="weather_show_when_minimized_summary">Afişare informație meteo sumară când widget-ul este minimizat</string>
-    <string name="weather_select_location">Selectați locația</string>
-    <string name="weather_show_refresh">Pictogramă actualizare</string>
+    <string name="weather_select_location">Selectare locație</string>
+    <string name="weather_show_refresh">Afișare buton actualizare</string>
 
     <!-- Weather notifications -->
     <string name="weather_show_notification">Condiții currente</string>
@@ -208,7 +209,7 @@
     <string name="news_feed_refresh_interval">Interval actualizare</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (se aplică pentru toate widget-urile)</string>
     <string name="news_feed_clear_cache_title">Curățare cache</string>
-    <string name="news_feed_clear_cache_summary">Ștergere completă a datelor cache locale</string>
+    <string name="news_feed_clear_cache_summary">Curățare completă a datelor cache locale</string>
     <string name="news_feed_cache_cleared">Cache curățat</string>
 
     <!-- News Feed - Update frequency -->
