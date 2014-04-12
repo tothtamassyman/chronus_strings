@@ -449,9 +449,9 @@
     <string name="hide_incompatibility_notice">Asundere avertisment</string>
     
     <!-- Preferences backup -->
-    <string name="backup_widget_prefs_title">Backup widget-uri selectate</string>
-    <string name="backup_all_widget_prefs_title">Backup total widget-uri</string>
-    <string name="restore_prefs_title">Restabilire setări widget-uri</string>
+    <string name="backup_widget_prefs_title">Backup widget curent</string>
+    <string name="backup_all_widget_prefs_title">Backup total</string>
+    <string name="restore_prefs_title">Restabilire setări</string>
     <string name="restore_no_backup_summary">Nu au fost găsite backup-uri</string>
     <string name="restore_select_dialog_title">Selectare backup</string>
     <string name="restore_button">Restabilire</string>
