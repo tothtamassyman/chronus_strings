@@ -129,6 +129,7 @@
     <string name="daydream_category">Salvaschermo</string>
     <string name="maintenance_category">Manutenzione</string>
     <string name="notifications_category">Notifiche</string>
+    <string name="backup_restore_category">Salvataggio e ripristino</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Schermata di Blocco</string>
@@ -174,8 +175,11 @@
     <string name="weather_show_notification">Condizioni attuali</string>
     <string name="weather_show_notification_summary">Visualizza una notifica a bassa priorità dopo un aggiornamento meteo</string>
     <string name="weather_notification_forecast">Includi previsioni</string>
-    <string name="weather_notification_forecast_summary">Mostra come una notifica espandibile con la previsione per più giorni inclusa</string>
+    <string name="weather_notification_forecast_summary">Mostra come una notifica espandibile con la previsione per più giorni</string>
     <string name="notify_no_forecast_data">%s non fornisce la previsione per più giorni</string>
+    <string name="weather_notification_persistent">Rendi persistente</string>
+    <string name="weather_notification_persistent_summary">Mostra come una notifica non removibile</string>
+
 
     <!-- Preferences - Calendar -->
     <string name="calendar_title">Visualizza eventi</string>
@@ -459,5 +463,36 @@
 		\n\nPer favore contatta lo sviluppatore del tuo launcher per un aggiornamento o passa ad un launcher compatibile.</string>
     <string name="incompatible_launcher_header_notice">Esecuzione in modalità di Compatibilità. Tocca per i dettagli</string>
     <string name="hide_incompatibility_notice">Nascondi avviso</string>
+
+    <!-- Preferences backup -->
+    <string name="backup_widget_prefs_title">Salva il widget selezionato</string>
+    <string name="backup_all_widget_prefs_title">Salva tutti i widget</string>
+    <string name="restore_prefs_title">Ripristina le impostazioni dei widget</string>
+    <string name="restore_no_backup_summary">Nessun backup corrispondente trovato</string>
+    <string name="restore_select_dialog_title">Seleziona il salvataggio</string>
+    <string name="restore_button">Ripristina</string>
+    <string name="backup_failure_no_storage_toast" product="nosdcard">Le impostazioni del widget non possono essere salvate, il dispositivo di memorizzazione USB non è disponibile</string>
+    <string name="backup_failure_no_storage_toast" product="default">Le impostazioni del widget non possono essere salvate, la scheda SD non è disponibile</string>
+    <string name="backup_single_success_toast">Impostazioni widget salvate con successo</string>
+    <string name="backup_single_failure_toast">Le impostazioni del widget non possono essere salvate</string>
+    <string name="backup_multiple_result_toast">Salvate le impostazioni di <xliff:g id="count">%d</xliff:g> widget</string>
+    <string name="restore_failure_toast">Impossibile ripristinare il salvataggio</string>
+    <string name="restore_success_toast">Impostazioni widget ripristinate con successo</string>
+
+    <string name="remove_backups_title">Rimuovi i salvataggi</string>
+    <string name="remove_backups_no_backups_summary">Non ci sono salvataggi da rimuovere</string>
+    <string name="remove_backups_select_dialog_title">Rimuovere i salvataggi?</string>
+    <string name="remove_backups_confirm_dialog">Vuoi rimuovere <xliff:g id="count" example="2 backups">%s</xliff:g>?\n\nAttenzione: Questa operazione non può essere annullata.</string>
+    <string name="remove_button">Rimuovi</string>
+    <string name="select_all_button">Seleziona tutti</string>
+    <plurals name="backup">
+        <item quantity="one">1 salvataggio</item>
+        <item quantity="other">%d salvataggi</item>
+    </plurals>
+    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups removed">%s</xliff:g></string>
+    <plurals name="backup_removed">
+        <item quantity="one">1 salvataggio rimosso</item>
+        <item quantity="other">%d salvataggi rimossi</item>
+    </plurals>
 
 </resources>
