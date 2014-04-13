@@ -420,4 +420,16 @@
     <string name="restore_select_dialog_title">Kies rugsteunlêer</string>
     <string name="restore_success_toast">Legstuk instellings is suksesfol herstel</string>
 
+    <string name="remove_backups_title">Skrap rugsteunlêers</string>
+    <string name="remove_backups_no_backups_summary">Geen rugsteunlêers om te skrap nie</string>
+    <string name="remove_backups_select_dialog_title">Skrap rugsteunings?</string>
+    <string name="remove_backups_confirm_dialog">Skrap <xliff:g id="count" example="2 backups">%s</xliff:g>?\n\nVersigtig: Die aksie is permanent.</string>
+    <string name="remove_button">Skrap</string>
+    <string name="select_all_button">Almal</string>
+    <plurals name="backup">
+        <item quantity="one">1 rugsteunlêer</item>
+        <item quantity="other">%d rugsteunlêers</item>
+    </plurals>
+    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups">%s</xliff:g> geskrap</string>
+
 </resources>
