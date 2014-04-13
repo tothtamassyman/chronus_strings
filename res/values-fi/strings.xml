@@ -475,7 +475,7 @@
     </plurals>
     <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups removed">%s</xliff:g></string>
     <plurals name="backup_removed">
-        <item quantity="one">1 varmuuskopio poistetaan</item>
+        <item quantity="one">1 varmuuskopio poistettu</item>
         <item quantity="other">%d varmuuskopiota poistettu</item>
     </plurals>
 
