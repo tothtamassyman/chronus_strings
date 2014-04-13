@@ -371,11 +371,29 @@
     <string name="restore_prefs_title">Obnoviť nastavenia miniaplikácií</string>
     <string name="restore_no_backup_summary">Nebola nájdená žiadna zodpovedajúca záloha</string>
     <string name="restore_select_dialog_title">Vyberte súbor zálohy</string>
+    <string name="restore_button">Obnoviť</string>
     <string name="backup_failure_no_storage_toast" product="nosdcard">Nastavenia miniaplikácií nemôžu byť zálohované, USB úložisko nie je dostupné</string>
     <string name="backup_failure_no_storage_toast" product="default">Nastavenia miniaplikácií nemôžu byť zálohované, karta SD nie je dostupná</string>
-    <string name="backup_single_success_toast">>Nastavenia miniaplikácií boli úspešne zálohované</string>
+    <string name="backup_single_success_toast">Nastavenia miniaplikácií boli úspešne zálohované</string>
     <string name="backup_single_failure_toast">Nastavenia miniaplikácií nemohli byť zálohované</string>
-    <string name="backup_multiple_result_toast">Nastavenia <xliff:g id="count">%d</xliff:g> miniaplikácií boli zálohované</string>
+    <string name="backup_multiple_result_toast">Nastavenia miniaplikácií (počet: <xliff:g id="count">%d</xliff:g>) boli zálohované</string>
     <string name="restore_failure_toast">Súbor zálohy nemohol byť obnovený</string>
     <string name="restore_success_toast">Nastavenia miniaplikácií boli úspešne obnovené</string>
+    <string name="remove_backups_title">Odstrániť súbory záloh</string>
+    <string name="remove_backups_no_backups_summary">Žiadne zálohy na odstránenie</string>
+    <string name="remove_backups_select_dialog_title">Odstrániť tálohy?</string>
+    <string name="remove_backups_confirm_dialog">Odstrániť <xliff:g id="count" example="2 zálohy">%s</xliff:g>?\n\nPozor: Táto akcia sa nedá vrátiť.</string>
+    <string name="remove_button">Odstrániť</string>
+    <string name="select_all_button">Vybrať všetky</string>
+    <plurals name="backup">
+        <item quantity="one">1 záloha</item>
+        <item quantity="few">%d zálohy</item>
+        <item quantity="other">%d záloh</item>
+    </plurals>
+    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 odstránené zálohy">%s</xliff:g></string>
+    <plurals name="backup_removed">
+        <item quantity="one">1 odstránená záloha</item>
+        <item quantity="few">%d odstránené zálohy</item>
+        <item quantity="other">%d odstránených záloh</item>
+    </plurals>
 </resources>
