@@ -16,8 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- General strings -->
 
+    <!-- General strings -->
     <string name="unknown">Tuntematon</string>
     <string name="cancel">Peruuta</string>
     <string name="loading_indicator">Ladataan widgetiä\u2026</string>
@@ -33,7 +33,6 @@
 
     <!-- Formats -->
     <string name="format_seconds">%s sek.</string>
-
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">Pyörremyrsky</string>
@@ -84,7 +83,6 @@
     <string name="weather_45">Ukkoskuuroja</string>
     <string name="weather_46">Lumikuuroja</string>
     <string name="weather_47">Paikallisia ukkoskuuroja</string>
-    <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
     <!-- Weather - Units -->
     <string name="weather_kph">kph</string>
@@ -336,7 +334,6 @@
         \u2022 Pieni kalenteripaneeli\n
         \u2022 Ja monia muita\u2026\n\nEhdotukset on aina tervetulleita.\n\nKiitos etukäteen tuestasi.</string>
     <string name="get_pro">Hanki Pro</string>
-
     <string name="pro_check_dialog_message">Tarkistetaan Pro-lisenssiä\u2026</string>
 
     <!-- Shortcut picker -->
@@ -379,7 +376,6 @@
 
     <!-- Weather providers -->
     <string name="weather_source_yahoo">Yahoo! Weather</string>
-
     <string name="weather_attribution_yrno">Tiedot tarjoaa Norjan ilmatieteen laitos (Norwegian Meteorological Institute)</string>
 
     <!-- Widget names -->
@@ -412,7 +408,7 @@
 
     <!--  Cling text -->
     <string name="cling_widget_select_title">Valitse widget</string>
-    <string name="cling_widget_select_detail">Voit muokata jokaista asettamaasi	widgettiä. Valitse haluamasi widget valitsimesta yläpuolelta.</string>
+    <string name="cling_widget_select_detail">Voit muokata jokaista asettamaasi widgettiä. Valitse haluamasi widget valitsimesta yläpuolelta.</string>
 
     <string name="show_date_title">Näytä päivämäärä</string>
     <string name="show_battery_title">Näytä akun prosentti</string>
