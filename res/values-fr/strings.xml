@@ -455,12 +455,28 @@
     <string name="restore_prefs_title">Restaurer les paramètres du widget</string>
     <string name="restore_no_backup_summary">Aucune sauvegarde correspondante n\'a pu être trouvée</string>
     <string name="restore_select_dialog_title">Sélection du fichier de sauvegarde</string>
+    <string name="restore_button">Restaurer</string>
     <string name="backup_failure_no_storage_toast" product="nosdcard">Les paramètres du widget n\'ont pas pu être sauvegardés, le stockage USB n\'est pas disponible</string>
     <string name="backup_failure_no_storage_toast" product="default">Les paramètres du widget n\'ont pas pu être sauvegardés, la carte SD n\'est pas disponible</string>
     <string name="backup_single_success_toast">Les paramètres du widget ont été sauvegardés avec succès</string>
     <string name="backup_single_failure_toast">Les paramètres du widget n\'ont pas pu être sauvegardés</string>
-    <string name="backup_multiple_result_toast">Les paramètres de <xliff:g id="count">%d</xliff:g> widgets sauvegardés</string>
+    <string name="backup_multiple_result_toast">Les paramètres de <xliff:g id="count">%d</xliff:g> widgets ont été sauvegardés</string>
     <string name="restore_failure_toast">Les paramètres du widget n\'ont pas pu être restaurés</string>
     <string name="restore_success_toast">Les paramètres du widget ont été restaurés avec succès</string>
 
+    <string name="remove_backups_title">Supprimer des fichiers de sauvegarde</string>
+    <string name="remove_backups_no_backups_summary">Aucune sauvegarde à supprimer</string>
+    <string name="remove_backups_select_dialog_title">Supprimer les sauvegardes\u00A0?</string>
+    <string name="remove_backups_confirm_dialog">Supprimer <xliff:g id="count" example="2 backups">%s</xliff:g>\u00A0?\n\nAttention\u00A0: cette action est irréversible.</string>
+    <string name="remove_button">Supprimer</string>
+    <string name="select_all_button">Tout sélectionner</string>
+    <plurals name="backup">
+        <item quantity="one">1 sauvegarde</item>
+        <item quantity="other">%d sauvegardes</item>
+    </plurals>
+    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups removed">%s</xliff:g></string>
+    <plurals name="backup_removed">
+        <item quantity="one">1 sauvegarde supprimée</item>
+        <item quantity="other">%d sauvegardes supprimées</item>
+    </plurals>
 </resources>
