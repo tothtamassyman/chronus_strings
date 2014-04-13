@@ -412,7 +412,7 @@
 
     <!--  Cling text -->
     <string name="cling_widget_select_title">Valitse widget</string>
-    <string name="cling_widget_select_detail">Voit muokata jokaista asettamaasi	widgettiä. Valitse	haluamasi widget valitsimesta yläpuolelta.</string>
+    <string name="cling_widget_select_detail">Voit muokata jokaista asettamaasi	widgettiä. Valitse haluamasi widget valitsimesta yläpuolelta.</string>
 
     <string name="show_date_title">Näytä päivämäärä</string>
     <string name="show_battery_title">Näytä akun prosentti</string>
