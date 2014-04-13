@@ -467,7 +467,7 @@
     <!-- Preferences backup -->
     <string name="backup_widget_prefs_title">Salva il widget selezionato</string>
     <string name="backup_all_widget_prefs_title">Salva tutti i widget</string>
-    <string name="restore_prefs_title">Ripristina le impostazioni dei widget/</string>
+    <string name="restore_prefs_title">Ripristina le impostazioni dei widget</string>
     <string name="restore_no_backup_summary">Nessun backup corrispondente trovato</string>
     <string name="restore_select_dialog_title">Seleziona il salvataggio</string>
     <string name="restore_button">Ripristina</string>
@@ -478,5 +478,21 @@
     <string name="backup_multiple_result_toast">Salvate le impostazioni di <xliff:g id="count">%d</xliff:g> widget</string>
     <string name="restore_failure_toast">Impossibile ripristinare il salvataggio</string>
     <string name="restore_success_toast">Impostazioni widget ripristinate con successo</string>
+
+    <string name="remove_backups_title">Rimuovi i salvataggi</string>
+    <string name="remove_backups_no_backups_summary">Non ci sono salvataggi da rimuovere</string>
+    <string name="remove_backups_select_dialog_title">Rimuovere i salvataggi?</string>
+    <string name="remove_backups_confirm_dialog">Vuoi rimuovere <xliff:g id="count" example="2 backups">%s</xliff:g>?\n\nAttenzione: Questa operazione non può essere annullata.</string>
+    <string name="remove_button">Rimuovi</string>
+    <string name="select_all_button">Seleziona tutti</string>
+    <plurals name="backup">
+        <item quantity="one">1 salvataggio</item>
+        <item quantity="other">%d salvataggi</item>
+    </plurals>
+    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups removed">%s</xliff:g></string>
+    <plurals name="backup_removed">
+        <item quantity="one">1 salvataggio rimosso</item>
+        <item quantity="other">%d salvataggi rimossi</item>
+    </plurals>
 
 </resources>
