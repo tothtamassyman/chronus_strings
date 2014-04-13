@@ -448,7 +448,7 @@
     <string name="incompatible_launcher_header_notice">Rulare în regim compatibil. Atingeți pentru detalii</string>
     <string name="hide_incompatibility_notice">Asundere avertisment</string>
     
-    <!-- Preferences backup -->
+    <!-- Preferences backup and restore-->
     <string name="backup_widget_prefs_title">Backup widget curent</string>
     <string name="backup_all_widget_prefs_title">Backup total</string>
     <string name="restore_prefs_title">Restabilire setări</string>
@@ -462,5 +462,20 @@
     <string name="backup_multiple_result_toast">S-au salvat setările pentru <xliff:g id="count">%d</xliff:g> widget-uri</string>
     <string name="restore_failure_toast">Nu s-a reușit restabilirea setărilor</string>
     <string name="restore_success_toast">Setările au fost restabilite</string>
+    <string name="remove_backups_title">Ștergere backup</string>
+    <string name="remove_backups_no_backups_summary">Nu există backup-uri pentru ștergere</string>
+    <string name="remove_backups_select_dialog_title">Ștergere backup?</string>
+    <string name="remove_backups_confirm_dialog">Ștergere <xliff:g id="count" example="2 backups">%s</xliff:g>?\n\nAtenție: Procedura nu este reversibilă.</string>
+    <string name="remove_button">Ștergeți</string>
+    <string name="select_all_button">Selectați toate</string>
+    <plurals name="backup">
+        <item quantity="one">1 backup</item>
+        <item quantity="other">%d backup-uri</item>
+    </plurals>
+    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups removed">%s</xliff:g></string>
+    <plurals name="backup_removed">
+        <item quantity="one">1 backup șters</item>
+        <item quantity="other">%d backup-uri șterse</item>
+    </plurals>
     
 </resources>

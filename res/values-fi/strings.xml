@@ -449,7 +449,7 @@
     <string name="incompatible_launcher_header_notice">Yhteensopivuustila käytössä. Kosketa saadaksesi lisätietoja</string>
     <string name="hide_incompatibility_notice">Piilota ilmoitus</string>
 
-    <!-- Preferences backup -->
+    <!-- Preferences Backup and restore-->
     <string name="backup_widget_prefs_title">Varmuuskopioi valittu widget</string>
     <string name="backup_all_widget_prefs_title">Varmuuskopioi kaikki widgetit</string>
     <string name="restore_prefs_title">Palauta widgetin asetukset</string>
@@ -463,7 +463,6 @@
     <string name="backup_multiple_result_toast">Varmuuskopioitu <xliff:g id="count">%d</xliff:g> widgetin asetukset</string>
     <string name="restore_failure_toast">Varmuuskopiota ei voitu palauttaa</string>
     <string name="restore_success_toast">Widgetin asetukset palautettu onnistuneesti</string>
-
     <string name="remove_backups_title">Poista varmuuskopiot</string>
     <string name="remove_backups_no_backups_summary">Poistettavia varmuuskopioita ei ole</string>
     <string name="remove_backups_select_dialog_title">Poista varmuuskopiot?</string>
@@ -474,5 +473,10 @@
         <item quantity="one">1 varmuuskopio</item>
         <item quantity="other">%d varmuuskopiota</item>
     </plurals>
-    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups">%s</xliff:g> poistettu</string>
+    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups removed">%s</xliff:g></string>
+    <plurals name="backup_removed">
+        <item quantity="one">1 varmuuskopio poistetaan</item>
+        <item quantity="other">%d varmuuskopiota poistettu</item>
+    </plurals>
+
 </resources>
