@@ -519,6 +519,10 @@
         <item quantity="one">1 backup</item>
         <item quantity="other">%d backups</item>
     </plurals>
-    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups">%s</xliff:g> removed</string>
+    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups removed">%s</xliff:g></string>
+    <plurals name="backup_removed">
+        <item quantity="one">1 backup removed</item>
+        <item quantity="other">%d backups removed</item>
+    </plurals>
 
 </resources>
