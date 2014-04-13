@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 
      Copyright (C) 2012 The CyanogenMod Project (DvTonder)
-     Chronus additions (c) 2013 David van Tonder
+     Chronus additions (c) 2014 David van Tonder
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -116,6 +116,8 @@
     <string name="provider_category">Zdroj</string>
     <string name="daydream_category">Spořič obrazovky</string>
     <string name="maintenance_category">Údržba</string>
+    <string name="notifications_category">Upozornění</string>
+    <string name="backup_restore_category">Záloha/obnova</string>
 
     <string name="widget_type_keyguard">Obrazovka zámku</string>
     <string name="widget_type_daydream">Spořič obrazovky</string>
@@ -154,6 +156,14 @@
     <string name="weather_show_when_minimized_summary">Pokud je widget minimalizován, zobrazit shrnující informace o počasí</string>
     <string name="weather_select_location">Zvolte umístění</string>
     <string name="weather_show_refresh">Zobrazit ikonu obnovení</string>
+
+    <string name="weather_show_notification">Aktuální stav</string>
+    <string name="weather_show_notification_summary">Zobrazit upozornění s nízkou prioritou po obnově počasí</string>
+    <string name="weather_notification_forecast">Zahrnout předpověď</string>
+    <string name="weather_notification_forecast_summary">Zobrazit rozšiřující upozornění s vícedenní předpovědí</string>
+    <string name="notify_no_forecast_data">%s nepodporuje vícedenní předpověď</string>
+    <string name="weather_notification_persistent">Vždy zobrazovat</string>
+    <string name="weather_notification_persistent_summary">Zobrazit, jako neskrývajícíc upozornění</string>
 
     <string name="calendar_title">Zobrazit další událost</string>
     <string name="calendars_title">Událost kalendářů</string>
@@ -396,4 +406,34 @@
         použivaného spouštěče nebo použijte kompatibilní spouštěč.</string>
     <string name="incompatible_launcher_header_notice">Spuštěno v režimu kompatibility. Dotykem získáte více informací</string>
     <string name="hide_incompatibility_notice">Skrýt upozornění</string>
+
+    <string name="backup_widget_prefs_title">Zálohovat zvolený widget</string>
+    <string name="backup_all_widget_prefs_title">Zálohovat všechny widgety</string>
+    <string name="restore_prefs_title">Obnovit nastavení widgetu</string>
+    <string name="restore_no_backup_summary">Nenalezena žádná odpovídající záloha</string>
+    <string name="restore_select_dialog_title">Zvolte soubor zálohy</string>
+    <string name="restore_button">Obnovit</string>
+    <string name="backup_failure_no_storage_toast" product="nosdcard">Nastavení widgetu nelze zálohovat - úložiště USB není dostupné</string>
+    <string name="backup_failure_no_storage_toast" product="default">Nastavení widgetu nelze zálohovat - karta SD není dostupná</string>
+    <string name="backup_single_success_toast">Záloha nastavení widgetu úspěšně provedena</string>
+    <string name="backup_single_failure_toast">Nelze provést zálohu nastavení widgetu</string>
+    <string name="backup_multiple_result_toast">Počet provedených záloh widgetů: <xliff:g id="count">%d</xliff:g></string>
+    <string name="restore_failure_toast">Soubor zálohy nelze obnovit</string>
+    <string name="restore_success_toast">Soubor zálohy úspěšně obnoven</string>
+    <string name="remove_backups_title">Odstranit soubory záloh</string>
+    <string name="remove_backups_no_backups_summary">Nenalezeny žádné soubory záloh</string>
+    <string name="remove_backups_select_dialog_title">Odstranit zálohy?</string>
+    <string name="remove_backups_confirm_dialog">Odstranit <xliff:g id="count" example="2 backups">%s</xliff:g>?\n\nUpozornění: operace nelze vrátit.</string>
+    <string name="remove_button">Odstranit</string>
+    <string name="select_all_button">Vybrat vše</string>
+    <plurals name="backup">
+        <item quantity="one">1 zálohu</item>
+        <item quantity="few">%d zálohy</item>
+        <item quantity="other">%d záloh</item>
+    </plurals>
+    <plurals name="backup_removed">
+        <item quantity="one">1 záloha odstraněna</item>
+        <item quantity="few">%d zálohy odstraněny</item>
+        <item quantity="other">%d záloh odstraněno</item>
+    </plurals>
 </resources>
