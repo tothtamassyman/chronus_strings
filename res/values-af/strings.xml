@@ -110,6 +110,7 @@
     <string name="display_category">vertooneienskappe</string>
     <string name="maintenance_category">Onderhoud</string>
     <string name="notifications_category">Kennisgewings</string>
+    <string name="backup_restore_category">Rugsteun en herstel</string>
 
     <string name="clock_font_title">Ure vetgedruk</string>
     <string name="clock_font_minutes_title">Minute vetgedruk</string>
@@ -405,5 +406,30 @@
     <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
     <string name="facebook_show_avatar_title">Wys avatar beeld</string>
     <string name="facebook_show_thumbnail_title">Wys duimnaelskets</string>
+
+    <!-- Preferences backup -->
+    <string name="backup_widget_prefs_title">Rugsteun huidige legstuk</string>
+    <string name="backup_all_widget_prefs_title">Rugsteun alle legstukke</string>
+    <string name="backup_failure_no_storage_toast">Legstuk instellings kan nie gerugsteun word nie aangesien \'n SD-kaart nie beskikbaar is nie</string>
+    <string name="backup_single_failure_toast">Legstuk instellings kon nie gerugsteun word nie</string>
+    <string name="backup_single_success_toast">Legstuk instellings is suksesfol gerugsteun</string>
+    <string name="restore_button">Herstel</string>
+    <string name="restore_failure_toast">Die rugsteunlêer kon nie herstel word nie</string>
+    <string name="restore_no_backup_summary">Geen pasmatige rugsteunings beskikbaar nie</string>
+    <string name="restore_prefs_title">Herstel legstuk instellings</string>
+    <string name="restore_select_dialog_title">Kies rugsteunlêer</string>
+    <string name="restore_success_toast">Legstuk instellings is suksesfol herstel</string>
+
+    <string name="remove_backups_title">Skrap rugsteunlêers</string>
+    <string name="remove_backups_no_backups_summary">Geen rugsteunlêers om te skrap nie</string>
+    <string name="remove_backups_select_dialog_title">Skrap rugsteunings?</string>
+    <string name="remove_backups_confirm_dialog">Skrap <xliff:g id="count" example="2 backups">%s</xliff:g>?\n\nVersigtig: Die aksie is permanent.</string>
+    <string name="remove_button">Skrap</string>
+    <string name="select_all_button">Almal</string>
+    <plurals name="backup">
+        <item quantity="one">1 rugsteunlêer</item>
+        <item quantity="other">%d rugsteunlêers</item>
+    </plurals>
+    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups">%s</xliff:g> geskrap</string>
 
 </resources>

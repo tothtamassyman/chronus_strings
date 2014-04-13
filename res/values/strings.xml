@@ -500,6 +500,7 @@
     <string name="restore_prefs_title">Restore widget settings</string>
     <string name="restore_no_backup_summary">No matching backups could be found</string>
     <string name="restore_select_dialog_title">Select backup file</string>
+    <string name="restore_button">Restore</string>
     <string name="backup_failure_no_storage_toast" product="nosdcard">Widget settings can\'t be backed up, the USB storage is not available</string>
     <string name="backup_failure_no_storage_toast" product="default">Widget settings can\'t be backed up, the SD card is not available</string>
     <string name="backup_single_success_toast">Successfully backed up widget settings</string>
@@ -507,5 +508,17 @@
     <string name="backup_multiple_result_toast">Backed up settings of <xliff:g id="count">%d</xliff:g> widgets</string>
     <string name="restore_failure_toast">Backup file could not be restored</string>
     <string name="restore_success_toast">Successfully restored widget settings</string>
+
+    <string name="remove_backups_title">Remove backup files</string>
+    <string name="remove_backups_no_backups_summary">There are no backups to remove</string>
+    <string name="remove_backups_select_dialog_title">Remove backups?</string>
+    <string name="remove_backups_confirm_dialog">Remove <xliff:g id="count" example="2 backups">%s</xliff:g>?\n\nCaution: This can not be undone.</string>
+    <string name="remove_button">Remove</string>
+    <string name="select_all_button">Select all</string>
+    <plurals name="backup">
+        <item quantity="one">1 backup</item>
+        <item quantity="other">%d backups</item>
+    </plurals>
+    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups">%s</xliff:g> removed</string>
 
 </resources>
