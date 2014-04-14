@@ -213,16 +213,16 @@
     <string name="calendar_colors">Cor do calendário de eventos</string>
     <string name="chronus_clockplus">Chronus Relógio+</string>
     <string name="chronus_weather">Chronus Tempo</string>
-    <string name="chronus_calendar">Chronus Calendário</string>
+    <string name="chronus_calendar">Chronus Calendário (Pro)</string>
     <string name="chronus_clockplus_short">Relógio+</string>
     <string name="chronus_weather_short">Tempo</string>
     <string name="chronus_calendar_short">Calendário</string>
     <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
     <string name="chronus_flex_analog">Chronus Flex (Analógico)</string>
     <string name="chronus_flex_analog_short">Flex (Analógico)</string>
-	<string name="chronus_clockplus_forecast">Chronus Clock+ (Tempo)</string>
+	<string name="chronus_clockplus_forecast">Chronus Clock+ (Tempo) (Pro)</string>
 	<string name="chronus_clockplus_forecast_short">Clock+ (Tempo)</string>
-	<string name="chronus_forecast">Chronus Tempo</string>
+	<string name="chronus_forecast">Chronus Tempo (Pro)</string>
 	<string name="chronus_forecast_short">Tempo</string>
 	<string name="chronus_news">Chronus Notícias</string>
 	<string name="chronus_news_short">Notícias</string>

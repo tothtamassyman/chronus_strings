@@ -368,9 +368,9 @@
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_clockplus">Chronus Óra+</string>
     <string name="chronus_weather">Chronus Időjárás</string>
-    <string name="chronus_forecast">Chronus Időjárás-előrejelzés</string>
-    <string name="chronus_calendar">Chronus Naptár</string>
-    <string name="chronus_clockplus_forecast">Chronus Óra+ (Előrejelzés)</string>
+    <string name="chronus_forecast">Chronus Időjárás-előrejelzés (Pro)</string>
+    <string name="chronus_calendar">Chronus Naptár (Pro)</string>
+    <string name="chronus_clockplus_forecast">Chronus Óra+ (Előrejelzés) (Pro)</string>
     <string name="chronus_news">Chronus Hírek</string>
 
     <string name="chronus_clockplus_short">Óra+</string>

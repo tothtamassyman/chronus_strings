@@ -341,12 +341,14 @@
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_clockplus">Chronus Ura+</string>
     <string name="chronus_weather">Chronus Vreme</string>
-    <string name="chronus_forecast">Chronus Vremenska napoved</string>
-    <string name="chronus_calendar">Chronus Koledar</string>
+    <string name="chronus_forecast">Chronus Vremenska napoved (Pro)</string>
+    <string name="chronus_calendar">Chronus Koledar (Pro)</string>
+    <string name="chronus_clockplus_forecast">Chronus Ura+ (Vreme) (Pro)</string>
     <string name="chronus_clockplus_short">Ura+</string>
     <string name="chronus_weather_short">Vreme</string>
     <string name="chronus_forecast_short">Vremenska napoved</string>
     <string name="chronus_calendar_short">Koledar</string>
+    <string name="chronus_clockplus_forecast_short">Ura+ (Vreme)</string>
 
     <!-- TRANSLATORS: 'Chronus Flex' should remain as-is, only translate 'Analog' -->
     <string name="chronus_flex_analog">Chronus Flex (Analogna ura)</string>

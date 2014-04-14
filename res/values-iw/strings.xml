@@ -355,9 +355,9 @@
   <!-- Widget names -->
   <string name="chronus_clockplus">Chronus שעון+</string>
   <string name="chronus_weather">מזג אוויר Chronus</string>
-  <string name="chronus_forecast">תחזית Chronus</string>
-  <string name="chronus_calendar">Chronus לוח שנה</string>
-  <string name="chronus_clockplus_forecast">Chronus שעון+ (תחזית)</string>
+  <string name="chronus_forecast">תחזית Chronus (Pro)</string>
+  <string name="chronus_calendar">Chronus לוח שנה (Pro)</string>
+  <string name="chronus_clockplus_forecast">Chronus שעון+ (תחזית) (Pro)</string>
   <string name="chronus_news">חדשות Chronus</string>
   
   <string name="chronus_clockplus_short">שעון+</string>

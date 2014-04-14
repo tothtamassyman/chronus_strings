@@ -322,9 +322,9 @@
     <string name="calendar_event_color_always">Immer anzeigen</string>
     <string name="chronus_clockplus">Chronus Uhr+</string>
     <string name="chronus_weather">Chronus Wetter</string>
-    <string name="chronus_forecast">Chronus Wettervorhersage</string>
-    <string name="chronus_calendar">Chronus Kalender</string>
-    <string name="chronus_clockplus_forecast">Chronus Uhr+ (Wetter)</string>
+    <string name="chronus_forecast">Chronus Wettervorhersage (Pro)</string>
+    <string name="chronus_calendar">Chronus Kalender (Pro)</string>
+    <string name="chronus_clockplus_forecast">Chronus Uhr+ (Wetter) (Pro)</string>
     <string name="chronus_news">Chronus Nachrichten</string>
     <string name="chronus_clockplus_short">Uhr+</string>
     <string name="chronus_weather_short">Wetter</string>
@@ -388,4 +388,13 @@
     <string name="backup_multiple_result_toast">Die Einstellungen von <xliff:g id="count">%d</xliff:g> Widgets wurden gesichert</string>
     <string name="restore_failure_toast">Sicherung konnte nicht wiederhergestellt werden</string>
     <string name="restore_success_toast">Sicherung wurde erfolgreich wiederhergestellt</string>
+    <string name="remove_backups_title">Sicherungen löschen</string>
+    <string name="remove_backups_no_backups_summary">Es sind keine Sicherungen vorhanden</string>
+    <string name="remove_backups_select_dialog_title">Sicherungen löschen?</string>
+    <string name="remove_button">Löschen</string>
+    <string name="select_all_button">Alle auswählen</string>
+    <plurals name="remove_backups_result_toast">
+        <item quantity="one">1 Sicherung gelöscht</item>
+        <item quantity="other">%d Sicherungen gelöscht</item>
+    </plurals>
 </resources>

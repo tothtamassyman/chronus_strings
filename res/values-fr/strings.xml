@@ -82,7 +82,6 @@
     <string name="weather_45">Orages</string>
     <string name="weather_46">Averses de neige</string>
     <string name="weather_47">Orages isolés</string>
-    <string name="weather_3200"></string>
 
     <!-- Weather - Speed units -->
     <string name="weather_kph">km/h</string>
@@ -385,9 +384,9 @@
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_clockplus">Chronus Horloge+</string>
     <string name="chronus_weather">Chronus Météo</string>
-    <string name="chronus_forecast">Chronus Prévision</string>
-    <string name="chronus_calendar">Chronus Agendas</string>
-    <string name="chronus_clockplus_forecast">Chronus Horloge+ (Prévision)</string>
+    <string name="chronus_forecast">Chronus Prévision (Pro)</string>
+    <string name="chronus_calendar">Chronus Agendas (Pro)</string>
+    <string name="chronus_clockplus_forecast">Chronus Horloge+ (Prévision) (Pro)</string>
     <string name="chronus_news">Chronus Actualité</string>
 
     <string name="chronus_clockplus_short">Horloge+</string>
@@ -449,18 +448,28 @@
     <string name="incompatible_launcher_header_notice">Lancer en mode de compatibilité. Appuyer pour plus de détails</string>
     <string name="hide_incompatibility_notice">Masquer l\'avertissement</string>
 
-    <!-- Preferences backup -->
+    <!-- Preferences Backup and restore-->
     <string name="backup_widget_prefs_title">Sauvegarder le widget sélectionné</string>
     <string name="backup_all_widget_prefs_title">Sauvegarder tous les widgets</string>
     <string name="restore_prefs_title">Restaurer les paramètres du widget</string>
     <string name="restore_no_backup_summary">Aucune sauvegarde correspondante n\'a pu être trouvée</string>
     <string name="restore_select_dialog_title">Sélection du fichier de sauvegarde</string>
+    <string name="restore_button">Restaurer</string>
     <string name="backup_failure_no_storage_toast" product="nosdcard">Les paramètres du widget n\'ont pas pu être sauvegardés, le stockage USB n\'est pas disponible</string>
     <string name="backup_failure_no_storage_toast" product="default">Les paramètres du widget n\'ont pas pu être sauvegardés, la carte SD n\'est pas disponible</string>
     <string name="backup_single_success_toast">Les paramètres du widget ont été sauvegardés avec succès</string>
     <string name="backup_single_failure_toast">Les paramètres du widget n\'ont pas pu être sauvegardés</string>
-    <string name="backup_multiple_result_toast">Les paramètres de <xliff:g id="count">%d</xliff:g> widgets sauvegardés</string>
+    <string name="backup_multiple_result_toast">Les paramètres de <xliff:g id="count">%d</xliff:g> widgets ont été sauvegardés</string>
     <string name="restore_failure_toast">Les paramètres du widget n\'ont pas pu être restaurés</string>
     <string name="restore_success_toast">Les paramètres du widget ont été restaurés avec succès</string>
+    <string name="remove_backups_title">Supprimer des fichiers de sauvegarde</string>
+    <string name="remove_backups_no_backups_summary">Aucune sauvegarde à supprimer</string>
+    <string name="remove_backups_select_dialog_title">Supprimer les sauvegardes\u00A0?</string>
+    <string name="remove_button">Supprimer</string>
+    <string name="select_all_button">Tout sélectionner</string>
+    <plurals name="remove_backups_result_toast">
+        <item quantity="one">1 sauvegarde supprimée</item>
+        <item quantity="other">%d sauvegardes supprimées</item>
+    </plurals>
 
 </resources>
