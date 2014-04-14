@@ -422,9 +422,9 @@
     <string name="chronus_flex" translatable="false">Chronus Flex</string>
     <string name="chronus_clockplus">Chronus Clock+</string>
     <string name="chronus_weather">Chronus Weather</string>
-    <string name="chronus_forecast">Chronus Forecast</string>
-    <string name="chronus_calendar">Chronus Calendar</string>
-    <string name="chronus_clockplus_forecast">Chronus Clock+ (Forecast)</string>
+    <string name="chronus_forecast">Chronus Forecast (Pro)</string>
+    <string name="chronus_calendar">Chronus Calendar (Pro)</string>
+    <string name="chronus_clockplus_forecast">Chronus Clock+ (Forecast) (Pro)</string>
     <string name="chronus_news">Chronus News</string>
 
     <string name="chronus_flex_short" translatable="false">Flex</string>

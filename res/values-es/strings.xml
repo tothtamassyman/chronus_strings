@@ -314,9 +314,9 @@
     <string name="weather_attribution_yrno">Datos proporcionados por Norwegian Meteorological Institute</string>
     <string name="chronus_clockplus">Chronus Reloj+</string>
     <string name="chronus_weather">Chronus Tiempo</string>
-    <string name="chronus_forecast">Chronus Predicción Tiempo</string>
-    <string name="chronus_calendar">Chronus Calendario</string>
-    <string name="chronus_clockplus_forecast">Chronus Reloj+ (Predicción Tiempo)</string>
+    <string name="chronus_forecast">Chronus Predicción Tiempo (Pro)</string>
+    <string name="chronus_calendar">Chronus Calendario (Pro)</string>
+    <string name="chronus_clockplus_forecast">Chronus Reloj+ (Predicción Tiempo) (Pro)</string>
     <string name="chronus_news">Chronus Noticias</string>
     <string name="chronus_clockplus_short">Reloj+</string>
     <string name="chronus_weather_short">Tiempo</string>

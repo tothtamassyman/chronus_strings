@@ -303,9 +303,9 @@
     <string name="calendar_event_color_always">Πάντα εμφάνιση</string>
     <string name="chronus_clockplus">Ρολόι+ Chronus</string>
     <string name="chronus_weather">Καιρός Chronus</string>
-    <string name="chronus_forecast">Πρόγνωση Chronus</string>
-    <string name="chronus_calendar">Ημερολόγιο Chronus</string>
-    <string name="chronus_clockplus_forecast">Ρολόι+ Chronus (Πρόγνωση)</string>
+    <string name="chronus_forecast">Πρόγνωση Chronus (Pro)</string>
+    <string name="chronus_calendar">Ημερολόγιο Chronus (Pro)</string>
+    <string name="chronus_clockplus_forecast">Ρολόι+ Chronus (Πρόγνωση) (Pro)</string>
     <string name="chronus_news">Νέα Chronus</string>
     <string name="chronus_clockplus_short">Ρολόι+</string>
     <string name="chronus_weather_short">Καιρός</string>

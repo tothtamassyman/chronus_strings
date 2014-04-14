@@ -302,8 +302,8 @@
 
     <string name="chronus_clockplus">Chronus (klok+)</string>
     <string name="chronus_weather">Chronus (weer)</string>
-    <string name="chronus_forecast">Chronus (weersverwachting)</string>
-    <string name="chronus_calendar">Chronus (agenda)</string>
+    <string name="chronus_forecast">Chronus (weersverwachting) (Pro)</string>
+    <string name="chronus_calendar">Chronus (agenda) (Pro)</string>
     <string name="chronus_clockplus_short">Klok+</string>
     <string name="chronus_weather_short">Weer</string>
     <string name="chronus_forecast_short">Weersverwachting</string>

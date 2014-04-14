@@ -335,9 +335,9 @@
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus Clock+</string>
     <string name="chronus_weather">Chronus — погода</string>
-    <string name="chronus_forecast">Chronus — прогноз</string>
-    <string name="chronus_calendar">Chronus — календарь</string>
-    <string name="chronus_clockplus_forecast">Chronus Clock+ (прогноз)</string>
+    <string name="chronus_forecast">Chronus — прогноз (Pro)</string>
+    <string name="chronus_calendar">Chronus — календарь (Pro)</string>
+    <string name="chronus_clockplus_forecast">Chronus Clock+ (прогноз) (Pro)</string>
     <string name="chronus_news">Chronus — новости</string>
     <string name="chronus_clockplus_short">Clock+</string>
     <string name="chronus_weather_short">Погода</string>

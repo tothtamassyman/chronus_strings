@@ -382,9 +382,9 @@
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_clockplus">Chronus Clock+</string>
     <string name="chronus_weather">Chronus Sää</string>
-    <string name="chronus_forecast">Chronus Ennuste</string>
-    <string name="chronus_calendar">Chronus Kalenteri</string>
-    <string name="chronus_clockplus_forecast">Chronus Clock+ (Ennuste)</string>
+    <string name="chronus_forecast">Chronus Ennuste (Pro)</string>
+    <string name="chronus_calendar">Chronus Kalenteri (Pro)</string>
+    <string name="chronus_clockplus_forecast">Chronus Clock+ (Ennuste) (Pro)</string>
     <string name="chronus_news">Chronus Uutiset</string>
 
     <string name="chronus_clockplus_short">Clock+</string>

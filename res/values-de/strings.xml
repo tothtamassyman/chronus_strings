@@ -322,9 +322,9 @@
     <string name="calendar_event_color_always">Immer anzeigen</string>
     <string name="chronus_clockplus">Chronus Uhr+</string>
     <string name="chronus_weather">Chronus Wetter</string>
-    <string name="chronus_forecast">Chronus Wettervorhersage</string>
-    <string name="chronus_calendar">Chronus Kalender</string>
-    <string name="chronus_clockplus_forecast">Chronus Uhr+ (Wetter)</string>
+    <string name="chronus_forecast">Chronus Wettervorhersage (Pro)</string>
+    <string name="chronus_calendar">Chronus Kalender (Pro)</string>
+    <string name="chronus_clockplus_forecast">Chronus Uhr+ (Wetter) (Pro)</string>
     <string name="chronus_news">Chronus Nachrichten</string>
     <string name="chronus_clockplus_short">Uhr+</string>
     <string name="chronus_weather_short">Wetter</string>

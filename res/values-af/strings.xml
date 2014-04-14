@@ -278,10 +278,10 @@
 
     <string name="chronus_clockplus">Chronus Klok+</string>
     <string name="chronus_weather">Chronus Weer</string>
-    <string name="chronus_calendar">Chronus Kalender</string>
+    <string name="chronus_calendar">Chronus Kalender(Pro)</string>
     <string name="chronus_flex_analog">Chronus Flex (Analoog)</string>
-    <string name="chronus_clockplus_forecast">Chronus Klok+ (Voorspelling)</string>
-    <string name="chronus_forecast">Chronus Voorspelling</string>
+    <string name="chronus_clockplus_forecast">Chronus Klok+ (Voorspelling) (Pro)</string>
+    <string name="chronus_forecast">Chronus Voorspelling (Pro)</string>
     <string name="chronus_news">Chronus Nuus</string>
 
     <string name="chronus_clockplus_short">Klok+</string>

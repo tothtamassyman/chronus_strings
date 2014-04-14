@@ -350,9 +350,9 @@
 
     <string name="chronus_clockplus">Chronus hodiny+</string>
     <string name="chronus_weather">Chronus počasí</string>
-    <string name="chronus_forecast">Chronus předpověď</string>
-    <string name="chronus_calendar">Chronus kalendář</string>
-    <string name="chronus_clockplus_forecast">Chronus hodiny+ (předpověď)</string>
+    <string name="chronus_forecast">Chronus předpověď (Pro)</string>
+    <string name="chronus_calendar">Chronus kalendář (Pro)</string>
+    <string name="chronus_clockplus_forecast">Chronus hodiny+ (předpověď)(Pro)</string>
     <string name="chronus_news">Chronus zprávy</string>
     <string name="chronus_clockplus_short">Hodiny+</string>
     <string name="chronus_weather_short">Počasí</string>

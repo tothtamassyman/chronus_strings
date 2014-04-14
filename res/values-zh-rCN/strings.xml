@@ -327,8 +327,8 @@
     <!-- TRANSLATORS: The App name should remain as Chronus -->
     <string name="chronus_clockplus">Chronus 时钟+</string>
     <string name="chronus_weather">Chronus 天气</string>
-    <string name="chronus_forecast">Chronus 预报</string>
-    <string name="chronus_calendar">Chronus 日历</string>
+    <string name="chronus_forecast">Chronus 预报 (Pro)</string>
+    <string name="chronus_calendar">Chronus 日历 (Pro)</string>
     <string name="chronus_clockplus_short">时钟+</string>
     <string name="chronus_weather_short">天气</string>
     <string name="chronus_forecast_short">预报</string>

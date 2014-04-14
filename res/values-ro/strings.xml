@@ -384,9 +384,9 @@
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_clockplus">Chronus Ceas+</string>
     <string name="chronus_weather">Chronus Meteo</string>
-    <string name="chronus_forecast">Chronus Prognoză</string>
-    <string name="chronus_calendar">Chronus Calendar</string>
-    <string name="chronus_clockplus_forecast">Chronus Ceas+ (Progoză)</string>
+    <string name="chronus_forecast">Chronus Prognoză (Pro)</string>
+    <string name="chronus_calendar">Chronus Calendar (Pro)</string>
+    <string name="chronus_clockplus_forecast">Chronus Ceas+ (Progoză) (Pro)</string>
     <string name="chronus_news">Chronus Știri</string>
     
     <string name="chronus_clockplus_short">Ceas+</string>
