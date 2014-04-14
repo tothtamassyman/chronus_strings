@@ -134,7 +134,6 @@
     <string name="widget_type_keyguard">Ecran blocare</string>
     <string name="widget_type_homescreen">Ecran principal</string>
     <string name="widget_type_daydream">Screensaver Daydream</string>
-    <string name="notifications_category">Notificări</string>
 
     <!-- Preferences - Clock -->
     <string name="clock_font_title">"Font oră îngroșat"</string>
@@ -257,8 +256,9 @@
 
     <!-- News - Service -->
     <plurals name="news_feed_new_articles">
-         <item quantity="one">1 articol nou</item>
-         <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> articole noi</item>
+        <item quantity="one">1 articol nou</item>
+        <item quantity="few"><xliff:g id="articles" example="12 new articles">%s</xliff:g> articole noi</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> articole noi</item>
     </plurals>
 
     <!-- News - Reader -->
@@ -465,16 +465,11 @@
     <string name="remove_backups_title">Ștergere backup</string>
     <string name="remove_backups_no_backups_summary">Nu există backup-uri pentru ștergere</string>
     <string name="remove_backups_select_dialog_title">Ștergere backup?</string>
-    <string name="remove_backups_confirm_dialog">Ștergere <xliff:g id="count" example="2 backups">%s</xliff:g>?\n\nAtenție: Procedura nu este reversibilă.</string>
     <string name="remove_button">Ștergeți</string>
     <string name="select_all_button">Selectați toate</string>
-    <plurals name="backup">
-        <item quantity="one">1 backup</item>
-        <item quantity="other">%d backup-uri</item>
-    </plurals>
-    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups removed">%s</xliff:g></string>
-    <plurals name="backup_removed">
+    <plurals name="remove_backups_result_toast">
         <item quantity="one">1 backup șters</item>
+        <item quantity="few">%d backup-uri șterse</item>
         <item quantity="other">%d backup-uri șterse</item>
     </plurals>
     

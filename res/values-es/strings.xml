@@ -76,7 +76,6 @@
     <string name="weather_45">Chaparrones</string>
     <string name="weather_46">Nieve</string>
     <string name="weather_47">Chap. aislados</string>
-    <string name="weather_3200"></string> <!-- No disponible -->
     <string name="weather_kph">km/h</string>
     <string name="weather_mph">mph</string>
     <string name="weather_N">N</string>
@@ -172,7 +171,7 @@
     <string name="news_feed_icon_title">Icono de noticias</string>
     <string name="news_feed_rotate_interval">Intervalo de rotación</string>
     <string name="news_feed_display_unread_status">Indicador de no leído</string>
-    <string name="news_feed_hide_viewed">Ocultar leidas</string>
+    <string name="news_feed_hide_viewed">Ocultar leídas</string>
     <string name="news_feed_no_articles_text_title">Mostrar texto \u00ABSin elementos\u00BB</string>
     <string name="news_feed_provider_title">Tipo de proveedor</string>
     <string name="news_feed_provider_rss">RSS</string>
@@ -215,7 +214,6 @@
     <string name="news_feed_article_new_format">[NUEVO] <xliff:g id="title">%s</xliff:g></string>
     <string name="news_feed_read_more">Leer más\u2026</string>
     <plurals name="news_feed_new_articles">
-        <item quantity="zero">No hay nuevos elementos</item>
         <item quantity="one">1 nuevo elemento</item>
         <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> nuevos elementos</item>
     </plurals>
@@ -236,14 +234,14 @@
     <string name="feedly_account_title">Cuenta de Feedly</string>
     <string name="feedly_preferences_title">Preferencias</string>
     <string name="feedly_trending_content_title">Contenido más popular</string>
-    <string name="feedly_categories_title">Categorias</string>
+    <string name="feedly_categories_title">Categorías</string>
     <string name="feedly_category_uncategorized">Sin categorizar</string>
     <string name="feedly_msg_retrieving_user_profile">Recuperando perfil de usuario\u2026</string>
-    <string name="feedly_msg_retrieving_user_categories">Recuperando categorias\u2026</string>
-    <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
+    <string name="feedly_msg_retrieving_user_categories">Recuperando categorías\u2026</string>
+    <string name="facebook_article_source_with_app">%1$s (vía %2$s)</string>
     <string name="facebook_account_title">Cuenta de Facebook</string>
     <string name="facebook_show_avatar_title">Mostrar avatar</string>
-    <string name="facebook_show_thumbnail_title">Mostrar images en miniatura</string>
+    <string name="facebook_show_thumbnail_title">Mostrar imágenes en miniatura</string>
     <string name="white">Blanco</string>
     <string name="grey">Gris</string>
     <string name="black">Negro</string>
@@ -273,8 +271,8 @@
     <string name="credits_title">Créditos</string>
     <string name="credits_summary">Mientras que Danny Baumann y yo escribimos la mayoría del código de Chronus, algunos créditos deben ir
         también para los muchos traductores por los idiomas incluidos, así como a otros desarrolladores como
-        Nicolai Ehemann y Matt Booth por las correcciones y nuevas características que han aportado al código.</string>
-    <string name="contact_title">Contactanos</string>
+        Nicolai Ehemann, Matt Booth y Jorge Ruesga por las correcciones y nuevas características que han aportado al código.</string>
+    <string name="contact_title">Contáctanos</string>
     <string name="send_email">Enviar email\u2026</string>
     <string name="pro_features_summary">Pulsa para habilitar las características de pago</string>
     <string name="pro_features_thanks">Gracias por comprar la aplicación</string>
@@ -361,7 +359,7 @@
         tal y como fueron diseñadas.\n\nChronus ha cambiado a \'Modo de compatibilidad\' básico, con muchas de sus
         funciones de redimensionado y ocultación automática de componentes del widget deshabilitadas.\n\nPor favor,
         contacta con el desarrollo de tu lanzador de aplicaciones para que actualice su aplicación o cambia a uno compatible.</string>
-    <string name="incompatible_launcher_header_notice">Ejecutandose en \'Modo de compatibilidad\'. Toca para obtener más detalles.</string>
+    <string name="incompatible_launcher_header_notice">Ejecutándose en \'Modo de compatibilidad\'. Toca para obtener más detalles.</string>
     <string name="hide_incompatibility_notice">Ocultar aviso</string>
     <string name="backup_widget_prefs_title">Copiar ajustes del widget</string>
     <string name="backup_all_widget_prefs_title">Copiar ajustes de widgets</string>
@@ -378,17 +376,11 @@
     <string name="restore_success_toast">Ajustes de widget restablecidos satisfactoriamente</string>
     <string name="remove_backups_title">Borrar copias de seguridad</string>
     <string name="remove_backups_no_backups_summary">No existen copias de seguridad que eliminar</string>
-    <string name="remove_backups_select_dialog_title">Eliminar copias?</string>
-    <string name="remove_backups_confirm_dialog">Eliminar <xliff:g id="count" example="2 backups">%s</xliff:g>?\n\nAtención: Esto operación no puede deshacerse.</string>
+    <string name="remove_backups_select_dialog_title">¿ Eliminar copias?</string>
     <string name="remove_button">Eliminar</string>
     <string name="select_all_button">Seleccionar todos</string>
-    <plurals name="backup">
-        <item quantity="one">1 copia</item>
-        <item quantity="other">%d copias</item>
-    </plurals>
-    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups removed">%s</xliff:g></string>
-    <plurals name="backup_removed">
-        <item quantity="one">1 copias eliminada</item>
-        <item quantity="other">%d backups eliminadas</item>
+    <plurals name="remove_backups_result_toast">
+        <item quantity="one">1 copia eliminada</item>
+        <item quantity="other">%d copias eliminadas</item>
     </plurals>
 </resources>

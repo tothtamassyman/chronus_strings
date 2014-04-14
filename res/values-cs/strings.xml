@@ -423,15 +423,9 @@
     <string name="remove_backups_title">Odstranit soubory záloh</string>
     <string name="remove_backups_no_backups_summary">Nenalezeny žádné soubory záloh</string>
     <string name="remove_backups_select_dialog_title">Odstranit zálohy?</string>
-    <string name="remove_backups_confirm_dialog">Odstranit <xliff:g id="count" example="2 backups">%s</xliff:g>?\n\nUpozornění: operace nelze vrátit.</string>
     <string name="remove_button">Odstranit</string>
     <string name="select_all_button">Vybrat vše</string>
-    <plurals name="backup">
-        <item quantity="one">1 zálohu</item>
-        <item quantity="few">%d zálohy</item>
-        <item quantity="other">%d záloh</item>
-    </plurals>
-    <plurals name="backup_removed">
+    <plurals name="remove_backups_result_toast">
         <item quantity="one">1 záloha odstraněna</item>
         <item quantity="few">%d zálohy odstraněny</item>
         <item quantity="other">%d záloh odstraněno</item>

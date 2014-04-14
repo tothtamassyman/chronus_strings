@@ -466,15 +466,9 @@
     <string name="remove_backups_title">Poista varmuuskopiot</string>
     <string name="remove_backups_no_backups_summary">Poistettavia varmuuskopioita ei ole</string>
     <string name="remove_backups_select_dialog_title">Poista varmuuskopiot?</string>
-    <string name="remove_backups_confirm_dialog">Poistetaanko <xliff:g id="count" example="2 backups">%s</xliff:g>?\n\nVaroitus: Poistamista ei voi perua.</string>
     <string name="remove_button">Poista</string>
     <string name="select_all_button">Valitse kaikki</string>
-    <plurals name="backup">
-        <item quantity="one">1 varmuuskopio</item>
-        <item quantity="other">%d varmuuskopiota</item>
-    </plurals>
-    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups removed">%s</xliff:g></string>
-    <plurals name="backup_removed">
+    <plurals name="remove_backups_result_toast">
         <item quantity="one">1 varmuuskopio poistettu</item>
         <item quantity="other">%d varmuuskopiota poistettu</item>
     </plurals>
