@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 
-
      Copyright (C) 2012 The CyanogenMod Project (DvTonder)
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,9 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="app_name" translatable="false">Chronus</string>
-    <string name="app_name_pro" translatable="false">Chronus Pro</string>
-    
     <string name="unknown">Desconhecido</string>
     <string name="cancel">Cancelar</string>
     <string name="loading_indicator">A carregar widget\u2026</string>
@@ -28,8 +24,6 @@
     <string name="menu_search">Procurar</string>
     <string name="ok">OK</string>
     <string name="close">Fechar</string>
-    <string-array name="empty_array" translatable="false"/>
-    <string name="send_log" translatable="false">Logcat</string>
     <string name="exit">Sair</string>
     <string name="msg_service_unavailable">Serviço indisponível</string>
     <string name="msg_login_failed">Login falhou</string>
@@ -37,15 +31,7 @@
     
     <!-- Formats -->
     <string name="format_seconds">%s seg.</string>
-    
-    <!-- Formating strings for widget clock -->
-    <string name="widget_12_hours_format_h" translatable="false">h</string>
-    <string name="widget_12_hours_format_no_ampm_m" translatable="false">:mm</string>
-    <string name="widget_12_hours_format_m" translatable="false">:mm<font size="15">aa</font></string>
-    <string name="widget_24_hours_format_h" translatable="false">kk</string>
-    <string name="widget_24_hours_format_m" translatable="false">:mm</string>
-    <string name="widget_am_pm_format" translatable="false">a</string>
-    
+
     <!-- Weather - Weather codes -->
     <string name="weather_0">Tornado</string>
     <string name="weather_1">Tempestade Tropical</string>
@@ -95,8 +81,7 @@
     <string name="weather_45">Chuvas com Trovoadas</string>
     <string name="weather_46">Chuva de Neve</string>
     <string name="weather_47">Chuvas com Trovoadas Isoladas</string>
-    <string name="weather_3200"></string> <!-- Forecast unavailable -->
-    
+
     <!-- Weather - Units -->
     <string name="weather_kph">km/h</string>
     <string name="weather_mph">mph</string>
@@ -148,7 +133,6 @@
     <string name="widget_type_keyguard">Ecrã de bloqueio</string>
     <string name="widget_type_daydream">Daydream Screensaver</string>
     <string name="widget_type_homescreen">Ecrã inicial</string>
-    <string name="widget_type_homescreen_format" translatable="false"><xliff:g id="name">%1$s</xliff:g> (<xliff:g id="columns">%2$d</xliff:g>x<xliff:g id="rows">%3$d</xliff:g>)</string>
 
     <!-- Preferences - Clock -->
     <string name="clock_font_title">Horas a negrito</string>
@@ -220,8 +204,6 @@
     <string name="news_feed_no_articles_text_title">Mostrar texto "Sem notícias"</string>
     <string name="news_feed_provider_title">Tipo de provedor</string>
     <string name="news_feed_provider_rss">RSS</string>
-    <string name="news_feed_provider_feedly" translatable="false">Feedly</string>
-    <string name="news_feed_provider_facebook" translatable="false">Facebook</string>
     <string name="news_feed_provider_settings_rss_title">Fontes de informação</string>
     <string name="news_feed_provider_settings_feedly_title">Definições do Feedly</string>
     <string name="news_feed_provider_settings_facebook_title">Definições do Facebook</string>
@@ -288,8 +270,7 @@
     <!-- News Feed Provider Settings - RSS -->
     <string name="rss_sources_custom_header">Definido pelo utilizador</string>
     <string name="rss_custom_source_url">Url:</string>
-    <string name="rss_custom_source_url_hint" translatable="false">http://</string>
-    <string name="rss_custom_source_title">Adicionar fonte personalizada</string>	
+    <string name="rss_custom_source_title">Adicionar fonte personalizada</string>
     <string name="rss_custom_source_name">Nome:</string>
 	
     <!-- News Feed Provider Settings - OAuth shared -->	
@@ -308,7 +289,6 @@
     <string name="feedly_msg_retrieving_user_categories">A obter categorias do utilizador\u2026</string>
 	
     <!-- News Feed Provider Settings - Facebook -->	
-    <string name="facebook_article_source" translatable="false">%1$s</string>
     <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
     <string name="facebook_account_title">Conta do Facebook</string>
     <string name="facebook_show_avatar_title">Mostrar imagens de perfil</string>
@@ -339,8 +319,7 @@
         o suficiente.\n\nPara melhores resultados, eu recomendaria usar os launchers Apex ou Nova. O Chronus funcionará na maioria dos launchers mas a capacidade de configurar como será 
         exibido pode ser limitada.\n\nPara Android 4.2+, para adiconar um widget ao ecrã de bloqueio, deslize para a esquerda nesse ecrã e depois use o botão de adicionar widget (+) para 
         adicionar o Chronus. Os widgets do ecrã de bloqueio podem ser reordenados através de um toque longo e depois movendo-os ou apagando-os.</string>
-    
-    
+
     <string name="no_widget_message">É preciso adicionar pelo menos um widget Chronus ao ecrã inicial ou ao ecrã
         de bloqueio antes de poder utilizar esta aplicação para mudar a sua configuração.\n\nOs widgets
         podem ser adicionados usando o selecionador de widgets e o seu launcher.</string>
@@ -350,10 +329,8 @@
         revendo e ajustando; os muitos tradutores da comunidade CyanogenMod por adicionarem todos os idiomas que estão incluídos; e outros contribuidores como Nicolai Ehemann, 
         Matt Booth e Jorge Ruesga pelos consertos e funcionalidades que contribuiram.</string>
     <string name="contact_title">Contacte-me</string>
-    <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
     <string name="send_email">Enviar e-mail \u2026</string>
-    <string name="google_plus" translatable="false">Google+</string>
-    
+
     <!-- START OF PRO VERSION STRINGS -->
     <!-- Pro features (About) -->
     <string name="pro_features_summary">Clique para ativar as funcionalidades Pro</string>
@@ -366,7 +343,6 @@
         \u2022 Um painel de mini calendário\n
         \u2022 e mais \u2026\n\nSugestões são sempre bem-vindas.\n\nDesde já obrigado pelo seu apoio.</string>
     <string name="get_pro">Obter Pro</string>
-    
     <string name="pro_check_dialog_message">A verificar a licença Pro\u2026</string>
     
     <!-- Shortcut picker -->
@@ -409,17 +385,10 @@
 	
     <!-- Weather providers -->
     <string name="weather_source_yahoo">Yahoo! Tempo</string>
-    <string name="weather_source_wunderground" translatable="false">Weather Underground</string>
-    <string name="weather_source_hamweather" translatable="false">Hamweather</string>
-    <string name="weather_source_accuweather" translatable="false">AccuWeather</string>
-    <string name="weather_source_openweathermap" translatable="false">OpenWeatherMap</string>
-    <string name="weather_source_yrno" translatable="false">yr.no</string>
-  
-    <string name="weather_attribution_yrno">Informação fornecida pelo Instituto Meteorológico Norueguês</string>  
+    <string name="weather_attribution_yrno">Informação fornecida pelo Instituto Meteorológico Norueguês</string>
     
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
-    <string name="chronus_flex" translatable="false">Chronus Flex</string>
     <string name="chronus_clockplus">Chronus Relógio+</string>
     <string name="chronus_weather">Chronus Tempo</string>
     <string name="chronus_forecast">Chronus Tempo (Pro)</string>
@@ -427,7 +396,6 @@
     <string name="chronus_clockplus_forecast">Chronus Clock+ (Tempo) (Pro)</string>
     <string name="chronus_news">Chronus Notícias</string>
     
-    <string name="chronus_flex_short" translatable="false">Flex</string>
     <string name="chronus_clockplus_short">Relógio+</string>
     <string name="chronus_weather_short">Tempo</string>
     <string name="chronus_forecast_short">Tempo</string>
@@ -458,14 +426,12 @@
     <!-- Weather icon sets -->
     <string name="weather_icon_set_title">Conjunto de ícones</string>
     <string name="icon_set_selection_get_more">Obter mais\u2026</string>	
-    <string name="icon_set_store_filter" translatable="false">Chronus Weather Icons</string>	
-	
+
     <!-- Icon Set names -->	
     <string name="weather_icons_standard">Colorido</string>
     <string name="weather_icons_monochrome">Monocromático</string>
 	
     <!-- Daydream -->
-    <string name="daydream_settings_name" translatable="false">Chronus Dream</string>
     <string name="daydream_night_mode_title">Modo noturno</string>
     <string name="daydream_night_mode_summary">Escurecer o ecrã para uma melhor visualização em ambientes escuros</string>
     <string name="daydream_effect_title">Efeito</string>
@@ -490,8 +456,7 @@
         deste modo, várias funcionalidades do Chronus não funcionarão da forma prevista.\n\nO Chronus mudou para um modo básico, \'Compatibility mode\' 
         com a maior parte das funções avançadas (como o redimensionamento dos widgets e a ocultação de informação dos mesmos) desativada.\n\nPor favor, 
         contacte o criador do seu launcher solicitando uma atualização do mesmo ou mude para um launcher compatível.</string>
-	
-    <string name="incompatible_launcher_header_notice">A funcionar em modo de compatibilidade. Toque para mais detalhes</string>	
+    <string name="incompatible_launcher_header_notice">A funcionar em modo de compatibilidade. Toque para mais detalhes</string>
     <string name="hide_incompatibility_notice">Ocultar aviso</string>
     
     <!-- Preferences Backup and restore-->
