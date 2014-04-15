@@ -454,7 +454,7 @@
     <string name="restore_prefs_title">Restabilire setări</string>
     <string name="restore_no_backup_summary">Nu au fost găsite backup-uri</string>
     <string name="restore_select_dialog_title">Selectare backup</string>
-    <string name="restore_button">Restabilire</string>
+    <string name="restore_button">Restabiliți</string>
     <string name="backup_failure_no_storage_toast" product="nosdcard">Setările nu pot fi salvate, spațiul USB de stocare nu este disponibil</string>
     <string name="backup_failure_no_storage_toast" product="default">Setările nu pot fi salvate, cardul SD nu este disponibil</string>
     <string name="backup_single_success_toast">Setările au fost salvate</string>
