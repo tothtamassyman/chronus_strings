@@ -426,6 +426,7 @@
     <string name="restore_prefs_title">שחזור הגדרות וידג\'ט</string>
     <string name="restore_no_backup_summary">לא נמצאו גיבויים תואמים</string>
     <string name="restore_select_dialog_title">בחירת קובץ גיבוי</string>
+    <string name="restore_button">שחזור</string>
     <string name="backup_failure_no_storage_toast" product="nosdcard">לא ניתן לגבות את הגדרות הוידג\'ט, אחסון ה-USB איננו זמין</string>
     <string name="backup_failure_no_storage_toast" product="default">לא ניתן לגבות את הגדרות הוידג\'ט, כרטיס ה-SD איננו זמין</string>
     <string name="backup_single_success_toast">הגדרות הוידג\'ט גובו בהצלחה</string>
@@ -433,4 +434,13 @@
     <string name="backup_multiple_result_toast">ההגדרות של <xliff:g id="count">%d</xliff:g> וידג\'טים גובו</string>
     <string name="restore_failure_toast">לא ניתן לשחזר מקובץ הגיבוי</string>
     <string name="restore_success_toast">הגדרות הוידג\'ט שוחזרו בהצלחה</string>
+    <string name="remove_backups_title">הסרת קבצי הגיבויי</string>
+    <string name="remove_backups_no_backups_summary">לא קיימים גיבויים להסרה</string>
+    <string name="remove_backups_select_dialog_title">להסיר גיבויים?</string>
+    <string name="remove_button">הסרה</string>
+    <string name="select_all_button">בחירת הכל</string>
+    <plurals name="remove_backups_result_toast">
+        <item quantity="one">גיבוי אחד הוסר</item>
+        <item quantity="other">%d גיבויים הוסרו</item>
+    </plurals>
 </resources>
