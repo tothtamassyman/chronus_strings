@@ -171,7 +171,7 @@
     <string name="weather_show_refresh">Afișare buton actualizare</string>
 
     <!-- Weather notifications -->
-    <string name="weather_show_notification">Condiții currente</string>
+    <string name="weather_show_notification">Condiții curente</string>
     <string name="weather_show_notification_summary">Afișare notificare după actualizările meteo</string>
     <string name="weather_notification_forecast">Includere prognoză</string>
     <string name="weather_notification_forecast_summary">Afișare notificare cu prognoză meteo extensibilă</string>
