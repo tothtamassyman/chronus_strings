@@ -1,35 +1,43 @@
-Bem-vindo ao Chronus, um widget elegante de relógio, tempo (meteorologia) e calendário para os ecrãs iniciais e de bloqueio.
+Bem-vindo ao Chronus, um widget elegante de relógio, tempo (meteorologia), fornecedor de notícias e calendário para os ecrãs iniciais e de bloqueio.
 
 Funcionalmente o mesmo que o widget cLock da CyanogenMod e trazido até si pelo mesmo desenvolvedor, este widget isolado e lançado independentemente tem de volta o seu nome original, Chronus, e traz o mesmo aspeto elegante para a abrangente comunidade Android.
 
+Sendo um widget "Informativo" flexível, Chronus é altamente otimizado em termos de CPU e uso de dados, com a potencialidade de substituir uma variedade de outros widgets informativos. Os vários widgets Chronus existentes no mesmo dispositivo partilham os mesmos serviços de back-end e as atualizações são agrupadas. Isto faz com que o sistema use menos bateria enquanto continua a fornecer ao utilizador informações essenciais. Pode optar por usar um ou todos os recursos, sendo que aqueles que não são usados são completamente desativados, reduzindo o uso de CPU, dados e bateria.
+
 <b>Por favor note:</b>
 1) Os widgets do ecrã de bloqueio só são suportados em Android 4.2+. Isto é uma limitação do próprio Android, não do Chronus
-2) O WidgetLocker não é suportado
-3) Em alguns dispositivos pode ter de reiniciar o seu dispositivo depois de instalar o widget para que apareça na seleção de widgets
+2) Em alguns dispositivos pode ter de reiniciar o seu dispositivo depois de instalar o widget para que apareça na seleção de widgets
+3) Detalhes acerca das permissões que usamos estão disponíveis em http://goo.gl/EbMLmm
+2) SE USAR O XPOSED FRAMEWORK PARA CONTORNAR AS API'S DO ANDROID RELACIONADAS COM OS WIDGETS, A APLICAÇÃO NÃO FUNCIONARÁ DEVIDAMENTE!
 
-<b>Funcionalidades (versão Pro):</b>
-  - Ações de toque personalizadas para Relógio, Tempo e Calendário para lançar aplicações e atividades
-  - Definir uma cor de fundo
-  - Aliinhamento do painel de Relógio Digital (Centrado, Esquerda ou Direita)
-  - Alinhamento do painel de Tempo (Centrado, Esquerda ou Direita)
+<b>Funcionalidades (versão Pro, disponível através de compra na aplicação):</b>
+  - Widgets adicionais (Previsão Meteorológica, Calendário, Relógio + Tempo)
+  - Ações de toque personalizadas para Relógio, Tempo e Calendário para lançar aplicações ou atividades
+  - Alterar o alinhamento dos painéis do Relógio Digital e do Tempo (Centrado, Esquerda ou Direita) 
+  - Selecionar o estilo de relógio Analógico (Standard ou Clássico)
+  - Visualização do mês como estilo do Calendário
+  - Cores do calendário
+  - Feedly como fornecedor de notícias
+  - Facebook como fornecedor de notícias
+  - Screensaver Daydream
   - mais funcionalidades a ser lançadas a cada 3-4 semanas...
 
 <b>Funcionalidades (todas as versões):</b>
-A versão standard é funcionalmente equivalente ao widget cLock da CyanogenMod na CM10.2 com suporte adicional para versões anteriores de Android.
-  - Suporte para Android 4.1 e posterior
-  - Suporta adicionar como widget tanto ao ecrã inicial (Android 4.1+) como ao ecrã de bloqueio (Android 4.2+) como a ambos
-  - Escolha entre os painéis de relógio Analógico e Digital e personalize o seu aspeto
-  - Escolha se quer exibir alarmes
-  - Escolha entre texto normal ou a negrito no relógio digital, data e alarme
-  - Painel de tempo com Yahoo! Tempo
-  - Ícones de tempo coloridos ou monocromáticos
+A versão standard é funcionalmente equivalente ao widget cLock da CyanogenMod com suporte adicional para versões anteriores de Android.
+  - Widgets Flex, Flex (Analógico), Relógio+ e Tempo totalmente funcionais 
+  - Suporta adicionar como widget tanto ao ecrã inicial (Android 4.1+) como ao ecrã de bloqueio (Android 4.2+)
+  - Personalize o aspeto do Relógio (partes visíveis, texto normal/negrito)  
+  - Painel de tempo com Yahoo! Tempo, Accuweather, OpenWeatherMap e yr.no como fornecedores de previsões meteorológicas
   - Suporte para widget de tempo minimizado (especialmente útil no ecrã de bloqueio)
+  - Painel de informações com fontes RSS incorporadas
+  - Leitor de informações incorporado
   - Painel de calendário com uma lista com scroll de eventos próximos
   - Tocar um evento abre o calendário no evento selecionado
-  - Tocar o ícone de calendário abre o Calendário no dia de hoje
+  - Tocar o ícone de calendário abre o Calendário no presente dia
+  - Destacar os eventos de calendário próximos com cores personalizadas e texto a negrito
+  - Definir fundos nos widgets
   - Mudar a cor do texto em todos os painéis
   - Configurar o widget ao adicionar ou da aplicação Chronus na lista de aplicações
-  - Destacar os eventos de calendário próximos com cores personalizadas e texto a negrito
 
 <b>Créditos:</b>
-Apesar de ter escrito partes significativas do Chronus, muito crédito vai também para Danny Baumann pelos seus serviços de tempo e pagamento, revendo e ajustando; os muitos tradutores da comunidade CyanogenMod por adicionarem todos os idiomas que estão incluídos; e outros contribuidores como Nicolai Ehemann e Matt Booth pelos consertos e funcionalidades que contribuiram.
+Apesar de ter escrito partes significativas do Chronus, muito crédito vai também para Danny Baumann pelos seus serviços de tempo e pagamento, revendo e ajustando; os muitos tradutores da comunidade CyanogenMod por adicionarem todos os idiomas que estão incluídos; e outros contribuidores como Nicolai Ehemann, Matt Booth e Jorge Ruesga pelos consertos e funcionalidades que contribuíram.
