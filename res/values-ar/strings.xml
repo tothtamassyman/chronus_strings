@@ -270,7 +270,7 @@
     <!-- اسماء الاختصارات -->
     <string name="chronus_clockplus">الساعه+</string>
     <string name="chronus_weather">طقس اليوم</string>
-    <string name="chronus_forecast">طقس الاسبوع</string>
+    <string name="chronus_forecast">طقس الاسبوع(Pro)</string>
     <string name="chronus_calendar">التاريخ</string>
     <string name="chronus_clockplus_short">الساعه+</string>
     <string name="chronus_weather_short">طقس اليوم</string>

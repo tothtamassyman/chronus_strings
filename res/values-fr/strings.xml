@@ -65,7 +65,7 @@
     <string name="weather_28">Très nuageux</string>
     <string name="weather_29">Partiellement nuageux</string>
     <string name="weather_30">Partiellement nuageux</string>
-    <string name="weather_31">Claire</string>
+    <string name="weather_31">Clair</string>
     <string name="weather_32">Ensoleillé</string>
     <string name="weather_33">Beau</string>
     <string name="weather_34">Beau</string>
@@ -82,7 +82,6 @@
     <string name="weather_45">Orages</string>
     <string name="weather_46">Averses de neige</string>
     <string name="weather_47">Orages isolés</string>
-    <string name="weather_3200"></string>
 
     <!-- Weather - Speed units -->
     <string name="weather_kph">km/h</string>
@@ -385,9 +384,9 @@
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_clockplus">Chronus Horloge+</string>
     <string name="chronus_weather">Chronus Météo</string>
-    <string name="chronus_forecast">Chronus Prévision</string>
-    <string name="chronus_calendar">Chronus Agendas</string>
-    <string name="chronus_clockplus_forecast">Chronus Horloge+ (Prévision)</string>
+    <string name="chronus_forecast">Chronus Prévision (Pro)</string>
+    <string name="chronus_calendar">Chronus Agendas (Pro)</string>
+    <string name="chronus_clockplus_forecast">Chronus Horloge+ (Prévision) (Pro)</string>
     <string name="chronus_news">Chronus Actualité</string>
 
     <string name="chronus_clockplus_short">Horloge+</string>
@@ -449,7 +448,7 @@
     <string name="incompatible_launcher_header_notice">Lancer en mode de compatibilité. Appuyer pour plus de détails</string>
     <string name="hide_incompatibility_notice">Masquer l\'avertissement</string>
 
-    <!-- Preferences backup -->
+    <!-- Preferences Backup and restore-->
     <string name="backup_widget_prefs_title">Sauvegarder le widget sélectionné</string>
     <string name="backup_all_widget_prefs_title">Sauvegarder tous les widgets</string>
     <string name="restore_prefs_title">Restaurer les paramètres du widget</string>
@@ -463,20 +462,14 @@
     <string name="backup_multiple_result_toast">Les paramètres de <xliff:g id="count">%d</xliff:g> widgets ont été sauvegardés</string>
     <string name="restore_failure_toast">Les paramètres du widget n\'ont pas pu être restaurés</string>
     <string name="restore_success_toast">Les paramètres du widget ont été restaurés avec succès</string>
-
     <string name="remove_backups_title">Supprimer des fichiers de sauvegarde</string>
     <string name="remove_backups_no_backups_summary">Aucune sauvegarde à supprimer</string>
     <string name="remove_backups_select_dialog_title">Supprimer les sauvegardes\u00A0?</string>
-    <string name="remove_backups_confirm_dialog">Supprimer <xliff:g id="count" example="2 backups">%s</xliff:g>\u00A0?\n\nAttention\u00A0: cette action est irréversible.</string>
     <string name="remove_button">Supprimer</string>
     <string name="select_all_button">Tout sélectionner</string>
-    <plurals name="backup">
-        <item quantity="one">1 sauvegarde</item>
-        <item quantity="other">%d sauvegardes</item>
-    </plurals>
-    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups removed">%s</xliff:g></string>
-    <plurals name="backup_removed">
+    <plurals name="remove_backups_result_toast">
         <item quantity="one">1 sauvegarde supprimée</item>
         <item quantity="other">%d sauvegardes supprimées</item>
     </plurals>
+
 </resources>

@@ -382,9 +382,9 @@
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_clockplus">Chronus Clock+</string>
     <string name="chronus_weather">Chronus Sää</string>
-    <string name="chronus_forecast">Chronus Ennuste</string>
-    <string name="chronus_calendar">Chronus Kalenteri</string>
-    <string name="chronus_clockplus_forecast">Chronus Clock+ (Ennuste)</string>
+    <string name="chronus_forecast">Chronus Ennuste (Pro)</string>
+    <string name="chronus_calendar">Chronus Kalenteri (Pro)</string>
+    <string name="chronus_clockplus_forecast">Chronus Clock+ (Ennuste) (Pro)</string>
     <string name="chronus_news">Chronus Uutiset</string>
 
     <string name="chronus_clockplus_short">Clock+</string>
@@ -466,16 +466,10 @@
     <string name="remove_backups_title">Poista varmuuskopiot</string>
     <string name="remove_backups_no_backups_summary">Poistettavia varmuuskopioita ei ole</string>
     <string name="remove_backups_select_dialog_title">Poista varmuuskopiot?</string>
-    <string name="remove_backups_confirm_dialog">Poistetaanko <xliff:g id="count" example="2 backups">%s</xliff:g>?\n\nVaroitus: Poistamista ei voi perua.</string>
     <string name="remove_button">Poista</string>
     <string name="select_all_button">Valitse kaikki</string>
-    <plurals name="backup">
-        <item quantity="one">1 varmuuskopio</item>
-        <item quantity="other">%d varmuuskopiota</item>
-    </plurals>
-    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups removed">%s</xliff:g></string>
-    <plurals name="backup_removed">
-        <item quantity="one">1 varmuuskopio poistetaan</item>
+    <plurals name="remove_backups_result_toast">
+        <item quantity="one">1 varmuuskopio poistettu</item>
         <item quantity="other">%d varmuuskopiota poistettu</item>
     </plurals>
 

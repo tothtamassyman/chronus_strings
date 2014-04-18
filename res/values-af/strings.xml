@@ -148,6 +148,8 @@
     <string name="weather_notification_forecast">Sluit voorspellings in</string>
     <string name="weather_notification_forecast_summary">Wys as \'n vergrootbare kennisgewing met die multi-dag voorspellings ingesluit</string>
     <string name="notify_no_forecast_data">%s verskaf nie multi-dag voorspellings data nie</string>
+    <string name="weather_notification_persistent">Maak aanhoudend</string>
+    <string name="weather_notification_persistent_summary">Wys as \n permanente, nie-ontslaanbare kennisgewing</string>
 
     <string name="calendar_title">Wys volgende item</string>
     <string name="calendars_title">Afsprake kalenders</string>
@@ -278,10 +280,10 @@
 
     <string name="chronus_clockplus">Chronus Klok+</string>
     <string name="chronus_weather">Chronus Weer</string>
-    <string name="chronus_calendar">Chronus Kalender</string>
+    <string name="chronus_calendar">Chronus Kalender(Pro)</string>
     <string name="chronus_flex_analog">Chronus Flex (Analoog)</string>
-    <string name="chronus_clockplus_forecast">Chronus Klok+ (Voorspelling)</string>
-    <string name="chronus_forecast">Chronus Voorspelling</string>
+    <string name="chronus_clockplus_forecast">Chronus Klok+ (Voorspelling) (Pro)</string>
+    <string name="chronus_forecast">Chronus Voorspelling (Pro)</string>
     <string name="chronus_news">Chronus Nuus</string>
 
     <string name="chronus_clockplus_short">Klok+</string>
@@ -422,15 +424,9 @@
     <string name="remove_backups_title">Skrap rugsteunlêers</string>
     <string name="remove_backups_no_backups_summary">Geen rugsteunlêers om te skrap nie</string>
     <string name="remove_backups_select_dialog_title">Skrap rugsteunings?</string>
-    <string name="remove_backups_confirm_dialog">Skrap <xliff:g id="count" example="2 backups">%s</xliff:g>?\n\nVersigtig: Die aksie is permanent.</string>
     <string name="remove_button">Skrap</string>
     <string name="select_all_button">Almal</string>
-    <plurals name="backup">
-        <item quantity="one">1 rugsteunlêer</item>
-        <item quantity="other">%d rugsteunlêers</item>
-    </plurals>
-    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups removed">%s</xliff:g></string>
-    <plurals name="backup_removed">
+    <plurals name="remove_backups_result_toast">
         <item quantity="one">1 rugsteunlêer geskrap</item>
         <item quantity="other">%d rugsteunlêers geskrap</item>
     </plurals>

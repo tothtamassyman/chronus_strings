@@ -82,7 +82,6 @@
     <string name="weather_45">Rovesci temporaleschi</string>
     <string name="weather_46">Rovesci di neve</string>
     <string name="weather_47">Rovesci temporaleschi isolati</string>
-    <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
     <!-- Weather - Units -->
     <string name="weather_kph">km/h</string>
@@ -397,9 +396,9 @@
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
     <string name="chronus_clockplus">Chronus Orologio+</string>
     <string name="chronus_weather">Chronus Meteo</string>
-    <string name="chronus_forecast">Chronus Previsioni Meteo</string>
-    <string name="chronus_calendar">Chronus Calendario</string>
-    <string name="chronus_clockplus_forecast">Chronus Orologio+ (Previsioni Meteo)</string>
+    <string name="chronus_forecast">Chronus Previsioni Meteo (Pro)</string>
+    <string name="chronus_calendar">Chronus Calendario (Pro)</string>
+    <string name="chronus_clockplus_forecast">Chronus Orologio+ (Meteo) (Pro)</string>
     <string name="chronus_news">Chronus Notizie</string>
 
     <string name="chronus_clockplus_short">Orologio+</string>
@@ -482,15 +481,9 @@
     <string name="remove_backups_title">Rimuovi i salvataggi</string>
     <string name="remove_backups_no_backups_summary">Non ci sono salvataggi da rimuovere</string>
     <string name="remove_backups_select_dialog_title">Rimuovere i salvataggi?</string>
-    <string name="remove_backups_confirm_dialog">Vuoi rimuovere <xliff:g id="count" example="2 backups">%s</xliff:g>?\n\nAttenzione: Questa operazione non può essere annullata.</string>
     <string name="remove_button">Rimuovi</string>
     <string name="select_all_button">Seleziona tutti</string>
-    <plurals name="backup">
-        <item quantity="one">1 salvataggio</item>
-        <item quantity="other">%d salvataggi</item>
-    </plurals>
-    <string name="remove_backups_result_toast"><xliff:g id="count" example="2 backups removed">%s</xliff:g></string>
-    <plurals name="backup_removed">
+    <plurals name="remove_backups_result_toast">
         <item quantity="one">1 salvataggio rimosso</item>
         <item quantity="other">%d salvataggi rimossi</item>
     </plurals>

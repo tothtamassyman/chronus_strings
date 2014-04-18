@@ -272,8 +272,8 @@
     <string name="calendar_event_color_always">Zawsze pokazuj</string>
     <string name="chronus_clockplus">Chronus Zegar+</string>
     <string name="chronus_weather">Pogoda Chronus</string>
-    <string name="chronus_forecast">Prognoza Chronus</string>
-    <string name="chronus_calendar">Kalendarz Chronus</string>
+    <string name="chronus_forecast">Prognoza Chronus (Pro)</string>
+    <string name="chronus_calendar">Kalendarz Chronus (Pro)</string>
     <string name="chronus_clockplus_short">Zegar+</string>
     <string name="chronus_weather_short">Pogoda</string>
     <string name="chronus_forecast_short">Prognoza</string>
