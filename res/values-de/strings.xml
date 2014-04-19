@@ -202,6 +202,7 @@
     <string name="news_feed_clear_cache_title">Cache leeren</string>
     <string name="news_feed_clear_cache_summary">Alle lokal gespeicherten Einträge und Bilder löschen</string>
     <string name="news_feed_cache_cleared">Leeren des Caches abgeschlossen</string>
+    <string name="news_feed_show_thumbnail_title">Vorschaubilder anzeigen</string>
     <string name="news_feed_refresh_manual">Manuell</string>
     <string name="news_feed_refresh_30min">30 Minuten</string>
     <string name="news_feed_refresh_60min">60 Minuten</string>
@@ -243,7 +244,6 @@
     <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
     <string name="facebook_account_title">Facebook-Konto</string>
     <string name="facebook_show_avatar_title">Nutzerbilder anzeigen</string>
-    <string name="facebook_show_thumbnail_title">Vorschaubilder anzeigen</string>
     <string name="white">Weiß</string>
     <string name="grey">Grau</string>
     <string name="black">Schwarz</string>

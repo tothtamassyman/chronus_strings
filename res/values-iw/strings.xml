@@ -189,7 +189,8 @@
   <string name="news_feed_clear_cache_title">ניקוי המטמון</string>
   <string name="news_feed_clear_cache_summary">מחיקת כל פריטי המטמון המקומיים, תמונות ותמונות ממוזערות</string>
   <string name="news_feed_cache_cleared">מטמון הפריט נוקה</string>
-  
+  <string name="news_feed_show_thumbnail_title">הצגת תמונות ממוזערות</string>
+
   <!-- News Feed - Update frequency -->
   <string name="news_feed_refresh_manual">ידני</string>
   <string name="news_feed_refresh_30min">30 דקות</string>
@@ -264,13 +265,12 @@
   <string name="feedly_category_uncategorized">ללא קטגוריה</string>
   <string name="feedly_msg_retrieving_user_profile">מאחזר פרופיל משתמש\u2026</string>
   <string name="feedly_msg_retrieving_user_categories">מאחזר קטגוריות\u2026</string>
-  
+
   <!-- News Feed Provider Settings - Facebook -->
   <string name="facebook_article_source_with_app">%1$s (באמצעות %2$s)</string>
   <string name="facebook_account_title">חשבון Facebook</string>
   <string name="facebook_show_avatar_title">הצגת תמונות אוואטר</string>
-  <string name="facebook_show_thumbnail_title">הצגת תמונות ממוזערות</string>
-  
+
   <!-- Font colors -->
   <string name="white">לבן</string>
   <string name="grey">אפור</string>

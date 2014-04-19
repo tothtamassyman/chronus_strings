@@ -213,6 +213,7 @@
     <string name="news_feed_clear_cache_title">Nettoyer le cache</string>
     <string name="news_feed_clear_cache_summary">Supprimer tous les éléments, images et vignettes, mis en cache localement</string>
     <string name="news_feed_cache_cleared">Éléments du cache nettoyés</string>
+    <string name="news_feed_show_thumbnail_title">Afficher les miniatures</string>
 
     <!-- News Feed - Update frequency -->
     <string name="news_feed_refresh_manual">Manuel</string>
@@ -284,6 +285,8 @@
     <string name="feedly_category_uncategorized">Sans catégorie</string>
     <string name="feedly_msg_retrieving_user_profile">Réception de votre compte utilisateur\u2026</string>
     <string name="feedly_msg_retrieving_user_categories">Réception des catégories\u2026</string>
+
+    <!-- News Feed Provider Settings - OAuth shared -->
     <string name="oauth_msg_auth_access_success">Connexion au compte réussi</string>
     <string name="oauth_msg_access_error">Accès aux informations utilisateur échoué</string>
 
@@ -291,7 +294,6 @@
     <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
     <string name="facebook_account_title">Compte Facebook</string>
     <string name="facebook_show_avatar_title">Afficher l\'avatar</string>
-    <string name="facebook_show_thumbnail_title">Afficher les miniatures</string>
 
     <!-- Font colors -->
     <string name="white">Blanc</string>

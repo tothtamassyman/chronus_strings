@@ -230,6 +230,7 @@
     <string name="news_feed_clear_cache_title">Clear cache</string>
     <string name="news_feed_clear_cache_summary">Delete all locally cached items, images and thumbnails</string>
     <string name="news_feed_cache_cleared">Item cache cleared</string>
+    <string name="news_feed_show_thumbnail_title">Show thumbnails</string>
 
     <!-- News Feed - Update frequency -->
     <string name="news_feed_refresh_manual">Manual</string>
@@ -312,7 +313,6 @@
     <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
     <string name="facebook_account_title">Facebook account</string>
     <string name="facebook_show_avatar_title">Show Avatar images</string>
-    <string name="facebook_show_thumbnail_title">Show thumbnails</string>
 
     <!-- Font colors -->
     <string name="white">White</string>
