@@ -183,6 +183,7 @@
     <string name="news_feed_clear_cache_title">Borrar cache</string>
     <string name="news_feed_clear_cache_summary">Eliminar todos los elementos, imágenes y miniaturas almacenados localmente</string>
     <string name="news_feed_cache_cleared">Se ha vaciado el cache</string>
+    <string name="news_feed_show_thumbnail_title">Mostrar imágenes en miniatura</string>
     <string name="news_feed_refresh_manual">Manual</string>
     <string name="news_feed_refresh_30min">30 minutos</string>
     <string name="news_feed_refresh_60min">60 minutos</string>
@@ -241,7 +242,6 @@
     <string name="facebook_article_source_with_app">%1$s (vía %2$s)</string>
     <string name="facebook_account_title">Cuenta de Facebook</string>
     <string name="facebook_show_avatar_title">Mostrar avatar</string>
-    <string name="facebook_show_thumbnail_title">Mostrar imágenes en miniatura</string>
     <string name="white">Blanco</string>
     <string name="grey">Gris</string>
     <string name="black">Negro</string>

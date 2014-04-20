@@ -214,6 +214,7 @@
     <string name="news_feed_clear_cache_title">Cancella cache</string>
     <string name="news_feed_clear_cache_summary">Cancella tutti gli elementi, le immagini e le miniature presenti nella cache</string>
     <string name="news_feed_cache_cleared">Cache elemento eliminata</string>
+    <string name="news_feed_show_thumbnail_title">Mostra miniature</string>
 
     <!-- News Feed - Update frequency -->
     <string name="news_feed_refresh_manual">Manuale</string>
@@ -284,6 +285,8 @@
     <string name="feedly_category_uncategorized">Senza categoria</string>
     <string name="feedly_msg_retrieving_user_profile">Recupero profilo utente\u2026</string>
     <string name="feedly_msg_retrieving_user_categories">Recupero categorie utente\u2026</string>
+
+    <!-- News Feed Provider Settings - OAuth shared -->
     <string name="oauth_msg_auth_access_success">Account collegato con successo</string>
     <string name="oauth_msg_access_error">Accesso alle informazioni utente fallito</string>
 
@@ -291,7 +294,6 @@
     <string name="facebook_article_source_with_app">%1$s (tramite %2$s)</string>
     <string name="facebook_account_title">Account Facebook</string>
     <string name="facebook_show_avatar_title">Mostra immagini profilo</string>
-    <string name="facebook_show_thumbnail_title">Mostra miniature</string>
 
     <!-- Font colors -->
     <string name="white">Bianco</string>
