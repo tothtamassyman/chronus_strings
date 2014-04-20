@@ -353,6 +353,7 @@
     <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
     <string name="send_email">Send email\u2026</string>
     <string name="google_plus" translatable="false">Google+</string>
+    <string name="change_log">Changelog</string>
 
     <!-- START OF PRO VERSION STRINGS -->
     <!-- Pro features (About) -->
