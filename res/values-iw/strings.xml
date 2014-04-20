@@ -114,6 +114,8 @@
   <string name="provider_category">ספק</string>
   <string name="daydream_category">שומר מסך</string>
   <string name="maintenance_category">תחזוקה</string>
+  <string name="notifications_category">התראות</string>
+  <string name="backup_restore_category">גיבוי ושחזור</string>
   
   <!-- Preferences - widget types in selection list -->
   <string name="widget_type_keyguard">מסך נעילה</string>
@@ -155,6 +157,15 @@
   <string name="weather_select_location">בחירת מיקום</string>
   <string name="weather_show_refresh">הצגת אייקון הרענון</string>
   
+  <!-- Weather notifications -->
+    <string name="weather_show_notification">מצב נכחי</string>
+    <string name="weather_show_notification_summary">הצגת התראה בעדיפות נמוכה לאחר רענון מזג האוויר</string>
+    <string name="weather_notification_forecast">כולל תחזית</string>
+    <string name="weather_notification_forecast_summary">הצגת התראה הניתנת להרחבה עם תחזית למספר ימים כלולה</string>
+    <string name="notify_no_forecast_data">%s לא מספק מידע תחזית למספר ימים</string>
+    <string name="weather_notification_persistent">הפוך לקבועה</string>
+    <string name="weather_notification_persistent_summary">הצגה כהתראה מתמשכת, שלא ניתן להסירה</string>
+    
   <!-- Preferences - Calendar -->
   <string name="calendar_title">הצגת האירוע הבא</string>
   <string name="calendars_title">אירועי לוח שנה</string>
@@ -420,7 +431,7 @@
     <string name="incompatible_launcher_header_notice">רץ במצב תאימות. לחצו לפרטים נוספים</string>
     <string name="hide_incompatibility_notice">הסתרת ההודעה</string>
     
-    <!-- Preferences backup -->
+    <!-- Preferences Backup and restore-->
     <string name="backup_widget_prefs_title">גיבוי וידג\'ט נבחר</string>
     <string name="backup_all_widget_prefs_title">גיבוי כל הוידג\'טים</string>
     <string name="restore_prefs_title">שחזור הגדרות וידג\'ט</string>
