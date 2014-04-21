@@ -414,7 +414,7 @@
     <!-- Calendar - No events -->
     <string name="calendar_no_events">Sem eventos futuros</string>
     <string name="calendar_no_events_summary">Toque em + para adicionar evento</string>
-    <string name="calendar_no_events_indicator_title">Mostrar texto "Sem eventos"</string>
+    <string name="calendar_no_events_indicator_title">Mostrar texto \“Sem eventos\”</string>
     
     <!--  Cling text -->
     <string name="cling_widget_select_title">Escolha um widget</string>
