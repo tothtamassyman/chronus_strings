@@ -323,6 +323,7 @@
     <string name="credits_summary">Chiar dacă am scris împreună cu Danny Baumann părți importante din Chronus, mulțumim comunității de traducători, precum și lui Jorge Ruesga, Nicolai Ehemann și Matt Booth pentru corectările și opțiunile adiționale la care au contribuit.\nTraducerea în limba română: Adrian Nistreanu.</string>
     <string name="contact_title">Contact</string>
     <string name="send_email">Trimiteți email\u2026</string>
+    <string name="change_log">Changelog</string>
 
     <!-- START OF PRO VERSION STRINGS -->
     <!-- Pro features (About) -->
