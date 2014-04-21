@@ -212,7 +212,8 @@
     <string name="news_feed_clear_cache_title">Limpar cache</string>
     <string name="news_feed_clear_cache_summary">Elimina todos os elementos, imagens e miniaturas armazenadas localmente</string>
     <string name="news_feed_cache_cleared">Eliminou todo o cache</string>
-    
+    <string name="news_feed_show_thumbnail_title">Mostrar imagens em miniatura</string>
+
     <!-- News Feed - Update frequency -->
     <string name="news_feed_refresh_manual">Manual</string>
     <string name="news_feed_refresh_30min">30 minutos</string>
@@ -287,13 +288,12 @@
     <string name="feedly_category_uncategorized">Sem categoria</string>
     <string name="feedly_msg_retrieving_user_profile">A obter perfil do utilizador\u2026</string>	
     <string name="feedly_msg_retrieving_user_categories">A obter categorias do utilizador\u2026</string>
-	
+
     <!-- News Feed Provider Settings - Facebook -->	
     <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
     <string name="facebook_account_title">Conta do Facebook</string>
     <string name="facebook_show_avatar_title">Mostrar imagens de perfil</string>
-    <string name="facebook_show_thumbnail_title">Mostrar imagens em miniatura</string>	
-    
+
     <!-- Font colors -->
     <string name="white">Branco</string>
     <string name="grey">Cinzento</string>
@@ -330,6 +330,7 @@
         Matt Booth e Jorge Ruesga pelos consertos e funcionalidades que contribuiram.</string>
     <string name="contact_title">Contacte-me</string>
     <string name="send_email">Enviar e-mail \u2026</string>
+    <string name="change_log">Registo de alterações</string>
 
     <!-- START OF PRO VERSION STRINGS -->
     <!-- Pro features (About) -->
@@ -413,7 +414,7 @@
     <!-- Calendar - No events -->
     <string name="calendar_no_events">Sem eventos futuros</string>
     <string name="calendar_no_events_summary">Toque em + para adicionar evento</string>
-    <string name="calendar_no_events_indicator_title">Mostrar texto "Sem eventos"</string>
+    <string name="calendar_no_events_indicator_title">Mostrar texto \“Sem eventos\”</string>
     
     <!--  Cling text -->
     <string name="cling_widget_select_title">Escolha um widget</string>

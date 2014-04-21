@@ -196,6 +196,7 @@
     <string name="news_feed_clear_cache_title">Vyčistit cache</string>
     <string name="news_feed_clear_cache_summary">Smazat všechny lokálně uložené soubory, obrázky a náhledy</string>
     <string name="news_feed_cache_cleared">Cache souborů vyčištěna</string>
+    <string name="news_feed_show_thumbnail_title">Zobrazit náhledy</string>
 
     <string name="news_feed_refresh_manual">Ručně</string>
     <string name="news_feed_refresh_30min">30 minut</string>
@@ -259,13 +260,14 @@
     <string name="feedly_category_uncategorized">Nezařazené</string>
     <string name="feedly_msg_retrieving_user_profile">Načítání profilu\u2026</string>
     <string name="feedly_msg_retrieving_user_categories">Načítání kategorií\u2026</string>
+
+    <!-- News Feed Provider Settings - OAuth shared -->
     <string name="oauth_msg_auth_access_success">Úspěšné propojení účtu</string>
     <string name="oauth_msg_access_error">Přístup k uživatelským informacím selhal</string>
 
     <string name="facebook_article_source_with_app">%1$s (pomocí %2$s)</string>
     <string name="facebook_account_title">Účet Facebook</string>
     <string name="facebook_show_avatar_title">Zobrazit avatara</string>
-    <string name="facebook_show_thumbnail_title">Zobrazit náhledy</string>
 
     <string name="white">Bílá</string>
     <string name="grey">Šedivá</string>

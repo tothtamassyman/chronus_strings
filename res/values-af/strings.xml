@@ -235,6 +235,8 @@
 
     <string name="contact_title">Kontak ons</string>
     <string name="send_email">Stuur e-pos\u2026</string>
+    <string name="change_log">Veranderinge-log</string>
+
     <string name="pro_features_summary">Raak om Pro funksies te aktiveer</string>
     <string name="pro_features_thanks">Baie dankie vir die aankoop</string>
     <string name="pro_features_message">Die Pro weergawe sluit al die funksies van die standaard-weergawe en
@@ -341,8 +343,11 @@
     <string name="feedly_category_uncategorized">Ongekategoriseer</string>
     <string name="feedly_msg_retrieving_user_profile">Verkry gebruiker profiel\u2026</string>
     <string name="feedly_msg_retrieving_user_categories">Verkry gebruiker kategorieë\u2026</string>
+
+    <!-- News Feed Provider Settings - OAuth shared -->
     <string name="oauth_msg_auth_access_success">Rekening suksesvol gekoppel</string>
     <string name="oauth_msg_access_error">Kon nie gebruiker inligting bekom</string>
+
     <string name="format_seconds">%s sek.</string>
 
     <string name="menu_add">Voeg by</string>
@@ -383,6 +388,7 @@
     <string name="news_feed_clear_cache_summary">Verwyder alle gecacheerde items, foto\'s en duimnaelsketse</string>
     <string name="news_feed_clear_cache_title">Vee cache uit</string>
     <string name="news_feed_reader_no_maps_installed">Geen program vir die oopmaak \'n ligging skakel is gevind nie</string>
+    <string name="news_feed_show_thumbnail_title">Wys duimnaelskets</string>
 
     <string name="widget_type_keyguard">Slotskerm</string>
     <string name="widget_type_daydream">Dagdroom</string>
@@ -407,7 +413,6 @@
     <string name="facebook_account_title">Facebook rekening</string>
     <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
     <string name="facebook_show_avatar_title">Wys avatar beeld</string>
-    <string name="facebook_show_thumbnail_title">Wys duimnaelskets</string>
 
     <!-- Preferences Backup and restore -->
     <string name="backup_widget_prefs_title">Rugsteun huidige legstuk</string>

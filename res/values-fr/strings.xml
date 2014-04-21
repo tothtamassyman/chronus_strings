@@ -83,7 +83,7 @@
     <string name="weather_46">Averses de neige</string>
     <string name="weather_47">Orages isolés</string>
 
-    <!-- Weather - Speed units -->
+    <!-- Weather - units -->
     <string name="weather_kph">km/h</string>
     <string name="weather_mph">mi/h</string>
     <string name="weather_mm">mm</string>
@@ -213,6 +213,7 @@
     <string name="news_feed_clear_cache_title">Nettoyer le cache</string>
     <string name="news_feed_clear_cache_summary">Supprimer tous les éléments, images et vignettes, mis en cache localement</string>
     <string name="news_feed_cache_cleared">Éléments du cache nettoyés</string>
+    <string name="news_feed_show_thumbnail_title">Afficher les miniatures</string>
 
     <!-- News Feed - Update frequency -->
     <string name="news_feed_refresh_manual">Manuel</string>
@@ -274,24 +275,25 @@
     <string name="rss_custom_source_title">Ajouter une source personnalisée</string>
     <string name="rss_custom_source_name">Nom :</string>
 
-    <!-- News Feed Provider Settings - Feedly -->
-    <string name="feedly_account_title">Compte Feedly</string>
+    <!-- News Feed Provider Settings - OAuth shared -->
     <string name="oauth_account_summary_logout">Vous n\'avez aucun compte lié à <xliff:g id="provider">%1$s</xliff:g>. Appuyez ici pour le lier</string>
     <string name="oauth_account_summary_login">Votre compte est lié à <xliff:g id="provider">%s$1</xliff:g>. Appuyez ici pour le retirer.\n\nCompte\u00A0: <xliff:g id="account" example="user@myaccount.com">%2$s</xliff:g>\n</string>
+    <string name="oauth_msg_auth_access_success">Connexion au compte réussi</string>
+    <string name="oauth_msg_access_error">Accès aux informations utilisateur échoué</string>
+
+    <!-- News Feed Provider Settings - Feedly -->
+    <string name="feedly_account_title">Compte Feedly</string>
     <string name="feedly_preferences_title">Paramètres</string>
     <string name="feedly_trending_content_title">Afficher le contenu le plus pertinent</string>
     <string name="feedly_categories_title">Catégories</string>
     <string name="feedly_category_uncategorized">Sans catégorie</string>
     <string name="feedly_msg_retrieving_user_profile">Réception de votre compte utilisateur\u2026</string>
     <string name="feedly_msg_retrieving_user_categories">Réception des catégories\u2026</string>
-    <string name="oauth_msg_auth_access_success">Connexion au compte réussi</string>
-    <string name="oauth_msg_access_error">Accès aux informations utilisateur échoué</string>
 
     <!-- News Feed Provider Settings - Facebook -->
     <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
     <string name="facebook_account_title">Compte Facebook</string>
     <string name="facebook_show_avatar_title">Afficher l\'avatar</string>
-    <string name="facebook_show_thumbnail_title">Afficher les miniatures</string>
 
     <!-- Font colors -->
     <string name="white">Blanc</string>
@@ -319,10 +321,12 @@
         \n\nAvec Android 4.2 et supérieur, pour ajouter un widget à l\'écran de verrouillage, glissez à gauche sur l\'écran de verrouillage, puis utilisez le bouton (+) pour ajouter Chronus. Les widgets de l\'écran de verrouillage peuvent être réorganisés avec un appui prolongé puis en déplaçant ou en supprimant les widgets.</string>
 
     <string name="no_widget_message">Avant de pouvoir modifier cette application au moins un Widget Chronus doit être ajouté soit à l\'écran d\'accueil soit à l\'écran de verrouillage.\n\nLes widgets peuvent être ajoutés à l\'aide de la fonction de sélecteur de widget d\'Android et de votre lanceur d\'application.</string>
+
     <string name="credits_title">Crédits</string>
     <string name="credits_summary">Même si j\'ai écrit des parties importantes de Chronus énormément de mérite revient à Danny Baumann pour son travail sur les conditions météorologiques, le service de facturation, l\'examen et le peaufinage du code ; mais également aux nombreux traducteurs de la communauté CyanogenMod pour avoir ajouté toutes les langues qui sont incluses, et d\'autres contributeurs comme Nicolai Ehemann et Matt Booth pour les correctifs et les fonctionnalités qu\'ils ont ajoutées.</string>
     <string name="contact_title">Me contacter</string>
     <string name="send_email">Envoyer un e-mail\u2026</string>
+    <string name="change_log">Note de version</string>
 
     <!-- START OF PRO VERSION STRINGS -->
     <!-- Pro features (About) -->

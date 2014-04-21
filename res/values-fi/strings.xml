@@ -215,6 +215,7 @@
     <string name="news_feed_clear_cache_title">Tyhjennä välimuisti</string>
     <string name="news_feed_clear_cache_summary">Poista kaikki paikallisesti tallennetut tiedostot, kuvat ja esikatselukuvat</string>
     <string name="news_feed_cache_cleared">Välimuisti tyhjennetty</string>
+    <string name="news_feed_show_thumbnail_title">Näytä pikakuvat</string>
 
     <!-- News Feed - Update frequency -->
     <string name="news_feed_refresh_manual">Manuaalinen</string>
@@ -295,7 +296,6 @@
     <string name="facebook_article_source_with_app">%1$s (%2$s:n kautta)</string>
     <string name="facebook_account_title">Facebook-tili</string>
     <string name="facebook_show_avatar_title">Näytä profiilikuvat</string>
-    <string name="facebook_show_thumbnail_title">Näytä pikakuvat</string>
 
     <!-- Font colors -->
     <string name="white">Valkoinen</string>

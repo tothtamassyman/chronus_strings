@@ -218,6 +218,7 @@
     <plurals name="news_feed_new_articles">
         <item quantity="one"><xliff:g id="articles" example="1 new article">%s</xliff:g> новая статья</item>
         <item quantity="few"><xliff:g id="articles" example="2 new article">%s</xliff:g> новых статьи</item>
+        <item quantity="many"><xliff:g id="articles" example="12 new articles">%s</xliff:g> новых статей</item>
         <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> новых статей</item>
     </plurals>
 
@@ -226,6 +227,8 @@
     <string name="news_feed_reader_list_unread_articles_title">Непрочитанные</string>
     <string name="news_feed_reader_list_last_published">Обновлено <xliff:g id="date" example="24 mar">%2$s</xliff:g> в <xliff:g id="time" example="8:30">%1$s</xliff:g></string>
     <string name="news_feed_reader_goto_button">Перейти к статье</string>
+    <string name="news_feed_internal_viewer_title">Встроенный просмотр</string>
+    <string name="news_feed_reader_no_maps_installed">Нет приложение для обработки ссылок местоположение может быть найдено</string>
 
     <!-- News Feed Provider Settings - RSS -->
     <string name="rss_sources_custom_header">Пользовательский</string>
@@ -362,7 +365,6 @@
     <string name="calendar_no_events">Нет предстоящих событий</string>
     <string name="calendar_no_events_summary">Нажмите «+» для добавления</string>
     <string name="calendar_no_events_indicator_title">Показывать надпись «нет событий»</string>
-
 
     <!--  Cling text -->
     <string name="cling_widget_select_title">Выберите виджет</string>

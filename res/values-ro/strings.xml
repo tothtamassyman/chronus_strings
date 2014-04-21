@@ -213,6 +213,7 @@
     <string name="news_feed_clear_cache_title">Curățare cache</string>
     <string name="news_feed_clear_cache_summary">Curățare completă a datelor cache locale</string>
     <string name="news_feed_cache_cleared">Cache curățat</string>
+    <string name="news_feed_show_thumbnail_title">Afișare miniaturi</string>
 
     <!-- News Feed - Update frequency -->
     <string name="news_feed_refresh_manual">Manual</string>
@@ -294,7 +295,6 @@
     <string name="facebook_article_source_with_app">%1$s (prin %2$s)</string>
     <string name="facebook_account_title">Cont Facebook</string>
     <string name="facebook_show_avatar_title">Afișare avatare</string>
-    <string name="facebook_show_thumbnail_title">Afișare miniaturi</string>
 
     <!-- Font colors -->
     <string name="white">Alb</string>
