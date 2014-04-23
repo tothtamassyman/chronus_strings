@@ -14,6 +14,7 @@ Je optimalizovaný z hlediska využití procesoru a navržen tak, aby mohl nahra
   - další samostatné widgety (Předpověd počasí, Kalendář, Počasí)
   - vlastní akce na hodiny, počasí nebo kalendář pro spuštění aplikace nebo aktivity
   - zarovnání panelu hodin nebo počasí (doprostřed, vlevo, vpravo)
+  - vzhled ručičkových hodin (standardní nebo klasické)
   - přehled kalendáře na měsíc
   - barvy kalendáře
   - podpora poskytovatele Feedly
