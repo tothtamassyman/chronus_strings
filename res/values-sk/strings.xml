@@ -286,7 +286,8 @@
         \u2022 Viac funkcií v kalendári\n
         \u2022 Mini panel kalendára\n
         \u2022 a ďalšie \u2026\n\nNávrhy sú vždy vítané.\n\nĎakujem vopred za Vašu podporu.</string>
-    <string name="send_email">Odoslať e-mail \u2026</string>
+    <string name="send_email">Poslať e-mail\u2026</string>
+    <string name="change_log">Zoznam zmien</string>
     <string name="tap_action_title">Akcia po kliknutí</string>
     <string name="tap_action_clock_default">Systémové hodiny</string>
     <string name="tap_action_weather_refresh">Aktualizácia počasia</string>
