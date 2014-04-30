@@ -519,4 +519,9 @@
         <item quantity="other">%d backups removed</item>
     </plurals>
 
+    <!-- Popup Dialog style -->
+    <string name="popup_style_title">Pop-up dialog style</string>
+    <string name="popup_style_dark">Dark</string>
+    <string name="popup_style_light">Light</string>
+
 </resources>
