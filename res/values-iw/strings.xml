@@ -455,4 +455,10 @@
         <item quantity="one">גיבוי אחד הוסר</item>
         <item quantity="other">%d גיבויים הוסרו</item>
     </plurals>
+    
+        <!-- Popup Dialog style -->
+    <string name="popup_style_title">סגנון דיאלוג חלון-קופץ</string>
+    <string name="popup_style_dark">כהה</string>
+    <string name="popup_style_light">בהיר</string>
 </resources>
+
