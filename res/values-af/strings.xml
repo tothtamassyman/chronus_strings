@@ -436,4 +436,9 @@
         <item quantity="other">%d rugsteunlêers geskrap</item>
     </plurals>
 
+    <!-- Popup Dialog style -->
+    <string name="popup_style_title">Dialoogvenster styl</string>
+    <string name="popup_style_dark">Donker</string>
+    <string name="popup_style_light">Lig</string>
+
 </resources>
