@@ -111,6 +111,7 @@
     <string name="maintenance_category">Onderhoud</string>
     <string name="notifications_category">Kennisgewings</string>
     <string name="backup_restore_category">Rugsteun en herstel</string>
+    <string name="popup_windows_category">Dialoogvensters</string>
 
     <string name="clock_font_title">Ure vetgedruk</string>
     <string name="clock_font_minutes_title">Minute vetgedruk</string>
@@ -437,8 +438,9 @@
     </plurals>
 
     <!-- Popup Dialog style -->
-    <string name="popup_style_title">Dialoogvenster styl</string>
-    <string name="popup_style_dark">Donker</string>
-    <string name="popup_style_light">Lig</string>
+    <string name="dialog_style_title">Dialoog styl</string>
+    <string name="dialog_style_dark">Donker</string>
+    <string name="dialog_style_light">Lig</string>
+    <string name="info_icon_color">Info-ikoone kleur</string>
 
 </resources>
