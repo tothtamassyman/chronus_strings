@@ -258,9 +258,9 @@
     <!-- News - Service -->
     <plurals name="news_feed_new_articles">
         <item quantity="one">1 nova stavka</item>
-        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> novih stavki</item>
-        <item quantity="few">%d nova stavka</item>
-        <item quantity="many">%d novih stavki</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> novih stavaka</item>
+        <item quantity="few">%d nove stavke</item>
+        <item quantity="many">%d novih stavaka</item>
     </plurals>
 
     <!-- News - Reader -->
