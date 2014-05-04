@@ -474,4 +474,9 @@
         <item quantity="other">%d backup-uri șterse</item>
     </plurals>
     
+<!-- Popup Dialog style -->
+    <string name="popup_style_title">Stil dialog pop-up</string>
+    <string name="popup_style_dark">Închis</string>
+    <string name="popup_style_light">Deschis</string>
+    
 </resources>
