@@ -276,6 +276,8 @@
     <plurals name="news_feed_new_articles">
         <item quantity="one">1 nova stavka</item>
         <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> novih stavki</item>
+        <item quantity="few">%d nova stavka</item>
+        <item quantity="many">%d novih stavki</item>
     </plurals>
 
     <!-- News - Reader -->
@@ -501,6 +503,8 @@
     <plurals name="remove_backups_result_toast">
         <item quantity="one">1 kopija obrisana</item>
         <item quantity="other">Obrisanih kopija: %d</item>
+        <item quantity="few">%d kopije obrisane</item>
+        <item quantity="many">%d kopija obrisano</item>
     </plurals>
 
     <!-- Popup Dialog style -->
