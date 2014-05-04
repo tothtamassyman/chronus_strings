@@ -544,9 +544,9 @@
     <string name="cling_month_view_detail">Select the \'Month view\' Calendar style and/or the \'Toggle month view\'
         Tap action to display the full month grid.</string>
 
-    <string name="cling_dialog_style_title">Change widget styles</string>
-    <string name="cling_dialog_style_detail">It is possible to change the widget background and the style of the
-        Forecast and News feed pop-up windows and icons.</string>
+    <string name="cling_dialog_style_title">Change window styles</string>
+    <string name="cling_dialog_style_detail">It is possible to change the background and the style of the Forecast
+        and News feed pop-up windows and icons.</string>
 
     <string name="cling_backup_title">Save your configuration</string>
     <string name="cling_backup_detail">The settings of widgets can be backed-up and restored to the same widget types
