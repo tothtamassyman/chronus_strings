@@ -129,6 +129,7 @@
     <string name="maintenance_category">Održavanje</string>
     <string name="notifications_category">Obavijesti</string>
     <string name="backup_restore_category">Pričuvne kopije</string>
+    <string name="popup_windows_category">Skočni prozori</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Lock screen</string>
@@ -480,5 +481,33 @@
     <string name="dialog_style_title">Izgled skočnog prozora</string>
     <string name="dialog_style_dark">Tamno</string>
     <string name="dialog_style_light">Svijetlo</string>
+    <string name="info_icon_color">Boja ikona</string>
+
+    <!-- Help/Cling text -->
+    <string name="cling_continue_button">Dalje</string>
+
+    <string name="cling_intro_title">Dobro došli!</string>
+    <string name="cling_intro_detail">Chronus se kontinuirano razvija i redovito se dodaju nove mogućnosti.\n\nIdućih nekoliko prikaza ukratko opisuju neke od posljednih novosti.</string>
+
+    <string name="cling_widget_select_title">Odaberite pravi</string>
+    <string name="cling_widget_select_detail">Svaki od postavljenih Chronus widgeta možete prilagoditi zasebno. Prije nego počnete, i ukoliko widgeta imate više, odaberite željeni widget pomoću izbornika na vrhu kako ne biste izmijenili postavke za krivi widget.</string>
+
+    <string name="cling_notifications_title">Obavijesti o vremenu</string>
+    <string name="cling_notifications_detail">Widgete koji prikazuju vremenske uvjete možete prilagoditi da trenutne uvjete ili prognozu prikazuju u proširivom području za obavijesti statusne trake.</string>
+
+    <string name="cling_feedly_and_facebook_title">Feedly, Facebook ili RSS</string>
+    <string name="cling_feedly_and_facebook_detail">Kao izvor novosti odredite RSS kanal, Feedly ili Facebook, te ih prilagodite za prikaz profilnih sličica ili sličica uz vijesti.</string>
+
+    <string name="cling_month_view_title">Mjesečni izgled kalendara</string>
+    <string name="cling_month_view_detail">Odaberite novi \'Mjesečni\' izgled, kako biste prikazali cijeli mjesec.</string>
+
+    <string name="cling_dialog_style_title">Promijenite izgled</string>
+    <string name="cling_dialog_style_detail">Moguće je promijeniti pozadinu widgeta, izgled skočnih prozora za Vremensku prognozu i Novosti, te izgled ikona.</string>
+
+    <string name="cling_backup_title">Spremite vaše postavke</string>
+    <string name="cling_backup_detail">Postavke specifičnih widgeta mogu biti pospremljene i kasnije vraćene za iste tipove widgeta.</string>
+
+    <string name="cling_help_title">Pomoć na dohvat prsta\u2026</string>
+    <string name="cling_help_detail">Da biste vidjeli posljednje izmjene, kontaktirali nas za pomoć, predložili nove mogućnosti ili se uključili u Chronus zajednicu, samo tapnite ovdje.</string>
 
 </resources>
