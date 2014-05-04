@@ -388,7 +388,7 @@
         <item quantity="few">%d odstránené zálohy</item>
         <item quantity="other">%d odstránených záloh</item>
     </plurals>
-    <string name="popup_style_title">Štýl vyskakovacieho dialógu</string>
-    <string name="popup_style_dark">Tmavý</string>
-    <string name="popup_style_light">Svetlý</string>
+    <string name="dialog_style_title">Štýl vyskakovacieho dialógu</string>
+    <string name="dialog_style_dark">Tmavý</string>
+    <string name="dialog_style_light">Svetlý</string>
 </resources>

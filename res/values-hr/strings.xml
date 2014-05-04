@@ -499,13 +499,13 @@
     <string name="remove_button">Obriši</string>
     <string name="select_all_button">Odaberi sve</string>
     <plurals name="remove_backups_result_toast">
-        <item quantity="one">1 kopija obrisana</item>
-        <item quantity="other">Obrisanih kopija: %d</item>
-    </plurals>
+    <item quantity="one">1 kopija obrisana</item>
+    <item quantity="other">Obrisanih kopija: %d</item>
+</plurals>
 
     <!-- Popup Dialog style -->
-    <string name="popup_style_title">Izgled skočnog prozora</string>
-    <string name="popup_style_dark">Tamno</string>
-    <string name="popup_style_light">Svijetlo</string>
+    <string name="dialog_style_title">Izgled skočnog prozora</string>
+    <string name="dialog_style_dark">Tamno</string>
+    <string name="dialog_style_light">Svijetlo</string>
 
 </resources>
