@@ -143,6 +143,7 @@
     <string name="maintenance_category">Maintenance</string>
     <string name="notifications_category">Notifications</string>
     <string name="backup_restore_category">Backup and restore</string>
+    <string name="popup_windows_category">Pop-up windows</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Lock screen</string>
@@ -448,11 +449,6 @@
     <string name="calendar_no_events_summary">Tap + to add</string>
     <string name="calendar_no_events_indicator_title">Show \'No events\' text</string>
 
-    <!--  Cling text -->
-    <string name="cling_widget_select_title">Select widget</string>
-    <string name="cling_widget_select_detail">You can configure each of your placed widgets. Just select the one you
-        want to configure using the selector at the top.</string>
-
     <string name="show_date_title">Show date</string>
     <string name="show_battery_title">Show battery percentage</string>
 
@@ -520,8 +516,44 @@
     </plurals>
 
     <!-- Popup Dialog style -->
-    <string name="popup_style_title">Pop-up dialog style</string>
-    <string name="popup_style_dark">Dark</string>
-    <string name="popup_style_light">Light</string>
+    <string name="dialog_style_title">Dialog style</string>
+    <string name="dialog_style_dark">Dark</string>
+    <string name="dialog_style_light">Light</string>
+    <string name="info_icon_color">Info icons color</string>
+
+    <!-- Help/Cling text -->
+    <string name="cling_continue_button">Next</string>
+
+    <string name="cling_intro_title">Welcome!</string>
+    <string name="cling_intro_detail">Chronus is a highly customizable information widget and new features are being
+        added on a regular basis. \n\nThe following few screens highlight some of the latest additions.</string>
+
+    <string name="cling_widget_select_title">Selecting widgets</string>
+    <string name="cling_widget_select_detail">You can configure each of your placed widgets individually. Before you
+        change any settings, select the specific widget to configure by using the selector at the top.</string>
+
+    <string name="cling_notifications_title">Weather notifications</string>
+    <string name="cling_notifications_detail">You can configure each of your Weather widgets to display the current and
+        forecast information in an expandable status bar notification.</string>
+
+    <string name="cling_feedly_and_facebook_title">Feedly and Facebook</string>
+    <string name="cling_feedly_and_facebook_detail">Set your News feed source provider to be RSS, Feedly or Facebook
+        and configure settings like the display of avatar and thumbnail images.</string>
+
+    <string name="cling_month_view_title">Month view Calendar</string>
+    <string name="cling_month_view_detail">Select the \'Month view\' Calendar style and/or the \'Toggle month view\'
+        Tap action to display the full month grid.</string>
+
+    <string name="cling_dialog_style_title">Change widget styles</string>
+    <string name="cling_dialog_style_detail">It is possible to change the widget background and the style of the
+        Forecast and News feed pop-up windows and icons.</string>
+
+    <string name="cling_backup_title">Save your configuration</string>
+    <string name="cling_backup_detail">The settings of widgets can be backed-up and restored to the same widget types
+        at a later time.</string>
+
+    <string name="cling_help_title">Help is only a tap away\u2026</string>
+    <string name="cling_help_detail">To see the latest changes, contact us for support, suggest features or join the
+        Chronus community, just tap here.</string>
 
 </resources>

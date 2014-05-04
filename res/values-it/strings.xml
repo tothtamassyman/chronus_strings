@@ -492,8 +492,8 @@
     </plurals>
 
     <!-- Popup Dialog style -->
-    <string name="popup_style_title">Stile finestra Pop-up</string>
-    <string name="popup_style_dark">Scuro</string>
-    <string name="popup_style_light">Chiaro</string>
+    <string name="dialog_style_title">Stile finestra Pop-up</string>
+    <string name="dialog_style_dark">Scuro</string>
+    <string name="dialog_style_light">Chiaro</string>
 
 </resources>

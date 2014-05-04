@@ -17,9 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="app_name" translatable="false">Chronus</string>
-    <string name="app_name_pro" translatable="false">Chronus Pro</string>
-
     <string name="unknown">Nepoznato</string>
     <string name="cancel">Odustani</string>
     <string name="loading_indicator">Učitavanje\u2026</string>
@@ -28,8 +25,6 @@
     <string name="menu_search">Pretraži</string>
     <string name="ok">U redu</string>
     <string name="close">Zatvori</string>
-    <string-array name="empty_array" translatable="false"/>
-    <string name="send_log" translatable="false">Logcat</string>
     <string name="exit">Izlaz</string>
     <string name="msg_service_unavailable">Usluga je nedostupna</string>
     <string name="msg_login_failed">Neuspješan login</string>
@@ -37,14 +32,6 @@
 
     <!-- Formats -->
     <string name="format_seconds">%s sek.</string>
-
-    <!-- Formating strings for widget clock -->
-    <string name="widget_12_hours_format_h" translatable="false">h</string>
-    <string name="widget_12_hours_format_no_ampm_m" translatable="false">:mm</string>
-    <string name="widget_12_hours_format_m" translatable="false">:mm<font size="15">aa</font></string>
-    <string name="widget_24_hours_format_h" translatable="false">kk</string>
-    <string name="widget_24_hours_format_m" translatable="false">:mm</string>
-    <string name="widget_am_pm_format" translatable="false">a</string>
 
     <!-- Weather - Weather codes -->
     <string name="weather_0">Olujni vjetar</string>
@@ -95,7 +82,6 @@
     <string name="weather_45">Olujni pljuskovi</string>
     <string name="weather_46">Gust snijeg</string>
     <string name="weather_47">Grmljavinske oluje</string>
-    <string name="weather_3200"></string> <!-- Forecast unavailable -->
 
     <!-- Weather - Units -->
     <string name="weather_kph">k/s</string>
@@ -148,7 +134,6 @@
     <string name="widget_type_keyguard">Lock screen</string>
     <string name="widget_type_daydream">Daydream čuvar ekrana</string>
     <string name="widget_type_homescreen">Radna površina</string>
-    <string name="widget_type_homescreen_format" translatable="false"><xliff:g id="name">%1$s</xliff:g> (<xliff:g id="columns">%2$d</xliff:g>x<xliff:g id="rows">%3$d</xliff:g>)</string>
 
     <!-- Preferences - Clock -->
     <string name="clock_font_title">Podebljani sati</string>
@@ -220,8 +205,6 @@
     <string name="news_feed_no_articles_text_title">Prikaži \'Nema novosti\'</string>
     <string name="news_feed_provider_title">Vrsta izvora</string>
     <string name="news_feed_provider_rss">RSS</string>
-    <string name="news_feed_provider_feedly" translatable="false">Feedly</string>
-    <string name="news_feed_provider_facebook" translatable="false">Facebook</string>
     <string name="news_feed_provider_settings_rss_title">Izvori</string>
     <string name="news_feed_provider_settings_feedly_title">Postavke za Feedly</string>
     <string name="news_feed_provider_settings_facebook_title">Postavke za Facebook</string>
@@ -275,7 +258,9 @@
     <!-- News - Service -->
     <plurals name="news_feed_new_articles">
         <item quantity="one">1 nova stavka</item>
-        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> novih stavki</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> novih stavaka</item>
+        <item quantity="few">%d nove stavke</item>
+        <item quantity="many">%d novih stavaka</item>
     </plurals>
 
     <!-- News - Reader -->
@@ -289,7 +274,6 @@
     <!-- News Feed Provider Settings - RSS -->
     <string name="rss_sources_custom_header">Korisnički definiran</string>
     <string name="rss_custom_source_url">URL:</string>
-    <string name="rss_custom_source_url_hint" translatable="false">http://</string>
     <string name="rss_custom_source_title">Dodaj vlastiti izvor</string>
     <string name="rss_custom_source_name">Naziv:</string>
 
@@ -309,7 +293,6 @@
     <string name="feedly_msg_retrieving_user_categories">Zaprimanje korisničkih kategorija\u2026</string>
 
     <!-- News Feed Provider Settings - Facebook -->
-    <string name="facebook_article_source" translatable="false">%1$s</string>
     <string name="facebook_article_source_with_app">%1$s (via %2$s)</string>
     <string name="facebook_account_title">Facebook profil</string>
     <string name="facebook_show_avatar_title">Prikaži profilne slike</string>
@@ -340,9 +323,7 @@
     <string name="credits_title">Zasluge</string>
     <string name="credits_summary">David van Tonder i Danny Baumann napisali su većinu koda, no zasluge idu mnogim prevodiocima te suradnicima, posebno Nicolai Ehemann, Matt Booth i Jorge Ruesga za njihove prijevode i značajke kojima su pridonjeli aplikaciji.</string>
     <string name="contact_title">Kontaktirajte nas</string>
-    <string name="contact_summary" translatable="false">chronus.widget@gmail.com</string>
     <string name="send_email">Pošalji email\u2026</string>
-    <string name="google_plus" translatable="false">Google+</string>
     <string name="change_log">Dnevnik izmjena</string>
 
     <!-- START OF PRO VERSION STRINGS -->
@@ -399,17 +380,10 @@
 
     <!-- Weather providers -->
     <string name="weather_source_yahoo">Yahoo! Weather</string>
-    <string name="weather_source_wunderground" translatable="false">Weather Underground</string>
-    <string name="weather_source_hamweather" translatable="false">Hamweather</string>
-    <string name="weather_source_accuweather" translatable="false">AccuWeather</string>
-    <string name="weather_source_openweathermap" translatable="false">OpenWeatherMap</string>
-    <string name="weather_source_yrno" translatable="false">yr.no</string>
-
     <string name="weather_attribution_yrno">Podatke pruža Norveški meteorološki institut (Meteorologisk institutt)</string>
 
     <!-- Widget names -->
     <!-- TRANSLATORS: The App name should remain as 'Chronus' -->
-    <string name="chronus_flex" translatable="false">Chronus Flex</string>
     <string name="chronus_clockplus">Chronus Sat+</string>
     <string name="chronus_weather">Chronus Vrijeme</string>
     <string name="chronus_forecast">Chronus Prognoza (Pro)</string>
@@ -417,7 +391,6 @@
     <string name="chronus_clockplus_forecast">Chronus Sat+ (prognoza) (Pro)</string>
     <string name="chronus_news">Chronus Novosti</string>
 
-    <string name="chronus_flex_short" translatable="false">Flex</string>
     <string name="chronus_clockplus_short">Sat+</string>
     <string name="chronus_weather_short">Vrijeme</string>
     <string name="chronus_forecast_short">Prognoza</string>
@@ -447,14 +420,12 @@
     <!-- Weather icon sets -->
     <string name="weather_icon_set_title">Izgled ikona</string>
     <string name="icon_set_selection_get_more">Pribavi još\u2026</string>
-    <string name="icon_set_store_filter" translatable="false">Chronus Weather Icons</string>
 
     <!-- Icon Set names -->
     <string name="weather_icons_standard">U boji</string>
     <string name="weather_icons_monochrome">Jednobojne</string>
 
     <!-- Daydream -->
-    <string name="daydream_settings_name" translatable="false">Chronus Dream</string>
     <string name="daydream_night_mode_title">Noćni način</string>
     <string name="daydream_night_mode_summary">Zatamnjivanje ekrana za nenametljivi prikaz u tamnom okružju</string>
     <string name="daydream_effect_title">Efekt</string>
@@ -501,11 +472,13 @@
     <plurals name="remove_backups_result_toast">
         <item quantity="one">1 kopija obrisana</item>
         <item quantity="other">Obrisanih kopija: %d</item>
+        <item quantity="few">%d kopije obrisane</item>
+        <item quantity="many">%d kopija obrisano</item>
     </plurals>
 
     <!-- Popup Dialog style -->
-    <string name="popup_style_title">Izgled skočnog prozora</string>
-    <string name="popup_style_dark">Tamno</string>
-    <string name="popup_style_light">Svijetlo</string>
+    <string name="dialog_style_title">Izgled skočnog prozora</string>
+    <string name="dialog_style_dark">Tamno</string>
+    <string name="dialog_style_light">Svijetlo</string>
 
 </resources>

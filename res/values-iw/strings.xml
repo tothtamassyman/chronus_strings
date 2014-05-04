@@ -457,8 +457,8 @@
     </plurals>
     
         <!-- Popup Dialog style -->
-    <string name="popup_style_title">סגנון דיאלוג חלון-קופץ</string>
-    <string name="popup_style_dark">כהה</string>
-    <string name="popup_style_light">בהיר</string>
+    <string name="dialog_style_title">סגנון דיאלוג חלון-קופץ</string>
+    <string name="dialog_style_dark">כהה</string>
+    <string name="dialog_style_light">בהיר</string>
 </resources>
 
