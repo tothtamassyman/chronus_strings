@@ -260,14 +260,14 @@
     <string name="first_run_message">Chronus je pripomoček, ki mora biti ročno dodan na vaš privzeti zaslon
         (Android 4.1+) ali na zaslon zaklepanja (samo pri Android 4.2+) z uporabo interne funkcije dodajanja
         pripomočkov na zaslon.\n\nKo ste izbrali pripomoček, lahko z uporabo te aplikacije spremenite konfiguracijo
-        pripomočka.\n\nNe pozabite spremeniti velikost pripomočka na privzetem zaslonu, da se vam lahko prikažejo vse
-        nastavitve, ki ste jih omogočili (Ura, vreme in koledar) saj lahko pripomoček ne prikaže vseh željenih
+        pripomočka.\n\nNe pozabite spremeniti velikosti pripomočka na privzetem zaslonu, da se vam lahko prikažejo vse
+        nastavitve, ki ste jih omogočili (ura, vreme in koledar) saj lahko pripomoček delno zakrije vidnost vseh željenih
         podatkov, če prikazno okno ni dovolj veliko.\n\nZa prikaz najboljših rezultatov priporočamo uporabo Apex
-        ali Nova zaganjalnika. Chronus bo najverjetneje nemoteno deloval na vseh zaganjalnikih, omejena je pa je
+        ali Nova zaganjalnika. Chronus bo najverjetneje nemoteno deloval na vseh zaganjalnikih, omejena pa je
         lahko vidnost in velikost pripomočka na drugih zaganjalnikih.\n\nPri Android 4.2+, za dodajanje pripomočka
         na privzeti zaslon pritisnite in držite na praznem mestu na zaslonu in uporabite funkcijo Dodaj pripomoček,
-        prelistajte po možnostih iz izberite pripomoček po meri. Pri določenih zaganjalnikih preprosto pritisnite in
-        držite pripomoček, da omogočite urejanje, premikanje ali brisanje.</string>
+        prelistajte po možnostih iz izberite pripomoček po meri. Pri večini zaganjalnikih preprosto pritisnite in
+        držite pripomoček, da zavibrira, s tem potrdite in omogočite urejanje, premikanje ali brisanje.</string>
 
     <string name="no_widget_message">Izberite vsaj en Chronus pripomoček, ki ga lahko dodate na privzeti zaslon ali
         Zaslon zaklepanja in ga nato prilagodite po meri.\n\nPripomoček lahko dodate direktno iz pripomočkov na vaši
