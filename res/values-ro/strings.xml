@@ -487,7 +487,7 @@
     <string name="cling_intro_detail">Chronus este un widget informațional foarte personalizabil cu posibilități noi adăugate regulat. \n\nUrmătoarele câteva ecrane evidențiază câteva din ultimele adiționări.</string>
 
     <string name="cling_widget_select_title">Selectare widget-uri</string>
-    <string name="cling_widget_select_detail">Puteți configura fiecare din widget-ele plasate individual. Înainte să modificați oricare setări, selectați widget-ul necesar utilizând selectorul de sus.</string>
+    <string name="cling_widget_select_detail">Puteți configura fiecare din widget-urile plasate individual. Înainte să modificați oricare setări, selectați widget-ul necesar utilizând selectorul de sus.</string>
 
     <string name="cling_notifications_title">Notificări meteo</string>
 
@@ -502,10 +502,10 @@
     <string name="cling_dialog_style_title">Schimbați stilul feresterei</string>
     <string name="cling_dialog_style_detail">Este posibilă schimbarea fundalului și a stilului feresteror pop-up și a pictogramelor pentru Prognoză și a fluxului de Noutăți.</string>
 
-    <string name="cling_backup_title">Save your configuration</string>
-    <string name="cling_backup_detail">The settings of widgets can be backed-up and restored to the same widget types at a later time.</string>
+    <string name="cling_backup_title">Salvați configuările</string>
+    <string name="cling_backup_detail">Setările widget-urilor pot fi salvate și restabilite mai târziu pentru aceleași tipuri de widget-uri.</string>
 
-    <string name="cling_help_title">Help is only a tap away\u2026</string>
-    <string name="cling_help_detail">To see the latest changes, contact us for support, suggest features or join the Chronus community, just tap here.</string>
+    <string name="cling_help_title">Ajutorul este la distanța unei atingeri\u2026</string>
+    <string name="cling_help_detail">Pentru vizulizarea ultimelor modificări, contactarea noastră pentru suport, sugerarea posibilitaților sau înscrierea în comunitatea Chronus, atingeți aici.</string>
     
 </resources>
