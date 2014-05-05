@@ -474,4 +474,38 @@
         <item quantity="other">%d backup-uri șterse</item>
     </plurals>
     
+    <!-- Popup Dialog style -->
+    <string name="dialog_style_title">Stil dialog</string>
+    <string name="dialog_style_dark">Închis</string>
+    <string name="dialog_style_light">Deschis</string>
+    <string name="info_icon_color">Culoare pictograme info</string>
+    
+    <!-- Help/Cling text -->
+    <string name="cling_continue_button">Următorul</string>
+
+    <string name="cling_intro_title">Bun venit!</string>
+    <string name="cling_intro_detail">Chronus este un widget informațional foarte personalizabil cu posibilități noi adăugate regulat. \n\nUrmătoarele câteva ecrane evidențiază câteva din ultimele adiționări.</string>
+
+    <string name="cling_widget_select_title">Selectare widget-uri</string>
+    <string name="cling_widget_select_detail">Puteți configura fiecare din widget-urile plasate individual. Înainte să modificați oricare setări, selectați widget-ul necesar utilizând selectorul de sus.</string>
+
+    <string name="cling_notifications_title">Notificări meteo</string>
+
+    <string name="cling_notifications_detail">Puteți configura oricare din widget-urile Meteo pentru a afișa informația curentă și prognoza ca notificare expandabilă în bara de stare.</string>
+
+    <string name="cling_feedly_and_facebook_title">Feedly și Facebook</string>
+    <string name="cling_feedly_and_facebook_detail">Setați furnizorul fluxurilor de Noutăți pentru RSS, Feedly sau Facebook și configurați setări precum afișarea avatarelor sau a miniaturilor.</string>
+
+    <string name="cling_month_view_title">Afișare calendar lunar</string>
+    <string name="cling_month_view_detail">Selectați stilul calendarului \'Afișare lună\' și/sau butonul \'Comutare Lună/Listă\' pentru afișarea grilei lunare totale.</string>
+
+    <string name="cling_dialog_style_title">Schimbați stilul feresterei</string>
+    <string name="cling_dialog_style_detail">Este posibilă schimbarea fundalului și a stilului feresteror pop-up și a pictogramelor pentru Prognoză și a fluxului de Noutăți.</string>
+
+    <string name="cling_backup_title">Salvați configuările</string>
+    <string name="cling_backup_detail">Setările widget-urilor pot fi salvate și restabilite mai târziu pentru aceleași tipuri de widget-uri.</string>
+
+    <string name="cling_help_title">Ajutorul este la distanța unei atingeri\u2026</string>
+    <string name="cling_help_detail">Pentru vizulizarea ultimelor modificări, contactarea noastră pentru suport, sugerarea posibilitaților sau înscrierea în comunitatea Chronus, atingeți aici.</string>
+    
 </resources>
