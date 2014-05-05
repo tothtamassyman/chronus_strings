@@ -496,10 +496,10 @@
     <string name="cling_feedly_and_facebook_title">Feedly și Facebook</string>
     <string name="cling_feedly_and_facebook_detail">Setați furnizorul fluxurilor de Noutăți pentru RSS, Feedly sau Facebook și configurați setări precum afișarea avatarelor sau a miniaturilor.</string>
 
-    <string name="cling_month_view_title">Vizualizare calendar lunar</string>
-    <string name="cling_month_view_detail">Selectați stilul calendarului \'Vizulizarea lunară\' și/sau butonul \'Comutare vizualizare lunară\' pentru afișarea grilei lunare totale.</string>
+    <string name="cling_month_view_title" Afișare calendar lunar</string>
+    <string name="cling_month_view_detail">Selectați stilul calendarului \'Afișare lună\' și/sau butonul \'Comutare Lună/Listă\' pentru afișarea grilei lunare totale.</string>
 
-    <string name="cling_dialog_style_title" Schimbați stilul feresterei</string>
+    <string name="cling_dialog_style_title"Schimbați stilul feresterei</string>
     <string name="cling_dialog_style_detail">Este posibilă schimbarea fundalului și a stilului feresteror pop-up și a pictogramelor pentru Prognoză și a fluxului de Noutăți.</string>
 
     <string name="cling_backup_title">Save your configuration</string>
