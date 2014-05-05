@@ -483,7 +483,7 @@
     <!-- Help/Cling text -->
     <string name="cling_continue_button">Următorul</string>
 
-         <string name="cling_intro_title">Bun venit!</string>
+    <string name="cling_intro_title">Bun venit!</string>
     <string name="cling_intro_detail">Chronus este un widget informațional foarte personalizabil cu posibilități noi adăugate regulat. \n\nUrmătoarele câteva ecrane evidențiază câteva din ultimele adiționări.</string>
 
     <string name="cling_widget_select_title">Selectare widget-uri</string>
