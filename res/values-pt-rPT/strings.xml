@@ -128,6 +128,7 @@
     <string name="maintenance_category">Manutenção</string>
     <string name="notifications_category">Notificações</string>
     <string name="backup_restore_category">Backup e restauro</string>
+    <string name="popup_windows_category">Janela pop-up</string>
     
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Ecrã de bloqueio</string>
@@ -488,5 +489,32 @@
     <string name="dialog_style_title">Estilo de diálogo pop-up</string>
     <string name="dialog_style_dark">Escuro</string>
     <string name="dialog_style_light">Claro</string>
- 
-</resources>
+    <string name="info_icon_color">Cor do ícone de informação</string>
+
+    <!-- Help/Cling text -->
+    <string name="cling_continue_button">Seguinte</string>
+    <string name="cling_intro_title">Bem-vindo!</string>
+    <string name="cling_intro_detail">Chronus é um widget informativo e altamente personalizável, no qual novas funcionalidades
+        são adicionadas regularmente. \n\nOs ecrãs seguintes destacam algumas das mais recentes novidades.</string>
+    <string name="cling_widget_select_title">Selecionando widgets</string>
+    <string name="cling_widget_select_detail">Poderá configurar cada um dos widgets individualmente. Antes de efetuar qualquer alteração,
+        selecione o widget específico a configurar usando o seletor no topo.</string>
+    <string name="cling_notifications_title">Notificações meteorológicas</string>
+    <string name="cling_notifications_detail">Poderá configurar cada um dos widgets meteorológicos de modo a apresentar o tempo atual e o previsto
+        numa notificação expansível na barra de estado.</string>
+    <string name="cling_feedly_and_facebook_title">Feedly e Facebook</string>
+    <string name="cling_feedly_and_facebook_detail">Defina como fonte de informação RSS, Feedly ou Facebook
+        e configure as definições, como por exemplo mostrar avatares e imagens em miniatura.</string>
+    <string name="cling_month_view_title">Calendário com visualização mensal</string>
+    <string name="cling_month_view_detail">Selecione \'Visualização do mês\' no Estilo do calendário e/ou toque em \'Alternar visualização de mês/agenda\'
+        para apresentar uma grelha com o mês inteiro.</string>
+    <string name="cling_dialog_style_title">Alterar o estilo do widget</string>
+    <string name="cling_dialog_style_detail">É possível alterar o fundo do widget, bem como o estilo da janela de pop-up e ícones da previsão meteorológica 
+        e fonte de notícias.</string>
+    <string name="cling_backup_title">Guarde as suas definições</string>
+    <string name="cling_backup_detail">As definições dos widgets podem ser guardadas e restauradas posteriormente, 
+        para os mesmos tipos de widgets.</string>
+    <string name="cling_help_title">A ajuda está à distância de um clique\u2026</string>
+    <string name="cling_help_detail">Para visualizar as últimas alterações, contactar-nos para obter apoio, sugerir funcionalidades
+        ou juntar-se à comunidade Chronus, clique aqui.</string>
+ </resources>
