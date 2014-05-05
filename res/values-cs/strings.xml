@@ -446,9 +446,9 @@
         pravidelně.\n\nNásledující obazovky ukáží některé z hlavních naposledy přidaných vlastností.</string>
     <string name="cling_widget_select_title">Zvolení widgetů</string>
     <string name="cling_widget_select_detail">Každému vytvořenému widgetu je možné měnit nastavení samostatně. Před vlastní
-        změnou nastavení vyberte daný widget ze seznamu umístěném v horní části okna.</string>
+        změnou nastavení vyberte daný widget ze seznamu, umístěném v horní části okna.</string>
     <string name="cling_notifications_title">Upozornění na počasí</string>
-    <string name="cling_notifications_detail">Každý widget počasí je možná nastavit tak, aby zobrazoval aktuální stav
+    <string name="cling_notifications_detail">Každý widget počasí je možné nastavit tak, aby zobrazoval aktuální stav
         a předpověď v rozšiřitelné části stavové lišty.</string>
     <string name="cling_feedly_and_facebook_title">Feedly a Facebook</string>
     <string name="cling_feedly_and_facebook_detail">Nastavte si zdroj zpráv - RSS, Feedly nebo Facebook -
@@ -457,12 +457,12 @@
     <string name="cling_month_view_detail">Vyberte si vzhled kalendáře „Měsíční přehled“ a/nebo akci pro
         „Přepnutí měsíčního přehledu“ pro zobrazení celého měsíce.</string>
     <string name="cling_dialog_style_title">Změna vzhledu oken</string>
-    <string name="cling_dialog_style_detail">Je možné změnit pozadí a vzhled okna pro předpověď počasí nebo zobrazení
-        vyskakovacího okna zpráv a ikon.</string>
+    <string name="cling_dialog_style_detail">Změňte si pozadí a vzhled okna pro předpověď počasí nebo zobrazení vyskakovacího
+        okna zpráv a ikon.</string>
     <string name="cling_backup_title">Uložení nastavení</string>
     <string name="cling_backup_detail">Nastavení widgetu je možné zazálohovat a později toto nastavení obnovit pro widgety
         stejného typu.</string>
     <string name="cling_help_title">Nápověda je dostupná na jedno klepnutí\u2026</string>
     <string name="cling_help_detail">Pro zobrazení posledních změn, kontaktů pro podporu, navrhnutí vlastních vylepšení
-        nebo se přidat ke komunitě Chronus, stačí kleptnout zde.</string>
+        nebo se přidat ke komunitě Chronus, stačí klepnout zde.</string>
 </resources>
