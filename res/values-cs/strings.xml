@@ -95,7 +95,7 @@
     <string name="weather_no_data">Žádná data</string>
     <string name="weather_tap_to_refresh">Kliknutím obnovit</string>
     <string name="weather_last_sync_just_now">Právě teď</string>
-    <string name="weather_cannot_reach_provider">Server %s nedostupný</string>
+    <string name="weather_cannot_reach_provider">Server „%s“ nedostupný</string>
 
     <string name="weather_refresh_manual">Ručně</string>
     <string name="weather_refresh_30min">30 minut</string>
@@ -118,6 +118,7 @@
     <string name="maintenance_category">Údržba</string>
     <string name="notifications_category">Upozornění</string>
     <string name="backup_restore_category">Záloha/obnova</string>
+    <string name="popup_windows_category">Vyskakovací okna</string>
 
     <string name="widget_type_keyguard">Obrazovka zámku</string>
     <string name="widget_type_daydream">Spořič obrazovky</string>
@@ -433,4 +434,35 @@
         <item quantity="few">%d zálohy odstraněny</item>
         <item quantity="other">%d záloh odstraněno</item>
     </plurals>
+
+    <string name="dialog_style_title">Vzhled okna</string>
+    <string name="dialog_style_dark">Tmavé</string>
+    <string name="dialog_style_light">Světlé</string>
+    <string name="info_icon_color">Barevné informační ikony</string>
+
+    <string name="cling_continue_button">Další</string>
+    <string name="cling_intro_title">Vítejte!</string>
+    <string name="cling_intro_detail">Chronus je přizpůsobitelný informační widget, jehož vlastnosti a funkce jsou přidávány
+        pravidelně.\n\nNásledující obazovky ukáží některé z hlavních naposledy přidaných vlastností.</string>
+    <string name="cling_widget_select_title">Zvolení widgetů</string>
+    <string name="cling_widget_select_detail">Každému vytvořenému widgetu je možné měnit nastavení samostatně. Před vlastní
+        změnou nastavení vyberte daný widget ze seznamu umístěném v horní části okna.</string>
+    <string name="cling_notifications_title">Upozornění na počasí</string>
+    <string name="cling_notifications_detail">Každý widget počasí je možná nastavit tak, aby zobrazoval aktuální stav
+        a předpověď v rozšiřitelné části stavové lišty.</string>
+    <string name="cling_feedly_and_facebook_title">Feedly a Facebook</string>
+    <string name="cling_feedly_and_facebook_detail">Nastavte si zdroj zpráv - RSS, Feedly nebo Facebook -
+        a upravte nastavení pro zobrazování avatarů nebo náhledů obrázků.</string>
+    <string name="cling_month_view_title">Měsíční přehled kalendáře</string>
+    <string name="cling_month_view_detail">Vyberte si vzhled kalendáře „Měsíční přehled“ a/nebo akci pro
+        „Přepnutí měsíčního přehledu“ pro zobrazení celého měsíce.</string>
+    <string name="cling_dialog_style_title">Změna vzhledu oken</string>
+    <string name="cling_dialog_style_detail">Je možné změnit pozadí a vzhled okna pro předpověď počasí nebo zobrazení
+        vyskakovacího okna zpráv a ikon.</string>
+    <string name="cling_backup_title">Uložení nastavení</string>
+    <string name="cling_backup_detail">Nastavení widgetu je možné zazálohovat a později toto nastavení obnovit pro widgety
+        stejného typu.</string>
+    <string name="cling_help_title">Nápověda je dostupná na jedno klepnutí\u2026</string>
+    <string name="cling_help_detail">Pro zobrazení posledních změn, kontaktů pro podporu, navrhnutí vlastních vylepšení
+        nebo se přidat ke komunitě Chronus, stačí kleptnout zde.</string>
 </resources>
