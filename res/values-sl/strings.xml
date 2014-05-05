@@ -356,11 +356,6 @@
     <string name="calendar_no_events_summary">Pritisni + za dodajanje</string>
     <string name="calendar_no_events_indicator_title">Prikaži \'Ni dogodkov\' tekst</string>
 
-    <!--  Cling text -->
-    <string name="cling_widget_select_title">Izberi pripomoček</string>
-    <string name="cling_widget_select_detail">Možna je konfiguracija vseh izbranih pripomočkov.
-        Izberite tistega, ki ga želite urediti s pritiskom, zaključite urejanje s pritiskom kljukice na vrhu.</string>
-
     <string name="show_date_title">Prikaži datum</string>
     <string name="show_battery_title">Prikaži stanje baterije v odstotkih</string>
 
@@ -483,5 +478,40 @@
     <string name="weather_show_notification_summary">Prikaži kot obvestilo z nižjo prioriteto po osvežitvi vremenskih podatkov</string>
     <string name="weather_show_refresh">Prikaži ikono za Osvežitev</string>
     <string name="weather_style_title">Slog vremena</string>
+
+    <!-- Popup Dialog style -->
+    <string name="popup_windows_category">Prikazno okno</string>
+    <string name="dialog_style_title">Slog pogovora</string>
+    <string name="dialog_style_dark">Temno</string>
+    <string name="dialog_style_light">Svetlo</string>
+    <string name="info_icon_color">Barva Info ikone</string>
+
+    <!-- Help/Cling text -->
+    <string name="cling_continue_button">Naslednja</string>
+
+    <string name="cling_intro_title">Dobrodošli!</string>
+    <string name="cling_intro_detail">Chronus je popolnoma prilagodljiv pripomoček po vaši meri z vedno novimi funkcijami, ki se redno posodabljajo. \n\nNaslednji prikazi izpostavljajo nekaj najnovejših posodobitev aplikacije.</string>
+
+    <string name="cling_widget_select_title">Izbira pripomočka</string>
+    <string name="cling_widget_select_detail">Konfigurirate lahko vsak izbrani pripomoček posebej. Preden spreminjate nastavitve, izberite željeni pripomoček iz menija na vrhu.</string>
+
+    <string name="cling_notifications_title">Vremenska obvestila</string>
+    <string name="cling_notifications_detail">Konfigurirate lahko vsak Vremenski pripomoček posebej, ki vam lahko prikazuje trenutno vremensko napoved v obvestilni vrstici.</string>
+
+    <string name="cling_feedly_and_facebook_title">Feedly in Facebook</string>
+    <string name="cling_feedly_and_facebook_detail">Za prikazovanje Novic izberite kot vir RSS, Feedly ali Facebook in konfigurirajte prikazne nastavitve kot sličice ali podobe.</string>
+
+    <string name="cling_month_view_title">Mesečni prikaz koledarja</string>
+    <string name="cling_month_view_detail">Izberite \'Mesečni prikaz\' Koledarja in/ali \'Mesečni prikaz s stikalom\'
+        Pritisnite za prikaz celomesečnega koledarja v obliki mreže.</string>
+
+    <string name="cling_dialog_style_title">Spremeni slog pripomočkov</string>
+    <string name="cling_dialog_style_detail">Spremenite lahko ozadje ter slog pripomočka, Novice posameznih pojavnih oknen in ikone.</string>
+
+    <string name="cling_backup_title">Shranite konfiguracijo</string>
+    <string name="cling_backup_detail">Nastavitve pripomočkov lahko varnostno kopirate in obnovite tudi na kasnejši čas uporabe.</string>
+
+    <string name="cling_help_title">Pritisnite tukaj za Pomoč\u2026</string>
+    <string name="cling_help_detail">Pritisnite tukaj, če se želite seznaniti z najnovejšimi spremembami ali novimi funkcijami, ali če se želite obrniti na nas za pomoč in podporo, ali pa če morda želite prispevati vašo lastno zamisel ali idejo, potem se pridružite Chronus skupnosti.</string>
 
 </resources>
