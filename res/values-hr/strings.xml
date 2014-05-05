@@ -20,7 +20,7 @@
     <string name="unknown">Nepoznato</string>
     <string name="cancel">Odustani</string>
     <string name="loading_indicator">Učitavanje\u2026</string>
-    <string name="menu_done">Gotovo</string>
+    <string name="menu_done">Zatvori</string>
     <string name="menu_add">Dodaj</string>
     <string name="menu_search">Pretraži</string>
     <string name="ok">U redu</string>
@@ -102,7 +102,7 @@
     <!-- Weather - Error messages -->
     <string name="weather_loading">Učitavanje vremenskih podataka\u2026</string>
     <string name="weather_no_data">Nema podataka</string>
-    <string name="weather_tap_to_refresh">Tapnite za osvježavanje podataka</string>
+    <string name="weather_tap_to_refresh">Dodirnite za osvježavanje podataka</string>
     <string name="weather_last_sync_just_now">Upravo sad</string>
     <string name="weather_cannot_reach_provider">%s trenutno ne funkcionira</string>
 
@@ -246,13 +246,13 @@
     <string name="calendar_metadata_none">Ne prikazuj</string>
     <string name="calendar_metadata_first_line">Prikaži samo prvi red</string>
     <string name="calendar_metadata_all">Prikaži sve</string>
-    <string name="calendar_metadata_all_day">Cjelodnevno</string>
+    <string name="calendar_metadata_all_day">Cijeli dan</string>
 
     <!-- News - Widgets -->
     <string name="news_feed_loading">Učitavanje stavki</string>
     <string name="news_feed_loading_summary">Pričekajte trenutak\u2026</string>
     <string name="news_feed_no_data">Nema novih stavki</string>
-    <string name="news_feed_no_data_summary">Tapnite za osvježavanje</string>
+    <string name="news_feed_no_data_summary">Dodirnite za osvježavanje</string>
     <string name="news_feed_article_new_format">[NEW] <xliff:g id="title">%s</xliff:g></string>
     <string name="news_feed_read_more">Pročitaj više\u2026</string>
 
@@ -317,7 +317,7 @@
     <!-- First run -->
     <string name="how_to_title">Pomoć</string>
     <string name="first_run_title">Dobrodošli u %s</string> <!-- '%s' is the App name (name="app_name") -->
-    <string name="first_run_message">Chronus je potrebno prvo dodati na radnu površinu (Home screen) ili na zaključani zaslon (Lock screen, ali samo na Androidu 4.2 i naviše).\n\nJednom kada je widget postavljen, koristite ovu aplikaciju da promijenite postavke.\n\nSvakako promijenite veličinu widgeta kako bi napravili mjesta za sadržaje koje budete ili već jeste dodali (sat, vremenska prognoza, kalendar ili novosti) jer widget sakriva višak sadržaja ukoliko nema dovoljno prostora.\n\nIako će Chronus raditi na većini launchera, ponašanje može biti donekle ograničeno pa za najbolje rezultate i fleksibilnost u radu preporučamo Apex ili Nova launchere.\n\nNa Androidu 4.2 i naviše, widget se na Lock screen dodaje tako da se klizne udesno i koristi (+) ekran za dodavanje novog widgeta kako bi se dodalo Chronus. Widgeti na Lock screenu mogu se premještati dugim držanjem jednog od njih i razmještanjem (krajnji desni postaje glavni) ili brisanjem.</string>
+    <string name="first_run_message">Za početak, Chronus je potrebno dodati na radnu površinu (Home screen) ili na zaključani zaslon (Lock screen, ali samo na Androidu 4.2 i naviše).\n\nJednom kada je widget postavljen, koristite ovu aplikaciju da promijenite postavke.\n\nSvakako promijenite veličinu widgeta kako bi napravili mjesta za sadržaje koje budete ili već jeste dodali (sat, vremenska prognoza, kalendar ili novosti) jer widget sakriva višak sadržaja ukoliko nema dovoljno prostora.\n\nIako će Chronus raditi na većini launchera, ponašanje može biti donekle ograničeno pa za najbolje rezultate i fleksibilnost preporučamo Apex ili Nova launchere.\n\nNa Androidu 4.2 i naviše, widget se na Lock screen dodaje tako da se klizne udesno i koristi (+) ekran za dodavanje novog widgeta. Widgeti na Lock screenu mogu se premještati dugim držanjem jednog od njih i razmještanjem (krajnji desni postaje glavni), ili brisanjem.</string>
 
     <string name="no_widget_message">Barem jedan Chronus widget mora biti postavljen na radnu površinu ili na lock screen prije korištenja aplikacije.\n\nWidgeti mogu biti dodani putem Android izbornika.</string>
 
@@ -408,7 +408,7 @@
 
     <!-- Calendar - No events -->
     <string name="calendar_no_events">Nema nadolazećih događaja</string>
-    <string name="calendar_no_events_summary">Tapnite + za dodavanje</string>
+    <string name="calendar_no_events_summary">Dodirnite + za dodavanje</string>
     <string name="calendar_no_events_indicator_title">Prikaži \'Nema događaja\'</string>
 
     <!--  Cling text -->
@@ -465,7 +465,7 @@
     <string name="backup_multiple_result_toast">Sačuvane su postavke <xliff:g id="count">%d</xliff:g> widgeta</string>
     <string name="restore_failure_toast">Nemoguće je vratiti postavke</string>
     <string name="restore_success_toast">Postavke widgeta su uspješno vraćene</string>
-    <string name="remove_backups_title">Obrisati pričuvne kopije</string>
+    <string name="remove_backups_title">Brisanje pričuvnih kopija</string>
     <string name="remove_backups_no_backups_summary">Nema pričuvnih kopija</string>
     <string name="remove_backups_select_dialog_title">Obrisati pričuvne kopije?</string>
     <string name="remove_button">Obriši</string>
@@ -508,6 +508,6 @@
     <string name="cling_backup_detail">Postavke specifičnih widgeta mogu biti pospremljene i kasnije vraćene za iste tipove widgeta.</string>
 
     <string name="cling_help_title">Pomoć na dohvat prsta\u2026</string>
-    <string name="cling_help_detail">Da biste vidjeli posljednje izmjene, kontaktirali nas za pomoć, predložili nove mogućnosti ili se uključili u Chronus zajednicu, samo tapnite ovdje.</string>
+    <string name="cling_help_detail">Da biste vidjeli posljednje izmjene, kontaktirali nas za pomoć, predložili nove mogućnosti ili se uključili u Chronus zajednicu, dodirnite ovdje.</string>
 
 </resources>
