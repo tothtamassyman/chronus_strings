@@ -396,7 +396,7 @@
         <item quantity="one">1 Sicherung gelöscht</item>
         <item quantity="other">%d Sicherungen gelöscht</item>
     </plurals>
-    <string name="popup_style_title">Dialogstil</string>
-    <string name="popup_style_dark">Dunkel</string>
-    <string name="popup_style_light">Hell</string>
+    <string name="dialog_style_title">Dialogstil</string>
+    <string name="dialog_style_dark">Dunkel</string>
+    <string name="dialog_style_light">Hell</string>
 </resources>

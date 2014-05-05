@@ -111,6 +111,7 @@
     <string name="maintenance_category">Onderhoud</string>
     <string name="notifications_category">Kennisgewings</string>
     <string name="backup_restore_category">Rugsteun en herstel</string>
+    <string name="popup_windows_category">Dialoogvensters</string>
 
     <string name="clock_font_title">Ure vetgedruk</string>
     <string name="clock_font_minutes_title">Minute vetgedruk</string>
@@ -235,7 +236,7 @@
 
     <string name="contact_title">Kontak ons</string>
     <string name="send_email">Stuur e-pos\u2026</string>
-    <string name="change_log">Veranderinge-log</string>
+    <string name="change_log">Veranderingelys</string>
 
     <string name="pro_features_summary">Raak om Pro funksies te aktiveer</string>
     <string name="pro_features_thanks">Baie dankie vir die aankoop</string>
@@ -300,9 +301,7 @@
     <string name="calendar_no_events">Geen afsprake in vooruitkyk tydperk nie</string>
     <string name="calendar_no_events_summary">Raak + om by te voeg</string>
     <string name="calendar_no_events_indicator_title">Wys \'Geen afsprake\' teks</string>
-    <string name="cling_widget_select_title">Kies legstuk</string>
-    <string name="cling_widget_select_detail">Jy kan elk van jou geplaasde legstukke opstel. Kies net die een wat jy wil gebruik van die kieslys hier bo.</string>
-    <string name="show_date_title">Wys datum</string>
+   <string name="show_date_title">Wys datum</string>
 
     <string name="weather_icon_set_title">Ikoon stel</string>
     <string name="weather_icons_standard">Gekleurd</string>
@@ -437,8 +436,44 @@
     </plurals>
 
     <!-- Popup Dialog style -->
-    <string name="popup_style_title">Dialoogvenster styl</string>
-    <string name="popup_style_dark">Donker</string>
-    <string name="popup_style_light">Lig</string>
+    <string name="dialog_style_title">Dialoog styl</string>
+    <string name="dialog_style_dark">Donker</string>
+    <string name="dialog_style_light">Lig</string>
+    <string name="info_icon_color">Info-ikoone kleur</string>
+
+    <!-- Help/Cling text -->
+    <string name="cling_continue_button">Volgende</string>
+
+    <string name="cling_intro_title">Welkom!</string>
+    <string name="cling_intro_detail">Chronus is \'n hoogs veranderbare inligtings legstuk en nuwe funksies word
+        gereeld bygevoeg. \n\nDie volgende paar skerms dui somige van die nuutstes aan.</string>
+
+    <string name="cling_widget_select_title">Kies tussen legstuke</string>
+    <string name="cling_widget_select_detail">Jy kan elkeen van die geplaasde legstukke individueel opstel. Kies die
+        een wat ingestel moet word van die kieslys hier bo.</string>
+
+    <string name="cling_notifications_title">Weer kennisgewings</string>
+    <string name="cling_notifications_detail">Weerlegstukke kan ingestel word om huidige weersomstandighede en die
+        multi-dag voorspelling as \'n vergrootbare kennisgewing in die statusbalk to toon.</string>
+
+    <string name="cling_feedly_and_facebook_title">Feedly en Facebook</string>
+    <string name="cling_feedly_and_facebook_detail">Kies tussen RSS, Feedly of Facebook vir die Nuus bron en instellings
+        soos die vertoon van die avatar en duimnaelsketse.</string>
+
+    <string name="cling_month_view_title">Maandelikste styl kalender</string>
+    <string name="cling_month_view_detail">Kies die \'Maandelikse\' Kalender styl en/of die \'Wissel Maand/Lys aansig\'
+        Aanraak aksie vir die volle maand uitleg.</string>
+
+    <string name="cling_dialog_style_title">Verskillende dialoogvensters</string>
+    <string name="cling_dialog_style_detail">Kies die styl en Info-ikone kleur van die Voorspelling en Nuus stroom
+        dialoogvensters.</string>
+
+    <string name="cling_backup_title">Rugsteun legstukke</string>
+    <string name="cling_backup_detail">Legstuk instellings kan gerugsteun en later vir soortgelyke legstukke herstel
+        word.</string>
+
+    <string name="cling_help_title">Hulp is om die hoek\u2026</string>
+    <string name="cling_help_detail">Om die nuutste veranderingelys te sien, ons te kontak vir hulp of om by die
+        gemeenskap aan te sluit, raak hier.</string>
 
 </resources>
