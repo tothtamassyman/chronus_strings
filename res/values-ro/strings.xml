@@ -491,7 +491,6 @@
     <string name="cling_widget_select_detail">Puteți configura fiecare din widget-urile plasate individual. Înainte să modificați oricare setări, selectați widget-ul necesar utilizând selectorul de sus.</string>
 
     <string name="cling_notifications_title">Notificări meteo</string>
-
     <string name="cling_notifications_detail">Puteți configura oricare din widget-urile Meteo pentru a afișa informația curentă și prognoza ca notificare expandabilă în bara de stare.</string>
 
     <string name="cling_feedly_and_facebook_title">Feedly și Facebook</string>
