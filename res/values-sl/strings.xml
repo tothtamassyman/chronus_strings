@@ -187,6 +187,14 @@
     <string name="news_feed_refresh_interval">Interval posodobitev</string>
     <string name="news_feed_refresh_interval_summary"><xliff:g id="setting" example="60 minutes">%s</xliff:g> (Privzeto za vse pripomočke)</string>
 
+    <!-- News - Service -->
+    <plurals name="news_feed_new_articles">
+        <item quantity="one">1 nova novica</item>
+        <item quantity="other"><xliff:g id="articles" example="12 new articles">%s</xliff:g> novih novic</item>
+        <item quantity="few">Nekaj novih novic</item>
+        <item quantity="two">2 novi novici</item>
+    </plurals>
+
     <!-- News Feed - Update frequency -->
     <string name="news_feed_refresh_manual">Ročno</string>
     <string name="news_feed_refresh_30min">30 minut</string>
@@ -456,6 +464,12 @@
     <string name="restore_prefs_title">Obnovi nastavitve pripomočkov</string>
     <string name="restore_select_dialog_title">Izberi datoteko varnostne kopije</string>
     <string name="restore_success_toast">Uspešno obnovljene nastavitve pripomočkov</string>
+    <plurals name="remove_backups_result_toast">
+        <item quantity="one">1 varnostna kopija odstranjena</item>
+        <item quantity="two">2 varnostni kopiji odstranjeni</item>
+        <item quantity="other">%d varnostne kopije odstranjene</item>
+        <item quantity="few">Nekaj varnostnih kopij odstranjenih</item>
+    </plurals>
 
     <string name="searching">Iskanje\u2026</string>
     <string name="select_all_button">Izberi vse</string>
