@@ -108,7 +108,7 @@
     <string name="clock_font_title">Pogrubione godziny</string>
     <string name="clock_font_minutes_title">Pogrubione minuty</string>
     <string name="clock_font_date_title">Pogrubione data i alarm</string>
-    <string name="show_alarm_title">Pogrubione data i alarm</string>
+    <string name="show_alarm_title">Pokaż najbliższy alarm</string>
     <string name="clock_am_pm_title">Pokaż wskaźnik AM/PM</string>
     <string name="weather_enabled">Aktywne</string>
     <string name="weather_enable">Wyświetl pogodę</string>
@@ -149,6 +149,7 @@
     <string name="calendar_highlight_upcoming_events_summary">Wyróżniaj dzisiejsze, a po godz. 20:00 również jutrzejsze wydarzenia</string>
     <string name="calendar_highlight_upcoming_events_bold">Pogrubienie</string>
     <string name="calendar_add_event_title">Dodaj nazwę wydarzenia</string>
+    <string name="show_battery_title">Pokaż procent baterii</string>
     <string name="news_feed_title">Wyświetl strumień newsów</string>
     <string name="news_feed_icon_title">Ikona strumienia newsów</string>
     <string name="news_feed_rotate_interval">Interwał rotacji</string>

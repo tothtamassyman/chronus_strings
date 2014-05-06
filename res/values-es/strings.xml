@@ -110,6 +110,7 @@
     <string name="maintenance_category">Mantenimiento</string>
     <string name="notifications_category">Notificaciones</string>
     <string name="backup_restore_category">Copia de seguridad</string>
+    <string name="popup_windows_category">Ventanas emergentes</string>
     <string name="widget_type_keyguard">Pantalla de bloqueo</string>
     <string name="widget_type_daydream">Salvapantallas Daydream</string>
     <string name="widget_type_homescreen">Pantalla de inicio</string>
@@ -384,4 +385,32 @@
         <item quantity="one">1 copia eliminada</item>
         <item quantity="other">%d copias eliminadas</item>
     </plurals>
+    <string name="dialog_style_title">Estilo de ventana de diálogo</string>
+    <string name="dialog_style_dark">Oscuro</string>
+    <string name="dialog_style_light">Claro</string>
+    <string name="info_icon_color">Color de iconos de información</string>
+    <string name="cling_continue_button">Siguiente</string>
+    <string name="cling_intro_title">¡Bienvenido!</string>
+    <string name="cling_intro_detail">Chronus es un widget de información altamente customizable y nuevas características son añadidas
+        cada poco tiempo. \n\nEl siguiente tutorial te mostrará algunas de las añadidas últimamente.</string>
+    <string name="cling_widget_select_title">Seleccionando widgets</string>
+    <string name="cling_widget_select_detail">Puedes configurar cada widget de manera individual. Antes de cambiar ningún
+        ajuste, selecciona el widget especifico que deseas configurar utilizando el selector en la parte superior de la pantalla.</string>
+    <string name="cling_notifications_title">Notificaciones de tiempo</string>
+    <string name="cling_notifications_detail">Puedes configurar cada uno de los widgets de tiempo para que muestre la información actual y
+        de predicción en una notificación expandible en la barra de estado.</string>
+    <string name="cling_feedly_and_facebook_title">Feedly y Facebook</string>
+    <string name="cling_feedly_and_facebook_detail">Establece tu proveedor de noticias a RSS, Feedly o Facebook
+        y configura sus ajustes, como mostrar el avatar o imágenes en miniatura.</string>
+    <string name="cling_month_view_title">Vista de calendario mensual</string>
+    <string name="cling_month_view_detail">Selecciona \'Vista mensual\' en el estilo del calendario y/o la acción al pulsar \'Conmutar vista mensual\'
+        para mostrar la vista del mes completo.</string>
+    <string name="cling_dialog_style_title">Cambiar estilo de ventanas</string>
+    <string name="cling_dialog_style_detail">Es posible cambiar el color de fondo y estilo de la ventana de predicciones de tiempo
+        y noticias y sus iconos.</string>
+    <string name="cling_backup_title">Salvaguardar tu configuración</string>
+    <string name="cling_backup_detail">Los ajustes de los widgets pueden ser salvaguardados y restaurados más tarde sobre los mismos tipos de widgets.</string>
+    <string name="cling_help_title">La ayuda está a una sola pulsación de distancia\u2026</string>
+    <string name="cling_help_detail">Para ver los últimos cambios, contactar para obtener soporte, sugerir nuevas características o unirte
+        a la comunidad Chronus, simplemente toca aquí.</string>
 </resources>
