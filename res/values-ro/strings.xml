@@ -129,6 +129,7 @@
     <string name="maintenance_category">Mentenanță</string>
     <string name="notifications_category">Notificări</string>
     <string name="backup_restore_category">Backup și restabilire</string>
+    <string name="popup_windows_category">Ferestre pop-up</string>
 
     <!-- Preferences - widget types in selection list -->
     <string name="widget_type_keyguard">Ecran blocare</string>
