@@ -6,15 +6,15 @@ Come widget flessibile, Chronus è altamente ottimizzato in termini di utilizzo 
 
 <b>Nota bene:</b>
 1) I widget nella schermata di sblocco sono supportati soltanto su Android 4.2+. Questa è una limitazione di Android, non di Chronus
-2) Su qualche dispositivo potresti aver bisogno di riavviare dopo l\'installazione per permettere ai widget di essere mostrati nell\'elenco
+2) Su qualche dispositivo potresti aver bisogno di riavviare dopo l'installazione per permettere ai widget di essere mostrati nell'elenco
 3) Dettagli sui Permessi che utilizziamo sono disponibili su http://goo.gl/EbMLmm
-4) SE UTILIZZI L\'XPOSED FRAMEWORK PER BYPASSARE LE API PER I WIDGET DI ANRDOID, MOLTE CARATTERISTICHE NON FUNZIONERANNO!
+4) SE UTILIZZI L'XPOSED FRAMEWORK PER BYPASSARE LE API PER I WIDGET DI ANRDOID, MOLTE CARATTERISTICHE NON FUNZIONERANNO!
 
 <b>Funzioni (Versione Pro, disponibile tramite acquisto in-app):</b>
   - Widget aggiuntivi (Previsioni Metereologiche, Calendario, Orologio+ (Previsioni Metereologiche))
   - Azioni personalizzate al tocco per Orologio, Meteo e Calendario per avviare app o activity
-  - Cambia l\'allineamento dei pannelli Orologio e Meteo (Centro, Sinistra o Destra)
-  - Seleziona lo stile dell\'orologio Analogico (Standard o Classico)
+  - Cambia l'allineamento dei pannelli Orologio e Meteo (Centro, Sinistra o Destra)
+  - Seleziona lo stile dell'orologio Analogico (Standard o Classico)
   - Calendario con vista Mese
   - Colori Calendario
   - Feedly come fonte di notizie
@@ -23,21 +23,21 @@ Come widget flessibile, Chronus è altamente ottimizzato in termini di utilizzo 
   - con altre funzioni rilasciate ogni 3-4 settimane...
 
 <b>Funzioni (Tutte le versioni):</b>
-La versione standard è funzionalmente equivalente al widget della CyanogenMod cLock con in più l\'aggiunta del supporto per versioni più vecchie di Android.
+La versione standard è funzionalmente equivalente al widget della CyanogenMod cLock con in più l'aggiunta del supporto per versioni più vecchie di Android.
   - Widget Flex, Flex (Analogico), Orologio+ e Meteo completamente funzionali
   - Supporta l'aggiunta come widget alla Home (Android 4.1+) o alla schermata di sblocco (Android 4.2+)
-  - Personalizza l\'interfaccia dell\'Orologio (componenti visibili, carattere normale/grassetto)
+  - Personalizza l'interfaccia dell'Orologio (componenti visibili, carattere normale/grassetto)
   - Pannello Meteo con Yahoo!, Accuweather, OpenWeatherMap e yr.no come fonti meteo
   - Supporto widget meteo minimizzato (per la schermata di sblocco)
   - Pannello Notizie e fonti RSS integrate
   - Lettore Articoli interno
   - Pannello Calendario con elenco a scorrimento dei prossimi eventi
-  - Toccando un evento si apre il calendario all\'evento selezionato
-  - Toccando l\'icona il calendario si apre alla data odierna
+  - Toccando un evento si apre il calendario all'evento selezionato
+  - Toccando l'icona il calendario si apre alla data odierna
   - Evidenzia gli eventi imminenti del calendario con colori personalizzati e carattere grassetto
   - Imposta lo sfondo dei Widget
   - Cambia il colore del carattere di tutto il testo in tutti i pannelli
-  - Configura i widget quando li aggiungi o dall\'applicazione Chronus nel menù
+  - Configura i widget quando li aggiungi o dall'applicazione Chronus nel menù
 
 <b>Crediti:</b>
 Anche se Danny Baumann ed io abbiamo scritto la maggior parte del widget, il merito va anche ai molti traduttori così come ad altri collaboratori, quali Nicolai Ehemann, Matt Booth e Jorge Ruesga, per le lingue e le funzionalità alle quali hanno contribuito.
