@@ -6,6 +6,7 @@ A CyanogenMod-ban található cLock modul nagytestvére, melyet a fejlesztői el
 1) A képernyőzár modulok csak az Android 4.2-es vagy újabb verzióiban támogatott. Ez az Android korlátozása, nem a Chronus-é.
 2) Egyes eszközökön előfordulhat, hogy a modul telepítése után szükség lesz az eszköz újraindítására ahhoz, hogy a modul megjelenjen a modul választóban.
 3) A program által használt jogosultságok megtekintéséhez látogasson el a http://goo.gl/EbMLmm weboldalra
+4) Az alkalmazás nem fog működni, amennyiben Xposed Framework-öt használ az Android Widget API megkerülésére!
 
 <b>Funkciók (Pro verzió):</b>
   - További modulok (Időjárás-előrejelzés, Naptár, Óra+ (Időjárás-előrejelzés))
